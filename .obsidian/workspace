@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "239f495bbbd2d5df",
+    "type": "split",
+    "children": [
+      {
+        "id": "81486a24f120580f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "dérivation.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64de298669508ee4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0615c9d4ebf43b13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "407c81c708328992",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "390d098cee0c9651",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1102f19b896c7a16",
+    "type": "split",
+    "children": [
+      {
+        "id": "980f845ab893296e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e855affa02bb755e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dérivation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "81486a24f120580f",
+  "lastOpenFiles": [
+    "dérivation.md",
+    "proposition.md",
+    "calcul booléen.md",
+    "fonction.md",
+    "application.md",
+    "axiome.md",
+    "atome.md",
+    "approche syntaxique.md",
+    "approche sémantique.md",
+    "analyse.md"
+  ]
+}
