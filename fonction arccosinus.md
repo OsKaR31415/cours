@@ -19,7 +19,7 @@ $\cos(\arcsin(x)) = -\sqrt{1 - x^2}$
 $\sin(\arccos(x)) = \sqrt{1 - x^2}$
 
 ## Dérivée
-La [[dérivation|dérivée]] de $\arccos$ peut être calculée grâce à la formule de dérivation d'une fonction réciproque :
+La [[dérivation|dérivée]] de $\arccos$ peut être calculée grâce à la formule de [[dérivation]] d'une fonction réciproque :
 $(f^{-1})' = \dfrac1{f'\circ f^{-1}}$
 
 On à alors :

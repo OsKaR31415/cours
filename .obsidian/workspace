@@ -66,7 +66,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -80,20 +80,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c8bad9b5d2a47e8e",
   "lastOpenFiles": [
-    "proposition.md",
-    "coefficient directeur.md",
-    "fonction bornée.md",
-    "fonction croissante.md",
-    "fonction arcsinus.md",
-    "fonction décroissante.md",
-    "fonction paire.md",
-    "bijection.md",
-    "fonction dérivable.md",
-    "fonction impaire.md"
+    "représentation matricielle d'un SL.md",
+    "composée.md",
+    "fonction réciproque.md",
+    "dérivation.md",
+    "modèle.md",
+    "fonction arccosinus.md",
+    "multiplication de matrices.md",
+    "addition de matrices.md",
+    "matrices.md",
+    "système linéaire.md"
   ]
 }

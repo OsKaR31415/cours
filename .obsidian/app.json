@@ -4,5 +4,6 @@
   "readableLineLength": false,
   "foldIndent": true,
   "useTab": false,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }
