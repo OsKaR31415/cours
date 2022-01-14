@@ -1,5 +1,3 @@
-notion d'[[analyse]]
-
 # Application réciproque
 
 Soit $f$ une [[bijection]] de $E$ dans $f$:

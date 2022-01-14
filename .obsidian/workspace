@@ -85,6 +85,7 @@
   },
   "active": "c8bad9b5d2a47e8e",
   "lastOpenFiles": [
+    "proposition.md",
     "coefficient directeur.md",
     "fonction bornée.md",
     "fonction croissante.md",
@@ -93,7 +94,6 @@
     "fonction paire.md",
     "bijection.md",
     "fonction dérivable.md",
-    "fonction impaire.md",
-    "fonction réciproque.md"
+    "fonction impaire.md"
   ]
 }

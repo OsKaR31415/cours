@@ -1,4 +1,3 @@
-notion d'[[analyse]]
 # Fonction paire
 
 Une fonction $f$ est paire si et seulement si:

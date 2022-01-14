@@ -1,5 +1,3 @@
-notion d'[[analyse]]
-
 # Surjection
 
 Soit $f$ une [[application]] de $E$ dans $F$.

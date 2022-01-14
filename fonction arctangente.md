@@ -24,3 +24,8 @@ $$\begin{aligned}
 \end{aligned}$$
 Plus généralement, on a : $(\arctan(u))' = \dfrac{u'}{1+u^2}$
 (en utilisant $(f\circ g)' = f'\times g'\circ f$)
+
+## Equations avec des arctangentes
+
+$$\arctan x = y \iff \left\{ \begin{array}{l} x = \tan y\\\text{et}\\y \in \left[-\dfrac\pi2;\dfrac\pi2\right]\end{array} \right.$$
+

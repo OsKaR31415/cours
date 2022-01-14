@@ -32,3 +32,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
+## Equations avec des arccosinus
+
+$$\arccos x = y \iff \left\{ \begin{array}{l} x = \cos y\\\text{et}\\y \in [0; \pi] \end{array} \right.$$

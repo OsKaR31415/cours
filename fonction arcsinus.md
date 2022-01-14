@@ -32,3 +32,7 @@ $$\begin{aligned}
 &= \dfrac1{\sqrt{1-x^2}}
 \end{aligned}$$
 (Voir [[dérivation]], notamment la dérivée d'une fonction réciproque)
+
+## Equations avec des arcsinus
+$$\arcsin x = y \iff \left\{ \begin{array}{l} x = \sin y\\\text{et}\\y \in \left[-\dfrac\pi2; \dfrac\pi2\right] \end{array} \right.$$
+
