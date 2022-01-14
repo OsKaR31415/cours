@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "81486a24f120580f",
+        "id": "c8bad9b5d2a47e8e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "dérivation.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -70,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dérivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "81486a24f120580f",
+  "active": "c8bad9b5d2a47e8e",
   "lastOpenFiles": [
-    "dérivation.md",
-    "proposition.md",
-    "calcul booléen.md",
-    "fonction.md",
-    "application.md",
-    "axiome.md",
-    "atome.md",
-    "approche syntaxique.md",
-    "approche sémantique.md",
-    "analyse.md"
+    "coefficient directeur.md",
+    "fonction bornée.md",
+    "fonction croissante.md",
+    "fonction arcsinus.md",
+    "fonction décroissante.md",
+    "fonction paire.md",
+    "bijection.md",
+    "fonction dérivable.md",
+    "fonction impaire.md",
+    "fonction réciproque.md"
   ]
 }
