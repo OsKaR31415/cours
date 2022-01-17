@@ -80,19 +80,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "c8bad9b5d2a47e8e",
   "lastOpenFiles": [
-    "représentation matricielle d'un SL.md",
-    "composée.md",
-    "fonction réciproque.md",
-    "dérivation.md",
-    "modèle.md",
-    "fonction arccosinus.md",
-    "multiplication de matrices.md",
-    "addition de matrices.md",
-    "matrices.md",
-    "système linéaire.md"
+    "loi de composition interne.md",
+    "distributivité d'une loi.md",
+    "commutativité d'une loi.md",
+    "éléments symétrisables d'une loi.md",
+    "élément neutre.md",
+    "associativité d'une loi.md",
+    "construction de C.md",
+    "nombre complexe.md",
+    "conjugé complexe.md",
+    "module.md"
   ]
 }
