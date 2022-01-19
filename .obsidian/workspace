@@ -7,8 +7,12 @@
         "id": "c8bad9b5d2a47e8e",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "logique.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "logique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +90,15 @@
   },
   "active": "c8bad9b5d2a47e8e",
   "lastOpenFiles": [
+    "logique.md",
+    "table de cayley.md",
     "loi de composition interne.md",
+    "construction de C.md",
+    "nombre complexe.md",
+    "relation.md",
     "distributivité d'une loi.md",
     "commutativité d'une loi.md",
     "éléments symétrisables d'une loi.md",
-    "élément neutre.md",
-    "associativité d'une loi.md",
-    "construction de C.md",
-    "nombre complexe.md",
-    "conjugé complexe.md",
-    "module.md"
+    "élément neutre.md"
   ]
 }
