@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "049d9f0793822a70",
+        "id": "759d087737836f56",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "loi de composition.md",
+            "file": "test diagrames mermaid.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "759d087737836f56",
+        "id": "01672fc3998f9a3d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "loi de composition interne.md",
-            "mode": "source",
+            "file": "test diagrames mermaid.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "loi de composition interne.md",
+                "file": "test diagrames mermaid.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +100,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "759d087737836f56",
+  "active": "01672fc3998f9a3d",
   "lastOpenFiles": [
+    "test diagrames mermaid.md",
     "loi de composition interne.md",
     "loi de composition.md",
     "relation.md",
@@ -110,7 +111,6 @@
     "morphisme.md",
     "automorphisme.md",
     "isomorphisme.md",
-    "argument.md",
-    "nombre complexe.md"
+    "argument.md"
   ]
 }
