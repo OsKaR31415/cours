@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "759d087737836f56",
+        "id": "9954f4c1fdf3ff97",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "test diagrames mermaid.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "01672fc3998f9a3d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "test diagrames mermaid.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -52,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test diagrames mermaid.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01672fc3998f9a3d",
+  "active": "9954f4c1fdf3ff97",
   "lastOpenFiles": [
-    "test diagrames mermaid.md",
     "loi de composition interne.md",
+    "calcul booléen.md",
+    "opérateurs booléens.md",
+    "commutativité.md",
+    "stabilité sur un ensemble.md",
+    "associativité.md",
+    "éléments symétrisables.md",
+    "distributivité.md",
     "loi de composition.md",
-    "relation.md",
-    "ensemble des booléens.md",
-    "endomorphisme.md",
-    "morphisme.md",
-    "automorphisme.md",
-    "isomorphisme.md",
-    "argument.md"
+    "groupe.md"
   ]
 }
