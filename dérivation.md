@@ -4,7 +4,7 @@
 
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :
 
-$f'(a) = \lim_{h\rightarrow0}\left( \dfrac{f(a+h) - f(a)}{h} \right)$
+$\displaystyle f'(a) = \lim_{h\rightarrow0}\left( \dfrac{f(a+h) - f(a)}{h} \right)$
 
 C'est le [[coefficient directeur]] de la [[tangente à une courbe|tangente à la courbe]] en chaque point.
 

@@ -7,7 +7,7 @@ On peut noter que $|z| \geq 0$
 
 ## Interprétation géométrique
 
-Le module d'un complexe peut être interprété comme la distance à l'origine du point ayant pour affixe ce nombre complexe.
+Le module d'un complexe peut être interprété comme la distance à l'origine du point ayant pour affixe ce [[nombre complexe]].
 
 ## Propriétés
 

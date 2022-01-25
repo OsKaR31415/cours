@@ -1,4 +1,4 @@
-# Forme trigonométrique d'un nombre complexe
+# Forme trigonométrique d'un [[nombre complexe]]
 Soit $z\in\mathbb C$, la _forme trigonométrique_ de $z$ est $z=r(\cos\theta+i\sin\theta)$, où on sait que $r=|z|$ et $\theta=\arg(z)$.
 
 ## Passage à la [[forme exponentielle]]

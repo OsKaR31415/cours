@@ -1,4 +1,4 @@
-# Forme exponentielle d'un nombre complexe
+# Forme exponentielle d'un [[nombre complexe]]
 Soit $z\in\mathbb C$, la _forme exponentielle_ de $z$ est $z=re^{i\theta}$ avec $(r,\theta)\in\mathbb R^2$, et où on sait que $r = |z|$ et $\theta=\arg(z)$
 
 ## Passage à la [[forme trigonométrique d'un complexe|forme trigonométrique]]

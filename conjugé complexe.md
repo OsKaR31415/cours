@@ -4,7 +4,7 @@ Le _complexe conjugué_ $z$ est noté $\overline z$, et est le complexe tel que 
 $\overline{z} = a-ib$
 
 ## Propriétés
-Soit $z = a+ib$ un nombre complexe.
+Soit $z = a+ib$ un [[nombre complexe]].
 
 - $z + \overline z = 2\text{Re}(z)$
      - $\text{Re}(z) = \dfrac{z+\overline z}2$
