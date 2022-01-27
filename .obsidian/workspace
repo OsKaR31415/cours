@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9954f4c1fdf3ff97",
+        "id": "397e998201a6d26b",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "mindmapView",
+          "state": {
+            "file": "Obsidian.md"
+          }
         }
       }
     ],
@@ -19,24 +21,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0615c9d4ebf43b13",
+        "id": "2b98d2f9c6c23949",
         "type": "tabs",
         "children": [
-          {
-            "id": "407c81c708328992",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "390d098cee0c9651",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "file:",
+                "query": "tag:#logique",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -44,8 +38,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "407c81c708328992",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -75,25 +79,37 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "ccd1190664578ee9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "9954f4c1fdf3ff97",
+  "active": "397e998201a6d26b",
   "lastOpenFiles": [
+    "Obsidian.md",
     "loi de composition interne.md",
-    "calcul booléen.md",
-    "opérateurs booléens.md",
-    "commutativité.md",
-    "stabilité sur un ensemble.md",
-    "associativité.md",
-    "éléments symétrisables.md",
-    "distributivité.md",
+    "Excalidraw/Drawing 2022-01-27 19.21.31.excalidraw.md",
+    "Excalidraw/exemple diagramme entité-association.md",
+    "modèle entité association.md",
+    "conversion modèle ER, modèle logique.md",
+    "Drawing 2022-01-27 16.26.40.excalidraw.md",
     "loi de composition.md",
-    "groupe.md"
+    "Untitled.md",
+    "aamath.md"
   ]
 }
