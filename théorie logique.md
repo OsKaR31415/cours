@@ -1,4 +1,4 @@
-# Théorie logique
+# théorie logique
 Tout cadre de raisonnement spécifique construit sur un langage donné.
 
 Dans une approche syntaxique, une théorique logique, aussi appelée alors _théorie axiomatique_, est définie par un ensemble d'[[axiome|axiomes]] et de [[règle d'inférence|règles d'inférence]].

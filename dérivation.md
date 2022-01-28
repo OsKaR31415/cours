@@ -1,6 +1,4 @@
-#dérivée #dériver
-
-# Dérivation
+# dérivation
 
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :
 

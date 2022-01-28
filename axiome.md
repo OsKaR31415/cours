@@ -1,4 +1,4 @@
-# Axiome
+# axiome
 [[proposition|Proposition]] primitive considérée comme non démontrable et admise a priori.
 Les axiomes sont des [[théorème|théorèmes]] particuliers.
 

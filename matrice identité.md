@@ -1,0 +1,11 @@
+# matrice identité
+La matrice identité de taille $n$ est la matrice $Id_n$ telle que :
+
+$$\forall (i,j)\in[\![1;n]\!]^2, 
+Id_{n_{i,j}} = 
+\left\{\begin{gathered}
+1 \text{ si } i = j\\
+0 \text{ sinon}
+\end{gathered}
+\right.$$
+

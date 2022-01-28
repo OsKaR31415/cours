@@ -2,10 +2,10 @@
 
 En [[base de données]], on a coutume de distinguer 3 niveauX d'abstraction :
 
-- Le niveau conceptuel
+- Le niveau [[Modélisation conceptuelle des BD|conceptuel]]
     - Entités et relations du monde réel
     
-- Le niveau logique
+- Le niveau [[modèle logique|logique]]
     - Abstraction mathématiques
     
 - Le niveau physique

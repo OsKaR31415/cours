@@ -1,4 +1,4 @@
-# Système de Gestion de Base de Données (SGBD)
+# SGBD
 
 **Serveur centralisant l'accès à une [[base de données]]**
 

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "397e998201a6d26b",
+        "id": "6177e5bb951622b5",
         "type": "leaf",
         "state": {
           "type": "mindmapView",
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -99,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "397e998201a6d26b",
+  "active": "6177e5bb951622b5",
   "lastOpenFiles": [
     "Obsidian.md",
-    "loi de composition interne.md",
-    "Excalidraw/Drawing 2022-01-27 19.21.31.excalidraw.md",
-    "Excalidraw/exemple diagramme entité-association.md",
+    "dérivation.md",
     "modèle entité association.md",
     "conversion modèle ER, modèle logique.md",
-    "Drawing 2022-01-27 16.26.40.excalidraw.md",
+    "Excalidraw/exemple diagramme entité-association.md",
+    "Excalidraw/visualisation de la multiplication de matrices.md",
+    "matrice.md",
+    "groupe.md",
     "loi de composition.md",
-    "Untitled.md",
-    "aamath.md"
+    "loi de composition interne.md"
   ]
 }

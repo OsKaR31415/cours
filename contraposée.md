@@ -1,4 +1,3 @@
-notion de [[logique]]
 
 # Contraposée
 

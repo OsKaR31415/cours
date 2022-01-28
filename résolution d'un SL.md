@@ -1,4 +1,4 @@
-# Résolution d'un système linéaire
+# résolution d'un SL
 
 
 ### Résolution par substitution

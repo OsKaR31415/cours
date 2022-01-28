@@ -1,4 +1,4 @@
-# DNS (domain name system)
+# DNS
 
 
 ## Exemples de noms de domaines

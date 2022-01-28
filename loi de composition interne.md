@@ -1,4 +1,5 @@
-# Loi de composition interne
+# loi de composition interne
+
 Une _loi de composition interne_ est une [[loi de composition]] qui est interne, cad. que tout composé est aussi dans l'ensemble de départ.
 
 ## Définition

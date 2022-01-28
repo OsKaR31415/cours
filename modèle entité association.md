@@ -1,4 +1,6 @@
-# Modèle Entité Association (Entity relationship E/R)
+# modèle entité association
+
+[[exemple diagramme entité-association]]
 
 - Modèle Conceptuel des Donnés
     - Introduit par _Peter Chen (1976)_
@@ -35,3 +37,6 @@
 - Les entités participant aux associations ont des **cardinalités minimales et masimales**
 - représentation : (cardinalité minimale),(cardinalité maximale) (ex: $0,N$ ou $1,1$). Les cardinalités sont au début de la relation (ex: $\text{personne } 0,N \rightarrow 0,1\text{ vélo}$)
 
+
+## [[contraintes d'intégrité]]
+Contraintes que l'on ajoute, et qui doivent être respectées à tout instant.

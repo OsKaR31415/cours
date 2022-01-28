@@ -1,4 +1,4 @@
-# Module d'un complexe
+# module
 Soit $z = a+ib$ (un [[nombre complexe]]).
 On note $|z|$ et on appelle _module_ de $z$ la valeur :
 $|z| = \sqrt{a^2 + b^2}$

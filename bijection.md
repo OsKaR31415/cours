@@ -1,4 +1,4 @@
-# Bijection
+# bijection
 
 Une *bijection* est une [[application]] [[surjection|surjective]] et [[injection|injective]].
 

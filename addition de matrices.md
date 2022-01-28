@@ -1,4 +1,4 @@
-# Addition de matrices
+# addition de matrices
 
 On additionne les matrices élément par élément (les deux matrices additionnées doivent donc avoir la même taille).
 

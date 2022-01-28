@@ -1,5 +1,4 @@
-
-# Injection
+# injection
 Une injection est une [[application]] injective, c'est à dire qui ne possède pas de "collision".
 
 ## Définition

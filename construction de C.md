@@ -1,5 +1,5 @@
-# Construction de l'ensemble des complexes
-On utilise des [[matrices]] pour définir les nombres complexes.
+# construction de C
+On utilise des [[matrice]] pour définir les nombres complexes.
 
 On note $\text{Im} = \left( \begin{array}{cc}0&-1\\1&0\end{array} \right)$
 

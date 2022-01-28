@@ -11,7 +11,9 @@ $$\begin{array}{ll}
 (C) & \text{Socrate est mortel}
 \end{array}$$
 
-Ici, on voit **$C$ est la conlcusion$$**.
+Ici, on voit **$C$ est la conlcusion**.
 
-On note que $P1$ et $P2$ sont les [[prémisses]].
+On dit que $P1$ et $P2$ sont les [[prémisses]].
+
+
 

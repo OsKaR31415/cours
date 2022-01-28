@@ -1,4 +1,4 @@
-# Adresses machines (IP: Internet Protocol)
+# adrese IP
 
 ## Adressage IPv4 (le plus utilisé)
 **quatre nombre entiers (de 0 à 255)**

@@ -1,4 +1,3 @@
-
 # Fonction cosinus
 
 Notée $\cos$. Fonction [[trigonométrie|trigonométrique]] (fonction circulaire).

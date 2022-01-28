@@ -1,4 +1,5 @@
 # Fonction décroissante
+
 Soit $f$ une fonction définie sur un intervalle $I$.
 On dit que $f$ est _décroissante_ sur $I$ ssi :
 $\forall (x;x')\in I^2, x \geq x' \implies f(x) \leq f(x')$

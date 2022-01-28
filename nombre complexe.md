@@ -1,4 +1,4 @@
-# Nombres complexes
+# nombre complexe
 On a créé un objet noté $i$ tel que $i^2 = -1$
 Un nombre complexe $z$ s'écrit $z = a + ib, (a, b)\in\mathbb R^2$
 $\mathbb C$ est l'ensemble des nombres complexes. On a donc $z\in\mathbb C$

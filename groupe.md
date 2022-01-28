@@ -1,4 +1,4 @@
-# groupe (structure algébrique)
+# groupe
 
 Un ensemble $G$ muni d'une [[loi de composition interne]] $*$ est un _groupe_ ssi :
 - La loi est [[associativité|associative]]
