@@ -1,9 +1,9 @@
-# Table de Cayley d'une loi
+# table de cayley
 Soit $E$ un ensemble non vide, et $*$ une [[loi de composition interne|LCI]] sur $E$.
 On représente la loi par une _table de Cayley_.
 
 ## Propriété
-Si la table est symétrique par rapport à sa diagonale, cad. si sa [[transposée]] est égale à elle-même, alors la loi est [[relation symétrique]]
+Si la table est symétrique par rapport à sa diagonale, cad. si sa [[transposée]] est égale à elle-même, alors la loi est [[commutativité|commutative]].
 
 ## Exemple
 Dans $\mathbb Z/_{5\mathbb Z}$, la loi étant $\dot{\times}$ :

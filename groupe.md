@@ -29,4 +29,5 @@ On appelle alors $n_0$ _l'ordre de $a$_.
 Si $n$ n'existe pas? on dit que $a$ est _d'ordre infini_.
 
 
+## Exemples
 

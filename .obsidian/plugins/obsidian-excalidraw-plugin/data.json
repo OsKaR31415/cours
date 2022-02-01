@@ -48,9 +48,9 @@
     "libraryItems": []
   },
   "patchCommentBlock": false,
-  "imageElementNotice": true,
-  "runWYSIWYGpatch": true,
-  "fixInfinitePreviewLoop": true,
+  "imageElementNotice": false,
+  "runWYSIWYGpatch": false,
+  "fixInfinitePreviewLoop": false,
   "mdSVGwidth": 500,
   "mdSVGmaxHeight": 800,
   "mdFont": "Virgil",

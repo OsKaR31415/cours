@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6177e5bb951622b5",
+        "id": "6974130ca9a85561",
         "type": "leaf",
         "state": {
-          "type": "mindmapView",
-          "state": {
-            "file": "Obsidian.md"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -52,7 +50,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -68,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6177e5bb951622b5",
+  "active": "6974130ca9a85561",
   "lastOpenFiles": [
-    "Obsidian.md",
-    "dérivation.md",
-    "modèle entité association.md",
-    "conversion modèle ER, modèle logique.md",
-    "Excalidraw/exemple diagramme entité-association.md",
-    "Excalidraw/visualisation de la multiplication de matrices.md",
-    "matrice.md",
-    "groupe.md",
+    "fonctions équivalentes.md",
     "loi de composition.md",
-    "loi de composition interne.md"
+    "relation.md",
+    "sous groupe.md",
+    "transitivité d'une relation.md",
+    "relation d'équivalence.md",
+    "symétrie d'une relation.md",
+    "réflexivité d'une relation.md",
+    "groupe abélien.md",
+    "groupe.md"
   ]
 }

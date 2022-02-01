@@ -92,7 +92,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -444.92077346075143,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 155,
+			"width": 154,
 			"height": 36,
 			"seed": 353360324,
 			"groupIds": [
@@ -132,7 +132,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -382.3290986560638,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 246,
+			"width": 245,
 			"height": 25,
 			"seed": 1291321668,
 			"groupIds": [
@@ -390,7 +390,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -293.46502576555537,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 32,
+			"width": 31,
 			"height": 25,
 			"seed": 201774532,
 			"groupIds": [
@@ -531,7 +531,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -303.4853947957356,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 149,
+			"width": 148,
 			"height": 76,
 			"seed": 1381749700,
 			"groupIds": [
@@ -566,7 +566,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -308.95705413818354,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 25,
+			"width": 24,
 			"height": 25,
 			"seed": 850705220,
 			"groupIds": [
@@ -601,7 +601,7 @@ cardinalité de Entité --> Autre entité ^0FaRd2gm
 			"y": -3.611256069607009,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 305,
+			"width": 304,
 			"height": 20,
 			"seed": 1988408004,
 			"groupIds": [],
