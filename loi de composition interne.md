@@ -50,3 +50,5 @@ Soit $(A, B)\in(\mathscr P(E))^2, A\Delta B = \complement_{A\cup B}(A\cap B)$
 On appelle cette loi "Différence symétrique"
 
 
+
+

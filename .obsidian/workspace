@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6974130ca9a85561",
+        "id": "ef83c0030cf01749",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "sous groupe.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "130f65f983561e19",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "sous groupe engendré.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +50,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 518.9999980926514,
     "collapsed": true
   },
   "right": {
@@ -85,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sous groupe engendré.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "130f65f983561e19",
+  "active": "ef83c0030cf01749",
   "lastOpenFiles": [
-    "sous groupe engendré.md",
-    "sous groupe.md",
-    "aamath.md",
-    "fonctions équivalentes.md",
-    "loi de composition.md",
-    "relation.md",
-    "transitivité d'une relation.md",
-    "relation d'équivalence.md",
-    "symétrie d'une relation.md",
-    "réflexivité d'une relation.md"
+    "signature d'une permutation.md",
+    "décomposition en composée de transpositions.md",
+    "signature ocaml.md",
+    "Excalidraw/visualisation de la multiplication de matrices.md",
+    "Excalidraw/test dessin.md",
+    "Excalidraw/test dessin.excalidraw",
+    "Excalidraw/exemple diagramme entité-association.md",
+    "Excalidraw/conversion modèle ER, modèle logique.md",
+    "Excalidraw/Drawing 2022-02-09 10.03.47.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Set Text Alignment.md"
   ]
 }

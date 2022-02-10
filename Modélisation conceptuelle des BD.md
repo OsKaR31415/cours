@@ -64,9 +64,11 @@
                 - Un vélo peut être possédé par une seule personne
                     - cardinalité maximale = 1
 - Aggrégation
-- 
 
 
 [[modèle entité association]]
+
+
+
 
 

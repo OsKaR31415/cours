@@ -1,7 +1,7 @@
 
 # Méthode de conception d'une fonction
  1. Définition du modèle de données
- 2. Définition de la [[signature]] et de l'objectif de la fonction
+ 2. Définition de la [[signature ocaml]] et de l'objectif de la fonction
  3. Enonciation d'exemples
  4. Shéma de fonction (utile avec des [[structures de données]] plus complexes)
  5. Implémentation

@@ -1,6 +1,9 @@
 # conversion modèle ER, modèle logique
 Méthode de conversion du [[modèle entité association]] vers le [[modèle logique]].
 
+Voir [[Excalidraw/conversion modèle ER, modèle logique]]
+
+
 ## Conversion des entités
  - Chaque entité devient une relation
      - propriété -> attribut
