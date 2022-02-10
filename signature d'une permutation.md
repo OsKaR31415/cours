@@ -3,7 +3,7 @@ Soit $s$ une [[permutation]].
 Soit $k$ le nombre de [[transposition|transpositions]] dans la [[décomposition en composée de transpositions]] de s.
 La _signature_ de $s$ est $\varepsilon(s) = (-1)^k$, soit $\varepsilon(s) = \left\{\begin{gathered}1\text{ si } k\in2\mathbb Z\\ -1\text{ sinon}\end{gathered}\right.$
 
-dans $\mathfrak S$.
+dans $\mathfrak S$.$\varsigma$
 
 ## Exemple
 Soit $s = (1, 4, 7, 2, 8, 3, 5, 6)$ (ici, $s$ est un [[p-cycle|8-cycle]])
