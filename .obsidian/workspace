@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef83c0030cf01749",
+        "id": "af087f428ad387ec",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "décomposition en produit de transpositions.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -67,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "décomposition en produit de transpositions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +102,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef83c0030cf01749",
+  "active": "af087f428ad387ec",
   "lastOpenFiles": [
+    "décomposition en produit de transpositions.md",
     "signature d'une permutation.md",
+    "nombre d'inversions d'une permutations.md",
+    "théorème de Bezout.md",
+    "multiplicité d'une racine.md",
+    "complémentaire d'un ensemble.md",
     "matrice.md",
     "loi de composition interne.md",
     "Obsidian.md",
-    "Excalidraw/exemple diagramme entité-association.md",
-    "décomposition en composée de transpositions.md",
-    "signature ocaml.md",
-    "Excalidraw/visualisation de la multiplication de matrices.md",
-    "Excalidraw/test dessin.md",
-    "Excalidraw/test dessin.excalidraw"
+    "Excalidraw/exemple diagramme entité-association.md"
   ]
 }
