@@ -1,6 +1,7 @@
 [
-  "obsidian-enhancing-mindmap",
   "obsidian-excalidraw-plugin",
   "obsidian-filename-heading-sync",
-  "obsidian42-brat"
+  "obsidian-fullscreen-plugin",
+  "obsidian-pandoc",
+  "obsidian-spaced-repetition"
 ]

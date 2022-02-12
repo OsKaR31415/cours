@@ -6,25 +6,10 @@
       {
         "id": "af087f428ad387ec",
         "type": "leaf",
-        "dimension": 11.990407673860911,
         "state": {
           "type": "markdown",
           "state": {
             "file": "décomposition en produit de transpositions.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "de82d80bc9eda785",
-        "type": "leaf",
-        "dimension": 88.00959232613909,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "requêtes SQL.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -87,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "requêtes SQL.md",
+                "file": "décomposition en produit de transpositions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "requêtes SQL.md"
+                "file": "décomposition en produit de transpositions.md"
               }
             }
           },
@@ -125,32 +110,33 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "requêtes SQL.md",
+                "file": "décomposition en produit de transpositions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f291686b3373cfb7",
+            "id": "003c8d117760ad45",
             "type": "leaf",
             "state": {
-              "type": "sekund-main-view",
+              "type": "review-queue-list-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "de82d80bc9eda785",
+  "active": "af087f428ad387ec",
   "lastOpenFiles": [
+    "décomposition en produit de transpositions.md",
     "requêtes SQL.md",
     "base de données.md",
-    "décomposition en produit de transpositions.md",
     "signature d'une permutation.md",
     "nombre d'inversions d'une permutations.md",
     "théorème de Bezout.md",
