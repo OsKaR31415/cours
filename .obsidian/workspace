@@ -6,10 +6,25 @@
       {
         "id": "af087f428ad387ec",
         "type": "leaf",
+        "dimension": 11.990407673860911,
         "state": {
           "type": "markdown",
           "state": {
             "file": "décomposition en produit de transpositions.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "de82d80bc9eda785",
+        "type": "leaf",
+        "dimension": 88.00959232613909,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "requêtes SQL.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "décomposition en produit de transpositions.md",
+                "file": "requêtes SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,17 +108,48 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "5f0a6b2e995376e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "requêtes SQL.md"
+              }
+            }
+          },
+          {
+            "id": "c7afda8b81d643de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "requêtes SQL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f291686b3373cfb7",
+            "type": "leaf",
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "af087f428ad387ec",
+  "active": "de82d80bc9eda785",
   "lastOpenFiles": [
+    "requêtes SQL.md",
+    "base de données.md",
     "décomposition en produit de transpositions.md",
     "signature d'une permutation.md",
     "nombre d'inversions d'une permutations.md",
@@ -111,8 +157,6 @@
     "multiplicité d'une racine.md",
     "complémentaire d'un ensemble.md",
     "matrice.md",
-    "loi de composition interne.md",
-    "Obsidian.md",
-    "Excalidraw/exemple diagramme entité-association.md"
+    "loi de composition interne.md"
   ]
 }
