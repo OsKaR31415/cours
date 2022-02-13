@@ -52,7 +52,8 @@ excalidraw-plugin: parsed
 					"type": "arrow"
 				}
 			],
-			"updated": 1644312908989
+			"updated": 1644312908989,
+			"link": null
 		},
 		{
 			"type": "line",
@@ -79,6 +80,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312908989,
+			"link": null,
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -148,7 +150,8 @@ excalidraw-plugin: parsed
 					"type": "arrow"
 				}
 			],
-			"updated": 1644312891856
+			"updated": 1644312891856,
+			"link": null
 		},
 		{
 			"type": "line",
@@ -175,6 +178,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312891856,
+			"link": null,
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -214,6 +218,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312908989,
+			"link": null,
 			"startBinding": {
 				"elementId": "NwvB343HcFq1mlDwpleZ7",
 				"focus": -0.7283148315759757,
@@ -283,7 +288,8 @@ excalidraw-plugin: parsed
 					"type": "arrow"
 				}
 			],
-			"updated": 1644312911789
+			"updated": 1644312911789,
+			"link": null
 		},
 		{
 			"type": "line",
@@ -310,6 +316,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312911789,
+			"link": null,
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -349,6 +356,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312911789,
+			"link": null,
 			"startBinding": {
 				"elementId": "oz9lyjRDunXURvQPMhFXm",
 				"focus": -0.15988336452394938,
@@ -416,7 +424,8 @@ excalidraw-plugin: parsed
 					"type": "arrow"
 				}
 			],
-			"updated": 1644312914706
+			"updated": 1644312914706,
+			"link": null
 		},
 		{
 			"type": "arrow",
@@ -441,6 +450,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312914706,
+			"link": null,
 			"startBinding": {
 				"elementId": "oz9lyjRDunXURvQPMhFXm",
 				"focus": -0.4481383958852965,
@@ -488,6 +498,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312914706,
+			"link": null,
 			"startBinding": {
 				"elementId": "kidc0BTpTPfMtrD-ImQvi",
 				"focus": 0.21594202898550782,
@@ -535,6 +546,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312914706,
+			"link": null,
 			"startBinding": {
 				"elementId": "kidc0BTpTPfMtrD-ImQvi",
 				"focus": 0.78209242618742,
@@ -586,6 +598,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644312914706,
+			"link": null,
 			"startBinding": {
 				"elementId": "NwvB343HcFq1mlDwpleZ7",
 				"focus": 0.3244822207520659,
@@ -643,6 +656,7 @@ excalidraw-plugin: parsed
 			"strokeSharpness": "round",
 			"boundElements": [],
 			"updated": 1644397531195,
+			"link": null,
 			"status": "saved",
 			"fileId": "03f6969b62455725867271353369ff7820c66971",
 			"scale": [
@@ -674,7 +688,8 @@ excalidraw-plugin: parsed
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1644397531195
+			"updated": 1644397531195,
+			"link": null
 		}
 	],
 	"appState": {
@@ -694,7 +709,8 @@ excalidraw-plugin: parsed
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemLinearStrokeSharpness": "round",
-		"gridSize": null
+		"gridSize": null,
+		"colorPalette": {}
 	},
 	"files": {}
 }

@@ -12,3 +12,10 @@ $\sigma$ est une transposition ssi :
 ## Exemple :
 $\sigma = \begin{pmatrix}1&2&3\\1&3&2\end{pmatrix}$ est une _transposition_
 
+
+## Inversion
+On dit qu'une transposition $s$ est une _inversion_ ssi on a :
+$a>b \text{ et } s(a)<s(b)$, ou bien $a<b \text{ et } s(a)>s(b)$
+Autrement dit, c'est une transposition qui inverse l'ordre des éléments.
+
+Le nombre d'inversions dans la [[décomposition en produit de transpositions]] d'une permutation est égal

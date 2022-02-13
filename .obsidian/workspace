@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "af087f428ad387ec",
+        "id": "33f2922b979b2369",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "décomposition en produit de transpositions.md",
+            "file": "ligne de commande UNIX.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "f39189f17f9e8b11",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "identités.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "décomposition en produit de transpositions.md",
+                "file": "identités.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "décomposition en produit de transpositions.md"
+                "file": "identités.md"
               }
             }
           },
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "décomposition en produit de transpositions.md",
+                "file": "identités.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,26 +136,33 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "d45511af0bde9bcf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "af087f428ad387ec",
+  "active": "f39189f17f9e8b11",
   "lastOpenFiles": [
-    "décomposition en produit de transpositions.md",
-    "requêtes SQL.md",
-    "base de données.md",
-    "signature d'une permutation.md",
-    "nombre d'inversions d'une permutations.md",
-    "théorème de Bezout.md",
-    "multiplicité d'une racine.md",
-    "complémentaire d'un ensemble.md",
-    "matrice.md",
-    "loi de composition interne.md"
+    "identités.md",
+    "ligne de commande UNIX.md",
+    "ligne de commande.md",
+    "polynôme scindé.md",
+    "racine.md",
+    "théorème de d'Alembert.md",
+    "Excalidraw/test dessin.md",
+    "__sekund__/**README**.md",
+    "ocaml conditions.md",
+    "opérateurs booléens.md"
   ]
 }
