@@ -6,6 +6,19 @@ $\displaystyle f'(a) = \lim_{h\rightarrow0}\left( \dfrac{f(a+h) - f(a)}{h} \righ
 
 C'est le [[coefficient directeur]] de la [[tangente à une courbe|tangente à la courbe]] en chaque point.
 
+## Notation
+Soit $f$ une fonction.
+On note $f'$ la *dérivée* de $f$.
+On note $f''$ la *dérivée seconde* de $f$, c'est à dire la dérivée de $f'$.
+
+### Dérivées successives
+On note :
+ - $f^{(0)}=f$
+ - $f^{(1)}=f'$
+ - $f^{(2)}=f''$
+ - $\vdots$
+ - $f^{(n)}=(f^{(n-1)})'$
+
 ## Méthodes de dérivation
 
 On peut utiliser les dérivées des fonctions usuelles :
@@ -18,7 +31,7 @@ sin(x) & cos(x)\\
 cos(x) & -sin(x)\\
 \arcsin' x & \dfrac1{\sqrt{1-x^2}}\\
 \arccos' x & -\dfrac1{\sqrt{1-x^2}}\\
-tan x & 1 + tan^2(x)\\
+\tan x & 1 + \tan^2(x)\\
 \arctan x & \dfrac1{1+x^2}\\
 \end{array}$$
 

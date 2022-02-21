@@ -6,10 +6,11 @@
       {
         "id": "33f2922b979b2369",
         "type": "leaf",
+        "dimension": 11.990407673860911,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ligne de commande UNIX.md",
+            "file": "classe d'une fonction.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +18,13 @@
         }
       },
       {
-        "id": "f39189f17f9e8b11",
+        "id": "18b0c19851502c1d",
         "type": "leaf",
+        "dimension": 88.00959232613909,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "identités.md",
+            "file": "formules de Taylor.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#logique",
+                "query": "meat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "identités.md",
+                "file": "formules de Taylor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "identités.md"
+                "file": "formules de Taylor.md"
               }
             }
           },
@@ -123,18 +125,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "identités.md",
+                "file": "formules de Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "003c8d117760ad45",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
             }
           },
           {
@@ -146,23 +140,24 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "f39189f17f9e8b11",
+  "active": "18b0c19851502c1d",
   "lastOpenFiles": [
-    "identités.md",
-    "ligne de commande UNIX.md",
-    "ligne de commande.md",
-    "polynôme scindé.md",
-    "racine.md",
-    "théorème de d'Alembert.md",
-    "Excalidraw/test dessin.md",
-    "__sekund__/**README**.md",
-    "ocaml conditions.md",
-    "opérateurs booléens.md"
+    "formules de Taylor.md",
+    "classe d'une fonction.md",
+    "dérivation.md",
+    "dérivées successives.md",
+    "développement limité.md",
+    "morphisme.md",
+    "fonction arccosinus.md",
+    "fonction arcsinus.md",
+    "fonction sinus.md",
+    "monoïde.md"
   ]
 }

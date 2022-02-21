@@ -1,4 +1,4 @@
-# Fonction Sinus
+# fonction sinus
 
 Notée $\sin$. Fonction [[trigonométrie|trigonométrique]] (fonction circulaire).
 Elle est [[fonction continue|continue]] et [[fonction dérivable|dérivable]] sur $\mathbb{R}$.
