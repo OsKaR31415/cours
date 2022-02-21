@@ -8,4 +8,5 @@ $v_1, v_2, v_3$ sont trois valuations :
  - $v_3(t) = 1977, v_3(r) = 1984, v_3(a) = 1977$
 
 
-$v_1(films(t, r, a))$
+$v_1(films(t, r, a)) = (starwars, lucas, 1977)$
+

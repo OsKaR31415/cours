@@ -14,11 +14,15 @@ et se lit $ans$ est vrai si $R_1, R_2, \ldots, R_n$ sont vraies
 - condition de _champs restreint_
     - chaque variable apparaissant dans la tête doit nécessairement apparaître aussi dans le corps
 
+Pour calculer le résultat de la requête, on doit tester toutes le [[valuation|valuations]] possibles qui respectent $R_1, R,2, \ldots, R_n$, et appliquer ces [[valuation|valuations]] sur la relation $ans$ pour obtenir l'instance de $ans$.
+
 ## Exemples
 
 - qui est le réalisateur de dune ?
     - $ans(r) \leftarrow films("dune", r, a)$
+    - le résultat est $"Lynch"$
+        - Car seule une valuation respecte $films("dune", r, a)$ (c'est-à-dire un film nommé "dune" avec le réalisateur et l'année correspondante dans la relation), et que cette valuation done $r="Lynch"$
 - en quelle année est sorti nikita ?
-    - $ans(a) \leftarrow films("dune", r, a)$
+    - $ans(a) \leftarrow films("nikita", r, a)$
 
-
+    

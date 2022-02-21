@@ -4,31 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33f2922b979b2369",
-        "type": "leaf",
-        "dimension": 11.990407673860911,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "classe d'une fonction.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "18b0c19851502c1d",
         "type": "leaf",
-        "dimension": 88.00959232613909,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "formules de Taylor.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -87,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "formules de Taylor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,9 +93,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "formules de Taylor.md"
-              }
+              "state": {}
             }
           },
           {
@@ -125,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "formules de Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,15 +125,15 @@
   },
   "active": "18b0c19851502c1d",
   "lastOpenFiles": [
-    "formules de Taylor.md",
+    "isomorphisme.md",
+    "groupe.md",
+    "loi de composition interne.md",
+    "langage à base de règles.md",
+    "valuation.md",
+    "BDD films.md",
+    "relation.md",
+    "requête.md",
     "classe d'une fonction.md",
-    "dérivation.md",
-    "dérivées successives.md",
-    "développement limité.md",
-    "morphisme.md",
-    "fonction arccosinus.md",
-    "fonction arcsinus.md",
-    "fonction sinus.md",
-    "monoïde.md"
+    "formules de Taylor.md"
   ]
 }
