@@ -132,7 +132,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 176.12881719540616,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 71,
+			"width": 70,
 			"height": 24,
 			"seed": 1403216022,
 			"groupIds": [
@@ -415,7 +415,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 225.32987189245233,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 71,
+			"width": 70,
 			"height": 24,
 			"seed": 1470121366,
 			"groupIds": [
@@ -495,7 +495,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 270.34502340760383,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 106,
+			"width": 105,
 			"height": 24,
 			"seed": 1674984138,
 			"groupIds": [
@@ -612,7 +612,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 337.47002340760383,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 71,
+			"width": 70,
 			"height": 24,
 			"seed": 1920323542,
 			"groupIds": [
@@ -722,7 +722,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 484.71641599993774,
 			"strokeColor": "#5c940d",
 			"backgroundColor": "transparent",
-			"width": 590,
+			"width": 591,
 			"height": 43,
 			"seed": 1565855114,
 			"groupIds": [],
@@ -1000,7 +1000,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 305.6957979992229,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 71,
+			"width": 70,
 			"height": 24,
 			"seed": 509016854,
 			"groupIds": [
@@ -1036,7 +1036,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 337.5707979992229,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 118,
+			"width": 117,
 			"height": 24,
 			"seed": 317279574,
 			"groupIds": [
@@ -1108,7 +1108,7 @@ un même client peut le même jour faire visiter plusieurs fois un même bien en
 			"y": 400.0707979992229,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 118,
+			"width": 117,
 			"height": 24,
 			"seed": 962172234,
 			"groupIds": [

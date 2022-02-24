@@ -8,4 +8,3 @@ Dans une approche sémantique, elle est donnée par une interprétation particul
 Sur un même langage formel, il est possible de construire des théories logiques différentes. Par exemple, le symbole formel d'addition `+` n'aura pas la même interprétation en arithétique classique où l'on a `1+1 = 2`, et dans le [[calcul booléen]], où l'on a `1+1 = 1`.
 
 
-

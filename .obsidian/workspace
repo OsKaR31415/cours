@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "18b0c19851502c1d",
+        "id": "9b4510ee653f19b8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "arbre.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -28,7 +33,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meat",
+                "query": "permutation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,12 +50,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 518.9999980926514,
+    "width": 366,
     "collapsed": true
   },
   "right": {
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "arbre.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "arbre.md"
+              }
             }
           },
           {
@@ -102,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "arbre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,20 +128,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 233,
     "collapsed": true
   },
-  "active": "18b0c19851502c1d",
+  "active": "9b4510ee653f19b8",
   "lastOpenFiles": [
-    "isomorphisme.md",
-    "groupe.md",
+    "arbre.md",
+    "opérateur binaire.md",
+    "projet web.md",
+    "sous groupe.md",
+    "nombre d'inversions d'une permutations.md",
+    "permutation.md",
+    "composition de permutations.md",
     "loi de composition interne.md",
-    "langage à base de règles.md",
-    "valuation.md",
-    "BDD films.md",
-    "relation.md",
-    "requête.md",
-    "classe d'une fonction.md",
-    "formules de Taylor.md"
+    "loi de composition.md",
+    "théorie logique.md"
   ]
 }

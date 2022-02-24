@@ -15,7 +15,8 @@ Soit $I(\sigma)$ le nombre d'inversions de $\sigma$, $(-1)^{I(\sigma)} = \vareps
 On cherche l'ensemble des couple de nombres dans $[\![1; n]\!]$ tels que le premier est strictement inférieur au second (soit $\{(a, b)\in[\![1; n]\!] \;|\; a < b\}$).
 Le nombre de couples respectant cette propriété est $\displaystyle\binom{n}{2} = \frac{n!}{2!(n-2)!}$
 Dans notre exemple, $\sigma\in\mathfrak S_7$, donc on cherche $\displaystyle\binom{7}{2} = \frac{7!}{2!(7-2)!} = \frac{6\times7}{2} = 3\times7 = 21$
-On écrit ensuite ces 21 couples :
+
+On écrit ensuite ces 21 couples dans un tableau, et on regarde quels couples sont inversés par la permutation.
 
 $$\begin{array}{r|l}
 \text{Permutation} & \text{Image} & \text{Signe} \\\hline

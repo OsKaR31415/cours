@@ -9,6 +9,8 @@ On parle généralement des permutations sur un intervalle $[\![1;n]\!]$.
 
 
 ## Notation
+On note $\mathfrak S_n$ l'ensemble des permutations sur $[\![1;n]\!]$.
+
 un élément $\sigma\in\mathfrak S_n$ se note :
 $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdots&\sigma(n)\end{pmatrix}$
 
