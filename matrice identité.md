@@ -9,3 +9,5 @@ Id_{n_{i,j}} =
 \end{gathered}
 \right.$$
 
+## Propriétés
+- $Id$ est l'élément neutre des matrices pour la [[multiplication de matrices]] : $Id\times M = M\times Id = M$
