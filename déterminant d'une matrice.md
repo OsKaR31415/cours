@@ -26,3 +26,21 @@ On peut retrouver les coefficients avec le shéma suivant :
 
 ### Méthode générale
 
+La méthode générale permet de calculer les déterminants de n'importe quelle matrice (carrée)
+Cette méthode se base sur une formule de récurrence : 
+
+ - On connaît le déterminant d'une matrice $2\times 2$
+ - Pour des matrices de taille plus grandes, on applique cette règle :
+```apl
+
+⍝ calculer le déterminant de ⍵
+coeffs←,1↑[2]⍵  ⍝ première colonne de ⍵ (coefficients utilisés plus tard)
+mat←1↓[2]⍵  ⍝ tout sauf la première colonne de ⍵
+⍝ il faut récupérer toutes les sous-matrices carrées de mat obtenues en enlevant une ligne de mat
+nid←∘.≠⍨⍳≢⍵  ⍝ négation de la matrice identité de la taille de mat
+⍝ On masque les lignes de mat avec successivement chaque ligne de nid (on enlève à chaque fois une ligne)
+submats←⌿∘mat¨↓nid ⍝ on obtient toutes les matrices sur lesquelles ont doit faire la récursion
+-/coeffs×∇¨submats ⍝ on obdient ici le déterminant
+
+```
+

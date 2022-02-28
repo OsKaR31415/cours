@@ -1,4 +1,9 @@
 {
   "baseFontSize": 30,
-  "cssTheme": "Spectrum"
+  "cssTheme": "Spectrum",
+  "theme": "obsidian",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "mono"
+  ]
 }
