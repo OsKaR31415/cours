@@ -4,19 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9b4510ee653f19b8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "inverse d'une matrice.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "cdd4121dbc297503",
         "type": "leaf",
         "state": {
@@ -147,6 +134,7 @@
   "active": "cdd4121dbc297503",
   "lastOpenFiles": [
     "déterminant d'une matrice.md",
+    "déterminant d'une matrice - méthode de Sarrus.excalidraw.md",
     "inverse d'une matrice.md",
     "matrice identité.md",
     "arbre.md",
@@ -154,7 +142,6 @@
     "projet web.md",
     "sous groupe.md",
     "nombre d'inversions d'une permutations.md",
-    "permutation.md",
-    "composition de permutations.md"
+    "permutation.md"
   ]
 }
