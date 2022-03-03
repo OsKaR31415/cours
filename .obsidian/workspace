@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e44a4dbe8d230fb3",
+        "id": "85203c1a1219f21b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "déterminant d'une matrice.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -71,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "déterminant d'une matrice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,9 +92,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "déterminant d'une matrice.md"
-              }
+              "state": {}
             }
           },
           {
@@ -109,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "déterminant d'une matrice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,17 +122,17 @@
     "width": 233,
     "collapsed": true
   },
-  "active": "e44a4dbe8d230fb3",
+  "active": "85203c1a1219f21b",
   "lastOpenFiles": [
+    "relation.md",
+    "identités.md",
+    "développement limité.md",
+    "logique des predicats du premier ordre.md",
     "déterminant d'une matrice.md",
     "déterminant d'une matrice - méthode de Sarrus.excalidraw.md",
     "inverse d'une matrice.md",
     "matrice identité.md",
     "arbre.md",
-    "opérateur binaire.md",
-    "projet web.md",
-    "sous groupe.md",
-    "nombre d'inversions d'une permutations.md",
-    "permutation.md"
+    "opérateur binaire.md"
   ]
 }
