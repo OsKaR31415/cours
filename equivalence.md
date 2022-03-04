@@ -1,4 +1,4 @@
-# Equivalence
+# equivalence
 Deux [[proposition|propositions]] logiques $A$ et $B$ sont _équivalentes_ logiquement ssi elles ont **le même le même [[sens]] pour toute [[interprétation]]**
 
 ## Notation

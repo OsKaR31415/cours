@@ -7,8 +7,13 @@
         "id": "85203c1a1219f21b",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "workshop array programming.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -28,7 +33,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permutation",
+                "query": "fonctions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "workshop array programming.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "workshop array programming.md"
+              }
             }
           },
           {
@@ -101,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "workshop array programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,20 +128,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233,
-    "collapsed": true
+    "width": 233
   },
   "active": "85203c1a1219f21b",
   "lastOpenFiles": [
+    "workshop array programming.md",
+    "fonctions équivalentes.md",
+    "négligabilité.md",
+    "equivalence.md",
     "relation.md",
     "identités.md",
     "développement limité.md",
     "logique des predicats du premier ordre.md",
     "déterminant d'une matrice.md",
-    "déterminant d'une matrice - méthode de Sarrus.excalidraw.md",
-    "inverse d'une matrice.md",
-    "matrice identité.md",
-    "arbre.md",
-    "opérateur binaire.md"
+    "déterminant d'une matrice - méthode de Sarrus.excalidraw.md"
   ]
 }
