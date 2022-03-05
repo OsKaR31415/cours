@@ -1,4 +1,4 @@
-# Atome
+# atome
 
 Un atome est un [[jugement]] de base irreductible.
 

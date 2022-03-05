@@ -10,7 +10,7 @@ $\mathbb C$ est l'ensemble des nombres complexes. On a donc $z\in\mathbb C$
 Soit $z = a+ib, (a,b)\in\mathbb R^2$.
  - $\text{Re}(z)$ est la _partie réelle_ de $z$ (soit $a$)
  - $\text{Im}(z)$ est la _partie imaginaire_ de $z$ (soit $b$)
- - $|z|$ est le [[module]] de $z$
+ - $|z|$ est le [[module d'un complexe|module]] de $z$
  - $\arg(z)$ ets [[argument|l'argument]] de $z$
  - $\overline{z}$ est le [[conjugé complexe]] de $z$
  - la forme $z=a+ib, (a,b)\in\mathbb R^2$ est la [[forme algébrique]] de $z$
