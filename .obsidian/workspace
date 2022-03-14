@@ -4,17 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "85203c1a1219f21b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "maths/nombre complexe.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+        "id": "3da87f427eee26fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "fd5ac2d5ac9c33b1",
+            "type": "split",
+            "children": [
+              {
+                "id": "19e0376805b99ece",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sous espace vectoriel.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "60e4ac0bce9c6016",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "036a2cfee7313d1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "workshop array programming.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -33,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fonctions",
+                "query": "groupe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,12 +85,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 366,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -71,14 +106,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/nombre complexe.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -98,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "maths/nombre complexe.md"
-              }
+              "state": {}
             }
           },
           {
@@ -109,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maths/nombre complexe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,24 +153,33 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "31b1c63a457b6e3d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 233
+    "width": 233,
+    "collapsed": true
   },
-  "active": "85203c1a1219f21b",
+  "active": "60e4ac0bce9c6016",
   "lastOpenFiles": [
-    "maths/nombre complexe.md",
-    "module d'un complexe.md",
-    "maths/forme algébrique.md",
-    "informatique/argument.md",
-    "atome.md",
-    "déterminant d'une matrice.md",
-    "déterminant d'une matrice - méthode de Sarrus.excalidraw.md",
-    "tours de hanoi.md",
-    "test presentation.md",
-    "arbres binaires.md"
+    "connexité (théorie des graphes).md",
+    "espace vectoriel.md",
+    "sous espace vectoriel.md",
+    "workshop array programming.md",
+    "polyôme.md",
+    "adresses.md",
+    "loi de composition interne.md",
+    "groupe.md",
+    "groupe abélien.md",
+    "graphe.md"
   ]
 }

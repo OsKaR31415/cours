@@ -1,0 +1,11 @@
+#maths/analyse #maths/trigonométrie 
+# fonction sinus hyperbolique
+Noté $\sinh$, ou $\text{sh}$.
+$\sinh(x) = \dfrac{e^x - e^{-x}}2$
+
+Elle est appelée _sinus_ car sa définition ressemble à celle de la [[fonction sinus]]
+
+## Propriétés
+$\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
+(Voir [[fonction cosinus hyperbolique]])
+
