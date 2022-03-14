@@ -1,3 +1,4 @@
+#logique
 # règle d'inférence
 
 Schéma minimal de raisonnement valide qui permet de produire de nouvelles [[proposition|propositions]] à partir de [[prémisses]] qui sont soit des [[théorème|théorèmes]], soit des [[axiome|axiomes]].

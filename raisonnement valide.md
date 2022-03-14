@@ -1,4 +1,5 @@
-# Faisonnement valide
+#logique
+# raisonnement valide
 Un raisonnement est dit _valide_ ssi sa conclusion est la conséquence logique de ses prémisses.
 
 ## Notation

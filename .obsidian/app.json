@@ -15,5 +15,9 @@
   },
   "defaultViewMode": "source",
   "autoPairMarkdown": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "showUnsupportedFiles": true
 }

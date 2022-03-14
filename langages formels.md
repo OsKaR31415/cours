@@ -1,3 +1,4 @@
+#logique
 # langages formels
 
 Soit $V$ [[vocabulaire]] (ensemble fini de symboles) donné

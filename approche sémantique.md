@@ -1,3 +1,4 @@
+#logique
 # approche sémantique
 
 Approche de la [[logique formelle]]

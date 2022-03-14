@@ -1,37 +1,51 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#maths",
+      "query": "tag:#todo",
       "color": {
         "a": 1,
-        "rgb": 1022232
+        "rgb": 11734799
       }
     },
     {
-      "query": "",
+      "query": "tag:#flashcards",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 9380057
+      }
+    },
+    {
+      "query": "tag:#maths",
+      "color": {
+        "a": 1,
+        "rgb": 811014
+      }
+    },
+    {
+      "query": "tag:#logique",
+      "color": {
+        "a": 1,
+        "rgb": 10685
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 0.858350475071016,
+  "lineSizeMultiplier": 1.0263395043589,
+  "collapse-forces": true,
   "centerStrength": 0.439102564102564,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.08516497663815766,
-  "close": false
+  "scale": 0.30033874511718606,
+  "close": true
 }

@@ -1,3 +1,4 @@
+#logique
 # logique des predicats du premier ordre
 
 ## Exemple de raisonnement en LP1
@@ -10,7 +11,7 @@
 (C) donc Cain est condamné
 ```
 
-Dans la [[logique des propositions]], on ne peut pas représenter certains.
+Dans la [[logique des propositions]], on ne peut pas représenter certains énoncés.
 
 
 

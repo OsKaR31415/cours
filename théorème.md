@@ -1,5 +1,4 @@
-
-
+#logique
 # théorème
 [[proposition]] qui est, soit un [[axiome]], soit le résultat d'une application successive de plusieurs [[règle d'inférence|règles d'inférences]] ([[démonstration]]).
 

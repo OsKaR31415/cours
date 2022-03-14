@@ -1,3 +1,4 @@
+#logique
 # atome
 
 Un atome est un [[jugement]] de base irreductible.

@@ -1,5 +1,5 @@
 #maths/analyse
-# [[développements limités]] usuels
+# développements limités usuels
 Ici, on pose $\displaystyle\forall i\in\mathbb N, \lim_{x\rightarrow0}\varepsilon_i(x) = 0$
 
 $(1+x)^\alpha = 1+\alpha x + \dfrac{\alpha(\alpha - 1)x^2}{2!} + \cdots + \dfrac{\alpha(\alpha -1)\cdots (\alpha-n+1)x^n}{n!} + x^n\varepsilon_1(x)$, $\alpha\in\mathbb R$

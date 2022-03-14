@@ -1,3 +1,4 @@
+#logique
 # calcul booléen
 
 _Algèbre de Boole_, ou _Calcul Booléen_.
