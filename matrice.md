@@ -1,3 +1,4 @@
+#maths/algèbre 
 # matrice
 Une matrice est l'objet mathématique désignant un tableau.
 

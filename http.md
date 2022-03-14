@@ -1,4 +1,5 @@
-# http : Hyper Text Transfer Protocol
+#informatique 
+# http
 Voir : [[https]] : version sécurisée du protocole
 
 Prococole permettant de transmettre des pages hypertexte (codées en [[html]]).

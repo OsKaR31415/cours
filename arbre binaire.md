@@ -1,3 +1,4 @@
+#informatique/algorithmie 
 # arbre binaire
 Un _arbre binaire_ est un [[arbre]] dont le **degré** de tous les noeuds est inférieur ou égal à 2.
 Cela veut dire que chaque noeud à **au plus 2 enfants**.

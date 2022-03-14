@@ -1,3 +1,4 @@
+#maths/algèbre 
 # transposée
 
 Soit $M$ une [[matrice|matrice]] de dimension $(m, n)$.

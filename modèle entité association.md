@@ -1,6 +1,7 @@
+#informatique 
 # modèle entité association
 
-[[exemple diagramme entité-association]]
+[[exemple diagramme entité-association.excalidraw]]
 
 - Modèle Conceptuel des Donnés
     - Introduit par _Peter Chen (1976)_

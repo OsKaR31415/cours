@@ -1,4 +1,5 @@
-# Représentation matricielle d'un système linéaire
+#maths/algèbre 
+# représentation matricielle d'un SL
 Soit $(S)$ le [[système linéaire]] suivant :
 $(S):\left\{\begin{array}{}ax+by=u\\cx+dy=v\end{array}\right.$
 

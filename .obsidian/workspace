@@ -4,16 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7f6ed144ee707786",
+        "id": "b2998de23f25f3e0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "formules de Taylor.md",
+            "file": "espace vectoriel engendré par une famille de vecteur.md",
             "mode": "source",
             "backlinks": false,
             "source": false
           }
+        }
+      },
+      {
+        "id": "ef127c7df9842999",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -50,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -71,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "formules de Taylor.md",
+                "file": "espace vectoriel engendré par une famille de vecteur.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "formules de Taylor.md"
+                "file": "espace vectoriel engendré par une famille de vecteur.md"
               }
             }
           },
@@ -109,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "formules de Taylor.md",
+                "file": "espace vectoriel engendré par une famille de vecteur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,17 +147,17 @@
     "width": 233,
     "collapsed": true
   },
-  "active": "7f6ed144ee707786",
+  "active": "b2998de23f25f3e0",
   "lastOpenFiles": [
-    "formules de Taylor.md",
-    "développement limité.md",
-    "classe d'une fonction.md",
-    "développements limités usuels.md",
     "espace vectoriel engendré par une famille de vecteur.md",
-    "logique des predicats du premier ordre.md",
-    "jugement.md",
-    "calcul booléen.md",
-    "théorie logique.md",
-    "vocabulaire.md"
+    "décomposition en produit de cycles disjoints.md",
+    "décomposition en produit de transpositions.md",
+    "ensemble des booléens.md",
+    "exemple graphe topologie hiérarchique.excalidraw.md",
+    "graphe_topologie_homogène.excalidraw.md",
+    "arbre.md",
+    "arbre binaire de recherche.md",
+    "arbre binaire.md",
+    "arbre binaire inverse.md"
   ]
 }

@@ -1,3 +1,4 @@
+#informatique 
 # serveur www
 ## Une machine + un logiciel
 Machine reliée au réseau, qui exécute un logiciel capable de répondre à des requêtes client, respectant le prOtocole de communication client-serveur : [[http]] ou [[https]]

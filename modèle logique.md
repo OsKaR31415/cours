@@ -1,3 +1,4 @@
+#informatique 
 # modèle logique
 
 Constantes utilisées

@@ -14,4 +14,5 @@
 
 ## [[iverson.pdf|Notation as a tool of thought]]
 
-
+# Presentation :
+[[array programming]]

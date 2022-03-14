@@ -1,3 +1,4 @@
+#maths/algèbre 
 # matrice identité
 La matrice identité de taille $n$ est la matrice $Id_n$ telle que :
 

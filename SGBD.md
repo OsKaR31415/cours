@@ -1,3 +1,4 @@
+#informatique 
 # SGBD
 
 **Serveur centralisant l'accès à une [[base de données]]**

@@ -1,3 +1,4 @@
+#maths/algèbre 
 # système linéaire
 _système linéaire_, abb. _SL_
 

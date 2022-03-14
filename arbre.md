@@ -1,3 +1,4 @@
+#informatique/algorithmie 
 # arbre
 Un arbre est une [[structure de données]]
 

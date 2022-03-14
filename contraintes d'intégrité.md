@@ -1,4 +1,5 @@
-# Contraintes d'intégrité
+#informatique 
+# contraintes d'intégrité
 On peut poser des contraintes sur des valeurs. Par exemple, l'âge d'une personne ne peut pas être négatif
 
 ## Intégrité et clés

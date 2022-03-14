@@ -1,3 +1,4 @@
+#informatique 
 # donnée
 
 Description élémentaire d'une réalité

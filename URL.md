@@ -1,4 +1,5 @@
-# URL : Uniform Ressource Locator
+#informatique 
+# URL
 ## Format de nommage universel
 Pour nommer une ressource (au sens large) Internet
 ForMat pour une URL :
