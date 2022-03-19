@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #review 
 # fonction arctangente
 
 La fonction $\arctan$ est la [[fonction réciproque]] de la [[fonction tangente]].

@@ -1,4 +1,4 @@
-#maths/analyse 
+#maths/analyse #review 
 # théorème de l'hopital
 Pour calculer des [[dérivation|dérivées]].
 $$\lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = \dfrac{f'(x_0)}{g'(x_0)}$$

@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #review 
 # fonction sinus hyperbolique
 Noté $\sinh$, ou $\text{sh}$.
 $\sinh(x) = \dfrac{e^x - e^{-x}}2$

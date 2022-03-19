@@ -1,4 +1,4 @@
-#maths/algèbre
+#maths/algèbre #review
 # automorphisme
 Un _automorphisme_ est un [[isomorphisme]] de $(E, *)$ dans $(E, *)$ (d'un emsemple dans lui-même)
 

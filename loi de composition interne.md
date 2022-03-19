@@ -1,4 +1,10 @@
-#maths/algèbre 
+---
+sr-due: 2022-03-20
+sr-interval: 4
+sr-ease: 270
+---
+
+#maths/algèbre #review 
 # loi de composition interne
 
 Une _loi de composition interne_ est une [[loi de composition]] qui est interne, cad. que tout composé est aussi dans l'ensemble de départ.

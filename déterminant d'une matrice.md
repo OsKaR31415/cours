@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # déterminant d'une matrice
 
 Soit $A$ une [[matrice]].

@@ -1,4 +1,4 @@
-#maths/analyse 
+#maths/analyse #review 
 # négligabilité
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x) =_{x_0} o(g(x))$
 

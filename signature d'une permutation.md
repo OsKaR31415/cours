@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # signature d'une permutation
 Soit $s$ une [[permutation]].
 Soit $k$ le nombre de [[transposition|transpositions]] dans la [[décomposition en produit de transpositions]] de s.

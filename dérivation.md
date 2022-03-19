@@ -1,4 +1,10 @@
-#maths/analyse 
+---
+sr-due: 2022-03-20
+sr-interval: 4
+sr-ease: 270
+---
+
+#maths/analyse #review 
 # dérivation
 
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :

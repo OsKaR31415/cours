@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # espace vectoriel
 Un _espace vectoriel_ est un ensemble $E$ muni de deux opérations :
  - une [[loi de composition interne]] notée $+$

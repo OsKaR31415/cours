@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # multiplication de matrices
 
 La multiplication de matrices **n'est pas élément-par-élément**.
@@ -22,7 +22,4 @@ $A\times Id_n = A$ et $Id_m\times A = A$
 
 
 ## Visulalisation
-On peut visualiser le calcul pour le faire plus rapidement, en mettant la
-[[visualisation de la multiplication de matrices.excalidraw]]
-
-
+![[visualisation de la multiplication de matrices.excalidraw]]

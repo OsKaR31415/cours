@@ -1,4 +1,4 @@
-#maths/graphes 
+#maths/graphes
 # graphe orienté
 
 ## Définitions

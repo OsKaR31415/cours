@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #review 
 # fonction cosinus
 
 Notée $\cos$.

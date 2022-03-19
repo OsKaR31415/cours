@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # transposition
 
 Une _transposition_ est une [[permutation]] qui n'échange que 2 éléments.

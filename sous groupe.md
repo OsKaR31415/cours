@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # sous groupe
 Soit $H$ un **sous-ensemble** non vide d'un groupe $G$ muni d'une loi $*$.
 $(H, *)$ est un _sous-groupe_ de $(G, *)$ ssi :

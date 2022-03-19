@@ -1,4 +1,4 @@
-#maths/analyse
+#maths/analyse #review 
 # formules de Taylor
 Formules pour calculer des [[développement limité]].
 

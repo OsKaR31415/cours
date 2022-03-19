@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # groupe
 
 Un ensemble $G$ muni d'une [[loi de composition interne]] $*$ est un _groupe_ ssi :

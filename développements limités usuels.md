@@ -1,4 +1,4 @@
-#maths/analyse
+#maths/analyse #review 
 # développements limités usuels
 Ici, on pose $\displaystyle\forall i\in\mathbb N, \lim_{x\rightarrow0}\varepsilon_i(x) = 0$
 
@@ -14,4 +14,4 @@ $e^x = 1+\dfrac{x}{1!}+\dfrac{x^2}{2!}+\dfrac{x^3}{3!}+\cdots+\dfrac{x^n}{n!} + 
 
 $\cos x = 1-\dfrac{x^2}{2!}+\dfrac{x^4}{4!}+\cdots+(-1)^n\dfrac{x^{2n}}{(2n)!}+x^{2n+1}\varepsilon_6(x)$
 
-$\sin x = x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}+\cdots+(-1)^n\dfrac{x^{2n+1}}{2n+1}+x^{2n+2}\varepsilon_7(x)$
+$\sin x = x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}+\cdots+(-1)^n\dfrac{x^{2n+1}}{(2n+1)!}+x^{2n+2}\varepsilon_7(x)$

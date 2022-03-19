@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # support d'une permutation
 
 Soit $\sigma$ une [[permutation]].

@@ -25,4 +25,8 @@ Technique pour apprendre a long terme
          - images/son/Vidéos
          - Latex
          - Plugins
-
+     - moche
+ - Spaced repetition obsidian plugin
+     - sur obsidian, donc liens possibles avec le cours
+     - full osbidian markdown
+     - parfait !

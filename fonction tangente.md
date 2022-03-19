@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie
+#maths/analyse #maths/trigonométrie #review 
 # fonction tangente
 Notée $\tan$. Fonction [[trigonométrie|trigonométrique]] (fonction circulaire).
 Elle est une [[application]] sur $\{x\in\mathbb{R} | \cos x\neq 0\} = \mathbb{R}\setminus\left\{ \dfrac\pi2 + k\pi,  k\in\mathbb{Z} \right\}$

@@ -1,7 +1,7 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -39,7 +39,7 @@
       "query": "tag:#informatique",
       "color": {
         "a": 1,
-        "rgb": 3113880
+        "rgb": 1796734
       }
     },
     {
@@ -52,14 +52,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.8,
+  "textFadeMultiplier": 0.3,
   "nodeSizeMultiplier": 1.22961624026696,
   "lineSizeMultiplier": 1.0263395043589,
   "collapse-forces": true,
   "centerStrength": 0.439102564102564,
-  "repelStrength": 10,
+  "repelStrength": 9.03792134831461,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.23061141768498572,
-  "close": false
+  "linkDistance": 67,
+  "scale": 0.8315986786503548,
+  "close": true
 }

@@ -14,7 +14,7 @@ Pour signifier qu'un sous-arbre n'existe pas, on lui donne généralement la val
 Dans un arbre binaire quelconque, avec $n$ le nombre de valeurs dans l'arbre
  - **recherche** : $O(n)$
  - **supression** : $O(n)$
- - **[[arbre binaire inverse|inversion]]** : $O(\log n)$ 
+ - **[[arbre binaire inverse|inversion]]** : $O(n)$ 
 
 ## Arbres binaires particuliers
  - [[arbre binaire de recherche]]

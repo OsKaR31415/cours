@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review
 # décomposition en produit de cycles disjoints
 
 Soit $\sigma$ une [[permutation]].

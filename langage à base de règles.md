@@ -1,4 +1,4 @@
-#informatique 
+#informatique #review
 # langage à base de règles
 
 Une [[requête conjonctive]] sur un shéma de base données $D$ est une expression de la forme :

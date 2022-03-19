@@ -36,11 +36,5 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 <!--SR:!2022-03-23,10,254-->
 
 
-Formule de Taylor-Young pour les **développements limités**
-?
-$$\text{DL}_n (x_0) f(x) = \sum_{k=0}^n\left( \dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\right) + (x-x_0)^n\varepsilon(x)$$ 
-avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
-<!--SR:!2022-03-17,3,261-->
-
 
 

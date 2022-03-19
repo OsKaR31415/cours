@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #review 
 # fonction cosinus hyperbolique
 Notée $\cosh$ ou $\text{ch}$.
 $\cosh(x) = \dfrac{e^x+e^{-x}}2$

@@ -1,4 +1,4 @@
-#maths/arithmétique
+#maths/arithmétique #review 
 # théorème de Bezout
 Soit $(n, p)\in(\mathbb N^*)^2$,
 Soit $d = \text{PGCD}(n; p)$,

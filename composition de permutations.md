@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # composition de permutations
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].
 On note $\sigma\circ\sigma'$ le _produit_ (ou _composition_) de $\sigma$ et $\sigma'$.

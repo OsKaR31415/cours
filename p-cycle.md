@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # p-cycle
 
 Un _p-cycle_ de $\mathfrak S_n$, avec $2\leq p\leq n$ est une permutation $\sigma$ telle que :

@@ -1,4 +1,4 @@
-#maths/analyse 
+#maths/analyse #review 
 # classe d'une fonction
 #maths/analyse 
 voir [[dérivées successives]].

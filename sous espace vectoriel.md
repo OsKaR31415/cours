@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # sous espace vectoriel
 Un sous-espace vectoriel $F$ d'un [[espace vectoriel]] $(E, +, \cdot)$ est un sous ensemble de $E$ tel que :
  - $F\neq\emptyset$

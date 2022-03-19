@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie
+#maths/analyse #maths/trigonométrie #review 
 # fonction arccosinus
 
 La fonction $\arccos$ est la [[fonction réciproque]] de la [[fonction cosinus]].

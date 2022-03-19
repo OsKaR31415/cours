@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # invariant par une permutation
 
 Soit $\sigma$ une [[permutation]].

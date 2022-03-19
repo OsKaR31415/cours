@@ -1,4 +1,4 @@
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #review 
 # fonction sinus
 Notée $\sin$.
 Elle est [[fonction continue|continue]] et [[fonction dérivable|dérivable]] sur $\mathbb{R}$.
