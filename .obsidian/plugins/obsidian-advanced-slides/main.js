@@ -32520,6 +32520,17 @@ var require_color = __commonJS({
         }
         return colorString.to.hex(this.rgb().round().color);
       },
+      hexa(value) {
+        if (arguments.length > 0) {
+          return new Color2(value);
+        }
+        const rgbArray = this.rgb().round().color;
+        let alphaHex = Math.round(this.valpha * 255).toString(16).toUpperCase();
+        if (alphaHex.length === 1) {
+          alphaHex = "0" + alphaHex;
+        }
+        return colorString.to.hex(rgbArray) + alphaHex;
+      },
       rgbNumber() {
         const rgb = this.rgb().color;
         return (rgb[0] & 255) << 16 | (rgb[1] & 255) << 8 | rgb[2] & 255;
@@ -55808,142 +55819,6 @@ var require_extsprintf = __commonJS({
   }
 });
 
-// node_modules/verror/node_modules/extsprintf/lib/extsprintf.js
-var require_extsprintf2 = __commonJS({
-  "node_modules/verror/node_modules/extsprintf/lib/extsprintf.js"(exports) {
-    var mod_assert = require("assert");
-    var mod_util = require("util");
-    exports.sprintf = jsSprintf;
-    exports.printf = jsPrintf;
-    exports.fprintf = jsFprintf;
-    function jsSprintf(ofmt) {
-      var regex = [
-        "([^%]*)",
-        "%",
-        "(['\\-+ #0]*?)",
-        "([1-9]\\d*)?",
-        "(\\.([1-9]\\d*))?",
-        "[lhjztL]*?",
-        "([diouxXfFeEgGaAcCsSp%jr])"
-      ].join("");
-      var re = new RegExp(regex);
-      var args = Array.prototype.slice.call(arguments, 1);
-      var fmt = ofmt;
-      var flags, width2, precision, conversion;
-      var left2, pad, sign, arg, match;
-      var ret = "";
-      var argn = 1;
-      var posn = 0;
-      var convposn;
-      var curconv;
-      mod_assert.equal("string", typeof fmt, "first argument must be a format string");
-      while ((match = re.exec(fmt)) !== null) {
-        ret += match[1];
-        fmt = fmt.substring(match[0].length);
-        curconv = match[0].substring(match[1].length);
-        convposn = posn + match[1].length + 1;
-        posn += match[0].length;
-        flags = match[2] || "";
-        width2 = match[3] || 0;
-        precision = match[4] || "";
-        conversion = match[6];
-        left2 = false;
-        sign = false;
-        pad = " ";
-        if (conversion == "%") {
-          ret += "%";
-          continue;
-        }
-        if (args.length === 0) {
-          throw jsError(ofmt, convposn, curconv, "has no matching argument (too few arguments passed)");
-        }
-        arg = args.shift();
-        argn++;
-        if (flags.match(/[\' #]/)) {
-          throw jsError(ofmt, convposn, curconv, "uses unsupported flags");
-        }
-        if (precision.length > 0) {
-          throw jsError(ofmt, convposn, curconv, "uses non-zero precision (not supported)");
-        }
-        if (flags.match(/-/))
-          left2 = true;
-        if (flags.match(/0/))
-          pad = "0";
-        if (flags.match(/\+/))
-          sign = true;
-        switch (conversion) {
-          case "s":
-            if (arg === void 0 || arg === null) {
-              throw jsError(ofmt, convposn, curconv, "attempted to print undefined or null as a string (argument " + argn + " to sprintf)");
-            }
-            ret += doPad(pad, width2, left2, arg.toString());
-            break;
-          case "d":
-            arg = Math.floor(arg);
-          case "f":
-            sign = sign && arg > 0 ? "+" : "";
-            ret += sign + doPad(pad, width2, left2, arg.toString());
-            break;
-          case "x":
-            ret += doPad(pad, width2, left2, arg.toString(16));
-            break;
-          case "j":
-            if (width2 === 0)
-              width2 = 10;
-            ret += mod_util.inspect(arg, false, width2);
-            break;
-          case "r":
-            ret += dumpException(arg);
-            break;
-          default:
-            throw jsError(ofmt, convposn, curconv, "is not supported");
-        }
-      }
-      ret += fmt;
-      return ret;
-    }
-    function jsError(fmtstr, convposn, curconv, reason) {
-      mod_assert.equal(typeof fmtstr, "string");
-      mod_assert.equal(typeof curconv, "string");
-      mod_assert.equal(typeof convposn, "number");
-      mod_assert.equal(typeof reason, "string");
-      return new Error('format string "' + fmtstr + '": conversion specifier "' + curconv + '" at character ' + convposn + " " + reason);
-    }
-    function jsPrintf() {
-      var args = Array.prototype.slice.call(arguments);
-      args.unshift(process.stdout);
-      jsFprintf.apply(null, args);
-    }
-    function jsFprintf(stream) {
-      var args = Array.prototype.slice.call(arguments, 1);
-      return stream.write(jsSprintf.apply(this, args));
-    }
-    function doPad(chr, width2, left2, str) {
-      var ret = str;
-      while (ret.length < width2) {
-        if (left2)
-          ret += chr;
-        else
-          ret = chr + ret;
-      }
-      return ret;
-    }
-    function dumpException(ex) {
-      var ret;
-      if (!(ex instanceof Error))
-        throw new Error(jsSprintf("invalid type for %%r: %j", ex));
-      ret = "EXCEPTION: " + ex.constructor.name + ": " + ex.stack;
-      if (ex.cause && typeof ex.cause === "function") {
-        var cex = ex.cause();
-        if (cex) {
-          ret += "\nCaused by: " + dumpException(cex);
-        }
-      }
-      return ret;
-    }
-  }
-});
-
 // node_modules/verror/node_modules/core-util-is/lib/util.js
 var require_util = __commonJS({
   "node_modules/verror/node_modules/core-util-is/lib/util.js"(exports) {
@@ -56018,7 +55893,7 @@ var require_verror = __commonJS({
   "node_modules/verror/lib/verror.js"(exports, module2) {
     var mod_assertplus = require_assert();
     var mod_util = require("util");
-    var mod_extsprintf = require_extsprintf2();
+    var mod_extsprintf = require_extsprintf();
     var mod_isError = require_util().isError;
     var sprintf = mod_extsprintf.sprintf;
     module2.exports = VError;
@@ -70901,7 +70776,67 @@ var YamlParser = class {
     return import_lodash.default.pick(options, slidifyProps);
   }
   getRevealOptions(options) {
-    const revealProps = ["width", "height", "margin", "minScale", "maxScale", "controls", "controlsTutorial", "controlsLayout", "controlsBackArrows", "progress", "slideNumber", "showSlideNumber", "hashOneBasedIndex", "hash", "respondToHashChanges", "history", "keyboard", "keyboardCondition", "disableLayout", "overview", "center", "touch", "loop", "rtl", "navigationMode", "shuffle", "fragments", "fragmentInURL", "embedded", "help", "pause", "showNotes", "autoPlayMedia", "preloadIframes", "autoAnimate", "autoAnimateMatcher", "autoAnimateEasing", "autoAnimateDuration", "autoAnimateUnmatched", "autoSlide", "autoSlideStoppable", "autoSlideMethod", "defaultTiming", "mouseWheel", "previewLinks", "postMessage", "postMessageEvents", "focusBodyOnPageVisibilityChange", "transition", "transitionSpeed", "backgroundTransition", "pdfMaxPagesPerSlide", "pdfSeparateFragments", "pdfPageHeightOffset", "viewDistance", "mobileViewDistance", "display", "hideInactiveCursor", "hideCursorTime"];
+    const revealProps = [
+      "width",
+      "height",
+      "margin",
+      "minScale",
+      "maxScale",
+      "controls",
+      "controlsTutorial",
+      "controlsLayout",
+      "controlsBackArrows",
+      "progress",
+      "slideNumber",
+      "showSlideNumber",
+      "hashOneBasedIndex",
+      "hash",
+      "respondToHashChanges",
+      "history",
+      "keyboard",
+      "keyboardCondition",
+      "disableLayout",
+      "overview",
+      "center",
+      "touch",
+      "loop",
+      "rtl",
+      "navigationMode",
+      "shuffle",
+      "fragments",
+      "fragmentInURL",
+      "embedded",
+      "help",
+      "pause",
+      "showNotes",
+      "autoPlayMedia",
+      "preloadIframes",
+      "autoAnimate",
+      "autoAnimateMatcher",
+      "autoAnimateEasing",
+      "autoAnimateDuration",
+      "autoAnimateUnmatched",
+      "autoSlide",
+      "autoSlideStoppable",
+      "autoSlideMethod",
+      "defaultTiming",
+      "mouseWheel",
+      "previewLinks",
+      "postMessage",
+      "postMessageEvents",
+      "focusBodyOnPageVisibilityChange",
+      "transition",
+      "transitionSpeed",
+      "backgroundTransition",
+      "pdfMaxPagesPerSlide",
+      "pdfSeparateFragments",
+      "pdfPageHeightOffset",
+      "viewDistance",
+      "mobileViewDistance",
+      "display",
+      "hideInactiveCursor",
+      "hideCursorTime"
+    ];
     const globalSettings = import_lodash.default.pick(import_lodash.default.omitBy(this.settings, import_lodash.default.isEmpty), revealProps);
     const slideSettings = import_lodash.default.pick(options, revealProps);
     return import_lodash.default.defaults({}, slideSettings, globalSettings);
@@ -71617,7 +71552,7 @@ var ExcalidrawProcessor = class {
 // src/processors/footNoteProcessor.ts
 var FootnoteProcessor = class {
   constructor() {
-    this.regex = /\[\^([^\]]*)]/gmi;
+    this.regex = /\[\^([^\]]*)]/im;
   }
   process(markdown, options) {
     let output = markdown;
@@ -71650,7 +71585,7 @@ var FootnoteProcessor = class {
             const split = line.split(reResult[0]);
             let result = split[0].trim();
             result += '<sup id="fnref:' + reResult[1] + '" role="doc-noteref">' + noteIdx + "</sup>";
-            result += "\n" + split[1].trim();
+            result += split[1].trim();
             noteIdx = noteIdx + 1;
             return result;
           }
@@ -72276,24 +72211,32 @@ var CommentParser = class {
 var FragmentProcessor = class {
   constructor() {
     this.fragmentCounter = 1;
-    this.orderedListRegex = /\d\) /g;
+    this.orderedListRegex = /^\d\) /g;
+    this.codeBlockRegex = /```[^\n]*(?:\n[^`]*\n)```/g;
     this.parser = new CommentParser();
   }
   process(markdown, options) {
-    let output = markdown;
-    markdown.split(new RegExp(options.separator, "gmi")).map((slidegroup) => {
-      return slidegroup.split(new RegExp(options.verticalSeparator, "gmi")).map((slide) => {
+    const separatorRegexp = new RegExp(`${options.separator}|${options.verticalSeparator}`, "gmi");
+    const codeBlockLines = Array.from(markdown.matchAll(this.codeBlockRegex)).map(({ 0: match, index }) => ({
+      from: markdown.substring(0, index).split("\n").length - 1,
+      to: markdown.substring(0, index + match.length).split("\n").length - 1
+    }));
+    const output = markdown.split("\n").map((line, lineNumber) => {
+      if (`
+${line}
+`.match(separatorRegexp)) {
         this.fragmentCounter = 1;
-        const newSlide = slide.split("\n").map((line) => {
-          if (line.trim().startsWith("+ ") || this.orderedListRegex.test(line.trim())) {
-            return this.transformLine(line);
-          }
-          return line;
-        }).join("\n");
-        output = output.split(slide).join(newSlide);
-        return newSlide;
-      }).join(options.verticalSeparator);
-    }).join(options.separator);
+        return line;
+      }
+      const isCodeblockLine = codeBlockLines.some(({ from, to }) => lineNumber >= from && lineNumber <= to);
+      if (isCodeblockLine) {
+        return line;
+      }
+      if (line.trim().startsWith("+ ") || this.orderedListRegex.test(line.trim())) {
+        return this.transformLine(line);
+      }
+      return line;
+    }).join("\n");
     return output;
   }
   transformLine(line) {
@@ -72318,7 +72261,7 @@ var FragmentProcessor = class {
 // src/processors/gridProcessor.ts
 var GridProcessor = class {
   constructor() {
-    this.gridRegex = /<\s*grid([^>]+)>(.*?)<\/grid>/sg;
+    this.gridRegex = /<\s*grid([^>]+)>(.*?)<\/grid>/gs;
     this.gridPropertiesRegex = /([^=]*)\s*=\s*"([^"]*)"\s*|([^=]*)\s*=\s*'([^']*)'\s*/g;
   }
   process(markdown, options) {
@@ -72800,7 +72743,9 @@ var RevealRenderer = class {
     if (this.isValidUrl(theme2)) {
       return theme2;
     }
-    const highlightThemes = import_glob.glob.sync("plugin/highlight/*.css", { cwd: this.pluginDirectory });
+    const highlightThemes = import_glob.glob.sync("plugin/highlight/*.css", {
+      cwd: this.pluginDirectory
+    });
     const highlightTheme2 = highlightThemes.find((themePath) => (0, import_path2.basename)(themePath).replace((0, import_path2.extname)(themePath), "") === theme2);
     return highlightTheme2 ? highlightTheme2 : theme2;
   }
@@ -72808,7 +72753,9 @@ var RevealRenderer = class {
     if (this.isValidUrl(theme2)) {
       return theme2;
     }
-    const revealThemes = import_glob.glob.sync("dist/theme/*.css", { cwd: this.pluginDirectory });
+    const revealThemes = import_glob.glob.sync("dist/theme/*.css", {
+      cwd: this.pluginDirectory
+    });
     const revealTheme = revealThemes.find((themePath) => (0, import_path2.basename)(themePath).replace((0, import_path2.extname)(themePath), "") === theme2);
     return revealTheme ? revealTheme : theme2;
   }
@@ -72890,7 +72837,7 @@ var RevealServer = class {
 };
 
 // package.json
-var version = "1.6.0";
+var version = "1.7.0";
 
 // src/main.ts
 var import_path7 = __toModule(require("path"));
@@ -73251,6 +73198,9 @@ function getContainingBlock(element) {
     }
   }
   var currentNode = getParentNode(element);
+  if (isShadowRoot(currentNode)) {
+    currentNode = currentNode.host;
+  }
   while (isHTMLElement(currentNode) && ["html", "body"].indexOf(getNodeName(currentNode)) < 0) {
     var css2 = getComputedStyle(currentNode);
     if (css2.transform !== "none" || css2.perspective !== "none" || css2.contain === "paint" || ["transform", "perspective"].indexOf(css2.willChange) !== -1 || isFirefox && css2.willChange === "filter" || isFirefox && css2.filter && css2.filter !== "none") {
@@ -73404,7 +73354,16 @@ function roundOffsetsByDPR(_ref) {
 function mapToStyles(_ref2) {
   var _Object$assign2;
   var popper2 = _ref2.popper, popperRect = _ref2.popperRect, placement = _ref2.placement, variation = _ref2.variation, offsets = _ref2.offsets, position = _ref2.position, gpuAcceleration = _ref2.gpuAcceleration, adaptive = _ref2.adaptive, roundOffsets = _ref2.roundOffsets, isFixed = _ref2.isFixed;
-  var _ref3 = roundOffsets === true ? roundOffsetsByDPR(offsets) : typeof roundOffsets === "function" ? roundOffsets(offsets) : offsets, _ref3$x = _ref3.x, x = _ref3$x === void 0 ? 0 : _ref3$x, _ref3$y = _ref3.y, y = _ref3$y === void 0 ? 0 : _ref3$y;
+  var _offsets$x = offsets.x, x = _offsets$x === void 0 ? 0 : _offsets$x, _offsets$y = offsets.y, y = _offsets$y === void 0 ? 0 : _offsets$y;
+  var _ref3 = typeof roundOffsets === "function" ? roundOffsets({
+    x,
+    y
+  }) : {
+    x,
+    y
+  };
+  x = _ref3.x;
+  y = _ref3.y;
   var hasX = offsets.hasOwnProperty("x");
   var hasY = offsets.hasOwnProperty("y");
   var sideX = left;
@@ -73424,13 +73383,13 @@ function mapToStyles(_ref2) {
     offsetParent = offsetParent;
     if (placement === top || (placement === left || placement === right) && variation === end) {
       sideY = bottom;
-      var offsetY = isFixed && win.visualViewport ? win.visualViewport.height : offsetParent[heightProp];
+      var offsetY = isFixed && offsetParent === win && win.visualViewport ? win.visualViewport.height : offsetParent[heightProp];
       y -= offsetY - popperRect.height;
       y *= gpuAcceleration ? 1 : -1;
     }
     if (placement === left || (placement === top || placement === bottom) && variation === end) {
       sideX = right;
-      var offsetX = isFixed && win.visualViewport ? win.visualViewport.width : offsetParent[widthProp];
+      var offsetX = isFixed && offsetParent === win && win.visualViewport ? win.visualViewport.width : offsetParent[widthProp];
       x -= offsetX - popperRect.width;
       x *= gpuAcceleration ? 1 : -1;
     }
@@ -73438,14 +73397,23 @@ function mapToStyles(_ref2) {
   var commonStyles = Object.assign({
     position
   }, adaptive && unsetSides);
+  var _ref4 = roundOffsets === true ? roundOffsetsByDPR({
+    x,
+    y
+  }) : {
+    x,
+    y
+  };
+  x = _ref4.x;
+  y = _ref4.y;
   if (gpuAcceleration) {
     var _Object$assign;
     return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? "0" : "", _Object$assign[sideX] = hasX ? "0" : "", _Object$assign.transform = (win.devicePixelRatio || 1) <= 1 ? "translate(" + x + "px, " + y + "px)" : "translate3d(" + x + "px, " + y + "px, 0)", _Object$assign));
   }
   return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : "", _Object$assign2[sideX] = hasX ? x + "px" : "", _Object$assign2.transform = "", _Object$assign2));
 }
-function computeStyles(_ref4) {
-  var state = _ref4.state, options = _ref4.options;
+function computeStyles(_ref5) {
+  var state = _ref5.state, options = _ref5.options;
   var _options$gpuAccelerat = options.gpuAcceleration, gpuAcceleration = _options$gpuAccelerat === void 0 ? true : _options$gpuAccelerat, _options$adaptive = options.adaptive, adaptive = _options$adaptive === void 0 ? true : _options$adaptive, _options$roundOffsets = options.roundOffsets, roundOffsets = _options$roundOffsets === void 0 ? true : _options$roundOffsets;
   if (true) {
     var transitionProperty = getComputedStyle(state.elements.popper).transitionProperty || "";
@@ -73680,7 +73648,7 @@ function getClippingParents(element) {
     return [];
   }
   return clippingParents2.filter(function(clippingParent) {
-    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== "body" && (canEscapeClipping ? getComputedStyle(clippingParent).position !== "static" : true);
+    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== "body";
   });
 }
 function getClippingRect(element, boundary, rootBoundary) {
@@ -74843,9 +74811,7 @@ var AdvancedSlidesPlugin = class extends import_obsidian6.Plugin {
       this.addCommand({
         id: "open-advanced-slides-preview",
         name: "Show Slide Preview",
-        hotkeys: [
-          { modifiers: ["Mod", "Shift"], key: "E" }
-        ],
+        hotkeys: [{ modifiers: ["Mod", "Shift"], key: "E" }],
         callback: async () => {
           await this.toggleView();
         }
@@ -74853,9 +74819,7 @@ var AdvancedSlidesPlugin = class extends import_obsidian6.Plugin {
       this.addCommand({
         id: "reload-advanced-slides-preview",
         name: "Reload Slide Preview",
-        hotkeys: [
-          { modifiers: ["Mod", "Shift"], key: "R" }
-        ],
+        hotkeys: [{ modifiers: ["Mod", "Shift"], key: "R" }],
         callback: () => {
           const instance = this.getViewInstance();
           if (!instance) {

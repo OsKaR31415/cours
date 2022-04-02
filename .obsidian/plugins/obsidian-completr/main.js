@@ -111,39 +111,84 @@ function isInFrontMatterBlock(editor, pos) {
   }
   return false;
 }
-function isInLatexBlock(editor, pos) {
-  var BlockType;
-  (function(BlockType2) {
-    BlockType2[BlockType2["NONE"] = 0] = "NONE";
-    BlockType2[BlockType2["SINGLE"] = 1] = "SINGLE";
-    BlockType2[BlockType2["DOUBLE"] = 2] = "DOUBLE";
-  })(BlockType || (BlockType = {}));
-  let blockStartingLine = 0;
-  let currentBlockType = 0;
-  for (let i = pos.line; i >= Math.max(0, pos.line - 1e3); i--) {
-    const line = editor.getLine(i);
-    for (let j = pos.line == i ? pos.ch - 1 : line.length - 1; j >= 0; j--) {
-      if (line.charAt(j) !== "$")
-        continue;
-      let isDouble = j != 0 && line.charAt(j - 1) === "$";
-      if (isDouble)
-        j--;
-      blockStartingLine = 0;
-      if (currentBlockType === 1 && isDouble || currentBlockType === 2 && !isDouble) {
-        return true;
-      } else if (!isDouble && currentBlockType === 1) {
-        currentBlockType = 0;
-      } else if (isDouble && currentBlockType === 2) {
-        currentBlockType = 0;
-      } else {
-        blockStartingLine = i;
-        currentBlockType = isDouble ? 2 : 1;
-      }
-    }
-    if (currentBlockType === 1)
-      return true;
+var _BlockType = class {
+  constructor(c, isMultiLine, otherType0 = null) {
+    this.c = c;
+    this.isMultiLine = isMultiLine;
+    this.otherType0 = otherType0;
   }
-  return currentBlockType !== 0;
+  get isDollarBlock() {
+    return this === _BlockType.DOLLAR_SINGLE || this === _BlockType.DOLLAR_MULTI;
+  }
+  get isCodeBlock() {
+    return !this.isDollarBlock;
+  }
+  get otherType() {
+    return this.otherType0;
+  }
+};
+var BlockType = _BlockType;
+BlockType.DOLLAR_MULTI = new _BlockType("$$", true);
+BlockType.DOLLAR_SINGLE = new _BlockType("$", false, _BlockType.DOLLAR_MULTI);
+BlockType.CODE_MULTI = new _BlockType("```", true);
+BlockType.CODE_SINGLE = new _BlockType("`", false, _BlockType.CODE_MULTI);
+(() => {
+  _BlockType.DOLLAR_MULTI.otherType0 = _BlockType.DOLLAR_SINGLE;
+  _BlockType.CODE_MULTI.otherType0 = _BlockType.CODE_SINGLE;
+})();
+BlockType.SINGLE_TYPES = [_BlockType.DOLLAR_SINGLE, _BlockType.CODE_SINGLE];
+function isInLatexBlock(editor, cursorPos, triggerInCodeBlocks) {
+  let blockTypeStack = [];
+  for (let lineIndex = Math.max(0, cursorPos.line - 1e3); lineIndex <= cursorPos.line; lineIndex++) {
+    const line = editor.getLine(lineIndex);
+    for (let j = cursorPos.line == lineIndex ? cursorPos.ch - 1 : line.length - 1; j >= 0; j--) {
+      const currentChar = line.charAt(j);
+      let matchingBlockType = BlockType.SINGLE_TYPES.find((b) => b.c.charAt(0) === currentChar);
+      if (!matchingBlockType || line.charAt(Math.max(0, j - 1)) === "\\")
+        continue;
+      const multiTypeLength = matchingBlockType.otherType.c.length;
+      const isDouble = j + 1 >= multiTypeLength && substringMatches(line, matchingBlockType.otherType.c, j - multiTypeLength + 1);
+      if (isDouble) {
+        j -= multiTypeLength - 1;
+        matchingBlockType = matchingBlockType.otherType;
+      }
+      blockTypeStack.push({ type: matchingBlockType, line: lineIndex });
+    }
+  }
+  if (blockTypeStack.length < 1)
+    return false;
+  let currentIndex = 0;
+  while (true) {
+    if (currentIndex >= blockTypeStack.length)
+      return false;
+    const currentBlock = blockTypeStack[currentIndex];
+    const otherBlockIndex = findIndex(blockTypeStack, ({ type }) => type === currentBlock.type, currentIndex + 1);
+    if (otherBlockIndex === -1) {
+      if (!triggerInCodeBlocks && currentBlock.type.isCodeBlock)
+        return false;
+      if (currentBlock.type === BlockType.DOLLAR_SINGLE && currentBlock.line !== cursorPos.line) {
+        currentIndex++;
+        continue;
+      }
+      return true;
+    } else {
+      currentIndex = otherBlockIndex + 1;
+    }
+  }
+}
+function findIndex(arr, predicate, fromIndex) {
+  for (let i = fromIndex; i < arr.length; i++) {
+    if (predicate(arr[i]))
+      return i;
+  }
+  return -1;
+}
+function substringMatches(str, toMatch, from) {
+  for (let i = from; i < from + toMatch.length - 1; i++) {
+    if (str.charAt(i) !== toMatch.charAt(i - from))
+      return false;
+  }
+  return true;
 }
 
 // src/marker_state_field.ts
@@ -320,7 +365,7 @@ var LatexSuggestionProvider = class {
     if (!settings.latexProviderEnabled || !context.query)
       return [];
     let editor = context.editor;
-    if (!isInLatexBlock(editor, context.start))
+    if (!isInLatexBlock(editor, context.start, settings.latexTriggerInCodeBlocks))
       return [];
     const isSeparatorBackslash = context.separatorChar === "\\";
     return LATEX_COMMANDS.filter((s) => getSuggestionDisplayName(s).contains(context.query)).map((s) => {
@@ -1440,6 +1485,7 @@ var DEFAULT_SETTINGS = {
   insertionKey: InsertionKey.ENTER,
   wordInsertionMode: WordInsertionMode.IGNORE_CASE_REPLACE,
   latexProviderEnabled: true,
+  latexTriggerInCodeBlocks: true,
   fileScannerProviderEnabled: true,
   fileScannerScanCurrent: true,
   wordListProviderEnabled: true,
@@ -1828,7 +1874,7 @@ var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
         break;
       }
     }
-    return suggestions;
+    return suggestions.length === 0 ? null : suggestions;
   }
   onTrigger(cursor, editor, file) {
     if (this.justClosed) {
@@ -1942,6 +1988,10 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
     })));
     new import_obsidian3.Setting(containerEl).setName("Latex provider").setHeading();
     this.createEnabledSetting("latexProviderEnabled", "Whether or not the latex provider is enabled", containerEl);
+    new import_obsidian3.Setting(containerEl).setName("Trigger in code blocks").setDesc("Whether the LaTeX provider should trigger after dollar signs which are enclosed in code blocks (for example ```$\\fr```).").addToggle((toggle) => toggle.setValue(this.plugin.settings.latexTriggerInCodeBlocks).onChange((val) => __async(this, null, function* () {
+      this.plugin.settings.latexTriggerInCodeBlocks = val;
+      yield this.plugin.saveSettings();
+    })));
     new import_obsidian3.Setting(containerEl).setName("Front matter provider").addExtraButton((button) => button.setIcon("link").setTooltip("Obsidian Front-Matter wiki").onClick(() => window.open("https://help.obsidian.md/Advanced+topics/YAML+front+matter"))).setHeading();
     this.createEnabledSetting("frontMatterProviderEnabled", "Whether the front matter provider is enabled", containerEl);
     new import_obsidian3.Setting(containerEl).setName("Add suffix to tag completion").setDesc("Whether each completed tag should be suffixed with a comma or a newline (when typing in a multi-line list). Allows faster insertion of multiple tags.").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTagAppendSuffix).onChange((val) => __async(this, null, function* () {

@@ -2,27 +2,51 @@
 
 \newcommand\disp\displaystyle
 
-% flèche des vecteurs. ne pas confondre avec \vec qui est sur un seul caractère
-\newcommand\vect\overrightarrow
+% ┏━╸┏┓╻┏━┓┏━╸┏┳┓┏┓ ╻  ┏━╸┏━┓
+% ┣╸ ┃┗┫┗━┓┣╸ ┃┃┃┣┻┓┃  ┣╸ ┗━┓
+% ┗━╸╹ ╹┗━┛┗━╸╹ ╹┗━┛┗━╸┗━╸┗━┛
 
-% Opérateur de développement limité
-\newcommand\DL{\text{DL}}
-
-% Ensembles
+% Ensembles communs
 \newcommand\N{\mathbb{N}}
 \newcommand\Z{\mathbb{Z}}
 \newcommand\Q{\mathbb{Q}}
 \newcommand\R{\mathbb{R}}
 \newcommand\C{\mathbb{C}}
 
+% cardinal d'un ensemble
+\DeclareMathOperator\card{card}
+
+
+% ┏━┓╻  ┏━╸┏━╸┏┓ ┏━┓┏━╸
+% ┣━┫┃  ┃╺┓┣╸ ┣┻┓┣┳┛┣╸
+% ╹ ╹┗━╸┗━┛┗━╸┗━┛╹┗╸┗━╸
+
+% flèche des vecteurs. ne pas confondre avec \vec qui est sur un seul caractère
+\newcommand\vect\overrightarrow
+
+%%%%% Applications linéaires %%%%%
+% ker (noyau d'une application)
+\DeclareMathOperator\ker{Ker}
+
+% Im (image d'une application)
+\DeclareMathOperator\im{Im}
+
+
+% ┏━┓┏┓╻┏━┓╻  ╻ ╻┏━┓┏━╸
+% ┣━┫┃┗┫┣━┫┃  ┗┳┛┗━┓┣╸
+% ╹ ╹╹ ╹╹ ╹┗━╸ ╹ ┗━┛┗━╸
+
+%%%%% Fonctions %%%%%
+
+% fonction signe
+\DeclareMathOperator\sgn{sgn}
+
+%%%%% Opérateurs %%%%%
+
 % d pour les intégrales et dérivées (pour $\int f(x) \dx$)
 \newcommand\d{\text{d}}
 
-
-% Applications linéaires
-\renewcommand\ker{\text{Ker }}
-
-\newcommmand{\im}{\text{Im }}
-\renewcommmand{\im}{\text{Im }}
+% Opérateur de développement limité
+\DeclareMathOperator\DL{DL}
 
 

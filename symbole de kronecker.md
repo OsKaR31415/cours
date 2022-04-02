@@ -11,3 +11,9 @@ $$\delta_{ij} = \delta_i^j = \delta^{ij} =
 $$
 
 
+## Avec le crochet d'Iverson
+En utilisant le [[crochet d'Iverson]], $\delta_{ij}$ peut être défini comme :
+
+$\delta_{ij} = [i = j]$
+
+

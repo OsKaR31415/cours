@@ -388,6 +388,9 @@ machines
 meet
 making
 menial
+moyenne
+multipliée
+multipliant
 algèbre
 aFlVcTOo
 achat
@@ -861,6 +864,9 @@ arise
 against
 acquiring
 adapting
+allant
+appartenance
+alternative
 espace
 engendré
 et
@@ -1187,6 +1193,9 @@ extract
 embarrassed
 education
 entraîne
+extrait
+entière
+exprimé
 vectoriel
 vecteur
 vHx
@@ -1439,6 +1448,8 @@ versa
 verbed
 verge
 vecteurs
+vérifie
+vérifiée
 par
 plugin
 parsed
@@ -1862,6 +1873,8 @@ premières
 prix
 participé
 propos
+prenant
+positifs
 une
 un
 utilisées
@@ -2848,6 +2861,8 @@ discipline
 devoting
 detail
 décompose
+définis
+différent
 Soit
 Switch
 SR
@@ -3967,6 +3982,8 @@ insists
 improve
 informal
 impossible
+intégrales
+indicatrice
 la
 le
 lWP
@@ -4816,6 +4833,7 @@ neuroscience
 natural
 noyau
 nulles
+négatifs
 to
 the
 this
@@ -6492,6 +6510,7 @@ Turing
 Think
 Today
 Though
+Toutes
 jHu
 jour
 jRkEHrzd
@@ -7091,6 +7110,15 @@ critical
 coordonnée
 coordonnées
 création
+crochets
+canonique
+compose
+crochet
+conditions
+caractéristique
+construite
+combainaison
+central
 RlBDW
 Rhk
 RnNB
@@ -7814,6 +7842,7 @@ Indians
 Interfaces
 Informaticien
 Interpretation
+Iverson
 yKIsFSkS
 ysxt
 yu
@@ -9546,6 +9575,9 @@ reminds
 responsible
 rewording
 robot
+représentée
+rampe
+rang
 bU
 bien
 base
@@ -9791,6 +9823,7 @@ bootstrap
 bubble
 balance
 behave
+bases
 YF
 YShpqGm
 Young
@@ -10603,6 +10636,9 @@ sure
 self
 society
 simultanément
+sommes
+sommant
+serait
 kr
 kUaRVS
 kl
@@ -11636,6 +11672,8 @@ Purely
 Perlis
 Premier
 Programs
+Propriétées
+Primitive
 élément
 étrangère
 étude
@@ -14330,6 +14368,7 @@ Hiding
 Hardly
 Hillary
 Hilton
+Heaviside
 âge
 âK
 ârX

@@ -1,72 +1,22 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "tag:#todo",
-      "color": {
-        "a": 1,
-        "rgb": 11734799
-      }
-    },
-    {
-      "query": "tag:#flashcards",
-      "color": {
-        "a": 1,
-        "rgb": 9838290
-      }
-    },
-    {
-      "query": "tag:#maths",
-      "color": {
-        "a": 1,
-        "rgb": 811014
-      }
-    },
-    {
-      "query": "tag:#logique",
-      "color": {
-        "a": 1,
-        "rgb": 2836657
-      }
-    },
-    {
-      "query": "tag:#informatique",
-      "color": {
-        "a": 1,
-        "rgb": 1796734
-      }
-    },
-    {
-      "query": "tag:#personne",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "file:excalidraw",
-      "color": {
-        "a": 1,
-        "rgb": 4595390
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0.3,
-  "nodeSizeMultiplier": 1.22961624026696,
-  "lineSizeMultiplier": 1.0263395043589,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.441537921348315,
-  "repelStrength": 9.03792134831461,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 67,
-  "scale": 0.1693384572382385,
+  "linkDistance": 30,
+  "scale": 0.2811057134032573,
   "close": false
 }
