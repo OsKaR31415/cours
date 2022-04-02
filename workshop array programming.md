@@ -20,14 +20,16 @@
 
 # Exercices
 
+ - somme des entiers
+ - racines d'un polynôme : `(2×a)÷⍨b(+,-).5*⍨(b*2)-4×a×c`
  - factorielle
  - fibbonacci
  - triangle de pascal
      - `{1,(2+/⍵),1}` direct
      - `{(0,⍵)+(⍵,0)}` autre solution
  - calcul de $\varphi$
-     - `(1+5*.5)÷2` voire `2÷⍨1+.5*⍨5` _tacit_
-     - `1 ((1+÷)⍣=) 1` _tacit, trains_
-
+     - `(1+5*.5)÷2` voire `2÷⍨1+.5*⍨5` _tacite_
+     - `1 ((1+÷)⍣=) 1` _tacite, trains_
+    
 
 

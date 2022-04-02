@@ -2,7 +2,6 @@
 # formules de Taylor
 Formules pour calculer des [[développement limité]].
 
-$\tfrac12$
 
 ## Formule de Taylor pour les polynômes
 Soit $P$ un [[polyôme]], $a$ un réel, $n$ un entier tel que $n\geq deg(P)$

@@ -13,7 +13,7 @@
  - Les cookies sont envoyés en amérique 🇺🇸
  - La CNIL souhaite que les données soient stockées uniquement en europe 🇪🇺
 
-- => Décision publiée le 10 février [https://vu.fr/TaZe](ref)
+- => Décision publiée le 10 février https://vu.fr/TaZe
     - Grandes entreprises mises en demeure
 
 ## Quelles données ?

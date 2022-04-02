@@ -2,7 +2,7 @@
 # transposée
 
 Soit $M$ une [[matrice|matrice]] de dimension $(m, n)$.
-La _transposée_ de $M$ est la matrice $M^T$ telle que :
+La _transposée_ de $M$ est la matrice $M^T$ (ou $^TM$) telle que :
  - $M^T$ est de dimension $(n, m)$
  - $M^T_{i, j} = M_{j, i}$
 

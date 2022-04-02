@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3530e4e717d3e7f3",
+        "id": "07fc09fc407d623f",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -28,7 +28,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#review",
+                "query": "tag:#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,24 +124,24 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 233,
     "collapsed": true
   },
-  "active": "3530e4e717d3e7f3",
+  "active": "07fc09fc407d623f",
   "lastOpenFiles": [
-    "permutation.md",
-    "loi de composition interne.md",
-    "workshop array programming.md",
-    "arbre binaire.md",
-    "forme algébrique.md",
-    "dérivation.md",
-    "fonction affine.md",
-    "world wide web.md",
-    "vocabulaire.md",
-    "visualisation de la multiplication de matrices.excalidraw.md"
+    "Carl Friedrich Gauss.md",
+    "Jean le Rond D'alembert.md",
+    "Alan Perlis.md",
+    "identités.md",
+    "ensemble des matrices.md",
+    "famille de vecteurs échelonnée.md",
+    "famille de vecteurs liée.md",
+    "famille de vecteurs libre.md",
+    "application linéaire.md",
+    "famille de vecteurs génératrice.md"
   ]
 }

@@ -1,3 +1,4 @@
+#maths/analyse/complexes #review 
 # argument
 Soit $z\in\mathbb C$ un [[nombre complexe]].
 On note $\arg z$ _l'argument_ de $z$, la valeur telle que $z = |z|e^{i\arg z}$ (où $|z|$ est le [[module d'un complexe|module]] de $z$) ([[forme exponentielle]] de $z$).

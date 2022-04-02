@@ -2,7 +2,7 @@
 # espace vectoriel
 Un _espace vectoriel_ est un ensemble $E$ muni de deux opérations :
  - une [[loi de composition interne]] notée $+$
- - une [[loi de composition]] externe notée $\cdot$
+ - une [[loi de composition]] **externe** notée $\cdot$
 
 Ces deux opérations vérifient :
  - $(E, +)$ est un [[groupe abélien]] dont l'[[élément neutre]] est le vecteur nul $0_E$

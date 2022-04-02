@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-03-20
-sr-interval: 4
-sr-ease: 270
+sr-due: 2022-04-18
+sr-interval: 26
+sr-ease: 290
 ---
 
 #maths/algèbre #review 
@@ -40,7 +40,7 @@ $\forall(a,b)\in E^2, a*b = b*a$
 
 
 ## Définition
-L'itération d'un élément.
+L'**itération d'un élément**.
 Soit $E$ un ensemble muni d'une LCI $*$ [[associativité|associative]], et soit $a\in E$.
 On définit _l'itéré $n$-ème_ de $a$, pour $n\in\mathbb N^*$, noté $a^{*n}$ par :
  - $a^{*1} = a$

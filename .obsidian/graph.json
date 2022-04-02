@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:#personne",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
       "query": "file:excalidraw",
       "color": {
         "a": 1,
@@ -55,11 +62,11 @@
   "textFadeMultiplier": 0.3,
   "nodeSizeMultiplier": 1.22961624026696,
   "lineSizeMultiplier": 1.0263395043589,
-  "collapse-forces": true,
-  "centerStrength": 0.439102564102564,
+  "collapse-forces": false,
+  "centerStrength": 0.441537921348315,
   "repelStrength": 9.03792134831461,
   "linkStrength": 1,
   "linkDistance": 67,
-  "scale": 0.8315986786503548,
-  "close": true
+  "scale": 0.1693384572382385,
+  "close": false
 }

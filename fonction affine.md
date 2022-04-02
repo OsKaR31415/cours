@@ -1,3 +1,4 @@
+#maths/analyse 
 # fonction affine
 
 Une fonction affine est une [[fonction]] qui peut s'écrire sous la forme :
