@@ -5,8 +5,58 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#todo",
+      "color": {
+        "a": 1,
+        "rgb": 11734799
+      }
+    },
+    {
+      "query": "tag:#flashcards",
+      "color": {
+        "a": 1,
+        "rgb": 9838290
+      }
+    },
+    {
+      "query": "tag:#maths",
+      "color": {
+        "a": 1,
+        "rgb": 811014
+      }
+    },
+    {
+      "query": "tag:#logique",
+      "color": {
+        "a": 1,
+        "rgb": 2836657
+      }
+    },
+    {
+      "query": "tag:#informatique",
+      "color": {
+        "a": 1,
+        "rgb": 1796734
+      }
+    },
+    {
+      "query": "tag:#personne",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "file:excalidraw",
+      "color": {
+        "a": 1,
+        "rgb": 4595390
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
