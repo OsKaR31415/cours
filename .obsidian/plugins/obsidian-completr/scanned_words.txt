@@ -391,6 +391,8 @@ menial
 moyenne
 multipliée
 multipliant
+majeur
+majeurs
 algèbre
 aFlVcTOo
 achat
@@ -867,6 +869,9 @@ adapting
 allant
 appartenance
 alternative
+associer
+actuelle
+applications
 espace
 engendré
 et
@@ -1875,6 +1880,10 @@ participé
 propos
 prenant
 positifs
+projet
+pitch
+public
+pratique
 une
 un
 utilisées
@@ -2462,6 +2471,7 @@ food
 failure
 formal
 fun
+formulation
 de
 dit
 document
@@ -2863,6 +2873,8 @@ detail
 décompose
 définis
 différent
+différence
+différenciateurs
 Soit
 Switch
 SR
@@ -7119,6 +7131,11 @@ caractéristique
 construite
 combainaison
 central
+correspond
+cherchée
+concerné
+cibles
+concurrence
 RlBDW
 Rhk
 RnNB
@@ -8756,6 +8773,7 @@ Computation
 Chaney
 Computer
 Conceptuellement
+Considérons
 Bien
 BDD
 Bases
@@ -9578,6 +9596,9 @@ robot
 représentée
 rampe
 rang
+respective
+rendu
+repectives
 bU
 bien
 base
@@ -9824,6 +9845,7 @@ bubble
 balance
 behave
 bases
+bénéfice
 YF
 YShpqGm
 Young

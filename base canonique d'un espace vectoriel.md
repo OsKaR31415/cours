@@ -10,3 +10,4 @@ où $\delta$ est le [[symbole de kronecker]]
 
 On peut aussi dire que $\forall (i,k)\in[\![1;n]\!]^2, (i=k\iff e_i[k] = 1) \wedge (i\neq k\iff e_i[k] = 0)$
 où $e_i[k]$ désigne le $k^{ème}$ élément de $e_i$.
+

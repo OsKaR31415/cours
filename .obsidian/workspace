@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "07fc09fc407d623f",
+        "id": "c3e075d346af2dc0",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "application linéaire.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "ac8150ca8e087c78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "endomorphisme linéaire.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -28,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#",
+                "query": "tag:#maths/analyse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -67,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "endomorphisme linéaire.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +102,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -93,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "endomorphisme linéaire.md"
+              }
             }
           },
           {
@@ -102,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "endomorphisme linéaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,24 +145,24 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 233,
+    "width": 445.9176940917969,
     "collapsed": true
   },
-  "active": "07fc09fc407d623f",
+  "active": "ac8150ca8e087c78",
   "lastOpenFiles": [
-    "Noyau d'une application linéaire.md",
-    "base canonique d'un espace vectoriel.md",
-    "crochet d'Iverson.md",
-    "combinaison linéaire.md",
-    "fonction signe.md",
+    "endomorphisme linéaire.md",
+    "endomorphisme.md",
+    "espace vectoriel engendré par une famille de vecteur.md",
+    "application linéaire.md",
+    "application.md",
     "rang d'une famille de vecteurs.md",
-    "fonction indicatrice.md",
-    "dimension d'un espace vectoriel.md",
-    "partie entière.md",
-    "fonction rampe.md"
+    "Noyau d'une application linéaire.md",
+    "image d'une application linéaire.md",
+    "matrice associée à une application linéaire.md",
+    "spaced repetition.md"
   ]
 }

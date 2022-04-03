@@ -29,4 +29,5 @@ Technique pour apprendre a long terme
  - Spaced repetition obsidian plugin
      - sur obsidian, donc liens possibles avec le cours
      - full osbidian markdown
+     - utilise la syntaxe Anki
      - parfait !
