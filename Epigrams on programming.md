@@ -241,6 +241,7 @@ By [[Alan Perlis]]
 
 120. Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.
 
+
 ---
 
 ###### From ACM's SIGPLAN publication, (September, 1982), Article "Epigrams in Programming", by Alan J. Perlis of Yale University.
