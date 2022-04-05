@@ -36,5 +36,9 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 <!--SR:!2022-04-28,36,274-->
 
 
+Formule de l'**intégration par parties**
+?
+$\disp\int_\alpha^\beta u'(x)v(x)\d x = \big[u(x)v(x)\big]_\alpha^\beta - \int_\alpha^\beta u'(x)v(x) \d x$
+
 
 
