@@ -18,18 +18,31 @@
 # Presentation :
 [[array programming]]
 
-# Exercices
+# Introduction/Exercices
 
  - somme des entiers
- - racines d'un polynôme : `(2×a)÷⍨b(+,-).5*⍨(b*2)-4×a×c`
+     - `+/⍳5`
+     - `(⍳5)+⌽⍳5` -> `6 6 6 6 6` ($5\times 6$)
+     - `{(⍵×⍵+1)÷2}` <=> $\frac{n(n+1)}{2}$
+ - racines d'un polynôme :
+     - `(b(+,-)((b*2)-4×a×c)*.5)÷2×a` (trains)
+     - `(2×a)÷⍨b(+,-).5*⍨(b*2)-4×a×c` (tacite, trains)
  - factorielle
+     - `×/`
+     - `{⍵<1: 1 ⋄ ⍵×∇⍵-1}` (récursif)
  - fibbonacci
+     - `{⍵<1: 0 ⋄ ⍵=1: 1 ⋄ +/∇¨⍵-1 2}¨⍳` (récursif)
+     - `({⍵,+/¯2↑⍵}⍣5)1 1` (avec Power)
+     - `((⊢,(+/¯2∘↑))⍣10) 1 1` (tacite, avec Power)
  - triangle de pascal
      - `{1,(2+/⍵),1}` direct
      - `{(0,⍵)+(⍵,0)}` autre solution
+     - `((0∘,+,∘0)⍣10) 1` (tacite)
  - calcul de $\varphi$
-     - `(1+5*.5)÷2` voire `2÷⍨1+.5*⍨5` _tacite_
-     - `1 ((1+÷)⍣=) 1` _tacite, trains_
+     - `(1+5*.5)÷2` voire `2÷⍨1+.5*⍨5` (tacite)
+     - `1 ((1+÷)⍣=) 1` (tacite, trains, fraction continue)
+ - calcul de $e$
+     - `+/÷!⍳20` : $\sum_{n=1}^{20}\frac{1}{n!}$
     
 
 
