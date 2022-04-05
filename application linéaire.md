@@ -30,13 +30,16 @@ f: & \R^2 \mapsto \R\\
 
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels de dimension finie, et $f: E\rightarrow F$ une _application linéaire_, alors :
 
-  - $\dim \ker f + \dim \im f = \dim E$
-      - la [[dimension d'un espace vectoriel|dimension]] du [[Noyau d'une application linéaire|noyau]] de $f$ égale la dimension de l'[[image d'une application linéaire|image]] de $f$ et égale la dimension de $E$
-  - Lorsque $E = F$, $f$ est un [[endomorphisme]] de $E$
+  - $\dim \ker f + \dim \im f = \dim E$ ([[théorème du rang]])
+      - . $\dim$ la [[dimension d'un espace vectoriel]]
+      - $\ker$ le [[Noyau d'une application linéaire]]
+      - $\im$ l'[[image d'une application linéaire]]
+  - Lorsque $E = F$, $f$ est un [[endomorphisme]] de $E$ (un [[endomorphisme linéaire]])
       - alors $f$ est [[injection|injective]]
       - alors $\ker f = \{0_E\}$
       - alors $\dim\ker f = 0$
-      - alors $\dim\im f = \dim E$
+      - alors $\dim\im f = \dim E$ (grâce au [[théorème du rang]])
       - alors $\im f = E$
       - alors $f$ est [[surjection|surjective]]
       - D'où : si $f$ est un [[endomorphisme]] de $E$, $f$ est une [[bijection]]
+

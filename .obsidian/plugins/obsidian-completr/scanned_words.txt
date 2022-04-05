@@ -1884,6 +1884,7 @@ projet
 pitch
 public
 pratique
+primitive
 une
 un
 utilisées
@@ -2472,6 +2473,7 @@ failure
 formal
 fun
 formulation
+fraction
 de
 dit
 document
@@ -3996,6 +3998,7 @@ informal
 impossible
 intégrales
 indicatrice
+intégration
 la
 le
 lWP
@@ -7860,6 +7863,7 @@ Interfaces
 Informaticien
 Interpretation
 Iverson
+Introduction
 yKIsFSkS
 ysxt
 yu
@@ -9599,6 +9603,7 @@ rang
 respective
 rendu
 repectives
+récursif
 bU
 bien
 base
@@ -11696,6 +11701,8 @@ Premier
 Programs
 Propriétées
 Primitive
+Puisque
+Power
 élément
 étrangère
 étude
