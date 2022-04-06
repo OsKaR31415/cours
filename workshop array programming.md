@@ -18,6 +18,24 @@
 # Presentation :
 [[array programming]]
 
+
+# Notions nécessaires
+ - iota `⍳`
+ - reduce `+/` ET replicate `1 0 0 1 0 1 0 0 0 / 'caractere'`
+ - reshape `⍴`
+ - reverse `⌽`
+ - tally `≢`
+ - take `↑` et drop `↓`
+ - produit externe `∘. `
+ - dfns (fonction anonymes)
+     - syntaxe `{⍵}`
+     - appels récursifs ?
+ - forks (2-forks et 3-forks, monadiques et dyadiques)
+ - composition `∘`
+ - inverseur `⍨`
+ - puissance `⍣`
+
+
 # Introduction/Exercices
 
  - somme des entiers
@@ -45,4 +63,13 @@
      - `+/÷!⍳20` : $\sum_{n=1}^{20}\frac{1}{n!}$
     
 
+## Problem solving
+ - score des entreprises
+     - une entreprise est "proche" d'une autre si la différence de leurs scores < 95
+     - on cherche pour chaque entreprise à savoir lequelles sont proches d'elle 
+
+ - salaires des génies
+     - filtrage par salaires (salaire > 3000)
+     - filtrage par primes (primes > 200)
+     - personnes dont les primes font au moins 6% du salaire
 
