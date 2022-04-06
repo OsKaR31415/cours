@@ -7,13 +7,8 @@
         "id": "cd7a52e753e9c2e4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "workshop array programming.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -71,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workshop array programming.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,9 +92,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "workshop array programming.md"
-              }
+              "state": {}
             }
           },
           {
@@ -109,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workshop array programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,6 +132,7 @@
   },
   "active": "cd7a52e753e9c2e4",
   "lastOpenFiles": [
+    "dérivation.md",
     "workshop array programming.md",
     "flashcards maths.md",
     "intégration par parties.md",
@@ -149,7 +141,6 @@
     "théorème du rang.md",
     "rang d'une application linéaire.md",
     "rang d'une famille de vecteurs.md",
-    "endomorphisme linéaire.md",
-    "application linéaire.md"
+    "endomorphisme linéaire.md"
   ]
 }
