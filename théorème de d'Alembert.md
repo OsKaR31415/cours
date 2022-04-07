@@ -1,6 +1,6 @@
 #maths/analyse/complexes #review 
 # théorème de d'Alembert
-Aussi appelé _Théorème fondamental de l'algèbre_, _Théorème de d'Alembert-Gauss_, du nom de [[Jean le Rond D'alembert]] et de [[Carl Friedrich Gauss]].
+Aussi appelé _Théorème fondamental de l'algèbre_, _Théorème de d'Alembert-Gauss_, du nom de [[Jean le Rond d'Alembert]] et de [[Carl Friedrich Gauss]].
 
 
 
