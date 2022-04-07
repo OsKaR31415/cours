@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "cd7a52e753e9c2e4",
+        "id": "6454e465e7c8f486",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Noyau d'une application linéaire.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a108710f6d896b7e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "espace vectoriel.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -28,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "(im\\)",
+                "query": "tag:#maths/algèbre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Noyau d'une application linéaire.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Noyau d'une application linéaire.md"
+              }
             }
           },
           {
@@ -101,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Noyau d'une application linéaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,25 +144,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 445.9176940917969,
     "collapsed": true
   },
-  "active": "cd7a52e753e9c2e4",
+  "active": "6454e465e7c8f486",
   "lastOpenFiles": [
-    "dérivation.md",
-    "workshop array programming.md",
-    "flashcards maths.md",
-    "intégration par parties.md",
-    "fonction de Heaviside.md",
-    "Epigrams on programming.md",
-    "théorème du rang.md",
-    "rang d'une application linéaire.md",
-    "rang d'une famille de vecteurs.md",
-    "endomorphisme linéaire.md"
+    "Noyau d'une application linéaire.md",
+    "espace vectoriel.md",
+    "limite d'une fonction.md",
+    "base d'un espace vectoriel.md",
+    "application linéaire.md",
+    "skolem.md",
+    "equisatisfaisables.md",
+    "LOGIQUE_CHAP3_LP1.pdf",
+    "LOGIQUE_CHAP1_INTRO.pdf",
+    "logique des predicats du premier ordre.md"
   ]
 }
