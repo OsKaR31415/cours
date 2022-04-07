@@ -872,6 +872,7 @@ alternative
 associer
 actuelle
 applications
+alembert
 espace
 engendré
 et
@@ -1201,6 +1202,8 @@ entraîne
 extrait
 entière
 exprimé
+existentiels
+equisatisfaisables
 vectoriel
 vecteur
 vHx
@@ -2877,6 +2880,7 @@ définis
 différent
 différence
 différenciateurs
+démonstration
 Soit
 Switch
 SR
@@ -4573,6 +4577,7 @@ order
 opportunities
 organizing
 old
+originale
 note
 numClient
 nom
@@ -4849,6 +4854,7 @@ natural
 noyau
 nulles
 négatifs
+normale
 to
 the
 this
@@ -5175,6 +5181,7 @@ tidy
 theory
 teach
 thoughts
+trouver
 EXCALIDRAW
 Elements
 EtnheR
@@ -7376,6 +7383,7 @@ Redirections
 Résultat
 Recursion
 Rogers
+Rond
 NuDQIfhe
 NWJc
 Nouveau
@@ -8778,6 +8786,7 @@ Chaney
 Computer
 Conceptuellement
 Considérons
+Comme
 Bien
 BDD
 Bases
@@ -9604,6 +9613,7 @@ respective
 rendu
 repectives
 récursif
+remplacer
 bU
 bien
 base
@@ -10666,6 +10676,10 @@ simultanément
 sommes
 sommant
 serait
+skolem
+supprimé
+supérieure
+skolemisation
 kr
 kUaRVS
 kl
@@ -13068,6 +13082,7 @@ getting
 goes
 grain
 génératrice
+garder
 xQM
 xJUw
 xu
@@ -13714,6 +13729,7 @@ Jgn
 JDt
 Jib
 Japan
+Jean
 zG
 zqhG
 zone
