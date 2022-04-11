@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6454e465e7c8f486",
+        "id": "22afc4e9e9f95363",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Noyau d'une application linéaire.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a108710f6d896b7e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "espace vectoriel.md",
+            "file": "dérivation.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -84,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Noyau d'une application linéaire.md",
+                "file": "dérivation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Noyau d'une application linéaire.md"
+                "file": "dérivation.md"
               }
             }
           },
@@ -122,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Noyau d'une application linéaire.md",
+                "file": "dérivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,17 +138,17 @@
     "width": 445.9176940917969,
     "collapsed": true
   },
-  "active": "6454e465e7c8f486",
+  "active": "22afc4e9e9f95363",
   "lastOpenFiles": [
-    "Noyau d'une application linéaire.md",
-    "espace vectoriel.md",
-    "limite d'une fonction.md",
+    "dérivation.md",
+    "relation.md",
+    "ensemble des booléens.md",
     "base d'un espace vectoriel.md",
-    "application linéaire.md",
-    "skolem.md",
-    "equisatisfaisables.md",
-    "LOGIQUE_CHAP3_LP1.pdf",
-    "LOGIQUE_CHAP1_INTRO.pdf",
-    "logique des predicats du premier ordre.md"
+    "famille de vecteurs libre.md",
+    "base de données.md",
+    "image d'une application linéaire.md",
+    "sous espace vectoriel.md",
+    "groupe abélien.md",
+    "espace vectoriel.md"
   ]
 }

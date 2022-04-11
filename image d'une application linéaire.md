@@ -2,9 +2,9 @@
 # image d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,
 l'image de $f$ est définie par :
-$Im(f) = \{ v\in F \;|\; \exists u\in E, f(u) = v\}$ 
+$\im(f) = \{ v\in F \;|\; \exists u\in E, f(u) = v\}$ 
 
-Conceptuellement, $Im(f) = f(E)$
+De façon plus concise, $\im(f) = f(E)$
 
 
 ## Propriétés

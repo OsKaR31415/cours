@@ -393,6 +393,7 @@ multipliée
 multipliant
 majeur
 majeurs
+modifiables
 algèbre
 aFlVcTOo
 achat
@@ -3158,6 +3159,7 @@ Science
 SIGPLAN
 September
 SICP
+Servant
 On
 OPTIONS
 OENicqaA
@@ -3628,6 +3630,7 @@ qym
 qDR
 quel
 quickly
+quantité
 il
 in
 informatique
@@ -4003,6 +4006,7 @@ impossible
 intégrales
 indicatrice
 intégration
+intuitive
 la
 le
 lWP
@@ -5182,6 +5186,7 @@ theory
 teach
 thoughts
 trouver
+travaillant
 EXCALIDRAW
 Elements
 EtnheR
@@ -6311,6 +6316,7 @@ Documentation
 Don
 Dealing
 Dromedary
+Développer
 Text
 Tpn
 Taylor
@@ -7146,6 +7152,7 @@ cherchée
 concerné
 cibles
 concurrence
+concise
 RlBDW
 Rhk
 RnNB
@@ -7384,6 +7391,7 @@ Résultat
 Recursion
 Rogers
 Rond
+Rapidité
 NuDQIfhe
 NWJc
 Nouveau
@@ -7872,6 +7880,7 @@ Informaticien
 Interpretation
 Iverson
 Introduction
+Interrogeables
 yKIsFSkS
 ysxt
 yu
@@ -8787,6 +8796,7 @@ Computer
 Conceptuellement
 Considérons
 Comme
+Centralisées
 Bien
 BDD
 Bases
@@ -9614,6 +9624,7 @@ rendu
 repectives
 récursif
 remplacer
+rgand
 bU
 bien
 base
@@ -9861,6 +9872,7 @@ balance
 behave
 bases
 bénéfice
+besoins
 YF
 YShpqGm
 Young
