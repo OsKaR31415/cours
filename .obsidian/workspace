@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "22afc4e9e9f95363",
+        "id": "586242666630d069",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dérivation.md",
+            "file": "queries.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3371384c5a1d8ce3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "todo.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -24,24 +37,9 @@
     "type": "split",
     "children": [
       {
-        "id": "2b98d2f9c6c23949",
+        "id": "a3e04033addcedcd",
         "type": "tabs",
         "children": [
-          {
-            "id": "390d098cee0c9651",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#maths/algèbre",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "407c81c708328992",
             "type": "leaf",
@@ -49,29 +47,29 @@
               "type": "file-explorer",
               "state": {}
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 366,
-    "collapsed": true
-  },
-  "right": {
-    "id": "1102f19b896c7a16",
-    "type": "split",
-    "children": [
-      {
-        "id": "980f845ab893296e",
-        "type": "tabs",
-        "children": [
+          },
+          {
+            "id": "390d098cee0c9651",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:pdf",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
           {
             "id": "e855affa02bb755e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dérivation.md",
+                "file": "queries.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,44 +81,15 @@
             }
           },
           {
-            "id": "ccd1190664578ee9",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "5f0a6b2e995376e5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "dérivation.md"
-              }
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dérivation.md",
+                "file": "queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "d45511af0bde9bcf",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -135,20 +104,156 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.9176940917969,
-    "collapsed": true
+    "width": 336
   },
-  "active": "22afc4e9e9f95363",
+  "right": {
+    "id": "1102f19b896c7a16",
+    "type": "split",
+    "children": [
+      {
+        "id": "980f845ab893296e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccd1190664578ee9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5f0a6b2e995376e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "queries.md"
+              }
+            }
+          },
+          {
+            "id": "d45511af0bde9bcf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "32d6a52d872d783d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "queries.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#todo",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13249323
+                      }
+                    },
+                    {
+                      "query": "tag:#flashcards",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16427551
+                      }
+                    },
+                    {
+                      "query": "tag:#maths",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2520842
+                      }
+                    },
+                    {
+                      "query": "tag:#logique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2836657
+                      }
+                    },
+                    {
+                      "query": "tag:#informatique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1796734
+                      }
+                    },
+                    {
+                      "query": "file:excalidraw",
+                      "color": {
+                        "a": 1,
+                        "rgb": 7677168
+                      }
+                    },
+                    {
+                      "query": "path:\"daily\"",
+                      "color": {
+                        "a": 1,
+                        "rgb": 0
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.2,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.30598044853364,
+                  "collapse-forces": false,
+                  "centerStrength": 0.791642706536324,
+                  "repelStrength": 15.6584243818286,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.37790355574097434,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "bae8ca5650bdd5bf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 549.0001220703125
+  },
+  "active": "586242666630d069",
   "lastOpenFiles": [
-    "dérivation.md",
-    "relation.md",
-    "ensemble des booléens.md",
-    "base d'un espace vectoriel.md",
-    "famille de vecteurs libre.md",
-    "base de données.md",
-    "image d'une application linéaire.md",
-    "sous espace vectoriel.md",
-    "groupe abélien.md",
-    "espace vectoriel.md"
+    "queries.md",
+    "todo.md",
+    "daily/2022-06-02.md",
+    "daily/2022-05-30.md",
+    "daily/2022-05-31.md",
+    "espace vectoriel.md",
+    "daily/2022-06-07.md",
+    "daily/01-06-2022.md",
+    "application linéaire.md",
+    "opérateur binaire.md"
   ]
 }

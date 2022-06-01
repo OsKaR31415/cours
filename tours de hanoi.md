@@ -24,7 +24,7 @@ en notation mathématiques, $D_{n+1} = 2\times D_n + 1$
 On à déjà posé que $D_{n+1} = 2\times D_n + 1$.
 On peut aussi dire que $D_1 = 1$, puisqu'il faut une étape pour déplacer une tour à un seul disque.
 
-On note : $$\left\{ \begin{array}{c}
+On note : $$\left\{ \begin{array}{l}
 D_1 = 1\\
 D_{n+1} = 2 \times D_n + 1
 \end{array}

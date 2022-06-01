@@ -1,3 +1,4 @@
+#informatique 
 # ligne de commande UNIX
 
 La ligne de commande UNIX est l'interface [[ligne de commande]] implémentée dans le [[système d'exploitation|système]] [[UNIX]].

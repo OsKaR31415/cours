@@ -5,8 +5,17 @@
   "obsidian-pandoc",
   "table-editor-obsidian",
   "obsidian-latex",
-  "obsidian-enhancing-mindmap",
   "obsidian-spaced-repetition",
   "obsidian-advanced-slides",
-  "obsidian-completr"
+  "obsidian-completr",
+  "obsidian-hover-editor",
+  "obsidian-enhancing-mindmap",
+  "hover-external-link",
+  "obsidian-kanban",
+  "sliding-panes-obsidian",
+  "obsidian-annotator",
+  "calendar",
+  "obsidian-hider",
+  "drawio-obsidian",
+  "obsidian-minimal-settings"
 ]

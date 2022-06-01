@@ -1,10 +1,10 @@
 {
-  "baseFontSize": 30,
-  "cssTheme": "Spectrum",
+  "baseFontSize": 70,
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "translucency": false,
   "enabledCssSnippets": [
     "mono",
-    "fira_code"
+    "pdf_darkmode"
   ]
 }

@@ -40,6 +40,7 @@ Cette méthode se base sur une formule de récurrence :
          - Développement par colonnes :  $\disp\det(A) = \sum_{j=1}^n \left(c_{i,j}\times A'_{i,j}\right)$ 
          - Développement par lignes : $\disp\det(A) = \sum_{i=1}^n \left( c_{i,j}\times A'_{i,j} \right)$
 
+
 #### Définition en APL
 ```apl
 det ← {
@@ -55,6 +56,7 @@ det ← {
     -/coeffs×∇¨submats ⍝ on obtient ici le déterminant
 }
 ```
+
 
 
 ## Propriétés

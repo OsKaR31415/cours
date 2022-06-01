@@ -1,7 +1,7 @@
 #maths/algèbre #review 
 # multiplication de matrices
 
-La multiplication de matrices **n'est pas élément-par-élément**.
+La multiplication de [[matrice|matrices]] **n'est pas élément-par-élément**.
 
 Pour que deux matrices puissent être multipliées, il faut que le nombre de colonnes de la première soit le même que le nombre de lignes de la seconde.
 

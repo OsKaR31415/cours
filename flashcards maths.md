@@ -3,7 +3,7 @@
 Dérivée de $\sin x$ :: $\cos x$
 <!--SR:!2022-06-22,81,310-->
 Dérivée de $\cos x$ :: $-\sin x$
-<!--SR:!2022-04-03,21,290-->
+<!--SR:!2022-09-20,153,310-->
 Dérivée de $\tan x$ :: $1 + \tan^2 x$
 <!--SR:!2022-05-11,43,270-->
 Dérivée de $\arcsin x$ :: $\dfrac1{\sqrt{1-x^2}}$
@@ -11,7 +11,7 @@ Dérivée de $\arcsin x$ :: $\dfrac1{\sqrt{1-x^2}}$
 Dérivée de $\arccos x$ :: $-\dfrac1{\sqrt{1-x^2}}$
 <!--SR:!2022-04-27,35,270-->
 Dérivée de $\arctan x$ :: $\dfrac1{1+x^2}$
-<!--SR:!2022-04-10,12,230-->
+<!--SR:!2022-04-25,5,210-->
 
 Dérivée de $\ln u$ :: $\dfrac{u'}u$
 <!--SR:!2022-06-12,72,290-->
@@ -39,6 +39,7 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 Formule de l'**intégration par parties**
 ?
 $\disp\int_\alpha^\beta u'(x)v(x)\d x = \big[u(x)v(x)\big]_\alpha^\beta - \int_\alpha^\beta u'(x)v(x) \d x$
+<!--SR:!2022-04-25,1,249-->
 
 
 

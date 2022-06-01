@@ -3,13 +3,13 @@
   "autoReload": true,
   "exportDirectory": "/export",
   "enableChalkboard": true,
-  "enableOverview": false,
-  "enableMenu": false,
+  "enableOverview": true,
+  "enableMenu": true,
   "theme": "black",
   "highlightTheme": "zenburn",
   "transition": "none",
-  "transitionSpeed": "default",
-  "controls": true,
+  "transitionSpeed": "normal",
+  "controls": false,
   "progress": true,
-  "slideNumber": false
+  "slideNumber": true
 }

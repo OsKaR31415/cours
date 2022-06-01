@@ -18,3 +18,4 @@ Ces deux opérations vérifient :
 
 
 
+

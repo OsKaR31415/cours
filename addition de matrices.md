@@ -1,7 +1,7 @@
 #maths/algèbre 
 # addition de matrices
 
-On additionne les matrices élément par élément (les deux matrices additionnées doivent donc avoir la même taille).
+On additionne les [[matrice|matrices]] élément par élément (les deux matrices additionnées doivent donc avoir la même taille).
 
 Formellement, soient $A$ et $B$ deux matrices de taille $m\times n$, on a :
 

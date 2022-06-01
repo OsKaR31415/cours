@@ -14,6 +14,7 @@ mindmap-plugin: basic
 - format simple et compatible
 - formules mathématiques: $e^{i\pi}+1=0$
 - code avec coloration
+- Sub title
 
 ## Lien entre les notes
 - pas besoin d'hyper-hiérarchiser

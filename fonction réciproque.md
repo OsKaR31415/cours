@@ -1,7 +1,7 @@
 #maths/analyse 
 # fonction réciproque
 
-Soit $f$ une [[bijection]] de $E$ dans $f$:
+Soit $f$ une [[bijection]] de $E$ dans $F$:
 $$f: E \rightarrow F$$
 On sait qu'elle est [[injection|injective]] et [[surjection|surjective]], donc $\forall y \in F, \exists!x \in E, y = f(x)$, et on peut dire qu'il existe une [[application]] $f^{-1}$ telle que :
 $$\begin{aligned}

@@ -1,38 +1,38 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": true,
-  "showAttachments": false,
+  "showTags": false,
+  "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag:#annotation",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 2744319
       }
     },
     {
       "query": "tag:#todo",
       "color": {
         "a": 1,
-        "rgb": 11734799
+        "rgb": 13249323
       }
     },
     {
       "query": "tag:#flashcards",
       "color": {
         "a": 1,
-        "rgb": 9838290
+        "rgb": 16689694
       }
     },
     {
       "query": "tag:#maths",
       "color": {
         "a": 1,
-        "rgb": 811014
+        "rgb": 2520841
       }
     },
     {
@@ -53,27 +53,34 @@
       "query": "tag:#personne",
       "color": {
         "a": 1,
-        "rgb": 6908265
+        "rgb": 12630898
       }
     },
     {
       "query": "file:excalidraw",
       "color": {
         "a": 1,
-        "rgb": 8400889
+        "rgb": 7677168
+      }
+    },
+    {
+      "query": "path:\"daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 0
       }
     }
   ],
-  "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1.58118326966402,
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.05480799746112,
+  "lineSizeMultiplier": 1.377734375,
   "collapse-forces": true,
-  "centerStrength": 0.392907303370787,
-  "repelStrength": 7.91783707865169,
+  "centerStrength": 0.638950892857143,
+  "repelStrength": 12.1348852040816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.4448576335461483,
-  "close": true
+  "scale": 0.24063991475206706,
+  "close": false
 }

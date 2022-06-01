@@ -1,0 +1,8 @@
+
+.theme-dark .pdf-embed iframe,
+.theme-dark embed[type="application/pdf"],
+.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
+    filter: invert(0.9);
+}
+
+
