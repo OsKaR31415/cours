@@ -1,11 +1,9 @@
 #maths/analyse 
 # surjection
 
-Soit $f$ une [[application]] de $E$ dans $F$.
+Soit $f: E\mapsto F$ une [[application]].
 
-On dit que $f$ est une *surjection*, ou qu'elle est _surjective_, si et seulement si $\forall (x, x') \in E^2, x = x' \implies f(x) = f(x')$
+On dit que $f$ est une *surjection*, ou qu'elle est _surjective_, si et seulement si 
+$\forall y\in F, \exists x\in E, f(x) = y$
 
-La propriété peut aussi s'écrire $\forall (x, x') \in E^2, f(x) \neq f(x') \implies x \neq x'$
-C'est la [[contraposée]] de la proposition précédente.
-
-
+Une surjection est une [[application]] pour laquelle il existe au moins un antécédent à chaque élément de $F$.

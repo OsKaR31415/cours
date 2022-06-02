@@ -1042,6 +1042,7 @@ aea
 associées
 appeler
 acquis
+antécédent
 espace
 engendré
 et
@@ -1459,6 +1460,7 @@ efada
 eefd
 eCandidat
 everyting
+evelyne
 vectoriel
 vecteur
 vHx
@@ -2298,6 +2300,8 @@ pointer
 path
 pImN
 pratiques
+planning
+pleasure
 une
 un
 utilisées
@@ -3525,6 +3529,8 @@ dfrac
 ddea
 dossier
 during
+déduisent
+daily
 Soit
 Switch
 SR
@@ -3896,6 +3902,7 @@ SLCG
 Sks
 SVG
 SyQS
+Sinus
 On
 OPTIONS
 OENicqaA
@@ -4992,6 +4999,7 @@ inscription
 ihBq
 intégrables
 imT
+indices
 la
 le
 lWP
@@ -5734,6 +5742,7 @@ opT
 obtenu
 original
 opacity
+own
 note
 numClient
 nom
@@ -6498,6 +6507,7 @@ tasks
 tNf
 tFA
 terminologie
+templates
 EXCALIDRAW
 Elements
 EtnheR
@@ -7894,6 +7904,7 @@ DyH
 DOCTYPE
 DTD
 Daily
+Drawio
 Text
 Tpn
 Taylor
@@ -8204,6 +8215,7 @@ TMJ
 Tnq
 TrM
 Thalès
+Tangente
 jHu
 jour
 jRkEHrzd
@@ -8990,6 +9002,7 @@ cBzS
 cae
 cefe
 conference
+cbe
 RlBDW
 Rhk
 RnNB
@@ -11115,6 +11128,7 @@ Chasles
 Casles
 ChromeWA
 Chrome
+Cosinus
 Bien
 BDD
 Bases
@@ -12188,6 +12202,8 @@ réussi
 respectives
 reR
 rVd
+recopier
+rewading
 bU
 bien
 base

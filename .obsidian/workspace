@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c1024f9d14d478b7",
+        "id": "8ef7df8d2762c9fc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "famille de vecteurs.md",
+            "file": "daily/2022-06-02.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "3aac4bf97169cc63",
+        "id": "1651c95d6e0bb0dd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "famille.md",
+            "file": "templates/daily note.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:pdf",
+                "query": "(line:\\tan x \"/\" \"2\" )",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "famille.md",
+                "file": "templates/daily note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "famille.md",
+                "file": "templates/daily note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "famille.md"
+                "file": "templates/daily note.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "famille.md",
+                "file": "templates/daily note.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,7 +222,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6919113259969226,
+                  "scale": 2.637251782725981,
                   "close": true
                 }
               }
@@ -237,23 +237,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 355.754638671875
+    "width": 325.9410095214844
   },
-  "active": "3aac4bf97169cc63",
+  "active": "1651c95d6e0bb0dd",
   "lastOpenFiles": [
-    "famille.md",
-    "famille de vecteurs.md",
-    "daily/2022-06-03.md",
-    "forme exponentielle.md",
-    "forme trigonométrique d'un complexe.md",
-    "formule d'Euler.md",
-    "Formules d'Euler.md",
-    "contraposée.md",
+    "templates/daily note.md",
+    "aamath.md",
     "todo.md",
-    "daily/2022-06-02.md"
+    "daily/2022-06-02.md",
+    "daily/2022-06-03.md",
+    "daily/2022-06-06.md",
+    "formules de trigonométrie.md",
+    "daily/2022-06-01.md",
+    "Excalidraw/Drawing 2022-05-29 19.31.49.excalidraw.md",
+    "Excalidraw/formule_euler_sin.excalidraw.md"
   ]
 }

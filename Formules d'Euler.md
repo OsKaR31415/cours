@@ -9,7 +9,7 @@ $\cos(x) = \dfrac{e^{ix}+e^x}{2}$
 
 
 ## sinus
-$\sin(x) = \dfrac{e^{ix} + e^{-ix}}{2i}$
+$\sin(x) = \dfrac{e^{ix} - e^{-ix}}{2i}$
 
 ![[formule_euler_sin.excalidraw|1050]]
 

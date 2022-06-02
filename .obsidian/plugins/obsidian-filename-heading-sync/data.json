@@ -1,5 +1,6 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "^(f|F)lashcards?"
+  "ignoreRegex": "^(f|F)lashcards?|templates/",
+  "useFileOpenHook": true
 }

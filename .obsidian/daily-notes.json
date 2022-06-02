@@ -1,4 +1,5 @@
 {
   "folder": "daily/",
-  "format": ""
+  "format": "",
+  "template": "templates/daily note"
 }
