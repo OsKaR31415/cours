@@ -2297,6 +2297,7 @@ pageHeight
 pointer
 path
 pImN
+pratiques
 une
 un
 utilisées
@@ -6496,6 +6497,7 @@ translate
 tasks
 tNf
 tFA
+terminologie
 EXCALIDRAW
 Elements
 EtnheR

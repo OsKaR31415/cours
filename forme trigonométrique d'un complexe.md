@@ -3,7 +3,8 @@
 Soit $z\in\mathbb C$, la _forme trigonométrique_ de $z$ est $z=r(\cos\theta+i\sin\theta)$, où on sait que $r=|z|$ et $\theta=\arg(z)$.
 
 ## Passage à la [[forme exponentielle]]
-Soit $z=r(\cos\theta+i\sin\theta)$. On connaît la [[formule d'Euler]] $cos\theta + i\sin\theta = e^{i\theta}$.
+Soit $z=r(\cos\theta+i\sin\theta)$. On connaît la [[Formules d'Euler|formule d'Euler]]
+$cos\theta + i\sin\theta = e^{i\theta}$.
 Donc : $z = re^{i\theta}$
 
 ## Passage à la [[forme algébrique]]

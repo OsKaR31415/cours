@@ -3,7 +3,7 @@
 Soit $z\in\mathbb C$, la _forme exponentielle_ de $z$ est $z=re^{i\theta}$ avec $(r,\theta)\in\mathbb R^2$, et où on sait que $r = |z|$ et $\theta=\arg(z)$
 
 ## Passage à la [[forme trigonométrique d'un complexe|forme trigonométrique]]
-On connaît la [[formule d'Euler]] suivante : $e^{i\theta} = \cos\theta+i\sin\theta$
+On connaît la [[Formules d'Euler|formule d'Euler]] suivante : $e^{i\theta} = \cos\theta+i\sin\theta$
 On en déduit que $z = r\left(\cos\theta+i\sin\theta\right)$
 
 ## Passage à la [[forme algébrique]]
