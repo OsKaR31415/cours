@@ -5,6 +5,7 @@
   "translucency": false,
   "enabledCssSnippets": [
     "mono",
-    "pdf_darkmode"
+    "pdf_darkmode",
+    "headers"
   ]
 }

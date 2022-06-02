@@ -1,0 +1,19 @@
+{
+  "minimal-style@@title-size": "0.5em",
+  "minimal-style@@h1": "2em",
+  "minimal-style@@h2": "1.5em",
+  "minimal-style@@h3": "1.2em",
+  "minimal-style@@h4": "1.1em",
+  "minimal-style@@h5": "0.9em",
+  "minimal-style@@h6": "0.85em",
+  "minimal-style@@h1-weight": 800,
+  "minimal-style@@h1-variant": "normal",
+  "minimal-style@@h1-l": false,
+  "minimal-style@@h2-weight": 800,
+  "minimal-style@@h3-weight": 800,
+  "minimal-style@@h4-weight": 900,
+  "minimal-style@@h5-weight": 900,
+  "minimal-style@@h6-weight": 900,
+  "minimal-style@@h6-l": false,
+  "minimal-cards-style@@cards-min-width": "400px"
+}
