@@ -68,7 +68,7 @@ var __async = (__this, __arguments, generator) => {
 __export(exports, {
   default: () => CompletrPlugin
 });
-var import_obsidian4 = __toModule(require("obsidian"));
+var import_obsidian5 = __toModule(require("obsidian"));
 
 // src/snippet_manager.ts
 var import_view2 = __toModule(require("@codemirror/view"));
@@ -166,7 +166,7 @@ function isInLatexBlock(editor, cursorPos, triggerInCodeBlocks) {
     if (otherBlockIndex === -1) {
       if (!triggerInCodeBlocks && currentBlock.type.isCodeBlock)
         return false;
-      if (currentBlock.type === BlockType.DOLLAR_SINGLE && currentBlock.line !== cursorPos.line) {
+      if (currentBlock.type.isCodeBlock || currentBlock.type === BlockType.DOLLAR_SINGLE && currentBlock.line !== cursorPos.line) {
         currentIndex++;
         continue;
       }
@@ -295,6 +295,8 @@ var SnippetManager = class {
       return false;
     const placeholder = this.currentPlaceholderReferences[0];
     const newRange = SnippetManager.rangeFromPlaceholder(placeholder);
+    if (!newRange)
+      return false;
     if (newRange.from.ch <= oldRange.from.ch && newRange.to.ch >= oldRange.to.ch) {
       editor.setCursor(__spreadValues({}, newRange.to));
     } else {
@@ -346,41 +348,65 @@ var SnippetManager = class {
 };
 
 // src/provider/provider.ts
-function getSuggestionDisplayName(suggestion) {
-  return typeof suggestion === "string" ? suggestion : suggestion.displayName;
+function getSuggestionDisplayName(suggestion, lowerCase = false) {
+  const res = typeof suggestion === "string" ? suggestion : suggestion.displayName;
+  return lowerCase ? res.toLowerCase() : res;
 }
 function getSuggestionReplacement(suggestion) {
   return typeof suggestion === "string" ? suggestion : suggestion.replacement;
 }
 
 // src/provider/latex_provider.ts
+var import_obsidian = __toModule(require("obsidian"));
 function substringUntil(str, delimiter) {
   let index = str.indexOf(delimiter);
   if (index === -1)
     return str;
   return str.substring(0, index);
 }
+var LATEX_COMMANDS_PATH = ".obsidian/plugins/obsidian-completr/latex_commands.json";
 var LatexSuggestionProvider = class {
+  constructor() {
+    this.loadedCommands = [];
+  }
   getSuggestions(context, settings) {
-    if (!settings.latexProviderEnabled || !context.query)
+    if (!settings.latexProviderEnabled || !context.query || context.query.length < settings.latexMinWordTriggerLength)
       return [];
     let editor = context.editor;
     if (!isInLatexBlock(editor, context.start, settings.latexTriggerInCodeBlocks))
       return [];
+    const query = settings.latexIgnoreCase ? context.query.toLowerCase() : context.query;
     const isSeparatorBackslash = context.separatorChar === "\\";
-    return LATEX_COMMANDS.filter((s) => getSuggestionDisplayName(s).contains(context.query)).map((s) => {
+    return this.loadedCommands.filter((s) => getSuggestionDisplayName(s, settings.latexIgnoreCase).contains(query)).map((s) => {
       const replacement = getSuggestionReplacement(s);
-      const displayName = getSuggestionDisplayName(s);
       return {
-        displayName,
+        displayName: getSuggestionDisplayName(s),
         replacement: isSeparatorBackslash ? replacement.substring(1) : replacement,
-        priority: displayName.indexOf(context.query)
+        priority: getSuggestionDisplayName(s, settings.latexIgnoreCase).indexOf(query)
       };
     }).sort((a, b) => {
       let val = a.priority - b.priority;
       if (val == 0)
         val = substringUntil(a.displayName, "{").length - substringUntil(b.displayName, "{").length;
       return val;
+    });
+  }
+  loadCommands(vault) {
+    return __async(this, null, function* () {
+      if (!(yield vault.adapter.exists(LATEX_COMMANDS_PATH))) {
+        const defaultCommands = generateDefaultLatexCommands();
+        yield vault.adapter.write(LATEX_COMMANDS_PATH, JSON.stringify(defaultCommands, null, 2));
+        this.loadedCommands = defaultCommands;
+        return;
+      }
+      const data = yield vault.adapter.read(LATEX_COMMANDS_PATH);
+      try {
+        this.loadedCommands = JSON.parse(data);
+      } catch (e) {
+        console.log("Completr latex commands parse error:", e.message);
+        new import_obsidian.Notice("Failed to parse latex commands file " + LATEX_COMMANDS_PATH + ". Using default commands.", 3e3);
+        this.loadedCommands = generateDefaultLatexCommands();
+      }
     });
   }
 };
@@ -400,1070 +426,1073 @@ ${environment.paramCount < 1 ? "~\n" : ""}\\end{${environment.name}}`
   }
   return result;
 }
-var LATEX_COMMANDS = [
-  ...generateEnvironments([
-    { name: "align", paramCount: 0, hasStarVersion: true },
-    { name: "alignat", paramCount: 1, hasStarVersion: true },
-    { name: "aligned", paramCount: 0, hasStarVersion: false },
-    { name: "alignedat", paramCount: 1, hasStarVersion: false },
-    { name: "array", paramCount: 1, hasStarVersion: false },
-    { name: "bmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "Bmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "bsmallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "Bsmallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "cases", paramCount: 0, hasStarVersion: true },
-    { name: "crampedsubarray", paramCount: 1, hasStarVersion: false },
-    { name: "dcases", paramCount: 0, hasStarVersion: true },
-    { name: "drcases", paramCount: 0, hasStarVersion: true },
-    { name: "empheq", paramCount: 2, hasStarVersion: false },
-    { name: "eqnarray", paramCount: 0, hasStarVersion: true },
-    { name: "equation", paramCount: 0, hasStarVersion: true },
-    { name: "flalign", paramCount: 0, hasStarVersion: true },
-    { name: "gather", paramCount: 0, hasStarVersion: true },
-    { name: "gathered", paramCount: 0, hasStarVersion: false },
-    { name: "lgathered", paramCount: 0, hasStarVersion: false },
-    { name: "matrix", paramCount: 0, hasStarVersion: true },
-    { name: "multiline", paramCount: 0, hasStarVersion: true },
-    { name: "multilined", paramCount: 0, hasStarVersion: false },
-    { name: "numcases", paramCount: 1, hasStarVersion: false },
-    { name: "pmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "prooftree", paramCount: 0, hasStarVersion: false },
-    { name: "psmallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "rcases", paramCount: 0, hasStarVersion: true },
-    { name: "rgathered", paramCount: 0, hasStarVersion: false },
-    { name: "smallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "split", paramCount: 0, hasStarVersion: false },
-    { name: "spreadlines", paramCount: 1, hasStarVersion: false },
-    { name: "subarray", paramCount: 1, hasStarVersion: false },
-    { name: "subnumcases", paramCount: 1, hasStarVersion: false },
-    { name: "vmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "Vmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "vsmallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "Vsmallmatrix", paramCount: 0, hasStarVersion: true },
-    { name: "xalignat", paramCount: 1, hasStarVersion: true },
-    { name: "xxalignat", paramCount: 1, hasStarVersion: false }
-  ]),
-  "\\above{#}{#}",
-  "\\verb|#|",
-  "\\left\\",
-  "\\right\\",
-  "\\acute{#}",
-  "\\aleph",
-  "\\alpha",
-  "\\amalg",
-  "\\And",
-  "\\angle",
-  "\\approx",
-  "\\approxeq",
-  "\\arccos",
-  "\\arcsin",
-  "\\arctan",
-  "\\arg",
-  "\\array{#}",
-  "\\arrowvert",
-  "\\Arrowvert",
-  "\\ast",
-  "\\asymp",
-  "\\atop",
-  "\\backepsilon",
-  "\\backprime",
-  "\\backsim",
-  "\\backsimeq",
-  "\\backslash",
-  "\\bar{#}",
-  "\\barwedge",
-  "\\Bbb{#}",
-  "\\Bbbk",
-  "\\bbFont",
-  "\\bbox{#}",
-  "\\bcancel{#}",
-  "\\because",
-  "\\beta",
-  "\\beth",
-  "\\between",
-  "\\bf",
-  "\\bigcap",
-  "\\bigcirc",
-  "\\bigcup",
-  "\\bigodot",
-  "\\bigoplus",
-  "\\bigotimes",
-  "\\bigsqcup",
-  "\\bigstar",
-  "\\bigtimes",
-  "\\bigtriangledown",
-  "\\bigtriangleup",
-  "\\biguplus",
-  "\\bigvee",
-  "\\bigwedge",
-  "\\binom{#}{#}",
-  "\\blacklozenge",
-  "\\blacksquare",
-  "\\blacktriangle",
-  "\\blacktriangledown",
-  "\\blacktriangleleft",
-  "\\blacktriangleright",
-  "\\bmod",
-  "\\boldsymbol{#}",
-  "\\bot",
-  "\\bowtie",
-  "\\Box",
-  "\\boxdot",
-  "\\boxed{#}",
-  "\\boxminus",
-  "\\boxplus",
-  "\\boxtimes",
-  "\\bra{#}",
-  "\\Bra{#}",
-  "\\brace",
-  "\\bracevert",
-  "\\brack",
-  "\\braket{#}",
-  "\\Braket{#}",
-  "\\breve{#}",
-  "\\bullet",
-  "\\bumpeq",
-  "\\Bumpeq",
-  "\\cal",
-  "\\cancel{#}",
-  "\\cancelto{#}{#}",
-  "\\cap",
-  "\\Cap",
-  "\\cases{#}",
-  "\\cdot",
-  "\\cdotp",
-  "\\cdots",
-  "\\celsius",
-  "\\centercolon",
-  "\\centerdot",
-  "\\centernot{#}",
-  "\\centerOver{#}{#}",
-  "\\cfrac{#}{#}",
-  "\\check{#}",
-  "\\checkmark",
-  "\\chi",
-  "\\choose",
-  "\\circ",
-  "\\circeq",
-  "\\circlearrowleft",
-  "\\circlearrowright",
-  "\\circledast",
-  "\\circledcirc",
-  "\\circleddash",
-  "\\circledR",
-  "\\circledS",
-  "\\clap{#}",
-  "\\class{#}{#}",
-  "\\clubsuit",
-  "\\colon",
-  "\\colonapprox",
-  "\\Colonapprox",
-  "\\coloneq",
-  "\\Coloneq",
-  "\\coloneqq",
-  "\\Coloneqq",
-  "\\colonsim",
-  "\\Colonsim",
-  "\\color{#}",
-  "\\colorbox{#}{#}",
-  "\\complement",
-  "\\cong",
-  "\\coprod",
-  "\\cos",
-  "\\cosh",
-  "\\cot",
-  "\\coth",
-  "\\cramped{#}",
-  "\\crampedclap{#}",
-  "\\crampedllap{#}",
-  "\\crampedrlap{#}",
-  "\\crampedsubstack{#}",
-  "\\csc",
-  "\\cssId{#}{#}",
-  "\\cup",
-  "\\Cup",
-  "\\curlyeqprec",
-  "\\curlyeqsucc",
-  "\\curlyvee",
-  "\\curlywedge",
-  "\\curvearrowleft",
-  "\\curvearrowright",
-  "\\dagger",
-  "\\daleth",
-  "\\dashleftarrow",
-  "\\dashrightarrow",
-  "\\dashv",
-  "\\dbinom{#}{#}",
-  "\\dblcolon",
-  "\\ddagger",
-  "\\ddddot{#}",
-  "\\dddot{#}",
-  "\\ddot{#}",
-  "\\ddots",
-  "\\DeclareMathOperator{#}{#}",
-  "\\DeclarePairedDelimiters{#}{#}{#}",
-  "\\DeclarePairedDelimitersX{#}{#}{#}{#}",
-  "\\DeclarePairedDelimitersXPP{#}{#}{#}{#}{#}{#}",
-  "\\deg",
-  "\\degree",
-  "\\delta",
-  "\\Delta",
-  "\\det",
-  "\\dfrac{#}{#}",
-  "\\diagdown",
-  "\\diagup",
-  "\\diamond",
-  "\\Diamond",
-  "\\diamondsuit",
-  "\\digamma",
-  "\\dim",
-  "\\displaylines{#}",
-  "\\displaystyle",
-  "\\div",
-  "\\divideontimes",
-  "\\divsymbol",
-  "\\dot{#}",
-  "\\doteq",
-  "\\Doteq",
-  "\\doteqdot",
-  "\\dotplus",
-  "\\dots",
-  "\\dotsb",
-  "\\dotsc",
-  "\\dotsi",
-  "\\dotsm",
-  "\\dotso",
-  "\\doublebarwedge",
-  "\\doublecap",
-  "\\doublecup",
-  "\\downarrow",
-  "\\Downarrow",
-  "\\downdownarrows",
-  "\\downharpoonleft",
-  "\\downharpoonright",
-  "\\ell",
-  "\\empheqbiglangle",
-  "\\empheqbiglbrace",
-  "\\empheqbiglbrack",
-  "\\empheqbiglceil",
-  "\\empheqbiglfloor",
-  "\\empheqbiglparen",
-  "\\empheqbiglvert",
-  "\\empheqbiglVert",
-  "\\empheqbigrangle",
-  "\\empheqbigrbrace",
-  "\\empheqbigrbrack",
-  "\\empheqbigrceil",
-  "\\empheqbigrfloor",
-  "\\empheqbigrparen",
-  "\\empheqbigrvert",
-  "\\empheqbigrVert",
-  "\\empheqlangle",
-  "\\empheqlbrace",
-  "\\empheqlbrack",
-  "\\empheqlceil",
-  "\\empheqlfloor",
-  "\\empheqlparen",
-  "\\empheqlvert",
-  "\\empheqlVert",
-  "\\empheqrangle",
-  "\\empheqrbrace",
-  "\\empheqrbrack",
-  "\\empheqrceil",
-  "\\empheqrfloor",
-  "\\empheqrparen",
-  "\\empheqrvert",
-  "\\empheqrVert",
-  "\\emptyset",
-  "\\enclose{#}{#}",
-  "\\enspace",
-  "\\epsilon",
-  "\\eqalign{#}",
-  "\\eqalignno{#}",
-  "\\eqcirc",
-  "\\eqcolon",
-  "\\Eqcolon",
-  "\\eqqcolon",
-  "\\Eqqcolon",
-  "\\eqref{#}",
-  "\\eqsim",
-  "\\eqslantgtr",
-  "\\eqslantless",
-  "\\equiv",
-  "\\eta",
-  "\\eth",
-  "\\exists",
-  "\\exp",
-  "\\fallingdotseq",
-  "\\fbox{#}",
-  "\\fCenter",
-  "\\fcolorbox{#}{#}{#}",
-  "\\Finv",
-  "\\flat",
-  "\\forall",
-  "\\frac{#}{#}",
-  "\\frak",
-  "\\framebox{#}",
-  "\\frown",
-  "\\Game",
-  "\\gamma",
-  "\\Gamma",
-  "\\gcd",
-  "\\ge",
-  "\\geq",
-  "\\geqq",
-  "\\geqslant",
-  "\\gets",
-  "\\gg",
-  "\\ggg",
-  "\\gggtr",
-  "\\gimel",
-  "\\gnapprox",
-  "\\gneq",
-  "\\gneqq",
-  "\\gnsim",
-  "\\grave{#}",
-  "\\gt",
-  "\\gtrapprox",
-  "\\gtrdot",
-  "\\gtreqless",
-  "\\gtreqqless",
-  "\\gtrless",
-  "\\gtrsim",
-  "\\gvertneqq",
-  "\\hat{#}",
-  "\\hbar",
-  "\\hbox{#}",
-  "\\heartsuit",
-  "\\hline",
-  "\\hom",
-  "\\hookleftarrow",
-  "\\hookrightarrow",
-  "\\hphantom{#}",
-  "\\href{#}{#}",
-  "\\hslash",
-  "\\huge",
-  "\\Huge",
-  "\\idotsint",
-  "\\iff",
-  "\\iiiint",
-  "\\iiint",
-  "\\iint",
-  "\\Im",
-  "\\imath",
-  "\\impliedby",
-  "\\implies",
-  "\\in",
-  "\\inf",
-  "\\infty",
-  "\\injlim",
-  "\\int",
-  "\\int^{#}_{#}",
-  "\\intercal",
-  "\\intop",
-  "\\iota",
-  "\\it",
-  "\\jmath",
-  "\\Join",
-  "\\kappa",
-  "\\ker",
-  "\\ket{#}",
-  "\\Ket{#}",
-  "\\ketbra{#}{#}",
-  "\\Ketbra{#}{#}",
-  "\\label{#}",
-  "\\lambda",
-  "\\Lambda",
-  "\\land",
-  "\\langle",
-  "\\large",
-  "\\Large",
-  "\\LARGE",
-  "\\LaTeX",
-  "\\lbrace",
-  "\\lbrack",
-  "\\lceil",
-  "\\ldots",
-  "\\ldotp",
-  "\\le",
-  "\\leadsto",
-  "\\Leftarrow",
-  "\\leftarrow",
-  "\\leftarrowtail",
-  "\\leftharpoondown",
-  "\\leftharpoonup",
-  "\\leftleftarrows",
-  "\\Leftrightarrow",
-  "\\leftrightarrow",
-  "\\leftrightarrows",
-  "\\leftrightharpoons",
-  "\\leftrightsquigarrow",
-  "\\leftthreetimes",
-  "\\leq",
-  "\\leqalignno{#}",
-  "\\leqq",
-  "\\leqslant",
-  "\\lessapprox",
-  "\\lessdot",
-  "\\lesseqgtr",
-  "\\lesseqqgtr",
-  "\\lessgtr",
-  "\\lesssim",
-  "\\lfloor",
-  "\\lg",
-  "\\lgroup",
-  "\\lhd",
-  "\\lim",
-  "\\liminf",
-  "\\limsup",
-  "\\ll",
-  "\\llap{#}",
-  "\\llcorner",
-  "\\Lleftarrow",
-  "\\lll",
-  "\\llless",
-  "\\lmoustache",
-  "\\ln",
-  "\\lnapprox",
-  "\\lneq",
-  "\\lneqq",
-  "\\lnot",
-  "\\lnsim",
-  "\\log",
-  "\\longleftarrow",
-  "\\Longleftarrow",
-  "\\Longleftrightarrow",
-  "\\longleftrightarrow",
-  "\\longleftrightarrows",
-  "\\longLeftrightharpoons",
-  "\\longmapsto",
-  "\\longrightarrow",
-  "\\Longrightarrow",
-  "\\longrightleftharpoons",
-  "\\longRightleftharpoons",
-  "\\looparrowleft",
-  "\\looparrowright",
-  "\\lor",
-  "\\lozenge",
-  "\\lparen",
-  "\\lrcorner",
-  "\\Lsh",
-  "\\lt",
-  "\\ltimes",
-  "\\lvert",
-  "\\lVert",
-  "\\lvertneqq",
-  "\\maltese",
-  "\\mapsto",
-  "\\mathbb{#}",
-  "\\mathbb{R}",
-  "\\mathbb{N}",
-  "\\mathbb{C}",
-  "\\mathbb{Z}",
-  "\\mathbb{Q}",
-  "\\mathbf{#}",
-  "\\mathbfcal{#}",
-  "\\mathbffrak{#}",
-  "\\mathbfit{#}",
-  "\\mathbfscr{#}",
-  "\\mathbfsf{#}",
-  "\\mathbfsfit{#}",
-  "\\mathbfsfup{#}",
-  "\\mathbfup{#}",
-  "\\mathbin{#}",
-  "\\mathcal{#}",
-  "\\mathchoice{#}{#}{#}{#}",
-  "\\mathclap{#}",
-  "\\mathclose{#}",
-  "\\mathfrak{#}",
-  "\\mathinner{#}",
-  "\\mathit{#}",
-  "\\mathllap{#}",
-  "\\mathmakebox{#}",
-  "\\mathmbox{#}",
-  "\\mathnormal{#}",
-  "\\mathop{#}",
-  "\\mathopen{#}",
-  "\\mathord{#}",
-  "\\mathpunct{#}",
-  "\\mathrel{#}",
-  "\\mathring{#}",
-  "\\mathrlap{#}",
-  "\\mathrm{#}",
-  "\\mathscr{#}",
-  "\\mathsf{#}",
-  "\\mathsfit{#}",
-  "\\mathsfup{#}",
-  "\\mathstrut",
-  "\\mathtip{#}{#}",
-  "\\mathtt{#}",
-  "\\mathup{#}",
-  "\\max",
-  "\\mbox{#}",
-  "\\measuredangle",
-  "\\mho",
-  "\\micro",
-  "\\mid",
-  "\\min",
-  "\\mit",
-  "\\mod{#}",
-  "\\models",
-  "\\mp",
-  "\\MTThinColon",
-  "\\mu",
-  "\\multimap",
-  "\\nabla",
-  "\\natural",
-  "\\ncong",
-  "\\ndownarrow",
-  "\\ne",
-  "\\nearrow",
-  "\\neg",
-  "\\negmedspace",
-  "\\negthickspace",
-  "\\negthinspace",
-  "\\neq",
-  "\\newcommand{#}{#}",
-  "\\newenvironment{#}{#}{#}",
-  "\\newline",
-  "\\newtagform{#}{#}{#}",
-  "\\nexists",
-  "\\ngeq",
-  "\\ngeqq",
-  "\\ngeqslant",
-  "\\ngtr",
-  "\\ni",
-  "\\nleftarrow",
-  "\\nLeftarrow",
-  "\\nleftrightarrow",
-  "\\nLeftrightarrow",
-  "\\nleq",
-  "\\nleqq",
-  "\\nleqslant",
-  "\\nless",
-  "\\nmid",
-  "\\nobreakspace",
-  "\\nonscript",
-  "\\nonumber",
-  "\\normalsize",
-  "\\not",
-  "\\notag",
-  "\\notChar",
-  "\\notin",
-  "\\nparallel",
-  "\\nprec",
-  "\\npreceq",
-  "\\nrightarrow",
-  "\\nRightarrow",
-  "\\nshortmid",
-  "\\nshortparallel",
-  "\\nsim",
-  "\\nsubseteq",
-  "\\nsubseteqq",
-  "\\nsucc",
-  "\\nsucceq",
-  "\\nsupseteq",
-  "\\nsupseteqq",
-  "\\ntriangleleft",
-  "\\ntrianglelefteq",
-  "\\ntriangleright",
-  "\\ntrianglerighteq",
-  "\\nu",
-  "\\nuparrow",
-  "\\nvdash",
-  "\\nvDash",
-  "\\nVdash",
-  "\\nVDash",
-  "\\nwarrow",
-  "\\odot",
-  "\\ohm",
-  "\\oint",
-  "\\oldstyle",
-  "\\omega",
-  "\\Omega",
-  "\\omicron",
-  "\\ominus",
-  "\\operatorname{#}",
-  "\\oplus",
-  "\\ordinarycolon",
-  "\\oslash",
-  "\\otimes",
-  "\\over",
-  "\\overbrace{#}",
-  "\\overbracket{#}",
-  "\\overleftarrow{#}",
-  "\\overleftrightarrow{#}",
-  "\\overline{#}",
-  "\\overparen{#}",
-  "\\overrightarrow{#}",
-  "\\overset{#}{#}",
-  "\\overunderset{#}{#}{#}",
-  "\\owns",
-  "\\parallel",
-  "\\partial",
-  "\\perp",
-  "\\perthousand",
-  "\\phantom{#}",
-  "\\phi",
-  "\\Phi",
-  "\\pi",
-  "\\Pi",
-  "\\pitchfork",
-  "\\pm",
-  "\\pmb{#}",
-  "\\pmod{#}",
-  "\\pod{#}",
-  "\\Pr",
-  "\\prec",
-  "\\precapprox",
-  "\\preccurlyeq",
-  "\\preceq",
-  "\\precnapprox",
-  "\\precneqq",
-  "\\precnsim",
-  "\\precsim",
-  "\\prescript{#}{#}{#}",
-  "\\prime",
-  "\\prod",
-  "\\prod^{#}_{#}",
-  "\\projlim",
-  "\\propto",
-  "\\psi",
-  "\\Psi",
-  "\\qquad",
-  "\\quad",
-  "\\rangle",
-  "\\rbrace",
-  "\\rbrack",
-  "\\rceil",
-  "\\Re",
-  "\\ref{#}",
-  "\\refeq{#}",
-  "\\renewcommand{#}{#}",
-  "\\renewenvironment{#}{#}{#}",
-  "\\renewtagform{#}{#}{#}",
-  "\\restriction",
-  "\\rfloor",
-  "\\rgroup",
-  "\\rhd",
-  "\\rho",
-  "\\Rightarrow",
-  "\\rightarrow",
-  "\\rightarrowtail",
-  "\\rightharpoondown",
-  "\\rightharpoonup",
-  "\\rightleftarrows",
-  "\\rightleftharpoons",
-  "\\rightrightarrows",
-  "\\rightsquigarrow",
-  "\\rightthreetimes",
-  "\\risingdotseq",
-  "\\rlap{#}",
-  "\\rm",
-  "\\rmoustache",
-  "\\rparen",
-  "\\Rrightarrow",
-  "\\Rsh",
-  "\\rtimes",
-  "\\rvert",
-  "\\rVert",
-  "\\S",
-  "\\scr",
-  "\\scriptscriptstyle",
-  "\\scriptsize",
-  "\\scriptstyle",
-  "\\searrow",
-  "\\sec",
-  "\\set{#}",
-  "\\Set{#}",
-  "\\setminus",
-  "\\sf",
-  "\\sharp",
-  "\\shortmid",
-  "\\shortparallel",
-  "\\sideset{#}{#}{#}",
-  "\\sigma",
-  "\\Sigma",
-  "\\sim",
-  "\\simeq",
-  "\\sin",
-  "\\sinh",
-  "\\skew{#}{#}{#}",
-  "\\SkipLimits",
-  "\\small",
-  "\\smallfrown",
-  "\\smallint",
-  "\\smallsetminus",
-  "\\smallsmile",
-  "\\smash{#}",
-  "\\smile",
-  "\\space",
-  "\\spadesuit",
-  "\\sphericalangle",
-  "\\splitdfrac{#}{#}",
-  "\\splitfrac{#}{#}",
-  "\\sqcap",
-  "\\sqcup",
-  "\\sqrt{#}",
-  "\\sqsubset",
-  "\\sqsubseteq",
-  "\\sqsupset",
-  "\\sqsupseteq",
-  "\\square",
-  "\\stackbin{#}{#}",
-  "\\stackrel{#}{#}",
-  "\\star",
-  "\\strut",
-  "\\style{#}{#}",
-  "\\subset",
-  "\\Subset",
-  "\\subseteq",
-  "\\subseteqq",
-  "\\subsetneq",
-  "\\subsetneqq",
-  "\\substack{#}",
-  "\\succ",
-  "\\succapprox",
-  "\\succcurlyeq",
-  "\\succeq",
-  "\\succnapprox",
-  "\\succneqq",
-  "\\succnsim",
-  "\\succsim",
-  "\\sum",
-  "\\sum^{#}_{#}",
-  "\\sup",
-  "\\supset",
-  "\\Supset",
-  "\\supseteq",
-  "\\supseteqq",
-  "\\supsetneq",
-  "\\supsetneqq",
-  "\\surd",
-  "\\swarrow",
-  "\\symbb{#}",
-  "\\symbf{#}",
-  "\\symbfcal{#}",
-  "\\symbffrak{#}",
-  "\\symbfit{#}",
-  "\\symbfscr{#}",
-  "\\symbfsf{#}",
-  "\\symbfsfit{#}",
-  "\\symbfsfup{#}",
-  "\\symbfup{#}",
-  "\\symcal{#}",
-  "\\symfrak{#}",
-  "\\symit{#}",
-  "\\symnormal{#}",
-  "\\symrm{#}",
-  "\\symscr{#}",
-  "\\symsf{#}",
-  "\\symsfit{#}",
-  "\\symsfup{#}",
-  "\\symtt{#}",
-  "\\symup{#}",
-  "\\tag{#}",
-  "\\tan",
-  "\\tanh",
-  "\\tau",
-  "\\tbinom{#}{#}",
-  "\\TeX",
-  "\\text{#}",
-  "\\textacutedbl",
-  "\\textasciiacute",
-  "\\textasciibreve",
-  "\\textasciicaron",
-  "\\textasciicircum",
-  "\\textasciidieresis",
-  "\\textasciimacron",
-  "\\textasciitilde",
-  "\\textasteriskcentered",
-  "\\textbackslash",
-  "\\textbaht",
-  "\\textbar",
-  "\\textbardbl",
-  "\\textbf{#}",
-  "\\textbigcircle",
-  "\\textblank",
-  "\\textborn",
-  "\\textbraceleft",
-  "\\textbraceright",
-  "\\textbrokenbar",
-  "\\textbullet",
-  "\\textcelsius",
-  "\\textcent",
-  "\\textcentoldstyle",
-  "\\textcircledP",
-  "\\textclap{#}",
-  "\\textcolonmonetary",
-  "\\textcolor{#}{#}",
-  "\\textcompwordmark",
-  "\\textcopyleft",
-  "\\textcopyright",
-  "\\textcurrency",
-  "\\textdagger",
-  "\\textdaggerdbl",
-  "\\textdegree",
-  "\\textdied",
-  "\\textdiscount",
-  "\\textdiv",
-  "\\textdivorced",
-  "\\textdollar",
-  "\\textdollaroldstyle",
-  "\\textdong",
-  "\\textdownarrow",
-  "\\texteightoldstyle",
-  "\\textellipsis",
-  "\\textemdash",
-  "\\textendash",
-  "\\textestimated",
-  "\\texteuro",
-  "\\textexclamdown",
-  "\\textfiveoldstyle",
-  "\\textflorin",
-  "\\textfouroldstyle",
-  "\\textfractionsolidus",
-  "\\textgravedbl",
-  "\\textgreater",
-  "\\textguarani",
-  "\\textinterrobang",
-  "\\textinterrobangdown",
-  "\\textit{#}",
-  "\\textlangle",
-  "\\textlbrackdbl",
-  "\\textleftarrow",
-  "\\textless",
-  "\\textlira",
-  "\\textllap{#}",
-  "\\textlnot",
-  "\\textlquill",
-  "\\textmarried",
-  "\\textmho",
-  "\\textminus",
-  "\\textmu",
-  "\\textmusicalnote",
-  "\\textnaira",
-  "\\textnineoldstyle",
-  "\\textnormal{#}",
-  "\\textnumero",
-  "\\textohm",
-  "\\textonehalf",
-  "\\textoneoldstyle",
-  "\\textonequarter",
-  "\\textonesuperior",
-  "\\textopenbullet",
-  "\\textordfeminine",
-  "\\textordmasculine",
-  "\\textparagraph",
-  "\\textperiodcentered",
-  "\\textpertenthousand",
-  "\\textperthousand",
-  "\\textpeso",
-  "\\textpm",
-  "\\textquestiondown",
-  "\\textquotedblleft",
-  "\\textquotedblright",
-  "\\textquoteleft",
-  "\\textquoteright",
-  "\\textrangle",
-  "\\textrbrackdbl",
-  "\\textrecipe",
-  "\\textreferencemark",
-  "\\textregistered",
-  "\\textrightarrow",
-  "\\textrlap{#}",
-  "\\textrm{#}",
-  "\\textrquill",
-  "\\textsection",
-  "\\textservicemark",
-  "\\textsevenoldstyle",
-  "\\textsf{#}",
-  "\\textsixoldstyle",
-  "\\textsterling",
-  "\\textstyle",
-  "\\textsurd",
-  "\\textthreeoldstyle",
-  "\\textthreequarters",
-  "\\textthreesuperior",
-  "\\texttildelow",
-  "\\texttimes",
-  "\\texttip{#}{#}",
-  "\\texttrademark",
-  "\\texttt{#}",
-  "\\texttwooldstyle",
-  "\\texttwosuperior",
-  "\\textunderscore",
-  "\\textup{#}",
-  "\\textuparrow",
-  "\\textvisiblespace",
-  "\\textwon",
-  "\\textyen",
-  "\\textzerooldstyle",
-  "\\tfrac{#}{#}",
-  "\\therefore",
-  "\\theta",
-  "\\Theta",
-  "\\thickapprox",
-  "\\thicksim",
-  "\\thinspace",
-  "\\tilde{#}",
-  "\\times",
-  "\\tiny",
-  "\\Tiny",
-  "\\to",
-  "\\top",
-  "\\triangle",
-  "\\triangledown",
-  "\\triangleleft",
-  "\\trianglelefteq",
-  "\\triangleq",
-  "\\triangleright",
-  "\\trianglerighteq",
-  "\\tripledash",
-  "\\tt",
-  "\\twoheadleftarrow",
-  "\\twoheadrightarrow",
-  "\\ulcorner",
-  "\\underbrace{#}",
-  "\\underbracket{#}",
-  "\\underleftarrow{#}",
-  "\\underleftrightarrow{#}",
-  "\\underline{#}",
-  "\\underparen{#}",
-  "\\underrightarrow{#}",
-  "\\underset{#}{#}",
-  "\\unicode{#}",
-  "\\unlhd",
-  "\\unrhd",
-  "\\upalpha",
-  "\\uparrow",
-  "\\Uparrow",
-  "\\upbeta",
-  "\\upchi",
-  "\\updelta",
-  "\\Updelta",
-  "\\updownarrow",
-  "\\Updownarrow",
-  "\\upepsilon",
-  "\\upeta",
-  "\\upgamma",
-  "\\Upgamma",
-  "\\upharpoonleft",
-  "\\upharpoonright",
-  "\\upiota",
-  "\\upkappa",
-  "\\uplambda",
-  "\\Uplambda",
-  "\\uplus",
-  "\\upmu",
-  "\\upnu",
-  "\\upomega",
-  "\\Upomega",
-  "\\upomicron",
-  "\\upphi",
-  "\\Upphi",
-  "\\uppi",
-  "\\Uppi",
-  "\\uppsi",
-  "\\Uppsi",
-  "\\uprho",
-  "\\upsigma",
-  "\\Upsigma",
-  "\\upsilon",
-  "\\Upsilon",
-  "\\uptau",
-  "\\uptheta",
-  "\\Uptheta",
-  "\\upuparrows",
-  "\\upupsilon",
-  "\\Upupsilon",
-  "\\upvarepsilon",
-  "\\upvarphi",
-  "\\upvarpi",
-  "\\upvarrho",
-  "\\upvarsigma",
-  "\\upvartheta",
-  "\\upxi",
-  "\\Upxi",
-  "\\upzeta",
-  "\\urcorner",
-  "\\usetagform{#}",
-  "\\varDelta",
-  "\\varepsilon",
-  "\\varGamma",
-  "\\varinjlim",
-  "\\varkappa",
-  "\\varLambda",
-  "\\varliminf",
-  "\\varlimsup",
-  "\\varnothing",
-  "\\varOmega",
-  "\\varphi",
-  "\\varPhi",
-  "\\varpi",
-  "\\varPi",
-  "\\varprojlim",
-  "\\varpropto",
-  "\\varPsi",
-  "\\varrho",
-  "\\varsigma",
-  "\\varSigma",
-  "\\varsubsetneq",
-  "\\varsubsetneqq",
-  "\\varsupsetneq",
-  "\\varsupsetneqq",
-  "\\vartheta",
-  "\\varTheta",
-  "\\vartriangle",
-  "\\vartriangleleft",
-  "\\vartriangleright",
-  "\\varUpsilon",
-  "\\varXi",
-  "\\vcenter{#}",
-  "\\vdash",
-  "\\vDash",
-  "\\Vdash",
-  "\\vdots",
-  "\\vec{#}",
-  "\\vee",
-  "\\veebar",
-  "\\Vert",
-  "\\vert",
-  "\\vphantom{#}",
-  "\\Vvdash",
-  "\\wedge",
-  "\\widehat{#}",
-  "\\widetilde{#}",
-  "\\wp",
-  "\\wr",
-  "\\xcancel{#}",
-  "\\xhookleftarrow{#}",
-  "\\xhookrightarrow{#}",
-  "\\xi",
-  "\\Xi",
-  "\\xleftarrow{#}",
-  "\\xLeftarrow{#}",
-  "\\xleftharpoondown{#}",
-  "\\xleftharpoonup{#}",
-  "\\xleftrightarrow{#}",
-  "\\xLeftrightarrow{#}",
-  "\\xleftrightharpoons{#}",
-  "\\xLeftrightharpoons{#}",
-  "\\xlongequal{#}",
-  "\\xmapsto{#}",
-  "\\xmathstrut{#}",
-  "\\xrightarrow{#}",
-  "\\xRightarrow{#}",
-  "\\xrightharpoondown{#}",
-  "\\xrightharpoonup{#}",
-  "\\xrightleftharpoons{#}",
-  "\\xRightleftharpoons{#}",
-  "\\xtofrom{#}",
-  "\\xtwoheadleftarrow{#}",
-  "\\xtwoheadrightarrow{#}",
-  "\\yen",
-  "\\zeta"
-].sort((a, b) => getSuggestionDisplayName(a).length - getSuggestionDisplayName(b).length);
+function generateDefaultLatexCommands() {
+  return [
+    ...generateEnvironments([
+      { name: "align", paramCount: 0, hasStarVersion: true },
+      { name: "alignat", paramCount: 1, hasStarVersion: true },
+      { name: "aligned", paramCount: 0, hasStarVersion: false },
+      { name: "alignedat", paramCount: 1, hasStarVersion: false },
+      { name: "array", paramCount: 1, hasStarVersion: false },
+      { name: "bmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "Bmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "bsmallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "Bsmallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "cases", paramCount: 0, hasStarVersion: true },
+      { name: "crampedsubarray", paramCount: 1, hasStarVersion: false },
+      { name: "dcases", paramCount: 0, hasStarVersion: true },
+      { name: "drcases", paramCount: 0, hasStarVersion: true },
+      { name: "empheq", paramCount: 2, hasStarVersion: false },
+      { name: "eqnarray", paramCount: 0, hasStarVersion: true },
+      { name: "equation", paramCount: 0, hasStarVersion: true },
+      { name: "flalign", paramCount: 0, hasStarVersion: true },
+      { name: "gather", paramCount: 0, hasStarVersion: true },
+      { name: "gathered", paramCount: 0, hasStarVersion: false },
+      { name: "lgathered", paramCount: 0, hasStarVersion: false },
+      { name: "matrix", paramCount: 0, hasStarVersion: true },
+      { name: "multiline", paramCount: 0, hasStarVersion: true },
+      { name: "multilined", paramCount: 0, hasStarVersion: false },
+      { name: "numcases", paramCount: 1, hasStarVersion: false },
+      { name: "pmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "prooftree", paramCount: 0, hasStarVersion: false },
+      { name: "psmallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "rcases", paramCount: 0, hasStarVersion: true },
+      { name: "rgathered", paramCount: 0, hasStarVersion: false },
+      { name: "smallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "split", paramCount: 0, hasStarVersion: false },
+      { name: "spreadlines", paramCount: 1, hasStarVersion: false },
+      { name: "subarray", paramCount: 1, hasStarVersion: false },
+      { name: "subnumcases", paramCount: 1, hasStarVersion: false },
+      { name: "vmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "Vmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "vsmallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "Vsmallmatrix", paramCount: 0, hasStarVersion: true },
+      { name: "xalignat", paramCount: 1, hasStarVersion: true },
+      { name: "xxalignat", paramCount: 1, hasStarVersion: false }
+    ]),
+    "\\above{#}{#}",
+    "\\verb|#|",
+    "\\left\\",
+    "\\right\\",
+    "\\acute{#}",
+    "\\aleph",
+    "\\alpha",
+    "\\amalg",
+    "\\And",
+    "\\angle",
+    "\\approx",
+    "\\approxeq",
+    "\\arccos",
+    "\\arcsin",
+    "\\arctan",
+    "\\arg",
+    "\\array{#}",
+    "\\arrowvert",
+    "\\Arrowvert",
+    "\\ast",
+    "\\asymp",
+    "\\atop",
+    "\\backepsilon",
+    "\\backprime",
+    "\\backsim",
+    "\\backsimeq",
+    "\\backslash",
+    "\\bar{#}",
+    "\\barwedge",
+    "\\Bbb{#}",
+    "\\Bbbk",
+    "\\bbFont",
+    "\\bbox{#}",
+    "\\bcancel{#}",
+    "\\because",
+    "\\beta",
+    "\\beth",
+    "\\between",
+    "\\bf",
+    "\\bigcap",
+    "\\bigcirc",
+    "\\bigcup",
+    "\\bigodot",
+    "\\bigoplus",
+    "\\bigotimes",
+    "\\bigsqcup",
+    "\\bigstar",
+    "\\bigtimes",
+    "\\bigtriangledown",
+    "\\bigtriangleup",
+    "\\biguplus",
+    "\\bigvee",
+    "\\bigwedge",
+    "\\binom{#}{#}",
+    "\\blacklozenge",
+    "\\blacksquare",
+    "\\blacktriangle",
+    "\\blacktriangledown",
+    "\\blacktriangleleft",
+    "\\blacktriangleright",
+    "\\bmod",
+    "\\boldsymbol{#}",
+    "\\bot",
+    "\\bowtie",
+    "\\Box",
+    "\\boxdot",
+    "\\boxed{#}",
+    "\\boxminus",
+    "\\boxplus",
+    "\\boxtimes",
+    "\\bra{#}",
+    "\\Bra{#}",
+    "\\brace",
+    "\\bracevert",
+    "\\brack",
+    "\\braket{#}",
+    "\\Braket{#}",
+    "\\breve{#}",
+    "\\bullet",
+    "\\bumpeq",
+    "\\Bumpeq",
+    "\\cal",
+    "\\cancel{#}",
+    "\\cancelto{#}{#}",
+    "\\cap",
+    "\\Cap",
+    "\\cases{#}",
+    "\\cdot",
+    "\\cdotp",
+    "\\cdots",
+    "\\celsius",
+    "\\centercolon",
+    "\\centerdot",
+    "\\centernot{#}",
+    "\\centerOver{#}{#}",
+    "\\cfrac{#}{#}",
+    "\\check{#}",
+    "\\checkmark",
+    "\\chi",
+    "\\choose",
+    "\\circ",
+    "\\circeq",
+    "\\circlearrowleft",
+    "\\circlearrowright",
+    "\\circledast",
+    "\\circledcirc",
+    "\\circleddash",
+    "\\circledR",
+    "\\circledS",
+    "\\clap{#}",
+    "\\class{#}{#}",
+    "\\clubsuit",
+    "\\colon",
+    "\\colonapprox",
+    "\\Colonapprox",
+    "\\coloneq",
+    "\\Coloneq",
+    "\\coloneqq",
+    "\\Coloneqq",
+    "\\colonsim",
+    "\\Colonsim",
+    "\\color{#}",
+    "\\colorbox{#}{#}",
+    "\\complement",
+    "\\cong",
+    "\\coprod",
+    "\\cos",
+    "\\cosh",
+    "\\cot",
+    "\\coth",
+    "\\cramped{#}",
+    "\\crampedclap{#}",
+    "\\crampedllap{#}",
+    "\\crampedrlap{#}",
+    "\\crampedsubstack{#}",
+    "\\csc",
+    "\\cssId{#}{#}",
+    "\\cup",
+    "\\Cup",
+    "\\curlyeqprec",
+    "\\curlyeqsucc",
+    "\\curlyvee",
+    "\\curlywedge",
+    "\\curvearrowleft",
+    "\\curvearrowright",
+    "\\dagger",
+    "\\daleth",
+    "\\dashleftarrow",
+    "\\dashrightarrow",
+    "\\dashv",
+    "\\dbinom{#}{#}",
+    "\\dblcolon",
+    "\\ddagger",
+    "\\ddddot{#}",
+    "\\dddot{#}",
+    "\\ddot{#}",
+    "\\ddots",
+    "\\DeclareMathOperator{#}{#}",
+    "\\DeclarePairedDelimiters{#}{#}{#}",
+    "\\DeclarePairedDelimitersX{#}{#}{#}{#}",
+    "\\DeclarePairedDelimitersXPP{#}{#}{#}{#}{#}{#}",
+    "\\deg",
+    "\\degree",
+    "\\delta",
+    "\\Delta",
+    "\\det",
+    "\\dfrac{#}{#}",
+    "\\diagdown",
+    "\\diagup",
+    "\\diamond",
+    "\\Diamond",
+    "\\diamondsuit",
+    "\\digamma",
+    "\\dim",
+    "\\displaylines{#}",
+    "\\displaystyle",
+    "\\div",
+    "\\divideontimes",
+    "\\divsymbol",
+    "\\dot{#}",
+    "\\doteq",
+    "\\Doteq",
+    "\\doteqdot",
+    "\\dotplus",
+    "\\dots",
+    "\\dotsb",
+    "\\dotsc",
+    "\\dotsi",
+    "\\dotsm",
+    "\\dotso",
+    "\\doublebarwedge",
+    "\\doublecap",
+    "\\doublecup",
+    "\\downarrow",
+    "\\Downarrow",
+    "\\downdownarrows",
+    "\\downharpoonleft",
+    "\\downharpoonright",
+    "\\ell",
+    "\\empheqbiglangle",
+    "\\empheqbiglbrace",
+    "\\empheqbiglbrack",
+    "\\empheqbiglceil",
+    "\\empheqbiglfloor",
+    "\\empheqbiglparen",
+    "\\empheqbiglvert",
+    "\\empheqbiglVert",
+    "\\empheqbigrangle",
+    "\\empheqbigrbrace",
+    "\\empheqbigrbrack",
+    "\\empheqbigrceil",
+    "\\empheqbigrfloor",
+    "\\empheqbigrparen",
+    "\\empheqbigrvert",
+    "\\empheqbigrVert",
+    "\\empheqlangle",
+    "\\empheqlbrace",
+    "\\empheqlbrack",
+    "\\empheqlceil",
+    "\\empheqlfloor",
+    "\\empheqlparen",
+    "\\empheqlvert",
+    "\\empheqlVert",
+    "\\empheqrangle",
+    "\\empheqrbrace",
+    "\\empheqrbrack",
+    "\\empheqrceil",
+    "\\empheqrfloor",
+    "\\empheqrparen",
+    "\\empheqrvert",
+    "\\empheqrVert",
+    "\\emptyset",
+    "\\enclose{#}{#}",
+    "\\enspace",
+    "\\epsilon",
+    "\\eqalign{#}",
+    "\\eqalignno{#}",
+    "\\eqcirc",
+    "\\eqcolon",
+    "\\Eqcolon",
+    "\\eqqcolon",
+    "\\Eqqcolon",
+    "\\eqref{#}",
+    "\\eqsim",
+    "\\eqslantgtr",
+    "\\eqslantless",
+    "\\equiv",
+    "\\eta",
+    "\\eth",
+    "\\exists",
+    "\\exp",
+    "\\fallingdotseq",
+    "\\fbox{#}",
+    "\\fCenter",
+    "\\fcolorbox{#}{#}{#}",
+    "\\Finv",
+    "\\flat",
+    "\\forall",
+    "\\frac{#}{#}",
+    "\\frak",
+    "\\framebox{#}",
+    "\\frown",
+    "\\Game",
+    "\\gamma",
+    "\\Gamma",
+    "\\gcd",
+    "\\ge",
+    "\\geq",
+    "\\geqq",
+    "\\geqslant",
+    "\\gets",
+    "\\gg",
+    "\\ggg",
+    "\\gggtr",
+    "\\gimel",
+    "\\gnapprox",
+    "\\gneq",
+    "\\gneqq",
+    "\\gnsim",
+    "\\grave{#}",
+    "\\gt",
+    "\\gtrapprox",
+    "\\gtrdot",
+    "\\gtreqless",
+    "\\gtreqqless",
+    "\\gtrless",
+    "\\gtrsim",
+    "\\gvertneqq",
+    "\\hat{#}",
+    "\\hbar",
+    "\\hbox{#}",
+    "\\heartsuit",
+    "\\hline",
+    "\\hom",
+    "\\hookleftarrow",
+    "\\hookrightarrow",
+    "\\hphantom{#}",
+    "\\href{#}{#}",
+    "\\hslash",
+    "\\huge",
+    "\\Huge",
+    "\\idotsint",
+    "\\iff",
+    "\\iiiint",
+    "\\iiint",
+    "\\iint",
+    "\\Im",
+    "\\imath",
+    "\\impliedby",
+    "\\implies",
+    "\\in",
+    "\\inf",
+    "\\infty",
+    "\\injlim",
+    "\\int",
+    "\\int^{#}_{#}",
+    "\\intercal",
+    "\\intop",
+    "\\iota",
+    "\\it",
+    "\\jmath",
+    "\\Join",
+    "\\kappa",
+    "\\ker",
+    "\\ket{#}",
+    "\\Ket{#}",
+    "\\ketbra{#}{#}",
+    "\\Ketbra{#}{#}",
+    "\\label{#}",
+    "\\lambda",
+    "\\Lambda",
+    "\\land",
+    "\\langle",
+    "\\large",
+    "\\Large",
+    "\\LARGE",
+    "\\LaTeX",
+    "\\lbrace",
+    "\\lbrack",
+    "\\lceil",
+    "\\ldots",
+    "\\ldotp",
+    "\\le",
+    "\\leadsto",
+    "\\Leftarrow",
+    "\\leftarrow",
+    "\\leftarrowtail",
+    "\\leftharpoondown",
+    "\\leftharpoonup",
+    "\\leftleftarrows",
+    "\\Leftrightarrow",
+    "\\leftrightarrow",
+    "\\leftrightarrows",
+    "\\leftrightharpoons",
+    "\\leftrightsquigarrow",
+    "\\leftthreetimes",
+    "\\leq",
+    "\\leqalignno{#}",
+    "\\leqq",
+    "\\leqslant",
+    "\\lessapprox",
+    "\\lessdot",
+    "\\lesseqgtr",
+    "\\lesseqqgtr",
+    "\\lessgtr",
+    "\\lesssim",
+    "\\lfloor",
+    "\\lg",
+    "\\lgroup",
+    "\\lhd",
+    "\\lim",
+    "\\lim_{#}",
+    "\\liminf",
+    "\\limsup",
+    "\\ll",
+    "\\llap{#}",
+    "\\llcorner",
+    "\\Lleftarrow",
+    "\\lll",
+    "\\llless",
+    "\\lmoustache",
+    "\\ln",
+    "\\lnapprox",
+    "\\lneq",
+    "\\lneqq",
+    "\\lnot",
+    "\\lnsim",
+    "\\log",
+    "\\longleftarrow",
+    "\\Longleftarrow",
+    "\\Longleftrightarrow",
+    "\\longleftrightarrow",
+    "\\longleftrightarrows",
+    "\\longLeftrightharpoons",
+    "\\longmapsto",
+    "\\longrightarrow",
+    "\\Longrightarrow",
+    "\\longrightleftharpoons",
+    "\\longRightleftharpoons",
+    "\\looparrowleft",
+    "\\looparrowright",
+    "\\lor",
+    "\\lozenge",
+    "\\lparen",
+    "\\lrcorner",
+    "\\Lsh",
+    "\\lt",
+    "\\ltimes",
+    "\\lvert",
+    "\\lVert",
+    "\\lvertneqq",
+    "\\maltese",
+    "\\mapsto",
+    "\\mathbb{#}",
+    "\\mathbb{R}",
+    "\\mathbb{N}",
+    "\\mathbb{C}",
+    "\\mathbb{Z}",
+    "\\mathbb{Q}",
+    "\\mathbf{#}",
+    "\\mathbfcal{#}",
+    "\\mathbffrak{#}",
+    "\\mathbfit{#}",
+    "\\mathbfscr{#}",
+    "\\mathbfsf{#}",
+    "\\mathbfsfit{#}",
+    "\\mathbfsfup{#}",
+    "\\mathbfup{#}",
+    "\\mathbin{#}",
+    "\\mathcal{#}",
+    "\\mathchoice{#}{#}{#}{#}",
+    "\\mathclap{#}",
+    "\\mathclose{#}",
+    "\\mathfrak{#}",
+    "\\mathinner{#}",
+    "\\mathit{#}",
+    "\\mathllap{#}",
+    "\\mathmakebox{#}",
+    "\\mathmbox{#}",
+    "\\mathnormal{#}",
+    "\\mathop{#}",
+    "\\mathopen{#}",
+    "\\mathord{#}",
+    "\\mathpunct{#}",
+    "\\mathrel{#}",
+    "\\mathring{#}",
+    "\\mathrlap{#}",
+    "\\mathrm{#}",
+    "\\mathscr{#}",
+    "\\mathsf{#}",
+    "\\mathsfit{#}",
+    "\\mathsfup{#}",
+    "\\mathstrut",
+    "\\mathtip{#}{#}",
+    "\\mathtt{#}",
+    "\\mathup{#}",
+    "\\max",
+    "\\mbox{#}",
+    "\\measuredangle",
+    "\\mho",
+    "\\micro",
+    "\\mid",
+    "\\min",
+    "\\mit",
+    "\\mod{#}",
+    "\\models",
+    "\\mp",
+    "\\MTThinColon",
+    "\\mu",
+    "\\multimap",
+    "\\nabla",
+    "\\natural",
+    "\\ncong",
+    "\\ndownarrow",
+    "\\ne",
+    "\\nearrow",
+    "\\neg",
+    "\\negmedspace",
+    "\\negthickspace",
+    "\\negthinspace",
+    "\\neq",
+    "\\newcommand{#}{#}",
+    "\\newenvironment{#}{#}{#}",
+    "\\newline",
+    "\\newtagform{#}{#}{#}",
+    "\\nexists",
+    "\\ngeq",
+    "\\ngeqq",
+    "\\ngeqslant",
+    "\\ngtr",
+    "\\ni",
+    "\\nleftarrow",
+    "\\nLeftarrow",
+    "\\nleftrightarrow",
+    "\\nLeftrightarrow",
+    "\\nleq",
+    "\\nleqq",
+    "\\nleqslant",
+    "\\nless",
+    "\\nmid",
+    "\\nobreakspace",
+    "\\nonscript",
+    "\\nonumber",
+    "\\normalsize",
+    "\\not",
+    "\\notag",
+    "\\notChar",
+    "\\notin",
+    "\\nparallel",
+    "\\nprec",
+    "\\npreceq",
+    "\\nrightarrow",
+    "\\nRightarrow",
+    "\\nshortmid",
+    "\\nshortparallel",
+    "\\nsim",
+    "\\nsubseteq",
+    "\\nsubseteqq",
+    "\\nsucc",
+    "\\nsucceq",
+    "\\nsupseteq",
+    "\\nsupseteqq",
+    "\\ntriangleleft",
+    "\\ntrianglelefteq",
+    "\\ntriangleright",
+    "\\ntrianglerighteq",
+    "\\nu",
+    "\\nuparrow",
+    "\\nvdash",
+    "\\nvDash",
+    "\\nVdash",
+    "\\nVDash",
+    "\\nwarrow",
+    "\\odot",
+    "\\ohm",
+    "\\oint",
+    "\\oldstyle",
+    "\\omega",
+    "\\Omega",
+    "\\omicron",
+    "\\ominus",
+    "\\operatorname{#}",
+    "\\oplus",
+    "\\ordinarycolon",
+    "\\oslash",
+    "\\otimes",
+    "\\over",
+    "\\overbrace{#}",
+    "\\overbracket{#}",
+    "\\overleftarrow{#}",
+    "\\overleftrightarrow{#}",
+    "\\overline{#}",
+    "\\overparen{#}",
+    "\\overrightarrow{#}",
+    "\\overset{#}{#}",
+    "\\overunderset{#}{#}{#}",
+    "\\owns",
+    "\\parallel",
+    "\\partial",
+    "\\perp",
+    "\\perthousand",
+    "\\phantom{#}",
+    "\\phi",
+    "\\Phi",
+    "\\pi",
+    "\\Pi",
+    "\\pitchfork",
+    "\\pm",
+    "\\pmb{#}",
+    "\\pmod{#}",
+    "\\pod{#}",
+    "\\Pr",
+    "\\prec",
+    "\\precapprox",
+    "\\preccurlyeq",
+    "\\preceq",
+    "\\precnapprox",
+    "\\precneqq",
+    "\\precnsim",
+    "\\precsim",
+    "\\prescript{#}{#}{#}",
+    "\\prime",
+    "\\prod",
+    "\\prod^{#}_{#}",
+    "\\projlim",
+    "\\propto",
+    "\\psi",
+    "\\Psi",
+    "\\qquad",
+    "\\quad",
+    "\\rangle",
+    "\\rbrace",
+    "\\rbrack",
+    "\\rceil",
+    "\\Re",
+    "\\ref{#}",
+    "\\refeq{#}",
+    "\\renewcommand{#}{#}",
+    "\\renewenvironment{#}{#}{#}",
+    "\\renewtagform{#}{#}{#}",
+    "\\restriction",
+    "\\rfloor",
+    "\\rgroup",
+    "\\rhd",
+    "\\rho",
+    "\\Rightarrow",
+    "\\rightarrow",
+    "\\rightarrowtail",
+    "\\rightharpoondown",
+    "\\rightharpoonup",
+    "\\rightleftarrows",
+    "\\rightleftharpoons",
+    "\\rightrightarrows",
+    "\\rightsquigarrow",
+    "\\rightthreetimes",
+    "\\risingdotseq",
+    "\\rlap{#}",
+    "\\rm",
+    "\\rmoustache",
+    "\\rparen",
+    "\\Rrightarrow",
+    "\\Rsh",
+    "\\rtimes",
+    "\\rvert",
+    "\\rVert",
+    "\\S",
+    "\\scr",
+    "\\scriptscriptstyle",
+    "\\scriptsize",
+    "\\scriptstyle",
+    "\\searrow",
+    "\\sec",
+    "\\set{#}",
+    "\\Set{#}",
+    "\\setminus",
+    "\\sf",
+    "\\sharp",
+    "\\shortmid",
+    "\\shortparallel",
+    "\\sideset{#}{#}{#}",
+    "\\sigma",
+    "\\Sigma",
+    "\\sim",
+    "\\simeq",
+    "\\sin",
+    "\\sinh",
+    "\\skew{#}{#}{#}",
+    "\\SkipLimits",
+    "\\small",
+    "\\smallfrown",
+    "\\smallint",
+    "\\smallsetminus",
+    "\\smallsmile",
+    "\\smash{#}",
+    "\\smile",
+    "\\space",
+    "\\spadesuit",
+    "\\sphericalangle",
+    "\\splitdfrac{#}{#}",
+    "\\splitfrac{#}{#}",
+    "\\sqcap",
+    "\\sqcup",
+    "\\sqrt{#}",
+    "\\sqsubset",
+    "\\sqsubseteq",
+    "\\sqsupset",
+    "\\sqsupseteq",
+    "\\square",
+    "\\stackbin{#}{#}",
+    "\\stackrel{#}{#}",
+    "\\star",
+    "\\strut",
+    "\\style{#}{#}",
+    "\\subset",
+    "\\Subset",
+    "\\subseteq",
+    "\\subseteqq",
+    "\\subsetneq",
+    "\\subsetneqq",
+    "\\substack{#}",
+    "\\succ",
+    "\\succapprox",
+    "\\succcurlyeq",
+    "\\succeq",
+    "\\succnapprox",
+    "\\succneqq",
+    "\\succnsim",
+    "\\succsim",
+    "\\sum",
+    "\\sum^{#}_{#}",
+    "\\sup",
+    "\\supset",
+    "\\Supset",
+    "\\supseteq",
+    "\\supseteqq",
+    "\\supsetneq",
+    "\\supsetneqq",
+    "\\surd",
+    "\\swarrow",
+    "\\symbb{#}",
+    "\\symbf{#}",
+    "\\symbfcal{#}",
+    "\\symbffrak{#}",
+    "\\symbfit{#}",
+    "\\symbfscr{#}",
+    "\\symbfsf{#}",
+    "\\symbfsfit{#}",
+    "\\symbfsfup{#}",
+    "\\symbfup{#}",
+    "\\symcal{#}",
+    "\\symfrak{#}",
+    "\\symit{#}",
+    "\\symnormal{#}",
+    "\\symrm{#}",
+    "\\symscr{#}",
+    "\\symsf{#}",
+    "\\symsfit{#}",
+    "\\symsfup{#}",
+    "\\symtt{#}",
+    "\\symup{#}",
+    "\\tag{#}",
+    "\\tan",
+    "\\tanh",
+    "\\tau",
+    "\\tbinom{#}{#}",
+    "\\TeX",
+    "\\text{#}",
+    "\\textacutedbl",
+    "\\textasciiacute",
+    "\\textasciibreve",
+    "\\textasciicaron",
+    "\\textasciicircum",
+    "\\textasciidieresis",
+    "\\textasciimacron",
+    "\\textasciitilde",
+    "\\textasteriskcentered",
+    "\\textbackslash",
+    "\\textbaht",
+    "\\textbar",
+    "\\textbardbl",
+    "\\textbf{#}",
+    "\\textbigcircle",
+    "\\textblank",
+    "\\textborn",
+    "\\textbraceleft",
+    "\\textbraceright",
+    "\\textbrokenbar",
+    "\\textbullet",
+    "\\textcelsius",
+    "\\textcent",
+    "\\textcentoldstyle",
+    "\\textcircledP",
+    "\\textclap{#}",
+    "\\textcolonmonetary",
+    "\\textcolor{#}{#}",
+    "\\textcompwordmark",
+    "\\textcopyleft",
+    "\\textcopyright",
+    "\\textcurrency",
+    "\\textdagger",
+    "\\textdaggerdbl",
+    "\\textdegree",
+    "\\textdied",
+    "\\textdiscount",
+    "\\textdiv",
+    "\\textdivorced",
+    "\\textdollar",
+    "\\textdollaroldstyle",
+    "\\textdong",
+    "\\textdownarrow",
+    "\\texteightoldstyle",
+    "\\textellipsis",
+    "\\textemdash",
+    "\\textendash",
+    "\\textestimated",
+    "\\texteuro",
+    "\\textexclamdown",
+    "\\textfiveoldstyle",
+    "\\textflorin",
+    "\\textfouroldstyle",
+    "\\textfractionsolidus",
+    "\\textgravedbl",
+    "\\textgreater",
+    "\\textguarani",
+    "\\textinterrobang",
+    "\\textinterrobangdown",
+    "\\textit{#}",
+    "\\textlangle",
+    "\\textlbrackdbl",
+    "\\textleftarrow",
+    "\\textless",
+    "\\textlira",
+    "\\textllap{#}",
+    "\\textlnot",
+    "\\textlquill",
+    "\\textmarried",
+    "\\textmho",
+    "\\textminus",
+    "\\textmu",
+    "\\textmusicalnote",
+    "\\textnaira",
+    "\\textnineoldstyle",
+    "\\textnormal{#}",
+    "\\textnumero",
+    "\\textohm",
+    "\\textonehalf",
+    "\\textoneoldstyle",
+    "\\textonequarter",
+    "\\textonesuperior",
+    "\\textopenbullet",
+    "\\textordfeminine",
+    "\\textordmasculine",
+    "\\textparagraph",
+    "\\textperiodcentered",
+    "\\textpertenthousand",
+    "\\textperthousand",
+    "\\textpeso",
+    "\\textpm",
+    "\\textquestiondown",
+    "\\textquotedblleft",
+    "\\textquotedblright",
+    "\\textquoteleft",
+    "\\textquoteright",
+    "\\textrangle",
+    "\\textrbrackdbl",
+    "\\textrecipe",
+    "\\textreferencemark",
+    "\\textregistered",
+    "\\textrightarrow",
+    "\\textrlap{#}",
+    "\\textrm{#}",
+    "\\textrquill",
+    "\\textsection",
+    "\\textservicemark",
+    "\\textsevenoldstyle",
+    "\\textsf{#}",
+    "\\textsixoldstyle",
+    "\\textsterling",
+    "\\textstyle",
+    "\\textsurd",
+    "\\textthreeoldstyle",
+    "\\textthreequarters",
+    "\\textthreesuperior",
+    "\\texttildelow",
+    "\\texttimes",
+    "\\texttip{#}{#}",
+    "\\texttrademark",
+    "\\texttt{#}",
+    "\\texttwooldstyle",
+    "\\texttwosuperior",
+    "\\textunderscore",
+    "\\textup{#}",
+    "\\textuparrow",
+    "\\textvisiblespace",
+    "\\textwon",
+    "\\textyen",
+    "\\textzerooldstyle",
+    "\\tfrac{#}{#}",
+    "\\therefore",
+    "\\theta",
+    "\\Theta",
+    "\\thickapprox",
+    "\\thicksim",
+    "\\thinspace",
+    "\\tilde{#}",
+    "\\times",
+    "\\tiny",
+    "\\Tiny",
+    "\\to",
+    "\\top",
+    "\\triangle",
+    "\\triangledown",
+    "\\triangleleft",
+    "\\trianglelefteq",
+    "\\triangleq",
+    "\\triangleright",
+    "\\trianglerighteq",
+    "\\tripledash",
+    "\\tt",
+    "\\twoheadleftarrow",
+    "\\twoheadrightarrow",
+    "\\ulcorner",
+    "\\underbrace{#}",
+    "\\underbracket{#}",
+    "\\underleftarrow{#}",
+    "\\underleftrightarrow{#}",
+    "\\underline{#}",
+    "\\underparen{#}",
+    "\\underrightarrow{#}",
+    "\\underset{#}{#}",
+    "\\unicode{#}",
+    "\\unlhd",
+    "\\unrhd",
+    "\\upalpha",
+    "\\uparrow",
+    "\\Uparrow",
+    "\\upbeta",
+    "\\upchi",
+    "\\updelta",
+    "\\Updelta",
+    "\\updownarrow",
+    "\\Updownarrow",
+    "\\upepsilon",
+    "\\upeta",
+    "\\upgamma",
+    "\\Upgamma",
+    "\\upharpoonleft",
+    "\\upharpoonright",
+    "\\upiota",
+    "\\upkappa",
+    "\\uplambda",
+    "\\Uplambda",
+    "\\uplus",
+    "\\upmu",
+    "\\upnu",
+    "\\upomega",
+    "\\Upomega",
+    "\\upomicron",
+    "\\upphi",
+    "\\Upphi",
+    "\\uppi",
+    "\\Uppi",
+    "\\uppsi",
+    "\\Uppsi",
+    "\\uprho",
+    "\\upsigma",
+    "\\Upsigma",
+    "\\upsilon",
+    "\\Upsilon",
+    "\\uptau",
+    "\\uptheta",
+    "\\Uptheta",
+    "\\upuparrows",
+    "\\upupsilon",
+    "\\Upupsilon",
+    "\\upvarepsilon",
+    "\\upvarphi",
+    "\\upvarpi",
+    "\\upvarrho",
+    "\\upvarsigma",
+    "\\upvartheta",
+    "\\upxi",
+    "\\Upxi",
+    "\\upzeta",
+    "\\urcorner",
+    "\\usetagform{#}",
+    "\\varDelta",
+    "\\varepsilon",
+    "\\varGamma",
+    "\\varinjlim",
+    "\\varkappa",
+    "\\varLambda",
+    "\\varliminf",
+    "\\varlimsup",
+    "\\varnothing",
+    "\\varOmega",
+    "\\varphi",
+    "\\varPhi",
+    "\\varpi",
+    "\\varPi",
+    "\\varprojlim",
+    "\\varpropto",
+    "\\varPsi",
+    "\\varrho",
+    "\\varsigma",
+    "\\varSigma",
+    "\\varsubsetneq",
+    "\\varsubsetneqq",
+    "\\varsupsetneq",
+    "\\varsupsetneqq",
+    "\\vartheta",
+    "\\varTheta",
+    "\\vartriangle",
+    "\\vartriangleleft",
+    "\\vartriangleright",
+    "\\varUpsilon",
+    "\\varXi",
+    "\\vcenter{#}",
+    "\\vdash",
+    "\\vDash",
+    "\\Vdash",
+    "\\vdots",
+    "\\vec{#}",
+    "\\vee",
+    "\\veebar",
+    "\\Vert",
+    "\\vert",
+    "\\vphantom{#}",
+    "\\Vvdash",
+    "\\wedge",
+    "\\widehat{#}",
+    "\\widetilde{#}",
+    "\\wp",
+    "\\wr",
+    "\\xcancel{#}",
+    "\\xhookleftarrow{#}",
+    "\\xhookrightarrow{#}",
+    "\\xi",
+    "\\Xi",
+    "\\xleftarrow{#}",
+    "\\xLeftarrow{#}",
+    "\\xleftharpoondown{#}",
+    "\\xleftharpoonup{#}",
+    "\\xleftrightarrow{#}",
+    "\\xLeftrightarrow{#}",
+    "\\xleftrightharpoons{#}",
+    "\\xLeftrightharpoons{#}",
+    "\\xlongequal{#}",
+    "\\xmapsto{#}",
+    "\\xmathstrut{#}",
+    "\\xrightarrow{#}",
+    "\\xRightarrow{#}",
+    "\\xrightharpoondown{#}",
+    "\\xrightharpoonup{#}",
+    "\\xrightleftharpoons{#}",
+    "\\xRightleftharpoons{#}",
+    "\\xtofrom{#}",
+    "\\xtwoheadleftarrow{#}",
+    "\\xtwoheadrightarrow{#}",
+    "\\yen",
+    "\\zeta"
+  ];
+}
 
 // src/settings.ts
 var WordInsertionMode;
@@ -1472,20 +1501,16 @@ var WordInsertionMode;
   WordInsertionMode2["IGNORE_CASE_REPLACE"] = "Ignore-Case & Replace";
   WordInsertionMode2["IGNORE_CASE_APPEND"] = "Ignore-Case & Append";
 })(WordInsertionMode || (WordInsertionMode = {}));
-var InsertionKey;
-(function(InsertionKey2) {
-  InsertionKey2["ENTER"] = "Enter";
-  InsertionKey2["TAB"] = "Tab";
-})(InsertionKey || (InsertionKey = {}));
 var DEFAULT_SETTINGS = {
   characterRegex: "a-zA-Z\xF6\xE4\xFC\xD6\xC4\xDC\xDF",
   maxLookBackDistance: 50,
   minWordLength: 2,
   minWordTriggerLength: 3,
-  insertionKey: InsertionKey.ENTER,
   wordInsertionMode: WordInsertionMode.IGNORE_CASE_REPLACE,
   latexProviderEnabled: true,
   latexTriggerInCodeBlocks: true,
+  latexMinWordTriggerLength: 2,
+  latexIgnoreCase: false,
   fileScannerProviderEnabled: true,
   fileScannerScanCurrent: true,
   wordListProviderEnabled: true,
@@ -1661,10 +1686,10 @@ var ScannerSuggestionProvider = class extends DictionaryProvider {
 var FileScanner = new ScannerSuggestionProvider();
 
 // src/popup.ts
-var import_obsidian2 = __toModule(require("obsidian"));
+var import_obsidian3 = __toModule(require("obsidian"));
 
 // src/provider/front_matter_provider.ts
-var import_obsidian = __toModule(require("obsidian"));
+var import_obsidian2 = __toModule(require("obsidian"));
 var BASE_SUGGESTION = {
   displayName: "front-matter",
   replacement: "---\n~\n---",
@@ -1809,7 +1834,7 @@ var FrontMatterSuggestionProvider = class {
         keyCache.addEntry(key, prop);
       }
     }
-    const tags = (0, import_obsidian.getAllTags)(cache);
+    const tags = (0, import_obsidian2.getAllTags)(cache);
     if (tags && tags.length > 0)
       keyCache.addEntries("tags", tags.map((t) => t.substring(1)));
   }
@@ -1848,7 +1873,7 @@ var FrontMatter = new FrontMatterSuggestionProvider();
 
 // src/popup.ts
 var PROVIDERS = [FrontMatter, Latex, FileScanner, WordList];
-var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
+var SuggestionPopup = class extends import_obsidian3.EditorSuggest {
   constructor(app, settings, snippetManager) {
     super(app);
     var _a;
@@ -1856,8 +1881,7 @@ var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
     this.settings = settings;
     this.snippetManager = snippetManager;
     let self = this;
-    self.scope.unregister(self.scope.keys.find((k) => k.key === "Enter"));
-    this.setInsertionKey(settings.insertionKey);
+    self.scope.keys = [];
   }
   getSuggestions(context) {
     let suggestions = [];
@@ -1901,7 +1925,10 @@ var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
   selectSuggestion(value, evt) {
     const replacement = getSuggestionReplacement(value);
     const start = typeof value !== "string" && value.overrideStart ? value.overrideStart : this.context.start;
-    this.context.editor.replaceRange(replacement, start, this.context.end);
+    const endPos = this.context.end;
+    this.context.editor.replaceRange(replacement, start, __spreadProps(__spreadValues({}, endPos), {
+      ch: Math.min(endPos.ch, this.context.editor.getLine(endPos.line).length)
+    }));
     if (replacement.contains("#") || replacement.contains("~")) {
       if (!this.disableSnippets) {
         this.snippetManager.handleSnippet(replacement, start, this.context.editor);
@@ -1914,21 +1941,19 @@ var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
     this.close();
     this.justClosed = true;
   }
+  selectNextItem(dir) {
+    const self = this;
+    self.suggestions.setSelectedItem(self.suggestions.selectedItem + dir, true);
+  }
+  applySelectedItem() {
+    const self = this;
+    self.suggestions.useSelectedItem();
+  }
+  isVisible() {
+    return this.isOpen;
+  }
   preventNextTrigger() {
     this.justClosed = true;
-  }
-  setInsertionKey(key) {
-    let self = this;
-    this.disableInsertionKey();
-    this.insertionKeybindRegistration = self.scope.register([], key, (event) => {
-      self.suggestions.useSelectedItem(event);
-      return false;
-    });
-  }
-  disableInsertionKey() {
-    let self = this;
-    if (this.insertionKeybindRegistration)
-      self.scope.unregister(this.insertionKeybindRegistration);
   }
   getCharacterRegex() {
     if (this.characterRegex !== this.settings.characterRegex)
@@ -1936,10 +1961,15 @@ var SuggestionPopup = class extends import_obsidian2.EditorSuggest {
     return this.compiledCharacterRegex;
   }
 };
+var SelectionDirection;
+(function(SelectionDirection2) {
+  SelectionDirection2[SelectionDirection2["NEXT"] = 1] = "NEXT";
+  SelectionDirection2[SelectionDirection2["PREVIOUS"] = -1] = "PREVIOUS";
+})(SelectionDirection || (SelectionDirection = {}));
 
 // src/settings_tab.ts
-var import_obsidian3 = __toModule(require("obsidian"));
-var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
+var import_obsidian4 = __toModule(require("obsidian"));
+var CompletrSettingsTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -1947,7 +1977,7 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian3.Setting(containerEl).setName("Word character regex").setDesc("A regular expression which matches a character of a word. Used by during completion to find the word to the left of the cursor and used by the file scanner to find valid words.").addText((text) => text.setValue(this.plugin.settings.characterRegex).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Word character regex").setDesc("A regular expression which matches a character of a word. Used by during completion to find the word to the left of the cursor and used by the file scanner to find valid words.").addText((text) => text.setValue(this.plugin.settings.characterRegex).onChange((val) => __async(this, null, function* () {
       try {
         new RegExp("[" + val + "]+").test("");
         text.inputEl.removeClass("completr-settings-error");
@@ -1957,7 +1987,7 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
         text.inputEl.addClass("completr-settings-error");
       }
     })));
-    new import_obsidian3.Setting(containerEl).setName("Minimum word length").setDesc("The minimum length a word has to be, to count as a valid suggestion. This value is used by the file scanner and word list provider.").addText((text) => {
+    new import_obsidian4.Setting(containerEl).setName("Minimum word length").setDesc("The minimum length a word has to be, to count as a valid suggestion. This value is used by the file scanner and word list provider.").addText((text) => {
       text.inputEl.type = "number";
       text.setValue(this.plugin.settings.minWordLength + "").onChange((val) => __async(this, null, function* () {
         if (!val || val.length < 1)
@@ -1966,7 +1996,7 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
         yield this.plugin.saveSettings();
       }));
     });
-    new import_obsidian3.Setting(containerEl).setName("Minimum word trigger length").setDesc("The minimum length a word has to be, to trigger suggestions. This value is ignored by the LaTeX provider.").addText((text) => {
+    new import_obsidian4.Setting(containerEl).setName("Minimum word trigger length").setDesc("The minimum length a word has to be, to trigger suggestions. The LaTeX provider has its own separate setting.").addText((text) => {
       text.inputEl.type = "number";
       text.setValue(this.plugin.settings.minWordTriggerLength + "").onChange((val) => __async(this, null, function* () {
         if (!val || val.length < 1)
@@ -1975,30 +2005,36 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
         yield this.plugin.saveSettings();
       }));
     });
-    new import_obsidian3.Setting(containerEl).setName("Insertion key").setDesc("The key you want to use to insert suggestions while the popup is open.").addDropdown((dropdown) => {
-      dropdown.addOption(InsertionKey.ENTER, InsertionKey.ENTER).addOption(InsertionKey.TAB, InsertionKey.TAB).setValue(this.plugin.settings.insertionKey).onChange((val) => __async(this, null, function* () {
-        this.plugin.settings.insertionKey = val;
-        this.plugin.suggestionPopup.setInsertionKey(val);
-        yield this.plugin.saveSettings();
-      }));
-    });
-    new import_obsidian3.Setting(containerEl).setName("Word insertion mode").setDesc("The insertion mode that is used. Ignore-case would suggest 'Hello' if the typed text is 'hello', match-case would not. Append would complete 'Hell' with 'Hello' while replace would complete it with 'hello' instead (if only 'hello' was a known word).").addDropdown((dropdown) => dropdown.addOption(WordInsertionMode.IGNORE_CASE_REPLACE, WordInsertionMode.IGNORE_CASE_REPLACE).addOption(WordInsertionMode.IGNORE_CASE_APPEND, WordInsertionMode.IGNORE_CASE_APPEND).addOption(WordInsertionMode.MATCH_CASE_REPLACE, WordInsertionMode.MATCH_CASE_REPLACE).setValue(this.plugin.settings.wordInsertionMode).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Word insertion mode").setDesc("The insertion mode that is used. Ignore-case would suggest 'Hello' if the typed text is 'hello', match-case would not. Append would complete 'Hell' with 'Hello' while replace would complete it with 'hello' instead (if only 'hello' was a known word).").addDropdown((dropdown) => dropdown.addOption(WordInsertionMode.IGNORE_CASE_REPLACE, WordInsertionMode.IGNORE_CASE_REPLACE).addOption(WordInsertionMode.IGNORE_CASE_APPEND, WordInsertionMode.IGNORE_CASE_APPEND).addOption(WordInsertionMode.MATCH_CASE_REPLACE, WordInsertionMode.MATCH_CASE_REPLACE).setValue(this.plugin.settings.wordInsertionMode).onChange((val) => __async(this, null, function* () {
       this.plugin.settings.wordInsertionMode = val;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian3.Setting(containerEl).setName("Latex provider").setHeading();
+    new import_obsidian4.Setting(containerEl).setName("Latex provider").setHeading();
     this.createEnabledSetting("latexProviderEnabled", "Whether or not the latex provider is enabled", containerEl);
-    new import_obsidian3.Setting(containerEl).setName("Trigger in code blocks").setDesc("Whether the LaTeX provider should trigger after dollar signs which are enclosed in code blocks (for example ```$\\fr```).").addToggle((toggle) => toggle.setValue(this.plugin.settings.latexTriggerInCodeBlocks).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Trigger in code blocks").setDesc("Whether the LaTeX provider should trigger after dollar signs which are enclosed in code blocks (for example ```$\\fr```).").addToggle((toggle) => toggle.setValue(this.plugin.settings.latexTriggerInCodeBlocks).onChange((val) => __async(this, null, function* () {
       this.plugin.settings.latexTriggerInCodeBlocks = val;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian3.Setting(containerEl).setName("Front matter provider").addExtraButton((button) => button.setIcon("link").setTooltip("Obsidian Front-Matter wiki").onClick(() => window.open("https://help.obsidian.md/Advanced+topics/YAML+front+matter"))).setHeading();
+    new import_obsidian4.Setting(containerEl).setName("Ignore case").setDesc("Whether the LaTeX provider should ignore the casing of the typed text. If so, the input 'MaThbb' could suggest 'mathbb'.").addToggle((toggle) => toggle.setValue(this.plugin.settings.latexIgnoreCase).onChange((val) => __async(this, null, function* () {
+      this.plugin.settings.latexIgnoreCase = val;
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian4.Setting(containerEl).setName("Minimum word trigger length").setDesc("The minimum length a query has to be, to trigger suggestions.").addText((text) => {
+      text.inputEl.type = "number";
+      text.setValue(this.plugin.settings.latexMinWordTriggerLength + "").onChange((val) => __async(this, null, function* () {
+        if (!val || val.length < 1)
+          return;
+        this.plugin.settings.latexMinWordTriggerLength = parseInt(val);
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian4.Setting(containerEl).setName("Front matter provider").addExtraButton((button) => button.setIcon("link").setTooltip("Obsidian Front-Matter wiki").onClick(() => window.open("https://help.obsidian.md/Advanced+topics/YAML+front+matter"))).setHeading();
     this.createEnabledSetting("frontMatterProviderEnabled", "Whether the front matter provider is enabled", containerEl);
-    new import_obsidian3.Setting(containerEl).setName("Add suffix to tag completion").setDesc("Whether each completed tag should be suffixed with a comma or a newline (when typing in a multi-line list). Allows faster insertion of multiple tags.").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTagAppendSuffix).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Add suffix to tag completion").setDesc("Whether each completed tag should be suffixed with a comma or a newline (when typing in a multi-line list). Allows faster insertion of multiple tags.").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTagAppendSuffix).onChange((val) => __async(this, null, function* () {
       this.plugin.settings.frontMatterTagAppendSuffix = val;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian3.Setting(containerEl).setName("File scanner provider").setHeading().addExtraButton((button) => button.setIcon("search").setTooltip("Immediately scan all .md files currently in your vault.").onClick(() => {
+    new import_obsidian4.Setting(containerEl).setName("File scanner provider").setHeading().addExtraButton((button) => button.setIcon("search").setTooltip("Immediately scan all .md files currently in your vault.").onClick(() => {
       new ConfirmationModal(this.plugin.app, "Start scanning?", "Depending on the size of your vault and computer, this may take a while.", (button2) => button2.setButtonText("Scan").setCta(), () => __async(this, null, function* () {
         yield FileScanner.scanFiles(this.plugin.settings, this.plugin.app.vault.getMarkdownFiles());
       })).open();
@@ -2008,11 +2044,11 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
       })).open();
     })));
     this.createEnabledSetting("fileScannerProviderEnabled", "Whether or not the file scanner provider is enabled.", containerEl);
-    new import_obsidian3.Setting(containerEl).setName("Scan active file").setDesc("If this setting is enabled, the currently opened file will be scanned to find new words.").addToggle((toggle) => toggle.setValue(this.plugin.settings.fileScannerScanCurrent).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Scan active file").setDesc("If this setting is enabled, the currently opened file will be scanned to find new words.").addToggle((toggle) => toggle.setValue(this.plugin.settings.fileScannerScanCurrent).onChange((val) => __async(this, null, function* () {
       this.plugin.settings.fileScannerScanCurrent = val;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian3.Setting(containerEl).setName("Word list provider").setHeading();
+    new import_obsidian4.Setting(containerEl).setName("Word list provider").setHeading();
     this.createEnabledSetting("wordListProviderEnabled", "Whether or not the word list provider is enabled", containerEl);
     const fileInput = createEl("input", {
       attr: {
@@ -2030,14 +2066,14 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
         const success = yield WordList.importWordList(this.app.vault, file.name, text);
         changed || (changed = success);
         if (!success)
-          new import_obsidian3.Notice("Unable to import " + file.name + " because it already exists!");
+          new import_obsidian4.Notice("Unable to import " + file.name + " because it already exists!");
       }
       if (!changed)
         return;
       yield this.reloadWords();
       this.display();
     });
-    new import_obsidian3.Setting(containerEl).setName("Word list files").setDesc("A list of files which contain words to be used as suggestions. Each word should be on its own line.").addExtraButton((button) => button.setIcon("switch").setTooltip("Reload").onClick(() => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Word list files").setDesc("A list of files which contain words to be used as suggestions. Each word should be on its own line.").addExtraButton((button) => button.setIcon("switch").setTooltip("Reload").onClick(() => __async(this, null, function* () {
       yield this.reloadWords();
       this.display();
     }))).addButton((button) => {
@@ -2047,7 +2083,7 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
     const wordListDiv = containerEl.createDiv();
     WordList.getRelativeFilePaths(this.app.vault).then((names) => {
       for (const name of names) {
-        new import_obsidian3.Setting(wordListDiv).setName(name).addExtraButton((button) => button.setIcon("trash").setTooltip("Remove").onClick(() => __async(this, null, function* () {
+        new import_obsidian4.Setting(wordListDiv).setName(name).addExtraButton((button) => button.setIcon("trash").setTooltip("Remove").onClick(() => __async(this, null, function* () {
           new ConfirmationModal(this.app, "Delete " + name + "?", "The file will be removed and the words inside of it won't show up as suggestions anymore.", (button2) => button2.setButtonText("Delete").setWarning(), () => __async(this, null, function* () {
             yield WordList.deleteWordList(this.app.vault, name);
             yield this.reloadWords();
@@ -2064,22 +2100,22 @@ var CompletrSettingsTab = class extends import_obsidian3.PluginSettingTab {
       this.isReloadingWords = true;
       const count = yield WordList.loadFromFiles(this.app.vault, this.plugin.settings);
       this.isReloadingWords = false;
-      new import_obsidian3.Notice(`Loaded ${count} words`);
+      new import_obsidian4.Notice(`Loaded ${count} words`);
     });
   }
   createEnabledSetting(propertyName, desc, container) {
-    new import_obsidian3.Setting(container).setName("Enabled").setDesc(desc).addToggle((toggle) => toggle.setValue(this.plugin.settings[propertyName]).onChange((val) => __async(this, null, function* () {
+    new import_obsidian4.Setting(container).setName("Enabled").setDesc(desc).addToggle((toggle) => toggle.setValue(this.plugin.settings[propertyName]).onChange((val) => __async(this, null, function* () {
       this.plugin.settings[propertyName] = val;
       yield this.plugin.saveSettings();
     })));
   }
 };
-var ConfirmationModal = class extends import_obsidian3.Modal {
+var ConfirmationModal = class extends import_obsidian4.Modal {
   constructor(app, title, body, buttonCallback, clickCallback) {
     super(app);
     this.titleEl.setText(title);
     this.contentEl.setText(body);
-    new import_obsidian3.Setting(this.modalEl).addButton((button) => {
+    new import_obsidian4.Setting(this.modalEl).addButton((button) => {
       buttonCallback(button);
       button.onClick(() => __async(this, null, function* () {
         yield clickCallback();
@@ -2091,40 +2127,13 @@ var ConfirmationModal = class extends import_obsidian3.Modal {
 
 // src/main.ts
 var import_view3 = __toModule(require("@codemirror/view"));
-var import_state2 = __toModule(require("@codemirror/state"));
-var CompletrPlugin = class extends import_obsidian4.Plugin {
+var CompletrPlugin = class extends import_obsidian5.Plugin {
   constructor() {
     super(...arguments);
     this.onFileOpened = (file) => {
       if (!this.settings.fileScannerScanCurrent || !file)
         return;
       FileScanner.scanFile(this.settings, file, true);
-    };
-    this.handleKeydown = (event, cm) => {
-      if (!Object.values(InsertionKey).contains(event.key))
-        return;
-      const view = cm.state.field(import_obsidian4.editorViewField, false);
-      if (!view)
-        return;
-      const editor = view.editor;
-      const placeholder = this.snippetManager.placeholderAtPos(editor.getCursor());
-      const isPopupByPassKey = event.key != this.settings.insertionKey || event.shiftKey;
-      if (this._suggestionPopup.isOpen && isPopupByPassKey) {
-        this._suggestionPopup.close();
-        if (event.key === InsertionKey.ENTER && event.key === this.settings.insertionKey)
-          Object.defineProperty(event, "shiftKey", { value: false });
-      }
-      if (!placeholder)
-        return;
-      const placeholderEnd = posFromIndex(editorToCodeMirrorState(placeholder.editor).doc, placeholder.marker.to);
-      event.preventDefault();
-      if (!this.snippetManager.consumeAndGotoNextMarker(editor)) {
-        editor.setSelections([{
-          anchor: __spreadProps(__spreadValues({}, placeholderEnd), {
-            ch: Math.min(editor.getLine(placeholderEnd.line).length, placeholderEnd.ch + 1)
-          })
-        }]);
-      }
     };
   }
   onload() {
@@ -2139,25 +2148,173 @@ var CompletrPlugin = class extends import_obsidian4.Plugin {
       this.app.workspace.onLayoutReady(() => FrontMatter.loadYAMLKeyCompletions(this.app.metadataCache, this.app.vault.getMarkdownFiles()));
       this.registerEditorExtension(markerStateField);
       this.registerEditorExtension(import_view3.EditorView.updateListener.of(new CursorActivityListener(this.snippetManager, this._suggestionPopup).listener));
-      this.registerEditorExtension(import_state2.Prec.highest(import_view3.EditorView.domEventHandlers({
-        "keydown": this.handleKeydown
-      })));
       this.addSettingTab(new CompletrSettingsTab(this.app, this));
-      this.addCommand({
-        id: "completr-open-suggestion-popup",
-        name: "Open suggestion popup",
-        hotkeys: [
-          {
-            key: " ",
-            modifiers: ["Mod"]
-          }
-        ],
-        editorCallback: (editor) => {
-          this._suggestionPopup.trigger(editor, this.app.workspace.getActiveFile(), true);
-        }
-      });
+      this.setupCommands();
       if ((_a = this.app.vault.config) == null ? void 0 : _a.legacyEditor) {
         console.log("Completr: Without Live Preview enabled, most features of Completr will not work properly!");
+      }
+    });
+  }
+  setupCommands() {
+    const app = this.app;
+    app.scope.keys = [];
+    const isHotkeyMatch = (hotkey, context, id) => {
+      const modifiers = hotkey.modifiers, key = hotkey.key;
+      if (modifiers !== null && (id.contains("completr-bypass") ? !context.modifiers.contains(modifiers) : modifiers !== context.modifiers))
+        return false;
+      return !key || (key === context.vkey || !(!context.key || key.toLowerCase() !== context.key.toLowerCase()));
+    };
+    this.app.scope.register(null, null, (e, t) => {
+      const hotkeyManager = app.hotkeyManager;
+      hotkeyManager.bake();
+      for (let bakedHotkeys = hotkeyManager.bakedHotkeys, bakedIds = hotkeyManager.bakedIds, r = 0; r < bakedHotkeys.length; r++) {
+        const hotkey = bakedHotkeys[r];
+        const id = bakedIds[r];
+        if (isHotkeyMatch(hotkey, t, id)) {
+          const command = app.commands.findCommand(id);
+          if (!command || command.isVisible && !command.isVisible()) {
+            continue;
+          } else if (id.contains("completr-bypass")) {
+            this._suggestionPopup.close();
+            const validMods = t.modifiers.replace(new RegExp(`${hotkey.modifiers},*`), "").split(",");
+            let event = new KeyboardEvent("keydown", {
+              key: hotkeyManager.defaultKeys[id][0].key,
+              ctrlKey: validMods.contains("Ctrl"),
+              shiftKey: validMods.contains("Shift"),
+              altKey: validMods.contains("Alt"),
+              metaKey: validMods.contains("Meta")
+            });
+            e.target.dispatchEvent(event);
+            return false;
+          }
+          if (app.commands.executeCommandById(id))
+            return false;
+        }
+      }
+    });
+    this.addCommand({
+      id: "completr-open-suggestion-popup",
+      name: "Open suggestion popup",
+      hotkeys: [
+        {
+          key: " ",
+          modifiers: ["Mod"]
+        }
+      ],
+      editorCallback: (editor) => {
+        this._suggestionPopup.trigger(editor, this.app.workspace.getActiveFile(), true);
+      }
+    });
+    this.addCommand({
+      id: "completr-select-next-suggestion",
+      name: "Select next suggestion",
+      hotkeys: [
+        {
+          key: "ArrowDown",
+          modifiers: []
+        }
+      ],
+      editorCallback: (editor) => {
+        this.suggestionPopup.selectNextItem(SelectionDirection.NEXT);
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-select-previous-suggestion",
+      name: "Select previous suggestion",
+      hotkeys: [
+        {
+          key: "ArrowUp",
+          modifiers: []
+        }
+      ],
+      editorCallback: (editor) => {
+        this.suggestionPopup.selectNextItem(SelectionDirection.PREVIOUS);
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-insert-selected-suggestion",
+      name: "Insert selected suggestion",
+      hotkeys: [
+        {
+          key: "Enter",
+          modifiers: []
+        }
+      ],
+      editorCallback: (editor) => {
+        this.suggestionPopup.applySelectedItem();
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-bypass-enter-key",
+      name: "Bypass the popup and press Enter",
+      hotkeys: [
+        {
+          key: "Enter",
+          modifiers: ["Ctrl"]
+        }
+      ],
+      editorCallback: (editor) => {
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-bypass-tab-key",
+      name: "Bypass the popup and press Tab",
+      hotkeys: [
+        {
+          key: "Tab",
+          modifiers: ["Ctrl"]
+        }
+      ],
+      editorCallback: (editor) => {
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-close-suggestion-popup",
+      name: "Close suggestion popup",
+      hotkeys: [
+        {
+          key: "Escape",
+          modifiers: []
+        }
+      ],
+      editorCallback: (editor) => {
+        this.suggestionPopup.close();
+      },
+      isVisible: () => this._suggestionPopup.isVisible()
+    });
+    this.addCommand({
+      id: "completr-jump-to-next-snippet-placeholder",
+      name: "Jump to next snippet placeholder",
+      hotkeys: [
+        {
+          key: "Enter",
+          modifiers: []
+        }
+      ],
+      editorCallback: (editor, view) => {
+        const placeholder = this.snippetManager.placeholderAtPos(editor.getCursor());
+        if (!placeholder)
+          return;
+        const placeholderEnd = posFromIndex(editorToCodeMirrorState(placeholder.editor).doc, placeholder.marker.to);
+        if (!this.snippetManager.consumeAndGotoNextMarker(editor)) {
+          editor.setSelections([{
+            anchor: __spreadProps(__spreadValues({}, placeholderEnd), {
+              ch: Math.min(editor.getLine(placeholderEnd.line).length, placeholderEnd.ch + 1)
+            })
+          }]);
+        }
+      },
+      isVisible: () => {
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+        if (!view)
+          return false;
+        const placeholder = this.snippetManager.placeholderAtPos(view.editor.getCursor());
+        return placeholder != null;
       }
     });
   }
@@ -2172,6 +2329,7 @@ var CompletrPlugin = class extends import_obsidian4.Plugin {
       this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
       WordList.loadFromFiles(this.app.vault, this.settings);
       FileScanner.loadData(this.app.vault);
+      Latex.loadCommands(this.app.vault);
     });
   }
   get suggestionPopup() {

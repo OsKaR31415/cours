@@ -8,3 +8,5 @@ Elle est appelée _cosinus_ car sa définition ressemble à celle de la [[foncti
 ## Propriétés
 $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
 (Voir [[fonction cosinus hyperbolique]])
+
+

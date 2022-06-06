@@ -7,7 +7,7 @@ Un ensemble $G$ muni d'une [[loi de composition interne]] $*$ est un _groupe_ ss
 - Tout élément de $G$ possède un [[éléments symétrisables|symétrique]] par $*$
 
 ## Ordre d'un groupe
-L'_ordre d'un groupe_ est son [[cardinal]] **si celui-ci est fini**
+L'_ordre d'un groupe_ est le [[cardinal]] de son ensemble **si celui-ci est fini**
 
 
 ## Propriétés

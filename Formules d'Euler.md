@@ -3,7 +3,7 @@
 
 
 ## cosinus
-$\cos(x) = \dfrac{e^{ix}+e^x}{2}$
+$\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
 
 ![[formule_euler_cos.excalidraw|1200]]
 

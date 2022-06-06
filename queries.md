@@ -1,5 +1,6 @@
 # queries
 
+
 ## TODO
 
 everyting i have to do :

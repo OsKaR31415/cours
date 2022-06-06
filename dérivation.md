@@ -1,10 +1,5 @@
----
-sr-due: 2022-03-20
-sr-interval: 4
-sr-ease: 270
----
 
-#maths/analyse #review 
+#maths/analyse 
 # dérivation
 
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :
@@ -32,16 +27,18 @@ On note :
 On peut utiliser les dérivées des fonctions usuelles :
 
 ### Dérivées d'expressions
-$$\begin{array}{r|l}
-\text{expression} & \text{dérivée}\\
-x^n & nx^{n-1}\\
-sin(x) & cos(x)\\
-cos(x) & -sin(x)\\
-\arcsin' x & \dfrac1{\sqrt{1-x^2}}\\
-\arccos' x & -\dfrac1{\sqrt{1-x^2}}\\
-\tan x & 1 + \tan^2(x)\\
-\arctan x & \dfrac1{1+x^2}\\
+$$\begin{array}{|r|l|}
+\hline
+\text{expression} & \text{dérivée}\\\hline
+x^n & nx^{n-1}\\\hline
+sin(x) & cos(x)\\\hline
+cos(x) & -sin(x)\\\hline
+\arcsin' x & \dfrac1{\sqrt{1-x^2}}\\\hline
+\arccos' x & -\dfrac1{\sqrt{1-x^2}}\\\hline
+\tan x & 1 + \tan^2(x)\\\hline
+\arctan x & \dfrac1{1+x^2}\\\hline
 \end{array}$$
+
 
 ### Dérivées de fonctions
 $$\begin{array}{|r|l|}\hline
@@ -63,17 +60,7 @@ Dériver $n$ fois un produit de fonctions :
 $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)} g^{(n-k)} \right)$$
 
 
-
-
-
 ## Notion de [[fonction dérivable]]
 Une fonction est dérivable sur un intervalle si sa dérivée existe sur cet intervalle
-
-
-# titre
-## sous-titre
-### sous-sous-titre
-#### sous-sous-titre
-##### sous-sous-sous-titre
 
 

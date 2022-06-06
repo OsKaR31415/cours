@@ -1,5 +1,6 @@
 #maths/algèbre #review 
 # espace vectoriel
+
 Un _espace vectoriel_ est un ensemble $E$ muni de deux opérations :
  - une [[loi de composition interne]] notée $+$
  - une [[loi de composition]] **externe** notée $\cdot$
@@ -15,6 +16,7 @@ Ces deux opérations vérifient :
  - Les espaces $\mathbb R$, $\mathbb R^2$, $\mathbb R^3$, ... $\mathbb R^n$ sont des espaces vectoriels (avec l'addition et la multiplication)
  - L'ensemble des [[polyôme|polynômes]]
  - L'ensemble des [[fonction dérivable|fonctions dérivables]]
+
 
 
 

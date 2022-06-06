@@ -1,3 +1,4 @@
+#informatique 
 # Epigrams on programming
 By [[Alan Perlis]]
 

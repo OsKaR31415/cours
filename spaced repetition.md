@@ -1,4 +1,5 @@
 # spaced repetition
+
 Technique pour apprendre a long terme
  - Basé sur des flashcards
  - Répétition régulière des flashcards
@@ -19,6 +20,10 @@ Technique pour apprendre a long terme
 ## Applications
  - Anki : https://apps.ankiweb.net/
      - La plus utilisée
+     - Beaucoup de features
+         - images/son/Vidéos
+         - Latex
+         - Plugins
      - Plugins
  - Mnemosyne
      - Beaucoup de features
@@ -31,3 +36,7 @@ Technique pour apprendre a long terme
      - full osbidian markdown
      - utilise la syntaxe Anki
      - parfait !
+
+
+[BD sur la répétition espacée](https://ncase.me/remember/fr.html "https://ncase.me/remember/fr.html")
+

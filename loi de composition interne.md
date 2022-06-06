@@ -19,7 +19,7 @@ Pour qu'une [[loi de composition]] soit _interne_, il faut que $\forall (x,y)\in
 
 ## Exemples
 - $(\{1, 2, 3\}, \times)$ --> $\times$ n'est pas une LCI sur $\{1, 2, 3\}$ car $2\times3 \not\in \{1, 2, 3\}$
-- $(\{0, 1\}, \times)$ --> $\times$ est une LCI sur $\{0,1\}$ car $\forall (x,y)\in\{0,1\}^2, x\times y \in \{0,1\}$
+- $(\{0, 1\}, \times)$ --> $\times$ est une LCI sur $\{0,1\}$ car $\forall (x,y)\in\{0,1\}^2,\; x\times y \in \{0,1\}$
 
 ## Voir
  - [[stabilité sur un ensemble]]
@@ -41,8 +41,10 @@ $\forall(a,b)\in E^2, a*b = b*a$
 
 
 
-## Définition
-L'**itération d'un élément**.
+## Définitions
+
+
+### Itération d'un élément
 Soit $E$ un ensemble muni d'une LCI $*$ [[associativité|associative]], et soit $a\in E$.
 On définit _l'itéré $n$-ème_ de $a$, pour $n\in\mathbb N^*$, noté $a^{*n}$ par :
  - $a^{*1} = a$

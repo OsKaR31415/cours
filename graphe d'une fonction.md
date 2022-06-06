@@ -1,3 +1,4 @@
+#maths/graphes 
 # graphe d'une fonction
 Le graphe d'une fonction est l'ensemble des couples (valeur, image).
 

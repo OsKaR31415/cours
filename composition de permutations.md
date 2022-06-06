@@ -3,6 +3,7 @@
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].
 On note $\sigma\circ\sigma'$ le _produit_ (ou _composition_) de $\sigma$ et $\sigma'$.
 $\sigma\circ\sigma'$ est la permutation composée de l'application successive $\sigma'$ puis de $\sigma$.
+**La composition se fait de droite à gauche.**
 
 ## Définition
 Soit $(\sigma,\sigma')\in(\mathfrak S_n)^2$

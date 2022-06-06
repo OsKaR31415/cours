@@ -1,17 +1,20 @@
 #todo
 # todo
 
+```tasks
+not done
+```
 
 ## urgent
 
-```query
-tag:#urgent
+```tasks
+#urgent
 ```
 
 ## tasks
 
 ```query
-task-todo:""
+task-todo:#task
 ```
 
 

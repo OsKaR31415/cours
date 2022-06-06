@@ -18,5 +18,11 @@
   "obsidian-hider",
   "drawio-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "dataview",
+  "customizable-page-header-buttons",
+  "obsidian-mind-map",
+  "tag-wrangler",
+  "obsidian-tasks-plugin",
+  "obsidian-core-search-assistant-plugin"
 ]

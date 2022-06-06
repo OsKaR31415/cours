@@ -1,0 +1,51 @@
+{
+  "enabledButtons": [
+    {
+      "id": "obsidian-spaced-repetition:srs-note-review-easy",
+      "icon": "lucide-check",
+      "name": "Spaced Repetition: Review note as easy",
+      "showButtons": "both"
+    },
+    {
+      "id": "obsidian-spaced-repetition:srs-note-review-good",
+      "icon": "plus-minus-glyph",
+      "name": "Spaced Repetition: Review note as good",
+      "showButtons": "both"
+    },
+    {
+      "id": "obsidian-spaced-repetition:srs-note-review-hard",
+      "icon": "cross-in-box",
+      "name": "Spaced Repetition: Review note as hard",
+      "showButtons": "both"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "folder",
+      "name": "File explorer: Reveal active file in navigation",
+      "showButtons": "both"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "vertical-split",
+      "name": "Split vertically",
+      "showButtons": "both"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "icon": "horizontal-split",
+      "name": "Split horizontally",
+      "showButtons": "both"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
+      "icon": "lucide-image-plus",
+      "name": "Excalidraw: Create a new drawing - IN A NEW PANE - and embed into active document",
+      "showButtons": "both"
+    }
+  ],
+  "desktop": true,
+  "titleLeft": [],
+  "titleRight": [],
+  "titleCenter": [],
+  "paneRelief": false
+}

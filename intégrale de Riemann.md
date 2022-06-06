@@ -61,3 +61,6 @@ $\int_a^c f(x)\d x = \int_a^b f(x)\d x + \int_b^c f(x)\d x$
 Soient $f$ et $g$ deux fonctions Riemann intégrables sur $[a,b]$. On a :
  - si $f\geq0$, alors $\int_a^b f(x)\d x \geq 0$
  - si $f\leq g$, alors $\int_a^b f(x)\d x \leq \int_a^b g(x)\d x$
+
+
+
