@@ -4,15 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ccccffcbde7546af",
+        "id": "d40e170fdf93a188",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-06-08.md",
+            "file": "daily/2022-06-07.md",
             "mode": "source",
             "backlinks": false,
             "source": false
+          }
+        }
+      },
+      {
+        "id": "f97f604a92914afd",
+        "type": "leaf",
+        "state": {
+          "type": "pdf-annotator",
+          "state": {
+            "file": "annotations/APL thinking.md"
           }
         }
       }
@@ -67,7 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2022-06-08.md",
+                "file": "annotations/APL thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022-06-08.md",
+                "file": "annotations/APL thinking.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022-06-08.md"
+                "file": "annotations/APL thinking.md"
               }
             }
           },
@@ -130,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "daily/2022-06-08.md",
+                "file": "annotations/APL thinking.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,23 +236,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 287.0340881347656
+    "width": 287.0340881347656,
+    "collapsed": true
   },
-  "active": "ccccffcbde7546af",
+  "active": "f97f604a92914afd",
   "lastOpenFiles": [
-    "daily/2022-06-08.md",
+    "annotations/APL thinking.md",
+    "quaternions.md",
     "daily/2022-06-07.md",
-    "daily/2022-06-06.md",
     "todo.md",
+    "antonin benoit.md",
+    "daily/2022-06-06.md",
+    "daily/2022-06-08.md",
     "ENCODE framework.md",
     "How to take notes during a conference.md",
-    "dérivation.md",
-    "Syntaxe obsidian.md",
-    "daily/2022-06-09.md",
-    "combinaisons avec répétitions.md"
+    "dérivation.md"
   ]
 }
