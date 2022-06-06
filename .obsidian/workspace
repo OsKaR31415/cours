@@ -4,38 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "121c0d1ebe97caac",
+        "id": "ccccffcbde7546af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-06-09.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "d01e128cb5015919",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "théorème de Bezout.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "835285427d1dce8e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "combinaisons avec répétitions.md",
+            "file": "daily/2022-06-08.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -67,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dériv",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -93,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "théorème de Bezout.md",
+                "file": "daily/2022-06-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "théorème de Bezout.md",
+                "file": "daily/2022-06-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "théorème de Bezout.md"
+                "file": "daily/2022-06-08.md"
               }
             }
           },
@@ -156,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "théorème de Bezout.md",
+                "file": "daily/2022-06-08.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -258,17 +232,17 @@
     "direction": "horizontal",
     "width": 287.0340881347656
   },
-  "active": "d01e128cb5015919",
+  "active": "ccccffcbde7546af",
   "lastOpenFiles": [
-    "théorème de Bezout.md",
-    "daily/2022-06-09.md",
+    "daily/2022-06-08.md",
+    "daily/2022-06-07.md",
     "daily/2022-06-06.md",
     "todo.md",
-    "division euclidienne.md",
-    "combinaisons avec répétitions.md",
-    "divisibilité.md",
-    "daily/2022-06-02.md",
-    "daily/2022-06-01.md",
-    "daily/2022-06-03.md"
+    "ENCODE framework.md",
+    "How to take notes during a conference.md",
+    "dérivation.md",
+    "Syntaxe obsidian.md",
+    "daily/2022-06-09.md",
+    "combinaisons avec répétitions.md"
   ]
 }
