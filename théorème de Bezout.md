@@ -22,5 +22,4 @@ C'est-à-dire que, soient deux nombres entiers naturels non nuls, il existe touj
  - si $a\mid bc$ et $\text{pgcd}(a;b) = 1$, alors $a\mid c$
      - lemme de [[Carl Friedrich Gauss|Gauss]]
      - autrement dit : si $a$ et $b$ sont [[nombres premiers entre eux|premiers entre eux]], alors $a\mid bc \implies a\mid c$
- - 
 
