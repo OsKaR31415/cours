@@ -1,3 +1,4 @@
+#obsidian
 # Syntaxe obsidian
 
 ## Styles
