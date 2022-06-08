@@ -14,3 +14,5 @@ On suppose qu'il existe $q, r$ et $q', r'$ deux quotients et restes tels que :
  - $(q, q')\in\Z^2$
  - $(r, r')\in\N^2$
  - $r \in [\![ 0; b[\![$ et $r'\in[\![0; b'[\![$
+
+
