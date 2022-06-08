@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # comatrice
 Soit $A$ une [[matrice]] de taille $n\times n$.
 

@@ -1,4 +1,4 @@
-#maths/algèbre 
+#maths/algèbre #review 
 # dimension d'un espace vectoriel
 Soit $E$ un [[espace vectoriel]].
 On sait que $E$ admet une [[base d'un espace vectoriel|base]].
