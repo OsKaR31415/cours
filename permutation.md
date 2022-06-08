@@ -1,3 +1,9 @@
+---
+sr-due: 2022-06-16
+sr-interval: 8
+sr-ease: 255
+---
+
 #maths/algèbre #review 
 # permutation
 Une _permutation_ représente le réarrangement d'objets.
@@ -17,7 +23,7 @@ $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdo
 
 - exemple de permutations sur $\mathfrak S_3$ :
     - - permutation identité :
-        - $id: \begin{pmatrix}1&2&3\\1&2&3\end{pmatrix}$
+        - $id_3: \begin{pmatrix}1&2&3\\1&2&3\end{pmatrix}$
         - ici, $id(1) = 1$, $id(2)=2$, $id(3)=3$
     - - autres permutations : 
         - $s_1: \begin{pmatrix}1&2&3\\1&3&2\end{pmatrix}$
@@ -32,7 +38,10 @@ $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdo
         
         - $s_6: \begin{pmatrix}1&2&3\\3&1&2\end{pmatrix}$
 
+- Soient $(\sigma, \phi)\in(\mathfrak S_n)^2$, on note $\sigma\circ \phi$ la [[composition de permutations|composition des permutations]] $\sigma$ et $\phi$, qui est l'application **d'abord de $\phi$** puis de $\sigma$
+    - elle est équivalente à la composition des fonctions associées
 - $\sigma^n$ la composée $n$ fois de $\sigma$ avec elle-même
+    - $\sigma^0 = id$
     - $\sigma^1 = \sigma$
     - $\sigma^n = \sigma\circ\sigma^{n-1}$
     

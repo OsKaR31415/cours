@@ -3,6 +3,7 @@
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
+<!--SR:!2022-06-09,2,242-->
 
 Formule d'Euler pour $\sin(x)$
 ?
@@ -12,7 +13,7 @@ $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
 Cosinus d'une somme $\cos(a+b) = ?$
 ?
 $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
-<!--SR:!2022-06-07,1,226-->
+<!--SR:!2022-06-10,2,206-->
 
 Sinus d'une somme $\sin(a+b) = ?$
 ?
@@ -22,11 +23,11 @@ $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
 Tangente d'une somme $\tan(a+b) = ?$
 ?
 $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
-<!--SR:!2022-06-07,3,250-->
+<!--SR:!2022-06-10,2,230-->
 
 Cosinus du double $\cos(2x) = ?$ :: $\cos(2x) = \cos^2(x)-\sin^2(x)$
-<!--SR:!2022-06-07,1,225-->
+<!--SR:!2022-06-10,2,205-->
 
 Sinus du double $\sin(2x) = ?$ :: $\sin(2x) = 2\sin(x)\cos(x)$
-<!--SR:!2022-06-07,1,206-->
+<!--SR:!2022-06-10,3,226-->
 
