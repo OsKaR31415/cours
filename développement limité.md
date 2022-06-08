@@ -77,4 +77,4 @@ On peut voir le polynôme de Taylor comme le résultat que l'on obtient en extra
  
 C'est pour cette raison que faire tendre $n$ vers l'infini améliore l'approximation autour de $x_0$, mais pas forcément plus loin (car les informations extraites par les dérivées successives ne sont pas toujours suffisantes pour décrire toute la fonction) (Exemple : $\DL_n(1):\ln(x)$ ne [[fonction convergente|converge]] que lorsque $x\in[0;2]$)
 
-Ref: [https://www.youtube.com/watch?v=3d6DsjIBzJ4](https://www.youtube.com/watch?v=3d6DsjIBzJ4 "https://www.youtube.com/watch?v=3d6DsjIBzJ4")
+Cf: [https://www.youtube.com/watch?v=3d6DsjIBzJ4](https://www.youtube.com/watch?v=3d6DsjIBzJ4 "https://www.youtube.com/watch?v=3d6DsjIBzJ4") (3B1B)
