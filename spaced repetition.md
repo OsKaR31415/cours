@@ -1,3 +1,4 @@
+#PKM
 # spaced repetition
 
 Technique pour apprendre a long terme

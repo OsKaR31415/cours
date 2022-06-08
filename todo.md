@@ -2,7 +2,8 @@
 # todo
 
 ```tasks
-not done
+not done 
+short mode
 ```
 
 

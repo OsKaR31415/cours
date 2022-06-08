@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2481a923d180a0a0",
+        "id": "01fc009310aeb1c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "equations linéaires à 2 variables entières.md",
+            "file": "antonin benoit.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#maths/ensembles",
+                "query": "file:png",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "equations linéaires à 2 variables entières.md",
+                "file": "antonin benoit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "equations linéaires à 2 variables entières.md",
+                "file": "antonin benoit.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,13 +90,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.00793838500977,
-    "collapsed": true
+    "width": 275.00793838500977
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -105,7 +103,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 36.496350364963504,
+        "dimension": 46.59367396593674,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "equations linéaires à 2 variables entières.md"
+                "file": "antonin benoit.md"
               }
             }
           },
@@ -131,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "equations linéaires à 2 variables entières.md",
+                "file": "antonin benoit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -204,7 +202,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 2.033104508122136,
+                  "scale": 0.7947214832364305,
                   "close": true
                 }
               }
@@ -227,12 +225,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "31f43fb50c8916bd",
         "type": "tabs",
-        "dimension": 63.503649635036496,
+        "dimension": 53.406326034063255,
         "children": [
           {
             "id": "d3a2353253775b4e",
@@ -251,19 +249,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.0340270996094
+    "width": 275.0340270996094
   },
-  "active": "2481a923d180a0a0",
+  "active": "01fc009310aeb1c2",
   "lastOpenFiles": [
-    "equations linéaires à 2 variables entières.md",
-    "Untitled.md",
-    "daily/2022-06-09.md",
-    "ensemble infini dénombrable.md",
-    "forme exponentielle.md",
-    "permutation.md",
+    "antonin benoit.md",
+    "règle binaire.md",
+    "Untitled Diagram.svg",
+    "Untitled Diagram 1.svg",
+    "Excalidraw/APL_symbols.excalidraw.md",
     "todo.md",
-    "daily/2022-06-08.md",
-    "ENCODE framework.md",
-    "monoïde.md"
+    "daily/2022-06-09.md",
+    "tours de hanoi.md",
+    "Syntaxe obsidian.md",
+    "spaced repetition.md"
   ]
 }

@@ -1,4 +1,4 @@
-#obsidian
+#PKM
 # Syntaxe obsidian
 
 ## Styles

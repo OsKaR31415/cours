@@ -1,3 +1,4 @@
+#maths/arithmétique 
 # equations linéaires à 2 variables entières
 Equations de la forme
 $$(E) : ax+by = c$$

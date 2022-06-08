@@ -1,3 +1,4 @@
+#PKM
 # plugins obsidian
 
 ## Core plugins

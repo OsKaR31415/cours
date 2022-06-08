@@ -3,7 +3,7 @@
 mindmap-plugin: basic
 
 ---
-
+#PKM 
 # Obsidian
 
 ## autres types de notes avec des extensions

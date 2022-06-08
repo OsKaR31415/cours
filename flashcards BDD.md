@@ -1,4 +1,3 @@
-
 #flashcards 
 
 En BDD, la _sorte_ d'une relation est

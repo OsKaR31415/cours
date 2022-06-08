@@ -71,14 +71,14 @@
       }
     },
     {
-      "query": "tag:#obsidian",
+      "query": "tag:#PKM",
       "color": {
         "a": 1,
         "rgb": 4667546
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.05480799746112,
@@ -88,6 +88,6 @@
   "repelStrength": 12.1348852040816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.13779776824759382,
-  "close": true
+  "scale": 0.9221406743501441,
+  "close": false
 }

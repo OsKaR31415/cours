@@ -1,7 +1,7 @@
 # {date:YYYY-MM-DD}}
 
 ## Todo
- - [ ] spaced repetition
+ - [ ] spaced repetition 🔽
 
 ## I did
 
