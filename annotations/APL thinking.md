@@ -67,3 +67,71 @@ annotation-target: "APL thinking examples.pdf"
 >%%TAGS%%
 >
 ^uxm71iht2bj
+
+
+>%%
+>```annotation-json
+>{"created":"2022-06-06T23:51:13.027Z","text":"This basically takes the two middle elements, either two times the exact middle if there is a odd number of elements, or the 2 middle elements if there is an even number of elements.\n\nThe indices are created using this part : `|⌈¯0.5 0.5×1+⍴X`\nand the rest is just indexing the sorted list and averaging these two numbers.","updated":"2022-06-06T23:51:13.027Z","document":{"title":"APL thinking examples.pdf","link":[{"href":"urn:x-pdf:36781331487d52f3605f75c4bdd9e2a8"},{"href":"vault:/APL thinking examples.pdf"}],"documentFingerprint":"36781331487d52f3605f75c4bdd9e2a8"},"uri":"vault:/APL thinking examples.pdf","target":[{"source":"vault:/APL thinking examples.pdf","selector":[{"type":"TextPositionSelector","start":5783,"end":5814},{"type":"TextQuoteSelector","exact":"0.sXtixcc4x)cIr-0.5 0.5xltpxJl ","prefix":"L community, is not so obvious: ","suffix":"(from [31, p. 328) APL novices o"}]}]}
+>```
+>%%
+>*%%PREFIX%%L community, is not so obvious:%%HIGHLIGHT%% ==0.sXtixcc4x)cIr-0.5 0.5xltpxJl== %%POSTFIX%%(from [31, p. 328) APL novices o*
+>%%LINK%%[[#^1i5i7m60gh1|show annotation]]
+>%%COMMENT%%
+>This basically takes the two middle elements, either two times the exact middle if there is a odd number of elements, or the 2 middle elements if there is an even number of elements.
+>
+>The indices are created using this part : `|⌈¯0.5 0.5×1+⍴X`
+>and the rest is just indexing the sorted list and averaging these two numbers.
+>%%TAGS%%
+>
+^1i5i7m60gh1
+
+
+>%%
+>```annotation-json
+>{"created":"2022-06-07T00:06:36.045Z","text":"This would probably be written :\n`MEAN (SORT 2/DATA)[0 1+⍴DATA]`\n\nOr, once written as a dfns :\n`{+/+/2÷⍨D[⍋D←2/⍵][0 1+⍴⍵]}`\n\n","updated":"2022-06-07T00:06:36.045Z","document":{"title":"APL thinking examples.pdf","link":[{"href":"urn:x-pdf:36781331487d52f3605f75c4bdd9e2a8"},{"href":"vault:/APL thinking examples.pdf"}],"documentFingerprint":"36781331487d52f3605f75c4bdd9e2a8"},"uri":"vault:/APL thinking examples.pdf","target":[{"source":"vault:/APL thinking examples.pdf","selector":[{"type":"TextPositionSelector","start":7764,"end":7797},{"type":"TextQuoteSelector","exact":"MEAN (SORT DATA,DATA)CO ltpDATA1 ","prefix":" reproducing the entire vector: ","suffix":"This was of  feted spontaneously"}]}]}
+>```
+>%%
+>*%%PREFIX%%reproducing the entire vector:%%HIGHLIGHT%% ==MEAN (SORT DATA,DATA)CO ltpDATA1== %%POSTFIX%%This was of  feted spontaneously*
+>%%LINK%%[[#^yoee50jbmef|show annotation]]
+>%%COMMENT%%
+>This would probably be written :
+>`MEAN (SORT 2/DATA)[0 1+⍴DATA]`
+>
+>Or, once written as a dfns :
+>`{+/+/2÷⍨D[⍋D←2/⍵][0 1+⍴⍵]}`
+>
+>
+>%%TAGS%%
+>
+^yoee50jbmef
+
+
+>%%
+>```annotation-json
+>{"created":"2022-06-07T00:13:56.520Z","text":"The \"when is it worth\" is really asking _in what kind of problems does the APL thinking work better_.\n","updated":"2022-06-07T00:13:56.520Z","document":{"title":"APL thinking examples.pdf","link":[{"href":"urn:x-pdf:36781331487d52f3605f75c4bdd9e2a8"},{"href":"vault:/APL thinking examples.pdf"}],"documentFingerprint":"36781331487d52f3605f75c4bdd9e2a8"},"uri":"vault:/APL thinking examples.pdf","target":[{"source":"vault:/APL thinking examples.pdf","selector":[{"type":"TextPositionSelector","start":8410,"end":8477},{"type":"TextQuoteSelector","exact":"When is it worth trying to think of this kind of solution? And why?","prefix":"tes a higher-dimensional array. ","suffix":" These latter two approaches set"}]}]}
+>```
+>%%
+>*%%PREFIX%%tes a higher-dimensional array.%%HIGHLIGHT%% ==When is it worth trying to think of this kind of solution? And why?== %%POSTFIX%%These latter two approaches set*
+>%%LINK%%[[#^wpak1etipg8|show annotation]]
+>%%COMMENT%%
+>The "when is it worth" is really asking _in what kind of problems does the APL thinking work better_.
+>
+>%%TAGS%%
+>
+^wpak1etipg8
+
+
+>%%
+>```annotation-json
+>{"created":"2022-06-07T00:16:37.030Z","text":"Is not that trying to overfit a primitive ?\nBut also, that is an _intelligent usage_ of the primitive (here Index).\nSo maybe the essence of \"APL thinking\" is having an intelligent usage of APL primitives...","updated":"2022-06-07T00:16:37.030Z","document":{"title":"APL thinking examples.pdf","link":[{"href":"urn:x-pdf:36781331487d52f3605f75c4bdd9e2a8"},{"href":"vault:/APL thinking examples.pdf"}],"documentFingerprint":"36781331487d52f3605f75c4bdd9e2a8"},"uri":"vault:/APL thinking examples.pdf","target":[{"source":"vault:/APL thinking examples.pdf","selector":[{"type":"TextPositionSelector","start":8506,"end":8595},{"type":"TextQuoteSelector","exact":"set up the data so an APL primitive function -- here Index -- can do the key job directly","prefix":"hy? These latter two approaches ","suffix":". Is this the essence of “APL th"}]}]}
+>```
+>%%
+>*%%PREFIX%%hy? These latter two approaches%%HIGHLIGHT%% ==set up the data so an APL primitive function -- here Index -- can do the key job directly== %%POSTFIX%%. Is this the essence of “APL th*
+>%%LINK%%[[#^01iuokhz347s|show annotation]]
+>%%COMMENT%%
+>Is not that trying to overfit a primitive ?
+>But also, that is an _intelligent usage_ of the primitive (here Index).
+>So maybe the essence of "APL thinking" is having an intelligent usage of APL primitives...
+>%%TAGS%%
+>
+^01iuokhz347s
