@@ -111,3 +111,7 @@ Replay sur Facebook et Youtube.
 
 # La pizza hawaienne
 ![[pizza hawaienne.excalidraw]]
+ - certaines personnent détestent la pizza hawaienne
+     - elles ne veulent pas de recommendations contenant des pizzas hawaiennes
+     - d'autres personnes aiment ça et veulent des recommendations
+     - sans cookies, on ne peut pas avoir de recommendations adaptées 🙁
