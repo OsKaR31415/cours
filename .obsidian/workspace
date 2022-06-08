@@ -4,25 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d40e170fdf93a188",
+        "id": "2481a923d180a0a0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-06-07.md",
+            "file": "equations linéaires à 2 variables entières.md",
             "mode": "source",
             "backlinks": false,
             "source": false
-          }
-        }
-      },
-      {
-        "id": "f97f604a92914afd",
-        "type": "leaf",
-        "state": {
-          "type": "pdf-annotator",
-          "state": {
-            "file": "annotations/APL thinking.md"
           }
         }
       }
@@ -51,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task",
+                "query": "tag:#maths/ensembles",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -77,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "annotations/APL thinking.md",
+                "file": "equations linéaires à 2 variables entières.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -89,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "annotations/APL thinking.md",
+                "file": "equations linéaires à 2 variables entières.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336,
+    "width": 275.00793838500977,
     "collapsed": true
   },
   "right": {
@@ -115,6 +105,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
+        "dimension": 36.496350364963504,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -122,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "annotations/APL thinking.md"
+                "file": "equations linéaires à 2 variables entières.md"
               }
             }
           },
@@ -140,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "annotations/APL thinking.md",
+                "file": "equations linéaires à 2 variables entières.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -213,7 +204,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6064860004825706,
+                  "scale": 2.033104508122136,
                   "close": true
                 }
               }
@@ -236,24 +227,43 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
+      },
+      {
+        "id": "31f43fb50c8916bd",
+        "type": "tabs",
+        "dimension": 63.503649635036496,
+        "children": [
+          {
+            "id": "d3a2353253775b4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.0340881347656,
-    "collapsed": true
+    "width": 274.0340270996094
   },
-  "active": "f97f604a92914afd",
+  "active": "2481a923d180a0a0",
   "lastOpenFiles": [
-    "annotations/APL thinking.md",
-    "quaternions.md",
-    "daily/2022-06-07.md",
+    "equations linéaires à 2 variables entières.md",
+    "Untitled.md",
+    "daily/2022-06-09.md",
+    "ensemble infini dénombrable.md",
+    "forme exponentielle.md",
+    "permutation.md",
     "todo.md",
-    "antonin benoit.md",
-    "daily/2022-06-06.md",
     "daily/2022-06-08.md",
     "ENCODE framework.md",
-    "How to take notes during a conference.md",
-    "dérivation.md"
+    "monoïde.md"
   ]
 }

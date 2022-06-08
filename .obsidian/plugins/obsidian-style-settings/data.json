@@ -32,5 +32,6 @@
   "customizable-page-header-buttons@@page-header-spacing-mobile": 12,
   "customizable-page-header-buttons@@page-header-spacing-desktop": 10,
   "minimal-style@@tag-bg@@dark": "#22222200",
-  "minimal-style@@row-hover": true
+  "minimal-style@@row-hover": true,
+  "minimal-style@@minimal-unstyled-tags": true
 }

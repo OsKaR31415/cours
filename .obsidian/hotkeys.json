@@ -122,5 +122,13 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }
