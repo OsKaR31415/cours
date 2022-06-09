@@ -1,3 +1,9 @@
+---
+sr-due: 2022-06-10
+sr-interval: 1
+sr-ease: 212
+---
+
 #maths/analyse #review 
 # fonction continue
 Soit $I$ un intervalle de $\mathbb R$
