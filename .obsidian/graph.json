@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "-path:\"daily\" -file:excalidraw",
   "showTags": false,
   "showAttachments": true,
@@ -53,7 +53,7 @@
       "query": "tag:#personne",
       "color": {
         "a": 1,
-        "rgb": 12630898
+        "rgb": 10972553
       }
     },
     {
@@ -88,6 +88,6 @@
   "repelStrength": 12.1348852040816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.9221406743501441,
-  "close": false
+  "scale": 0.36412853170474807,
+  "close": true
 }

@@ -29,7 +29,7 @@
   "frostedSidebar": true,
   "trimNames": true,
   "labeledNav": false,
-  "fullWidthMedia": true,
+  "fullWidthMedia": false,
   "bordersToggle": true,
   "bordersTitle": true,
   "minimalStatus": true,

@@ -1152,6 +1152,8 @@ mzK
 mpE
 mathJax
 manager
+messy
+marge
 algèbre
 aFlVcTOo
 achat
@@ -2200,6 +2202,13 @@ aPn
 ascenseur
 anki
 activités
+action
+algebre
+arrêter
+avant
+augmenter
+augmente
+automatiquement
 espace
 engendré
 et
@@ -3187,6 +3196,9 @@ espacée
 edgeStyle
 entryPerimeter
 ellipsePerimeter
+euclide
+equiped
+emath
 vectoriel
 vecteur
 vHx
@@ -5139,6 +5151,10 @@ pandoc
 panes
 précédens
 perimeter
+preconcieved
+possibly
+project
+polaires
 une
 un
 utilisées
@@ -6049,6 +6065,7 @@ uwm
 uSD
 unz
 usb
+unsorted
 famille
 finie
 faire
@@ -6905,6 +6922,10 @@ feN
 faC
 fenêtre
 formats
+fexo
+frameworks
+followed
+finir
 de
 dit
 document
@@ -7913,6 +7934,10 @@ dOo
 dTwv
 dSfnx
 dCz
+divisée
+discourages
+discouraged
+diminuer
 Soit
 Switch
 SR
@@ -8780,6 +8805,7 @@ SiGc
 Syun
 SdB
 Sliding
+Sous
 On
 OPTIONS
 OENicqaA
@@ -10612,6 +10638,7 @@ qhv
 qiL
 qGz
 qrxdq
+quoi
 il
 in
 informatique
@@ -11652,6 +11679,9 @@ ieGg
 infinité
 ignorer
 itérative
+inscriptions
+inversibles
+inverses
 la
 le
 lWP
@@ -13659,6 +13689,7 @@ oWiO
 owe
 olf
 orthogonalEdgeStyle
+overcome
 note
 numClient
 nom
@@ -14532,6 +14563,9 @@ nDL
 nRq
 nlE
 nMn
+naypic
+numérotées
+numérotation
 to
 the
 this
@@ -15519,6 +15553,7 @@ tgCW
 tkS
 tiling
 tapeData
+touches
 EXCALIDRAW
 Elements
 EtnheR
@@ -16265,6 +16300,7 @@ EEi
 EDO
 EiI
 Extended
+Either
 VIEW
 Visite
 VlVUME
@@ -16960,6 +16996,7 @@ VmA
 VVB
 Vglt
 VoJ
+Vidéo
 MORE
 Méthode
 Mesures
@@ -19395,6 +19432,8 @@ TfO
 TdN
 Tbc
 Trouver
+Titres
+Titre
 jHu
 jour
 jRkEHrzd
@@ -21241,6 +21280,8 @@ cUxi
 cNC
 clickables
 côte
+convinced
+courbes
 RlBDW
 Rhk
 RnNB
@@ -27729,6 +27770,7 @@ BaD
 Biy
 BKn
 BKL
+Bézout
 WbH
 WQ
 Wlu
@@ -29642,6 +29684,8 @@ rNMj
 rxx
 rOr
 reposée
+reach
+raccourci
 bU
 bien
 base
@@ -30384,6 +30428,8 @@ bchD
 bWE
 byWA
 board
+bibmath
+bold
 YF
 YShpqGm
 Young
@@ -32944,6 +32990,10 @@ stocké
 splitter
 shape
 singleArrow
+seen
+slept
+squezze
+squeeze
 kr
 kUaRVS
 kl
@@ -36161,6 +36211,7 @@ PKM
 éC
 édition
 étiquette
+étonnante
 ème
 ètT
 èR

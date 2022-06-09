@@ -4,12 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "01fc009310aeb1c2",
+        "id": "dbd63f72cdbf61db",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "antonin benoit.md",
+            "file": "daily/2022-06-13.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "955dc1c196634ddc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "groupe.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1e33b0d1acf64a67",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "fonction continue.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -67,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "antonin benoit.md",
+                "file": "fonction continue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "antonin benoit.md",
+                "file": "fonction continue.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.00793838500977
+    "width": 275.00793838500977,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -103,7 +130,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 46.59367396593674,
+        "dimension": 50.548112058465286,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "antonin benoit.md"
+                "file": "fonction continue.md"
               }
             }
           },
@@ -129,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "antonin benoit.md",
+                "file": "fonction continue.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -202,7 +229,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7947214832364305,
+                  "scale": 0.8332185563593696,
                   "close": true
                 }
               }
@@ -225,12 +252,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "31f43fb50c8916bd",
         "type": "tabs",
-        "dimension": 53.406326034063255,
+        "dimension": 49.451887941534714,
         "children": [
           {
             "id": "d3a2353253775b4e",
@@ -249,19 +276,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.0340270996094
+    "width": 251.03407287597656
   },
-  "active": "01fc009310aeb1c2",
+  "active": "1e33b0d1acf64a67",
   "lastOpenFiles": [
-    "antonin benoit.md",
-    "règle binaire.md",
-    "Untitled Diagram.svg",
-    "Untitled Diagram 1.svg",
-    "Excalidraw/APL_symbols.excalidraw.md",
-    "todo.md",
-    "daily/2022-06-09.md",
-    "tours de hanoi.md",
+    "fonction continue.md",
+    "groupe.md",
+    "ensemble infini dénombrable.md",
     "Syntaxe obsidian.md",
-    "spaced repetition.md"
+    "daily/2022-06-13.md",
+    "daily/2022-06-09.md",
+    "Map of content.md",
+    "algorithme d'euclide.md",
+    "coefficients de Bézout.md",
+    "coefficient directeur.md"
   ]
 }

@@ -1,11 +1,10 @@
 {
   "baseFontSize": 70,
   "cssTheme": "Minimal",
-  "theme": "obsidian",
+  "theme": "system",
   "translucency": false,
   "enabledCssSnippets": [
     "mono",
-    "pdf_darkmode",
-    "headers"
+    "pdf_darkmode"
   ]
 }

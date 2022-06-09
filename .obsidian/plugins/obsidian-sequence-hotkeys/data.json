@@ -1,0 +1,18 @@
+{
+  "hotkeys": [
+    {
+      "command": "workspace:split-horizontal",
+      "chords": [
+        "C-Z",
+        "S"
+      ]
+    },
+    {
+      "command": "workspace:split-vertical",
+      "chords": [
+        "C-Z",
+        "V"
+      ]
+    }
+  ]
+}

@@ -107,22 +107,8 @@
       "key": "ArrowUp"
     }
   ],
-  "table-editor-obsidian:move-column-left": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "table-editor-obsidian:move-column-right": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
+  "table-editor-obsidian:move-column-left": [],
+  "table-editor-obsidian:move-column-right": [],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
