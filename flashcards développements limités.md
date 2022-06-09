@@ -26,7 +26,7 @@ $\DL_n(0)\dfrac{1}{1+x}=\ldots$
 ?
 $\dfrac1{1+x} = 1-x+x^2+ \cdots +(-1)^nx^n + x^n\varepsilon(x)$
 soit $(1+x)^\alpha$ avec $\alpha = -1$
-<!--SR:!2022-06-09,5,130-->
+<!--SR:!2022-06-16,7,130-->
 
 
 **Développement limité**
