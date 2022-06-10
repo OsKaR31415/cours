@@ -116,5 +116,13 @@
       ],
       "key": "T"
     }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }

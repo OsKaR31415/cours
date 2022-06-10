@@ -1,8 +1,8 @@
 {
-  "baseFontSize": 70,
+  "baseFontSize": 30,
   "cssTheme": "Minimal",
   "theme": "system",
-  "translucency": false,
+  "translucency": true,
   "enabledCssSnippets": [
     "mono",
     "pdf_darkmode"

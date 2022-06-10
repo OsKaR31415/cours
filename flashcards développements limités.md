@@ -34,7 +34,7 @@ $\DL_n(0)\ln(1+x) =\ldots$
 ?
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\disp\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
-<!--SR:!2022-06-10,6,130-->
+<!--SR:!2022-06-11,1,130-->
 
 
 **Développement limité**

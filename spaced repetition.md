@@ -33,7 +33,7 @@ Technique pour apprendre a long terme
          - Plugins
      - moche
  - Spaced repetition obsidian plugin
-     - sur obsidian, donc liens possibles avec le cours
+     - sur [[Obsidian]], donc liens possibles avec le cours
      - full osbidian markdown
      - utilise la syntaxe Anki
      - parfait !

@@ -1,3 +1,9 @@
+---
+sr-due: 2022-06-24
+sr-interval: 15
+sr-ease: 306
+---
+
 #maths/algèbre #review 
 # groupe
 
@@ -13,6 +19,7 @@ L'_ordre d'un groupe_ est le [[cardinal]] de son ensemble **si celui-ci est fini
 ## Propriétés
 
  - Un groupe n'est jamais vide
+     - car il ne pourrait pas posséder d'élément neutre
  - Les équivalences suivantes sont véfifiées :
      - $a*x = a*y \iff x=y$
      - $x*a = y*a \iff x = y$
