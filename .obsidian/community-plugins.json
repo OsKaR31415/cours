@@ -10,7 +10,6 @@
   "obsidian-completr",
   "obsidian-hover-editor",
   "obsidian-enhancing-mindmap",
-  "hover-external-link",
   "obsidian-kanban",
   "sliding-panes-obsidian",
   "obsidian-annotator",
@@ -25,5 +24,11 @@
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
   "obsidian-icon-shortcodes",
-  "obsidian-sequence-hotkeys"
+  "obsidian-sequence-hotkeys",
+  "simple-embeds",
+  "obsidian-vault-statistics-plugin",
+  "obsidian-desmos",
+  "obsidian-qrcode-plugin",
+  "persistent-graph",
+  "quick-latex"
 ]

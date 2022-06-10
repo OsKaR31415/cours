@@ -1,3 +1,7 @@
 {
-  "new-note-folder": "kanban"
+  "new-note-folder": "kanban",
+  "date-format": "YYYY-MM-DD",
+  "link-date-to-daily-note": true,
+  "prepend-archive-format": "YYYY-MM-DD HH:mm",
+  "show-view-as-markdown": false
 }

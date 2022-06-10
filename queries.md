@@ -1,4 +1,4 @@
-#PKM
+#obsidian
 # queries
 
 

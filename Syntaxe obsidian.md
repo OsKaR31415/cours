@@ -1,4 +1,5 @@
-#PKM
+#obsidian
+up: [[obsidian]]
 # Syntaxe obsidian
 
 ## Titres 

@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "76aed76d6fa97b49",
+        "id": "b2e86a48b2884ca8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "plugins obsidian.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a3d2a4ec7d1ebe1f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-06-10.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inscri",
+                "query": "tag:#PKM OR tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -62,6 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "daily/2022-06-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -73,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "daily/2022-06-10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,49 +104,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "40afe7346b703922",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f5b8a146bb8fa697",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bijection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f4754c453d25b6fd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0b5ad977704560e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bijection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.00793838500977,
-    "collapsed": true
+    "width": 275.00793838500977
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -141,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "daily/2022-06-10.md"
+              }
             }
           },
           {
@@ -158,6 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "daily/2022-06-10.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -271,24 +255,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b371d4a79b2d6e0f",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 375.2121276855469
   },
-  "active": "76aed76d6fa97b49",
+  "active": "a3d2a4ec7d1ebe1f",
   "lastOpenFiles": [
-    "bijection.md",
-    "matrice.md",
     "daily/2022-06-10.md",
-    "flashcards maths.md",
-    "flashcards BDD.md",
-    "test note.md",
+    "ENCODE framework.md",
+    "raccourcis quick latex.md",
+    "plugins obsidian.md",
+    "spaced repetition.md",
+    "identités.md",
     "How to take notes during a conference.md",
-    "Obsidian.md",
-    "kanban inscription fac.md",
-    "groupe.md"
+    "obsidian.md",
+    "Syntaxe obsidian.md",
+    "syntaxe desmos.md"
   ]
 }

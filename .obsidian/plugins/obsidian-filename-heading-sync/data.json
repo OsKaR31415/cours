@@ -1,6 +1,6 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "^(f|F)lashcards?|templates/",
+  "ignoreRegex": "^(f|F)lashcards?|templates/|kanban/",
   "useFileOpenHook": true
 }

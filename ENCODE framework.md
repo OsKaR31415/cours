@@ -1,11 +1,8 @@
 #PKM
 # ENCODE framework
-## sous titre
 
-
-
-
-
+Input
+$\downarrow$
 - Encounter
     - search yourself
     - just encounter by luck
@@ -24,3 +21,7 @@
     - write your thoughts, opinions, what you deduce
 - Express 
     - make something of that data
+$\downarrow$
+Output
+
+

@@ -29,7 +29,7 @@
   "minimal-style@@show-grabber": false,
   "minimal-advanced@@window-title-on": false,
   "minimal-style@@header-height": "30px",
-  "customizable-page-header-buttons@@page-header-spacing-mobile": 12,
+  "customizable-page-header-buttons@@page-header-spacing-mobile": 0,
   "customizable-page-header-buttons@@page-header-spacing-desktop": 0,
   "minimal-style@@tag-bg@@dark": "#22222200",
   "minimal-style@@row-hover": true,

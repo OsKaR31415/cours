@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "-path:(\"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:excalidraw",
+  "collapse-filter": true,
+  "search": "-path:(\"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -71,16 +71,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.05480799746112,
-  "lineSizeMultiplier": 1.42297002010314,
+  "lineSizeMultiplier": 1.6547802677532,
   "collapse-forces": true,
   "centerStrength": 0.676951315444454,
   "repelStrength": 12.1348852040816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.6235609893788435,
-  "close": true
+  "scale": 0.31831754346595603,
+  "close": false
 }

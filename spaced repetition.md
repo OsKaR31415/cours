@@ -1,4 +1,4 @@
-#PKM
+#PKM #obsidian 
 # spaced repetition
 
 Technique pour apprendre a long terme
@@ -19,7 +19,8 @@ Technique pour apprendre a long terme
  - https://en.wikipedia.org/wiki/Leitner_system
 
 ## Applications
- - Anki : https://apps.ankiweb.net/
+ - Anki 
+     - https://apps.ankiweb.net/
      - La plus utilisée
      - Beaucoup de features
          - images/son/Vidéos
@@ -33,7 +34,7 @@ Technique pour apprendre a long terme
          - Plugins
      - moche
  - Spaced repetition obsidian plugin
-     - sur [[Obsidian]], donc liens possibles avec le cours
+     - sur [[obsidian]], donc liens possibles avec le cours
      - full osbidian markdown
      - utilise la syntaxe Anki
      - parfait !
