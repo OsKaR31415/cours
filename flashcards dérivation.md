@@ -1,7 +1,7 @@
 #flashcards #maths
 
 [[dérivation|dérivée]] de $\sin x$ :: $\cos x$
-<!--SR:!2022-06-11,1,232-->
+<!--SR:!2022-06-13,2,232-->
 [[dérivation|dérivée]] de $\cos x$ :: $-\sin x$
 <!--SR:!2022-06-14,4,270-->
 [[dérivation|dérivée]] de $\tan x$ :: $1 + \tan^2 x$
@@ -18,7 +18,7 @@
 [[dérivation|dérivée]] de $\ln |u|$ :: $\dfrac{u'}u$
 <!--SR:!2022-06-13,3,252-->
 [[dérivation|dérivée]] de $g\circ f$ :: $f'\times g'\circ f$
-<!--SR:!2022-06-11,1,232-->
+<!--SR:!2022-06-14,2,212-->
 [[dérivation|dérivée]] de $f^{-1}$ :: $\dfrac1{f'\circ f^{-1}}$
 <!--SR:!2022-06-14,4,272-->
 

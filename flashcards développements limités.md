@@ -5,7 +5,7 @@ Formule de _Taylor-Young_ pour les **développements limités**
 ?
 $$\text{DL}_n (x_0) f(x) = \sum_{k=0}^n\left( \dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\right) + (x-x_0)^n\varepsilon(x)$$ 
 avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
-<!--SR:!2022-06-12,8,221-->
+<!--SR:!2022-06-13,1,201-->
 
 
 **Développement limité**
@@ -34,7 +34,7 @@ $\DL_n(0)\ln(1+x) =\ldots$
 ?
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\disp\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
-<!--SR:!2022-06-11,1,130-->
+<!--SR:!2022-06-13,1,130-->
 
 
 **Développement limité**

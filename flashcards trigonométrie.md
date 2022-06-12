@@ -23,7 +23,7 @@ $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
 Tangente d'une somme $\tan(a+b) = ?$
 ?
 $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
-<!--SR:!2022-06-11,1,210-->
+<!--SR:!2022-06-13,2,210-->
 
 Cosinus du double $\cos(2x) = ?$ :: $\cos(2x) = \cos^2(x)-\sin^2(x)$
 <!--SR:!2022-06-14,4,205-->
