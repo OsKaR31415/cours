@@ -58,7 +58,7 @@ Plugins pour l'application [[obsidian]]
 ### Desmos
 [github](https://github.com/Nigecat/obsidian-desmos)
  - tracer des courbes dans obsidian
- - [[syntaxe desmos]]
+ - [[obdsidian plugin desmos]]
 
 ### Diagrams
 [github](https://github.com/zapthedingbat/drawio-obsidian)
@@ -118,10 +118,15 @@ Plugins pour l'application [[obsidian]]
 [github](https://github.com/OliverBalfour/obsidian-pandoc)
  - exporter les fichiers markdown sous plusieurs formats avec pandoc
 
+### Quick explorer
+[github](https://github.com/pjeby/quick-explorer/)
+ - alternate file explorer
+ - more keyboard based
+ - shows preview with [[plugins obsidian#Hover editor|hover editor]]
 ### Quick latex for obsidian
 [github](https://github.com/joeyuping/quick_latex_obsidian)
  - raccourcis clavier pour taper du LaTeX
- - [[raccourcis quick latex]]
+ - [[obsidian plugin quick latex]]
 ### Sliding panes
 [github](https://github.com/deathau/sliding-panes-obsidian)
  - autre vision du tiling window manager
@@ -133,7 +138,9 @@ Plugins pour l'application [[obsidian]]
 [github](https://github.com/st3v3nmw/obsidian-spaced-repetition)
  - répétition espacée (flashcards)
  - utilise le format anki : `question::réponse` ou bien `?` pour plusieurs lignes
- - implémente vraiment la répétition espacée (calcule quand la question doit être reposée)
+ - implémente vraiment la [[spaced repetition|répétition espacée]] (calcule quand la question doit être reposée)
  - permet aussi de _review_ des fichiers (mettre le tag `#review` dans le fichier)
 
-# ___
+
+
+
