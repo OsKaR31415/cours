@@ -10,5 +10,8 @@ Ou bien, pour plus de deux nombres $\text{pgcd}(x_1;x_2;x_3;\cdots) = \max(\left
 
 On peut aussi définir le $\text{pgcd}$ de $x_1, x_2, x_3,\ldots$ comme le produit de l'intersection des [[ensemble avec répétitions]] des [[décomposition en facteurs premiers|décompositions en facteurs premiers]] de chacun des nombres $x_1,x_2,x_3,\ldots$
 
-
+## Propriétés
+Soient $a$ et $b$ deux entiers non nuls
+ - $\pgcd(a,b)\times\ppcm(a,b)=|ab|$
+     - [[ppcm]]
 
