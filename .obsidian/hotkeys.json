@@ -124,5 +124,13 @@
       ],
       "key": "J"
     }
+  ],
+  "quick-explorer:browse-vault": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "E"
+    }
   ]
 }

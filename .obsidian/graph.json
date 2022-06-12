@@ -1,8 +1,8 @@
 {
   "collapse-filter": true,
-  "search": "-path:(\"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -64,23 +64,23 @@
       }
     },
     {
-      "query": "tag:#PKM",
+      "query": "tag:#PKM OR tag:#obsidian",
       "color": {
         "a": 1,
         "rgb": 4667546
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.05480799746112,
   "lineSizeMultiplier": 1.6547802677532,
-  "collapse-forces": true,
-  "centerStrength": 0.676951315444454,
-  "repelStrength": 12.1348852040816,
+  "collapse-forces": false,
+  "centerStrength": 0.69674367837002,
+  "repelStrength": 13.0660360196471,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.31831754346595603,
-  "close": false
+  "scale": 0.22797603117727797,
+  "close": true
 }

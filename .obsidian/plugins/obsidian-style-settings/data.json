@@ -34,6 +34,5 @@
   "minimal-style@@tag-bg@@dark": "#22222200",
   "minimal-style@@row-hover": true,
   "minimal-style@@minimal-unstyled-tags": true,
-  "minimal-advanced@@zoom-off": false,
   "minimal-advanced@@font-smallest": 8
 }

@@ -1,10 +1,10 @@
 {
   "theme": "moonstone",
-  "accentHue": 164,
-  "accentSat": 0,
+  "accentHue": 360,
+  "accentSat": 61,
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark-black",
-  "lightScheme": "minimal-default-light",
+  "lightScheme": "minimal-solarized-light",
   "darkScheme": "minimal-things-dark",
   "uiFont": "Fira Code",
   "textFont": "Fira Code",
