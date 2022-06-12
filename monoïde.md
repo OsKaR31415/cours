@@ -13,7 +13,7 @@ Un _monoïde_ est un [[semi groupe]] qui possède un élément neutre.
  - La loi $\cup$ est [[commutativité|commutative]] et [[associativité|associative]]
  - $\mathscr P(E)$ possède un élément neutre pour $\cup$ (c'est $\emptyset$)
  - $(\mathscr P(E), \cup)$ est donc un monoïde
-- $(\mathbb Z/n\mathbb Z, \dot{\times}$ pour $n\in\mathbb N^*$ est un monoïde
+- $(\mathbb Z/n\mathbb Z, \dot{\times})$ pour $n\in\mathbb N^*$ est un monoïde
 - $((\mathbb Z/4\mathbb Z)^*, \dot{\times})$ pour $n\in\mathbb N$ est un monoïde [[commutativité|commutatif]]
 
 

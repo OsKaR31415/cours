@@ -3,9 +3,6 @@ sr-due: 2023-06-08
 sr-interval: 365
 sr-ease: 330
 ---
-
-
-
 #maths/algèbre #review 
 # loi de composition interne
 
@@ -35,8 +32,10 @@ $\exists e\in E, \forall a\in E, a*e=e*a=a$
 
 ### [[éléments symétrisables]]
 $a\in E$ est symétrisable ssi: $\exists a'\in E, a*a' = a'*a = e$
+
 ### [[commutativité]]
 $\forall(a,b)\in E^2, a*b = b*a$
+
 ### [[distributivité]]
 
 
@@ -59,7 +58,6 @@ Soit $E$ un ensemble non vide.
 On définit une loi de composition interne $\Delta$ sur $\mathscr P(E)$ :
 Soit $(A, B)\in(\mathscr P(E))^2, A\Delta B = \complement_{A\cup B}(A\cap B)$ 
 On appelle cette loi "Différence symétrique"
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-12
-sr-interval: 4
-sr-ease: 273
+sr-due: 2022-06-26
+sr-interval: 14
+sr-ease: 293
 ---
 
 #maths/analyse #review 
