@@ -1,4 +1,4 @@
-#PKM #obsidian 
+#PKM #obsidian
 # spaced repetition
 
 Technique pour apprendre a long terme

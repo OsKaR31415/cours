@@ -1,5 +1,6 @@
 #obsidian
-# syntaxe desmos
+# obdsidian plugin desmos
+[github](https://github.com/Nigecat/obsidian-desmos)
 
 Syntaxe du plugin [obsidian desmos](https://github.com/Nigecat/obsidian-desmos#offline-usage)
 

@@ -1,3 +1,4 @@
+#obsidian #PKM
 # obsidian
 
 Application de prise de notes liés ([[linked notes]])
