@@ -1,3 +1,4 @@
+#maths/analyse 
 # transformations paramétrisées
 Des transformations du plan représentées comme fonction à composer à une [[courbe paramétrée]].
 Puisqu'une courbe paramétrée est une [[application]] de $D\subset\R$ dans $\R^{2}$, les transformations du plan sont des [[application|applications]] de $\R^2$ dans $\R^2$ (c'est-à dire qu'a un point elles associent un point).
@@ -21,4 +22,7 @@ $t_{\vec{u}} : (x, y) \mapsto (x+a, y+b)$ Translation de [[vecteur]] $\vec{u}(a;
  - $S_{I} : (x, y)\mapsto (2a-x, 2b-y)$ Symétrie centrale de centre $I(a, b)$
 
 ### Rotations
-    
+ - $\text{rot}_{O, \frac{\pi}{2}}: (x,y)\mapsto (-y,x)$ Rotation d'angle $\frac{\pi}{2}$
+ - $\text{rot}_{O, -\frac{\pi}{2}}: (x,y)\mapsto (y,-x)$ Rotation d'angle $-\frac{\pi}{2}$ 
+
+

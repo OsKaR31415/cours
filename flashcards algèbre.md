@@ -1,4 +1,4 @@
-#maths/algèbre #todo
+#maths/algèbre #flashcards #todo
 
 propriétés d'un semi groupe
 ?
@@ -11,6 +11,7 @@ une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
 Tous les éléments ont un **symétrique**
+<!--SR:!2022-06-21,4,270-->
 
 propriétés d'un monoïde
 ?

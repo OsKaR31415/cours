@@ -6,6 +6,11 @@ not done
 short mode
 ```
 
+## Files todo
+```query
+tag:#todo -(file:("todo" OR "things to do"))
+```
+
 ## Done
 
 ```tasks

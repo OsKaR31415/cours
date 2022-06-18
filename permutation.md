@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-16
-sr-interval: 8
-sr-ease: 255
+sr-due: 2022-07-19
+sr-interval: 32
+sr-ease: 275
 ---
 
 #maths/algèbre #review 

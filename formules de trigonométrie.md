@@ -31,3 +31,4 @@ On pose $t=\tan\left(\dfrac{x}{2}\right)$
 
 Avec ces définitions, on remarque bien la [[fonction paire|parité]] des fonctions ainsi que leur ensemble de définition (la [[fonction tangente]] n'est pas définie quand $t^2 = 1$ soit quand $x = \pm \dfrac\pi2 [\pi]$)
 
+**Note :** utile pour [[intégration|intégrer]] des fonctions trigonométriques.

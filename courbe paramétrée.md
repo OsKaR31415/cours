@@ -1,4 +1,4 @@
-#maths/analyse 
+#maths/analyse #review 
 # courbe paramétrée
 
 ## Définition
@@ -39,13 +39,9 @@ $z(t)=e^{it}, t\in D$
 
 ## Propriétés
 
-### Support d'une courbe paramétrée
-Soit $f : D\subset\R \rightarrow \R^2$ une courbe paramétrée telle que $f: t\mapsto M(t)$
-Le _support_ de $f$ est l'ensemble des points $M(t)$ quand $t$ décrit $D$
+ - [[Support d'une courbe paramétrée]]
+ - [[multiplicité d'un point d'une courbe paramétrée]]
 
-Formellement, c'est l'ensemble $\{f(t) | t\in D\}$ ou simplement $f(D)$
-
-C'est donc l'ensemble des points sur lesquels la courbe passe.
 ### Représentation des fonctions
 Si $f$ est une fonction de $D$ vers $\R$, on peut paramétriser le graphe de $f$.
 On peut donc "_traduire_" $y=f(x)$ sous forme paramétrique :
@@ -54,4 +50,4 @@ x(t)=t\\
 y(t)=f(t)
 \end{gathered}\right.$$
 
-###  
+

@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-13
-sr-interval: 4
-sr-ease: 275
+sr-due: 2022-06-18
+sr-interval: 1
+sr-ease: 255
 ---
 
 #maths/ensembles #review 

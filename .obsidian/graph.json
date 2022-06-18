@@ -5,13 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#todo",
       "color": {
         "a": 1,
-        "rgb": 13249323
+        "rgb": 16711680
       }
     },
     {
@@ -19,6 +19,13 @@
       "color": {
         "a": 1,
         "rgb": 2829614
+      }
+    },
+    {
+      "query": "tag:#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 6356992
       }
     },
     {
@@ -46,21 +53,21 @@
       "query": "tag:#informatique",
       "color": {
         "a": 1,
-        "rgb": 1796734
+        "rgb": 32881
       }
     },
     {
       "query": "tag:#personne",
       "color": {
         "a": 1,
-        "rgb": 10972553
+        "rgb": 10710150
       }
     },
     {
       "query": "path:annotation",
       "color": {
         "a": 1,
-        "rgb": 4178649
+        "rgb": 12844866
       }
     },
     {
@@ -76,11 +83,11 @@
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.05480799746112,
   "lineSizeMultiplier": 1.6547802677532,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.69674367837002,
   "repelStrength": 13.0660360196471,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.22797603117727797,
+  "scale": 0.5270006175890236,
   "close": true
 }

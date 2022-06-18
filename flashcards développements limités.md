@@ -5,7 +5,7 @@ Formule de _Taylor-Young_ pour les **développements limités**
 ?
 $$\text{DL}_n (x_0) f(x) = \sum_{k=0}^n\left( \dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\right) + (x-x_0)^n\varepsilon(x)$$ 
 avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
-<!--SR:!2022-06-13,1,201-->
+<!--SR:!2022-06-21,4,181-->
 
 
 **Développement limité**
@@ -18,7 +18,7 @@ $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(
 $\DL_n(0)\dfrac{1}{1-x} =\ldots$
 ?
 $1+x+x^2+x^3+\cdots+x^n+x^n\varepsilon(x)$
-<!--SR:!2022-06-14,10,191-->
+<!--SR:!2022-06-19,2,151-->
 
 
 **Développement limité**
@@ -26,7 +26,7 @@ $\DL_n(0)\dfrac{1}{1+x}=\ldots$
 ?
 $\dfrac1{1+x} = 1-x+x^2+ \cdots +(-1)^nx^n + x^n\varepsilon(x)$
 soit $(1+x)^\alpha$ avec $\alpha = -1$
-<!--SR:!2022-06-16,7,130-->
+<!--SR:!2022-06-18,1,130-->
 
 
 **Développement limité**
@@ -34,7 +34,7 @@ $\DL_n(0)\ln(1+x) =\ldots$
 ?
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\disp\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
-<!--SR:!2022-06-13,1,130-->
+<!--SR:!2022-06-19,3,130-->
 
 
 **Développement limité**

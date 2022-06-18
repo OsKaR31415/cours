@@ -36,6 +36,7 @@ cos(x) & -sin(x)\\\hline
 \arcsin' x & \dfrac1{\sqrt{1-x^2}}\\\hline
 \arccos' x & -\dfrac1{\sqrt{1-x^2}}\\\hline
 \tan x & 1 + \tan^2(x)\\\hline
+\tan x & \dfrac{1}{\cos^{2}(x)} \\\hline
 \arctan x & \dfrac1{1+x^2}\\\hline
 \end{array}$$
 

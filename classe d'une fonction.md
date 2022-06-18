@@ -1,6 +1,5 @@
 #maths/analyse #review 
 # classe d'une fonction
-#maths/analyse 
 voir [[dérivées successives]].
 
 Soit $f$ une fonction définie sur un intervalle $I$.
@@ -16,4 +15,4 @@ On dit que $f$ est de classe $C^\infty$ ssi :
 ## Notation
 On note:
  - $C^n(I)$ l'ensemble des fonctions de classe $C^n$ sur $I$
- - $\displaystyle C^\infty(I) = \cap_{n\in\mathbb N}C^n(I)$
+ - $\displaystyle C^\infty(I) = \cap_{n\in\mathbb N}C^n(I)$  l'ensemble des fonctions dérivables une infinité de fois

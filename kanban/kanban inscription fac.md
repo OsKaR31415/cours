@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## A faire
 
-- [ ] validation des acquis
 - [ ] inscription L2 informatique
 - [ ] inscription L2 mathématiques
 
@@ -17,12 +16,13 @@ kanban-plugin: basic
 
 ## En attente
 
-- [ ] mail relevé de notes (M.ressault)
 
 
 ## Terminé
 
 **Complete**
+- [x] mail relevé de notes (M.ressault)
+- [x] validation des acquis
 
 
 

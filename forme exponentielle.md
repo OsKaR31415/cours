@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-15
-sr-interval: 7
-sr-ease: 256
+sr-due: 2022-10-18
+sr-interval: 123
+sr-ease: 296
 ---
 
 #maths/analyse/complexes #review 
