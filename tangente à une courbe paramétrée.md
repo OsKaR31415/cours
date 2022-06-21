@@ -1,4 +1,4 @@
-#maths/analyse 
+#maths/analyse #review 
 # tangente à une courbe paramétrée
 ## Définition
 Soit $f: t\mapsto M(t)$ avec $t\in D\subset \R$ une [[courbe paramétrée]].

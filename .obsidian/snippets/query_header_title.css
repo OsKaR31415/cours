@@ -1,0 +1,10 @@
+
+
+/* when using a ```query ``` block, the query is showed even in preview mode.
+ * The default size is too big, so this is to set my prefered reasonable size.
+ * */
+.internal-query-header-title {
+    /* sadly i have to use important, else this file does not have the priority */
+    font-size : 17px !important;
+}
+

@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # Epigrams on programming
 By [[Alan Perlis]]
 

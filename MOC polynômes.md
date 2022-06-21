@@ -1,4 +1,4 @@
-#MOC #not-done
+#MOC 
 # MOC polynômes
 MOC sur les [[polyôme|polynômes]]
 
@@ -16,5 +16,5 @@ MOC sur les [[polyôme|polynômes]]
  - [[polynôme scindé]]
 
 ## Théorèmes 
-
  - [[théorème de d'Alembert]]
+

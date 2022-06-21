@@ -1,4 +1,4 @@
-#maths/graphes 
+#maths/graphes #no-review r
 # topologies (théorie des graphes)
 Il existe 3 grandes familles de [[graphe|graphes]], et 5 catégories au total.
 

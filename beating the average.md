@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 author: [[paul graham]]
 url: http://www.paulgraham.com/avg.html
 # beating the average

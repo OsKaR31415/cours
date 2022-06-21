@@ -1,4 +1,4 @@
-#maths/analyse #review #todo
+#maths/analyse #review 
 # limites usuelles
 Voir [[limite d'une fonction|limite]] d'une [[fonction]]
 

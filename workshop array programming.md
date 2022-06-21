@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # workshop array programming
 
 ## [[notation as a tool of thought.pdf|Notation as a tool of thought]]
@@ -7,7 +7,7 @@
 [[array programming]]
 
 
-# Notions nécessaires
+# Notions importantes
 
  - iota `⍳`
  - reduce `+/` ET replicate `1 0 0 1 0 1 0 0 0 / 'caractere'`
@@ -28,6 +28,7 @@
 
 
 # Introduction/Exercices
+
 
  - somme des entiers
      - `+/⍳5`

@@ -7,7 +7,7 @@
 [[dérivation|dérivée]] de $\tan x$ :: $1 + \tan^2 x$
 <!--SR:!2022-06-27,13,272-->
 [[dérivation|dérivée]] de $\tan(x)$ en fonction de $\cos$ :: $\dfrac{1}{\cos^{2}(x)}$
-<!--SR:!2022-06-18,1,240-->
+<!--SR:!2022-06-25,5,260-->
 [[dérivation|dérivée]] de $\arcsin x$ :: $\dfrac1{\sqrt{1-x^2}}$
 <!--SR:!2022-06-24,10,252-->
 [[dérivation|dérivée]] de $\arccos x$ :: $-\dfrac1{\sqrt{1-x^2}}$
@@ -20,7 +20,7 @@
 [[dérivation|dérivée]] de $\ln |u|$ :: $\dfrac{u'}u$
 <!--SR:!2022-06-28,14,272-->
 [[dérivation|dérivée]] de $g\circ f$ :: $f'\times g'\circ f$
-<!--SR:!2022-06-18,4,212-->
+<!--SR:!2022-06-26,8,212-->
 [[dérivation|dérivée]] de $f^{-1}$ :: $\dfrac1{f'\circ f^{-1}}$
 <!--SR:!2022-06-29,15,292-->
 
@@ -28,7 +28,7 @@ Formule générale de la [[dérivation]]
 (définition de la dérivée)
 ?
 $$f'(a) = \lim_{h\rightarrow0}\left(\dfrac{f(a+h) - f(a)}h\right)$$
-<!--SR:!2022-06-22,8,252-->
+<!--SR:!2022-07-12,20,252-->
 
 
 Que vaut $(fg)^{(n)}$ ($fg$ [[dérivation|dérivée]] $n$ fois) ?

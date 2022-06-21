@@ -5,6 +5,7 @@
   "translucency": true,
   "enabledCssSnippets": [
     "mono",
-    "pdf_darkmode"
+    "pdf_darkmode",
+    "query_header_title"
   ]
 }

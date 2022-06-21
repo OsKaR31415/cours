@@ -1,4 +1,8 @@
+#maths 
 # Entiers naturels
+
+## Définition
+On construit $\N$ l'ensemble des entiers naturels :
 
  1. $0\in\N$
  2. $\forall n\in\N, \exists p\in\N, p=S_{n}$

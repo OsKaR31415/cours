@@ -1,4 +1,4 @@
-#conférence #informatique 
+#conférence #informatique #no-review 
 # cnil google analytics
  - Présenté par Frank Bataille
  - Par Loir et cher tech

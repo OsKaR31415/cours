@@ -1,4 +1,4 @@
-#maths/graphes
+#maths/graphes #no-review 
 # graphe
 
 ## Définitions

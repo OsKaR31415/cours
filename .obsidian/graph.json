@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#todo",
@@ -39,21 +39,21 @@
       "query": "tag:#maths",
       "color": {
         "a": 1,
-        "rgb": 2520841
+        "rgb": 2526976
       }
     },
     {
       "query": "tag:#logique",
       "color": {
         "a": 1,
-        "rgb": 2836657
+        "rgb": 1322409
       }
     },
     {
       "query": "tag:#informatique",
       "color": {
         "a": 1,
-        "rgb": 32881
+        "rgb": 27497
       }
     },
     {
@@ -64,10 +64,10 @@
       }
     },
     {
-      "query": "path:annotation",
+      "query": "path:sources",
       "color": {
         "a": 1,
-        "rgb": 12844866
+        "rgb": 5084664
       }
     },
     {
@@ -82,12 +82,12 @@
   "showArrow": true,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.05480799746112,
-  "lineSizeMultiplier": 1.6547802677532,
+  "lineSizeMultiplier": 1.26760040745052,
   "collapse-forces": true,
   "centerStrength": 0.69674367837002,
   "repelStrength": 13.0660360196471,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.5270006175890236,
-  "close": true
+  "scale": 0.37085035548216355,
+  "close": false
 }

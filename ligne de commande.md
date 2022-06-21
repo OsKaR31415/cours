@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # ligne de commande
 
 ## Interface ligne de commande

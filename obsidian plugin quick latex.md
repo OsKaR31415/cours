@@ -1,4 +1,4 @@
-#obsidian
+#obsidian #no-review 
 up: [[plugins obsidian]]
 # obsidian plugin quick latex
 

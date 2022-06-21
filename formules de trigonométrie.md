@@ -1,4 +1,4 @@
-#maths/trigonométrie 
+#maths/trigonométrie #review 
 # formules de trigonométrie
 
 ## [[Formules d'Euler]]

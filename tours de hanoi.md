@@ -1,4 +1,4 @@
-#maths #informatique 
+#maths #informatique #no-review 
 # tours de hanoi
 
 # Les Tours de Hanoi

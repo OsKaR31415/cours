@@ -16,7 +16,7 @@
   "minimal-style@@h6-weight": 900,
   "minimal-style@@h6-l": false,
   "minimal-cards-style@@cards-min-width": "400px",
-  "minimal-style@@icon-muted": 0.75,
+  "minimal-style@@icon-muted": 0.8,
   "minimal-style@@checkbox-shape": "checkbox-square",
   "minimal-style@@tab-style": "tab-style-2",
   "minimal-style@@sidebar-lines-off": false,
@@ -26,7 +26,7 @@
   "minimal-style@@tag-color@@dark": "#FF9B21",
   "minimal-style@@tag-bg2@@dark": "#22222200",
   "minimal-style@@bold-weight": 900,
-  "minimal-style@@show-grabber": false,
+  "minimal-style@@show-grabber": true,
   "minimal-advanced@@window-title-on": false,
   "minimal-style@@header-height": "30px",
   "customizable-page-header-buttons@@page-header-spacing-mobile": 0,
@@ -34,5 +34,10 @@
   "minimal-style@@tag-bg@@dark": "#22222200",
   "minimal-style@@row-hover": true,
   "minimal-style@@minimal-unstyled-tags": true,
-  "minimal-advanced@@font-smallest": 8
+  "minimal-advanced@@font-smallest": 8,
+  "minimal-style@@image-muted": 0.9,
+  "minimal-style@@title-alignment": "title-align-body",
+  "minimal-style@@bg-translucency-dark": 0.85,
+  "minimal-style@@active-line-on": false,
+  "minimal-style@@embed-strict": false
 }

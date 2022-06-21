@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # aamath
 outil en [[ligne de commande]].
 Permet d'afficher des expressions mathématiques en [[ASCII]].

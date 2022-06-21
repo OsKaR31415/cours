@@ -4,55 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "08cf948f17608ee6",
+        "id": "6753758c44e413b2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "racines d'un polynôme.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "ec89b1d914a0eaf2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "multiplicité d'une racine.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2ca525e5ccd68ef9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "MOC polynômes.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "80e004eda1c89748",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "code morse.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -80,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:pkm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -106,7 +62,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code morse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code morse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +83,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,16 +97,14 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 74.77931904161412,
+        "dimension": 69.64735516372797,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "code morse.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,11 +121,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "code morse.md",
                 "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
+                  "collapse-filter": true,
+                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -187,7 +137,21 @@
                       "query": "tag:#todo",
                       "color": {
                         "a": 1,
-                        "rgb": 13249323
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "tag:#not-done",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2829614
+                      }
+                    },
+                    {
+                      "query": "tag:#MOC",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6356992
                       }
                     },
                     {
@@ -208,42 +172,49 @@
                       "query": "tag:#logique",
                       "color": {
                         "a": 1,
-                        "rgb": 2836657
+                        "rgb": 2902193
                       }
                     },
                     {
                       "query": "tag:#informatique",
                       "color": {
                         "a": 1,
-                        "rgb": 1796734
+                        "rgb": 32882
                       }
                     },
                     {
-                      "query": "file:excalidraw",
+                      "query": "tag:#personne",
                       "color": {
                         "a": 1,
-                        "rgb": 7677168
+                        "rgb": 10710150
                       }
                     },
                     {
-                      "query": "path:\"daily\"",
+                      "query": "path:annotation",
                       "color": {
                         "a": 1,
-                        "rgb": 0
+                        "rgb": 12844865
+                      }
+                    },
+                    {
+                      "query": "tag:#PKM OR tag:#obsidian",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4667545
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1.30598044853364,
-                  "collapse-forces": false,
+                  "lineSizeMultiplier": 2.66151355284701,
+                  "collapse-forces": true,
                   "centerStrength": 0.791642706536324,
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.1029488891070263,
+                  "scale": 0.8837460373299972,
                   "close": true
                 }
               }
@@ -265,13 +236,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 25.220680958385877,
+        "dimension": 30.35264483627204,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -285,33 +255,24 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b371d4a79b2d6e0f",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 648.0340576171875,
-    "collapsed": true
+    "width": 320.2120666503906
   },
-  "active": "80e004eda1c89748",
+  "active": "6753758c44e413b2",
   "lastOpenFiles": [
-    "code morse.md",
+    "présenter un projet.md",
+    "tags to add - notes to organize.md",
+    "daily/2022-06-22.md",
     "MOC polynômes.md",
-    "textutil.md",
-    "identités.md",
-    "classe d'une fonction.md",
-    "polynôme scindé.md",
-    "multiplicité d'une racine.md",
-    "racines d'un polynôme.md",
-    "Untitled.md",
-    "discriminant.md"
+    "sources/Jean-Paul Delahaye.md",
+    "workshop array programming.md",
+    "tours de hanoi.md",
+    "topologies (théorie des graphes).md",
+    "Syntaxe obsidian.md",
+    "skolem.md"
   ]
 }

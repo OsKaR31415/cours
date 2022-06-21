@@ -1,4 +1,4 @@
-#obsidian
+#obsidian #no-review 
 up: [[obsidian]]
 # Syntaxe obsidian
 
