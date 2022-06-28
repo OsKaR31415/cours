@@ -13,7 +13,7 @@ $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
 Cosinus d'une somme $\cos(a+b) = ?$
 ?
 $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
-<!--SR:!2022-06-23,1,186-->
+<!--SR:!2022-07-02,4,186-->
 
 Sinus d'une somme $\sin(a+b) = ?$
 ?
@@ -26,7 +26,7 @@ $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
 <!--SR:!2022-07-03,13,210-->
 
 Cosinus du double $\cos(2x) = ?$ :: $\cos(2x) = \cos^2(x)-\sin^2(x)$
-<!--SR:!2022-06-26,12,225-->
+<!--SR:!2022-07-22,26,225-->
 
 Sinus du double $\sin(2x) = ?$ :: $\sin(2x) = 2\sin(x)\cos(x)$
 <!--SR:!2022-07-10,20,226-->
