@@ -44,3 +44,5 @@ $A\times Id_n = A$ et $Id_m\times A = A$
 
 ## Visulalisation
 ![[visualisation de la multiplication de matrices.excalidraw]]
+
+
