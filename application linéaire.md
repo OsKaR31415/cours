@@ -31,7 +31,7 @@ f: & \R^2 \mapsto \R\\
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels de dimension finie, et $f: E\rightarrow F$ une _application linéaire_, alors :
 
   - $\dim \ker f + \dim \im f = \dim E$ ([[théorème du rang]])
-      - . $\dim$ la [[dimension d'un espace vectoriel]]
+      - $\dim$ la [[dimension d'un espace vectoriel]]
       - $\ker$ le [[Noyau d'une application linéaire]]
       - $\im$ l'[[image d'une application linéaire]]
   - Lorsque $E = F$, $f$ est un [[endomorphisme]] de $E$ (un [[endomorphisme linéaire]])

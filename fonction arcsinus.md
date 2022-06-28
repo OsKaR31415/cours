@@ -12,7 +12,7 @@ En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction 
 \arcsin: &[-1; 1] \rightarrow \left[-\dfrac\pi2; \dfrac\pi2\right]\\
     &x \mapsto y\text{ tel que }\sin(y) = x \text{ et } y\in\left[-\dfrac\pi2; \dfrac\pi2\right]\\
 \end{aligned}$$
-Attention :
+attention :
  - $\forall x\in\left[-\dfrac\pi2; \dfrac\pi2\right], \sin(\arcsin(x)) = x$
  - $\forall x\in\mathbb{R}, \arcsin(\sin(x))\neq x$ (en général)
  - $\forall x\in\left[\dfrac\pi2; \dfrac\pi2\right], \arcsin(\sin(x)) = x$ (seul cas où c'est égal)

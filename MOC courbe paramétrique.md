@@ -16,4 +16,5 @@
 ### Opérations
  - [[dérivée d'une courbe paramétrée|dérivée]]
  - [[tangente à une courbe paramétrée|tangente]]
+     - [[position de la tangente d'une courbe paramétrée]]
 

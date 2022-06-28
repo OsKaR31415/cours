@@ -1,6 +1,6 @@
 #maths/analyse 
 # fonction signe
-La _fonction signe_, souvent représentée $\sgn$, est une [[fonction]] qui extrait le signe d'un nombre réel.
+La _fonction signe_, notée $\sgn$ ou $\sg$, est une [[fonction]] qui extrait le signe d'un nombre réel.
 
 $$\sgn(x) = \left\{\begin{array}{lr}
 -1 & \text{si } x < 0\\
@@ -8,7 +8,13 @@ $$\sgn(x) = \left\{\begin{array}{lr}
 1  & \text{si } x > 0
 \end{array}\right.$$
 
-## Notation alternative
+```desmos-graph
+y = -1 | x < 0 | blue
+(0, 0) | blue
+y = 1  | x > 0 | blue
+```
+
+## Autres définitions
 $$\sgn(x) = \left\{\begin{array}{ll}
 0 & \text{si } x = 0\\
 \dfrac{|x|}{x} \text{ ou } \dfrac{x}{|x|} & \text{si } x \neq 0

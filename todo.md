@@ -3,6 +3,7 @@
 
 ```tasks
 not done 
+description does not include spaced repetition
 # short mode
 ```
 

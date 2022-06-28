@@ -23,7 +23,7 @@ Lorsque l'on [[composée|compose]] $f$ et $f^{-1}$, on obtient une fonction iden
 $f \circ f^{-1} = id_E$     $(E \rightarrow F \rightarrow E)$
 $f^{-1}\circ f = id_F$     $(F \rightarrow E \rightarrow F)$
 
-**Attention :** généralement, $f\circ f^{-1} \neq f^{-1}\circ f$, car leur [[ensemble de définition|ensembles de définition]] sont différents.
+⚠️ généralement, $f\circ f^{-1} \neq f^{-1}\circ f$, car leur [[ensemble de définition|ensembles de définition]] sont différents.
 
 ## calcul de la fonction réciproque
 

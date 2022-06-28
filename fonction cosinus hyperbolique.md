@@ -10,5 +10,5 @@ $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 =
 (Voir [[fonction sinus hyperbolique]])
 
  - $\cos(x) = \cosh(ix)$ soit $\cosh(x) = \cos(\frac{x}{i})$
-     - **attention** : généralement, $\cosh$ est définie sur $\R$
+     - ⚠️ généralement, $\cosh$ est définie sur $\R$
 

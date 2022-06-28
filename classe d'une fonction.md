@@ -4,7 +4,7 @@ voir [[dérivées successives]].
 
 Soit $f$ une fonction définie sur un intervalle $I$.
 Soit $n\in\mathbb N$, $f$ est de classe $C^n$ ssi :
- - $f$ est [[dérivable]] $n$ fois sur $I$
+ - $f$ est [[fonction dérivable|dérivable]] $n$ fois sur $I$
  - $f^{(n)}$ est [[fonction continue|continue]] sur $I$.
 
 On dit que $f$ est de classe $C^\infty$ ssi :

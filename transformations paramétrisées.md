@@ -15,7 +15,8 @@ $t_{\vec{u}} : (x, y) \mapsto (x+a, y+b)$ Translation de [[vecteur]] $\vec{u}(a;
  - $S_{O_{y}}: (x,y)\mapsto (-x, y)$ Réflextion d'axe $(Oy)$
  - $S_{D}:(x, y)\mapsto(y,x)$ Réflexion d'axe la droite $D:y=x$
  - $S_{D'}:(x,y)\mapsto(-y,-x)$ Réflexion d'axe la droite $D:y=-x$
- 
+ - $S_{D_{a}} : (x,y)\mapsto (2a - x, y)$ Réflexion d'axe la droite $D_{a}:x=a$
+
 ### Symétries centrales
  - $S_{O}:(x,y)\mapsto (-x,-y)$ Symétrie centrale de centre $O$
      - $S_{O} = S_{O_{x}} \circ S_{O_{y}}$ (voir [[transformations paramétrisées#Réflexions]])

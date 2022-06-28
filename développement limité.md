@@ -57,7 +57,7 @@ Soient $f$ et $g$ deux fonction admettant un $DL_n(x_0)$ :
 ### Composition
  Soient $f$ et $g$ deux fonctions telles que $f(0)=0$ et que $f$ et $g$ possèdent un $\DL_n(0)$
  Alors $f\circ g$ possède un $\DL_n(0)$
-**Attention :** Si $f(0)\neq 0$, on doit déterminer un $\DL_n(f(0)): g$
+⚠️ Si $f(0)\neq 0$, on doit déterminer un $\DL_n(f(0)): g$
 
 ### Fonctions paires et impaires
 

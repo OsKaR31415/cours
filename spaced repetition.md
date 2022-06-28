@@ -40,5 +40,5 @@ Technique pour apprendre a long terme
      - parfait !
 
 
-[BD sur la répétition espacée](https://ncase.me/remember/fr.html "https://ncase.me/remember/fr.html")
+[BD sur la répétition espacée](https://ncase.me/remember/fr.html)
 

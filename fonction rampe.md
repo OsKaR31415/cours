@@ -10,6 +10,11 @@ R : & \R \rightarrow \R\\
 \end{align}
 $$
 
+```desmos-graph
+y=x | x >= 0 | #58F
+0   | x <  0 | #58F
+```
+
 ## Définitions
 
 $R(x) := \dfrac{x+|x|}{2}$ soit la moyenne arithmétique entre $x$ et $|x|$

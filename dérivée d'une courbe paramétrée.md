@@ -4,7 +4,7 @@
 ## Définition 
 Soit $\begin{align}f : & D\subset \R \rightarrow \R^{2}\\& t \mapsto (x(t); y(t)) \end{align}$ une [[courbe paramétrée]]
 Soit $t_{0}\in D$
-La courbe $f$ est **dérivable en $t_{0}$** ssi les deux [[fonction|fonctions]] $x$ et $y$ sont [[dérivable|dérivables]] en $t_{0}$
+La courbe $f$ est **dérivable en $t_{0}$** ssi les deux [[fonction|fonctions]] $x$ et $y$ sont [[fonction dérivable|dérivables]] en $t_{0}$
 
 ### Vecteur dérivé
 Si une [[courbe paramétrée]] $f$ est _dérivable_ en $t_0$, le **vecteur dérivé** de la courbe en $t_{0}$ est le vecteur $\begin{pmatrix} x'(t_{0})\\ y'(t_{0})\end{pmatrix}$

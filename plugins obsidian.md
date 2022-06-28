@@ -144,3 +144,6 @@ Plugins pour l'application [[obsidian]]
 
 
 
+
+### Task progress bar
+ - permet 

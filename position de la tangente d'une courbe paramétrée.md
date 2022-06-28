@@ -22,6 +22,7 @@ $M(t) = M(0) + t^{p}\vec{v} + t^{q}\vec{w} + t^{q}\vec{\epsilon}(t)$
 où :
  - $(p, q)\in\N^{2}$ et $p < q$
  - $\vec{v}$ et $\vec{w}$ sont des [[vecteur|vecteurs]] non [[vecteurs colinéaires|colinéaires]]
+     - Ils sont une [[base d'un espace vectoriel]] puisque l'on est en dimension 2
  - $\vec{\epsilon}(t)$ est un [[vecteur]] tel que $\disp\lim_{t\rightarrow t_{0}} (||\vec{\epsilon}(t)||) = 0$
 
 En un tel point $M(0)$, la courbe $\mathscr C$ admet une tangente, dont un [[vecteur directeur]] est $\vec{v}$

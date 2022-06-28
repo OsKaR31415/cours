@@ -2,7 +2,7 @@
 # théorème de l'hopital
 Pour calculer des [[dérivation|dérivées]].
 $$\lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = \dfrac{f'(x_0)}{g'(x_0)}$$
-**Attention :** Il faut que $f(x_0) = 0$ et $f(x_0) = 0$
+⚠️  Il faut que $f(x_0) = 0$ et $f(x_0) = 0$
 
 
 $$\begin{aligned}

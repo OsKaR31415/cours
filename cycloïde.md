@@ -3,7 +3,7 @@
 La _cycloide_ est la courbe que parvourt un point choisi d'une roue lorsque celle-ci avance.
 
 ## Définitions
-La définition de cette courbe en [[équation paramétrique]] est :
+Définition comme une [[courbe paramétrée]] :
 $$\left\{\begin{gathered}
 x(t) = r(t-\sin(t))\\
 y(t) = r(1-\cos(t))

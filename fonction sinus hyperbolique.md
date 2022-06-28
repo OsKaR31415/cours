@@ -10,4 +10,4 @@ $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 =
 (Voir [[fonction cosinus hyperbolique]])
 
  - $\sin(x) = \sinh(ix)$
-     - **attention** : généralement, $\sinh$ est définie sur $\R$
+     - ⚠️ généralement, $\sinh$ est définie sur $\R$

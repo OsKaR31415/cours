@@ -4,7 +4,7 @@
 La fonction $\arccos$ est la [[fonction réciproque]] de la [[fonction cosinus]].
 
 La fonction $\cos$ n'est pas [[bijection|bijective]] sur $\mathbb{R}$, mais réduite à l'intervalle $[0; \pi]$, $\cos/_{[0;\pi]}$ est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], donc elle est bijective.
-Elle possède donc une fonction réciproque, la fonction $\arccos$ :
+Elle possède donc une [[fonction réciproque]], la fonction $\arccos$ :
 
 
 $$\begin{aligned}

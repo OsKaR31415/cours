@@ -11,6 +11,9 @@ I_F :& E \rightarrow \{0, 1\}\\
     \end{gathered}\right.
 \end{align}
 $$
+```desmos-graph
+y = x
+```
 
 ## Notation
 La fonction _indicatrice_ de $F$ peut être notée :
