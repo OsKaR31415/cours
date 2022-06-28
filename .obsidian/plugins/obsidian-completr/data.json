@@ -2,7 +2,7 @@
   "characterRegex": "a-zA-ZâêîôûàéèùöäüÖÄÜß",
   "maxLookBackDistance": 50,
   "minWordLength": 4,
-  "minWordTriggerLength": 3,
+  "minWordTriggerLength": 4,
   "wordInsertionMode": "Ignore-Case & Append",
   "latexProviderEnabled": true,
   "latexTriggerInCodeBlocks": true,

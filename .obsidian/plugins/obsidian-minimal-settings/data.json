@@ -1,15 +1,12 @@
 {
   "theme": "moonstone",
-  "accentHue": 360,
+  "accentHue": 260,
   "accentSat": 61,
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark-black",
   "lightScheme": "minimal-solarized-light",
   "darkScheme": "minimal-things-dark",
-  "uiFont": "Fira Code",
-  "textFont": "Fira Code",
-  "editorFont": "Fira Code",
-  "monoFont": "Fira Code",
+  "editorFont": "\"Fira Code\"",
   "lineHeight": 1.5,
   "lineWidth": 40,
   "lineWidthWide": 50,
@@ -22,6 +19,8 @@
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
   "iframeWidth": "iframe-default-width",
+  "mapWidth": "map-default-width",
+  "chartWidth": "chart-default-width",
   "colorfulHeadings": true,
   "minimalIcons": false,
   "colorfulActiveStates": true,
@@ -40,5 +39,8 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": false,
-  "devBlockWidth": false
+  "devBlockWidth": false,
+  "uiFont": "Fira Code",
+  "textFont": "Fira Code",
+  "monoFont": "Fira Code"
 }

@@ -103,13 +103,33 @@ function matchWordBackwards(editor, cursor, charValidator, maxLookBackDistance =
   return { query, separatorChar };
 }
 function isInFrontMatterBlock(editor, pos) {
-  if (editor.getLine(0) !== "---" || editor.getLine(1) === "---" || pos.line === 0)
+  if (pos.line === 0)
     return false;
-  for (let i = 2; i < Math.max(30, editor.lastLine()); i++) {
-    if (editor.getLine(i) === "---")
-      return pos.line < i;
+  const bounds = getFrontMatterBounds(editor);
+  if (!bounds)
+    return false;
+  return pos.line > bounds.startLine && pos.line < bounds.endLine;
+}
+function getFrontMatterBounds(editor) {
+  let startLine = -1;
+  for (let i = 0; i < Math.min(5, editor.lastLine()); i++) {
+    if (editor.getLine(i) !== "---")
+      continue;
+    startLine = i;
+    break;
   }
-  return false;
+  if (startLine === -1)
+    return null;
+  let endLine = -1;
+  for (let i = startLine + 1; i < Math.min(50, editor.lastLine()); i++) {
+    if (editor.getLine(i) !== "---")
+      continue;
+    endLine = i;
+    break;
+  }
+  if (endLine === -1)
+    return null;
+  return { startLine, endLine };
 }
 var _BlockType = class {
   constructor(c, isMultiLine, otherType0 = null) {
@@ -138,8 +158,12 @@ BlockType.CODE_SINGLE = new _BlockType("`", false, _BlockType.CODE_MULTI);
 })();
 BlockType.SINGLE_TYPES = [_BlockType.DOLLAR_SINGLE, _BlockType.CODE_SINGLE];
 function isInLatexBlock(editor, cursorPos, triggerInCodeBlocks) {
-  let blockTypeStack = [];
+  var _a;
+  const frontMatterBounds = (_a = getFrontMatterBounds(editor)) != null ? _a : { startLine: -1, endLine: -1 };
+  const blockTypeStack = [];
   for (let lineIndex = Math.max(0, cursorPos.line - 1e3); lineIndex <= cursorPos.line; lineIndex++) {
+    if (lineIndex >= frontMatterBounds.startLine && lineIndex <= frontMatterBounds.endLine)
+      continue;
     const line = editor.getLine(lineIndex);
     for (let j = cursorPos.line == lineIndex ? cursorPos.ch - 1 : line.length - 1; j >= 0; j--) {
       const currentChar = line.charAt(j);
