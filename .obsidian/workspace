@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6753758c44e413b2",
+        "id": "aa6bc798d2e19f95",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "application linéaire.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -57,11 +62,20 @@
             }
           },
           {
+            "id": "692af11e37e89bce",
+            "type": "leaf",
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "application linéaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -73,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "application linéaire.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.00793838500977,
+    "width": 288.5136413574219,
     "collapsed": true
   },
   "right": {
@@ -97,14 +112,16 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 69.64735516372797,
+        "dimension": 48.669201520912544,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "application linéaire.md"
+              }
             }
           },
           {
@@ -121,10 +138,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "application linéaire.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -214,7 +232,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.8837460373299972,
+                  "scale": 0.4174056197904679,
                   "close": true
                 }
               }
@@ -236,12 +254,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 30.35264483627204,
+        "dimension": 51.330798479087456,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -255,24 +274,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3238c7d9afee5083",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320.2120666503906
+    "width": 310.0340576171875
   },
-  "active": "6753758c44e413b2",
+  "active": "aa6bc798d2e19f95",
   "lastOpenFiles": [
-    "présenter un projet.md",
-    "tags to add - notes to organize.md",
-    "daily/2022-06-22.md",
-    "MOC polynômes.md",
-    "sources/Jean-Paul Delahaye.md",
-    "workshop array programming.md",
-    "tours de hanoi.md",
-    "topologies (théorie des graphes).md",
-    "Syntaxe obsidian.md",
-    "skolem.md"
+    "application linéaire.md",
+    "MOC analyse.md",
+    "spaced repetition.md",
+    "daily/2022-06-28.md",
+    "templates/daily note.md",
+    "daily/2022-07-08.md",
+    "things to do.md",
+    "todo.md",
+    "daily/2022-06-27.md",
+    "daily/2022-06-29.md"
   ]
 }

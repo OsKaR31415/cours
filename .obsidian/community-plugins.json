@@ -8,7 +8,6 @@
   "obsidian-spaced-repetition",
   "obsidian-advanced-slides",
   "obsidian-completr",
-  "obsidian-hover-editor",
   "obsidian-enhancing-mindmap",
   "obsidian-kanban",
   "sliding-panes-obsidian",
@@ -27,10 +26,16 @@
   "obsidian-sequence-hotkeys",
   "simple-embeds",
   "obsidian-vault-statistics-plugin",
-  "obsidian-desmos",
   "obsidian-qrcode-plugin",
   "persistent-graph",
   "quick-latex",
   "quick-explorer",
-  "obsidian-rollover-daily-todos"
+  "obsidian-rollover-daily-todos",
+  "obsidian-hover-editor",
+  "tag-wrangler",
+  "obsidian-discordrpc",
+  "hover-external-link",
+  "obsidian-desmos",
+  "sekund",
+  "number-headings-obsidian"
 ]

@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+  "collapse-filter": false,
+  "search": " -path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -57,6 +57,13 @@
       }
     },
     {
+      "query": "tag:#PKM OR tag:#obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 4667546
+      }
+    },
+    {
       "query": "tag:#personne",
       "color": {
         "a": 1,
@@ -64,30 +71,30 @@
       }
     },
     {
-      "query": "path:sources",
+      "query": "path:sources OR tag:#citation OR tag:#source",
       "color": {
         "a": 1,
         "rgb": 5084664
       }
     },
     {
-      "query": "tag:#PKM OR tag:#obsidian",
+      "query": "tag:#science",
       "color": {
         "a": 1,
-        "rgb": 4667546
+        "rgb": 15780479
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.05480799746112,
-  "lineSizeMultiplier": 1.26760040745052,
+  "nodeSizeMultiplier": 1.03346916499909,
+  "lineSizeMultiplier": 1.89027833363653,
   "collapse-forces": true,
-  "centerStrength": 0.69674367837002,
-  "repelStrength": 13.0660360196471,
+  "centerStrength": 0.562978316326531,
+  "repelStrength": 9.48660714285714,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.37085035548216355,
-  "close": false
+  "scale": 0.494230213802476,
+  "close": true
 }

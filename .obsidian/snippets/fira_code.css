@@ -1,3 +1,15 @@
-* {
-    font-family: Fira Code;
+/* Set fonts for both Edit and Preview mode
+.view-content {
+  font-family: 'Courier New', monospace !important;
 }
+*/
+
+.markdown-source-view {
+  font-family: 'Fira Code Nerd Font', 'Fira Code', Menlo, Monaco, 'Courier New', monospace !important;
+}
+
+.markdown-preview-view {
+  /* font-family: Lora, sans-serif !important; */
+  font-family: 'Fira Code Nerd Font', 'Fira Code', Menlo, Monaco, 'Courier New', monospace !important;
+}
+
