@@ -1,0 +1,40 @@
+{
+  "choices": [
+    {
+      "id": "ac0147f7-d334-401f-8311-59113f6499ec",
+      "name": "MOC query",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "> [!small]- Sous-notes de {{VALUE}}\n> ```dataview\n> TABLE up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM \"\"\n> WHERE contains(up,          {{VALUE}})\n>    or contains(up.up,       {{VALUE}})\n>    or contains(up.up.up,    {{VALUE}})\n>    or contains(up.up.up.up, {{VALUE}})\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}
