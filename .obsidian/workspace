@@ -4,17 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "aa6bc798d2e19f95",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "application linéaire.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+        "id": "6aa19b399569a19d",
+        "type": "split",
+        "children": [
+          {
+            "id": "40868d0cc182e00e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022-08-05.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f188158cc1892b09",
+            "type": "split",
+            "children": [
+              {
+                "id": "7ecf60e09e6bae9d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "obsidian callouts.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "eabf1c62334bf345",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MOC analyse.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "direction": "vertical"
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -41,9 +81,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#task",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -62,20 +102,12 @@
             }
           },
           {
-            "id": "692af11e37e89bce",
-            "type": "leaf",
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "application linéaire.md",
+                "file": "daily/2022-08-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -87,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "application linéaire.md",
+                "file": "daily/2022-08-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5136413574219,
+    "width": 220,
     "collapsed": true
   },
   "right": {
@@ -112,7 +144,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 48.669201520912544,
+        "dimension": 60.855949895615865,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -120,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "application linéaire.md"
+                "file": "daily/2022-08-05.md"
               }
             }
           },
@@ -138,11 +170,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "application linéaire.md",
+                "file": "daily/2022-08-05.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -232,7 +264,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4174056197904679,
+                  "scale": 0.5488073155059083,
                   "close": true
                 }
               }
@@ -260,7 +292,7 @@
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 51.330798479087456,
+        "dimension": 39.144050104384135,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -274,32 +306,25 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3238c7d9afee5083",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 310.0340576171875
+    "width": 376.5,
+    "collapsed": true
   },
-  "active": "aa6bc798d2e19f95",
+  "active": "40868d0cc182e00e",
   "lastOpenFiles": [
-    "application linéaire.md",
+    "daily/2022-08-05.md",
+    "obsidian callouts.md",
     "MOC analyse.md",
-    "spaced repetition.md",
-    "daily/2022-06-28.md",
-    "templates/daily note.md",
-    "daily/2022-07-08.md",
-    "things to do.md",
-    "todo.md",
-    "daily/2022-06-27.md",
-    "daily/2022-06-29.md"
+    "MOC obsidian.md",
+    "Syntaxe obsidian.md",
+    "calculer une asymptote.md",
+    "informatique/java/TD/OOP/notes_OOP.md",
+    "arbre.md",
+    "MOC informatique.md",
+    "codage de caractères.md"
   ]
 }
