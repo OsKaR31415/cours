@@ -6,8 +6,6 @@ kanban-plugin: basic
 
 ## A faire
 
-- [ ] inscription L2 informatique
-- [ ] inscription L2 mathématiques
 
 
 ## En cours
@@ -21,8 +19,10 @@ kanban-plugin: basic
 ## Terminé
 
 **Complete**
-- [x] mail relevé de notes (M.ressault)
-- [x] validation des acquis
+- [x] #task [[inscription L2 maths]]<br>**A Tours**
+- [x] #task inscription L2 informatique (eCandidat)
+- [x] #task mail relevé de notes (M.ressault)
+- [x] #task validation des acquis
 
 
 
