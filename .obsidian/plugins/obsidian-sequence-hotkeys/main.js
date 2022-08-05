@@ -253,19 +253,26 @@ function arrayStartsWith(arr, start) {
 }
 var HotkeyManager = class {
   constructor(triggerHandler) {
-    this.handleChordPress = (chord) => {
-      this.currentSequence.push(chord);
+    this._matchingHotheys = () => {
       const css = this.currentSequence.map((c) => c.toString());
-      let hotkeys = this.registeredHotkeys.filter((r) => {
+      return this.registeredHotkeys.filter((r) => {
         const rcs = r.chords.map((c) => c.toString());
         return arrayStartsWith(rcs, css);
       });
+    };
+    this.handleChordPress = (chord) => {
+      this.currentSequence.push(chord);
+      let hotkeys = this._matchingHotheys();
+      if (hotkeys.length === 0 && this.currentSequence.length > 1) {
+        this.currentSequence = [chord];
+        hotkeys = this._matchingHotheys();
+      }
       if (hotkeys.length === 0) {
         this.currentSequence = [];
         return false;
       }
       let exactMatch = hotkeys.find((r) => {
-        return css.length === r.chords.length;
+        return this.currentSequence.length === r.chords.length;
       });
       if (exactMatch) {
         this.currentSequence = [];
