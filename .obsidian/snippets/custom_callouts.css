@@ -1,0 +1,17 @@
+
+.callout[data-callout="query"] {
+    /* small and green, for queries (dataview...) */
+    /* change this -------.  to adjust brightness */
+    /*                    |                       */
+    /*                    V                       */
+    --callout-color: 68, 140, 80;
+    font-size: 18px;
+    --callout-icon: database;
+    /* --callout-icon: '<svg>...custom svg...</svg>'; */
+}
+
+
+.callout {
+    font-size: 1.5ex;
+}
+
