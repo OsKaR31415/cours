@@ -1,3 +1,4 @@
+up::[[ligne de commande]]
 #informatique #no-review 
 # aamath
 outil en [[ligne de commande]].

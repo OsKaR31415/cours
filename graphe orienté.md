@@ -1,3 +1,4 @@
+up::[[graphe]]
 #maths/graphes
 # graphe orienté
 

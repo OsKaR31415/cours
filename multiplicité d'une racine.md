@@ -1,8 +1,9 @@
+up::[[racine]]
 #maths/analyse 
 # multiplicité d'une racine
 
 ## Définition 
-Soit $P$ un [[polyôme]] de [[degré d'un polynôme|degré]] $n$
+Soit $P$ un [[polynôme]] de [[degré d'un polynôme|degré]] $n$
 On sait que $P(x) = \prod\limits_{k=0}^{n} (x - a_{k})$   (forme factorisée)
 Où $a_k$ une suite dont les valeurs sont les [[racines d'un polynôme|racines]] de $P$
 
@@ -10,6 +11,9 @@ Une racine $r$ est de **multiplicité** $m$ si elle apparaît *exactement* $m$ f
 Soit si elle apparaît $m$ fois dans la factorisation de $P$
 
 ## Propriétés
+
+### Racine simple
+Une racine est simple ssi sa _multiplicité_ est 1
 
 ### Nombre de racines
 **[[théorème de d'Alembert]]**

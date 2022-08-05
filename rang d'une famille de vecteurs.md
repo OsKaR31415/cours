@@ -1,3 +1,4 @@
+up::[[famille de vecteurs]]
 #maths/algèbre 
 # rang d'une famille de vecteurs
 Soit une [[famille de vecteurs]] $\{u_1,\ldots,u_k\}$, on appelle _rang_ la dimension de $Vec \{u_1,\ldots,u_k\}$

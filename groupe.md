@@ -3,7 +3,7 @@ sr-due: 2022-06-24
 sr-interval: 15
 sr-ease: 306
 ---
-
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # groupe
 

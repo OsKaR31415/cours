@@ -1,3 +1,4 @@
+up::[[arbre binaire]]
 #informatique/algorithmie
 # arbre binaire inverse
 Opération d'inversion d'un [[arbre binaire]].

@@ -1,3 +1,4 @@
+up::[[MOC trigonométrie]], [[MOC fonctions]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arctangente
 
@@ -25,6 +26,7 @@ $$\begin{aligned}
 \end{aligned}$$
 Plus généralement, on a : $(\arctan(u))' = \dfrac{u'}{1+u^2}$
 (en utilisant $(f\circ g)' = f'\times g'\circ f$)
+
 
 ## Equations avec des arctangentes
 

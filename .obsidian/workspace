@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a lire.md",
+                "file": "vim plugin wikipedia browser.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a lire.md",
+                "file": "vim plugin wikipedia browser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a lire.md",
+                "file": "vim plugin wikipedia browser.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a lire.md"
+                "file": "vim plugin wikipedia browser.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "a lire.md",
+                "file": "vim plugin wikipedia browser.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -316,15 +316,15 @@
   },
   "active": "40868d0cc182e00e",
   "lastOpenFiles": [
+    "vim plugin wikipedia browser.md",
+    "vim plugin local-indent.md",
+    "vim plugin braceless.md",
+    "vecteur.md",
+    "produit vectoriel.md",
+    "produit scalaire.md",
+    "notation de Conway.md",
     "a lire.md",
     "daily/2022-08-05.md",
-    "obsidian callouts.md",
-    "MOC analyse.md",
-    "MOC obsidian.md",
-    "Syntaxe obsidian.md",
-    "calculer une asymptote.md",
-    "informatique/java/TD/OOP/notes_OOP.md",
-    "arbre.md",
-    "MOC informatique.md"
+    "obsidian callouts.md"
   ]
 }

@@ -3,7 +3,7 @@ sr-due: 2022-07-15
 sr-interval: 28
 sr-ease: 212
 ---
-
+up::[[fonction]]
 #maths/analyse #review 
 # fonction continue
 Soit $I$ un intervalle de $\mathbb R$

@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse #review 
 # domination en un point
 Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\R$ (avec $a\in\overline{\R}$)

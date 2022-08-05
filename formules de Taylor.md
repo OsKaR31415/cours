@@ -1,10 +1,11 @@
+up::[[développement limité]]
 #maths/analyse #review 
 # formules de Taylor
 Formules pour calculer des [[développement limité]].
 
 
 ## Formule de Taylor pour les polynômes
-Soit $P$ un [[polyôme]], $a$ un réel, $n$ un entier tel que $n\geq deg(P)$
+Soit $P$ un [[polynôme]], $a$ un réel, $n$ un entier tel que $n\geq deg(P)$
 Alors :
 $\boxed{ P(a) = \sum_{k=0}^n \left( \dfrac{p^{(k)}(a)}{k!}\cdot(x-a)^k \right) }$
 

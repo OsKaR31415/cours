@@ -1,3 +1,4 @@
+up::[[nombre complexe]]
 #maths/analyse/complexes #review 
 # conjugé complexe
 Soit $z = a+ib$ un [[nombre complexe]].

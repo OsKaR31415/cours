@@ -1,10 +1,5 @@
----
-sr-due: 2022-06-23
-sr-interval: 15
-sr-ease: 290
----
-
-#maths/algèbre #review 
+up::[[matrice]]
+#maths/algèbre #no-review 
 # multiplication de matrices
 
 La multiplication de [[matrice|matrices]] **n'est pas élément-par-élément**.

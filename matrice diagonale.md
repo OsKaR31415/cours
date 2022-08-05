@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre #review 
 # matrice diagonale
 Une _matrice diagonale_ est une [[matrice]] particulière telle que seuls les éléments de sa diagonale sont non nuls.

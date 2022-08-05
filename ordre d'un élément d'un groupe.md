@@ -1,3 +1,4 @@
+up::[[groupe]]
 #maths/algèbre #review 
 # ordre d'un élément d'un groupe
 

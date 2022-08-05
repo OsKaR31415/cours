@@ -1,3 +1,4 @@
+up::[[MOC analyse]]
 #maths/analyse 
 # brachistochrone
 Une courbe _brachistochrone_ est une courbe qui permet à une bille d'arriver le plus vite possible d'un point $A$ à un point $B$ sur cette courbe (en roulant sur cette même courbe)

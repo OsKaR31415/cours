@@ -1,3 +1,4 @@
+up::[[espace vectoriel]]
 #maths/algèbre 
 # famille de vecteurs génératrice
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$

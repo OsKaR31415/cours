@@ -1,3 +1,4 @@
+up::[[dérivation]]
 #maths/analyse #review 
 # dérivées successives
 
@@ -5,10 +6,16 @@ On utilise la notation pour les [[dérivation|dérivées]] :
  - $f^{(0)}=f$
  - $f^{(n)} = (f^{(n-1)})'$ cette dérivée existe
 
- ## Propriétés
+## Propriétés
 
   - Si $f^{(n)}$ existe, alors toutes les dérivées d'ordre inférieur existent
   - $\left(f^{(p)}\right)^{(q)} = f^{(p+q)}$
+
+### Ordre
+Dans $f^{(n)}$, on appelle **ordre** de dérivation la valeur de $n$
+
+Exemple :
+$f^{(5)}$ est une dérivée d'**ordre 5**
 
 ### Théorème
 Si $f$ et $g$ sont $n$ fois dérivables avec $n\in\mathbb N^*$

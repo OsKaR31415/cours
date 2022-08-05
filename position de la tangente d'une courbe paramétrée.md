@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/algèbre 
 # position de la tangente d'une courbe paramétrée
 Soit une [[courbe paramétrée]] $f: t \mapsto M(t)$
@@ -32,3 +33,4 @@ La position de $\mathscr C$ par rapport à cette tangente est donnée par la [[p
 ![[courbe paramétrée - point d'inflexion - parité.excalidraw]]
 ![[courbe paramétrée - rebroussement de première espèce - parité.excalidraw]]
 ![[courbe paramétrée - rebroussement de seconde espèce - parité.excalidraw]]
+

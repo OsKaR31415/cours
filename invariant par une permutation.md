@@ -1,3 +1,4 @@
+up::[[permutation]]
 #maths/algèbre #review 
 # invariant par une permutation
 

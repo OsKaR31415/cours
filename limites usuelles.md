@@ -1,3 +1,4 @@
+up::[[limite d'une fonction]]
 #maths/analyse #review 
 # limites usuelles
 Voir [[limite d'une fonction|limite]] d'une [[fonction]]

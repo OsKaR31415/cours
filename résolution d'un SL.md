@@ -1,3 +1,4 @@
+up::[[système linéaire]]
 #maths/algèbre #review 
 # résolution d'un SL
 

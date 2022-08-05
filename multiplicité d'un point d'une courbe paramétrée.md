@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/analyse #review 
 # multiplicité d'un point d'une courbe paramétrée
 

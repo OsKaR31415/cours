@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse #review 
 # négligabilité
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_ quand la limite de $\frac{f(x)}{g(x)}$ quand $x \rightarrow x_{0}$ est $0$

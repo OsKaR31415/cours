@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/analyse #review 
 # Support d'une courbe paramétrée
 

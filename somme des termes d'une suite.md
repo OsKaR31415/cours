@@ -1,3 +1,4 @@
+up::[[MOC dénombrement]]
 #maths/dénombrement #maths/arithmétique 
 # somme des termes d'une suite
 Soit $u$ une [[suite]]

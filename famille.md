@@ -1,4 +1,5 @@
-#maths 
+up::[[MOC algèbre]]
+#maths/algèbre 
 # famille
 
 Généralisation de la notion de [[suite]] sur n'importe quel ensemble fini ou [[ensemble infini dénombrable]].

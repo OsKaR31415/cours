@@ -1,3 +1,4 @@
+up::[[groupe]]
 #maths/algèbre #review 
 # groupe abélien
 Un _groupe abélien_ est un [[groupe]] dont la [[loi de composition interne]] est [[commutativité|commutative]].

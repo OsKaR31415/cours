@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse #review 
 # fonction bornée
 Une fonction est dite _bornée_ si il existe des bornes à cette fonction, cad. si il existe des valeurs qu'elle ne dépasse jamais.

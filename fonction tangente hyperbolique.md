@@ -1,3 +1,4 @@
+up::[[MOC trigonométrie]], [[MOC fonctions]]
 #maths/trigonométrie #maths/analyse 
 # fonction tangente hyperbolique
 La _tangente hyperbolique_ est la [[fonction]] [[nombre complexe|complexe]] suivante :

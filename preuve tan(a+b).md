@@ -1,3 +1,4 @@
+up::[[MOC trigonométrie]]
 #maths/trigonométrie 
 # preuve tan(a+b)
 

@@ -1,3 +1,4 @@
+up::[[obsidian]]
 #obsidian
 # obdsidian plugin desmos
 [github](https://github.com/Nigecat/obsidian-desmos)

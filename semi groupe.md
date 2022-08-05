@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # semi groupe
 Soit un ensemble $E$, et $*$ une [[loi de composition interne]] sur $E$.

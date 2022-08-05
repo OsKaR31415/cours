@@ -1,3 +1,4 @@
+up::[[ensemble]]
 #maths 
 # Entiers naturels
 

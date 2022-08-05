@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre 
 # distributivité
 Soit $E$ un ensemble muni de deux [[loi de composition interne]] : $*$ et $\bot$ :

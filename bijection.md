@@ -3,7 +3,7 @@ sr-due: 2022-06-26
 sr-interval: 14
 sr-ease: 293
 ---
-
+up::[[MOC analyse]]
 #maths/analyse #review 
 # bijection
 
@@ -17,4 +17,6 @@ Soit $f: E\mapsto F$, une [[fonction]], $f$ est une _bijection_ ssi :
 Toute fonction [[fonction monotone|monotone]] et [[fonction continue|continue]] est une bijection.
 
 Une bijection possède toujours une [[fonction réciproque]] (aussi appelée _application réciproque_, ou _bijection réciproque_, car cette fonction est aussi une bijection).
+
+
 

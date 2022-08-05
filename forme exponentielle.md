@@ -3,7 +3,7 @@ sr-due: 2022-10-18
 sr-interval: 123
 sr-ease: 296
 ---
-
+up::[[nombre complexe]]
 #maths/analyse/complexes #review 
 # forme exponentielle
 Soit $z\in\mathbb C$, la _forme exponentielle_ de $z$ est $z=re^{i\theta}$ avec $(r,\theta)\in\mathbb R^2$, et où on sait que $r = |z|$ et $\theta=\arg(z)$

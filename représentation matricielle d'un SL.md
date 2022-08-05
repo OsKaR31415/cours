@@ -1,3 +1,4 @@
+up::[[système linéaire]]
 #maths/algèbre #review 
 # représentation matricielle d'un SL
 Soit $(S)$ le [[système linéaire]] suivant :

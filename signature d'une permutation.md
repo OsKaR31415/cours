@@ -1,3 +1,4 @@
+up::[[permutation]]
 #maths/algèbre #review 
 # signature d'une permutation
 Soit $s$ une [[permutation]].

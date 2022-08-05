@@ -1,3 +1,4 @@
+up::[[permutation]]
 #maths/algèbre #review 
 # ensemble des permutations
 

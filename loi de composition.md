@@ -3,7 +3,7 @@ sr-due: 2022-06-25
 sr-interval: 17
 sr-ease: 319
 ---
-
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # loi de composition
 Soient $E$ et $F$ deux ensembles (non vides)

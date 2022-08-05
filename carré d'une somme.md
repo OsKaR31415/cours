@@ -1,3 +1,4 @@
+up::[[MOC arithmétique]]
 #maths/arithmétique 
 # carré d'une somme
 $\sum\limits_{k=0}^{n}a_{k}^{2}= ?$

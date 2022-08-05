@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/analyse #review 
 # dérivée d'une courbe paramétrée
 

@@ -1,3 +1,4 @@
+up::[[relation]]
 #maths/algèbre 
 # réflexivité d'une relation
 Soit $\mathscr R$ une [[relation]] sur $E$.

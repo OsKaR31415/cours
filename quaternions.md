@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre 
 # quaternions
 

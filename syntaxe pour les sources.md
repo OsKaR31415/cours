@@ -1,4 +1,4 @@
-author::[[syntaxe pour les personnes]]
+author:[[syntaxe pour les personnes]]
 #source #obsidian 
 # syntaxe pour les sources
 Description de la source

@@ -1,3 +1,4 @@
+up::[[permutation]]
 #maths/algèbre #review 
 # composition de permutations
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].

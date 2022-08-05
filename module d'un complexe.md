@@ -1,3 +1,4 @@
+up::[[nombre complexe]]
 #maths/analyse/complexes 
 # module d'un complexe
 Soit $z = a+ib$ (un [[nombre complexe]]).

@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse #review 
 # fonctions équivalentes
 Soient deux [[fonction|fonctions]] $f$ et $g$, on dit qu'elles sont _équivalentes en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x)\sim_{x_0}g(x)$.

@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse 
 # fonction impaire
 Une fonction $f$ est impaire si et seulement si :

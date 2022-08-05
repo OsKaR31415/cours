@@ -1,3 +1,4 @@
+up::[[MOC dénombrement]]
 #maths/dénombrement #review 
 # combinaisons avec répétitions
 le nombre de façons de prendre (avec répétitions possibles) $p$ éléments dans un ensemble de $n$ éléments se note :

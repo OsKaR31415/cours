@@ -1,3 +1,4 @@
+up::[[intégration]]
 #maths/analyse 
 # intégration par parties
 

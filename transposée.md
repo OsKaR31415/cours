@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre 
 # transposée
 

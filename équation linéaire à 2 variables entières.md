@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/arithmétique 
 # équation linéaire à 2 variables entières
 Equations de la forme

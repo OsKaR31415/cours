@@ -1,3 +1,4 @@
+up::[[MOC arithmétique]]
 #maths/arithmétique 
 # ppcm
 Le _Plus Petit Commun Multiple_ (plus petit multiple commun) de plusieurs nombres (souvent deux) est noté $\ppcm(a;b;c;\cdots )$ et est le plus petit nombre qui soit multiple de tous ces nombres.

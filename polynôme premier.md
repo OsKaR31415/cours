@@ -1,6 +1,7 @@
+up::[[polynôme]]
 #maths/algèbre #maths/analyse 
 # polynôme premier
-Soit $P$ un [[polyôme]] dans $A[X]$
+Soit $P$ un [[polynôme]] dans $A[X]$
 $P$ est _premier_ si :
  - il n'est **pas nul**
  - il n'est pas [[polynôme inversible|inversible]]

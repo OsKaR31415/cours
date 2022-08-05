@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse 
 # composée
 

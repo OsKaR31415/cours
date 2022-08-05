@@ -1,3 +1,4 @@
+up::[[fonction]], [[dérivation]]
 #maths/analyse 
 # fonction dérivable
 

@@ -1,5 +1,5 @@
-author::[[syntaxe pour les personnes]]
-source::[[syntaxe pour les sources]]
+author:[[syntaxe pour les personnes]]
+source:[[syntaxe pour les sources]]
 #citation #obsidian
 # syntaxe pour les citations
 

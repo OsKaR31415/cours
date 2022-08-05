@@ -1,3 +1,4 @@
+up::[[espace vectoriel]]
 #maths/algèbre #review 
 # dimension d'un espace vectoriel
 Soit $E$ un [[espace vectoriel]].

@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/analyse #review 
 # tangente à une courbe paramétrée
 ## Définition

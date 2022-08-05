@@ -1,5 +1,5 @@
+up::[[MOC algèbre]]
 #maths/algèbre #review 
-
 # monoïde
 Un ensemble $E$ muni d'une [[loi de composition interne]] $*$ est un _monoïde_ ssi :
  - $*$ est [[associativité|associative]] dans $E$

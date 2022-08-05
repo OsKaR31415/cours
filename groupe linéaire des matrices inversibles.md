@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre 
 # groupe linéaire des matrices inversibles
 Le [[groupe]] linéaire des [[matrice|matrices]] [[inverse d'une matrice#Matrice inversible|inversibles]] de dimension $n\times n$ à coefficients dans l'ensemble $E$ et dont **les inverses sont aussi à coefficients dans $E$** se note $\text{GL}_n(E)$

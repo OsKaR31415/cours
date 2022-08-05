@@ -3,7 +3,7 @@ sr-due: 2022-09-19
 sr-interval: 94
 sr-ease: 315
 ---
-
+up::[[nombre complexe]]
 #maths/analyse/complexes #review 
 # forme trigonométrique d'un complexe
 Soit $z\in\mathbb C$, la _forme trigonométrique_ de $z$ est $z=r(\cos\theta+i\sin\theta)$, où on sait que $r=|z|$ et $\theta=\arg(z)$.

@@ -1,3 +1,4 @@
+up::[[MOC fonctions]]
 #maths/analyse 
 # fonction rampe
 La fonction _rampe_ Est la [[fonction]] définie par :

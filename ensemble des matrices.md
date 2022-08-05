@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre 
 # ensemble des matrices
 On note $M_{n,k}(E)$ l'ensemble des [[matrice|matrices]] à $n$ lignes et $k$ colonnes et à valeurs dans $E$.

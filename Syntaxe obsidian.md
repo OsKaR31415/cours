@@ -1,5 +1,5 @@
+up:: [[obsidian]]
 #obsidian #no-review 
-up: [[obsidian]]
 # Syntaxe obsidian
 
 ## Titres 
@@ -49,6 +49,7 @@ donne :
 
 ## Liens
 
+
 ### Internet
  - Format : `[nom affiché](https://adresse.du.site.com)`
  - Exemple : [voici google](https://www.google.com)
@@ -64,4 +65,11 @@ donne :
 > elles peuvent être sur plusieurs lignes
 >> les citations peuvent être sur plusieurs niveaux et c'est cool
 
+
+## Callouts
+
+> [!note] callouts
+> les callouts permettent faire des boîtes pour grouper visuellement du contenu.
+> Il est aussi possible de faire des boîtes pliables
+> Voir : [[obsidian callouts]]
 

@@ -3,7 +3,7 @@ sr-due: 2022-09-30
 sr-interval: 116
 sr-ease: 270
 ---
-
+up::[[nombre complexe]]
 #maths/analyse/complexes #review 
 # forme algébrique
 Soit $z\in\mathbb C$, la _forme algébrique_ de $z$ est la forme $z=a+ib$ avec $(a,b)\in\mathbb R^2$.

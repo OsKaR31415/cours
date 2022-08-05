@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre 
 # trace d'une matrice
 La _trace_ d'une [[matrice]] **carrée** est la somme de ses coefficients diagonaux.

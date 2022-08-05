@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre #review
 # application linéaire
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,

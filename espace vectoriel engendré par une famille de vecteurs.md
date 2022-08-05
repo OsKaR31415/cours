@@ -1,3 +1,4 @@
+up::[[espace vectoriel]]
 #maths/algèbre #review 
 # espace vectoriel engendré par une famille de vecteurs
 Soit $(E, +, \cdot)$ un $\mathbb R$ [[espace vectoriel]], et $u_1, u_2, \ldots, u_k$ une famille finie de [[vecteur|vecteurs]] de $E$.

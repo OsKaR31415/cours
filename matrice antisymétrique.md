@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre #review 
 # matrice antisymétrique
 Soit $M\in M_{n,n}(\R)$ une [[matrice]], $M$ est _antisymétrique_ ssi :

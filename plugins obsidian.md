@@ -1,5 +1,5 @@
+up::[[obsidian]]
 #obsidian #no-review 
-up: [[obsidian]]
 # plugins obsidian
 Plugins pour l'application [[obsidian]]
 

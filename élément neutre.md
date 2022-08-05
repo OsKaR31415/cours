@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre 
 # élément neutre
 Un élément $e\in E$ est appelé _élément neutre_ de $E$ pour la loi $*$ ssi : $\forall a\in E, a*e=e*a=a$
@@ -15,6 +16,8 @@ Alors:
 - $e*e'=e'$ car $e$ est élément neutre à gauche.
 Donc $e = e'$.
 Conclusion: l'élément neutre, s'il existe, est unique.
+
+
 
 
 

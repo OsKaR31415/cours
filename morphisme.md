@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # morphisme
 
@@ -6,7 +7,6 @@ Une application
 $\begin{aligned}f: &(E,*)\mapsto (F,\bot)\\ &x\mapsto f(x)\end{aligned}$
 est un morphisme de $E$ vers $F$ ssi :
 $\forall (x,y)\in E^2, f(x*y) = f(x)\bot f(y)$
-
 ## Exemple
 $$\begin{aligned}
 \ln :& (\mathbb R, +) \mapsto (\mathbb R, \times)\\

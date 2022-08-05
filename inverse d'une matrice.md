@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre #review 
 # inverse d'une matrice
 Soit $M$ une [[matrice]]. On note $M^{-1}$ la matrice _inverse_ de $M$, si elle existe, la matrice telle que $M\times M^{-1} = M^{-1}\times M = Id$ la [[matrice identité]]

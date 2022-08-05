@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre 
 # table de cayley
 Soit $E$ un ensemble non vide, et $*$ une [[loi de composition interne|LCI]] sur $E$.

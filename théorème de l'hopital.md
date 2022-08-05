@@ -1,3 +1,4 @@
+up::[[MOC analyse]]
 #maths/analyse #review 
 # théorème de l'hopital
 Pour calculer des [[dérivation|dérivées]].

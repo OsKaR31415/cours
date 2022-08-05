@@ -3,6 +3,7 @@ sr-due: 2023-06-08
 sr-interval: 365
 sr-ease: 330
 ---
+up::[[loi de composition]]
 #maths/algèbre #review 
 # loi de composition interne
 

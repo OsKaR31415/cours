@@ -1,9 +1,9 @@
 ---
-sr-due: 2022-06-18
-sr-interval: 1
-sr-ease: 255
+sr-due: 2022-08-11
+sr-interval: 43
+sr-ease: 275
 ---
-
+up::[[ensemble]]
 #maths/ensembles #review 
 # ensemble infini dénombrable
 Un ensemble est dit _dénombrable_, ou _infini dénombrable_ lorque ses éléments peut être listés **sans omission ni répétition** dans une suite indexée par les entiers.

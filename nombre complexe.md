@@ -1,3 +1,4 @@
+up::[[MOC analyse]]
 #maths/analyse/complexes 
 # nombre complexe
 On a créé un objet noté $i$ tel que $i^2 = -1$
@@ -26,6 +27,7 @@ Soit $z = a+ib$ un nombre complexe :
      - Démonstration : $\dfrac1z = \dfrac{\overline z}{z\times\overline z} = \dfrac{\overline z}{|z|^2} = \overline z\dfrac1{|z|^2}$
 ## Notations
 Soit $z = a+ib, (a,b)\in\mathbb R^2$.
+
  - $\text{Re}(z)$ est la _partie réelle_ de $z$ (soit $a$)
  - $\text{Im}(z)$ est la _partie imaginaire_ de $z$ (soit $b$)
  - $|z|$ est le [[module d'un complexe|module]] de $z$

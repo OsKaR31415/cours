@@ -1,3 +1,4 @@
+up::[[MOC arithmétique]]
 #maths/arithmétique 
 # coefficients de Bézout
 

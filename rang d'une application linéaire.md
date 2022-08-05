@@ -1,3 +1,4 @@
+up::[[application linéaire]]
 #maths/algèbre 
 # rang d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]

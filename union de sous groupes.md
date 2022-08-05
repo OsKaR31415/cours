@@ -1,3 +1,4 @@
+up::[[sous groupe]]
 #maths/algèbre 
 # union de sous groupes
 Soit $G$ un [[groupe]]

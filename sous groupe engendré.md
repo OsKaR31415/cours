@@ -1,3 +1,4 @@
+up::[[sous groupe]]
 #maths/algèbre #review 
 # sous groupe engendré
 Soient $(G, *)$ un [[groupe]] et $A\subset G$ un sous-ensemble de $G$. On appelle sous-groupe engendré par $A$ le plus **petit sous-groupe de $G$, au sens de l'inclusion, contenant $A$**. On note ce groupe $(<A>, *)$

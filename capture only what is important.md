@@ -1,7 +1,8 @@
+up::[[note taking]]
 #PKM #no-review 
 # capture only what is important
 
- - **do not** capture _everything interesting  
+ - **do not** capture _everything interesting
      - but how to select what to choose ?
 
 ## what to capture ?

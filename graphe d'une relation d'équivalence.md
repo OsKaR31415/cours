@@ -1,3 +1,4 @@
+up::[[relation d'équivalence]]
 #maths/algèbre #maths/graphes 
 # graphe d'une relation d'équivalence
 

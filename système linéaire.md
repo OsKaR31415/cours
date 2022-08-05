@@ -1,3 +1,4 @@
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # système linéaire
 _système linéaire_, abb. _SL_

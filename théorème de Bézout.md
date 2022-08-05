@@ -1,3 +1,4 @@
+up::[[MOC arithmétique]]
 #maths/arithmétique #review 
 # théorème de Bézout
 Soit $(a, b)\in(\mathbb N^*)^2$,

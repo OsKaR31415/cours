@@ -1,3 +1,4 @@
+up::[[application linéaire]]
 #maths/algèbre 
 # Noyau d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,

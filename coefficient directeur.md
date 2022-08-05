@@ -1,3 +1,4 @@
+up::[[MOC analyse]]
 #maths/analyse 
 # coefficient directeur
 Soit $f$ une [[fonction affine]] (dont la courbe représentative $\mathscr C_f$ est une droite non verticale).

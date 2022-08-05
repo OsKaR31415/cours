@@ -1,3 +1,4 @@
+up::[[groupe]]
 #maths/algèbre #review 
 # sous groupe
 Soit $H$ un **sous-ensemble** non vide d'un groupe $G$ muni d'une loi $*$.

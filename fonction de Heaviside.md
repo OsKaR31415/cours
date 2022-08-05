@@ -1,3 +1,4 @@
+up::[[MOC fonctions]]
 #maths/analyse 
 # fonction de Heaviside
 La fonction de _Heaviside_ Est la [[fonction indicatrice]] de $\R^+$ dans $\R$.

@@ -1,3 +1,4 @@
+up::[[MOC analyse]]
 #maths/analyse 
 # racine
 Soit $f$ une fonction de $E$ dans $F$.

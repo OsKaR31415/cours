@@ -1,3 +1,4 @@
+up::[[courbe paramétrée]]
 #maths/analyse 
 # continuité d'une courbe paramétrée
 Soit $f: t\mapsto M(t)=(x(t),y(t))$ avec $t\in D\subset \R$, une [[courbe paramétrée]]

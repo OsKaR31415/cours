@@ -1,3 +1,4 @@
+up::[[ensemble]]
 #maths/algèbre 
 # stabilité sur un ensemble
 Soient $E$ un ensemble non vide, et $*$ une loi sur $E$.

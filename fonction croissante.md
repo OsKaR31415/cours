@@ -1,3 +1,4 @@
+up::[[fonction]]
 #maths/analyse 
 # fonction croissante
 Soit $f$ une fonction définie sur un intervalle $I$.

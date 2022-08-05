@@ -1,3 +1,4 @@
+up::[[relation]]
 #maths/algèbre #review 
 # relation d'équivalence
 Soient $E$ un ensemble non vide, et $\mathscr R$ une [[relation]].

@@ -1,3 +1,4 @@
+up::[[MOC trigonométrie]], [[MOC fonctions]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction sinus hyperbolique
 Noté $\sinh$, ou $\text{sh}$.

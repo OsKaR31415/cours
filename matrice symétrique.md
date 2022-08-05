@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre #review 
 # matrice symétrique
 Soit $M\in M_{n,n}(\R)$ une [[matrice]],

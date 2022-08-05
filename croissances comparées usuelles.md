@@ -1,3 +1,4 @@
+up::[[croissances comparées]]
 #maths/analyse 
 # croissances comparées usuelles
 [[croissances comparées]]
