@@ -1,8 +1,31 @@
 #MOC #no-review #maths/analyse
 # MOC analyse
 L'analyse est l'étude des [[fonction|fonctions]]
+Voir **[[MOC fonctions]]** 
 
-## Propriétés des fonctions
+> [!query]- Sous-notes de [[MOC analyse]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM ""
+> WHERE contains(up,          [[MOC analyse]])
+>    or contains(up.up,       [[MOC analyse]])
+>    or contains(up.up.up,    [[MOC analyse]])
+>    or contains(up.up.up.up, [[MOC analyse]])
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
+## Propriétés des [[fonction|fonctions]]
+> [!query]- Sous-notes de [[fonction]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM #maths
+> WHERE contains(up,          [[fonction]])
+>    or contains(up.up,       [[fonction]])
+>    or contains(up.up.up,    [[fonction]])
+>    or contains(up.up.up.up, [[fonction]])
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
  - [[fonction paire]] / [[fonction impaire]]
  - [[fonction croissante]] / [[fonction décroissante]]
  - [[fonction monotone]]
@@ -30,26 +53,36 @@ L'analyse est l'étude des [[fonction|fonctions]]
  
  - [[racine d'une fonction]]
 
-## fonction particulières
- - [[fonction signe]]
- - [[fonction rampe]]
- - [[fonction affine]]
- - fonctions [[MOC trigonométrie|trigonométriques]]
-     - [[fonction sinus]]
-         - [[fonction arcsinus]] 
-         - [[fonction sinus hyperbolique]]
-     - [[fonction cosinus]] 
-         - [[fonction arccosinus]]
-         - [[fonction cosinus hyperbolique]]
-     - [[fonction tangente]] 
-         - [[fonction arctangente]]
-         - [[fonction tangente hyperbolique]]
- - [[fonction indicatrice]]
- - [[fonction de Heaviside]]
-
+ - [[asymptote]]
+     - [[calculer une asymptote]]
 
 ## Equations
 
+
  - [[équation paramétrique]]
  - [[équation linéaire à 2 variables entières]]
+ 
+> [!query]- Sous-notes de [[équation différentielle]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM ""
+> WHERE contains(up,          [[équation différentielle]])
+>    or contains(up.up,       [[équation différentielle]])
+>    or contains(up.up.up,    [[équation différentielle]])
+>    or contains(up.up.up.up, [[équation différentielle]])
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
  - [[équation différentielle]]
+     - [[équation différentielle du premier ordre]]
+     - [[équation différentielle du second ordre]]
+
+
+![[MOC fonctions#MOC fonctions]]
+
+
+```dataview
+list from #maths/analyse 
+
+```
+

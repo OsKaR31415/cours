@@ -1,6 +1,18 @@
-#MOC 
+up::[[MOC analyse]]
+#MOC #maths/analyse 
 # MOC polynômes
-MOC sur les [[polyôme|polynômes]]
+MOC sur les [[polynôme|polynômes]]
+
+> [!query]- Sous-notes de [[polynôme]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM ""
+> WHERE contains(up,          [[polynôme]])
+>    or contains(up.up,       [[polynôme]])
+>    or contains(up.up.up,    [[polynôme]])
+>    or contains(up.up.up.up, [[polynôme]])
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
 
 
  - [[racines d'un polynôme|racines]]
@@ -8,7 +20,7 @@ MOC sur les [[polyôme|polynômes]]
 
 ## Propriétés
  - [[dérivation]]
-     - Tous les [[polyôme|polynômes]] sont [[fonction dérivable|dérivables]]
+     - Tous les [[polynôme|polynômes]] sont [[fonction dérivable|dérivables]]
      - Tous les polynômes sont de [[classe d'une fonction|classe]] $C^{\infty}$
      - la [[dérivation|dérivée]] d'un polynôme est toujours un polyôme aussi
 
