@@ -175,5 +175,16 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-advanced-slides:open-advanced-slides-preview": [],
+  "obsidian-pandoc:pandoc-export-beamer": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }
