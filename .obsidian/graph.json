@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": " -path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#todo",
@@ -85,16 +85,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.03346916499909,
-  "lineSizeMultiplier": 1.89027833363653,
-  "collapse-forces": true,
-  "centerStrength": 0.562978316326531,
-  "repelStrength": 9.48660714285714,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.8140625,
+  "lineSizeMultiplier": 1.45625,
+  "collapse-forces": false,
+  "centerStrength": 0.701549879938878,
+  "repelStrength": 12.3325892857143,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.494230213802476,
-  "close": true
+  "scale": 0.16991159861199592,
+  "close": false
 }
