@@ -23,6 +23,7 @@
   },
   "inferAllLinksAsFriends": false,
   "renderAlias": true,
+  "nodeTitleScript": "",
   "backgroundColor": "#0c3e6aff",
   "excludeFilepaths": [],
   "showInferredNodes": true,
@@ -132,7 +133,8 @@
     "espace vectoriel.md",
     "daily/2022-06-01.md",
     "templates/daily note.md",
-    "daily/2022-06-03.md"
+    "daily/2022-06-03.md",
+    "things to do.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
