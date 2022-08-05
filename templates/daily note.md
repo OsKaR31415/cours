@@ -1,11 +1,8 @@
 # {date:YYYY-MM-DD}}
 
 ## Todo
-- [ ] spaced repetition 🔽
+- [ ] spaced repetition
 - [ ] kung-fu
-    - [ ] taos en projection mentale
-    - [ ] taos en fluide
-    - [ ] taos en accentuant les concepts
 
 ## I did
 

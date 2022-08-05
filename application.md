@@ -3,7 +3,7 @@ sr-due: 2022-06-27
 sr-interval: 15
 sr-ease: 296
 ---
-
+up::[[MOC analyse]]
 #maths/analyse #review
 # application
 Une application est une [[fonction]] telle que **tous les éléments de l'ensemble de définition ont une image**.

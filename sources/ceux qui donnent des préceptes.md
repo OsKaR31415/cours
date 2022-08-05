@@ -1,6 +1,6 @@
 #citation
-author::[[Descartes]]
-source::[[Discours de la méthode]]
+author:[[Descartes]]
+source:[[Discours de la méthode]]
 # ceux qui donnent des préceptes
 
 > Ceux qui se mêlent de donner des préceptes se doivent estimer plus habiles que ceux auxquels ils les donnent, et si ils manquent en la moindre chose, ils en sont blâmables

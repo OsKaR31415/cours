@@ -1,4 +1,5 @@
-#informatique/algorithmie 
+up::[[structure de donnés]], [[graphe]]
+#maths #informatique/algorithmie 
 # arbre
 Un arbre est une [[structure de données]]
 

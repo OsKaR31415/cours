@@ -8,11 +8,11 @@ $\downarrow$
     - just encounter by luck
 - Note 
     - _"it's interesting !"_
-    - note only what you are intersted in
+    - note only what you are interested in, [[capture only what is important|only what is important]]
     - take **atomic** notes
 - Connect 
     - _"this reminds me of..."
-    - connect the new idea to other ideas 
+    - connect the new idea to other ideas
 - Organize 
     - _"that's a part of..."_
     - tags, linking

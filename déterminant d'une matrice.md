@@ -1,3 +1,4 @@
+up::[[matrice]]
 #maths/algèbre #review 
 # déterminant d'une matrice
 Soit $A$ une [[matrice]].

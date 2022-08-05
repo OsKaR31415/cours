@@ -2,6 +2,7 @@ author::[[paul graham]]
 link::[on lisp](http://www.paulgraham.com/onlisp.html)
 #informatique 
 # on lisp
+ - livre sur le langage [[LISP]]
 
 ## Abstract
 

@@ -3,7 +3,7 @@ sr-due: 2022-06-29
 sr-interval: 17
 sr-ease: 308
 ---
-
+up::[[MOC algèbre]]
 #maths/algèbre #review 
 # associativité
 Une loi de comlosition interne $*$ sur un ensemble $E$ est associative ssi : $\forall(a,b,c)\in E^3, a*(b*c) = (a*b)*c$

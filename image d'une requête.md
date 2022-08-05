@@ -1,3 +1,4 @@
+up::[[requête]]
 #informatique 
 # image d'une requête
 Soit $q$ une [[requête]] $ans(u)\leftarrow R_1(u_1), \ldots, R_n(u_n)$

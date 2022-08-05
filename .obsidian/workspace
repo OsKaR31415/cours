@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim plugin wikipedia browser.md",
+                "file": "templates/citation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim plugin wikipedia browser.md",
+                "file": "templates/citation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim plugin wikipedia browser.md",
+                "file": "templates/citation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim plugin wikipedia browser.md"
+                "file": "templates/citation.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "vim plugin wikipedia browser.md",
+                "file": "templates/citation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -316,15 +316,15 @@
   },
   "active": "40868d0cc182e00e",
   "lastOpenFiles": [
+    "templates/citation.md",
+    "sources/propension morale au partage.md",
+    "sources/Practical common lisp.md",
+    "sources/on lisp.md",
+    "sources/Livre - Jeux finis et infinis.md",
+    "sources/Learning APL.md",
+    "sources/Learn APL book.md",
     "vim plugin wikipedia browser.md",
     "vim plugin local-indent.md",
-    "vim plugin braceless.md",
-    "vecteur.md",
-    "produit vectoriel.md",
-    "produit scalaire.md",
-    "notation de Conway.md",
-    "a lire.md",
-    "daily/2022-08-05.md",
-    "obsidian callouts.md"
+    "vim plugin braceless.md"
   ]
 }

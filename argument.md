@@ -3,7 +3,7 @@ sr-due: 2022-07-10
 sr-interval: 23
 sr-ease: 295
 ---
-
+up::[[nombre complexe]]
 #maths/analyse/complexes #review 
 # argument
 Soit $z\in\mathbb C$ un [[nombre complexe]].
