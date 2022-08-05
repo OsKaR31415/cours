@@ -1,13 +1,15 @@
 {
   "baseFontSize": 30,
   "cssTheme": "Minimal",
-  "theme": "obsidian",
+  "theme": "system",
   "translucency": true,
   "enabledCssSnippets": [
     "mono",
     "pdf_darkmode",
     "query_header_title",
-    "fira_code"
+    "fira_code",
+    "custom-admonitions.e298c0",
+    "custom_callouts"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",
