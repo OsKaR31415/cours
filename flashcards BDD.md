@@ -4,7 +4,7 @@ En BDD, la _sorte_ d'une relation est
 ?
 l'ensemble des attributs
 Ex: $sorte(R) = \{titre, réalisateur, année\}$
-<!--SR:!2022-06-30,26,270-->
+<!--SR:!2022-09-08,70,270-->
 
 En BDD, l'_arité_ d'une relation est
 ?
@@ -37,5 +37,5 @@ La partie $R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$ est appelée le **corps** de la r�
 En BDD, une _valuation_ est ...
 ?
 Une fonction qui donne des valeurs à chaque attribut.
-<!--SR:!2022-07-07,33,296-->
+<!--SR:!2022-11-09,114,296-->
 
