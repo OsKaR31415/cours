@@ -9,6 +9,7 @@ Notée $\gamma$
      - où $H_n$ est la [[série harmonique]]
  - $\gamma = \int\limits_{1}^{+\infty} \frac{1}{\lfloor x \rfloor} - \frac{1}{x} \d x$
      - où $\lfloor x \rfloor$ est la [[partie entière]] de $x$
+     - Donc, $\gamma$ est l'aire en bleu :
 ```desmos-graph
     top=2;
 left=1;

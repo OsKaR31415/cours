@@ -1,4 +1,5 @@
 up::[[plugins obsidian]]
+#obsidian 
 # obsidian plugin dataview
 
 ```dataview

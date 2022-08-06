@@ -8,6 +8,7 @@ AND -path:sources -path:daily -path:__sekund__ -path:Excalidraw -path:"images" -
 ```
 
 
+
 ## notes without review state
 
 ```query
