@@ -1,6 +1,6 @@
 ---
-sr-due: 2022-08-03
-sr-interval: 35
+sr-due: 2022-11-11
+sr-interval: 97
 sr-ease: 267
 ---
 up::[[MOC algèbre]]

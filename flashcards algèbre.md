@@ -4,7 +4,7 @@ propriétés d'un semi groupe
 ?
 une loi de composition **interne**
 et **associative**
-<!--SR:!2022-08-05,1,172-->
+<!--SR:!2022-08-09,3,172-->
 
 propriétés d'un groupe
 ?
@@ -29,5 +29,5 @@ le _nombre d'éléments_ de son ensemble sous-jacent
 l'**ordre** d'un **élément** $a$ d'un groupe est...
 ?
 le plus petit nombre $n$ tel que $a^{*n}=a$
-<!--SR:!2022-08-05,34,272-->
+<!--SR:!2022-12-17,133,292-->
 

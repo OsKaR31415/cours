@@ -38,15 +38,15 @@ Que vaut $(fg)^{(n)}$ ($fg$ [[dérivation|dérivée]] $n$ fois) ?
 ?
 On utilise la _Formule de Leibniz_
 $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
-<!--SR:!2022-08-06,42,292-->
+<!--SR:!2022-12-07,123,292-->
 
 
 ## Intégration
 
 [[intégration|primitive]] de $\ln x$ :: $x\ln(x) - x + \text{cste.}$
-<!--SR:!2022-08-05,1,247-->
+<!--SR:!2022-08-07,1,227-->
 [[intégration|primitive]] de $\tan x$ :: $-\ln(|\cos x|) + \text{cste.}$ 
-<!--SR:!2022-08-05,1,247-->
+<!--SR:!2022-08-07,1,227-->
 
 
 Formule de l'[[intégration par parties]]

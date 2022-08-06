@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-10
+sr-interval: 4
+sr-ease: 285
+---
+
 up::[[MOC analyse]]
 #maths/analyse #review 
 # courbe paramétrée

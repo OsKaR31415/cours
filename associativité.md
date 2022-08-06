@@ -1,10 +1,10 @@
 ---
-sr-due: 2022-06-29
-sr-interval: 17
-sr-ease: 308
+sr-due: 2023-03-29
+sr-interval: 235
+sr-ease: 328
 ---
-up::[[MOC algèbre]]
+up::[[loi de composition interne]]
 #maths/algèbre #review 
 # associativité
-Une loi de comlosition interne $*$ sur un ensemble $E$ est associative ssi : $\forall(a,b,c)\in E^3, a*(b*c) = (a*b)*c$
+Une [[loi de composition interne]] $*$ sur un ensemble $E$ est associative ssi : $\forall(a,b,c)\in E^3, a*(b*c) = (a*b)*c$
 Si la loi est associative, on peut écrire : $a*b*c$ (on a plus besoin des parenthèses)

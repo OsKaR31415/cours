@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-26
-sr-interval: 14
-sr-ease: 293
+sr-due: 2023-03-18
+sr-interval: 224
+sr-ease: 313
 ---
 up::[[MOC analyse]]
 #maths/analyse #review 

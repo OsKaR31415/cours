@@ -1,6 +1,6 @@
 ---
-sr-due: 2022-07-15
-sr-interval: 28
+sr-due: 2022-10-28
+sr-interval: 83
 sr-ease: 212
 ---
 up::[[fonction]]

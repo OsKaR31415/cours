@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-06-24
-sr-interval: 15
-sr-ease: 306
+sr-due: 2023-08-06
+sr-interval: 365
+sr-ease: 346
 ---
 up::[[MOC algèbre]]
 #maths/algèbre #review 
