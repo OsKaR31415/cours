@@ -1,0 +1,9 @@
+up::[[fonction]]
+# fonction lipschitzienne
+Soit $I \subset \R$ in [[intervalle]]
+Soit $f : I \mapsto \R$
+On dit que $f$ est **lipschitzienne** de *rapport* $k>0$ ssi
+pour tout $(x, y) \in I^{2}$ :
+$$|f(x)-f(y)| \leq k|x -y|$$
+
+
