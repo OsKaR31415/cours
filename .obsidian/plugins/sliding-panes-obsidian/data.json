@@ -1,5 +1,5 @@
 {
-  "headerWidth": 32,
+  "headerWidth": 20,
   "leafDesktopWidth": 700,
   "leafMobileWidth": 350,
   "leafAutoWidth": true,
@@ -8,6 +8,6 @@
   "headerAlt": false,
   "orienation": "mixed",
   "stackingEnabled": true,
-  "smoothAnimation": true,
+  "smoothAnimation": false,
   "leafWidth": 900
 }
