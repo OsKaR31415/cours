@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "7c080e89f3b4ad83",
+        "id": "a60598b3d8454b8e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todo.md",
+            "file": "obsidian plugin dataview.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "6b0cf9f80613bfae",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MOC analyse.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -67,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo.md",
+                "file": "MOC analyse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo.md",
+                "file": "MOC analyse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220,
-    "collapsed": true
+    "width": 219.00679779052734
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -104,7 +116,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 80.98859315589354,
+        "dimension": 52.29357798165138,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -112,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo.md"
+                "file": "MOC analyse.md"
               }
             }
           },
@@ -130,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "todo.md",
+                "file": "MOC analyse.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -224,7 +236,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 2.410754506975143,
+                  "scale": 0.9813351685271882,
                   "close": true
                 }
               }
@@ -247,12 +259,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 19.011406844106464,
+        "dimension": 47.70642201834862,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -271,20 +283,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
+    "width": 491.4291076660156,
     "collapsed": true
   },
-  "active": "7c080e89f3b4ad83",
+  "active": "6b0cf9f80613bfae",
   "lastOpenFiles": [
-    "todo.md",
     "MOC analyse.md",
-    "équation différentielle du premier ordre.md",
-    "courbe paramétrée.md",
-    "espace vectoriel.md",
-    "permutation.md",
-    "fonction continue.md",
-    "argument.md",
-    "associativité.md",
-    "commutativité.md"
+    "obsidian plugin dataview.md",
+    "MOC obsidian.md",
+    "obdsidian plugin desmos.md",
+    "Untitled.md",
+    "MOC fonctions.md",
+    "fonction.md",
+    "MOC trigonométrie.md",
+    "daily/2022-08-07.md",
+    "permutation.md"
   ]
 }
