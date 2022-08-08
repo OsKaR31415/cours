@@ -8,6 +8,8 @@
     font-size: 18px;
     --callout-icon: database;
     /* --callout-icon: '<svg>...custom svg...</svg>'; */
+
+    --table-font-size: 18px;
 }
 
 
