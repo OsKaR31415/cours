@@ -1,4 +1,5 @@
 up::[[MOC trigonométrie]], [[MOC fonctions]]
+sibling::[[fonction sinus]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction cosinus
 

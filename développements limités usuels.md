@@ -16,3 +16,9 @@ $e^x = 1+\dfrac{x}{1!}+\dfrac{x^2}{2!}+\dfrac{x^3}{3!}+\cdots+\dfrac{x^n}{n!} + 
 $\cos x = 1-\dfrac{x^2}{2!}+\dfrac{x^4}{4!}+\cdots+(-1)^n\dfrac{x^{2n}}{(2n)!}+x^{2n+1}\varepsilon_6(x)$
 
 $\sin x = x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}+\cdots+(-1)^n\dfrac{x^{2n+1}}{(2n+1)!}+x^{2n+2}\varepsilon_7(x)$
+
+$\sh(x) = x + \frac{x^{3}}{3!} + \frac{x^{5}}{5!} + \cdots + \frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\nmid k]$
+
+$\ch(x) = 1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots + \frac{x^{2n}}{(2n)!}+o(x^{2n+1}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\mid k]$
+
+

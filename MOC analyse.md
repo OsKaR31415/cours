@@ -14,6 +14,19 @@ Voir **[[MOC fonctions]]**
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
+
+> [!query] Sous-notes de [[MOC analyse]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM ""
+> WHERE contains(up,          [[MOC analyse]])
+>    or contains(up.up,       [[MOC analyse]])
+>    or contains(up.up.up,    [[MOC analyse]])
+>    or contains(up.up.up.up, [[MOC analyse]])
+> SORT file.tags, up.up.up.up, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up, up.up.file.inlinks, up, up.file.inlinks
+> SORT file.tags, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> ```
+
 ## Propriétés des [[fonction|fonctions]]
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview

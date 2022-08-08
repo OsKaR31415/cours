@@ -1,4 +1,5 @@
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[fonction tangente]]
+sibling::[[fonction arctangente]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arctangente
 

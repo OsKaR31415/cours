@@ -61,3 +61,19 @@ Puissances **Impaires** car $\sin$ est une [[fonction impaire]].
 Les parties régulières à l'ordre $2n+1$ et $2n+2$ sont les mêmes.
 <!--SR:!2022-08-23,80,151-->
 
+
+**Développement limité**
+$\DL_{n}(0) :\sh(x) = \ldots$
+?
+$\sh(x) = x + \frac{x^{3}}{3!} + \frac{x^{5}}{5!} + \cdots + \frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\nmid k]$
+Puissances **impaires** car $\sh$ est une [[fonction impaire]]
+Mêmes termes que $\DL_{n}: e^{x}$
+
+**Développement limité**
+$\DL_{n}(0) :\ch(x) = \ldots$
+?
+$\ch(x) = 1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots + \frac{x^{2n}}{(2n)!}+o(x^{2n+1}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\mid k]$
+Puissances **paires** car $\sh$ est une [[fonction paire]]
+Mêmes termes que $\DL_{n}: e^{x}$
+
+

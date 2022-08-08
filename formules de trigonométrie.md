@@ -7,11 +7,12 @@ up::[[MOC trigonométrie]]
 ## Formules de somme
 
  - $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
-
  - $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
-
  - $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
 
+ - $\ch(a+b) = \ch(a)\ch(b) + \sh(a)\sh(b)$
+ - $\sh(a+b) = \sh(a)\ch(b) + \ch(a)\sh(b)$
+ - $\th(a+b) = \dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
 
 ## Formules de duplication
 Se déduisent des formules de somme.
@@ -22,6 +23,12 @@ Se déduisent des formules de somme.
 
  - $\tan(2x) = \dfrac{2\tan(x)}{1-\tan^2(x)}$
 
+ - $\ch(2x) = \ch^{2}(x) + \sh^{2}(x)$
+
+ - $\sh(2x) = 2\ch(x)\sh(x)$
+
+ - $\th(2x) = \dfrac{2\th(x)}{1 + \th^{2}(x)}$
+ 
 ## En fonction de $t=\tan\left(\dfrac{x}{2}\right)$
 On pose $t=\tan\left(\dfrac{x}{2}\right)$
  - $\cos(x) = \dfrac{1-t^2}{1+t^2}$ ([[fonction paire]])

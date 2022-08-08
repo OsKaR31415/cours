@@ -1,4 +1,4 @@
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[fonction cosinus]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arccosinus
 

@@ -15,34 +15,44 @@ up::[[MOC analyse]]
 > ```
 
 
+## Fonctions particulières
+
  - [[fonction signe]]
  - [[fonction rampe]]
  - [[fonction de Heaviside]]
 
+### Fonctions trigonométriques
 
-## Types de fonctions
-
- - [[fonction affine]]
- - [[fonction indicatrice]]
-  
-
-
-## Fonctions [[MOC trigonométrie|trigonométriques]]
-
-> [!query]- Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
+> [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> TABLE up, up.up, sibling
 > FROM ""
 > WHERE contains(up,          [[MOC fonctions]])
 >    or contains(up.up,       [[MOC fonctions]])
 >    or contains(up.up.up,    [[MOC fonctions]])
 >    or contains(up.up.up.up, [[MOC fonctions]])
->    and contains(up,          [[MOC trigonométrie]])
->    or  contains(up.up,       [[MOC trigonométrie]])
->    or  contains(up.up.up,    [[MOC trigonométrie]])
->    or  contains(up.up.up.up, [[MOC trigonométrie]])
-> SORT up.up.up.up, up.up.up, up.up, up
+> WHERE contains(up,          [[MOC trigonométrie]])
+>    or contains(up.up,       [[MOC trigonométrie]])
+>    or contains(up.up.up,    [[MOC trigonométrie]])
+>    or contains(up.up.up.up, [[MOC trigonométrie]])
+> SORT up.up.up.up, up.up.up, up.up, up, sibling
 > ```
+
+> [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
+> ```dataview
+> TABLE up, up.up, sibling
+> FROM ""
+> WHERE contains(up,          [[MOC fonctions]])
+>    or contains(up.up,       [[MOC fonctions]])
+>    or contains(up.up.up,    [[MOC fonctions]])
+>    or contains(up.up.up.up, [[MOC fonctions]])
+> WHERE contains(up,          [[MOC trigonométrie]])
+>    or contains(up.up,       [[MOC trigonométrie]])
+>    or contains(up.up.up,    [[MOC trigonométrie]])
+>    or contains(up.up.up.up, [[MOC trigonométrie]])
+> SORT sibling, up.up.up.up, up.up.up, up.up, up
+> ```
+
 
  - [[fonction sinus]]
      - [[fonction arcsinus]] 
@@ -53,4 +63,13 @@ up::[[MOC analyse]]
  - [[fonction tangente]] 
      - [[fonction arctangente]]
      - [[fonction tangente hyperbolique]]
+
+
+## Types de fonctions
+
+ - [[fonction affine]]
+ - [[fonction indicatrice]]
+  
+
+
 

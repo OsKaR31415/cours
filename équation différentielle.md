@@ -24,6 +24,10 @@ Les équations qui contiennent une fonction et sa dérivée
 #### [[équation différentielle du second ordre]]
 Les équations qui contiennent une fonction et sa dérivée seconde (et éventuellement sa dérivée première)
 
+
+### Equation différentielle à variables séparées
+On dit qu'une équation différentielle est à *variables séparées* lorsque les différentes variables ($y$, $x \ldots$) sont séparées
+
 ## Propriétés
 
 ### Ordre d'une équation

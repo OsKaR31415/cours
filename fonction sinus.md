@@ -1,4 +1,5 @@
 up::[[MOC trigonométrie]], [[MOC fonctions]]
+sibling::[[fonction cosinus]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction sinus
 Notée $\sin$.

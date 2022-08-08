@@ -1,4 +1,5 @@
 up::[[MOC trigonométrie]], [[MOC fonctions]]
+
 #maths/analyse #maths/trigonométrie #review 
 # fonction tangente
 Notée $\tan$. Fonction trigonométrique (fonction circulaire).

@@ -2,7 +2,7 @@ up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
 # tétraèdre
 symbole de shläfli : $\{3, 3\}$
-![[Pasted image 20220726184723.png|200]]
+![[tétraèdre.png|200]]
 
 faces : 4
 sommets : 4

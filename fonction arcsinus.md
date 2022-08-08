@@ -1,4 +1,4 @@
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[fonction sinus]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arcsinus
 La fonction arcsin est la [[fonction réciproque]] de la fonction [[fonction sinus]].

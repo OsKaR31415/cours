@@ -35,9 +35,14 @@ sin(x) & cos(x)\\\hline
 cos(x) & -sin(x)\\\hline
 \arcsin' x & \dfrac1{\sqrt{1-x^2}}\\\hline
 \arccos' x & -\dfrac1{\sqrt{1-x^2}}\\\hline
-\tan x & 1 + \tan^2(x)\\\hline
+\tan x & \dfrac{1}{\cos^{2}(x)} = 1 + \tan^{2}(x)\\\hline
 \tan x & \dfrac{1}{\cos^{2}(x)} \\\hline
 \arctan x & \dfrac1{1+x^2}\\\hline
+\sh(x) & \ch(x) \\\hline
+\ch(x) & \sh(x)\\\hline
+\arg\sh'(x) & \dfrac{1}{\sqrt{1+x^{2}}}\\\hline
+\arg\ch'(x) & -\dfrac{1}{\sqrt{1+x^{2}}}\\\hline
+\th(x) & \dfrac{1}{\ch^{2}(x)} = 1 - \th^2(x)\\\hline
 \end{array}$$
 
 

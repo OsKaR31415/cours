@@ -1,12 +1,16 @@
 up::[[MOC trigonométrie]], [[MOC fonctions]]
+sibling::[[fonction tangente]]
+properties::[[fonction impaire]], [[]]
 #maths/trigonométrie #maths/analyse 
 # fonction tangente hyperbolique
-La _tangente hyperbolique_ est la [[fonction]] [[nombre complexe|complexe]] suivante :
+La _tangente hyperbolique_ est la [[fonction]] suivante :
 
-$$\begin{align*}
-\tanh : &\C \setminus i \pi \left(\frac{1}{2}\C\right) \rightarrow \C\\ \\
-& z \mapsto \frac{\cosh(z)}{\sinh(z)}
-\end{align*}$$
+$\begin{align*} \th : & \R \mapsto \R\\ & x \mapsto \frac{\cosh(x)}{\sinh(x)} \end{align*}$
+
+ou bien, sous une autre forme :
+$\disp\th(x) = \frac{e^{x}-e^{-x}}{e^{x} + e^{-x}}$
+
+
 ```desmos-graph
     top=2.5
 left=-5; right=5
@@ -17,4 +21,9 @@ y = \tanh(x)
 ```
 
 
+## Propriétés
+
+ - $\th$ est une [[fonction impaire]]
+ - dérivée : $\th'=\frac{1}{\ch^{2}}$
+ - 
 

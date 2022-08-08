@@ -13,4 +13,4 @@ C'est un des [[solides de platon]]
 ## Transformations
 [[polyèdre dual|dual]] : [[icosaèdre]]
 [[polyèdre adouci|adouci]] : [[dodécaèdre adouci]]
-[[polyèdre tronqué#Tronquature aux arrêtes et aux sommets|chanfreiné]] : [[rhombicosidodéca7dre]]
+[[polyèdre tronqué#Tronquature aux arrêtes et aux sommets|chanfreiné]] : [[rhombicosidodécaèdre]]

@@ -118,6 +118,9 @@ $S = \left\{(x \mapsto y_{p} + y_{h})\right\}$
   $\vdots$
   $az_{k}''+bz_{k}' + cz_{k} = f_{k}(x)$
   (où $f(x) = \sum\limits_{i=1}^{k}f_{i}(x)$)
+  Ensuite, on obient :
+  $a\sum\limits z''_{i} + b \sum\limits z'_{i} + c \sum\limits z_{i} = \sum\limits f_{i}$
+  donc : $y = \sum\limits_{i=1}^{k} z_i$
 
 Voici quelques formes usuelles pour $f$
 #### Second membre de la forme $f(x)=e^{\lambda x} R(x)$
@@ -125,7 +128,7 @@ avec $\lambda \in \R$ et $R(x) \in \R[x]$ (parfois $\C[x]$)
 
 On cherche une solution particulière de la forme $y_{p}(x)=e^{\lambda x} Q(x)$ où $Q \in \R[x]$
 
- - Si $\lambda$ n'est pas une racine du [[équation différentielle du second ordre#Polynôme caractéristique|polynôme caractéristique]] $P$ (si $P(\lambda) \neq 0$)
+ - Si $\lambda$ n'est **pas une racine** du [[équation différentielle du second ordre#Polynôme caractéristique|polynôme caractéristique]] $P$ (si $P(\lambda) \neq 0$)
      - $\deg Q = \deg R$
  - Si $\lambda$ est une [[multiplicité d'une racine#Racine simple|racine simple]] de $P$
      - $\deg Q_{1} = \deg R$ avec $Q_{1} \in \R[x]$

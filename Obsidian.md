@@ -1,4 +1,3 @@
-up::[[MOC obsidian]]
 #obsidian #PKM
 # obsidian
 

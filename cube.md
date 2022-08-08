@@ -2,7 +2,7 @@ up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
 # cube
 symbole de shläfli : $\{4, 3\}$
-![[Pasted image 20220726183913.png|200]]
+![[cube.png|200]]
 
 faces : 6
 sommets : 8

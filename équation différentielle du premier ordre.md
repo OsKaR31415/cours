@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-10
+sr-interval: 4
+sr-ease: 270
+---
+
 up::[[équation différentielle]]
 #maths/analyse #review
 # équation différentielle du premier ordre
