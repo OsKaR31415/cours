@@ -37,6 +37,11 @@ Les éléments de $K$ sont appelés les **scalaires**
  - L'ensemble des [[fonction dérivable|fonctions dérivables]] (sur $\R$ ou $\C$)
 
 
+## Propriétés
+
+ - L'intersection de deux [[sous espace vectoriel|sous-espaces vectoriels]] ([[sous espace vectoriel|sous-espaces]] d'un même espace vectoriel) est **toujours un [[espace vectoriel]]**
+ - Le [[produit cartésien]] de deux [[espace vectoriel|espaces vectoriels]] est toujours un [[espace vectoriel]]
+ - 
 
 
 

@@ -47,6 +47,7 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 <!--SR:!2022-08-09,2,227-->
 [[intégration|primitive]] de $\tan x$ :: $-\ln(|\cos x|) + \text{cste.}$ 
 <!--SR:!2022-08-08,1,207-->
+[[intégration|primitive]] de $\dfrac{1}{1-x^{2}}$ :: $\arg\th$
 
 
 Formule de l'[[intégration par parties]]

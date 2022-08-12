@@ -9,11 +9,20 @@ up::[[Syntaxe obsidian]]
 ## Syntaxe
 
 ```
-> [!info]
+> [!info] Test de callouts
 > les callouts permettent de faire des blocks d'information, pour grouper certaines parties des notes.
 > Ils upportent *tout* le formattage, comme les maths ($e^{i \pi} + 1 = 0$) ou les blocks de `code`
 ```
 
+> [!info] Test de callouts
+> les callouts permettent de faire des blocks d'information, pour grouper certaines parties des notes.
+> Ils upportent *tout* le formattage, comme les maths ($e^{i \pi} + 1 = 0$) ou les blocks de `code`
+
+On peut aussi ajouter un tiret : `[!info]- callout pliable` pour permettre de "plier" (cacher le contenu) d'un callout (comme un spoiler) :
+
+> [!info]- callout pliable
+> le contenu est caché par défaut !
+> cliquer sur le titre permet de le montrer
 ### Types de callouts
 Il existe 12 types par défaut :
 

@@ -22,7 +22,7 @@ $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 =
 (Voir [[fonction sinus hyperbolique]])
 
  - $\ch$ est une [[fonction paire]]
- - dérivée : $\ch' = \sh$ la [[fonction sinus hyperbolique]]
+ - dérivée : $\ch' = \sh$ la [[fonction sinus hyperbolique]] (existe sur $\R$)
      - **sans** changement de signe comme $\cos' = -\sin$
      - [[tangente à une courbe|tangente]] horizontale en $0$
  - [[asymptote]] à $\sh$ en $+\infty$ et à $-\sh$ en $-\infty$

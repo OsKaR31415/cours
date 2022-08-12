@@ -11,7 +11,7 @@ up::[[MOC trigonométrie]]
  - $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
 
  - $\ch(a+b) = \ch(a)\ch(b) + \sh(a)\sh(b)$
- - $\sh(a+b) = \sh(a)\ch(b) + \ch(a)\sh(b)$
+ - $\sh(a+b) = \sh(a)\ch(b) + \ch(a)\sh(b)$ ([[démonstration sh(a+b)|démonstration]])
  - $\th(a+b) = \dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
 
 ## Formules de duplication

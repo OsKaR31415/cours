@@ -64,7 +64,6 @@ Plugins pour l'application [[obsidian]]
 [github](https://github.com/zapthedingbat/drawio-obsidian)
  - Intégration de [drawio](https://draw.io)
 
-
 ### mindmap
 [github](https://github.com/lynchjames/obsidian-mind-map)
  - Mindmap sur obsidian
@@ -90,7 +89,7 @@ Plugins pour l'application [[obsidian]]
 ### Filename heading sync
 [github](https://github.com/dvcrn/obsidian-filename-heading-sync)
  - Le premier h1 du fichier est aussi le nom du fichier
- - ignorer certains fichiers
+ - peut ignorer certains fichiers
  - permet d'avoir un grand titre sans avoir un nom de fichier qui prends toujours de la place quand on lis le reste de la page
 
 ### Fullscreen mode plugin
@@ -114,6 +113,12 @@ Plugins pour l'application [[obsidian]]
  - lien avec des notes (on peut toujours mettre des liens wiki dans les étiquettes)
  - le fichier kanban est stocké comme un markdown
 
+### Latex Suite
+ - raccourcis clabier pour taper du LaTeX
+     - j'utilise ceux de [[obsidian plugin quick latex|quick latex]]
+ - conceal du $\LaTeX$ : permet de mieux voir ce que l'on tape
+
+
 ### Pandoc plugin
 [github](https://github.com/OliverBalfour/obsidian-pandoc)
  - exporter les fichiers markdown sous plusieurs formats avec pandoc
@@ -123,16 +128,18 @@ Plugins pour l'application [[obsidian]]
  - alternate file explorer
  - more keyboard based
  - shows preview with [[plugins obsidian#Hover editor|hover editor]]
+ 
 ### Quick latex for obsidian
 [github](https://github.com/joeyuping/quick_latex_obsidian)
  - raccourcis clavier pour taper du LaTeX
  - [[obsidian plugin quick latex]]
+
 ### Sliding panes
 [github](https://github.com/deathau/sliding-panes-obsidian)
  - autre vision du tiling window manager
  - permet de mettre des fenêtre côte à côte à l'infini (horizontalement)
  - permet toujours de splitter verticalement $\updownarrow\hspace{-1.5ex} =$
- - utile quand on à besoin de garder les précédens fichiers ouverts
+ - utile quand on à besoin de garder beaucoup de fichiers ouverts
 
 ### Spaced repetition ⭐️
 [github](https://github.com/st3v3nmw/obsidian-spaced-repetition)
@@ -141,9 +148,7 @@ Plugins pour l'application [[obsidian]]
  - implémente vraiment la [[spaced repetition|répétition espacée]] (calcule quand la question doit être reposée)
  - permet aussi de _review_ des fichiers (mettre le tag `#review` dans le fichier)
 
-
-
-
-
 ### Task progress bar
- - permet 
+[github](https://github.com/Quorafind/Obsidian-Task-Progress-Bar)
+ - permet d'avoir des barres de progression pour chaque item de task (`- [ ]`), qui se met à jour quand on change le task comme faît (`- [x]`)
+
