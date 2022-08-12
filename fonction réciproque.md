@@ -1,4 +1,4 @@
-up::[[MOC analyse]]
+up::[[fonction]]
 #maths/analyse 
 # fonction réciproque
 

@@ -1,4 +1,4 @@
-up::[[MOC analyse]]
+up::[[fonction]]
 #maths/analyse
 # graphe d'une fonction
 Le graphe d'une fonction est l'ensemble des couples (valeur, image).

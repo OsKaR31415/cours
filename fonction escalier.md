@@ -1,4 +1,4 @@
-up::[[MOC analyse]]
+up::[[fonction]]
 #maths/analyse 
 # fonction escalier
 Une fonction $f:[a, b]\rightarrow\R$ est dite _en escalier_ s'il existe une [[Subdivision d'un intervalle|subdivision]] $s\in \cal S([a, b])$ telle que $f$ soit **constante** sur chacun des intervalles **ouverts** de $s$.
