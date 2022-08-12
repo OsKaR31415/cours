@@ -1,4 +1,4 @@
-up::[[MOC analyse]]
+up::[[MOC fonctions]]
 #MOC #maths/analyse 
 # MOC polynômes
 MOC sur les [[polynôme|polynômes]]

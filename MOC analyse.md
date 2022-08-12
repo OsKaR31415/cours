@@ -23,8 +23,7 @@ Voir **[[MOC fonctions]]**
 >    or contains(up.up,       [[MOC analyse]])
 >    or contains(up.up.up,    [[MOC analyse]])
 >    or contains(up.up.up.up, [[MOC analyse]])
-> SORT file.tags, up.up.up.up, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up, up.up.file.inlinks, up, up.file.inlinks
-> SORT file.tags, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
 > ```
 
 ## Propriétés des [[fonction|fonctions]]

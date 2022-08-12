@@ -1,5 +1,6 @@
-#MOC #not-done
+#MOC 
 # MOC trigonométrie
+[[formules de trigonométrie]]
 
 > [!query] Sous-notes de [[MOC trigonométrie]]
 > ```dataview
