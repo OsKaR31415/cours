@@ -4,12 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a60598b3d8454b8e",
+        "id": "0d90e7a096531c2b",
+        "type": "leaf",
+        "state": {
+          "type": "pdf-annotator",
+          "state": {
+            "file": "livre algèbre exo7.md"
+          }
+        }
+      },
+      {
+        "id": "1fdf2c20de3b407f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian plugin dataview.md",
+            "file": "MOC algèbre.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +27,12 @@
         }
       },
       {
-        "id": "6b0cf9f80613bfae",
+        "id": "30d8745caf72dd4e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MOC analyse.md",
+            "file": "obsidian callouts.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#maths/analyse",
+                "query": "tag:#maths/trigonométrie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOC analyse.md",
+                "file": "obsidian callouts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOC analyse.md",
+                "file": "obsidian callouts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,11 +113,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 219.00679779052734
+    "width": 219.00679779052734,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOC analyse.md"
+                "file": "obsidian callouts.md"
               }
             }
           },
@@ -142,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOC analyse.md",
+                "file": "obsidian callouts.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -259,7 +271,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
@@ -286,17 +298,17 @@
     "width": 491.4291076660156,
     "collapsed": true
   },
-  "active": "6b0cf9f80613bfae",
+  "active": "30d8745caf72dd4e",
   "lastOpenFiles": [
-    "MOC analyse.md",
-    "obsidian plugin dataview.md",
-    "MOC obsidian.md",
-    "obdsidian plugin desmos.md",
-    "Untitled.md",
-    "MOC fonctions.md",
-    "fonction.md",
-    "MOC trigonométrie.md",
-    "daily/2022-08-07.md",
-    "permutation.md"
+    "obsidian callouts.md",
+    "MOC algèbre.md",
+    "MOC MOCs.md",
+    "MOC dénombrement.md",
+    "livre algèbre exo7.md",
+    "daily/2022-08-12.md",
+    "daily/2022-08-29.md",
+    "sources/annotations/livre algèbre exo7.md",
+    "ensemble des polynômes de degré inférieur ou égal à n.md",
+    "ensemble des polynômes.md"
   ]
 }

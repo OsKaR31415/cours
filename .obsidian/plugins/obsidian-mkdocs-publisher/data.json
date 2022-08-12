@@ -1,0 +1,22 @@
+{
+  "githubRepo": "obsidian",
+  "githubName": "OsKaR31415",
+  "GhToken": "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",
+  "shareKey": "share",
+  "ExcludedFolder": "",
+  "fileMenu": false,
+  "editorMenu": false,
+  "downloadedFolder": "fixed",
+  "folderDefaultName": "notes",
+  "yamlFolderKey": "",
+  "rootFolder": "",
+  "workflowName": "",
+  "transferEmbedded": false,
+  "defaultImageFolder": "",
+  "autoCleanUp": false,
+  "autoCleanUpExcluded": "",
+  "folderNote": false,
+  "convertWikiLinks": false,
+  "convertForGithub": false,
+  "subFolder": ""
+}

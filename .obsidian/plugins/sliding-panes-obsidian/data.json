@@ -8,6 +8,6 @@
   "headerAlt": false,
   "orienation": "mixed",
   "stackingEnabled": true,
-  "smoothAnimation": false,
+  "smoothAnimation": true,
   "leafWidth": 900
 }

@@ -3,11 +3,11 @@
   "snippetsEnabled": false,
   "autofractionEnabled": false,
   "autofractionExcludedEnvs": "[\n        [\"^{\", \"}\"],\n        [\"\\\\pu{\", \"}\"]\n]",
-  "autofractionSpaceAfterGreekLetters": true,
+  "autofractionSpaceAfterGreekLetters": false,
   "concealEnabled": true,
   "matrixShortcutsEnabled": true,
   "matrixShortcutsEnvNames": "pmatrix, cases, align, bmatrix, Bmatrix, vmatrix, Vmatrix, array, matrix",
   "taboutEnabled": false,
-  "autoEnlargeBrackets": true,
+  "autoEnlargeBrackets": false,
   "autoEnlargeBracketsTriggers": "sum, int, frac, prod"
 }
