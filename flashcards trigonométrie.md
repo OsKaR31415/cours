@@ -8,7 +8,7 @@ $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
 Formule d'Euler pour $\sin(x)$
 ?
 $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
-<!--SR:!2022-08-13,9,201-->
+<!--SR:!2022-08-31,18,201-->
 
 Cosinus d'une somme $\cos(a+b) = ?$
 ?

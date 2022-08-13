@@ -3,7 +3,7 @@ up::[[racine]]
 # multiplicité d'une racine
 
 ## Définition 
-Soit $P$ un [[polynôme]] de [[degré d'un polynôme|degré]] $n$
+Soit $P$ un [[polynôme]] de [[polynôme#Degré|degré]] $n$
 On sait que $P(x) = \prod\limits_{k=0}^{n} (x - a_{k})$   (forme factorisée)
 Où $a_k$ une suite dont les valeurs sont les [[racines d'un polynôme|racines]] de $P$
 
@@ -18,7 +18,7 @@ Une racine est simple ssi sa _multiplicité_ est 1
 ### Nombre de racines
 **[[théorème de d'Alembert]]**
 Si on compte une racine de multiplicité $m$ comme $m$ racines
-Le nombre de racines est toujours **égal** au [[degré d'un polynôme|degré]] d'un polynôme
+Le nombre de racines est toujours **égal** au [[polynôme#Degré|degré]] d'un polynôme
 
 ### Dérivation
 Soit $r$ une _racine_ du polynôme $P$

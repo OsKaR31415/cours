@@ -18,7 +18,7 @@ $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(
 $\DL_n(0)\dfrac{1}{1-x} =\ldots$
 ?
 $1+x+x^2+x^3+\cdots+x^n+x^n\varepsilon(x)$
-<!--SR:!2022-08-13,26,171-->
+<!--SR:!2022-08-17,4,151-->
 
 
 **Développement limité**
@@ -69,7 +69,7 @@ $\DL_{n}(0) :\sh(x) = \ldots$
 $\disp\sh(x) = x + \frac{x^{3}}{3!} + \frac{x^{5}}{5!} + \cdots + \frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\nmid k]$
 Puissances **impaires** car $\sh$ est une [[fonction impaire]]
 Mêmes termes que $\DL_{n}: e^{x}$
-<!--SR:!2022-08-13,1,198-->
+<!--SR:!2022-08-15,2,198-->
 
 **Développement limité**
 $\DL_{n}(0) :\ch(x) = \ldots$
@@ -77,5 +77,6 @@ $\DL_{n}(0) :\ch(x) = \ldots$
 $\disp\ch(x) = 1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots + \frac{x^{2n}}{(2n)!}+o(x^{2n+1}) = \sum\limits_{k=0} ^{n} \frac{x^{k}}{k!}[2\mid k]$
 Puissances **paires** car $\sh$ est une [[fonction paire]]
 Mêmes termes que $\DL_{n}: e^{x}$
+<!--SR:!2022-08-15,2,217-->
 
 
