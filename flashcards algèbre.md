@@ -4,7 +4,7 @@ propriétés d'un semi groupe
 ?
 une loi de composition **interne**
 et **associative**
-<!--SR:!2022-08-09,3,172-->
+<!--SR:!2022-08-21,9,172-->
 
 propriétés d'un groupe
 ?
@@ -19,7 +19,7 @@ propriétés d'un monoïde
 une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
-<!--SR:!2022-08-10,17,212-->
+<!--SR:!2022-09-19,38,212-->
 
 l'**ordre d'un groupe** est...
 ?

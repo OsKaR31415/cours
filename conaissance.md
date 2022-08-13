@@ -1,3 +1,4 @@
+up::[[base de données]]
 #informatique 
 # conaissance
 Informations, avec une vérité, plus généralement une loi qui est considérée comme vrai.

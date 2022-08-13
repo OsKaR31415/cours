@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query]- Sous-notes de {{VALUE}}\n> ```dataview\n> TABLE up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM \"\"\n> WHERE contains(up,          {{VALUE}})\n>    or contains(up.up,       {{VALUE}})\n>    or contains(up.up.up,    {{VALUE}})\n>    or contains(up.up.up.up, {{VALUE}})\n> SORT file.etags, up.up.up.up, up.up.up, up.up, up\n> ```"
+        "format": "> [!query]- Sous-notes de {{VALUE}}\n> ```dataview\n> TABLE up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM \"\"\n> WHERE contains(up,          {{VALUE}})\n>    or contains(up.up,       {{VALUE}})\n>    or contains(up.up.up,    {{VALUE}})\n>    or contains(up.up.up.up, {{VALUE}})\n> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks\n> ```"
       },
       "insertAfter": {
         "enabled": false,

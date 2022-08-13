@@ -1,3 +1,5 @@
+up::[[internet]]
+sibling::[[http]]
 #informatique 
 # https
 protocole de transfer d'hyper texte sécurisé.

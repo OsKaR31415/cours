@@ -13,12 +13,12 @@ $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
 Cosinus d'une somme $\cos(a+b) = ?$
 ?
 $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
-<!--SR:!2022-08-08,21,186-->
+<!--SR:!2022-09-24,43,186-->
 
 Sinus d'une somme $\sin(a+b) = ?$
 ?
 $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
-<!--SR:!2022-08-09,5,210-->
+<!--SR:!2022-08-28,16,210-->
 
 Tangente d'une somme $\tan(a+b) = ?$
 ?
@@ -33,9 +33,11 @@ Sinus du double $\sin(2x) = ?$ :: $\sin(2x) = 2\sin(x)\cos(x)$
 
 
 Cosinus hyperbolique d'une somme $\ch(a+b) =?$ :: $\ch(a)\ch(b) + \sh(a)\sh(b)$
+<!--SR:!2022-08-14,2,234-->
 
 Sinus hyperbolique d'une somme $\sh(a+b) =?$ :: $\sh(a)\ch(b) + \ch(a)\sh(b)$
-<!--SR:!2022-08-09,2,234-->
+<!--SR:!2022-08-19,7,234-->
 
 Tangente hyperbolique d'une somme $\th(a+b) =?$ :: $\dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
+<!--SR:!2022-08-14,2,234-->
 

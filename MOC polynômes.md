@@ -11,7 +11,7 @@ MOC sur les [[polynôme|polynômes]]
 >    or contains(up.up,       [[polynôme]])
 >    or contains(up.up.up,    [[polynôme]])
 >    or contains(up.up.up.up, [[polynôme]])
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
 > ```
 
 

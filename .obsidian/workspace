@@ -4,35 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0d90e7a096531c2b",
-        "type": "leaf",
-        "state": {
-          "type": "pdf-annotator",
-          "state": {
-            "file": "livre algèbre exo7.md"
-          }
-        }
-      },
-      {
-        "id": "1fdf2c20de3b407f",
+        "id": "9a6d0e37a3daa9e4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MOC algèbre.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "30d8745caf72dd4e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "obsidian callouts.md",
+            "file": "Latex format des sections.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -90,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian callouts.md",
+                "file": "Latex format des sections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian callouts.md",
+                "file": "Latex format des sections.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,13 +90,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 219.00679779052734,
-    "collapsed": true
+    "width": 219.00679779052734
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -136,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian callouts.md"
+                "file": "Latex format des sections.md"
               }
             }
           },
@@ -154,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "obsidian callouts.md",
+                "file": "Latex format des sections.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -298,17 +273,17 @@
     "width": 491.4291076660156,
     "collapsed": true
   },
-  "active": "30d8745caf72dd4e",
+  "active": "9a6d0e37a3daa9e4",
   "lastOpenFiles": [
-    "obsidian callouts.md",
-    "MOC algèbre.md",
+    "Latex format des sections.md",
+    "Excalidraw/APL_symbols.excalidraw.md",
+    "argument.md",
+    "MOC analyse.md",
     "MOC MOCs.md",
-    "MOC dénombrement.md",
-    "livre algèbre exo7.md",
     "daily/2022-08-12.md",
-    "daily/2022-08-29.md",
-    "sources/annotations/livre algèbre exo7.md",
-    "ensemble des polynômes de degré inférieur ou égal à n.md",
-    "ensemble des polynômes.md"
+    "flashcards valeurs importantes.md",
+    "flashcards développements limités.md",
+    "Map of content.md",
+    "livre algèbre exo7.md"
   ]
 }

@@ -1,3 +1,4 @@
+up::[[internet]]
 #informatique 
 # protocoles
 

@@ -1,6 +1,7 @@
-#informatique #no-review 
+up::[[LISP]]
 author::[[paul graham]]
 url::http://www.paulgraham.com/avg.html
+#informatique #no-review 
 # beating the average
 
 Comment l'utilisation de [[LISP]] à donné un avantage à un projet

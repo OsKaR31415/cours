@@ -2,6 +2,18 @@
 # MOC courbe paramétrique
  - [[courbe paramétrée]]
 
+> [!query]- Sous-notes de [[courbe paramétrée]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM ""
+> WHERE contains(up,          [[courbe paramétrée]])
+>    or contains(up.up,       [[courbe paramétrée]])
+>    or contains(up.up.up,    [[courbe paramétrée]])
+>    or contains(up.up.up.up, [[courbe paramétrée]])
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> ```
+
+
 ## Propriétés
 ### Propriétés des points
  - [[point régulier d'une courbe paramétrique|point régulier]]
@@ -12,6 +24,9 @@
  - [[continuité d'une courbe paramétrée|courbe continue]]
  - [[Support d'une courbe paramétrée|support d'une courbe]]
  - [[point régulier d'une courbe paramétrique#Courbe régulière|courbe régulière]]
+
+ - [[asymptote]]
+     - [[calculer une asymptote]]
 
 ### Opérations
  - [[dérivée d'une courbe paramétrée|dérivée]]

@@ -11,31 +11,20 @@ Voir **[[MOC fonctions]]**
 >    or contains(up.up,       [[MOC analyse]])
 >    or contains(up.up.up,    [[MOC analyse]])
 >    or contains(up.up.up.up, [[MOC analyse]])
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
 > ```
 
-
-> [!query] Sous-notes de [[MOC analyse]]
-> ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
-> WHERE contains(up,          [[MOC analyse]])
->    or contains(up.up,       [[MOC analyse]])
->    or contains(up.up.up,    [[MOC analyse]])
->    or contains(up.up.up.up, [[MOC analyse]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
-> ```
 
 ## Propriétés des [[fonction|fonctions]]
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM #maths
+> FROM ""
 > WHERE contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
 >    or contains(up.up.up,    [[fonction]])
 >    or contains(up.up.up.up, [[fonction]])
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
 > ```
 
  - [[fonction paire]] / [[fonction impaire]]
@@ -70,10 +59,6 @@ Voir **[[MOC fonctions]]**
 
 ## Equations
 
-
- - [[équation paramétrique]]
- - [[équation linéaire à 2 variables entières]]
- 
 > [!query]- Sous-notes de [[équation différentielle]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
@@ -82,7 +67,7 @@ Voir **[[MOC fonctions]]**
 >    or contains(up.up,       [[équation différentielle]])
 >    or contains(up.up.up,    [[équation différentielle]])
 >    or contains(up.up.up.up, [[équation différentielle]])
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
 > ```
 
  - [[équation différentielle]]
@@ -90,11 +75,6 @@ Voir **[[MOC fonctions]]**
      - [[équation différentielle du second ordre]]
 
 
-![[MOC fonctions#MOC fonctions]]
 
 
-```dataview
-list from #maths/analyse 
-
-```
 

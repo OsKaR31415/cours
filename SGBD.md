@@ -1,3 +1,4 @@
+up::[[base de données]], [[serveur www]]
 #informatique 
 # SGBD
 

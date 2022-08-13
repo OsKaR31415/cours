@@ -2585,6 +2585,7 @@ argsh
 argch
 alert
 atefull
+assure
 espace
 engendré
 et
@@ -5947,6 +5948,8 @@ pliables
 perd
 properties
 pssva
+performances
+pannes
 une
 un
 utilisées
@@ -9110,6 +9113,8 @@ danger
 dolor
 dériv
 directe
+descriptiond
+dynamique
 Soit
 Switch
 SR
@@ -10077,6 +10082,7 @@ SYDv
 SPCi
 SZqY
 ShDkr
+SGBD
 On
 OPTIONS
 OENicqaA
@@ -17530,6 +17536,7 @@ tsrl
 tnqw
 titres
 tldr
+tolérance
 EXCALIDRAW
 Elements
 EtnheR
@@ -21779,6 +21786,7 @@ THdk
 TZqh
 TuUU
 TmdS
+Transformation
 jHu
 jour
 jRkEHrzd
@@ -23961,6 +23969,9 @@ causing
 clamav
 clabier
 conceal
+centralisant
+concurrents
+confidentialité
 RlBDW
 Rhk
 RnNB
@@ -25614,6 +25625,7 @@ NlZB
 NuswZ
 NQCz
 NeHY
+Navigateur
 INNcsmwm
 Ici
 ILhet
@@ -30281,6 +30293,7 @@ CGkQ
 Composer
 Callouts
 Courbes
+Construction
 Bien
 BDD
 Bases
@@ -33190,6 +33203,7 @@ rUBrW
 rHSW
 radians
 réduit
+relationnel
 bU
 bien
 base
@@ -41218,6 +41232,7 @@ AmyTe
 Attributs
 Addition
 Argsh
+Architecture
 workshop
 wzmpwyen
 web

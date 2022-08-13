@@ -1,3 +1,4 @@
+up::[[world wide web]]
 #informatique 
 # serveur www
 ## Une machine + un logiciel

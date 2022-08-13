@@ -1,3 +1,5 @@
+up::[[internet]]
+sibling::[[https]]
 #informatique #no-review 
 # http
 Voir : [[https]] : version sécurisée du protocole

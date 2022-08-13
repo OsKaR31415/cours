@@ -1,3 +1,4 @@
+up::[[APL]]
 Author:[[Adám Brudzewsky]]
 link:[APL wiki - APL cultivation](https://aplwiki.com/wiki/APL_Cultivation)
 #informatique 

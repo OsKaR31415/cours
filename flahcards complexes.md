@@ -10,7 +10,7 @@ $z-\overline{z}$ :: $= 2i \text{Im}(z)$
 Propriété de $z$ quand $z = \overline{z}$
 ?
 $z = \overline{z} \iff z\in\R$
-<!--SR:!2022-08-09,22,210-->
+<!--SR:!2022-10-26,75,230-->
 
 Propriété de $z$ quand $z = -\overline{z}$
 ?

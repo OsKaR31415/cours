@@ -1,3 +1,4 @@
+up::[[internet]]
 #informatique 
 # world wide web
 world wide web, ou web, ou toile, ou net, ou internet...

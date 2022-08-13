@@ -1,3 +1,4 @@
+up::[[base de données]]
 #informatique 
 # niveaux d'abstraction BD
 ## Niveau d'abstraction

@@ -1,3 +1,4 @@
+up::[[modèle logique]], [[modèle entité association]]
 #informatique 
 # conversion modèle ER, modèle logique
 Méthode de conversion du [[modèle entité association]] vers le [[modèle logique]].
