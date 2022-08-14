@@ -1,5 +1,5 @@
 up::[[matrice]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # addition de matrices
 
 On additionne les matrices élément par élément (les deux matrices additionnées doivent donc avoir la même taille).

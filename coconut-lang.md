@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # coconut-lang
 Langage de programmation : surcouche de python plus fonctionnelle
 

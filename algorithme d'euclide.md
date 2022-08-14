@@ -1,4 +1,4 @@
-#maths/arithmétique #not-done 
+#maths/arithmétique #no-review #not-done 
 # algorithme d'euclide
 
 ## Algorithme inverse

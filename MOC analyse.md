@@ -7,24 +7,25 @@ Voir **[[MOC fonctions]]**
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[MOC analyse]])
+> WHERE contains(file.outlinks, [[MOC analyse]])
+>    or contains(up,          [[MOC analyse]])
 >    or contains(up.up,       [[MOC analyse]])
 >    or contains(up.up.up,    [[MOC analyse]])
 >    or contains(up.up.up.up, [[MOC analyse]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
-
 
 ## Propriétés des [[fonction|fonctions]]
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[fonction]])
+> WHERE contains(file.outlinks, [[fonction]])
+>    or contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
 >    or contains(up.up.up,    [[fonction]])
 >    or contains(up.up.up.up, [[fonction]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[fonction paire]] / [[fonction impaire]]
@@ -58,16 +59,16 @@ Voir **[[MOC fonctions]]**
      - [[calculer une asymptote]]
 
 ## Equations
-
 > [!query]- Sous-notes de [[équation différentielle]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[équation différentielle]])
+> WHERE contains(file.outlinks, [[équation différentielle]])
+>    or contains(up,          [[équation différentielle]])
 >    or contains(up.up,       [[équation différentielle]])
 >    or contains(up.up.up,    [[équation différentielle]])
 >    or contains(up.up.up.up, [[équation différentielle]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[équation différentielle]]

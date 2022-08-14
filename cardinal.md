@@ -1,4 +1,4 @@
-#maths/ensembles
+#maths/ensembles #no-review 
 # cardinal
 
 Le _cardinal d'un ensemble_ est le **nombre d'éléments** de cet ensemble.

@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # donnée
 
 Description élémentaire d'une réalité

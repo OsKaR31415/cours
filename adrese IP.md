@@ -1,5 +1,5 @@
 up::[[internet]]
-#informatique 
+#informatique #no-review 
 # adrese IP
 
 ## Adressage IPv4 (le plus utilisé)

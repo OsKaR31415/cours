@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-18
+sr-interval: 4
+sr-ease: 289
+---
+
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 
 #maths/analyse #maths/trigonométrie #review 
@@ -14,8 +20,8 @@ On peut déduire de cette formule la [[dérivation|dérivée]] de $\tan$.
 La [[dérivation|dérivée]] de $\tan$ est $1+\tan^2$ :
 $$\begin{aligned}
 \tan'(x) &= \left(x\mapsto\dfrac{\sin x}{\cos x}\right)'(x)\\
-&= \dfrac{\cos^2(x) + \sin^2 (x)}{\cos^2(x)}\\
-&= 1+\dfrac{\sin^2(x)}{\cos^2(x)}\\
+&= \dfrac{\cos^{2}(x) + \sin^{2} (x)}{\cos^{2(x)}} = \frac{1}{\cos^{2}}\\
+&= 1+\dfrac{\sin^{2(x)}}{\cos^{2(x)}}\\
 &= 1 + \tan^2(x)
 \end{aligned}$$
 

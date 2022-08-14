@@ -16,7 +16,6 @@
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "dataview",
-  "customizable-page-header-buttons",
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
   "obsidian-vault-statistics-plugin",
@@ -36,5 +35,7 @@
   "quickadd",
   "obsidian-mkdocs-publisher",
   "obsidian-icon-shortcodes",
-  "obsidian-jupyter"
+  "obsidian-jupyter",
+  "link-headers-directly",
+  "customizable-page-header-buttons"
 ]

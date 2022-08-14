@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review v
 # coefficient directeur
 Soit $f$ une [[fonction affine]] (dont la courbe représentative $\mathscr C_f$ est une droite non verticale).
 Le _coefficient directeur_ de $\mathscr C_f$ est $m$ tel que :

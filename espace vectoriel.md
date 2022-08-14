@@ -2,6 +2,7 @@
 sr-due: 2022-11-11
 sr-interval: 97
 sr-ease: 267
+alias: ev
 ---
 up::[[MOC algèbre]]
 #maths/algèbre #review 

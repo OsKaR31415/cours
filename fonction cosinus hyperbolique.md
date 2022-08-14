@@ -1,3 +1,8 @@
+---
+sr-due: 2022-08-18
+sr-interval: 4
+sr-ease: 282
+---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus hyperbolique]]
 #maths/analyse #maths/trigonométrie #review 

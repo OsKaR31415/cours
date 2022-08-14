@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": " -path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
+  "collapse-filter": true,
+  "search": " -path:(\"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,7 +32,7 @@
       "query": "tag:#flashcards",
       "color": {
         "a": 1,
-        "rgb": 16689694
+        "rgb": 15109632
       }
     },
     {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "query": "path:sources OR tag:#citation OR tag:#source",
+      "query": "path:sources OR tag:#citation OR tag:#source OR path:informatique",
       "color": {
         "a": 1,
         "rgb": 5084664
@@ -81,7 +81,14 @@
       "query": "tag:#science",
       "color": {
         "a": 1,
-        "rgb": 15780479
+        "rgb": 15648605
+      }
+    },
+    {
+      "query": "tag:#autres",
+      "color": {
+        "a": 1,
+        "rgb": 9631598
       }
     }
   ],
@@ -95,6 +102,6 @@
   "repelStrength": 11.3175127036513,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3228748267419848,
-  "close": true
+  "scale": 0.34544803712029165,
+  "close": false
 }

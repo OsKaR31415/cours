@@ -12,8 +12,10 @@ AND -path:sources -path:daily -path:__sekund__ -path:Excalidraw -path:"images" -
 ## notes without review state
 
 ```query
--tag:#review -tag:#no-review AND -path:sources -path:daily -path:__sekund__ -path:Excalidraw -path:images -path:kanban -path:annotations -path:templates AND -file:.pdf -file:.svg -file:.sty
+-tag:#review -tag:#no-review -path:sources -path:daily -path:__sekund__ -path:Excalidraw -path:images -path:kanban -path:annotations -path:templates -path:informatique -file:.pdf -file:.svg -file:.sty
 ```
+
+
 
 
 

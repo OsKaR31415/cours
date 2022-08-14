@@ -1,5 +1,5 @@
 up::[[structure de données]]
-#informatique/algorithmie 
+#informatique/algorithmie #no-review 
 # arbre binaire de recherche
 Un _arbre binaire de recherche_ est un [[arbre binaire]] particulier.
 Il est tel que, pour tout noeud $N$ de l'arbre, l'ensemble des descendants à droite de $N$ ont des valeurs supérieures à celles de $N$, et l'ensemble des descentants à gauche de $N$ ont des valeurs inférieures à celles de $N$.

@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # distributivité
 Soit $E$ un ensemble muni de deux [[loi de composition interne]] : $*$ et $\bot$ :
 La loi $*$ est _distributive_ par rapport à $\bot$ ssi : 

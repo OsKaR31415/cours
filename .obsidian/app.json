@@ -14,11 +14,21 @@
     "downscalePercent": 42
   },
   "defaultViewMode": "source",
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "promptDelete": false,
   "showFrontmatter": false,
   "rightToLeft": false,
   "spellcheck": false,
   "showUnsupportedFiles": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "attachmentFolderPath": "sources",
+  "userIgnoreFilters": [
+    "daily/",
+    "__sekund__/",
+    "informatique/",
+    "Excalidraw/",
+    "images/",
+    "kanban/",
+    "templates/"
+  ]
 }

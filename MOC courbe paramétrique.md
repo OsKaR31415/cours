@@ -6,13 +6,13 @@
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[courbe paramétrée]])
+> WHERE contains(file.outlinks, [[courbe paramétrée]])
+>    or contains(up,          [[courbe paramétrée]])
 >    or contains(up.up,       [[courbe paramétrée]])
 >    or contains(up.up.up,    [[courbe paramétrée]])
 >    or contains(up.up.up.up, [[courbe paramétrée]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
-
 
 ## Propriétés
 ### Propriétés des points

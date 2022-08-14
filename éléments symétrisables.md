@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # éléments symétrisables
 Soit $E$ in ensemble muni d'une [[loi de composition interne]] $*$, et contenant un [[élément neutre|élément neutre]] $e$.
 Un élément $a\in E$ est symétrisable ssi :

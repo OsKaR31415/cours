@@ -7,13 +7,13 @@ up::[[MOC analyse]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[fonction]])
+> WHERE contains(file.outlinks, [[fonction]])
+>    or contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
 >    or contains(up.up.up,    [[fonction]])
 >    or contains(up.up.up.up, [[fonction]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
-
 
 ## Fonctions particulières
 
@@ -27,31 +27,19 @@ up::[[MOC analyse]]
 > ```dataview
 > TABLE up, up.up, sibling
 > FROM ""
-> WHERE contains(up,          [[MOC fonctions]])
+> WHERE contains(file.outlinks, [[MOC fonctions]])
+>    or contains(up,          [[MOC fonctions]])
 >    or contains(up.up,       [[MOC fonctions]])
 >    or contains(up.up.up,    [[MOC fonctions]])
 >    or contains(up.up.up.up, [[MOC fonctions]])
-> WHERE contains(up,          [[MOC trigonométrie]])
+> WHERE contains(file.outlinks, [[MOC trigonométrie]])
+>    or contains(up,          [[MOC trigonométrie]])
 >    or contains(up.up,       [[MOC trigonométrie]])
 >    or contains(up.up.up,    [[MOC trigonométrie]])
 >    or contains(up.up.up.up, [[MOC trigonométrie]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up
 > ```
 
-> [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
-> ```dataview
-> TABLE up, up.up, sibling
-> FROM ""
-> WHERE contains(up,          [[MOC fonctions]])
->    or contains(up.up,       [[MOC fonctions]])
->    or contains(up.up.up,    [[MOC fonctions]])
->    or contains(up.up.up.up, [[MOC fonctions]])
-> WHERE contains(up,          [[MOC trigonométrie]])
->    or contains(up.up,       [[MOC trigonométrie]])
->    or contains(up.up.up,    [[MOC trigonométrie]])
->    or contains(up.up.up.up, [[MOC trigonométrie]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
-> ```
 
 
  - [[fonction sinus]]

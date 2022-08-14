@@ -1,4 +1,5 @@
 ---
+tags: no-review
 title: Curiculum vitæ
 author: Oscar Plaisant
 documentclass: scrartcl

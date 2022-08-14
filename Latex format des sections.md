@@ -1,5 +1,7 @@
 up::[[latex]]
 #informatique 
+
+
 # Latex format des sections
 Comment formatter les sections en LaTeX ?
 

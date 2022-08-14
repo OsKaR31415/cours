@@ -5,11 +5,12 @@
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[MOC algèbre]])
+> WHERE contains(file.outlinks, [[MOC algèbre]])
+>    or contains(up,          [[MOC algèbre]])
 >    or contains(up.up,       [[MOC algèbre]])
 >    or contains(up.up.up,    [[MOC algèbre]])
 >    or contains(up.up.up.up, [[MOC algèbre]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
 ## Structures algébriques
@@ -18,11 +19,12 @@
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[groupe]])
+> WHERE contains(file.outlinks, [[groupe]])
+>    or contains(up,          [[groupe]])
 >    or contains(up.up,       [[groupe]])
 >    or contains(up.up.up,    [[groupe]])
 >    or contains(up.up.up.up, [[groupe]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[groupe]]
@@ -46,16 +48,16 @@
 ## Algèbre linéaire
 
 ### Applications linéaires
-
 > [!query]- Sous-notes de [[application linéaire]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[application linéaire]])
+> WHERE contains(file.outlinks, [[application linéaire]])
+>    or contains(up,          [[application linéaire]])
 >    or contains(up.up,       [[application linéaire]])
 >    or contains(up.up.up,    [[application linéaire]])
 >    or contains(up.up.up.up, [[application linéaire]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[application linéaire]]
@@ -70,16 +72,16 @@
 
 
 ### Matrices
-
 > [!query]- Sous-notes de [[matrice]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[matrice]])
+> WHERE contains(file.outlinks, [[matrice]])
+>    or contains(up,          [[matrice]])
 >    or contains(up.up,       [[matrice]])
 >    or contains(up.up.up,    [[matrice]])
 >    or contains(up.up.up.up, [[matrice]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[matrice]]
@@ -100,16 +102,16 @@
      
 
 ### Espaces vectoriels
-
 > [!query]- Sous-notes de [[espace vectoriel]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[espace vectoriel]])
+> WHERE contains(file.outlinks, [[espace vectoriel]])
+>    or contains(up,          [[espace vectoriel]])
 >    or contains(up.up,       [[espace vectoriel]])
 >    or contains(up.up.up,    [[espace vectoriel]])
 >    or contains(up.up.up.up, [[espace vectoriel]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[espace vectoriel]]

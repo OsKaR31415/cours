@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # conaissance
 Informations, avec une vérité, plus généralement une loi qui est considérée comme vrai.
 

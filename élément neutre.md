@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # élément neutre
 Un élément $e\in E$ est appelé _élément neutre_ de $E$ pour la loi $*$ ssi : $\forall a\in E, a*e=e*a=a$
 ## Remarque

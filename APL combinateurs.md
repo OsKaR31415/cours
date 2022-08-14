@@ -1,5 +1,5 @@
 up:: [[APL]]
-#informatique
+#informatique #review
 # APL combinateurs
 
 ## Beside ∘

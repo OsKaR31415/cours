@@ -1,4 +1,4 @@
-#maths
+#maths #no-review 
 # crochet d'Iverson
 Notation qui renvoie $1$ si une condition est vérifiée, et $0$ sinon.
 Précisément :

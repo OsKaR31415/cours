@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # conséquence
 
 La conclusion est ce que l'on déduit.

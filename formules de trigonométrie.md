@@ -1,5 +1,5 @@
 up::[[MOC trigonométrie]]
-#maths/trigonométrie #review 
+#maths/trigonométrie #no-review 
 # formules de trigonométrie
 
 ## [[Formules d'Euler]]

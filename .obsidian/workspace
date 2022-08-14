@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "caf55f1eb6652cc4",
+        "id": "bbdf33d68ffae80e",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-08-14.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#maths/trigonométrie",
+                "query": "tag:#revieqw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,6 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "daily/2022-08-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "daily/2022-08-14.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,11 +90,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 219.00679779052734
+    "width": 219.00679779052734,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -103,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "daily/2022-08-14.md"
+              }
             }
           },
           {
@@ -120,6 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "daily/2022-08-14.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -236,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "9b0b445260de35cb",
@@ -255,25 +267,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2fdac71366431635",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 491.4291076660156,
-    "collapsed": true
+    "width": 359.5
   },
-  "active": "caf55f1eb6652cc4",
+  "active": "bbdf33d68ffae80e",
   "lastOpenFiles": [
-    "polynôme.md",
-    "degré d'un polynôme.md",
-    "polynôme unitaire.md",
-    "polynôme irréductible.md",
-    "multiplicité d'une racine.md",
-    "ensemble des polynômes de degré inférieur ou égal à n.md",
-    "fonction dérivable.md",
-    "Latex format des sections.md",
-    "Excalidraw/APL_symbols.excalidraw.md",
-    "argument.md"
+    "daily/2022-08-14.md",
+    "sources/Obsidian Clipper 1.md",
+    "fonction cosinus hyperbolique.md",
+    "fonction tangente.md",
+    "fonction arccosinus.md",
+    "fonction arctangente.md",
+    "sous espace vectoriel.md",
+    "fonction sinus.md",
+    "fonction cosinus.md",
+    "fonction arcsinus.md"
   ]
 }

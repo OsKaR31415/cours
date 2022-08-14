@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-10
-sr-interval: 4
-sr-ease: 285
+sr-due: 2022-09-15
+sr-interval: 32
+sr-ease: 305
 ---
 
 up::[[MOC analyse]]

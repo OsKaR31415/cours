@@ -1,7 +1,7 @@
 up::[[MOC arithmétique]]
-#maths/arithmétique 
+#maths/arithmétique #review 
 # carré d'une somme
-$\sum\limits_{k=0}^{n}a_{k}^{2}= ?$
+$\disp\sum\limits_{k=0}^{n}a_{k}^{2}= \sum\limits_{i=1} ^{n} \left( \sum\limits_{j=1} ^{n} a_{i} \times a_{j}\right)$
 
 ## Cas particuliers
 

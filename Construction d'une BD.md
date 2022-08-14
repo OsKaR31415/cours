@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # Construction d'une BD
 
 ## [[Modélisation conceptuelle des BD|Modélisation conceptuelle]]

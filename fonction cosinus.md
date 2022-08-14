@@ -1,6 +1,9 @@
+---
+alias: cos, cosinus
+---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus]]
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 # fonction cosinus
 
 Notée $\cos$.

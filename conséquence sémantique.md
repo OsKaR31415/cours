@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # conséquence sémantique
 
 Une [[proposition]] $B$ est la _conséquence sémantique_ d'une [[proposition]] $A$ ssi **tout [[modèle]] de $A$ est un [[modèle]] de $B$**.

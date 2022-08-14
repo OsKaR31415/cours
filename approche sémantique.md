@@ -1,4 +1,4 @@
-#logique
+#logique #no-review
 # approche sémantique
 
 Approche de la [[logique formelle]]

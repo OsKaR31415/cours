@@ -1,6 +1,6 @@
 ---
 up: [[asymptote]]
-tags: #maths/analyse 
+tags: maths/analyse, review
 mindmap-plugin: basic
 ---
 

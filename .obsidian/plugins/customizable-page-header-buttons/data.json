@@ -8,7 +8,7 @@
     },
     {
       "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
-      "icon": "lucide-image-plus",
+      "icon": "image-file",
       "name": "Excalidraw: Create a new drawing - IN A NEW PANE - and embed into active document",
       "showButtons": "both"
     }

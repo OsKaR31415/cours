@@ -1,4 +1,4 @@
-#logique
+#logique #no-review v
 # consistance syntaxique
 
 Dans l'[[approche syntaxique]], une [[théorie logique]] est _consistante_ (ou encore _cohérente_, ou [[contradiction|non-contradictoire]]) s'il n'existe pas de formule de la théorie que l'on peut démontrer en même temps que sa négation.

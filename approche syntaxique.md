@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # approche syntaxique
 
 Approche de la [[logique formelle]]

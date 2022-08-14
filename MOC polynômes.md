@@ -7,13 +7,13 @@ MOC sur les [[polynôme|polynômes]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""
-> WHERE contains(up,          [[polynôme]])
+> WHERE contains(file.outlinks, [[polynôme]])
+>    or contains(up,          [[polynôme]])
 >    or contains(up.up,       [[polynôme]])
 >    or contains(up.up.up,    [[polynôme]])
 >    or contains(up.up.up.up, [[polynôme]])
-> SORT file.etags, up.up.up.up.file.inlinks, up.up.up.file.inlinks, up.up.file.inlinks, up.file.inlinks
+> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
-
 
  - [[racines d'un polynôme|racines]]
  - [[discriminant]]

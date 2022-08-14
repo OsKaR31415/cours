@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-18
+sr-interval: 4
+sr-ease: 279
+---
+
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction cosinus hyperbolique]]
 #maths/analyse #maths/trigonométrie #review 
@@ -26,7 +32,7 @@ $\ch^2 x - \sh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
  - $\sh$ est une [[fonction impaire]]
  - $\sh$ est [[fonction dérivable|dérivable]] sur $\R$
      - $\sh$ est donc [[fonction continue|continue]]
- - dérivée : $\sh' = \ch$ la [[fonction sinus hyperbolique]] (existe sur $\R$)
+ - dérivée : $\sh' = \ch$ [[fonction sinus hyperbolique|sinus hyperbolique]] (existe sur $\R$)
      - a pour [[tangente à une courbe|tangente]] en $0$ la courbe de $y = x$
  - $\sh$ est [[fonction croissante|strictement croissante]]
  - [[asymptote]] à $\ch$ en $+\infty$ et à $-\ch$ en $-\infty$

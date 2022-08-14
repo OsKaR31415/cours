@@ -1,4 +1,4 @@
-#obsidian #conférence 
+#obsidian #conférence #no-review 
 # conf introduction à obsidian
 
 ## Notes

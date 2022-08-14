@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # composée
 
 On note la composée de fonction avec le symbole $\circ$

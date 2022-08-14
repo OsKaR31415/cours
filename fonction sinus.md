@@ -1,6 +1,9 @@
+---
+alias: sin, sinus
+---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction cosinus]]
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 # fonction sinus
 Notée $\sin$.
 Elle est [[fonction continue|continue]] et [[fonction dérivable|dérivable]] sur $\mathbb{R}$.

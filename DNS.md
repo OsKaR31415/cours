@@ -1,5 +1,5 @@
 up::[[internet]]
-#informatique 
+#informatique #no-review 
 # DNS
 
 

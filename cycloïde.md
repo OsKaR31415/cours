@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review 
 # cycloïde
 La _cycloide_ est la courbe que parvourt un point choisi d'une roue lorsque celle-ci avance.
 
@@ -16,6 +16,10 @@ left=-0.5; right=2\pi;
 a=2\pi|white
 T=at|hidden
 ((T-\sin(T))/a, 1-\cos(T))
+```
+
+```functionplot
+y = acos(1-x) - sin(acos(1-x))
 ```
 
 ## Propriétés
