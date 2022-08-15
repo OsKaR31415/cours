@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "59169ad85cae613b",
+        "id": "1cf662b5f23c23e4",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "b5a07fc10fee0e3a",
+        "id": "2d82d484e31e1a9c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CV LaTeX.md",
+            "file": "conférence jeu de la vie rencontres audacieuses.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -30,25 +30,25 @@
         }
       },
       {
-        "id": "9ed23d472f4333ee",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Lycée.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1cf662b5f23c23e4",
+        "id": "48634514d9396af9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "conférences en ligne de mathématiques et d'informatique.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "37807a3a6e7d399f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "livre blanc introduction à obsidian.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV LaTeX.md",
+                "file": "CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV LaTeX.md",
+                "file": "CV.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV LaTeX.md"
+                "file": "CV.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CV LaTeX.md",
+                "file": "CV.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -287,7 +287,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
@@ -319,20 +319,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
-  "active": "b5a07fc10fee0e3a",
+  "active": "1cf662b5f23c23e4",
   "lastOpenFiles": [
-    "CV LaTeX.md",
-    "Lycée.md",
-    "conférences en ligne de mathématiques et d'informatique.md",
     "CV.md",
+    "conférence jeu de la vie rencontres audacieuses.md",
+    "conférences en ligne de mathématiques et d'informatique.md",
+    "livre blanc introduction à obsidian.md",
+    "sources/polyHédronisme.md",
+    "daily/2022-08-29.md",
+    "daily/2022-08-16.md",
     "daily/2022-08-15.md",
-    "club informatique (coding gouters).md",
-    "concerts de musique.md",
-    "cours particuliers d'anglais.md",
-    "cours particuliers de mathématiques.md",
-    "cours d'informatique.md"
+    "Lycée.md",
+    "CV LaTeX.md"
   ]
 }

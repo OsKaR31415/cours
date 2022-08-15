@@ -5,10 +5,11 @@ description::"lycée Augustin Thierry, Maths Informatique Physique"
 # Lycée
 
 ## Spécialités
- - Mathématiques
- - Informatique (NSI)
+ - Mathématiques #maths
+ - Informatique (NSI) #informatique 
  - Physique (en première)
+ 
 ## Options
- - Classe Européenne Mathématiques Anglais
+ - Classe Européenne Mathématiques Anglais #anglais 
  - Grec Ancien
  - Mathématiques expertes
