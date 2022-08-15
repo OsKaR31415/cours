@@ -2596,6 +2596,7 @@ apporte
 assembleur
 ambigüe
 alias
+arccos
 espace
 engendré
 et
@@ -5971,6 +5972,8 @@ processeurs
 procédé
 package
 personnaliser
+plier
+pliable
 une
 un
 utilisées
@@ -15481,6 +15484,7 @@ oMNU
 oLuA
 oEYS
 obient
+opère
 note
 numClient
 nom
@@ -17576,6 +17580,7 @@ tolérance
 termine
 terminaison
 titlesec
+tiret
 EXCALIDRAW
 Elements
 EtnheR
@@ -21828,6 +21833,7 @@ TmdS
 Transformation
 Turbo
 Terminaison
+Test
 jHu
 jour
 jRkEHrzd
@@ -24020,6 +24026,9 @@ compréhensible
 capacité
 consommé
 correcte
+callout
+caché
+cliquer
 RlBDW
 Rhk
 RnNB
@@ -36985,6 +36994,7 @@ success
 sibling
 séquence
 succession
+spoiler
 kr
 kUaRVS
 kl

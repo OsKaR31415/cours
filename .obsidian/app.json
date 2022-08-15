@@ -21,7 +21,7 @@
   "spellcheck": false,
   "showUnsupportedFiles": true,
   "showLineNumber": false,
-  "attachmentFolderPath": "sources",
+  "attachmentFolderPath": "attachments",
   "userIgnoreFilters": [
     "daily/",
     "__sekund__/",

@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/analyse 
+#maths/analyse #review 
 # polynôme scindé
 
 Soit $P$ un [[polynôme]],

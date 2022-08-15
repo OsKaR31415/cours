@@ -1,4 +1,4 @@
-#informatique #not-done
+#informatique #no-review  #not-done
 # produit externe
 Le produit externe est un opérateur de degré supérieur.
 Il permet de transformer un [[opérateur binaire]] en un autre.

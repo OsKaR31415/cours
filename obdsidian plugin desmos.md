@@ -1,5 +1,5 @@
 up::[[plugins obsidian]]
-#obsidian
+#obsidian #no-review 
 # obdsidian plugin desmos
 [github](https://github.com/Nigecat/obsidian-desmos)
 

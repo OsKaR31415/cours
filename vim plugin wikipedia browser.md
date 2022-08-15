@@ -1,5 +1,5 @@
 up::[[vim]]
-#informatique/vim 
+#informatique/vim #no-review 
 # vim plugin wikipedia browser
 Pour naviguer sur [[wikipedia]] directement dans vim
 

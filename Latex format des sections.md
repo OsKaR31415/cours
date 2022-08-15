@@ -1,5 +1,5 @@
 up::[[latex]]
-#informatique 
+#informatique #no-review 
 
 
 # Latex format des sections

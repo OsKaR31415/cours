@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # satisfaisable
 Une [[proposition]] est _satisfaisable_ si elle admet **au moins un [[modèle]]**.
 

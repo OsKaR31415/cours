@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 [[base de données]]
 # valuation
 Une _valuation_ est une fonction qui associe des valeurs à des variables.

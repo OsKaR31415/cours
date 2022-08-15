@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse
+#maths/analyse #no-review 
 # graphe d'une fonction
 Le graphe d'une fonction est l'ensemble des couples (valeur, image).
 

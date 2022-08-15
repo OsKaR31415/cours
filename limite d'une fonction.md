@@ -1,4 +1,4 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # limite d'une fonction
 

@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review 
 # tangente à une courbe
 
 Soit $\mathscr{C}_f$ la courbe représentative de la fonction $f$.

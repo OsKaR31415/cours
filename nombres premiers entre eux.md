@@ -1,5 +1,5 @@
 up::[[MOC arithmétique]]
-#maths/arithmétique 
+#maths/arithmétique #no-review 
 # nombres premiers entre eux
 Deux nombres sont _premiers entre eux_ si leur [[pgcd]] est égal à $1$.
 

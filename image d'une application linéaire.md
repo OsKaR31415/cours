@@ -1,5 +1,5 @@
 up::[[application linéaire]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # image d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,
 l'image de $f$ est définie par :

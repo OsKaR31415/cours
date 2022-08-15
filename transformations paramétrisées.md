@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse 
+#maths/analyse #no-review 
 # transformations paramétrisées
 Des transformations du plan représentées comme fonction à composer à une [[courbe paramétrée]].
 Puisqu'une courbe paramétrée est une [[application]] de $D\subset\R$ dans $\R^{2}$, les transformations du plan sont des [[application|applications]] de $\R^2$ dans $\R^2$ (c'est-à dire qu'a un point elles associent un point).

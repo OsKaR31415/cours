@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # fonction décroissante
 
 Soit $f$ une fonction définie sur un intervalle $I$.

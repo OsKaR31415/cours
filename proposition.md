@@ -1,2 +1,2 @@
-#logique
+#logique #no-review 
 # proposition

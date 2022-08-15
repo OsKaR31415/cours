@@ -1,7 +1,7 @@
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction tangente]]
 properties::[[fonction impaire]], [[]]
-#maths/trigonométrie #maths/analyse 
+#maths/trigonométrie #maths/analyse #no-review 
 # fonction tangente hyperbolique
 La _tangente hyperbolique_ est la [[fonction]] suivante :
 

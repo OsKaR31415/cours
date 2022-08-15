@@ -1,4 +1,4 @@
-#logique 
+#logique #no-review 
 # théorie logique
 Tout cadre de raisonnement spécifique construit sur un langage donné.
 

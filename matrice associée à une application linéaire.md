@@ -1,5 +1,5 @@
 up::[[application linéaire]], [[matrice]]
-#maths/algèbre 
+#maths/algèbre #review 
 # matrice associée à une application linéaire
 Soient $E$ et $F$ deux $\R$-[[espace vectoriel|espaces vectoriels]] de [[dimension d'un espace vectoriel|dimension]] finie, de [[base d'un espace vectoriel|base]] respective $\mathcal B = \{e_1,\ldots,e_n\}$ et $\mathcal C = \{f_1,\ldots,f_n\}$,
 Soit $f$ une [[application linéaire]] de $E$ dans $F$.

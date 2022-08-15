@@ -1,5 +1,5 @@
 up::[[ensemble]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # stabilité sur un ensemble
 Soient $E$ un ensemble non vide, et $*$ une loi sur $E$.
 Soit $A$ une partie de $E$.

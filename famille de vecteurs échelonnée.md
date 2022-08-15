@@ -1,5 +1,5 @@
 up::[[vecteur]]
-#maths/algèbre 
+#maths/algèbre #review 
 # famille de vecteurs échelonnée
 Soient $v_1,\ldots,v_k$ des vecteurs de $\R^n$ avec $1\leq k \leq n$. On dit que la famille $\{v_1,\ldots,v_k\}$ est _échelonnée_ ssi :
  - la **première coordonnée** de $v_1$ est non nulle et les autres sont nulles

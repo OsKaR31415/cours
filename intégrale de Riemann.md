@@ -1,5 +1,5 @@
 up::[[intégration]]
-#maths/analyse 
+#maths/analyse #review 
 # intégrale de Riemann
 
 Soit $\varphi\in\varepsilon([a,b])$ une [[fonction escalier]] sur $[a,b]$

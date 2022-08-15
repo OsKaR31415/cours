@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # niveaux d'abstraction BD
 ## Niveau d'abstraction
 

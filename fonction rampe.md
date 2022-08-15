@@ -1,5 +1,5 @@
 up::[[MOC fonctions]]
-#maths/analyse 
+#maths/analyse #no-review 
 # fonction rampe
 La fonction _rampe_ Est la [[fonction]] définie par :
 $$\begin{align}

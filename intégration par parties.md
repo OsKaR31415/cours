@@ -1,5 +1,5 @@
 up::[[intégration]]
-#maths/analyse 
+#maths/analyse #review 
 # intégration par parties
 
 $\disp\int u'v\d x = uv - \int uv'\d x$

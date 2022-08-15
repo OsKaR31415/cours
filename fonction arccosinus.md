@@ -2,7 +2,7 @@
 alias: "arccos", "arccosinus", "fonction arccosinus"
 ---
 up::[[fonction cosinus]]
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #no-review 
 # fonction arccosinus
 
 La fonction $\arccos$ est la [[fonction réciproque]] de la [[fonction cosinus]].

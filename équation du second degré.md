@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/analyse 
+#maths/analyse #no-review 
 # équation du second degré
 Ou _équation [[polynôme]] du second degré_.
 

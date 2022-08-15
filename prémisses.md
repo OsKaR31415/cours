@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # prémisses
 
 Une prémisse est une [[proposition]] que l'on utilise dans une [[règle d'inférence]] pour déduire une [[conséquence]].

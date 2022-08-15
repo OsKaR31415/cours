@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse
+#maths/analyse #no-review 
 # fonction paire
 Une fonction $f$ est paire si et seulement si:
 

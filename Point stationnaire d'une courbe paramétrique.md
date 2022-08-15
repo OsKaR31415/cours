@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/algèbre 
+#maths/algèbre #review 
 # Point stationnaire d'une courbe paramétrique
 Un point stationnaire d'une [[courbe paramétrée]] est un point où la dérivée de $(x(t), y(t))$ est $\vec{0}$
 C.a.d ou la courbe "_n'avance plus_".

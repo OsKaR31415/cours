@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # fonction impaire
 Une fonction $f$ est impaire si et seulement si :
 $\forall x\in D_f, f(x) = -f(-x)$

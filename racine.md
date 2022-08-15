@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review 
 # racine
 Soit $f$ une fonction de $E$ dans $F$.
 Les _racines de $f$_ sont les valeurs dans $E$ qui ont une image nulle par $f$.

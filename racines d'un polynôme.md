@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/analyse 
+#maths/analyse #no-review 
 # racines d'un polynôme
 Les _racines_ d'un [[polynôme]] $P$ sont les valeurs $r$ telles que $P(r) = 0$
 

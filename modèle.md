@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # modèle
 
 Un modèle logique est  **une [[interprétation]] particulière d'une [[proposition]]**.

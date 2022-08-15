@@ -1,5 +1,5 @@
 up::[[Syntaxe obsidian]]
-#obsidian 
+#obsidian #no-review 
 # obsidian callouts
 
 > [!info]

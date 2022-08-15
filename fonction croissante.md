@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # fonction croissante
 Soit $f$ une fonction définie sur un intervalle $I$.
 On dit que $f$ est _croissante_ sur $I$ ssi :

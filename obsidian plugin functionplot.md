@@ -1,5 +1,5 @@
 up::[[plugins obsidian]]
-#obsidian 
+#obsidian #no-review 
 # obsidian plugin functionplot
 Pour tracer des fonctions mathématiques
 

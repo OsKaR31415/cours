@@ -1,5 +1,5 @@
 up::[[matrice]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # transposée
 
 Soit $M$ une [[matrice|matrice]] de dimension $(m, n)$.

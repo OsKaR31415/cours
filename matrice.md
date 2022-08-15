@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # matrice
 Une matrice est l'objet mathématique désignant un tableau.
 

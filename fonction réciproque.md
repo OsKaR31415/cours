@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse 
+#maths/analyse #no-review 
 # fonction réciproque
 
 Soit $f$ une [[bijection]] de $E$ dans $F$:

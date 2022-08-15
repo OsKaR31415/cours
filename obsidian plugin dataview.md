@@ -1,5 +1,5 @@
 up::[[plugins obsidian]]
-#obsidian 
+#obsidian #no-review 
 # obsidian plugin dataview
 
 > [!query]- fichiers où up:: contient [[MOC analyse]]

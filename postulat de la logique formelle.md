@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # postulat de la logique formelle
 > La validité des raisonnements ne dépend que de leur forme et est indépendante du contenu des propositions qui les composent
 

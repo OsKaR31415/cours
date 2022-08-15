@@ -1,4 +1,4 @@
-#flashcards #todo #no-review 
+#flashcards #todo 
 # flahcards complexes
 
 $z+\overline{z}$ :: $= 2\text{Re}(z)$

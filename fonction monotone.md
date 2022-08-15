@@ -1,5 +1,5 @@
 up::[[fonction]]
-#maths/analyse
+#maths/analyse #no-review 
 # fonction monotone
 Une fonction $f$ est _monotone_ sur un intervalle $I$ ssi elle est croissante sur $I$ ou décroissante sur $I$ (c'est à dire qu'elle ne change pas de sens de variation).
 

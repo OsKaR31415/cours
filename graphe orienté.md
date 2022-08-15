@@ -1,5 +1,5 @@
 up::[[graphe]]
-#maths/graphes
+#maths/graphes #no-review 
 # graphe orienté
 
 ## Définitions

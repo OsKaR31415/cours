@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review 
 # équation différentielle
 
  - [[équation différentielle du premier ordre]]

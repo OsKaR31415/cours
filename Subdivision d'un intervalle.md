@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse 
+#maths/analyse #no-review 
 # Subdivision d'un intervalle
 On appelle _subdivision de l'intervalle $[a; b]$_  toute famille finie $s = (x_i)_{0\leq i\leq n}$ telle que $a = x_0 < x_1 < \cdots < x_{n-1} < x_n = b, n\in\N^*$
 

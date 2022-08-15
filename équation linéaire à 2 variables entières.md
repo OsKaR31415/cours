@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/arithmétique 
+#maths/arithmétique #no-review 
 # équation linéaire à 2 variables entières
 Equations de la forme
 $$(E) : ax+by = c$$

@@ -1,3 +1,3 @@
 up::[[polyèdre]]
-#maths/géométrie/polyèdre/transformation #not-done 
+#maths/géométrie/polyèdre/transformation #no-review  #not-done 
 # polyèdre adouci

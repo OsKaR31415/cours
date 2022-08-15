@@ -1,5 +1,5 @@
 up::[[base de données]], [[serveur www]]
-#informatique 
+#informatique #no-review 
 # SGBD
 
 **Serveur centralisant l'accès à une [[base de données]]**

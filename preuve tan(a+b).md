@@ -1,5 +1,5 @@
 up::[[MOC trigonométrie]]
-#maths/trigonométrie 
+#maths/trigonométrie #no-review 
 # preuve tan(a+b)
 
 Preuve de $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$

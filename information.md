@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # information
 
 Données avec un sens (pour construire une représeNtation de la réalité)

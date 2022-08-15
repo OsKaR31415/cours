@@ -1,5 +1,5 @@
 up::[[MOC arithmétique]]
-#maths/arithmétique 
+#maths/arithmétique #no-review 
 # nombre premier
 
 Un nombre _premier_ est un entier $\geq 2$ dont les seuls diviseurs positifs sont $1$ et $p$.

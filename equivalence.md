@@ -1,4 +1,4 @@
-#logique
+#logique #no-review 
 # equivalence
 Soient $A$ et $B$ deux [[proposition|propositions logiques]]
 $A$ et $B$ sont _équivalentes_ ssi **elles ont le même sens pour toute [[interprétation]]**

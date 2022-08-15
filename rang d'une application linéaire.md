@@ -1,5 +1,5 @@
 up::[[application linéaire]]
-#maths/algèbre 
+#maths/algèbre #review 
 # rang d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]
 Soit $f: E\rightarrow F$ une [[application linéaire]]

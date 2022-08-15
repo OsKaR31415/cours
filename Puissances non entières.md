@@ -1,5 +1,5 @@
 up::[[MOC arithmétique]]
-#maths/arithmétique 
+#maths/arithmétique #no-review 
 # Puissances non entières
 
 

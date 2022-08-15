@@ -1,5 +1,5 @@
 up::[[relation]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # symétrie d'une relation
 Soit $\mathscr R$ une [[relation]] sur $E$.
 $\mathscr R$ est _symétrique_ ssi :

@@ -3,7 +3,7 @@ alias: cos, cosinus
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus]]
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #no-review 
 # fonction cosinus
 
 Notée $\cos$.

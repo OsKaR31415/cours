@@ -1,5 +1,5 @@
 up::[[matrice]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # matrice identité
 La matrice identité de taille $n$ est la [[matrice]] $Id_n$ telle que :
 

@@ -1,5 +1,5 @@
 up::[[racine]]
-#maths/analyse 
+#maths/analyse #no-review 
 # multiplicité d'une racine
 
 ## Définition 

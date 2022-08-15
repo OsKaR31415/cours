@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/algèbre #maths/analyse 
+#maths/algèbre #maths/analyse #review 
 # polynôme premier
 Soit $P$ un [[polynôme]] dans $A[X]$
 $P$ est _premier_ si :

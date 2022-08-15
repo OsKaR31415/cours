@@ -1,5 +1,5 @@
 up::[[application linéaire]]
-#maths/algèbre 
+#maths/algèbre #review 
 # Noyau d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,
 le noyau de $f$ est le [[sous espace vectoriel]] de $E$ défini par :

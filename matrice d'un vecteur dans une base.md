@@ -1,5 +1,5 @@
 up::[[matrice]], [[espace vectoriel]]
-#maths/algèbre 
+#maths/algèbre #review 
 # matrice d'un vecteur dans une base
 Soit $E$ un [[espace vectoriel]] réel de [[dimension d'un espace vectoriel|dimension]] $n$,
 Soit $\scr B = \{e_1,\ldots,e_n\}$ une [[base d'un espace vectoriel|base]] de $E$,

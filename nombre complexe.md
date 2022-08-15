@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse/complexes 
+#maths/analyse/complexes #no-review 
 # nombre complexe
 On a créé un objet noté $i$ tel que $i^2 = -1$
 Un nombre complexe $z$ s'écrit $z = a + ib$ avec $(a, b)\in\mathbb R^2$

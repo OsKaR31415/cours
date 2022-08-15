@@ -1,5 +1,5 @@
 up::[[espace vectoriel]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # vecteur
 Un vecteur est un élément d'un [[espace vectoriel]]
 

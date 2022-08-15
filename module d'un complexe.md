@@ -1,5 +1,5 @@
 up::[[nombre complexe]]
-#maths/analyse/complexes 
+#maths/analyse/complexes #no-review 
 # module d'un complexe
 Soit $z = a+ib$ (un [[nombre complexe]]).
 On note $|z|$ et on appelle _module_ de $z$ la valeur :

@@ -1,5 +1,5 @@
 up::[[ensemble]]
-#maths 
+#maths #no-review 
 # Entiers naturels
 
 ## Définition

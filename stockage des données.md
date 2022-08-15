@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique 
+#informatique #no-review 
 # stockage des données
 
 ## Différents moyenS de stockage des données
