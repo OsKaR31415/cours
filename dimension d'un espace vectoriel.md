@@ -1,3 +1,9 @@
+---
+alias: "dimension"
+sr-due: 2022-08-18
+sr-interval: 3
+sr-ease: 258
+---
 up::[[espace vectoriel]]
 #maths/algèbre #review 
 # dimension d'un espace vectoriel

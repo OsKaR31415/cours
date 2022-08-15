@@ -1,3 +1,10 @@
+---
+sr-due: 2022-08-31
+sr-interval: 16
+sr-ease: 317
+alias: "injective"
+---
+
 up::[[application]]
 #maths/analyse #review 
 # injection

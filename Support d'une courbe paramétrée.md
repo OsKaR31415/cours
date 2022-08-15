@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-18
+sr-interval: 3
+sr-ease: 262
+---
+
 up::[[courbe paramétrée]]
 #maths/analyse #review 
 # Support d'une courbe paramétrée

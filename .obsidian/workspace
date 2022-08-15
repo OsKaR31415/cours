@@ -9,7 +9,46 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-08-15.md",
+            "file": "CV.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b5a07fc10fee0e3a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CV LaTeX.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "9ed23d472f4333ee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Lycée.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1cf662b5f23c23e4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conférences en ligne de mathématiques et d'informatique.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -67,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2022-08-15.md",
+                "file": "CV LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022-08-15.md",
+                "file": "CV LaTeX.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,11 +129,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 219.00679779052734
+    "width": 219.00679779052734,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -111,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022-08-15.md"
+                "file": "CV LaTeX.md"
               }
             }
           },
@@ -129,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "daily/2022-08-15.md",
+                "file": "CV LaTeX.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -278,19 +319,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
-  "active": "59169ad85cae613b",
+  "active": "b5a07fc10fee0e3a",
   "lastOpenFiles": [
+    "CV LaTeX.md",
+    "Lycée.md",
+    "conférences en ligne de mathématiques et d'informatique.md",
+    "CV.md",
     "daily/2022-08-15.md",
-    "flashcards dérivation.md",
-    "attachments/journal de bord 1.webm",
-    "dérivation.md",
-    "daily/2022-08-10.md",
-    "flashcards algèbre.md",
-    "tags to add - notes to organize.md",
-    "sources/fraude fiscale.md",
-    "todo.md",
-    "daily/2022-08-14.md"
+    "club informatique (coding gouters).md",
+    "concerts de musique.md",
+    "cours particuliers d'anglais.md",
+    "cours particuliers de mathématiques.md",
+    "cours d'informatique.md"
   ]
 }

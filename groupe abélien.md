@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-19
+sr-interval: 4
+sr-ease: 297
+---
+
 up::[[groupe]]
 #maths/algèbre #review 
 # groupe abélien

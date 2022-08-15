@@ -1,3 +1,8 @@
+---
+sr-due: 2022-08-19
+sr-interval: 4
+sr-ease: 272
+---
 up::[[dérivation]]
 #maths/analyse #review 
 # dérivées successives

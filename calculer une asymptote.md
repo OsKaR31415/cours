@@ -2,6 +2,9 @@
 up: [[asymptote]]
 tags: maths/analyse, review
 mindmap-plugin: basic
+sr-due: 2022-08-18
+sr-interval: 3
+sr-ease: 261
 ---
 
 # calculer une asymptote

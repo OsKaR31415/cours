@@ -1,3 +1,9 @@
+---
+alias: "libre"
+sr-due: 2022-08-18
+sr-interval: 3
+sr-ease: 256
+---
 up::[[espace vectoriel]]
 #maths/algèbre #review 
 # famille de vecteurs libre

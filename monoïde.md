@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-19
+sr-interval: 4
+sr-ease: 296
+---
+
 up::[[MOC algèbre]]
 #maths/algèbre #review 
 # monoïde

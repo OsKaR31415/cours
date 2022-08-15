@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-19
+sr-interval: 4
+sr-ease: 282
+---
+
 up::[[MOC trigonométrie]]
 #maths/trigonométrie #review 
 # Formules d'Euler

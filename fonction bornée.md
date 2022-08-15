@@ -1,3 +1,9 @@
+---
+alias: "bornée"
+sr-due: 2022-08-26
+sr-interval: 11
+sr-ease: 270
+---
 up::[[fonction]]
 #maths/analyse #review 
 # fonction bornée

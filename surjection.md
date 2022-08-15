@@ -1,3 +1,9 @@
+---
+alias: "surjective"
+sr-due: 2022-08-19
+sr-interval: 4
+sr-ease: 299
+---
 up::[[application]]
 #maths/analyse #review 
 # surjection

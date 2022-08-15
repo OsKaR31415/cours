@@ -5,13 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#todo",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 16008003
       }
     },
     {
@@ -25,42 +25,42 @@
       "query": "tag:#MOC",
       "color": {
         "a": 1,
-        "rgb": 6356992
+        "rgb": 11730944
       }
     },
     {
       "query": "tag:#flashcards",
       "color": {
         "a": 1,
-        "rgb": 15109632
+        "rgb": 16751872
       }
     },
     {
       "query": "tag:#maths",
       "color": {
         "a": 1,
-        "rgb": 2526976
+        "rgb": 2792960
       }
     },
     {
       "query": "tag:#logique",
       "color": {
         "a": 1,
-        "rgb": 1322409
+        "rgb": 1519265
       }
     },
     {
       "query": "tag:#informatique",
       "color": {
         "a": 1,
-        "rgb": 27497
+        "rgb": 1673838
       }
     },
     {
       "query": "tag:#PKM OR tag:#obsidian",
       "color": {
         "a": 1,
-        "rgb": 4667546
+        "rgb": 4863904
       }
     },
     {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "query": "path:sources OR tag:#citation OR tag:#source OR path:informatique",
+      "query": "path:sources OR tag:#citation OR tag:#source",
       "color": {
         "a": 1,
         "rgb": 5084664
@@ -88,20 +88,27 @@
       "query": "tag:#autres",
       "color": {
         "a": 1,
-        "rgb": 9631598
+        "rgb": 8421504
+      }
+    },
+    {
+      "query": "tag:#CV",
+      "color": {
+        "a": 1,
+        "rgb": 10691724
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -0.3,
-  "nodeSizeMultiplier": 0.8140625,
-  "lineSizeMultiplier": 1.45625,
+  "nodeSizeMultiplier": 0.9345703125,
+  "lineSizeMultiplier": 1.7763671875,
   "collapse-forces": true,
   "centerStrength": 0.648698203153649,
   "repelStrength": 11.3175127036513,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3228748267419812,
+  "scale": 0.3746286446726087,
   "close": false
 }

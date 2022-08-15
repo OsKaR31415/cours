@@ -1,3 +1,10 @@
+---
+sr-due: 2022-08-18
+sr-interval: 3
+sr-ease: 257
+alias: "équivalente"
+---
+
 up::[[fonction]]
 #maths/analyse #review 
 # fonctions équivalentes

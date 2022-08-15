@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/analyse #maths/algèbre #review 
+#maths/analyse #maths/algèbre 
 # combinaison linéaire
 Une _combinaison linéaire_ est une expression construite à partir d'un ensemble de termes en multipliant chaque terme par une constante et en sommant le tout.
 
