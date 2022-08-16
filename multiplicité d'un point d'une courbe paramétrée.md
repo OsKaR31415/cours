@@ -1,3 +1,9 @@
+---
+alias: "multiplicité"
+sr-due: 2022-08-20
+sr-interval: 4
+sr-ease: 288
+---
 up::[[courbe paramétrée]]
 #maths/analyse #review 
 # multiplicité d'un point d'une courbe paramétrée
@@ -11,8 +17,8 @@ La _multiplicité_ de $A$ est $\card(f^{-1}(A))$
 C'est donc le nombre de réels $t$ pour lesquels $M(t) = A$
 
 
- - Si $A$ Est atteint une et une seule fois, sa multiplicité est $1$ et on dit que A est un _point simple_
- - Si $A$ est atteint pour deux valeurs distinctes du paramètre et deux seu∊ment, on dit que $A$ est un _point double_
+ - Si $A$ Est atteint une et une seule fois, sa multiplicité est $1$ et on dit que A est un **point simple**
+ - Si $A$ est atteint pour deux valeurs distinctes du paramètre et deux seu∊ment, on dit que $A$ est un **point double**
  - _points triples_, _points quadruples_, etc...
  - _point multiple_ quand il est atteint au moins deux fois
 

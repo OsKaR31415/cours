@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1cf662b5f23c23e4",
+        "id": "207e399a2821423b",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "2d82d484e31e1a9c",
+        "id": "fd091e921f584c6a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conférence jeu de la vie rencontres audacieuses.md",
+            "file": "TFJM (participant).md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -30,25 +30,12 @@
         }
       },
       {
-        "id": "48634514d9396af9",
+        "id": "bd8d5a08c196e00b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conférences en ligne de mathématiques et d'informatique.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "37807a3a6e7d399f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "livre blanc introduction à obsidian.md",
+            "file": "APL combinateurs.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -80,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards tag:#no-review",
+                "query": "tag:#maths/algèbre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV.md",
+                "file": "APL combinateurs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV.md",
+                "file": "APL combinateurs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,7 +131,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 52.29357798165138,
+        "dimension": 49.99999999999999,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV.md"
+                "file": "APL combinateurs.md"
               }
             }
           },
@@ -170,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CV.md",
+                "file": "APL combinateurs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -285,6 +272,22 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "f07402fbd5d7e112",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "e4bf5b37e05db4b8",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -292,7 +295,7 @@
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 47.70642201834862,
+        "dimension": 49.99999999999999,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -315,23 +318,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
-  "active": "1cf662b5f23c23e4",
+  "active": "bd8d5a08c196e00b",
   "lastOpenFiles": [
-    "CV.md",
-    "conférence jeu de la vie rencontres audacieuses.md",
-    "conférences en ligne de mathématiques et d'informatique.md",
-    "livre blanc introduction à obsidian.md",
-    "sources/polyHédronisme.md",
-    "daily/2022-08-29.md",
-    "daily/2022-08-16.md",
-    "daily/2022-08-15.md",
-    "Lycée.md",
-    "CV LaTeX.md"
+    "Excalidraw/APL combinateur atop.excalidraw.md",
+    "APL combinateurs.md",
+    "sous groupe.md",
+    "domination en un point.md",
+    "négligabilité.md",
+    "fonctions équivalentes.md",
+    "composition de permutations.md",
+    "multiplicité d'un point d'une courbe paramétrée.md",
+    "déterminant d'une matrice.md",
+    "relation d'équivalence.md"
   ]
 }

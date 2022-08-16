@@ -1,9 +1,18 @@
 #PKM
 # CV
 
+> [!info]- signification des compétences
+> 🤝 : travail en groupe
+> 🧑‍🏫 : enseignement, pédagogie, communication
+> 🗣 : expression orale, communication
+> 🔍 : recherche (scientifique)
+> 🧮 : mathématiques 
+> 💻 : informatique
+> 🎵 : musique
+
 > [!query]- Eléments du CV
 > ```dataview
-> TABLE date as "début", date-end as "fin", description
+> TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
@@ -14,7 +23,7 @@
 
 > [!query]- **Mathématiques**
 > ```dataview
-> TABLE date as "début", date-end as "fin", description
+> TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
@@ -24,7 +33,7 @@
 
 > [!query]- **Informatique**
 > ```dataview
-> TABLE date as "début", date-end as "fin", description
+> TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
@@ -34,7 +43,7 @@
 
 > [!query]- **Anglais**
 > ```dataview
-> TABLE date as "début", date-end as "fin", description
+> TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])

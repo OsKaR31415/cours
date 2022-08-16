@@ -1,4 +1,7 @@
-up:: [[APL]]
+---
+alias: "combinateur"
+---
+up::[[APL]]
 #informatique #review
 # APL combinateurs
 

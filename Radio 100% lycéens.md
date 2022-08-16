@@ -1,5 +1,6 @@
-date::2019-01-01
+date::2019 #todo
 description::"émissions sur la radio du lycée"
+compétences:: 🗣️ 🧮
 #CV #maths 
 #todo: check date
 # Radio 100% lycéens

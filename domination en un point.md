@@ -1,3 +1,9 @@
+---
+alias: "domine"
+sr-due: 2022-08-20
+sr-interval: 4
+sr-ease: 270
+---
 up::[[fonction]]
 #maths/analyse #review 
 # domination en un point

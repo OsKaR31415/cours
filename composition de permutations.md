@@ -1,3 +1,9 @@
+---
+alias: "composition"
+sr-due: 2022-08-20
+sr-interval: 4
+sr-ease: 286
+---
 up::[[permutation]]
 #maths/algèbre #review 
 # composition de permutations

@@ -1,3 +1,9 @@
+---
+sr-due: 2022-08-20
+sr-interval: 4
+sr-ease: 271
+---
+
 up::[[matrice]]
 #maths/algèbre #review 
 # déterminant d'une matrice
@@ -61,7 +67,7 @@ det ← {
 
 
 ## Propriétés
- - Un déterminant posséeant 2 lignes ou 2 colonnes proportionelles est **nul**
+ - Le déterminant d'une matrice possédant 2 lignes ou 2 colonnes proportionelles est **nul**
  - La multiplication d'une ligne ou d'une colonne par un réel $\lambda$ multiplie le déterminant par $\lambda$ 
 
 

@@ -1,3 +1,4 @@
+compétences:: 🧑‍🏫 🗣️ 🧮 💻
 #CV #maths #informatique 
 # conférences en ligne de mathématiques et d'informatique
 

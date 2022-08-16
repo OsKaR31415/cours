@@ -1,5 +1,6 @@
-date::
+date::2020-06-18
 description::"conférence filmée avec l'université d'orléans"
+compétences:: 🧑‍🏫 🗣️ 🧮 💻
 link::[sur youtube](https://www.youtube.com/watch?v=fCw2iP04udc)
 #CV #maths #informatique 
 # jeu de la vie "parlons de science"

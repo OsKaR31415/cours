@@ -1,4 +1,4 @@
-date::2019-01-01
+date::2019 #todo
 description::"pass VIP offert par l'organisateur"
 #CV #maths 
 #todo: check date

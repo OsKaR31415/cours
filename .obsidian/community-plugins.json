@@ -25,7 +25,6 @@
   "obsidian-hover-editor",
   "obsidian-desmos",
   "obsidian-task-progress-bar",
-  "obsidian-latex-suite",
   "obsidian-functionplot",
   "obsidian-plugin-toc",
   "obsidian-hider",
@@ -35,5 +34,5 @@
   "quickadd",
   "obsidian-icon-shortcodes",
   "customizable-page-header-buttons",
-  "obsidian-day-planner"
+  "juggl"
 ]
