@@ -1,3 +1,6 @@
+---
+alias: "trace"
+---
 up::[[matrice]]
 #maths/algèbre #no-review 
 # trace d'une matrice

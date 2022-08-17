@@ -1,3 +1,6 @@
+---
+alias: ["converge", "convergente"]
+---
 up::[[fonction]]
 #maths/analyse #no-review 
 # fonction convergente

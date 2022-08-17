@@ -1,4 +1,5 @@
 ---
+alias: "associative"
 sr-due: 2023-03-29
 sr-interval: 235
 sr-ease: 328

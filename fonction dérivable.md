@@ -1,3 +1,6 @@
+---
+alias: "dérivable"
+---
 up::[[fonction]], [[dérivation]]
 #maths/analyse #no-review 
 # fonction dérivable

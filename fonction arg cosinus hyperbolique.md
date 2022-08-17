@@ -1,7 +1,10 @@
+---
+alias: ["argch", "arg cosinus hyperbolique"]
+---
 up::[[fonction cosinus hyperbolique]]
-sibling::[[fonction arg sinus hyperbolique (argsh)]]
+sibling::[[fonction arg sinus hyperbolique]]
 #maths/analyse #maths/trigonométrie #review 
-# fonction arg cosinus hyperbolique (argch)
+# fonction arg cosinus hyperbolique
 [[fonction réciproque]] du [[fonction cosinus hyperbolique|cosinus hyperbolique]]
 :luc_alert_triangle: $\ch$ n'est une bijection que de $\R^{+}$ dans $\R^{+}$, $\arg\ch$ est donc la [[fonction réciproque|réciproque]] de $\ch/_{\R^{+}}$
 

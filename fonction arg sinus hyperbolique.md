@@ -1,7 +1,10 @@
+---
+alias: ["argsin", "arg sinus hyperbolique"]
+---
 up::[[fonction sinus hyperbolique]]
-sibling::[[fonction arg cosinus hyperbolique (argch)]]
+sibling::[[fonction arg cosinus hyperbolique]]
 #maths/analyse #maths/trigonométrie #review 
-# fonction arg sinus hyperbolique (argsh)
+# fonction arg sinus hyperbolique
 fonction [[réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]
 
 $\begin{align*} \arg\sh : \quad & \R \rightarrow \R \\ & y \mapsto x \text{ tel que } y = \sh(x) \\ & x \mapsto \ln\left(x+\sqrt{1+x^{2}}\right)\end{align*}$

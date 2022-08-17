@@ -30,5 +30,6 @@
     "images/",
     "kanban/",
     "templates/"
-  ]
+  ],
+  "communityPluginSortOrder": "alphabetical"
 }

@@ -1,5 +1,5 @@
 ---
-alias: "arccos", "arccosinus", "fonction arccosinus"
+alias: ["arccos", "arccosinus", "fonction arccosinus"]
 ---
 up::[[fonction cosinus]]
 #maths/analyse #maths/trigonométrie #no-review 
@@ -18,17 +18,17 @@ $$\begin{aligned}
 \arccos: &[-1; 1] \rightarrow \left[-\dfrac\pi2; \dfrac\pi2\right]\\
 	&x \mapsto y\text{ tel que }\cos(y) = x \text{ et } y\in[0, \pi]\\
 \end{aligned}$$
-## Notes
+## Propriétés
 
-$\cos(\arcsin(x)) = -\sqrt{1 - x^2}$
-$\sin(\arccos(x)) = \sqrt{1 - x^2}$
+ - $\cos(\arcsin(x)) = -\sqrt{1 - x^2}$
+ - $\sin(\arccos(x)) = \sqrt{1 - x^2}$
 
-## Dérivée
+### Dérivation
 $\arccos$ est [[fonction dérivable|dérivable]] sur $\mathbb R$ (son [[ensemble de définition]]).
 La [[dérivation|dérivée]] de $\arccos$ peut être calculée grâce à la formule de [[dérivation]] d'une fonction réciproque :
 $(f^{-1})' = \dfrac1{f'\circ f^{-1}}$
 
-On à alors :
+- On à alors :
 $$\begin{aligned}
 \arccos'(x) &= \dfrac1{\cos'(\arccos x)}\\
 &= -\dfrac1{\sin(\arccos x)}\\
@@ -38,6 +38,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-## Equations avec des arccosinus
-
+### Equations avec des arccosinus
+Pour résoudre une équation avec des $\arccos$, on commence par poser :
 $$\arccos x = y \iff \left\{ \begin{array}{l} x = \cos y\\\text{et}\\y \in [0; \pi] \end{array} \right.$$

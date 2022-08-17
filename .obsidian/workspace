@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "207e399a2821423b",
+        "id": "5b0e9f2084af52d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CV.md",
+            "file": "daily/2022-08-17.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,25 +17,12 @@
         }
       },
       {
-        "id": "fd091e921f584c6a",
+        "id": "c05f9b7b466e49af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TFJM (participant).md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "bd8d5a08c196e00b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "APL combinateurs.md",
+            "file": "Syntaxe obsidian.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -67,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#maths/algèbre",
+                "query": "alias:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL combinateurs.md",
+                "file": "Syntaxe obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL combinateurs.md",
+                "file": "Syntaxe obsidian.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,13 +103,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 219.00679779052734,
-    "collapsed": true
+    "width": 217.00238800048828
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -131,7 +116,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 49.99999999999999,
+        "dimension": 66.61585365853658,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -139,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL combinateurs.md"
+                "file": "Syntaxe obsidian.md"
               }
             }
           },
@@ -157,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "APL combinateurs.md",
+                "file": "Syntaxe obsidian.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -251,7 +236,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.9813351685271882,
+                  "scale": 0.7746356178080479,
                   "close": true
                 }
               }
@@ -295,7 +280,7 @@
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 49.99999999999999,
+        "dimension": 33.38414634146341,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -309,34 +294,25 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2fdac71366431635",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 359.5,
     "collapsed": true
   },
-  "active": "bd8d5a08c196e00b",
+  "active": "c05f9b7b466e49af",
   "lastOpenFiles": [
-    "Excalidraw/APL combinateur atop.excalidraw.md",
-    "APL combinateurs.md",
-    "sous groupe.md",
-    "domination en un point.md",
-    "négligabilité.md",
-    "fonctions équivalentes.md",
-    "composition de permutations.md",
-    "multiplicité d'un point d'une courbe paramétrée.md",
-    "déterminant d'une matrice.md",
-    "relation d'équivalence.md"
+    "daily/2022-08-17.md",
+    "things to do.md",
+    "mental squezze point.md",
+    "Map of content.md",
+    "MOC MOCs.md",
+    "a lire.md",
+    "images/exercice quaternions.png",
+    "base d'un espace vectoriel.md",
+    "MOC algèbre.md",
+    "groupe.md"
   ]
 }

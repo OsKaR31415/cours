@@ -1,3 +1,6 @@
+---
+alias: ["th", "tangente hyperbolique"]
+---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction tangente]]
 properties::[[fonction impaire]], [[]]

@@ -1,5 +1,5 @@
 ---
-alias: cos, cosinus
+alias: ["cos", "cosinus"]
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus]]

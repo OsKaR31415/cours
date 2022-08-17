@@ -1,4 +1,4 @@
-up::[[fonction arg cosinus hyperbolique (argch)]]
+up::[[fonction arg cosinus hyperbolique]]
 sibling::[[démonstration de l'expression de l'arg sinus hyperbolique]]
 #maths/trigonométrie #no-review 
 # démonstration expression de l'arg cosinus hyperbolique

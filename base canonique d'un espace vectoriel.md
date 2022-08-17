@@ -1,3 +1,6 @@
+---
+alias: "base canonique"
+---
 up::[[base d'un espace vectoriel]]
 #maths/algèbre #review 
 # base canonique d'un espace vectoriel

@@ -1,3 +1,6 @@
+---
+alias: "génératrice"
+---
 up::[[espace vectoriel]]
 #maths/algèbre #review 
 # famille de vecteurs génératrice

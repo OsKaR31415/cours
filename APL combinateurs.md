@@ -1,5 +1,5 @@
 ---
-alias: "combinateur"
+alias: ["combinateur", "combinateurs"]
 ---
 up::[[APL]]
 #informatique #review

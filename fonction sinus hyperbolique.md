@@ -1,4 +1,5 @@
 ---
+alias: ["sh", "sinus hyperbolique"]
 sr-due: 2022-08-18
 sr-interval: 4
 sr-ease: 279

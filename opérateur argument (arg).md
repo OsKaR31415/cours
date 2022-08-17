@@ -6,8 +6,8 @@ Si l'application n'est pas [[bijection|bijective]], on la réduit sur un sous-en
 
 ## Exemples
  - les fonction hyperboliques inverses :
-     - [[fonction arg cosinus hyperbolique (argch)|arg ch]]
-     - [[fonction arg sinus hyperbolique (argsh)|arg sh]]
-     - [[fonction arg tangente hyperbolique (arg th)|arg th]]
+     - [[fonction arg cosinus hyperbolique|arg ch]]
+     - [[fonction arg sinus hyperbolique|arg sh]]
+     - [[fonction arg tangente hyperbolique|arg th]]
 
 
