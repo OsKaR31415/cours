@@ -1,4 +1,4 @@
-#science 
+#science #no-review 
 # trivium
 Ensemble de **3 arts** qui concernent le "pouvoir de la langue" (expression, raisonnement, persuasion et séduction)
 Signifie "_les trois chemins_"

@@ -9,7 +9,33 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "groupe.md",
+            "file": "CV.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b4e3588554540a19",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conférences en ligne de mathématiques et d'informatique.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8025245e8a712406",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tags to add - notes to organize.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tags:",
+                "query": "tag:#CV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "groupe.md",
+                "file": "tags to add - notes to organize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -79,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "groupe.md",
+                "file": "tags to add - notes to organize.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +116,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "groupe.md"
+                "file": "tags to add - notes to organize.md"
               }
             }
           },
@@ -130,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "groupe.md",
+                "file": "tags to add - notes to organize.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -290,17 +317,17 @@
     "width": 359.5,
     "collapsed": true
   },
-  "active": "e386eb1f38ae4f29",
+  "active": "8025245e8a712406",
   "lastOpenFiles": [
-    "identités.md",
-    "groupe.md",
-    "loi de composition interne.md",
-    "loi de composition.md",
-    "MOC algèbre.md",
-    "associativité.md",
-    "fonction.md",
-    "MOC fonctions.md",
-    "daily/2022-08-17.md",
-    "calculer une asymptote.md"
+    "conversion modèle ER, modèle logique.excalidraw.md",
+    "tags to add - notes to organize.md",
+    "combinaison linéaire.md",
+    "todo.md",
+    "CV.md",
+    "obsidian plugin dataview.md",
+    "point d'allure ordinaire.excalidraw.md",
+    "quadrivium.md",
+    "sept arts libéraux.md",
+    "trivium.md"
   ]
 }

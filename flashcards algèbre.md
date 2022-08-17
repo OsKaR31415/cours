@@ -1,4 +1,4 @@
-#maths/algèbre #flashcards #todo
+#maths/algèbre #flashcards 
 
 propriétés d'un semi groupe
 ?
@@ -31,3 +31,4 @@ l'**ordre** d'un **élément** $a$ d'un groupe est...
 le plus petit nombre $n$ tel que $a^{*n}=a$
 <!--SR:!2022-12-17,133,292-->
 
+- [ ] #todo: pour l'algèbre linéaire

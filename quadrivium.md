@@ -1,4 +1,4 @@
-#science
+#science #no-review 
 # quadrivium
 Ensemble de 4 sciences [[mathématiques]] qui se rapportent au "pouvoir des nombres"
 Signifie "_les quatre chemins_"

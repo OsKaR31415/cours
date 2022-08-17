@@ -1,4 +1,4 @@
 up::[[plugins obsidian]]
-#todo #no-review 
+#no-review 
 # obsidian plugin day planner
 

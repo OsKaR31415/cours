@@ -11,4 +11,3 @@ Tout entier supérieur à $2$ admet au moins un diviseur premier.
 $\forall n\in\N, \exists p \text{ premier}, (p|n)$
 
 
-#todo

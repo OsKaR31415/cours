@@ -1,5 +1,6 @@
-#PKM
+#CV #PKM
 # CV
+
 
 > [!info]- signification des compétences
 > 🤝 : travail en groupe
@@ -16,6 +17,7 @@
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
+> WHERE file.name != this.file.name
 > SORT date
 > ```
 
@@ -28,6 +30,7 @@
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
 > WHERE contains(file.tags, "maths")
+> WHERE file.name != this.file.name
 > SORT date
 > ```
 
@@ -38,6 +41,7 @@
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
 > WHERE contains(file.tags, "informatique")
+> WHERE file.name != this.file.name
 > SORT date
 > ```
 
@@ -48,6 +52,7 @@
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
 > WHERE contains(file.tags, "anglais")
+> WHERE file.name != this.file.name
 > SORT date
 > ```
 
