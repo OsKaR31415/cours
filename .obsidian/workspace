@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "CV.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,13 +116,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 217.00238800048828,
-    "collapsed": true
+    "width": 217.00238800048828
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tags to add - notes to organize.md"
+                "file": "CV.md"
               }
             }
           },
@@ -157,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "CV.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -288,6 +286,14 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -317,17 +323,17 @@
     "width": 359.5,
     "collapsed": true
   },
-  "active": "8025245e8a712406",
+  "active": "407c81c708328992",
   "lastOpenFiles": [
-    "conversion modèle ER, modèle logique.excalidraw.md",
+    "conférences en ligne de mathématiques et d'informatique.md",
     "tags to add - notes to organize.md",
+    "conversion modèle ER, modèle logique.excalidraw.md",
     "combinaison linéaire.md",
     "todo.md",
     "CV.md",
     "obsidian plugin dataview.md",
     "point d'allure ordinaire.excalidraw.md",
     "quadrivium.md",
-    "sept arts libéraux.md",
-    "trivium.md"
+    "sept arts libéraux.md"
   ]
 }

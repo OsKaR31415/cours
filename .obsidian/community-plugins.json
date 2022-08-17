@@ -37,5 +37,6 @@
   "juggl",
   "workspaces-plus",
   "txt-as-md-obsidian",
-  "obsidian-query-language"
+  "obsidian-query-language",
+  "rss-reader"
 ]
