@@ -1,6 +1,6 @@
 ---
 up: [[asymptote]]
-tags: maths/analyse, review
+tags: [maths/analyse, review]
 mindmap-plugin: basic
 sr-due: 2022-08-18
 sr-interval: 3
