@@ -4,42 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e386eb1f38ae4f29",
+        "id": "bcfa1caceea47103",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CV.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b4e3588554540a19",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conférences en ligne de mathématiques et d'informatique.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8025245e8a712406",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "tags to add - notes to organize.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -93,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV.md",
+                "file": "things to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV.md",
+                "file": "things to do.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV.md"
+                "file": "things to do.md"
               }
             }
           },
@@ -155,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CV.md",
+                "file": "things to do.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -323,17 +292,17 @@
     "width": 359.5,
     "collapsed": true
   },
-  "active": "407c81c708328992",
+  "active": "bcfa1caceea47103",
   "lastOpenFiles": [
+    "identités.md",
+    "things to do.md",
     "conférences en ligne de mathématiques et d'informatique.md",
+    "CV.md",
     "tags to add - notes to organize.md",
     "conversion modèle ER, modèle logique.excalidraw.md",
     "combinaison linéaire.md",
     "todo.md",
-    "CV.md",
     "obsidian plugin dataview.md",
-    "point d'allure ordinaire.excalidraw.md",
-    "quadrivium.md",
-    "sept arts libéraux.md"
+    "point d'allure ordinaire.excalidraw.md"
   ]
 }
