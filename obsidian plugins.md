@@ -1,6 +1,6 @@
 up::[[obsidian]]
 #obsidian #no-review 
-# plugins obsidian
+# obsidian plugins
 Plugins pour l'application [[obsidian]]
 
 ## Core plugins
@@ -11,12 +11,12 @@ Plugins pour l'application [[obsidian]]
 
 ### Daily notes
  - Créer et ouvrir des _daily notes_
- - a utiliser avec [[plugins obsidian#Calendar|calendar]]
+ - a utiliser avec [[obsidian plugins#Calendar|calendar]]
 
 ### Slides
  - Créer des slides avec du markdown
      - utiliser `---` comme séparateur de slides
- - a utiliser avec [[plugins obsidian#Advanced Slides]]
+ - a utiliser avec [[obsidian plugins#Advanced Slides]]
 
 ## Community plugins
 
@@ -45,7 +45,7 @@ Plugins pour l'application [[obsidian]]
 
 ### Calendar ⭐️
 [github](https://github.com/liamcain/obsidian-calendar-plugin)
- - Vue "calendrier" sur les [[plugins obsidian#Daily notes|daily notes]]
+ - Vue "calendrier" sur les [[obsidian plugins#Daily notes|daily notes]]
  - Permet de vraiment utiliser les daily notes pour planifier
  - permet aussi de faire des _weekly notes_
 
@@ -104,7 +104,7 @@ Plugins pour l'application [[obsidian]]
 [obsidian](https://github.com/nothingislost/obsidian-hover-editor)
  - Permet d'avoir une fenêtre _dans_ obsidian
  - permet d'ouvrir un lien sur lequel on veut simplement faire une petite édition
- - supporte toutes les fenêtre (graph, [[plugins obsidian#Excalidraw|excalidraw]] etc.)
+ - supporte toutes les fenêtre (graph, [[obsidian plugins#Excalidraw|excalidraw]] etc.)
 
 
 ### Kanban
@@ -127,7 +127,7 @@ Plugins pour l'application [[obsidian]]
 [github](https://github.com/pjeby/quick-explorer/)
  - alternate file explorer
  - more keyboard based
- - shows preview with [[plugins obsidian#Hover editor|hover editor]]
+ - shows preview with [[obsidian plugins#Hover editor|hover editor]]
  
 ### Quick latex for obsidian
 [github](https://github.com/joeyuping/quick_latex_obsidian)

@@ -1,6 +1,6 @@
 up:: [[obsidian]]
 #obsidian #no-review 
-# Syntaxe obsidian
+# obsidian syntaxe
 
 ## Titres 
 
@@ -57,7 +57,7 @@ donne :
 
 ### Autre note
  - Format : `[[nom de la note|nom affiché]]`
- - Exemple : [[Syntaxe obsidian|la note actuelle]]
+ - Exemple : [[obsidian syntaxe|la note actuelle]]
 
 ## Citations
 

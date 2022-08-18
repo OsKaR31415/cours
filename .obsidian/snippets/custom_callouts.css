@@ -1,3 +1,9 @@
+.callout {
+    /* smaller font-size for all callouts */
+    font-size: 1.5ex;
+}
+
+
 
 .callout[data-callout="query"] {
     /* small and green, for queries (dataview...) */
@@ -7,14 +13,17 @@
     --callout-color: 68, 140, 80;
     --callout-icon: database;
     /* --callout-icon: '<svg>...custom svg...</svg>'; */
-
     font-size: 18px; /* smaller font size, to see more results at se same time */
     /* also change the size of any table contained in the callout */
     --table-font-size: 18px;
 }
 
 
-.callout {
-    font-size: 1.5ex;
+.callout[data-callout="idea"] {
+    /* ideas for future things (improvements...) */
+    --callout-color: 88, 61, 224;
+    --callout-icon: pencil;
 }
+
+
 

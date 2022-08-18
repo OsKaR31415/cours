@@ -15,7 +15,7 @@
 [[dérivation|dérivée]] de $\arccos x$ :: $-\dfrac1{\sqrt{1-x^2}}$
 <!--SR:!2022-09-29,67,252-->
 [[dérivation|dérivée]] de $\arctan x$ :: $\dfrac1{1+x^2}$
-<!--SR:!2022-08-18,14,230-->
+<!--SR:!2022-09-20,33,230-->
 
 [[dérivation|dérivée]] de $\ln u$ :: $\dfrac{u'}u$
 <!--SR:!2022-09-12,72,312-->
@@ -46,7 +46,7 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 [[intégration|primitive]] de $\ln x$ :: $x\ln(x) - x + \text{cste.}$
 <!--SR:!2022-08-20,8,227-->
 [[intégration|primitive]] de $\tan x$ :: $-\ln(|\cos x|) + \text{cste.}$ 
-<!--SR:!2022-08-17,5,207-->
+<!--SR:!2022-08-30,12,207-->
 [[intégration|primitive]] de $\dfrac{1}{1-x^{2}}$ :: $\arg\th$
 <!--SR:!2022-08-20,4,223-->
 

@@ -3,8 +3,8 @@
 
 Application de prise de notes liés ([[linked notes]])
 
- - [[Syntaxe obsidian]]
- - [[plugins obsidian]]
+ - [[obsidian syntaxe]]
+ - [[obsidian plugins]]
 
 
 

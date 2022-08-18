@@ -1,5 +1,5 @@
 ---
-alias: ["argsin", "arg sinus hyperbolique"]
+alias: ["argsh", "arg sinus hyperbolique"]
 ---
 up::[[fonction sinus hyperbolique]]
 sibling::[[fonction arg cosinus hyperbolique]]

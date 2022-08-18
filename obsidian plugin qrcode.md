@@ -1,4 +1,4 @@
-up::[[plugins obsidian]]
+up::[[obsidian plugins]]
 #obsidian
 # obsidian plugin qrcode
 [github](https://github.com/rudimuc/obsidian-qrcode)

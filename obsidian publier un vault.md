@@ -1,6 +1,6 @@
 up:: [[obsidian]]
 #obsidian
-# publier un vault obsidian
+# obsidian publier un vault
 
  - https://beingpax.medium.com/a-non-technical-guide-to-set-up-digital-garden-with-obsidian-for-free-62d6df75553c
 

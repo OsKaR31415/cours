@@ -1,4 +1,4 @@
-up::[[Syntaxe obsidian]]
+up::[[obsidian syntaxe]]
 #obsidian #no-review 
 # obsidian callouts
 

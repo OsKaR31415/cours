@@ -1,4 +1,4 @@
-up::[[plugins obsidian]]
+up::[[obsidian plugins]]
 #obsidian
 # obsidian plugin tasks
 

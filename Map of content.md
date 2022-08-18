@@ -1,3 +1,6 @@
+---
+alias: "Maps Of Content"
+---
 #PKM #not-done #no-review 
 # Map of content
 

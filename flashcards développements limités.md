@@ -18,7 +18,7 @@ $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(
 $\DL_n(0)\dfrac{1}{1-x} =\ldots$
 ?
 $1+x+x^2+x^3+\cdots+x^n+x^n\varepsilon(x)$
-<!--SR:!2022-08-17,4,151-->
+<!--SR:!2022-08-19,1,131-->
 
 
 **Développement limité**
@@ -34,7 +34,7 @@ $\DL_n(0)\ln(1+x) =\ldots$
 ?
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\disp\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
-<!--SR:!2022-08-18,6,130-->
+<!--SR:!2022-08-19,1,130-->
 
 
 **Développement limité**

@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "bcfa1caceea47103",
+        "id": "310c52e686ed840a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "obsidian workflow.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "7ea319bae97876fe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "obsidian naming notes.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -62,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "things to do.md",
+                "file": "obsidian naming notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -74,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "things to do.md",
+                "file": "obsidian naming notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,11 +103,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 217.00238800048828
+    "width": 217.00238800048828,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -106,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "things to do.md"
+                "file": "obsidian naming notes.md"
               }
             }
           },
@@ -124,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "things to do.md",
+                "file": "obsidian naming notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -241,22 +261,6 @@
             }
           },
           {
-            "id": "f07402fbd5d7e112",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "e4bf5b37e05db4b8",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
             "id": "609ff408cfbae38d",
             "type": "leaf",
             "state": {
@@ -265,7 +269,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "9b0b445260de35cb",
@@ -292,17 +296,17 @@
     "width": 359.5,
     "collapsed": true
   },
-  "active": "bcfa1caceea47103",
+  "active": "7ea319bae97876fe",
   "lastOpenFiles": [
-    "identités.md",
-    "things to do.md",
-    "conférences en ligne de mathématiques et d'informatique.md",
-    "CV.md",
-    "tags to add - notes to organize.md",
-    "conversion modèle ER, modèle logique.excalidraw.md",
-    "combinaison linéaire.md",
-    "todo.md",
-    "obsidian plugin dataview.md",
-    "point d'allure ordinaire.excalidraw.md"
+    "vim plugin braceless.md",
+    "obsidian naming notes.md",
+    "obsidian workflow.md",
+    "obsidian publier un vault.md",
+    "organisation obsidian.md",
+    "obsidian plugins.md",
+    "fonction arg sinus hyperbolique.md",
+    "obsidian callouts.md",
+    "workflow MOCs.md",
+    "obsidian syntaxe.md"
   ]
 }
