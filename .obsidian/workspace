@@ -293,20 +293,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "active": "7ea319bae97876fe",
   "lastOpenFiles": [
-    "vim plugin braceless.md",
-    "obsidian naming notes.md",
     "obsidian workflow.md",
+    "obsidian workflow MOCs.md",
+    "obsidian naming notes.md",
+    "vim plugin braceless.md",
     "obsidian publier un vault.md",
     "organisation obsidian.md",
     "obsidian plugins.md",
     "fonction arg sinus hyperbolique.md",
     "obsidian callouts.md",
-    "workflow MOCs.md",
     "obsidian syntaxe.md"
   ]
 }
