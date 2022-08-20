@@ -1,4 +1,4 @@
-up::[[PKM]]
+**Harold Cooper**up::[[PKM]]
 #PKM #review 
 # ENCODE framework
 
@@ -12,7 +12,7 @@ $\downarrow$
     - note only what you are interested in, [[capture only what is important|only what is important]]
     - take **atomic** notes
 - Connect 
-    - _"this reminds me of..."
+    - _"this reminds me of..."_
     - connect the new idea to other ideas
 - Organize 
     - _"that's a part of..."_

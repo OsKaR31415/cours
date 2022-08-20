@@ -1,4 +1,4 @@
-#MOC #maths/géométrie #not-done 
+#MOC #maths/géométrie 
 # MOC géométrie
 
 > [!query] Sous-notes de [[MOC géométrie]]

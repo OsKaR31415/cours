@@ -1251,7 +1251,7 @@ Like this guide? Suggest some [more features](https://github.com/Jam3/math-as-co
 
 ## Contributing
 
-For details on how to contribute, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+For details on how to contribute, see `./CONTRIBUTING.md`.
 
 ## License
 
