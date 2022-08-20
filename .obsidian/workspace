@@ -4,25 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "310c52e686ed840a",
+        "id": "d9905047755b1e10",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "obsidian workflow.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "file": "maths.excalidraw.md"
           }
         }
       },
       {
-        "id": "7ea319bae97876fe",
+        "id": "d519daf7197227c8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian naming notes.md",
+            "file": "MOC MOCs.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +38,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "407c81c708328992",
+            "id": "84b1f06f81d5c515",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian naming notes.md",
+                "file": "maths.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian naming notes.md",
+                "file": "maths.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian naming notes.md"
+                "file": "maths.excalidraw.md"
               }
             }
           },
@@ -144,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "obsidian naming notes.md",
+                "file": "maths.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -261,6 +257,22 @@
             }
           },
           {
+            "id": "f07402fbd5d7e112",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "e4bf5b37e05db4b8",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
             "id": "609ff408cfbae38d",
             "type": "leaf",
             "state": {
@@ -269,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "9b0b445260de35cb",
@@ -293,19 +305,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
-  "active": "7ea319bae97876fe",
+  "active": "d9905047755b1e10",
   "lastOpenFiles": [
-    "obsidian workflow.md",
-    "obsidian workflow MOCs.md",
-    "obsidian naming notes.md",
-    "vim plugin braceless.md",
-    "obsidian publier un vault.md",
-    "organisation obsidian.md",
-    "obsidian plugins.md",
-    "fonction arg sinus hyperbolique.md",
-    "obsidian callouts.md",
-    "obsidian syntaxe.md"
+    "MOC MOCs.md",
+    "MOC algèbre.md",
+    "image d'une application linéaire.md",
+    "maths.excalidraw.md",
+    "MOC arithmétique.md",
+    "attachments/Pasted Image 20220820020326_640.png",
+    "Open.excalidraw.md",
+    "Excalidraw/Démonstration arctan(1sqrt(3)).excalidraw.md",
+    "things to do.md",
+    "attachments/Pasted Image 20220820011829_697.png"
   ]
 }

@@ -18,8 +18,8 @@ f^{-1}: &F \rightarrow E\\
 ## propriétés
 $f^{-1}$ à le même sens de variation que $f$.
 
-## [[composée]]
-Lorsque l'on [[composée|compose]] $f$ et $f^{-1}$, on obtient une fonction identité :
+## [[composition de fonctions]]
+Lorsque l'on [[composition de fonctions|compose]] $f$ et $f^{-1}$, on obtient une fonction identité :
 
 $f \circ f^{-1} = id_E$     $(E \rightarrow F \rightarrow E)$
 $f^{-1}\circ f = id_F$     $(F \rightarrow E \rightarrow F)$

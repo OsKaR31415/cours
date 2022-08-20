@@ -15,7 +15,7 @@ $$f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1$$
  - L'équivalence est une [[relation d'équivalence]].
 
  - $f \sim g \implies f \circ \varphi \sim g \circ \varphi$
-     - composition **à droite**
+     - [[composition de fonctions]] **à droite**
      - la composition à gauche ne fonctionne pas
          - $x+1 \sim_{+\infty} x$ alors que $e^{x+1}\not\sim_{+\infty}e^{x}$
 

@@ -39,5 +39,5 @@ Sinus hyperbolique d'une somme $\sh(a+b) =?$ :: $\sh(a)\ch(b) + \ch(a)\sh(b)$
 <!--SR:!2022-08-19,7,234-->
 
 Tangente hyperbolique d'une somme $\th(a+b) =?$ :: $\dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
-<!--SR:!2022-08-19,5,234-->
+<!--SR:!2022-09-01,13,234-->
 

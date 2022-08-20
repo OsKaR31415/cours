@@ -1,8 +1,8 @@
 ---
 alias: ["arcsin", "arcsinus"]
-sr-due: 2022-08-18
-sr-interval: 4
-sr-ease: 282
+sr-due: 2022-09-09
+sr-interval: 21
+sr-ease: 302
 ---
 
 up::[[fonction sinus]]
@@ -10,10 +10,19 @@ up::[[fonction sinus]]
 # fonction arcsinus
 La fonction arcsin est la [[fonction réciproque]] de la fonction [[fonction sinus]].
 
+$$
+\begin{align*}
+\arcsin :\; & [-1; 1] \to \left[ -\frac{\pi}{2}; \frac{\pi}{2}\right]\\
+&y \mapsto x \text{ tel que } y=\sin(x)
+\end{align*}
+$$
 
+## Définition
 $\sin$ est définie sur $\mathbb{R}$, et n'est pas [[bijection|bijective]] sur cet ensemble.
 Mais si on la limite à certains intervalles, elle peut être bijective.
-En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], elle est donc [[bijection|bijective]], et donc possède une réciproque, la fonction $\arcsin$ : $$\begin{aligned}
+En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], elle est donc [[bijection|bijective]], et donc possède une réciproque, la fonction $\arcsin$
+
+$$\begin{aligned}
 \sin: &\left[-\dfrac\pi2; \dfrac\pi2\right] \rightarrow \left[-1; 1\right]\\
       &x \mapsto \sin(x)\\
 &\\

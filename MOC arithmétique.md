@@ -1,7 +1,7 @@
 #MOC #maths/arithmétique 
 # MOC arithmétique
 
-> [!query]- Sous-notes de [[MOC arithmétique]]
+> [!query] Sous-notes de [[MOC arithmétique]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM ""

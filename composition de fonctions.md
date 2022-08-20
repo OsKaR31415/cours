@@ -1,6 +1,9 @@
+---
+alias: ["composée", "composition"]
+---
 up::[[fonction]]
 #maths/analyse #no-review 
-# composée
+# composition de fonctions
 
 On note la composée de fonction avec le symbole $\circ$
 Soient $f$ et $g$ deux fonctions, leur composée est $f\circ g = f(g(x))$

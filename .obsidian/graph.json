@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": " -path:(\"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
+  "collapse-filter": true,
+  "search": "-path:(\"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,7 +18,7 @@
       "query": "tag:#not-done",
       "color": {
         "a": 1,
-        "rgb": 2829614
+        "rgb": 8882055
       }
     },
     {
@@ -46,14 +46,14 @@
       "query": "tag:#logique",
       "color": {
         "a": 1,
-        "rgb": 1519265
+        "rgb": 2070998
       }
     },
     {
       "query": "tag:#informatique",
       "color": {
         "a": 1,
-        "rgb": 1673838
+        "rgb": 2074769
       }
     },
     {
@@ -67,14 +67,14 @@
       "query": "tag:#personne",
       "color": {
         "a": 1,
-        "rgb": 10710150
+        "rgb": 13470121
       }
     },
     {
       "query": "path:sources OR tag:#citation OR tag:#source",
       "color": {
         "a": 1,
-        "rgb": 5084664
+        "rgb": 11062527
       }
     },
     {
@@ -99,16 +99,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.3,
   "nodeSizeMultiplier": 0.9345703125,
   "lineSizeMultiplier": 1.7763671875,
   "collapse-forces": true,
-  "centerStrength": 0.648698203153649,
+  "centerStrength": 0.62661086754351,
   "repelStrength": 11.3175127036513,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.36711017194490686,
+  "scale": 0.25315087375502526,
   "close": true
 }

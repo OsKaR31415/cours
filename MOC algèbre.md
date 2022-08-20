@@ -105,7 +105,7 @@
 > [!query]- Sous-notes de [[espace vectoriel]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#MOC
 > WHERE contains(file.outlinks, [[espace vectoriel]])
 >    or contains(up,          [[espace vectoriel]])
 >    or contains(up.up,       [[espace vectoriel]])

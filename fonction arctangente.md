@@ -1,8 +1,8 @@
 ---
 alias: ["arctan", "arctangente"]
-sr-due: 2022-08-18
-sr-interval: 4
-sr-ease: 289
+sr-due: 2022-09-06
+sr-interval: 18
+sr-ease: 309
 ---
 up::[[fonction tangente]]
 sibling::[[fonction arctangente]]
@@ -11,6 +11,12 @@ sibling::[[fonction arctangente]]
 
 La fonction $\arctan$ est la [[fonction réciproque]] de la [[fonction tangente]].
 
+$$\begin{align*}
+\arctan :\;& \R \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]\\
+& y \mapsto x \text{ tel que } y=\tan(x)
+\end{align*}$$
+
+## Définition
 La fonction $\tan$ n'est pas [[bijection|bijective]] sur $\mathbb{R}$, mais réduite à l'intervalle $\left[-\dfrac\pi2; \dfrac\pi2\right]$, $\tan/_{[-\frac\pi2;\frac\pi2]}$ est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], donc elle est [[bijection|bijective]].
 Elle possède donc une [[fonction réciproque]], la fonction $\arctan$ :
 
@@ -36,6 +42,6 @@ Plus généralement, on a : $(\arctan(u))' = \dfrac{u'}{1+u^2}$
 
 
 ## Equations avec des arctangentes
-
+On commence par poser :
 $$\arctan x = y \iff \left\{ \begin{array}{l} x = \tan y\\\text{et}\\y \in \left[-\dfrac\pi2;\dfrac\pi2\right]\end{array} \right.$$
 

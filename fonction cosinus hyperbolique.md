@@ -1,8 +1,8 @@
 ---
 alias: ["ch", "cosinus hyperbolique"]
-sr-due: 2022-08-18
-sr-interval: 4
-sr-ease: 282
+sr-due: 2022-09-10
+sr-interval: 22
+sr-ease: 302
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus hyperbolique]]

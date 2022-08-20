@@ -1,8 +1,8 @@
 ---
 alias: "asymptotes"
-sr-due: 2022-08-18
-sr-interval: 3
-sr-ease: 257
+sr-due: 2022-09-03
+sr-interval: 15
+sr-ease: 277
 ---
 up::[[MOC analyse]]
 #maths/analyse #review 

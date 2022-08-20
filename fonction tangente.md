@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-18
-sr-interval: 4
-sr-ease: 289
+sr-due: 2022-09-08
+sr-interval: 20
+sr-ease: 309
 ---
 
 up::[[MOC trigonométrie]], [[MOC fonctions]]
@@ -11,6 +11,8 @@ up::[[MOC trigonométrie]], [[MOC fonctions]]
 Notée $\tan$. Fonction trigonométrique (fonction circulaire).
 Elle est une [[application]] sur $\{x\in\mathbb{R} | \cos x\neq 0\} = \mathbb{R}\setminus\left\{ \dfrac\pi2 + k\pi,  k\in\mathbb{Z} \right\}$
 Elle est [[fonction impaire|impaire]], [[fonction croissante|strictement croissante]] et de période $\pi$
+
+$\begin{align*} f: \quad & \R\setminus \left\{\frac{\pi}{2}+k \pi, k \in \Z\right\} \to \R\\ & x \mapsto \frac{\sin(x)}{\cos(x)} \end{align*}$
 
 ## Propriétés
 $\tan(x) = \dfrac{\sin x}{\cos x}$ (voir [[fonction sinus]] et [[fonction cosinus]])
