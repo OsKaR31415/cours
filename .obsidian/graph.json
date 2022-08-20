@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#todo",
@@ -46,7 +46,7 @@
       "query": "tag:#logique",
       "color": {
         "a": 1,
-        "rgb": 2070998
+        "rgb": 13050
       }
     },
     {
@@ -74,7 +74,7 @@
       "query": "path:sources OR tag:#citation OR tag:#source",
       "color": {
         "a": 1,
-        "rgb": 11062527
+        "rgb": 3770873
       }
     },
     {
@@ -109,6 +109,6 @@
   "repelStrength": 11.3175127036513,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.25315087375502526,
-  "close": true
+  "scale": 0.2272070283737015,
+  "close": false
 }

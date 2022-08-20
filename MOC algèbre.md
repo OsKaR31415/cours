@@ -4,7 +4,7 @@
 > [!query]- Sous-notes de [[MOC algèbre]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[MOC algèbre]])
 >    or contains(up,          [[MOC algèbre]])
 >    or contains(up.up,       [[MOC algèbre]])
@@ -18,7 +18,7 @@
 > [!query]- Sous-notes de [[groupe]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[groupe]])
 >    or contains(up,          [[groupe]])
 >    or contains(up.up,       [[groupe]])
@@ -51,7 +51,7 @@
 > [!query]- Sous-notes de [[application linéaire]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[application linéaire]])
 >    or contains(up,          [[application linéaire]])
 >    or contains(up.up,       [[application linéaire]])
@@ -75,7 +75,7 @@
 > [!query]- Sous-notes de [[matrice]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[matrice]])
 >    or contains(up,          [[matrice]])
 >    or contains(up.up,       [[matrice]])
@@ -105,7 +105,7 @@
 > [!query]- Sous-notes de [[espace vectoriel]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#MOC
+> FROM -#MOC -#excalidraw
 > WHERE contains(file.outlinks, [[espace vectoriel]])
 >    or contains(up,          [[espace vectoriel]])
 >    or contains(up.up,       [[espace vectoriel]])

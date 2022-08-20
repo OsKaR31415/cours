@@ -45,12 +45,15 @@ up::[[MOC analyse]]
  - [[fonction sinus]]
      - [[fonction arcsinus]] 
      - [[fonction sinus hyperbolique]]
+         - [[fonction arg sinus hyperbolique]]
  - [[fonction cosinus]] 
      - [[fonction arccosinus]]
      - [[fonction cosinus hyperbolique]]
+         - [[fonction arg cosinus hyperbolique]]
  - [[fonction tangente]] 
      - [[fonction arctangente]]
      - [[fonction tangente hyperbolique]]
+         - [[fonction arg tangente hyperbolique]]
 
 
 ## Types de fonctions

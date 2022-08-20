@@ -6,7 +6,7 @@ MOC sur les [[polynôme|polynômes]]
 > [!query]- Sous-notes de [[polynôme]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[polynôme]])
 >    or contains(up,          [[polynôme]])
 >    or contains(up.up,       [[polynôme]])

@@ -33,6 +33,84 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "d13c6798-6fe2-4faf-846e-9fda89db2e10",
+      "name": "citation",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/citation.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "feec2e0a-f47b-4ff4-b51c-06840b1cdc87",
+      "name": "élément du CV",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/élément CV.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "b76102fe-9a2c-40d6-b233-a05c03024796",
+      "name": "source",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/sources.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [],

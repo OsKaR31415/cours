@@ -1,4 +1,4 @@
-up::ensemble
+up::[[ensemble]]
 #maths/ensembles #review 
 # ensemble subpotent
 La _subpotence_ est une relation sur deux ensembles, satisfaite lorsqu'il existe une [[injection]] entre les deux ensembles.

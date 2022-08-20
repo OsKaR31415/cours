@@ -3,7 +3,7 @@ up::[[ligne de commande UNIX]]
 # symlink linux
 
 ## Syntaxe
-- [ ] #todo
+- [ ] #todo: trouver la syntaxe
 ```bash
 ln -s $PWD/vrai_fichiier
 ```

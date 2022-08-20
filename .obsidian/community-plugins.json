@@ -37,5 +37,7 @@
   "workspaces-plus",
   "txt-as-md-obsidian",
   "obsidian-query-language",
-  "rss-reader"
+  "rss-reader",
+  "obsidian-advanced-uri",
+  "obsidian-shellcommands"
 ]

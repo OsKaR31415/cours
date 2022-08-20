@@ -2,9 +2,10 @@
 # tags to add - notes to organize
 
 ## notes without tags
-```query
-file:.md -tag:#science -tag:#maths -tag:#informatique -tag:#logique -tag:#excalidraw -tag:#obsidian -tag:#PKM -tag:#not-done -tag:#flashcards -tag:#todo -tag:#MOC -tag:#personne -tag:#annotation -tag:#autres -tag:#citation -tag:#conférence
-AND -path:sources -path:daily -path:__sekund__ -path:Excalidraw -path:"images" -path:kanban -path:annotations -path:templates -path:informatique
+
+```dataview
+LIST FROM -"daily" AND -"informatique" AND -"templates" AND -"sources" AND -"__sekund__"
+WHERE !file.tags
 ```
 
 ## notes todo
@@ -19,15 +20,8 @@ WHERE file.name != this.file.name
 ## notes without review state
 
 ```dataview
-LIST FROM ""
-WHERE !contains(file.tags, "review")
-  and !contains(file.tags, "no-review")
-  and !contains(file.tags, "personne")
-  and !contains(file.tags, "flashcards")
-  and !contains(file.tags, "obsidian")
-  and !contains(file.tags, "CV")
-  and !contains(file.tags, "MOC")
-  and !contains(file.path, "sources")
+LIST FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC 
+WHERE !contains(file.path, "sources")
   and !contains(file.path, "daily")
   and !contains(file.path, "__sekund__")
   and !contains(file.path, "Excalidraw")

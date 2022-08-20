@@ -6,7 +6,7 @@ Voir **[[MOC fonctions]]**
 > [!query]- Sous-notes de [[MOC analyse]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[MOC analyse]])
 >    or contains(up,          [[MOC analyse]])
 >    or contains(up.up,       [[MOC analyse]])
@@ -19,7 +19,7 @@ Voir **[[MOC fonctions]]**
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[fonction]])
 >    or contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
@@ -62,7 +62,7 @@ Voir **[[MOC fonctions]]**
 > [!query]- Sous-notes de [[équation différentielle]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw
 > WHERE contains(file.outlinks, [[équation différentielle]])
 >    or contains(up,          [[équation différentielle]])
 >    or contains(up.up,       [[équation différentielle]])

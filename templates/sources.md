@@ -1,6 +1,7 @@
-author:[[syntaxe pour les personnes]]
-#source #obsidian 
-# syntaxe pour les sources
+author::
+date::{{DATE:YYYY-MM-DD}}
+#source 
+# {{title}}
 Description de la source
 
 

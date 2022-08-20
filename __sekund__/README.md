@@ -1,3 +1,4 @@
+# README
 **Please, do not touch documents in this folder!**
 
 This folder is used as a local cache for all notes that people share with you.

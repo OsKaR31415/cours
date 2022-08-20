@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.14.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {
+    "darwin": "/Users/oscarplaisant/.opam/default/bin:/Users/oscarplaisant/.opam/default/bin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.cargo/env:/Library/TeX/texbin:/Users/oscarplaisant/.cargo/bin:/Users/oscarplaisant/.opam/default/bin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/oscarplaisant/.cargo/env:/Users/oscarplaisant/.cargo/bin+:/Users/oscarplaisant/.zsh_scripts/+:/Users/oscarplaisant/.zsh_scripts/+:/Users/oscarplaisant/.zsh_scripts/"
+  },
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": {},
+  "prompts": [],
+  "custom_variables": []
+}

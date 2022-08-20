@@ -3,7 +3,7 @@ source::
 link::
 date-seen::{date}
 #citation #obsidian 
-# citation
+# {{title}}
 > 
 
 ## Interprétation
