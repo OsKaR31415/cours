@@ -1,8 +1,7 @@
 up::[[conférences en ligne de mathématiques et d'informatique]]
-date::#todo
+date::2022-03-04
 description::"conférence sur le jeu de la vie"
 compétences:: 🧑‍🏫 🗣️ 🧮 💻
 #CV #maths #informatique 
-- [ ] #todo: trouver la date
 # Présentation jeu de la vie discord
 

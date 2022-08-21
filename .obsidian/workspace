@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7702b07e1f02a1e1",
+        "id": "1b19249f3db63bee",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-08-21.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8195c1fad51ebe7e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tags to add - notes to organize.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -62,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "things to do.md",
+                "file": "tags to add - notes to organize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -74,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "things to do.md",
+                "file": "tags to add - notes to organize.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "things to do.md"
+                "file": "tags to add - notes to organize.md"
               }
             }
           },
@@ -125,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "things to do.md",
+                "file": "tags to add - notes to organize.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -234,14 +252,6 @@
             }
           },
           {
-            "id": "31b1c63a457b6e3d",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "f07402fbd5d7e112",
             "type": "leaf",
             "state": {
@@ -264,9 +274,17 @@
               "type": "RSS_FEED",
               "state": {}
             }
+          },
+          {
+            "id": "bf6c068c22a39e9f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "9b0b445260de35cb",
@@ -290,20 +308,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
-  "active": "7702b07e1f02a1e1",
+  "active": "bf6c068c22a39e9f",
   "lastOpenFiles": [
-    "templates/polyèdre.md",
-    "things to do.md",
-    "polyèdre dual.md",
-    "MOC géométrie.md",
-    "polygone.md",
-    "cycle (théorie des graphes).md",
+    "daily/2022-08-21.md",
+    "tags to add - notes to organize.md",
+    "Présentation jeu de la vie discord.md",
+    "somme des carrés.md",
+    "somme des cubes.md",
+    "flashcards dérivation.md",
+    "carré d'une somme.md",
     "actions.excalidraw.md",
-    "test.md",
-    "URI actions.md",
-    "sources/Github copilot make coding assignments futile.md"
+    "things to do.md",
+    "maths.excalidraw.md"
   ]
 }
