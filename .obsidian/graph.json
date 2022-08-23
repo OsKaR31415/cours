@@ -109,6 +109,11 @@
   "repelStrength": 11.8874744617319,
   "linkStrength": 1,
   "linkDistance": 30,
+<<<<<<< HEAD
   "scale": 0.30382289475299923,
   "close": true
+=======
+  "scale": 0.4465881482356144,
+  "close": false
+>>>>>>> parent of 033a70e (update)
 }

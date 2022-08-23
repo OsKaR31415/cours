@@ -111,32 +111,6 @@
       },
       "openFile": true,
       "openFileInMode": "default"
-    },
-    {
-      "id": "a53ba32c-a636-4774-8c5a-b4df63d10078",
-      "name": "note de maths",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/note de maths.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": false,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": false,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
     }
   ],
   "macros": [],

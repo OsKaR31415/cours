@@ -66,6 +66,7 @@
       "description": "Links for the intellectually curious, ranked by readers.",
       "items": [
         {
+<<<<<<< HEAD
           "title": "Physics Safety Tip",
           "description": "<img src=\"https://imgs.xkcd.com/comics/physics_safety_tip.png\" title=\"In general, avoid exposure to any temperatures, pressures, particle energies, or states of matter that physicists think are neat.\" alt=\"In general, avoid exposure to any temperatures, pressures, particle energies, or states of matter that physicists think are neat.\" />",
           "content": "<img src=\"https://imgs.xkcd.com/comics/physics_safety_tip.png\" title=\"In general, avoid exposure to any temperatures, pressures, particle energies, or states of matter that physicists think are neat.\" alt=\"In general, avoid exposure to any temperatures, pressures, particle energies, or states of matter that physicists think are neat.\" />",
@@ -110,6 +111,8 @@
           "highlights": []
         },
         {
+=======
+>>>>>>> parent of 033a70e (update)
           "title": "Gen Z",
           "description": "<img src=\"https://imgs.xkcd.com/comics/gen_z.png\" title=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" alt=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" />",
           "content": "<img src=\"https://imgs.xkcd.com/comics/gen_z.png\" title=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" alt=\"Curdled milk, of a peculiar kind, made after a Bulgarian recipe and called &quot;yaghurt,&quot; is now a Parisian fad and is believed to be a remedy against growing old. A correspondent who has tried it, says he would prefer to die young. (1905, The Elk Falls Journal)\" />",
@@ -132,6 +135,7 @@
           "highlights": []
         },
         {
+<<<<<<< HEAD
           "title": "Unreliable Connection",
           "description": "<img src=\"https://imgs.xkcd.com/comics/unreliable_connection.png\" title=\"NEGATIVE REVIEWS MENTION: Unreliable internet. POSITIVE REVIEWS MENTION: Unreliable internet.\" alt=\"NEGATIVE REVIEWS MENTION: Unreliable internet. POSITIVE REVIEWS MENTION: Unreliable internet.\" />",
           "content": "<img src=\"https://imgs.xkcd.com/comics/unreliable_connection.png\" title=\"NEGATIVE REVIEWS MENTION: Unreliable internet. POSITIVE REVIEWS MENTION: Unreliable internet.\" alt=\"NEGATIVE REVIEWS MENTION: Unreliable internet. POSITIVE REVIEWS MENTION: Unreliable internet.\" />",
@@ -151,6 +155,27 @@
           "created": false,
           "tags": [],
           "hash": "d2f261454006ac275b5dd7065dd62118",
+=======
+          "title": "Coffee Cup Holes",
+          "description": "<img src=\"https://imgs.xkcd.com/comics/coffee_cup_holes.png\" title=\"Theoretical physicist: At the Planck length, uncountably many.\" alt=\"Theoretical physicist: At the Planck length, uncountably many.\" />",
+          "content": "<img src=\"https://imgs.xkcd.com/comics/coffee_cup_holes.png\" title=\"Theoretical physicist: At the Planck length, uncountably many.\" alt=\"Theoretical physicist: At the Planck length, uncountably many.\" />",
+          "category": "",
+          "link": "https://xkcd.com/2658/",
+          "creator": "",
+          "pubDate": "2022-08-12T00:00:00Z",
+          "enclosure": "",
+          "enclosureType": "",
+          "image": "",
+          "id": "https://xkcd.com/2658/",
+          "language": "",
+          "folder": "xkcd",
+          "feed": "xkcd",
+          "read": true,
+          "favorite": false,
+          "created": false,
+          "tags": [],
+          "hash": "01d8f02d79a59733ae45e2705af14441",
+>>>>>>> parent of 033a70e (update)
           "highlights": []
         },
         {
@@ -277,6 +302,7 @@
       "description": "Franceinfo - France",
       "items": [
         {
+<<<<<<< HEAD
           "title": "An odd discovery on Spotify",
           "description": "<a href=\"https://news.ycombinator.com/item?id=32559119\">Comments</a>",
           "content": "<main morss_own_score=\"2.7084548104956268\" morss_score=\"256.4287701060414\">\n<stamp-thwack>\n<label>From:</label> Robin Sloan<br>\n<label>To:</label> main newsletter<br>\n<label>Sent:</label> July 2022\n</stamp-thwack>\n<h1>Visions</h1>\n<p>This newslet­ter is a fun one, with lots to explore and think about. First, I’ll review my upcom­ing releases, then share some inter­est­ing work from other peo­ple. I’ll also describe a recent encounter that I found both allur­ing and unnerving … !</p>\n<h2><a href=\"https://www.robinsloan.com/newsletters/visions/#releases\">Upcoming releases</a></h2>\n<p>Remember, here’s the drumbeat ahead:</p>\n<ul>\n<li><strong>August 2:</strong> digital release of <a href=\"https://www.mcdbooks.com/news/behold-the-suitcase-clone\">The Suitcase Clone</a></li>\n<li><strong>September 6:</strong> print release of Sourdough’s new edition, with The Suitcase Clone bundled</li>\n<li><strong>October 4:</strong> print release of Penumbra’s new edition, with Ajax Penumbra 1969 bundled</li>\n</ul>\n<p>You’ll be able to find those every­where books and e-books are sold.</p>\n<p>The Suit­case Clone’s audio­book edi­tion is also due on August 2, and the fine folks at Macmil­lan Audio are run­ning a sweepstakes to win a free copy! <a href=\"https://read.macmillan.com/promo/thesuitcasecloneaudiosweepstakes/\"><strong>You can enter here</strong></a>; the sweep­stakes runs from today through August 1.</p>\n<p>Here’s a peek behind the audiobook scenes. Ear­lier this year, I corresponded with the audio­book’s pro­ducer, who asked if I had any notions for the nar­ra­tor’s voice. I wrote back:</p>\n<blockquote>\n<p>I think this nar­ra­tor is very amused by humans and their <span>vexations — </span><wbr>by life, the universe, and <span>everything — </span><wbr>so, a sense of irony, of play, will be more appro­pri­ate than an entirely seri­ous read. Not that it should sound silly; rather, I’m think­ing of lis­ten­ing to some­one speak­ing and, even though you can’t see their face, you feel some­how that they’re just on the verge of smiling … </wbr></wbr></p>\n</blockquote>\n<p>Later, the pro­ducer sent me three clips to review, each a dif­fer­ent per­former read­ing a short pas­sage from the novella. Then, we dis­cussed which audi­tion we liked best … and dis­cov­ered we were in agreement! Pavi Proczko was our pick; <a href=\"https://soundcloud.com/macaudio-2/the-suitcase-clone-by-robin-sloan-audiobook-excerpt/s-GVy3qoLwqRc?utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing\">you can hear his per­for­mance of the novella’s intro­duc­tion here</a>.</p>\n<h2><a href=\"https://www.robinsloan.com/newsletters/visions/#noteworthy\">Noteworthy publications</a></h2>\n<h3>A new voice</h3>\n<p>I had the plea­sure to look at an early copy of a new book of poetry, writ­ten by Chuck Ladd, titled <a href=\"https://www.lulu.com/shop/chuck-ladd/a-quiet-place-in-oklahoma/hardcover/product-87k626.html?q=&amp;page=1&amp;pageSize=4\">A Quiet Place in Okla­homa</a>. Chuck’s col­lec­tion is deft, meditative, and, on cer­tain pages, laugh-out-loud funny. It’s the kind of work that invites every­body in, even those new to poetry.</p>\n<p>By the end, A Quiet Place in Okla­homa shines as brightly as Camelot.</p>\n<p>This book is the project of two pub­lic school teach­ers in Texas: Chuck Ladd is, of course, the poet; Alex Sim­mons is the edi­tor and publisher. It’s a beau­ti­ful piece of work, in form and con­tent both, and it made me laugh. What’s bet­ter than that?</p>\n<p>My copy is <a href=\"https://www.lulu.com/shop/chuck-ladd/a-quiet-place-in-oklahoma/hardcover/product-87k626.html?q=&amp;page=1&amp;pageSize=4\">the hard­cover edi­tion</a>; there’s <a href=\"https://www.lulu.com/shop/chuck-ladd/a-quiet-place-in-oklahoma/paperback/product-ny4z4y.html?q=&amp;page=1&amp;pageSize=4\">a neat paperback</a> avail­able, too.</p>\n<p>(If there is any­one read­ing this newslet­ter who works at a regional press in Texas or Okla­homa: I think you ought to snap this one up!)</p>\n<h3>Being counted</h3>\n<p>Dan Bouk’s new book, Democracy’s Data, will be pub­lished by MCD in August.</p>\n<p>This is the kind of project that begins with a very spe­cific sub­ject that you’re not quite con­vinced can be <span>inter­est­ing — </span><wbr>the … 1940 … <span>Census? — </span><wbr>and then uses it as a pry bar to crack open cos­mic ques­tions: about democracy, government, families, and lots more.</wbr></wbr></p>\n<p>At the book’s core is a ques­tion that couldn’t be more rel­e­vant to the 21st century, not just in terms of democracy, but also the inter­net and its vast, watchful plat­forms:</p>\n<p>What the hell does it even mean for a <span>person — </span><wbr>a real, whole, complex, sov­ereign <span>person — </span><wbr>to be <em>counted</em>?</wbr></wbr></p>\n<p>I’ll tell you more about the book later this <span>year — </span><wbr>odds are, I won’t shut up about <span>it — </span><wbr>but, for now, I’ll say that <a href=\"https://www.shroudedincloaksofboringness.com/democracysdata/\">Dan’s web­site and newslet­ter</a> are worth following, if only for the vision of a scholar at the top of their game: rigorous, revelatory, engaged with the world, <span>and — </span><wbr>never to be <span>overlooked — </span><wbr>writ­ing with grace and style.</wbr></wbr></wbr></wbr></p>\n<h3>The kind of essay that makes you want to View Source</h3>\n<p>Robin Rendle’s new essay is so clev­erly constructed! <a href=\"https://www.robinrendle.com/essays/in-praise-of-shadows/\">Here, he gives us an argu­ment about pho­tog­ra­phy</a> … in which the text occludes all the photographs.</p>\n<p>I would call this a “tap essay”, like <a href=\"https://www.robinsloan.com/fish/\">Fish</a>. Note the care­ful struc­tur­ing of the <span>text — </span><wbr>its allo­ca­tion to dif­fer­ent “cards”—and the rhythm, which is almost oral. Terrific.</wbr></p>\n<p>Readers so inclined should View Source on Robin’s essay: look at that CSS and JavaScript, so light and sturdy! It’s ener­giz­ing to know that such a snappy pre­sen­ta­tion is avail­able so “cheaply” in mod­ern browsers. I am taking notes.</p>\n<h3>Digital slipperiness</h3>\n<p>I appre­ci­ated Hal­lie Bateman’s <a href=\"https://mailchi.mp/76bdf7d431bc/i-quit-my-job-16513235?e=54627c1d04\">reflections on the chal­lenges of shar­ing art</a> on Insta­gram circa 2022:</p>\n<blockquote>\n<p>In recent years, as Insta­gram has become a less hos­pitable place for artists, I’ve strug­gled to main­tain a pres­ence there that feels gen­uine to me. I don’t want to make TikTok-style process videos, or make art respond­ing to heart­break­ing world events. I don’t want to make comics about my per­sonal life, or even share updates on cur­rent projects. The algo­rithm now guar­an­tees a luke­warm response to nearly any still image I post, and I don’t want to get discouraged.</p>\n</blockquote>\n<p>I’ve come to believe the fun­da­men­tal prop­erty of dig­i­tal media is slipperiness. Dif­fer­ent plat­forms are different kinds of slippery at dif­fer­ent times. Insta­gram is presently: extremely <span>slip­pery — </span><wbr>squirming its way out of all its old con­tracts and expectations, strug­gling to become some­thing basi­cally unrecog­niz­able to its long­time users. Bummer. (And, I’m sure I’m not the only user whose ad load has increased 5X or more. It reeks of desperation.)</wbr></p>\n<p>I think per­son­i­fi­ca­tion here can be useful. Think of the friend who is dazzling, attractive, <span>protean — </span><wbr>and unsteady, and unreliable. They are magnetic; you enjoy being around them, reflect­ing their glow! But, if you are wise, you know how to bracket and buffer the rela­tion­ship.</wbr></p>\n<p>Think also of the friend who demon­strates solid integrity; upon whom you can rely totally. There are other forms of media that fit this figure; it won’t sur­prise you to hear that I think the print book is one.</p>\n<p>It’s okay for peo­ple, and media, to be different; to have dif­fer­ent strengths and weaknesses. It’s just impor­tant to under­stand who and what you’re dealing with.</p>\n<h3>Seeking solid ground</h3>\n<p>Here is my <a href=\"https://www.robinsloan.com/lab/specifying-spring-83/\">pro­posal for a new protocol</a>, one that might open up some inter­est­ing new pos­si­bil­i­ties on the inter­net. This was my lab newslet­ter back in June; it received a warm, engaged response, and I have con­tin­ued to develop the <span>idea — </span><wbr>along with the code back­ing it <span>up — </span><wbr>so I thought I’d share it here, too.</wbr></wbr></p>\n<p>Whether or not my pro­posal goes anywhere, I want to report that I found writ­ing in this <span>way — </span><wbr><em>imagining</em> in this <span>way — </span><wbr>both chal­leng­ing and ener­giz­ing, and I’d rec­om­mend it to anyone; par­tic­u­larly those any­ones who feel uncom­fort­able inside the the inter­net of the 2020s.</wbr></wbr></p>\n<p>Digital media is slip­pery because it’s mutable, and if it’s mutable, it means new <span>forms — </span><wbr>new ways of <span>relating — </span><wbr>are always pos­si­ble. Why not take the time, and do the work, to imag­ine some­thing new?</wbr></wbr></p>\n<h2><a href=\"https://www.robinsloan.com/newsletters/visions/#spotify\">A shape of things to come</a></h2>\n<p>Here’s my tale of an odd dis­cov­ery online, which offers</p>\n<ul>\n<li>a puzzle,</li>\n<li>a naturally-occuring Borges story, and/or perhaps</li>\n<li>a preview of media ecology in the decade to come.</li>\n</ul>\n<p>I was lis­ten­ing to Spo­tify’s rec­om­mendations, an algo­rithmic radio sta­tion that had picked up where my short playlist left off, when an inter­est­ing track came on. Its whompy brass reminded me faintly of <a href=\"https://www.youtube.com/watch?v=CwZBrZkbKAE\">Too Many Zooz</a>.</p>\n<p><em>Nice sound</em>, I thought. <em>I wonder what else this artist has pro­duced … </em></p>\n<p>The answer was: vir­tu­ally noth­ing. “Danni Richardson” appeared to be one of those artists with just a hand­ful of tracks avail­able on Spo­tify, of which this one, titled Romilda Geb­bia, was by far the stand­out hit, with 91,000 plays.</p>\n<p><em>Oh, well</em>, I thought. <em>Back to the algo­rithmic radio sta­tion.</em></p>\n<p>Except: the next track was the same. I don’t mean that it was Romilda Geb­bia again. This one was nom­i­nally dif­fer­ent: Veneranda Caputa, by Brett Byrne. The track’s par­tic­u­lars, its tim­ings and timbres, sounded … reshuffled, some­how. But its core was unmistakable.</p>\n<p>Both tracks a mere 45 sec­onds <span>long — </span><wbr>more vibes than songs.</wbr></p>\n<p><em>That’s very weird</em>, I thought. <em>Onward.</em></p>\n<p>Except: the next track was the same. And the next! AND THE NEXT!</p>\n<p><a href=\"https://open.spotify.com/playlist/2IaWgbhpPbS3Z9DYgf1rqg?si=12699cca4cf441e8\">I’ve col­lected these tracks in a playlist</a> so you can lis­ten for yourself, and hear the strange repetition. There are far more ver­sions than the ten I’ve pinned <span>here — </span><wbr>definitely dozens, pos­si­bly <span>hun­dreds — </span><wbr>and Spo­tify’s algo­rithm will obe­di­ently deliver them to you in the Rec­om­mended section, down below the playlist.</wbr></wbr></p>\n<p>In all of them, you can detect the under­ly­ing composition, its essen­tial elements: call that Romilda Prime.</p>\n<p>Part of the story here is clear. Some mystery pro­ducer devel­oped a scrap of a song that sounded appeal­ing, and rather than put all their wood behind a sin­gle arrow, they decided to make <span>dozens — </span><wbr><span>hun­dreds? — </span><wbr>of vari­a­tions and inject them all into the system, all in dif­fer­ent places. The artist names and track titles are nonsense; to me, they carry the clear fla­vor of AI text generation. For album art, our mys­tery pro­ducer has used the most banal stock pho­tog­ra­phy you have ever <span>seen — </span><wbr>almost impressively boring.</wbr></wbr></wbr></p>\n<p>Beyond that, it’s all ques­tions.</p>\n<p>How did our mys­tery pro­ducer make these variations? Was it a long after­noon with Able­ton Live, swap­ping out instruments, fid­dling with the piano roll? Or is this an automated, indus­trial process? Do they have the abil­ity to run a command, <code>python generate_vari­a­tions.py --base=romilda-prime</code>, step away, and return to a folder of crisp new MP3s?</p>\n<p>What are the eco­nom­ics of this project? These variations have done pretty well; the ones I inspected each have some­where between 50,000 and 200,000 plays. If Spo­tify pays a third of a cent per stream, and there are 30 vari­a­tions with those numbers, that’s in the ball­park of $10,000. (Of course, a mys­tery pro­ducer capable of pup­peteer­ing all these fake artists is also capa­ble of buy­ing fake streams … )</p>\n<p>One pre­sumes our mys­tery pro­ducer would not just do this once. So, have they dis­patched a whole fleet of these hazy “song clouds”? Are there other “primes” lurk­ing in Spo­tify’s catalog, with dozens or hun­dreds of vari­a­tions? How could you pos­si­bly find them? You couldn’t, except by accident.</p>\n<p>I wonder, at last, about the rela­tion­ship of this par­tic­u­lar “prime” to Spo­tify’s algorithm. I’ve never seen the rec­om­mendations set­tle so quickly into such a deep groove; once the algorithm got the taste of Romilda Prime in its mouth, there was no get­ting it out. Is that a mat­ter of chance? Maybe our mys­tery pro­ducer has spun this wheel many times, and it’s only with Romilda Prime that they hit the jackpot. They found a sound that is per­fectly seductive, not to humans, necessarily, but to the one lis­tener who counts most: the algo­rithm.</p>\n<p>So … like a lot of things in 21st-century media, I both love this and hate it.</p>\n<p>I love it, because it’s so strange, so dizzying, <span>and — </span><wbr>credit where due–because our mys­tery pro­ducer is truly going with the grain of the medium, in a way that no one merely “making albums” does, at all. What could be more 21st century, more “liquid mod­ernity”, than releas­ing your music as a haze of vari­a­tions into the swirling cur­rents of the algo­rithm?</wbr></p>\n<p>I hate it, because of course it trou­bles every intu­ition I have about what it means to be an <span>artist — </span><wbr>the very idea of authorship! There’s some­thing espe­cially cyn­i­cal about the spe­cific exe­cu­tion here, too. I can eas­ily imag­ine another ver­sion of this project that uses inter­est­ing track titles and gen­er­a­tive album art, so that grop­ing around for the hid­den “prime” might feel more like piec­ing together a puzzle, less like leaf­ing through junk mail.</wbr></p>\n<p>It’s the media ver­sion of a phe­nom­enon that’s com­mon across the food deliv­ery services. Here’s a pic­ture snapped in my neighborhood:</p>\n<figure>\n\n<img src=\"https://www.robinsloan.com/img/ghost-variations.jpg\">\n\n<figcaption>Yeah, those are all definitely the same place</figcaption>\n</figure>\n<p>A sin­gle kitchen oper­at­ing under many names to increase its algo­rithmic “surface area”; another shape of things to come.</p>\n<p>If you have ever stum­bled across a hazy “song cloud” like the one I encountered, the ema­na­tions of a hid­den prime, I’d love to know about it. Drop me a note: <em>robin@robinsloan.com</em></p>\n<h3>A new voyage</h3>\n<p>My band <a href=\"https://ooo.ghostbows.ooo/\">The Cot­ton Modules</a>, formed with the com­poser Jesse Solomon Clark, also goes with the grain of the 21st century: our process com­bines AI tools with human skill and imagination, metab­o­liz­ing a huge archive of recorded music into some­thing gen­uinely new and exciting.</p>\n<p>Currently, Jesse and I are work­ing on our sec­ond album. Last week, we sent a newslet­ter <a href=\"https://ooo.ghostbows.ooo/news/summer-2022/\">describing its sci-fi storyline</a>:</p>\n<blockquote>\n<p>Centuries from now, colonists climb aboard a mas­sive space­ship bound for Bethel 66 J, a promis­ing exoplanet. The ship car­ries an arse­nal of ter­raform­ing equipment, a liv­ing seed bank, and a com­plete archive of Earth culture. As it crosses the orbit of Jupiter, pick­ing up speed, the ship’s pas­sen­gers climb into their cryo-chambers. They’ll pass the light years in slumber, watched over by two caretaker AIs.</p>\n</blockquote>\n<blockquote>\n<p>This is not the first of these voyages, but it is absolutely the worst.</p>\n</blockquote>\n<p><a href=\"https://ooo.ghostbows.ooo/news/summer-2022/\">The newslet­ter continues</a>, explain­ing (a) the diegetic role our new album plays on this worst of all space voyages, along with (b) the feel­ing behind the whole project.</p>\n<p>The newslet­ter also includes a demo track that will only be avail­able for a lim­ited time. Fans of colony ships and/or coastal feel­ings might appre­ci­ate the vibe!</p>\n<h2><a href=\"https://www.robinsloan.com/newsletters/visions/#eucatastrophe\">Good catastrophes</a></h2>\n<p>I had the plea­sure recently of host­ing Gabrielle Zevin at Green Apple Books in San Fran­cisco for the launch of her new novel.</p>\n<p>Tomorrow and Tomorrow and Tomor­row is a tale of a cre­ative part­ner­ship across two decades, set in the video game industry. That back­drop was deeply appeal­ing to me, but/and the con­tours of the medium are less impor­tant than those of the rela­tion­ship. The book is beau­ti­fully done: confident, absorbing, and, in parts, quite experimental.</p>\n<p>Gabrielle’s novel made me think often of the eucatastrophe.</p>\n<p>That’s a term invented by Tolkien: the crash of good fortune. He called it</p>\n<blockquote>\n<p>the con­so­la­tion of fairy-stories, the joy of the happy ending: or more cor­rectly of the good catastrophe, the sudden joy­ous “turn” (for there is no true end to any fairy-tale): this joy, which is one of the things which fairy-stories can pro­duce supremely well, is not essen­tially “escapist,” nor “fugitive.” In its fairy-<span>tale — </span><wbr>or <span>otherworld — </span><wbr>setting, it is a sud­den and mirac­u­lous grace: never to be counted on to recur. It does not deny the exis­tence of dyscatastrophe, of sor­row and failure: the pos­si­bil­ity of these is nec­es­sary to the joy of deliverance; it denies (in the face of much evidence, if you will) uni­ver­sal final defeat and in so far is evangelium, giv­ing a fleet­ing glimpse of Joy, Joy beyond the walls of the world, poignant as grief.</wbr></wbr></p>\n</blockquote>\n<p>The end of The Return of the King is a series of eucatastro­phes.</p>\n<p>I would say that both Penum­bra and Sour­dough resolve into eucatastro­phes, and my new novel is, in some ways, about what lies beyond eucatastrophe.</p>\n<p>Tomorrow and Tomorrow and Tomor­row is richly eucatastrophic. Gabrielle does not (as Tolkien says) deny the exis­tence of sor­row and failure; not for a sec­ond. But/and, it is the book’s bursts of kind­ness and <span>openness — </span><wbr>the way those things <em>work</em> in the world of the novel, exhibit real power, bend the plot in sur­pris­ing <span>ways — </span><wbr>that will, I believe, stick with me.</wbr></wbr></p>\n<h2><a href=\"https://www.robinsloan.com/newsletters/visions/#miyazaki\">The Great Miyazaki Watch of 2022</a></h2>\n<p>I recently re-watched, in chrono­log­i­cal order, all the movies directed by Hayao Miyazaki. These movies, along with Miyazaki’s manga ver­sion of Nausicaä of the Val­ley of the Wind, have influ­enced me as much as any­thing else on this planet, and I wanted to begin to make that influ­ence more conscious and structured, rather than totally uncon­scious and … blobby?</p>\n<p>Accordingly: as I watched, I took notes.</p>\n<p>I’d seen all but two of the movies before.</p>\n<p>One of those new to me was The Cas­tle of Cagliostro, the first movie Miyazaki directed, before the found­ing of Stu­dio Ghibli. I slept on this one for too long! If it doesn’t have the emo­tional and mythic res­o­nances of the movies that came later, it sub­sti­tutes pure style:</p>\n<figure>\n<figcaption>\nTap or click to unmute.</figcaption>\n</figure>\n<p>The unflappabil­ity here; wonderful:</p>\n<figure>\n<figcaption>\nTap or click to unmute.</figcaption>\n</figure>\n<p>The other movie new to me was Porco Rosso, which fea­tures a dash­ing pilot cursed to look like a humanoid pig. I noted:</p>\n<blockquote>\n<p>They never tell us how he got cursed! The <span>omission — </span><wbr>the lack of <span>pathos — </span><wbr>is radical. A rejec­tion of “the trauma plot”. The ambi­gu­ity at the <span>end — </span><wbr>fabulous.</wbr></wbr></wbr></p>\n</blockquote>\n<blockquote>\n<p>The Amer­i­can ver­sion of this movie would be so much less inter­est­ing.</p>\n</blockquote>\n<p>The pig is an ace pilot, and you could be for­given for think­ing the movie’s heart is its fan­tas­ti­cal <span>dogfights — </span><wbr>but I think that’s wrong. Its core, not only emo­tional but also moral and aesthetic, is earthbound: the detailed scene in which Porco Rosso’s air­plane is rebuilt in Milan.</wbr></p>\n<figure>\n<figcaption>\nTap or click to unmute.</figcaption>\n</figure>\n<p>There’s a lot of this in Miyazaki’s movies: the drama and delight of work.</p>\n<figure>\n<figcaption>\nTap or click to unmute.</figcaption>\n</figure>\n<p>Of course … it’s also cool when Porco flies the plane through the canals of Milan.</p>\n<figure>\n<figcaption>\nTap or click to unmute.</figcaption>\n</figure>\n<p>The other thing I noticed, watch­ing the movies in quick succession, was the steady boom-boom-boom of the eucatastro­phes going off!</p>\n<p>Kiki’s Deliv­ery Ser­vice is the key example. I noted:</p>\n<blockquote>\n<p>There is so much kindness in so many of Miyazaki’s movies. Plots ani­mated by kind­ness. If peo­ple were not kind and open: noth­ing would happen!</p>\n</blockquote>\n<blockquote>\n<p>The great twists in Miyazaki movies are that peo­ple and crea­tures turn out to be friendlier than you expect. The dog in the big house in Kiki.</p>\n</blockquote>\n<p>Plots ani­mated by kindness: not sac­cha­rine or dull, but soar­ing and magnetic. Sto­ries about kind­ness that draw potent chem­i­cals into your blood just as surely as the thrillers do! That make your heart thrum, pull your cheeks tight. That tell you about the world, and what’s pos­si­ble in it.</p>\n<p>This kind of art is just as deadly seri­ous as the baddest, sad­dest stream­ing TV series you have ever seen. Believe it.</p>\n<p>This newslet­ter’s illus­tra­tions are the work of Theodor Kittelsen, drawn from <a href=\"https://www.nasjonalmuseet.no/en/collection/producer/56283/theodor-kittelsen\">the col­lec­tion</a> at the National Museum of Norway. What a range: from rich paint­ings to moody etch­ings to draw­ings almost like cartoons! It’s totally compelling, and there is a LOT to look at; don’t miss the “Show more” buttons, seem­ingly neverending, at the bot­tom of the page.</p>\n<p>From Oakland,</p>\n<p>Robin</p>\n<p>July 2022</p>\n</main>\n",
@@ -284,6 +310,15 @@
           "link": "https://www.robinsloan.com/newsletters/visions/#spotify",
           "creator": "",
           "pubDate": "Tue, 23 Aug 2022 00:30:52 +0000",
+=======
+          "title": "The Silence of Risk Management Victory",
+          "description": "<a href=\"https://news.ycombinator.com/item?id=32532029\">Comments</a>",
+          "content": "<div dir=\"auto\" class=\"body markup\" morss_own_score=\"5.150259067357513\" morss_score=\"56.44134563943352\"><p><span>Sometimes risk mitigation works. It doesn’t feel that way because when risk mitigation works, </span><em>nothing happens</em><span>. But not all risks lead to catastrophe, as long as people tasked with mitigating those risks keep their eyes on the goal. </span></p><p><span>For example, it’s possible that the Y2K computer bug actually </span><em>did </em><span>pose an existential threat to civilization, and </span><a href=\"https://www.washingtonpost.com/outlook/2019/12/30/lessons-yk-years-later/\">that we stopped its effects from materializing</a><span>. </span></p><p><span>Another example in recent history was the </span><a href=\"https://en.wikipedia.org/wiki/Western_African_Ebola_virus_epidemic\">2014 Ebola outbreak</a><span> in Guinea, Sierra Leone, and Liberia. This outbreak got out of control, cases were starting to pop up in other countries, and every case required several medical professionals to (attempt to) treat it well. As a rough estimate, if 1 Ebola patient required 5 medical professionals for adequate treatment, and if medical professionals were at medium risk of becoming infected, the biggest risk was that at some point there would not be enough medical professionals, and the system would collapse, followed by social and economic chaos. </span></p><p><strong>So, how did the world avoid that outcome? </strong></p><p><span>Doctors and scientists stopped the Ebola outbreak with public health measures, vaccination, and luck: A vaccine had been developed before the outbreak but hadn’t entered human clinical trials. Most medicines in Phase 1 human clinical trials fail. But when health organizations decided to try this vaccine, </span><em><a href=\"https://www.statnews.com/2020/01/07/inside-story-scientists-produced-world-first-ebola-vaccine/\">it was almost entirely effective, and there were no serious adverse events reported</a></em><span>. This vaccine hit it out of the park on the first try. Today, no one talks about the 2014 Ebola outbreak. But it’s possible that, without the vaccine, we’d be in a very different place.</span></p><p>With Y2K, armies of COBOL programmers came out of retirement, and some younger programmers also learned COBOL, all to perform the tedious work of re-coding software to handle four-digit years instead of two-digit years. The risk was that if software using a two-digit year like ’00’ for 1900 or ’99’ for 1999 tried to roll over to the year 2000, the software would register the year as 1900, thereby affecting data output, confusing program logic, or causing software crashes. That might not be too big of a deal for a hobbyist’s spreadsheet program, but it could be a huge deal for the software that runs the power grid—and for everyone depending on it.</p><p><span>All these programmers collectively updated enough date fields that, when the clock chimed midnight on January 1, 2000, nothing much happened. Some people theorize that </span><a href=\"https://education.nationalgeographic.org/resource/Y2K-bug\">nothing much would have happened even without the Y2K effort</a><span>, but </span><em>that’s the rub. Was Y2K a real systemic risk or a nothingburger? It’s hard to tell, because the victory (if there was one) was silent.</em> </p><p><span>The phenomenon of silent victories fuels naysayers who then argue against mitigating future problems. And </span><em>that’s</em><span> a real systemic risk. Take climate change deniers.</span></p><p><strong>Are there any of those still left?</strong></p><p><span>Yes, though as extreme climate events pile up, naysayers dwindle. But their pushback against climate change efforts has delayed mitigation by </span><em>decades</em><span>. We’re now at a stage where we </span><a href=\"https://www.youtube.com/watch?v=gU9hPfx12GA\">can no longer prevent some terrible effects of climate change</a><span>. It would have been far better to risk naysayers’ ridicule and dive in earlier and stronger.</span></p><p>Of course, climate change is a much more difficult problem than the Y2K bug. We can’t just re-code some date fields in software. It’s also a much larger problem than the Ebola outbreak was, since it’s happening in many places at once and there’s no single solution. </p><p>In order to have any hope of a successful climate mitigation effort, a few principles can serve as a guide: </p><ul><li><p><em><span>Human behavior isn’t generally helpful in mitigating </span><strong>global</strong><span> risks:</span></em><span> In an emergency, people act to preserve their own lives, health, well-being, jobs, and families. That’s understandable. But any assumption that people will collectively pare back spending, traveling, or earning on their own initiative is naive. They will not, unless governments offer massive </span><em>individual</em><span> incentives and—importantly—</span><a href=\"https://www.un.org/development/desa/dspd/2021/07/trust-public-institutions/\">find a way to regain people’s trust</a><span>.</span></p></li><li><p><em>People need to see results fast if they’re sacrificing:</em><span> During the Covid crisis, when lockdowns didn’t stop the virus, that damaged many people’s trust in mitigation efforts. It’s not entirely the fault of governments and public health departments—the virus </span><a href=\"https://www.bbc.com/news/health-57431420\">evolved over time</a><span> and eventually became </span><a href=\"https://www.globalasia.org/v17no1/cover/zero-covid-is-dead-long-live-zero-covid-chinas-pandemic-approach-put-to-the-test_yanzhong-huangsamantha-kiernan\">too contagious to contain</a><span>—but they do bear some blame in not taking more action at a time when the virus was less contagious and could have</span><span>been stopped, in January and February 2020. </span></p></li><li><p><em>Scientific and technical breakthroughs are our only hope:</em><span> This has often been the proposed or actual solution to large-scale crises. In the Y2K crisis, it was tedious correction of old computer code. In the Ebola outbreak, it was a new, never-before-tried vaccine. Similarly, with climate change, programs to develop ways to transport solar energy could help, if implemented at scale and with vigorous commitment and funding. (It would be </span><a href=\"https://blogs.ucl.ac.uk/energy/2015/05/21/fact-checking-elon-musks-blue-square-how-much-solar-to-power-the-us/\">fairly easy to produce the solar energy</a><span>; the challenges are reducing toxicity of manufacturing solar panels and batteries, increasing storage capacity, and figuring out transmission or transportation over long distances).</span></p></li><li><p><em>People need to get paid (very!) well for their work on the endeavor: </em><span>The COBOL programmers who came out of retirement to mitigate the Y2K bug did that because they were paid a lot of money! It’s true that, with Ebola, we got lucky. But relying on luck is a poor strategy. Instead, working on the big problems facing society </span><em>should</em><span> pay better than workers’ BATNA (best alternative to negotiated agreement, in management-speak). Jobs focused on mitigating climate change should be highly paid—even subsidized by government through tax incentives for companies and individuals—so compensation can compete with Silicon Valley software developer and engineer comp. Bright, innovative people need to choose this work and make excellent livings in order for it to be sustainable and eventually successful. </span></p></li></ul><p><strong>I’m catching some undertones of optimism here.</strong></p><p>Risk management, on some levels, requires a pessimistic valence: you spend your days wondering what could go wrong. But even more, it requires out-of-the-box optimism, because you spend even more of your days exploring how to mitigate potential problems—and pushing to change structures and strategies to make it happen. Lastly, it requires humility and perseverance, because while failure is obvious, success is often invisible or subtle. Disasters are often averted quietly. </p><p>And then the next day begins.</p><p>-&lt;&gt;-&lt;&gt;-&lt;&gt;-</p><p><strong>Extra, Extra!</strong></p><p>Three links from the depths of my bookmark archives; think of these as tangential extras for curious readers: </p><p><span>1. </span><a href=\"https://en-roads.climateinteractive.org/scenario.html?v=22.7.0\">En-ROADS Climate Simulator</a><span> - from MIT and Climate Interactive</span><em> - </em><span>play with the simulator and see for yourself the impact of changes in energy use on future global warming. We should have acted earlier, and we still need to act now.</span></p><p><span>2. </span><a href=\"https://www.usatoday.com/story/weather/2013/05/16/extreme-weather-north-america/2162501/\">USA has the world’s most extreme weather</a><span> - by Doyle Rice in </span><em>USA Today </em><span>- the US has about 80% of the world’s tornadoes!</span></p><p><span>3. </span><a href=\"https://www.curbed.com/2020/10/future-of-real-estate-nyc.html\">The panic attack of the power brokers</a><span> - by Andrew Rice in </span><em>Curbed</em><span> - commercial real estate’s dilemmas. The Financial District adjusted after September 11, 2001. Can midtown adjust in 2022?</span></p></div>",
+          "category": "",
+          "link": "https://riskmusings.substack.com/p/the-silence-of-risk-management-victory",
+          "creator": "",
+          "pubDate": "Sat, 20 Aug 2022 13:46:46 +0000",
+>>>>>>> parent of 033a70e (update)
           "enclosure": "",
           "enclosureType": "",
           "image": "",
@@ -295,6 +330,7 @@
           "favorite": false,
           "created": false,
           "tags": [],
+<<<<<<< HEAD
           "hash": "bf2b8c5751978d9cd2db85280581f6c2",
           "highlights": []
         },
@@ -306,6 +342,19 @@
           "link": "https://blog.mogery.me/rcs-is-stupid/",
           "creator": "",
           "pubDate": "Tue, 23 Aug 2022 10:02:37 +0000",
+=======
+          "hash": "00b960c6e3ed4bd6fea98912804752d3",
+          "highlights": []
+        },
+        {
+          "title": "AWS switch from gzip to zstd – about 30% reduction in compressed S3 storage",
+          "description": "<a href=\"https://news.ycombinator.com/item?id=32529412\">Comments</a>",
+          "content": "<a href=\"https://news.ycombinator.com/item?id=32529412\">Comments</a>",
+          "category": "",
+          "link": "https://twitter.com/adrianco/status/1560854827810361345",
+          "creator": "",
+          "pubDate": "Sat, 20 Aug 2022 05:34:41 +0000",
+>>>>>>> parent of 033a70e (update)
           "enclosure": "",
           "enclosureType": "",
           "image": "",
@@ -313,6 +362,7 @@
           "language": "",
           "folder": "informatique",
           "feed": "ycombinator",
+<<<<<<< HEAD
           "read": false,
           "favorite": false,
           "created": false,
@@ -406,6 +456,13 @@
           "created": false,
           "tags": [],
           "hash": "709626ae0bace19c533d676b58251789",
+=======
+          "read": true,
+          "favorite": false,
+          "created": false,
+          "tags": [],
+          "hash": "96769cadfa37c1e97dd34b401e07a98c",
+>>>>>>> parent of 033a70e (update)
           "highlights": []
         },
         {
@@ -862,6 +919,7 @@
       "description": "Franceinfo - France",
       "items": [
         {
+<<<<<<< HEAD
           "title": "Santé : le vaccin BCG protège bien au-delà de la tuberculose",
           "description": "Les vaccins ont aussi des effets secondaires… bénéfiques. Selon une étude, le vaccin BCG protège bien au-delà de la tuberculose.",
           "content": "Les vaccins ont aussi des effets secondaires… bénéfiques. Selon une étude, le vaccin BCG protège bien au-delà de la tuberculose.",
@@ -928,6 +986,8 @@
           "highlights": []
         },
         {
+=======
+>>>>>>> parent of 033a70e (update)
           "title": "Astronomie : observer les étoiles depuis l’observatoire du Pic du Midi",
           "description": "Le 13 Heures a posé ses caméras, vendredi 19 août, à l’observatoire du Pic du Midi, terrain de jeu exceptionnel pour les astronomes en herbe, et pour les scientifiques. C’est d’ailleurs pour financer la recherche que l’observatoire propose aux visiteurs d’y passer une nuit.",
           "content": "Le 13 Heures a posé ses caméras, vendredi 19 août, à l’observatoire du Pic du Midi, terrain de jeu exceptionnel pour les astronomes en herbe, et pour les scientifiques. C’est d’ailleurs pour financer la recherche que l’observatoire propose aux visiteurs d’y passer une nuit.",
@@ -947,28 +1007,6 @@
           "created": false,
           "tags": [],
           "hash": "bf367dded2fdc1f6dc44100bf03ec564",
-          "highlights": []
-        },
-        {
-          "title": "La théorie de l'eau arrivée sur Terre via des astéroïdes est renforcée par une étude japonaise",
-          "description": "Des chercheurs ont étudié des échantillons de l'astéroïde&nbsp;Ryugu, rapporté sur Terre en 2020 par la&nbsp;sonde japonaise Hayabusa-2.&nbsp;",
-          "content": "Des chercheurs ont étudié des échantillons de l'astéroïde&nbsp;Ryugu, rapporté sur Terre en 2020 par la&nbsp;sonde japonaise Hayabusa-2.&nbsp;",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/sciences/astronomie/la-theorie-de-l-eau-venue-sur-terre-via-des-asteroides-renforcee-par-une-etude-japonaise_5311084.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Fri, 19 Aug 2022 14:19:28 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761bdk57m-83ed/500/281/28660522.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761bdk57m-83ed/500/281/28660522.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "b655a2f8c3462896bed3d9ae7207e9c0",
           "highlights": []
         },
         {
@@ -994,28 +1032,6 @@
           "highlights": []
         },
         {
-          "title": "Espace : la fusée en direction de la Lune est arrivée sur son pas de tir",
-          "description": "Dans douze jours, les Américains lanceront leur nouvelle fusée depuis Cap Canaveral (Floride). Cette mission baptisée Artémis marquera le tout premier vol du grand programme spatial pour retourner sur la Lune.",
-          "content": "Dans douze jours, les Américains lanceront leur nouvelle fusée depuis Cap Canaveral (Floride). Cette mission baptisée Artémis marquera le tout premier vol du grand programme spatial pour retourner sur la Lune.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/sciences/espace/espace-la-fusee-en-direction-de-la-lune-est-arrivee-sur-son-pas-de-tir_5314078.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Thu, 18 Aug 2022 12:52:45 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761bd0gyx-600e/500/281/28680934.png",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761bd0gyx-600e/500/281/28680934.png",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "83a2cfc044ac435d0ac3e3494ca1215f",
-          "highlights": []
-        },
-        {
           "title": "Découverte : la tectonique des plaques a rendu la vie marine possible",
           "description": "Une équipe du&nbsp;Centre national de la recherche scientifique&nbsp;(CNRS) vient de découvrir que la biodiversité marine s’est accélérée grâce à une oxygénation de l’océan qui est venue du mouvement des continents.",
           "content": "Une équipe du&nbsp;Centre national de la recherche scientifique&nbsp;(CNRS) vient de découvrir que la biodiversité marine s’est accélérée grâce à une oxygénation de l’océan qui est venue du mouvement des continents.",
@@ -1035,28 +1051,6 @@
           "created": false,
           "tags": [],
           "hash": "a54977d8bf673943e1f569a8ce45f6fd",
-          "highlights": []
-        },
-        {
-          "title": "Hébergement insolite : des bulles ouvertes sur le ciel pour une nuit étoilée",
-          "description": "Le 13 Heures vous emmène dormir sous les étoiles cette semaine.&nbsp;Pour le premier épisode de cette série, lundi 15 août, cap sur&nbsp;Saint-André-sur Sèvre, dans les Deux-Sèvres, où il est possible de dormir dans une bulle pour admirer le ciel.",
-          "content": "Le 13 Heures vous emmène dormir sous les étoiles cette semaine.&nbsp;Pour le premier épisode de cette série, lundi 15 août, cap sur&nbsp;Saint-André-sur Sèvre, dans les Deux-Sèvres, où il est possible de dormir dans une bulle pour admirer le ciel.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/economie/emploi/metiers/restauration-hotellerie-sports-loisirs/hebergementinsolite-des-bulles-ouvertes-sur-le-ciel-pour-une-nuit-etoilee_5309878.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Mon, 15 Aug 2022 16:16:19 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761bb6twt-54ad/500/281/28652017.png",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761bb6twt-54ad/500/281/28652017.png",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "ad7737e761a3fb28e37570cb5b2f79e9",
           "highlights": []
         },
         {
@@ -1082,28 +1076,6 @@
           "highlights": []
         },
         {
-          "title": "Parmi les planètes du système solaire, laquelle tourne dans le sens inverse par rapport aux autres ?",
-          "description": "Tous les samedis et les dimanches de l'été, on révise avec nos enfants ! On&nbsp;ouvre donc ce nouveau \"Cahier de vacances\"&nbsp;qui nous fait voyager dans l'espace.",
-          "content": "Tous les samedis et les dimanches de l'été, on révise avec nos enfants ! On&nbsp;ouvre donc ce nouveau \"Cahier de vacances\"&nbsp;qui nous fait voyager dans l'espace.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/replay-radio/cahier-de-vacances/parmi-les-planetes-du-systeme-solaire-laquelle-tourne-dans-le-sens-inverse-par-rapport-aux-autres_5240995.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Sat, 13 Aug 2022 18:33:01 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/75wg21mnx-42a9/500/281/23165477.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/75wg21mnx-42a9/500/281/23165477.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "cac2fd070fcf1007dd107378ad32e1e4",
-          "highlights": []
-        },
-        {
           "title": "Les fourmis du désert ont un GPS intégré pour s'aider à se diriger",
           "description": "Tout les week-ends de l’été, le \"billet sciences\" part à la découverte des solutions apportées par le vivant pour nous aider à résoudre nos problèmes. C'est le principe du biomimétisme ou de la bioinspiration.&nbsp;Gros plan sur le GPS des fourmis, qui se passe de satellite pour fonctionner.&nbsp;",
           "content": "Tout les week-ends de l’été, le \"billet sciences\" part à la découverte des solutions apportées par le vivant pour nous aider à résoudre nos problèmes. C'est le principe du biomimétisme ou de la bioinspiration.&nbsp;Gros plan sur le GPS des fourmis, qui se passe de satellite pour fonctionner.&nbsp;",
@@ -1123,28 +1095,6 @@
           "created": false,
           "tags": [],
           "hash": "647c8f8ac0e1c5d3be6d725e17b40e53",
-          "highlights": []
-        },
-        {
-          "title": "Vacances à l'étranger : comprendre et parler la plupart des langues grace à son smartphone",
-          "description": "La Tech au service de vos vacances, c’est tout l’été avec Benjamin Vincent, le samedi et le dimanche. L’enjeu du jour : comprendre et se faire comprendre à l’étranger.",
-          "content": "La Tech au service de vos vacances, c’est tout l’été avec Benjamin Vincent, le samedi et le dimanche. L’enjeu du jour : comprendre et se faire comprendre à l’étranger.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/replay-radio/nouveau-monde/vacances-a-l-etranger-comprendre-et-parler-la-plupart-des-langues-grace-a-son-smartphone_5241238.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Sat, 13 Aug 2022 09:59:59 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761b8u70k-2728/500/281/28610302.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761b8u70k-2728/500/281/28610302.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "136a8b189d53b2ba2b104267b9af5d75",
           "highlights": []
         },
         {
@@ -1170,28 +1120,6 @@
           "highlights": []
         },
         {
-          "title": "Environnement : les lucioles préfèrent s’aimer dans le noir",
-          "description": "Les éclairages de nuit perturbent l’accouplement des insectes. On le pressentait mais des chercheurs viennent de le prouver avec des lucioles.",
-          "content": "Les éclairages de nuit perturbent l’accouplement des insectes. On le pressentait mais des chercheurs viennent de le prouver avec des lucioles.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/environnement-les-lucioles-preferent-saimer-dans-le-noir_5248189.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Fri, 12 Aug 2022 11:25:01 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761b9f7uo-a199/500/281/28620346.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761b9f7uo-a199/500/281/28620346.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "b0b651291f1a3323dc11d63f65c001e4",
-          "highlights": []
-        },
-        {
           "title": "Ils ont fait l'actu. L'astrophysicien Pierre Guillard raconte \"l'aventure incroyable\" du télescope James Webb, \"un rêve de gosse\"",
           "description": "Sandrine Etoa-Andegue&nbsp;revient sur les événements marquants de l'année. Et ce sont ceux qui les ont vécus qui les racontent. L’astrophysicien Pierre Guillard a participé à l'élaboration du télescope spatial James Webb, qui vient d'envoyer ses premières images.",
           "content": "Sandrine Etoa-Andegue&nbsp;revient sur les événements marquants de l'année. Et ce sont ceux qui les ont vécus qui les racontent. L’astrophysicien Pierre Guillard a participé à l'élaboration du télescope spatial James Webb, qui vient d'envoyer ses premières images.",
@@ -1211,28 +1139,6 @@
           "created": false,
           "tags": [],
           "hash": "5b492292f016fda838ef4b14aff3e01c",
-          "highlights": []
-        },
-        {
-          "title": "Wemet, une carte de visite connectée qui transmet vos coordonnées directement sur un smartphone",
-          "description": "Tout l'été dans C'est mon boulot, des idées de business originales, des créations d'entreprise qui répondent à l'air du temps. Jeudi 11 août, le portrait de Samuel Dassa, qui a créé Wemet, la carte de visite universelle.",
-          "content": "Tout l'été dans C'est mon boulot, des idées de business originales, des créations d'entreprise qui répondent à l'air du temps. Jeudi 11 août, le portrait de Samuel Dassa, qui a créé Wemet, la carte de visite universelle.",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/replay-radio/c-est-mon-boulot/wemet-une-carte-de-visite-connectee-qui-transmet-vos-coordonnees-directement-sur-un-smartphone_5280814.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Thu, 11 Aug 2022 10:47:34 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761b89gvb-8038/500/281/28601986.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761b89gvb-8038/500/281/28601986.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "11fc987883676a38bc1ac214331a286d",
           "highlights": []
         },
         {
@@ -1258,28 +1164,6 @@
           "highlights": []
         },
         {
-          "title": "Crise de Taïwan : vers une guerre des puces ?",
-          "description": "C’est un conflit qui en cache un autre, celui entre la Chine et Taïwan pour le contrôle du marché mondial des semi-conducteurs. Les tensions et les enjeux économiques sont tels, que certains redoutent une guerre des puces.&nbsp;",
-          "content": "C’est un conflit qui en cache un autre, celui entre la Chine et Taïwan pour le contrôle du marché mondial des semi-conducteurs. Les tensions et les enjeux économiques sont tels, que certains redoutent une guerre des puces.&nbsp;",
-          "category": "",
-          "link": "https://www.francetvinfo.fr/replay-radio/le-brief-eco/crise-de-taiwan-vers-une-guerre-des-puces_5230858.html#xtor=RSS-3-[sciences]",
-          "creator": "",
-          "pubDate": "Mon, 08 Aug 2022 08:29:12 +0200",
-          "enclosure": "https://www.francetvinfo.fr/image/761b71hlj-4774/500/281/28576822.jpg",
-          "enclosureType": "image/jpeg",
-          "image": "https://www.francetvinfo.fr/image/761b71hlj-4774/500/281/28576822.jpg",
-          "id": "",
-          "language": "",
-          "folder": "france info",
-          "feed": "France info science",
-          "read": false,
-          "favorite": false,
-          "created": false,
-          "tags": [],
-          "hash": "9076ca178054a669ae34447cc922bb9b",
-          "highlights": []
-        },
-        {
           "title": "EN IMAGES. Espace : on a comparé les clichés du télescope James Webb à ceux de son prédécesseur Hubble",
           "description": "Plus précises, plus détaillées, les images du nouveau télescope spatial James Webb&nbsp;révèlent&nbsp;des éléments jusqu'alors jamais observés.",
           "content": "Plus précises, plus détaillées, les images du nouveau télescope spatial James Webb&nbsp;révèlent&nbsp;des éléments jusqu'alors jamais observés.",
@@ -1294,11 +1178,40 @@
           "language": "",
           "folder": "france info",
           "feed": "France info science",
+<<<<<<< HEAD
           "read": false,
+=======
+          "read": true,
+>>>>>>> parent of 033a70e (update)
           "favorite": false,
           "created": false,
           "tags": [],
           "hash": "b65b2e1095b36683b6708d69d94593c9",
+<<<<<<< HEAD
+=======
+          "highlights": []
+        },
+        {
+          "title": "Espace : Curiosity fête ses 10 années passées sur Mars",
+          "description": "Cela fait 10 ans que le robot Curiosity a été envoyé sur Mars. La Nasa a prolongé sa mission jusqu'en 2025.",
+          "content": "Cela fait 10 ans que le robot Curiosity a été envoyé sur Mars. La Nasa a prolongé sa mission jusqu'en 2025.",
+          "category": "",
+          "link": "https://www.francetvinfo.fr/sciences/espace/espace-curiosity-fete-ses-10-annees-passees-sur-mars_5297782.html#xtor=RSS-3-[sciences]",
+          "creator": "",
+          "pubDate": "Sun, 07 Aug 2022 13:59:53 +0200",
+          "enclosure": "https://www.francetvinfo.fr/image/761b6etbv-e3c4/500/281/28572124.png",
+          "enclosureType": "image/jpeg",
+          "image": "https://www.francetvinfo.fr/image/761b6etbv-e3c4/500/281/28572124.png",
+          "id": "",
+          "language": "",
+          "folder": "france info",
+          "feed": "France info science",
+          "read": true,
+          "favorite": false,
+          "created": false,
+          "tags": [],
+          "hash": "fa819fbcb551eadea5983b404765a503",
+>>>>>>> parent of 033a70e (update)
           "highlights": []
         },
         {

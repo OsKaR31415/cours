@@ -4,64 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4eb26777d19b5b09",
+        "id": "30e331e672909f07",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-08-23.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "514e2b61342257e6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "daily/2022-08-23.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "fb9e84a845409b5d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "daily/2022-08-23.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1f0f86d323a31263",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "daily/2022-08-23.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "74aeed4652c5f0b4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "daily/2022-08-23.md",
+            "file": "obsidian workflow exercices.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -119,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2022-08-23.md",
+                "file": "obsidian workflow exercices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022-08-23.md",
+                "file": "obsidian workflow exercices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022-08-23.md"
+                "file": "obsidian workflow exercices.md"
               }
             }
           },
@@ -205,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "daily/2022-08-23.md",
+                "file": "obsidian workflow exercices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -348,12 +296,12 @@
     "width": 558.1000366210938,
     "collapsed": true
   },
-  "active": "1f0f86d323a31263",
+  "active": "30e331e672909f07",
   "lastOpenFiles": [
+    "daily/2022-08-23.md",
     "things to do.md",
     "espace vectoriel.md",
     "exercices espaces vectoriels 2022-08-22.md",
-    "daily/2022-08-23.md",
     "daily/2022-08-16.md",
     "daily/2022-08-20.md",
     "flashcards développements limités.md",
