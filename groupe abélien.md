@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-19
-sr-interval: 4
-sr-ease: 297
+sr-due: 2022-09-18
+sr-interval: 28
+sr-ease: 317
 ---
 
 up::[[groupe]]

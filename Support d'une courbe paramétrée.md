@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-18
-sr-interval: 3
-sr-ease: 262
+sr-due: 2022-09-13
+sr-interval: 23
+sr-ease: 282
 ---
 
 up::[[courbe paramétrée]]

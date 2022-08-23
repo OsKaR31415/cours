@@ -3,7 +3,7 @@ sr-due: 2023-03-18
 sr-interval: 224
 sr-ease: 313
 ---
-up::[[MOC analyse]]
+up::[[application]]
 #maths/analyse #review 
 # bijection
 

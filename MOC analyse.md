@@ -1,3 +1,6 @@
+---
+alias: "analyse"
+---
 #MOC #no-review #maths/analyse
 # MOC analyse
 L'analyse est l'étude des [[fonction|fonctions]]
@@ -12,7 +15,7 @@ Voir **[[MOC fonctions]]**
 >    or contains(up.up,       [[MOC analyse]])
 >    or contains(up.up.up,    [[MOC analyse]])
 >    or contains(up.up.up.up, [[MOC analyse]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
 ## Propriétés des [[fonction|fonctions]]
@@ -68,7 +71,7 @@ Voir **[[MOC fonctions]]**
 >    or contains(up.up,       [[équation différentielle]])
 >    or contains(up.up.up,    [[équation différentielle]])
 >    or contains(up.up.up.up, [[équation différentielle]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[équation différentielle]]

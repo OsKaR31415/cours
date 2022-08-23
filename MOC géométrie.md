@@ -10,5 +10,6 @@
 >    or contains(up.up,       [[MOC géométrie]])
 >    or contains(up.up.up,    [[MOC géométrie]])
 >    or contains(up.up.up.up, [[MOC géométrie]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```

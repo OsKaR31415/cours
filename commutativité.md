@@ -3,7 +3,7 @@ sr-due: 2023-04-01
 sr-interval: 238
 sr-ease: 333
 ---
-up::[[MOC algèbre]]
+up::[[structure algébrique]]
 #maths/algèbre #review 
 # commutativité
 Soit $*$ une [[loi de composition interne]] sur $E$.

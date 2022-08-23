@@ -1,11 +1,11 @@
 ---
-sr-due: 2022-08-18
-sr-interval: 3
+sr-due: 2022-09-01
+sr-interval: 11
 sr-ease: 255
 ---
 
 up::[[équation différentielle]]
-#maths/analyse #review 
+#maths/algèbre #review 
 # équation différentielle du second ordre
 [[équation différentielle]] dans laquelle seule les [[dérivées successives|dérivée première et seconde]] apparaîssent
 

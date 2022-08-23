@@ -2,8 +2,8 @@
 up: [[asymptote]]
 tags: [maths/analyse, review]
 mindmap-plugin: basic
-sr-due: 2022-08-18
-sr-interval: 3
+sr-due: 2022-09-04
+sr-interval: 14
 sr-ease: 261
 ---
 

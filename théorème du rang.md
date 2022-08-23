@@ -1,4 +1,4 @@
-up::[[espace vectoriel]], [[MOC algèbre]]
+up::[[espace vectoriel]]
 #maths/algèbre #review 
 # théorème du rang
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] de [[dimension d'un espace vectoriel|dimension]] finie,

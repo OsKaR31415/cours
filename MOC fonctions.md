@@ -6,13 +6,14 @@ up::[[MOC analyse]]
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
+> FROM -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[fonction]])
 >    or contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
 >    or contains(up.up.up,    [[fonction]])
 >    or contains(up.up.up.up, [[fonction]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
 ## Fonctions particulières
@@ -26,7 +27,7 @@ up::[[MOC analyse]]
 > [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
 > ```dataview
 > TABLE up, up.up, sibling
-> FROM ""
+> FROM -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[MOC fonctions]])
 >    or contains(up,          [[MOC fonctions]])
 >    or contains(up.up,       [[MOC fonctions]])
@@ -37,7 +38,7 @@ up::[[MOC analyse]]
 >    or contains(up.up,       [[MOC trigonométrie]])
 >    or contains(up.up.up,    [[MOC trigonométrie]])
 >    or contains(up.up.up.up, [[MOC trigonométrie]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
 

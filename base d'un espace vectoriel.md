@@ -1,8 +1,8 @@
 ---
 alias: "base"
-sr-due: 2022-08-18
-sr-interval: 3
-sr-ease: 257
+sr-due: 2022-09-14
+sr-interval: 24
+sr-ease: 277
 ---
 up::[[espace vectoriel]]
 #maths/algèbre #review 
@@ -11,6 +11,10 @@ Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une 
 La famille $\{u_1,\ldots,u_k\}$ est une _base_ lorsqu'elle est simultanément [[famille de vecteurs génératrice|génératrice]] et [[famille de vecteurs libre|libre]].
 
 ## Propriétés
+Soit $E$ un espace vectoriel
+Soit $B$ une base de $E$
+ - $\card G = \dim E$
+
 Si une famille $\{u_1,\ldots,u_k\}$ est _base_ d'un [[espace vectoriel]] $(E,+,\cdot)$,
 tout vecteur de $E$ se décompose de façon **unique** sous la forme $u = \lambda_1u_1+\cdots+\lambda_ku_k$
 c'est-à-dire comme une [[combinaison linéaire]] des vecteurs de cette base.

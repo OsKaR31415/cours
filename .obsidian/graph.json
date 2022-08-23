@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-path:(\"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw -path:templates",
+  "collapse-filter": false,
+  "search": "-tag:#exercice -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -109,6 +109,6 @@
   "repelStrength": 11.8874744617319,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.4035379455341124,
-  "close": false
+  "scale": 0.30382289475299923,
+  "close": true
 }

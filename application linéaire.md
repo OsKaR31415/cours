@@ -1,21 +1,27 @@
 ---
-sr-due: 2022-08-19
-sr-interval: 4
+sr-due: 2022-09-05
+sr-interval: 15
 sr-ease: 286
 ---
+down:: [[down of application linéaire]]
 
-up::[[MOC algèbre]]
+sibling:: [[sibling of application linéaire]]
+
+up::[[application]]
+sibling::[[combinaison linéaire]]
 #maths/algèbre #review
 # application linéaire
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,
 $f: E \mapsto F$ est _linéaire_ ssi :
-$\forall(u,v)\in E^2, \forall\lambda\in\R,\;\;\; f(u+v) = f(u) + f(v) \;\;\wedge\;\; f(\lambda u) = \lambda f(u)$
+$\forall(u,v)\in E^{2}, \forall\lambda\in\R,\;\;\; f(u+v) = f(u) + f(v) \;\;\wedge\;\; f(\lambda u) = \lambda f(u)$
 
 
-## Autre définition
+## Autres définitions
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,
 Une application $f: E \mapsto F$ est _linéaire_ ssi :
-$\forall (u, v)\in E^2, \forall\lambda\in\R, f(\lambda u + v) = \lambda f(u) + f(v)$
+$\forall (u, v)\in E^{2}, \forall\lambda\in\R, \quad f(\lambda u + v) = \lambda f(u) + f(v)$
+
+Une [[application]] $f$ est _linéaire_ ssi ses [[composition de fonctions|composées]] à gauche et à droite avec toute [[combinaison linéaire]] sont égales, soit si appliquer $f$ avant ou après une [[combinaison linéaire]]  des vecteurs donne le même résultat
 
 
 ## Exemples

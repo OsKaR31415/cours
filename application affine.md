@@ -1,4 +1,4 @@
-up::[[MOC algèbre]]
+up::[[application]]
 #maths/algèbre #no-review 
 # application affine
 Soient $E$ et $E'$ deux [[espace affine|espaces affines]] d'[[espace vectoriel|espaces vectoriels]] associés $\vec{E}$ et $\vec{E}'$

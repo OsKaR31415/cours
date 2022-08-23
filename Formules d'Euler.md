@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-19
-sr-interval: 4
-sr-ease: 282
+sr-due: 2022-09-17
+sr-interval: 27
+sr-ease: 302
 ---
 
 up::[[MOC trigonométrie]]

@@ -1,9 +1,10 @@
 ---
+alias: "loi"
 sr-due: 2023-08-06
 sr-interval: 365
 sr-ease: 359
 ---
-up::[[MOC algèbre]]
+up::[[opérateur binaire]]
 #maths/algèbre #review 
 # loi de composition
 Soient $E$ et $F$ deux ensembles (non vides)

@@ -314,17 +314,35 @@
       },
       "active": "e386eb1f38ae4f29"
     },
-    "main": {
+    "maths": {
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
         "children": [
           {
-            "id": "eac9b4b4ffe6fca1",
+            "id": "de0ecf112fef6487",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022-08-29.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bf203aee771073c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exercices espaces vectoriels 2022-08-22.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -339,7 +357,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "407c81c708328992",
+                "id": "84b1f06f81d5c515",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
@@ -378,7 +396,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "exercices espaces vectoriels 2022-08-22.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -390,7 +408,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "exercices espaces vectoriels 2022-08-22.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -405,7 +423,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 217.00238800048828
+        "width": 359,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -414,7 +433,6 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 66.61585365853658,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -422,7 +440,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "things to do.md"
+                    "file": "exercices espaces vectoriels 2022-08-22.md"
                   }
                 }
               },
@@ -435,12 +453,36 @@
                 }
               },
               {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf6c068c22a39e9f",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "609ff408cfbae38d",
+                "type": "leaf",
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
+              },
+              {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "exercices espaces vectoriels 2022-08-22.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -534,59 +576,34 @@
                       "repelStrength": 15.6584243818286,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.7746356178080479,
+                      "scale": 0.5992016463322635,
                       "close": true
                     }
                   }
                 }
               },
               {
-                "id": "bae8ca5650bdd5bf",
+                "id": "6d9ce680b04d5e2a",
                 "type": "leaf",
                 "state": {
-                  "type": "calendar",
+                  "type": "BC-matrix",
                   "state": {}
                 }
               },
               {
-                "id": "31b1c63a457b6e3d",
+                "id": "28d0934a6d784199",
                 "type": "leaf",
                 "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "f07402fbd5d7e112",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {}
-                }
-              },
-              {
-                "id": "e4bf5b37e05db4b8",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {}
-                }
-              },
-              {
-                "id": "609ff408cfbae38d",
-                "type": "leaf",
-                "state": {
-                  "type": "RSS_FEED",
+                  "type": "BC-tree",
                   "state": {}
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 33.38414634146341,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -605,10 +622,319 @@
           }
         ],
         "direction": "horizontal",
-        "width": 359.5,
+        "width": 357.5
+      },
+      "active": "6bf203aee771073c"
+    },
+    "main": {
+      "main": {
+        "id": "239f495bbbd2d5df",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8198d0fbab9a56f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC MOCs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55b16c9e022b5378",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "excalibrain.md"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "64de298669508ee4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a3e04033addcedcd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "84b1f06f81d5c515",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "390d098cee0c9651",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#CV",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ccd1190664578ee9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c7afda8b81d643de",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "MOC MOCs.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e855affa02bb755e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "MOC MOCs.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 359,
         "collapsed": true
       },
-      "active": "eac9b4b4ffe6fca1"
+      "right": {
+        "id": "1102f19b896c7a16",
+        "type": "split",
+        "children": [
+          {
+            "id": "980f845ab893296e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f0a6b2e995376e5",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "MOC MOCs.md"
+                  }
+                }
+              },
+              {
+                "id": "d45511af0bde9bcf",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf6c068c22a39e9f",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "609ff408cfbae38d",
+                "type": "leaf",
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
+              },
+              {
+                "id": "32d6a52d872d783d",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "MOC MOCs.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#todo",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16711680
+                          }
+                        },
+                        {
+                          "query": "tag:#not-done",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2829614
+                          }
+                        },
+                        {
+                          "query": "tag:#MOC",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6356992
+                          }
+                        },
+                        {
+                          "query": "tag:#flashcards",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16427551
+                          }
+                        },
+                        {
+                          "query": "tag:#maths",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2520842
+                          }
+                        },
+                        {
+                          "query": "tag:#logique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2902193
+                          }
+                        },
+                        {
+                          "query": "tag:#informatique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 32882
+                          }
+                        },
+                        {
+                          "query": "tag:#personne",
+                          "color": {
+                            "a": 1,
+                            "rgb": 10710150
+                          }
+                        },
+                        {
+                          "query": "path:annotation",
+                          "color": {
+                            "a": 1,
+                            "rgb": 12844865
+                          }
+                        },
+                        {
+                          "query": "tag:#PKM OR tag:#obsidian",
+                          "color": {
+                            "a": 1,
+                            "rgb": 4667545
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 2.66151355284701,
+                      "collapse-forces": true,
+                      "centerStrength": 0.791642706536324,
+                      "repelStrength": 15.6584243818286,
+                      "linkStrength": 1,
+                      "linkDistance": 30,
+                      "scale": 0.5992016463322635,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "6d9ce680b04d5e2a",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "28d0934a6d784199",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 6
+          },
+          {
+            "id": "9b0b445260de35cb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cb9c41a428bebf8c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "things to do.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 558.1000366210938,
+        "collapsed": true
+      },
+      "active": "f8198d0fbab9a56f"
     }
   },
   "active": "main"

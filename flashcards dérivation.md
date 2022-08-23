@@ -5,9 +5,9 @@
 [[dérivation|dérivée]] de $\sin x$ :: $\cos x$
 <!--SR:!2022-11-19,107,272-->
 [[dérivation|dérivée]] de $\cos x$ :: $-\sin x$
-<!--SR:!2022-08-22,55,310-->
+<!--SR:!2023-04-20,240,330-->
 [[dérivation|dérivée]] de $\tan x$ :: $1 + \tan^2 x$
-<!--SR:!2022-08-20,53,292-->
+<!--SR:!2022-08-31,8,272-->
 [[dérivation|dérivée]] de $\tan(x)$ en fonction de $\cos$ :: $\dfrac{1}{\cos^{2}(x)}$
 <!--SR:!2022-09-03,47,260-->
 [[dérivation|dérivée]] de $\arcsin x$ :: $\dfrac1{\sqrt{1-x^2}}$
@@ -20,7 +20,7 @@
 [[dérivation|dérivée]] de $\ln u$ :: $\dfrac{u'}u$
 <!--SR:!2022-09-12,72,312-->
 [[dérivation|dérivée]] de $\ln |u|$ :: $\dfrac{u'}u$
-<!--SR:!2022-08-19,52,292-->
+<!--SR:!2023-01-28,158,292-->
 [[dérivation|dérivée]] de $g\circ f$ :: $f'\times g'\circ f$
 <!--SR:!2022-09-07,51,232-->
 [[dérivation|dérivée]] de $f^{-1}$ :: $\dfrac1{f'\circ f^{-1}}$
@@ -44,11 +44,11 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 ## Intégration
 
 [[intégration|primitive]] de $\ln x$ :: $x\ln(x) - x + \text{cste.}$
-<!--SR:!2022-08-20,8,227-->
+<!--SR:!2022-09-16,24,227-->
 [[intégration|primitive]] de $\tan x$ :: $-\ln(|\cos x|) + \text{cste.}$ 
 <!--SR:!2022-08-30,12,207-->
 [[intégration|primitive]] de $\dfrac{1}{1-x^{2}}$ :: $\arg\th$
-<!--SR:!2022-08-20,4,223-->
+<!--SR:!2022-09-04,12,223-->
 
 
 Formule de l'[[intégration par parties]]

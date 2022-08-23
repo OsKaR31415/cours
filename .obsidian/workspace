@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1b19249f3db63bee",
+        "id": "4eb26777d19b5b09",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-08-21.md",
+            "file": "daily/2022-08-23.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +17,51 @@
         }
       },
       {
-        "id": "8195c1fad51ebe7e",
+        "id": "514e2b61342257e6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tags to add - notes to organize.md",
+            "file": "daily/2022-08-23.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fb9e84a845409b5d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-08-23.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1f0f86d323a31263",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-08-23.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "74aeed4652c5f0b4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-08-23.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -80,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "daily/2022-08-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "daily/2022-08-23.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.00238800048828,
+    "width": 359,
     "collapsed": true
   },
   "right": {
@@ -117,7 +156,6 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 66.61585365853658,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -125,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tags to add - notes to organize.md"
+                "file": "daily/2022-08-23.md"
               }
             }
           },
@@ -138,12 +176,36 @@
             }
           },
           {
+            "id": "bae8ca5650bdd5bf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf6c068c22a39e9f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tags to add - notes to organize.md",
+                "file": "daily/2022-08-23.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -237,59 +299,34 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.2348164598882903,
+                  "scale": 0.5992016463322635,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "bae8ca5650bdd5bf",
+            "id": "6d9ce680b04d5e2a",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "BC-matrix",
               "state": {}
             }
           },
           {
-            "id": "f07402fbd5d7e112",
+            "id": "28d0934a6d784199",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "e4bf5b37e05db4b8",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "609ff408cfbae38d",
-            "type": "leaf",
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
-            "id": "bf6c068c22a39e9f",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
+              "type": "BC-tree",
               "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 33.38414634146341,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -308,19 +345,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 558.1000366210938,
+    "collapsed": true
   },
-  "active": "bf6c068c22a39e9f",
+  "active": "1f0f86d323a31263",
   "lastOpenFiles": [
-    "daily/2022-08-21.md",
-    "tags to add - notes to organize.md",
-    "Présentation jeu de la vie discord.md",
-    "somme des carrés.md",
-    "somme des cubes.md",
-    "flashcards dérivation.md",
-    "carré d'une somme.md",
-    "actions.excalidraw.md",
     "things to do.md",
-    "maths.excalidraw.md"
+    "espace vectoriel.md",
+    "exercices espaces vectoriels 2022-08-22.md",
+    "daily/2022-08-23.md",
+    "daily/2022-08-16.md",
+    "daily/2022-08-20.md",
+    "flashcards développements limités.md",
+    "daily/2022-08-15.md",
+    "sources/annotations/livre analyse exo7.md",
+    "todo.md"
   ]
 }

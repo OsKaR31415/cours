@@ -9,7 +9,8 @@
     "query_header_title",
     "fira_code",
     "custom-admonitions.e298c0",
-    "custom_callouts"
+    "custom_callouts",
+    "breadcrumbs"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",

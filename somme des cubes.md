@@ -1,4 +1,4 @@
-up::[[MOC calculus]]
+up::[[MOC calculus|calculus]]
 #maths #review 
 # somme des cubes
 

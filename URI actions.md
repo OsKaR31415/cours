@@ -1,5 +1,5 @@
 #obsidian #PKM 
-up::[[obsidian workflow]]
+up::[[obsidian workflow]], [[obsidian plugin advanced URI]]
 # URI actions
 
 Using the [[obsidian plugin advanced URI]]

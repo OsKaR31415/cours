@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-18
-sr-interval: 3
-sr-ease: 257
+sr-due: 2022-09-12
+sr-interval: 22
+sr-ease: 277
 alias: "équivalente"
 ---
 up::[[fonction]]

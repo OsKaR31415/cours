@@ -9,7 +9,6 @@
   "obsidian-completr",
   "obsidian-enhancing-mindmap",
   "obsidian-kanban",
-  "sliding-panes-obsidian",
   "obsidian-annotator",
   "calendar",
   "drawio-obsidian",
@@ -39,5 +38,8 @@
   "obsidian-query-language",
   "rss-reader",
   "obsidian-advanced-uri",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "breadcrumbs",
+  "excalibrain",
+  "sliding-panes-obsidian"
 ]

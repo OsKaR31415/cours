@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-19
-sr-interval: 4
-sr-ease: 272
+sr-due: 2022-09-13
+sr-interval: 23
+sr-ease: 292
 ---
 up::[[dérivation]]
 #maths/analyse #review 

@@ -1,3 +1,6 @@
+---
+alias: "algèbre"
+---
 #MOC #maths/algèbre 
 # MOC algèbre
 
@@ -10,21 +13,22 @@
 >    or contains(up.up,       [[MOC algèbre]])
 >    or contains(up.up.up,    [[MOC algèbre]])
 >    or contains(up.up.up.up, [[MOC algèbre]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
 ## Structures algébriques
 
-> [!query]- Sous-notes de [[groupe]]
+> [!query]- Sous-notes de [[structure algébrique]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw
-> WHERE contains(file.outlinks, [[groupe]])
->    or contains(up,          [[groupe]])
->    or contains(up.up,       [[groupe]])
->    or contains(up.up.up,    [[groupe]])
->    or contains(up.up.up.up, [[groupe]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> FROM -#excalidraw AND -#MOC
+> WHERE contains(file.outlinks, [[structure algébrique]])
+>    or contains(up,          [[structure algébrique]])
+>    or contains(up.up,       [[structure algébrique]])
+>    or contains(up.up.up,    [[structure algébrique]])
+>    or contains(up.up.up.up, [[structure algébrique]])
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[groupe]]
@@ -57,7 +61,7 @@
 >    or contains(up.up,       [[application linéaire]])
 >    or contains(up.up.up,    [[application linéaire]])
 >    or contains(up.up.up.up, [[application linéaire]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[application linéaire]]
@@ -81,7 +85,7 @@
 >    or contains(up.up,       [[matrice]])
 >    or contains(up.up.up,    [[matrice]])
 >    or contains(up.up.up.up, [[matrice]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[matrice]]
@@ -111,7 +115,7 @@
 >    or contains(up.up,       [[espace vectoriel]])
 >    or contains(up.up.up,    [[espace vectoriel]])
 >    or contains(up.up.up.up, [[espace vectoriel]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
  - [[espace vectoriel]]

@@ -1,8 +1,8 @@
 ---
 alias: "surjective"
-sr-due: 2022-08-19
-sr-interval: 4
-sr-ease: 299
+sr-due: 2022-09-16
+sr-interval: 26
+sr-ease: 319
 ---
 up::[[application]]
 #maths/analyse #review 

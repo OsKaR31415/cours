@@ -1,4 +1,4 @@
-up::[[MOC algèbre]]
+up::[[structure algébrique]]
 #maths/algèbre #no-review 
 # éléments symétrisables
 Soit $E$ in ensemble muni d'une [[loi de composition interne]] $*$, et contenant un [[élément neutre|élément neutre]] $e$.
