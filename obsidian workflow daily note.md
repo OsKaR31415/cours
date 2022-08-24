@@ -7,3 +7,4 @@ Les Daily notes servent à :
      - noter ce qui à déjà été fait
  - noter ce que j'ai fait dans la journée
 
+![[Excalidraw/workflow.excalidraw.md#^group=aTfa8vNB|800]]

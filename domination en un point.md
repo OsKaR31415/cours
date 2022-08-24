@@ -1,7 +1,7 @@
 ---
 alias: "domine"
-sr-due: 2022-08-20
-sr-interval: 4
+sr-due: 2022-09-07
+sr-interval: 15
 sr-ease: 270
 ---
 up::[[fonction]]

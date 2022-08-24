@@ -14,7 +14,7 @@
     "downscalePercent": 42
   },
   "defaultViewMode": "source",
-  "autoPairMarkdown": true,
+  "autoPairMarkdown": false,
   "promptDelete": false,
   "showFrontmatter": false,
   "rightToLeft": false,

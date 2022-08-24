@@ -5,8 +5,8 @@
   "leafAutoWidth": true,
   "disabled": false,
   "rotateHeaders": false,
-  "headerAlt": false,
+  "headerAlt": true,
   "orienation": "mixed",
   "stackingEnabled": false,
-  "smoothAnimation": true
+  "smoothAnimation": false
 }

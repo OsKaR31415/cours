@@ -1,11 +1,11 @@
 ---
 alias: "négligeable"
-sr-due: 2022-08-19
-sr-interval: 3
-sr-ease: 252
+sr-due: 2022-09-20
+sr-interval: 28
+sr-ease: 272
 ---
 up::[[fonction]]
-sibling::[[fonctions équivalentes]]
+sibling::[[domination en un point]]
 #maths/analyse #review 
 # négligabilité
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_, et on note $f=_{x_{0}}o(g)$ :

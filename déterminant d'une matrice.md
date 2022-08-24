@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-08-20
-sr-interval: 4
-sr-ease: 271
+sr-due: 2022-09-21
+sr-interval: 29
+sr-ease: 291
 ---
 
 up::[[matrice]]
@@ -30,7 +30,8 @@ $$\begin{align}
 &= a_{11}a_{22}a_{33} + a_{12}a_{23}a_{34} + a_{13}a_{21}a_{32} - a_{31}a_{22}a_{13} - a_{32}a_{23}a_{11} - a_{33}a_{21}a_{12} 
 \end{align}$$
 On peut retrouver les coefficients avec le shéma suivant :
-![[déterminant d'une matrice - méthode de Sarrus.excalidraw|1500]]
+
+![[déterminant d'une matrice - méthode de Sarrus.excalidraw|100%]]
 
 
 #### Méthode générale

@@ -2,6 +2,9 @@ up::[[obsidian workflow]]
 #obsidian #PKM
 # obsidian workflow MOCs
 How I create my [[Map of content|Maps Of Content]]
+
+![[Excalidraw/workflow.excalidraw.md#^group=UgEZXQeVDw70s33lGGBBp|100%]]
+
 ## Textual MOCs
  - For **small** MOCs
      - Simply use The dataview query

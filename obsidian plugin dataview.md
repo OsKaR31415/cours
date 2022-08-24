@@ -3,9 +3,13 @@ up::[[obsidian plugins]]
 # obsidian plugin dataview
 
 
+Annotations :
 ```dataview
-TABLE file
-FROM #dataview-test
+TABLE 
+FROM ""
+WHERE annotation-target
 ```
 
-[[dataview test 1]]
+
+
+link to [[dataview test 1]]

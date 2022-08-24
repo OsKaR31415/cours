@@ -1,3 +1,6 @@
+---
+alias: "cycle"
+---
 up::[[permutation]]
 #maths/algèbre #review 
 # p-cycle

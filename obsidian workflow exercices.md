@@ -3,6 +3,8 @@ up::[[obsidian workflow]]
 # obsidian workflow exercices
 Pour les exercices faits sur obsidian
 
+![[Excalidraw/workflow.excalidraw.md#^group=xtPo1W30o9e5a0jUcd5qC|1000]]
+
 > [!important]
 >  - on utilise le tag #exercice pour désigner un exercice
 >  - le titre contient la date (pour rendre les exercices uniques)

@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.14.0",
+  "settings_version": "0.15.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -15,7 +15,7 @@
   "enable_events": true,
   "approve_modals_by_pressing_enter_key": true,
   "max_visible_lines_in_shell_command_fields": false,
-  "shell_commands": {},
+  "shell_commands": [],
   "prompts": [],
   "custom_variables": []
 }

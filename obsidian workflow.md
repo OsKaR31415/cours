@@ -14,4 +14,3 @@ up::[[obsidian]]
 > WHERE file.name != this.file.name
 > SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
 > ```
-

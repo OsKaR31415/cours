@@ -4,7 +4,7 @@ sr-due: 2022-09-12
 sr-interval: 22
 sr-ease: 276
 ---
-up::[[espace vectoriel]]
+up::[[famille de vecteurs]]
 #maths/algèbre #review 
 # famille de vecteurs libre
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$

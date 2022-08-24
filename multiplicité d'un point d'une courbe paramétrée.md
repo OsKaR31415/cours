@@ -1,8 +1,8 @@
 ---
 alias: "multiplicité"
-sr-due: 2022-08-20
-sr-interval: 4
-sr-ease: 288
+sr-due: 2022-09-22
+sr-interval: 30
+sr-ease: 308
 ---
 up::[[courbe paramétrée]]
 #maths/analyse #review 

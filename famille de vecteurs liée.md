@@ -1,4 +1,4 @@
-up::[[espace vectoriel]]
+up::[[famille de vecteurs]]
 #maths/algèbre #review 
 # famille de vecteurs liée
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$

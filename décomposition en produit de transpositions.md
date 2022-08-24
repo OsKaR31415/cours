@@ -1,4 +1,4 @@
-up::[[permutation]]
+up::[[transposition]]
 #maths/algèbre #review 
 # décomposition en produit de transpositions
 Soit $\sigma$ une [[permutation]]

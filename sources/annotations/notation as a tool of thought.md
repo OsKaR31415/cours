@@ -1,7 +1,6 @@
 ---
 annotation-target: notation as a tool of thought.pdf
 ---
-#annotation 
 # notation as a tool of thought
 
 
