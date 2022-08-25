@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6d28a64e4021b480",
+        "id": "95ce988283184893",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-08-29.md",
+            "file": "daily/2022-08-25.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "3f64de3ede5ac4ee",
+        "id": "e928f925f8fa8c72",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "exercices espaces vectoriels 2022-08-24.md",
+            "file": "le début de la sagesse (Dune).md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exercices espaces vectoriels 2022-08-24.md",
+                "file": "le début de la sagesse (Dune).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exercices espaces vectoriels 2022-08-24.md",
+                "file": "le début de la sagesse (Dune).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exercices espaces vectoriels 2022-08-24.md"
+                "file": "le début de la sagesse (Dune).md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "exercices espaces vectoriels 2022-08-24.md",
+                "file": "le début de la sagesse (Dune).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -306,20 +306,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
+    "width": 558.1000366210938,
     "collapsed": true
   },
-  "active": "3f64de3ede5ac4ee",
+  "active": "e928f925f8fa8c72",
   "lastOpenFiles": [
-    "daily/2022-08-29.md",
+    "ENCODE framework.md",
+    "le début de la sagesse (Dune).md",
+    "actions.excalidraw.md",
     "daily/2022-08-25.md",
+    "Untitled.md",
+    "exercices espaces vectoriels 2022-08-24.md",
+    "daily/2022-08-29.md",
     "Excalidraw/workflow.excalidraw.md",
     "things to do.md",
-    "templates/daily note.md",
-    "daily/2022-08-30.md",
-    "daily/2022-08-31.md",
-    "foo devoir.md",
-    "Excalidraw/visualisation de la multiplication de matrices.excalidraw.md",
-    "obsidian plugin tasks.md"
+    "templates/daily note.md"
   ]
 }
