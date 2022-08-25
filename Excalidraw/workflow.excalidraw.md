@@ -1618,8 +1618,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "text",
-			"version": 674,
-			"versionNonce": 821493157,
+			"version": 675,
+			"versionNonce": 898601125,
 			"isDeleted": false,
 			"id": "UB9Q0esM",
 			"fillStyle": "hachure",
@@ -1641,7 +1641,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1661380977202,
+			"updated": 1661445353492,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1694,8 +1694,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 554,
-			"versionNonce": 1458700549,
+			"version": 556,
+			"versionNonce": 2083616491,
 			"isDeleted": false,
 			"id": "Z3jKYqVcAK6PEX58ocq5c",
 			"fillStyle": "hachure",
@@ -1716,7 +1716,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977202,
+			"updated": 1661445353491,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1745,8 +1745,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 465,
-			"versionNonce": 1240350155,
+			"version": 467,
+			"versionNonce": 542728587,
 			"isDeleted": false,
 			"id": "X5DGc86JHAYXkhbdSaGl1",
 			"fillStyle": "hachure",
@@ -1767,7 +1767,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977202,
+			"updated": 1661445353491,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4961,8 +4961,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "line",
-			"version": 892,
-			"versionNonce": 358961611,
+			"version": 1006,
+			"versionNonce": 639202949,
 			"isDeleted": false,
 			"id": "GkSfzZjywnoRjNaR9-nHQ",
 			"fillStyle": "hachure",
@@ -4975,13 +4975,13 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			"y": 137.5297895878482,
 			"strokeColor": "#5c940d",
 			"backgroundColor": "transparent",
-			"width": 761.8701171874999,
+			"width": 788.1026372131392,
 			"height": 536.8844604492185,
 			"seed": 157679723,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977202,
+			"updated": 1661445456200,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5003,16 +5003,16 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 					-203.08013916015614
 				],
 				[
-					-543.3339233398436,
-					-212.79022216796864
+					-556.5930039776032,
+					-192.1201826312397
 				],
 				[
-					-580.3463134765624,
-					-264.03656005859364
+					-606.5788335022017,
+					-256.03740656721516
 				],
 				[
-					-534.7277832031249,
-					-339.81735229492176
+					-555.0393396421031,
+					-353.72621683887553
 				],
 				[
 					-213.74017333984375,
@@ -5038,8 +5038,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "line",
-			"version": 1135,
-			"versionNonce": 1537852517,
+			"version": 1201,
+			"versionNonce": 1904809125,
 			"isDeleted": false,
 			"id": "GOhYOBWPq8qIpWnmuAwKB",
 			"fillStyle": "hachure",
@@ -5053,12 +5053,12 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			"strokeColor": "#5c940d",
 			"backgroundColor": "transparent",
 			"width": 853.4585171940278,
-			"height": 567.0798411221439,
+			"height": 585.901402248814,
 			"seed": 1951380555,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445464458,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5096,12 +5096,12 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 					-204.6155076080904
 				],
 				[
-					-295.2547438022374,
-					23.00430440362834
+					-303.47794922971013,
+					32.91359220189281
 				],
 				[
-					-139.3149390358759,
-					57.12574206937495
+					-151.38098472833474,
+					75.94730319604503
 				],
 				[
 					0,
@@ -5111,8 +5111,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "line",
-			"version": 1233,
-			"versionNonce": 1611587691,
+			"version": 1234,
+			"versionNonce": 19527371,
 			"isDeleted": false,
 			"id": "ztsgyRGJqTwQdumghf7p6",
 			"fillStyle": "hachure",
@@ -5121,8 +5121,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": -875.7343153795653,
-			"y": 291.95391826073063,
+			"x": -876.1152369624463,
+			"y": 292.3292468680897,
 			"strokeColor": "#5c940d",
 			"backgroundColor": "transparent",
 			"width": 1522.8522685204152,
@@ -5131,7 +5131,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445468411,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5868,8 +5868,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "text",
-			"version": 1365,
-			"versionNonce": 246838437,
+			"version": 1366,
+			"versionNonce": 16790533,
 			"isDeleted": false,
 			"id": "GpInxUC8",
 			"fillStyle": "hachure",
@@ -5891,7 +5891,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445353492,
 			"link": null,
 			"locked": false,
 			"fontSize": 16.007962434009322,
@@ -5906,8 +5906,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 834,
-			"versionNonce": 898913323,
+			"version": 835,
+			"versionNonce": 1500182571,
 			"isDeleted": false,
 			"id": "XNV_KH4m8IyZ4AVZGsg_A",
 			"fillStyle": "hachure",
@@ -5928,7 +5928,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445353492,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7321,8 +7321,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 2294,
-			"versionNonce": 1284750149,
+			"version": 2295,
+			"versionNonce": 894483147,
 			"isDeleted": false,
 			"id": "YV-Wy14W6Huoe4ebynh9C",
 			"fillStyle": "hachure",
@@ -7343,7 +7343,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445353493,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7452,8 +7452,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 		},
 		{
 			"type": "text",
-			"version": 1388,
-			"versionNonce": 298917419,
+			"version": 1389,
+			"versionNonce": 289762149,
 			"isDeleted": false,
 			"id": "NTFUJU6B",
 			"fillStyle": "hachure",
@@ -7475,7 +7475,7 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1661380977203,
+			"updated": 1661445353493,
 			"link": null,
 			"locked": false,
 			"fontSize": 16.002749818849924,

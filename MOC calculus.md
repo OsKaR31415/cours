@@ -1,6 +1,7 @@
 ---
 alias: "calculus"
 ---
+#MOC
 # MOC calculus
 
 > [!query] Sous-notes de [[MOC calculus]]

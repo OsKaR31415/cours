@@ -7,10 +7,7 @@ description does not include spaced repetition
 short mode
 ```
 
-## Files todo
-```query
-tag:#todo -(file:("todo" OR "things to do"))
-```
+
 
 ## Done
 

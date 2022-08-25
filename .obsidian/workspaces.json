@@ -633,12 +633,12 @@
         "type": "split",
         "children": [
           {
-            "id": "95ce988283184893",
+            "id": "09580617afc7cc9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2022-08-25.md",
+                "file": "obsidian workflow.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -646,15 +646,12 @@
             }
           },
           {
-            "id": "e928f925f8fa8c72",
+            "id": "5342e57c8eb3c295",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "le début de la sagesse (Dune).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/workflow.excalidraw.md"
               }
             }
           }
@@ -709,7 +706,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "le début de la sagesse (Dune).md",
+                    "file": "Excalidraw/workflow.excalidraw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -721,7 +718,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "le début de la sagesse (Dune).md",
+                    "file": "Excalidraw/workflow.excalidraw.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -746,6 +743,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
+            "dimension": 35.4978354978355,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -753,7 +751,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "le début de la sagesse (Dune).md"
+                    "file": "Excalidraw/workflow.excalidraw.md"
                   }
                 }
               },
@@ -795,7 +793,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "le début de la sagesse (Dune).md",
+                    "file": "Excalidraw/workflow.excalidraw.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -917,6 +915,7 @@
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
+            "dimension": 26.147186147186147,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -932,13 +931,33 @@
                 }
               }
             ]
+          },
+          {
+            "id": "5ec1cb4054dc4fe2",
+            "type": "tabs",
+            "dimension": 38.35497835497835,
+            "children": [
+              {
+                "id": "5c05771185cb207f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs a rendre.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
         "width": 558.1000366210938,
         "collapsed": true
       },
-      "active": "e928f925f8fa8c72"
+      "active": "5342e57c8eb3c295"
     }
   },
   "active": "main"

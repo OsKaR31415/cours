@@ -3,5 +3,5 @@ date-end::
 description::
 compétences:: 🤝 🧑‍🏫 🗣️ 🔍 🧮 💻
 #CV
-# {{title}}
+# {{TITLE}}
 

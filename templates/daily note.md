@@ -1,4 +1,4 @@
-# {{date:YYYY-MM-DD}}
+# {{DATE:YYYY-MM-DD}}
 
 ## Todo
 - [ ] spaced repetition
@@ -8,7 +8,7 @@
 ```dataview
 TABLE due, title as "description"
 FROM #devoir
-WHERE due = date({{date:YYYY-MM-DD}})
+WHERE due = date({{DATE:YYYY-MM-DD}})
 ```
 
 ## I did

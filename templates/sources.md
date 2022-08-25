@@ -1,7 +1,7 @@
 author::
 date::{{DATE:YYYY-MM-DD}}
 #source 
-# {{title}}
+# {{TITLE}}
 Description de la source
 
 

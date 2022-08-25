@@ -1,5 +1,5 @@
 #maths/géométrie/polyèdre #no-review 
-# {{title}}
+# {{TITLE}}
 symbole de shläfli : 
 
 

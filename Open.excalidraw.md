@@ -16,6 +16,8 @@ tags: [excalidraw]
 
 [[actions.excalidraw]] ^N0FOziXb
 
+[[workflow.excalidraw]] ^0CSoeQRs
+
 
 # Embedded files
 4ccd589d6d20a5015283c6cda9c0ec2642ce867d: [[attachments/Pasted Image 20220820003257_636.png]]
@@ -164,10 +166,10 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[logo_obsidian.png]]
 		},
 		{
 			"type": "image",
-			"version": 463,
-			"versionNonce": 770318187,
+			"version": 464,
+			"versionNonce": 1056568785,
 			"isDeleted": false,
-			"id": "zZrBi5_e6qxFyeNOAVttQ",
+			"id": "0CSoeQRs",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -184,8 +186,8 @@ d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[logo_obsidian.png]]
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1661295426337,
-			"link": null,
+			"updated": 1661466451215,
+			"link": "[[workflow.excalidraw]]",
 			"locked": false,
 			"status": "pending",
 			"fileId": "d8b8ceb36491fa5f3241bf2218bccac26485ac5a",

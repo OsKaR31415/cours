@@ -1,7 +1,7 @@
 author::
 source::
 link::
-date-seen::{date}
+date-seen::{{DATE}}
 #citation #obsidian 
 # {{title}}
 > 

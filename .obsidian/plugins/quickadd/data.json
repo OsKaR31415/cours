@@ -137,6 +137,58 @@
       },
       "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "48a1a5e9-dcdc-4c29-ae03-57866db3957f",
+      "name": "cours",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/cours.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "213d386c-1546-41f5-93b8-02be8295f3b4",
+      "name": "devoir",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/devoir.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [],
