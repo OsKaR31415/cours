@@ -13,3 +13,4 @@ Using the [[obsidian plugin advanced URI]]
 
  - nouveau dessin excalidraw : `obsidian://advanced-uri?vault=cours&commandid=obsidian-excalidraw-plugin%253Aexcalidraw-autocreate-on-current` [nouveau dessin](obsidian://advanced-uri?vault=cours&commandid=obsidian-excalidraw-plugin%253Aexcalidraw-autocreate-on-current)
 
+ - nouvel exercice : `obsidian://advanced-uri?vault=cours&commandid=quickadd%253Achoice%253Af75c593a-e7f1-47f6-8559-ee1420d606c4` [exercice](obsidian://advanced-uri?vault=cours&commandid=quickadd%253Achoice%253Af75c593a-e7f1-47f6-8559-ee1420d606c4)

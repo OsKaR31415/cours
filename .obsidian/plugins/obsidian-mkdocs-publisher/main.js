@@ -361,7 +361,8 @@ var DEFAULT_SETTINGS = {
   hardBreak: false,
   logNotice: false,
   convertDataview: true,
-  useFrontmatterTitle: false
+  useFrontmatterTitle: false,
+  censorText: []
 };
 
 // plugin/settings/style.ts
@@ -482,7 +483,8 @@ var en_us_default = {
   frontmatterKeyPlaceholder: "category",
   rootFolder: "Root folder",
   rootFolderDesc: "Append this path to the folder set by the frontmatter key.",
-  textConversion: "Text conversion",
+  textConversion: "Content's conversion",
+  textConversionDesc: "Theses option won't change the content of the file in your Obsidian Vault, but will change the content of the file in Github.",
   textHeader: "Text",
   linkHeader: "Links",
   folderNote: "Folder note",
@@ -497,6 +499,14 @@ var en_us_default = {
   headerDataviewDesc: "Convert dataview to markdown.",
   useFrontmatterTitle: "Use frontmatter title",
   useFrontmatterTitleDesc: 'Use frontmatter "title" field instead of the file name.',
+  censorTextHeader: "Text replacer",
+  censorTextDesc: "Replace text (or regex) in the file with the given value.",
+  censorTextInsensitive: "Case insensitive",
+  censorTextEmpty: "Replacement can be empty to remove the whole string.",
+  censorToolTipAdd: "Add a new text replacer",
+  censorToolTipRemove: "Delete this text replacer",
+  censorPlaceHolder: "Regex or text to replace",
+  censorValuePlaceHolder: "Replacement value",
   embed: "Embed",
   transferImage: "Transfer image",
   transferImageDesc: "Send image embedded in a file to github",
@@ -673,7 +683,8 @@ var fr_fr_default = {
   frontmatterKeyPlaceholder: "cat\xE9gorie",
   rootFolder: "Dossier racine",
   rootFolderDesc: "Ajoutez ce chemin au dossier d\xE9fini par la cl\xE9 de m\xE9tadonn\xE9es.",
-  textConversion: "Conversion du texte",
+  textConversion: "Conversion du contenu",
+  textConversionDesc: "Ces options ne changent pas le contenu du fichier dans votre coffre Obsidian, mais changeront le contenu du fichier publi\xE9 sur GitHub.",
   textHeader: "Texte",
   linkHeader: "Liens",
   folderNote: "Folder Note",
@@ -688,6 +699,14 @@ var fr_fr_default = {
   headerDataviewDesc: "Convertir dataview en markdown.",
   useFrontmatterTitle: 'Utiliser la cl\xE9 frontmatter "title"',
   useFrontmatterTitleDesc: 'Utilisez le champ "title" du frontmatter (\xE0 la place du nom du fichier) pour g\xE9n\xE9rer le chemin du fichier.',
+  censorTextHeader: "Replacement de texte",
+  censorTextDesc: "Replacement de texte (ou regex) par un autre texte",
+  censorTextInsensitive: "Insensible \xE0 la casse",
+  censorTextEmpty: "Le remplacement de texte peut \xEAtre vide afin de supprimer le texte.",
+  censorToolTipAdd: "Ajouter un nouveau remplacement",
+  censorToolTipRemove: "Supprimer ce remplacement",
+  censorPlaceHolder: "Regex ou text \xE0 remplacer",
+  censorValuePlaceHolder: "Remplacement",
   embed: "Transclusion",
   transferImage: "Transf\xE9rer les images",
   transferImageDesc: "Envoyer les images int\xE9gr\xE9es dans un fichier dans le d\xE9p\xF4t.",
@@ -924,6 +943,7 @@ var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
       }));
     });
     containerEl.createEl("h3", { text: t("textConversion") });
+    containerEl.createEl("span", { text: t("textConversionDesc") });
     containerEl.createEl("h5", { text: t("textHeader") });
     new import_obsidian2.Setting(this.containerEl).setName(t("hardBreakTitle")).setDesc(t("hardBreakDesc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.hardBreak).onChange((value) => __async(this, null, function* () {
@@ -937,6 +957,40 @@ var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
         yield this.plugin.saveSettings();
       }));
     });
+    const censorTextDesc = document.createDocumentFragment();
+    censorTextDesc.createEl("p", { text: t("censorTextDesc") });
+    censorTextDesc.createEl("li", { text: t("censorTextInsensitive") });
+    censorTextDesc.createEl("li", { text: t("censorTextEmpty") });
+    new import_obsidian2.Setting(this.containerEl).setName(t("censorTextHeader")).setClass("obs-git-publisher-censor-desc").setDesc(censorTextDesc).addButton((btn) => {
+      btn.setIcon("plus").setTooltip(t("censorToolTipAdd")).onClick(() => __async(this, null, function* () {
+        const censorText2 = {
+          entry: "",
+          replace: ""
+        };
+        this.plugin.settings.censorText.push(censorText2);
+        yield this.plugin.saveSettings();
+        this.display();
+      }));
+    });
+    for (const censorText2 of this.plugin.settings.censorText) {
+      new import_obsidian2.Setting(this.containerEl).setClass("obs-git-publisher-censor-entry").addText((text) => {
+        text.setPlaceholder(t("censorPlaceHolder")).setValue(censorText2.entry).onChange((value) => __async(this, null, function* () {
+          censorText2.entry = value;
+          yield this.plugin.saveSettings();
+        }));
+      }).addText((text) => {
+        text.setPlaceholder(t("censorValuePlaceHolder")).setValue(censorText2.replace).onChange((value) => __async(this, null, function* () {
+          censorText2.replace = value;
+          yield this.plugin.saveSettings();
+        }));
+      }).addExtraButton((btn) => {
+        btn.setIcon("trash").setTooltip(t("censorToolTipRemove")).onClick(() => __async(this, null, function* () {
+          this.plugin.settings.censorText.splice(this.plugin.settings.censorText.indexOf(censorText2), 1);
+          yield this.plugin.saveSettings();
+          this.display();
+        }));
+      });
+    }
     containerEl.createEl("h5", { text: t("linkHeader") });
     const folderNoteSettings = new import_obsidian2.Setting(containerEl).setName(t("folderNote")).setClass("obs-git-publisher").setDesc(t("folderNoteDesc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.folderNote).onChange((value) => __async(this, null, function* () {
@@ -2292,6 +2346,17 @@ function addHardLineBreak(text, settings) {
     return text;
   }
 }
+function censorText(text, settings) {
+  if (!settings.censorText) {
+    return text;
+  }
+  for (const censor of settings.censorText) {
+    const regex = new RegExp(censor.entry, "ig");
+    console.log(typeof censor.replace);
+    text = text.replaceAll(regex, censor.replace);
+  }
+  return text;
+}
 function convertDataviewQueries(text, path, settings, vault, metadataCache, sourceFile) {
   return __async(this, null, function* () {
     let replacedText = text;
@@ -2455,11 +2520,12 @@ var MkdocsPublish = class {
         text = addHardLineBreak(text, this.settings);
         text = convertLinkCitation(text, this.settings, linkedFiles, this.metadataCache, file, this.vault);
         text = convertWikilinks(text, this.settings, linkedFiles);
+        text = censorText(text, this.settings);
         const path = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
         noticeLog(`Upload ${file.name}:${path} on ${this.settings.githubName}/${this.settings.githubRepo}:${ref}`, this.settings);
         yield this.uploadText(file.path, text, path, file.name, ref);
         yield this.statusBarForEmbed(embedFiles, fileHistory, ref, deepScan);
-        if (autoclean) {
+        if (autoclean && this.settings.autoCleanUp) {
           yield deleteFromGithub(true, this.settings, this.octokit, ref, shareFiles);
         }
         return true;

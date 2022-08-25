@@ -4,32 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "38214867051b6d56",
-        "type": "leaf",
-        "state": {
-          "type": "excalidraw",
-          "state": {
-            "file": "actions.excalidraw.md"
-          }
-        }
-      },
-      {
-        "id": "a99f691d385bbb59",
-        "type": "leaf",
-        "state": {
-          "type": "excalidraw",
-          "state": {
-            "file": "Excalidraw/workflow.excalidraw.md"
-          }
-        }
-      },
-      {
-        "id": "750aedfa7922cb7f",
+        "id": "6d28a64e4021b480",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian workflow.md",
+            "file": "daily/2022-08-29.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3f64de3ede5ac4ee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "exercices espaces vectoriels 2022-08-24.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -61,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/workflow.excalidraw.md",
+                "file": "exercices espaces vectoriels 2022-08-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/workflow.excalidraw.md",
+                "file": "exercices espaces vectoriels 2022-08-24.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,8 +103,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/workflow.excalidraw.md"
+                "file": "exercices espaces vectoriels 2022-08-24.md"
               }
             }
           },
@@ -153,12 +145,28 @@
             }
           },
           {
+            "id": "bf6c068c22a39e9f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/workflow.excalidraw.md",
+                "file": "exercices espaces vectoriels 2022-08-24.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -273,25 +281,9 @@
               "type": "BC-tree",
               "state": {}
             }
-          },
-          {
-            "id": "f1259f8365baef57",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bf4d47adc9d7faad",
-            "type": "leaf",
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
@@ -314,49 +306,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 558.1000366210938,
+    "width": 357.5,
     "collapsed": true
   },
-  "floating": {
-    "id": "a381bc300eea9f92",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e1743c20ecd2cfa6",
-        "type": "window",
-        "children": [
-          {
-            "id": "5da86356255a28c1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "attachments/logo_obsidian.png"
-              }
-            }
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1440,
-        "height": 900,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "bf4d47adc9d7faad",
+  "active": "3f64de3ede5ac4ee",
   "lastOpenFiles": [
-    "obsidian workflow exercices.md",
+    "daily/2022-08-29.md",
+    "daily/2022-08-25.md",
     "Excalidraw/workflow.excalidraw.md",
-    "obsidian workflow.md",
-    "obsidian workflow cours.md",
-    "obsidian workflow MOCs.md",
-    "obsidian workflow daily note.md",
-    "obsidian workflow naming notes.md",
-    "actions.excalidraw.md",
-    "Open.excalidraw.md",
-    "attachments/logo_obsidian.png"
+    "things to do.md",
+    "templates/daily note.md",
+    "daily/2022-08-30.md",
+    "daily/2022-08-31.md",
+    "foo devoir.md",
+    "Excalidraw/visualisation de la multiplication de matrices.excalidraw.md",
+    "obsidian plugin tasks.md"
   ]
 }

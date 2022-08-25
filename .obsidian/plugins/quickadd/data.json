@@ -111,6 +111,32 @@
       },
       "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "f75c593a-e7f1-47f6-8559-ee1420d606c4",
+      "name": "exercice",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/exercice.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [],

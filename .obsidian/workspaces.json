@@ -320,7 +320,7 @@
         "type": "split",
         "children": [
           {
-            "id": "de0ecf112fef6487",
+            "id": "6d28a64e4021b480",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -333,12 +333,12 @@
             }
           },
           {
-            "id": "6bf203aee771073c",
+            "id": "3f64de3ede5ac4ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercices espaces vectoriels 2022-08-22.md",
+                "file": "exercices espaces vectoriels 2022-08-24.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -396,7 +396,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "exercices espaces vectoriels 2022-08-22.md",
+                    "file": "daily/2022-08-29.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -408,7 +408,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "exercices espaces vectoriels 2022-08-22.md",
+                    "file": "daily/2022-08-29.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -440,7 +440,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "exercices espaces vectoriels 2022-08-22.md"
+                    "file": "daily/2022-08-29.md"
                   }
                 }
               },
@@ -482,7 +482,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "exercices espaces vectoriels 2022-08-22.md",
+                    "file": "daily/2022-08-29.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -622,9 +622,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 357.5
+        "width": 357.5,
+        "collapsed": true
       },
-      "active": "6bf203aee771073c"
+      "active": "6d28a64e4021b480"
     },
     "main": {
       "main": {
@@ -632,25 +633,15 @@
         "type": "split",
         "children": [
           {
-            "id": "f8198d0fbab9a56f",
+            "id": "95ce988283184893",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOC MOCs.md",
+                "file": "daily/2022-08-25.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "55b16c9e022b5378",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "excalibrain.md"
               }
             }
           }
@@ -705,7 +696,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "MOC MOCs.md",
+                    "file": "daily/2022-08-25.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -717,7 +708,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "MOC MOCs.md",
+                    "file": "daily/2022-08-25.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -749,7 +740,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "MOC MOCs.md"
+                    "file": "daily/2022-08-25.md"
                   }
                 }
               },
@@ -791,7 +782,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "MOC MOCs.md",
+                    "file": "daily/2022-08-25.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -908,7 +899,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -934,8 +925,8 @@
         "width": 558.1000366210938,
         "collapsed": true
       },
-      "active": "f8198d0fbab9a56f"
+      "active": "95ce988283184893"
     }
   },
-  "active": "main"
+  "active": "maths"
 }
