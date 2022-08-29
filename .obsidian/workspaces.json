@@ -633,26 +633,11 @@
         "type": "split",
         "children": [
           {
-            "id": "09580617afc7cc9f",
+            "id": "e2c6db514b3e12a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian workflow.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5342e57c8eb3c295",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/workflow.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -706,7 +691,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Excalidraw/workflow.excalidraw.md",
+                    "file": "things to do.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -718,7 +703,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Excalidraw/workflow.excalidraw.md",
+                    "file": "things to do.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -743,7 +728,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 35.4978354978355,
+            "dimension": 48.291233283803855,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -751,7 +736,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Excalidraw/workflow.excalidraw.md"
+                    "file": "things to do.md"
                   }
                 }
               },
@@ -793,7 +778,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Excalidraw/workflow.excalidraw.md",
+                    "file": "things to do.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -910,12 +895,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 26.147186147186147,
+            "dimension": 51.708766716196145,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -929,14 +914,7 @@
                     "source": false
                   }
                 }
-              }
-            ]
-          },
-          {
-            "id": "5ec1cb4054dc4fe2",
-            "type": "tabs",
-            "dimension": 38.35497835497835,
-            "children": [
+              },
               {
                 "id": "5c05771185cb207f",
                 "type": "leaf",
@@ -954,10 +932,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 558.1000366210938,
+        "width": 466.49993896484375,
         "collapsed": true
       },
-      "active": "5342e57c8eb3c295"
+      "active": "e2c6db514b3e12a5"
     }
   },
   "active": "main"

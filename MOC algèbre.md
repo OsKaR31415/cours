@@ -31,22 +31,34 @@ alias: "algèbre"
 > SORT up.up.up.up, up.up.up, up.up, up.file
 > ```
 
+ - [[semi groupe]]
+ - [[monoïde]]
+ 
  - [[groupe]]
      - [[ordre d'un groupe]]
      - [[ordre d'un élément d'un groupe]]
      
-     - [[groupe abélien]]
      - [[sous groupe]]
          - [[sous groupe engendré]]
-         
+ - [[groupe abélien]]
          
  - [[espace vectoriel]]
      - [[sous espace vectoriel]]
 
-
  - [[corps]]
      - [[corps commutatif]]
 
+ - propriétés des [[structure algébrique|structures algébriques]]
+     - [[élément neutre]]
+     - [[éléments symétrisables]]
+     - [[associativité]]
+     - [[commutativité]]
+
+ - [[morphisme]]
+     - [[isomorphisme]]
+         - [[automorphisme]]
+     - [[endomorphisme]]
+         - [[endomorphisme linéaire]]
 
 
 ## Algèbre linéaire

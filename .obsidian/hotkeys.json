@@ -187,5 +187,21 @@
       "key": "B"
     }
   ],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "workspaces-plus:open-workspaces-plus": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-completr:completr-select-next-suggestion": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ]
 }

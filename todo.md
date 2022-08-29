@@ -8,13 +8,10 @@ description does not include spaced repetition
 ```
 
 
-> [!note] Liste des devoirs
-> ```dataview
-> TABLE due, importance as "", title as "description"
-> FROM #devoir AND -"templates"
-> SORT importance ASC
-> SORT due
-> ```
+![[devoirs]]
+
+
+
 
 ## done 
 For my own pleasure (self-rewading)
