@@ -362,7 +362,10 @@ var DEFAULT_SETTINGS = {
   logNotice: false,
   convertDataview: true,
   useFrontmatterTitle: false,
-  censorText: []
+  censorText: [],
+  inlineTags: false,
+  dataviewFields: [],
+  excludeDataviewValue: []
 };
 
 // plugin/settings/style.ts
@@ -507,6 +510,12 @@ var en_us_default = {
   censorToolTipRemove: "Delete this text replacer",
   censorPlaceHolder: "Regex or text to replace",
   censorValuePlaceHolder: "Replacement value",
+  inlineTagsHeader: "Inline tags",
+  inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
+  dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
+  dataviewFieldDesc: "This will convert any frontmatter or dataview inline field into frontmatter tags. Separate fields with a comma.",
+  dataviewExcludeHeader: "Exclude value from conversion",
+  dataviewExcludeDesc: "This will exclude value from being converted. Separate fields with a comma.",
   embed: "Embed",
   transferImage: "Transfer image",
   transferImageDesc: "Send image embedded in a file to github",
@@ -598,6 +607,22 @@ var zh_cn_default = {
   hardBreakDesc: "\u5728\u6BCF\u4E00\u884C\u4E4B\u540E\u6DFB\u52A0\u4E00\u4E2A\u6807\u8BB0\u6027\u7684\u786C\u65AD\u884C\uFF08\u53CC\u500D\u7A7A\u767D\uFF09\u3002",
   headerDataview: "Dataview",
   headerDataviewDesc: "Convert dataview to markdown.",
+  useFrontmatterTitle: "Use frontmatter title",
+  useFrontmatterTitleDesc: 'Use frontmatter "title" field instead of the file name.',
+  censorTextHeader: "Text replacer",
+  censorTextDesc: "Replace text (or regex) in the file with the given value.",
+  censorTextInsensitive: "Case insensitive",
+  censorTextEmpty: "Replacement can be empty to remove the whole string.",
+  censorToolTipAdd: "Add a new text replacer",
+  censorToolTipRemove: "Delete this text replacer",
+  censorPlaceHolder: "Regex or text to replace",
+  censorValuePlaceHolder: "Replacement value",
+  inlineTagsHeader: "Inline tags",
+  inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
+  dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
+  dataviewFieldDesc: "This will convert any frontmatter or dataview inline field into frontmatter tags. Separate fields with a comma.",
+  dataviewExcludeHeader: "Exclude value from conversion",
+  dataviewExcludeDesc: "This will exclude value from being converted. Separate fields with a comma.",
   embed: "\u5D4C\u5165",
   transferImage: "\u8F6C\u6362\u56FE\u7247",
   transferImageDesc: "\u53D1\u9001\u6587\u4EF6\u4E2D\u63D2\u5165\u7684\u56FE\u7247\u81F3github",
@@ -707,6 +732,12 @@ var fr_fr_default = {
   censorToolTipRemove: "Supprimer ce remplacement",
   censorPlaceHolder: "Regex ou text \xE0 remplacer",
   censorValuePlaceHolder: "Remplacement",
+  inlineTagsHeader: "Inlines tags",
+  inlineTagsDesc: 'Ajoute vos tags inline dans votre bloc de m\xE9tadonn\xE9e et convertit les tags imbriqu\xE9s en rempla\xE7ant "/" par "_"',
+  dataviewFieldHeader: "Conversion des champs du frontmatter/dataview en tags",
+  dataviewFieldDesc: "Ceci convertira tous les champs du frontmatter/dataview en tags. S\xE9parez les champs par une virgule.",
+  dataviewExcludeHeader: "Exclure des valeurs de la conversion",
+  dataviewExcludeDesc: "Exclure la valeur de la conversion. S\xE9parez les valeurs par une virgule.",
   embed: "Transclusion",
   transferImage: "Transf\xE9rer les images",
   transferImageDesc: "Envoyer les images int\xE9gr\xE9es dans un fichier dans le d\xE9p\xF4t.",
@@ -805,6 +836,20 @@ var ru_default = {
   headerDataviewDesc: "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C dataview \u0432 markdown.",
   useFrontmatterTitle: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A \u0438\u0437 frontmatter",
   useFrontmatterTitleDesc: '\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u043E frontmatter "title" \u0432\u043C\u0435\u0441\u0442\u043E \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F \u0444\u0430\u0439\u043B\u0430.',
+  censorTextHeader: "Text replacer",
+  censorTextDesc: "Replace text (or regex) in the file with the given value.",
+  censorTextInsensitive: "Case insensitive",
+  censorTextEmpty: "Replacement can be empty to remove the whole string.",
+  censorToolTipAdd: "Add a new text replacer",
+  censorToolTipRemove: "Delete this text replacer",
+  censorPlaceHolder: "Regex or text to replace",
+  censorValuePlaceHolder: "Replacement value",
+  inlineTagsHeader: "Inline tags",
+  inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
+  dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
+  dataviewFieldDesc: "This will convert any frontmatter or dataview inline field into frontmatter tags. Separate fields with a comma.",
+  dataviewExcludeHeader: "Exclude value from conversion",
+  dataviewExcludeDesc: "This will exclude value from being converted. Separate fields with a comma.",
   embed: "\u0412\u0441\u0442\u0430\u0432\u043A\u0438",
   transferImage: "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
   transferImageDesc: "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0432\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u044B\u0435 \u0432 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u043D\u0430 github",
@@ -860,6 +905,15 @@ function t(str) {
 }
 
 // plugin/settings.ts
+function openDetails(groupName, detailsState) {
+  for (let i = 0; i < document.getElementsByTagName("details").length; i++) {
+    const details = document.getElementsByTagName("details")[i];
+    console.log(details.innerText);
+    if (details.innerText === groupName && detailsState) {
+      details.open = true;
+    }
+  }
+}
 var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app2, plugin) {
     super(app2, plugin);
@@ -961,7 +1015,9 @@ var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
     censorTextDesc.createEl("p", { text: t("censorTextDesc") });
     censorTextDesc.createEl("li", { text: t("censorTextInsensitive") });
     censorTextDesc.createEl("li", { text: t("censorTextEmpty") });
-    new import_obsidian2.Setting(this.containerEl).setName(t("censorTextHeader")).setClass("obs-git-publisher-censor-desc").setDesc(censorTextDesc).addButton((btn) => {
+    const details = containerEl.createEl("details");
+    details.createEl("summary", { text: t("censorTextHeader") });
+    new import_obsidian2.Setting(details).setClass("obs-git-publisher-censor-desc").setDesc(censorTextDesc).addButton((btn) => {
       btn.setIcon("plus").setTooltip(t("censorToolTipAdd")).onClick(() => __async(this, null, function* () {
         const censorText2 = {
           entry: "",
@@ -970,10 +1026,11 @@ var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
         this.plugin.settings.censorText.push(censorText2);
         yield this.plugin.saveSettings();
         this.display();
+        openDetails("Replacement de texte", true);
       }));
     });
     for (const censorText2 of this.plugin.settings.censorText) {
-      new import_obsidian2.Setting(this.containerEl).setClass("obs-git-publisher-censor-entry").addText((text) => {
+      new import_obsidian2.Setting(details).setClass("obs-git-publisher-censor-entry").addText((text) => {
         text.setPlaceholder(t("censorPlaceHolder")).setValue(censorText2.entry).onChange((value) => __async(this, null, function* () {
           censorText2.entry = value;
           yield this.plugin.saveSettings();
@@ -988,9 +1045,29 @@ var MkdocsSettingsTab = class extends import_obsidian2.PluginSettingTab {
           this.plugin.settings.censorText.splice(this.plugin.settings.censorText.indexOf(censorText2), 1);
           yield this.plugin.saveSettings();
           this.display();
+          openDetails("Replacement de texte", true);
         }));
       });
     }
+    containerEl.createEl("h5", { text: "Tags" });
+    new import_obsidian2.Setting(this.containerEl).setName(t("inlineTagsHeader")).setDesc(t("inlineTagsDesc")).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.inlineTags).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.inlineTags = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian2.Setting(this.containerEl).setName(t("dataviewFieldHeader")).setDesc(t("dataviewFieldDesc")).addTextArea((text) => {
+      text.setPlaceholder("field_name").setValue(this.plugin.settings.dataviewFields.join(",")).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.dataviewFields = value.split(",").map((field) => field.trim());
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian2.Setting(this.containerEl).setName(t("dataviewExcludeHeader")).setDesc(t("dataviewExcludeDesc")).addTextArea((text) => {
+      text.setPlaceholder("field value").setValue(this.plugin.settings.excludeDataviewValue.join(",")).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.excludeDataviewValue = value.split(",").map((field) => field.trim());
+        yield this.plugin.saveSettings();
+      }));
+    });
     containerEl.createEl("h5", { text: t("linkHeader") });
     const folderNoteSettings = new import_obsidian2.Setting(containerEl).setName(t("folderNote")).setClass("obs-git-publisher").setDesc(t("folderNoteDesc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.folderNote).onChange((value) => __async(this, null, function* () {
@@ -2298,16 +2375,8 @@ function filterGithubFile(fileInRepo, settings) {
 }
 function parseYamlFrontmatter(contents) {
   const yamlFrontmatter = contents.split("---")[1];
-  const yamlFrontmatterParsed = yamlFrontmatter.split("\n");
-  let yamlFrontmatterParsedCleaned = {};
-  for (const line of yamlFrontmatterParsed) {
-    if (typeof line !== "undefined" && line.length > 1) {
-      const yamlFrontmatter2 = line.split(":");
-      yamlFrontmatterParsedCleaned[yamlFrontmatter2[0]] = yamlFrontmatter2[1];
-    }
-  }
-  yamlFrontmatterParsedCleaned = trimObject(yamlFrontmatterParsedCleaned);
-  return yamlFrontmatterParsedCleaned;
+  const yamlFrontmatterParsed = (0, import_obsidian5.parseYaml)(yamlFrontmatter);
+  return trimObject(yamlFrontmatterParsed);
 }
 function checkIndexFiles(octokit, settings, path) {
   return __async(this, null, function* () {
@@ -2346,6 +2415,44 @@ function addHardLineBreak(text, settings) {
     return text;
   }
 }
+function addToYAML(text, toAdd) {
+  return __async(this, null, function* () {
+    const yaml = text.split("---")[1];
+    const yamlObject = (0, import_obsidian6.parseYaml)(yaml);
+    if (yamlObject.tag) {
+      toAdd = [.../* @__PURE__ */ new Set([...toAdd, ...yamlObject.tag])];
+    }
+    if (yamlObject.tags) {
+      yamlObject.tags = [.../* @__PURE__ */ new Set([...yamlObject.tags, ...toAdd])];
+    } else {
+      yamlObject.tags = toAdd;
+    }
+    const returnToYaml = (0, import_obsidian6.stringifyYaml)(yamlObject);
+    const fileContentsOnly = text.split("---").slice(2).join("---");
+    console.log(returnToYaml);
+    return `---
+${returnToYaml}---
+${fileContentsOnly}`;
+  });
+}
+function addInlineTags(settings, file, metadataCache, app2) {
+  return __async(this, null, function* () {
+    var _a, _b;
+    const text = yield app2.vault.cachedRead(file);
+    if (!settings.inlineTags) {
+      return text;
+    }
+    const inlineTags = (_a = metadataCache.getFileCache(file)) == null ? void 0 : _a.tags;
+    const inlineTagsInText = inlineTags ? inlineTags.map((t2) => t2.tag.replace("#", "").replaceAll("/", "_")) : [];
+    const frontmatterTags = (0, import_obsidian6.parseFrontMatterTags)((_b = metadataCache.getFileCache(file)) == null ? void 0 : _b.frontmatter);
+    const yamlTags = frontmatterTags ? frontmatterTags.map((t2) => t2.replace("#", "").replaceAll("/", "_")) : [];
+    const toAdd = [.../* @__PURE__ */ new Set([...inlineTagsInText, ...yamlTags])];
+    if (toAdd.length > 0) {
+      return yield addToYAML(text, toAdd);
+    }
+    return text;
+  });
+}
 function censorText(text, settings) {
   if (!settings.censorText) {
     return text;
@@ -2356,6 +2463,52 @@ function censorText(text, settings) {
     text = text.replaceAll(regex, censor.replace);
   }
   return text;
+}
+function dataviewExtract(fieldValue) {
+  const basename = (name) => /([^/\\.]*)(\..*)?$/.exec(name)[1];
+  return {
+    filename: basename(fieldValue.path).toString(),
+    display: fieldValue.display ? fieldValue.display.toString() : basename(fieldValue.path).toString()
+  };
+}
+function convertInlineDataview(text, settings, sourceFile) {
+  return __async(this, null, function* () {
+    if (settings.dataviewFields.length === 0) {
+      return text;
+    }
+    const dvApi = (0, import_obsidian_dataview.getAPI)();
+    const dataviewLinks = yield dvApi.page(sourceFile.path);
+    const valueToAdd = [];
+    for (const field of settings.dataviewFields) {
+      const fieldValue = dataviewLinks[field];
+      if (fieldValue) {
+        if (fieldValue.constructor.name === "Link") {
+          const stringifyField = dataviewExtract(fieldValue);
+          if (!settings.excludeDataviewValue.includes(stringifyField.display) && !settings.excludeDataviewValue.includes(stringifyField.filename)) {
+            valueToAdd.push(stringifyField.display);
+          }
+        } else if (fieldValue.constructor.name === "Array") {
+          for (const item of fieldValue) {
+            let stringifyField = item;
+            if (item.constructor.name === "Link") {
+              stringifyField = dataviewExtract(item);
+              if (!settings.excludeDataviewValue.includes(stringifyField.display) && !settings.excludeDataviewValue.includes(stringifyField.filename)) {
+                valueToAdd.push(stringifyField.display);
+              }
+            } else if (!settings.excludeDataviewValue.includes(stringifyField.toString())) {
+              valueToAdd.push(stringifyField.toString());
+            }
+          }
+        } else if (!settings.excludeDataviewValue.includes(fieldValue.toString())) {
+          valueToAdd.push(fieldValue.toString());
+        }
+      }
+    }
+    if (valueToAdd.length > 0) {
+      return yield addToYAML(text, valueToAdd);
+    }
+    return text;
+  });
 }
 function convertDataviewQueries(text, path, settings, vault, metadataCache, sourceFile) {
   return __async(this, null, function* () {
@@ -2466,7 +2619,7 @@ var ShareStatusBar = class {
 };
 
 // plugin/publishing/upload.ts
-var MkdocsPublish = class {
+var Publisher = class {
   constructor(vault, metadataCache, settings, octokit, plugin) {
     this.vault = vault;
     this.metadataCache = metadataCache;
@@ -2512,11 +2665,12 @@ var MkdocsPublish = class {
         return false;
       }
       try {
-        let text = yield this.vault.cachedRead(file);
         fileHistory.push(file);
         const embedFiles = shareFiles.getEmbed(file);
         const linkedFiles = shareFiles.getLinkedImageAndFiles(file);
+        let text = yield addInlineTags(this.settings, file, this.metadataCache, this.plugin.app);
         text = yield convertDataviewQueries(text, file.path, this.settings, this.vault, this.metadataCache, file);
+        text = yield convertInlineDataview(text, this.settings, file);
         text = addHardLineBreak(text, this.settings);
         text = convertLinkCitation(text, this.settings, linkedFiles, this.metadataCache, file, this.vault);
         text = convertWikilinks(text, this.settings, linkedFiles);
@@ -2623,7 +2777,7 @@ var MkdocsPublish = class {
 };
 
 // plugin/publishing/filesManagement.ts
-var FilesManagement = class extends MkdocsPublish {
+var FilesManagement = class extends Publisher {
   constructor(vault, metadataCache, settings, octokit, plugin) {
     super(vault, metadataCache, settings, octokit, plugin);
     this.vault = vault;

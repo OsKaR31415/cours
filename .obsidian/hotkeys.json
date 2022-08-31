@@ -196,12 +196,18 @@
       "key": "W"
     }
   ],
-  "obsidian-completr:completr-select-next-suggestion": [
+  "command-palette:open": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
       ],
-      "key": "N"
+      "key": ";"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
     }
   ]
 }

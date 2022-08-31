@@ -6735,8 +6735,6 @@ async function ForceGraphWithLabels(container, nextPath, {
   linkGroups,
   linkType = ({ type: type2 }) => type2
 } = {}) {
-  let global = document.getElementsByClassName("view-content")[0], x2 = global.clientWidth, y2 = global.clientHeight;
-  width = x2, height = y2;
   let nodes = getNodes(graph), links = getLinks(graph);
   let N = map(nodes, nodeId).map(intern);
   let LS = map(links, linkSource).map(intern);
@@ -6768,10 +6766,10 @@ async function ForceGraphWithLabels(container, nextPath, {
   const simulation = simulation_default(nodes).force("link", forceLink).force("charge", forceNode).force("center", center_default());
   container.setAttribute("style", "padding: 0px; overflow: hidden; position: relative;");
   const graphContainer = create_default("div").classed("path-finder force-graph", true);
-  const svg = graphContainer.append("svg").classed("path-finder path-graph", true).attr("width", width).attr("height", height).attr("viewBox", [0, 0, width, height]).style("font", "12px sans-serif");
-  svg.append("defs").append("marker").attr("id", "arrow").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", -0.5).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto").append("path").attr("fill", "var(--text-normal)").attr("d", "M0,-5L10,0L0,5");
-  let link = svg.append("g").attr("fill", "none").selectAll("path").data(links).join("path").classed("link", true).attr("marker-end", `url(#arrow)`);
-  let node = svg.append("g").attr("fill", nodeFill).attr("stroke", nodeStroke).attr("stroke-opacity", nodeStrokeOpacity).attr("stroke-width", nodeStrokeWidth).attr("stroke-linecap", "round").attr("stroke-linejoin", "round").selectAll("g").data(nodes).join("g").classed("node", true).classed("fixed", (d) => d.fx !== void 0).call(drag(simulation)).on("click", click);
+  const svg = graphContainer.append("svg").classed("path-finder path-graph", true).attr("width", width).attr("height", height).attr("viewBox", [0, 0, Infinity, Infinity]).style("font", "12px sans-serif");
+  svg.append("defs").append("marker").attr("id", "arrow").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", -0.5).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto").append("path").attr("fill", "var(--path-finder-link-stroke,--text-normal)").attr("d", "M0,-5L10,0L0,5");
+  let link = svg.append("g").attr("fill", "none").selectAll("path").data(links).join("path").classed("path-finder link", true).attr("marker-end", `url(#arrow)`);
+  let node = svg.append("g").attr("fill", nodeFill).attr("stroke-linecap", "round").attr("stroke-linejoin", "round").selectAll("g").data(nodes).join("g").classed("path-finder node", true).classed("fixed", (d) => d.fx !== void 0).call(drag(simulation)).on("click", click);
   node.on("mouseover", setSelection(true)).on("mouseout", setSelection(false));
   function setSelection(flag) {
     return function(evt, from) {
@@ -6800,7 +6798,7 @@ async function ForceGraphWithLabels(container, nextPath, {
   function setLinkClass(selection2, cls, flag = true) {
     selection2.classed(cls, flag);
   }
-  node.append("circle").classed("node-circle", true);
+  node.append("circle").classed("path-finder node-circle", true);
   if (W)
     link.attr("stroke-width", ({ index: i }) => W[i]);
   if (L)
@@ -6808,13 +6806,16 @@ async function ForceGraphWithLabels(container, nextPath, {
   if (G)
     node.attr("fill", ({ index: i }) => color2(G[i]));
   if (T)
-    node.append("text").attr("x", 0).attr("y", -30).attr("align", "center").text(({ index: i }) => T[i]).classed("node-text", true);
+    node.append("text").attr("x", 0).attr("y", -20).attr("align", "center").text(({ index: i }) => T[i]).classed("path-finder node-text", true);
   if (invalidation != null)
     invalidation.then(() => simulation.stop());
   simulation.on("tick", ticked);
   svg.call(zoom_default2().filter((evt) => {
     return !evt.ctrlKey && evt.type !== "click" || evt.type === "mousedown";
-  }).extent([[0, 0], [width, height]]).scaleExtent([0.1, 8]).on("zoom", zoomed));
+  }).extent([
+    [0, 0],
+    [width, height]
+  ]).scaleExtent([0.1, 8]).on("zoom", zoomed));
   ``;
   function zoomed({ transform: transform2 }) {
     svg.selectAll("g").attr("transform", transform2);
@@ -6857,8 +6858,8 @@ async function ForceGraphWithLabels(container, nextPath, {
   function intern(value) {
     return value !== null && typeof value === "object" ? value.valueOf() : value;
   }
-  function clamp(x3, lo, hi) {
-    return x3 < lo ? lo : x3 > hi ? hi : x3;
+  function clamp(x2, lo, hi) {
+    return x2 < lo ? lo : x2 > hi ? hi : x2;
   }
   function drag(simulation2) {
     function dragstarted(event, d) {
@@ -6934,8 +6935,8 @@ async function ForceGraphWithLabels(container, nextPath, {
     const old = new Map(node.data().map((d) => [d.id, d]));
     nodes2 = nodes2.map((d) => Object.assign(old.get(d.id) || {}, d));
     links2 = links2.map((d) => Object.assign({}, d));
-    node = node.data(nodes2, (d) => d.id).join((enter) => enter.append("g").call((enter2) => enter2.append("circle").classed("node-circle", true)).call((enter2) => enter2.append("text").attr("x", 0).attr("y", -30).attr("align", "center").text((d) => nodeTitle(d)).classed("node-text", true)).call((enter2) => enter2.attr("fill", (d) => color3(nodeGroup(d))))).classed("node", true).classed("fixed", (d) => d.fx !== void 0).call(drag(simulation)).on("click", click).on("mouseover", setSelection(true)).on("mouseout", setSelection(false));
-    link = link.data(links2, (d) => `${d.source}|${d.target}`).join("path").classed("link", true).attr("marker-end", `url(#arrow)`);
+    node = node.data(nodes2, (d) => d.id).join((enter) => enter.append("g").call((enter2) => enter2.append("circle").classed("path-finder node-circle", true)).call((enter2) => enter2.append("text").attr("x", 0).attr("y", -20).attr("align", "center").text((d) => nodeTitle(d)).classed("path-finder node-text", true)).call((enter2) => enter2.attr("fill", (d) => color3(nodeGroup(d))))).classed("path-finder node", true).classed("fixed", (d) => d.fx !== void 0).call(drag(simulation)).on("click", click).on("mouseover", setSelection(true)).on("mouseout", setSelection(false));
+    link = link.data(links2, (d) => `${d.source}|${d.target}`).join("path").classed("path-finder link", true).attr("marker-end", `url(#arrow)`);
     const forceLink2 = link_default(links2).id(({ index: i }) => N2[i]);
     if (linkStrength !== void 0)
       forceLink2.strength(linkStrength);
@@ -6965,8 +6966,8 @@ async function ForceGraphWithLabels(container, nextPath, {
     setLinkClass(link, "unselected", false);
     if (!panelContainer.classed("is-close")) {
       let nodeMap = /* @__PURE__ */ new Map();
-      for (let x3 of path)
-        nodeMap.set(x3, true);
+      for (let x2 of path)
+        nodeMap.set(x2, true);
       let linkMap = /* @__PURE__ */ new Map();
       for (let i = 0; i < path.length - 1; i++) {
         linkMap.set(`${path[i]}|${path[i + 1]}`, true);
@@ -6976,8 +6977,8 @@ async function ForceGraphWithLabels(container, nextPath, {
     panelContainer.on("mouseover", () => {
       if (!panelContainer.classed("is-close")) {
         let nodeMap = /* @__PURE__ */ new Map();
-        for (let x3 of path)
-          nodeMap.set(x3, true);
+        for (let x2 of path)
+          nodeMap.set(x2, true);
         let linkMap = /* @__PURE__ */ new Map();
         for (let i = 0; i < path.length - 1; i++) {
           linkMap.set(`${path[i]}|${path[i + 1]}`, true);
@@ -6987,8 +6988,8 @@ async function ForceGraphWithLabels(container, nextPath, {
     }).on("mouseout", () => {
       if (!panelContainer.classed("is-close")) {
         let nodeMap = /* @__PURE__ */ new Map();
-        for (let x3 of path)
-          nodeMap.set(x3, true);
+        for (let x2 of path)
+          nodeMap.set(x2, true);
         let linkMap = /* @__PURE__ */ new Map();
         for (let i = 0; i < path.length - 1; i++) {
           linkMap.set(`${path[i]}|${path[i + 1]}`, true);
@@ -7030,11 +7031,7 @@ async function ForceGraphWithLabels(container, nextPath, {
   container.appendChild(graphContainerNode);
   container.appendChild(panelContainerNode);
   const closeButton = panelContainerNode.createDiv();
-  closeButton.addClasses([
-    "path-finder",
-    "panel-button",
-    "mod-close"
-  ]);
+  closeButton.addClasses(["path-finder", "panel-button", "mod-close"]);
   (0, import_obsidian4.setIcon)(closeButton, "cross", 20);
   closeButton.style.display = "none";
   closeButton.onClickEvent(function(evt) {
@@ -7042,8 +7039,8 @@ async function ForceGraphWithLabels(container, nextPath, {
     panelContainerNode.toggleClass("is-close", true);
     let path = paths[index2];
     let nodeMap = /* @__PURE__ */ new Map();
-    for (let x3 of path)
-      nodeMap.set(x3, true);
+    for (let x2 of path)
+      nodeMap.set(x2, true);
     let linkMap = /* @__PURE__ */ new Map();
     for (let i = 0; i < path.length - 1; i++) {
       linkMap.set(`${path[i]}|${path[i + 1]}`, true);
@@ -7052,11 +7049,7 @@ async function ForceGraphWithLabels(container, nextPath, {
   });
   closeButton.setAttribute("aria-label", "Close");
   const openButton = panelContainerNode.createDiv();
-  openButton.addClasses([
-    "path-finder",
-    "panel-button",
-    "mod-open"
-  ]);
+  openButton.addClasses(["path-finder", "panel-button", "mod-open"]);
   (0, import_obsidian4.setIcon)(openButton, "right-triangle", 20);
   openButton.onClickEvent(function(evt) {
     panelContainerNode.toggleClass("is-close", false);

@@ -1,8 +1,23 @@
+
+/* ┏━╸╻ ╻╻┏━┓╺┳╸╻┏┓╻┏━╸   ┏━╸┏━┓╻  ╻  ┏━┓╻ ╻╺┳╸┏━┓ */
+/* ┣╸ ┏╋┛┃┗━┓ ┃ ┃┃┗┫┃╺┓   ┃  ┣━┫┃  ┃  ┃ ┃┃ ┃ ┃ ┗━┓ */
+/* ┗━╸╹ ╹╹┗━┛ ╹ ╹╹ ╹┗━┛   ┗━╸╹ ╹┗━╸┗━╸┗━┛┗━┛ ╹ ┗━┛ */
+
 .callout {
     /* smaller font-size for all callouts */
     font-size: 80%;
 }
 
+
+.callout[data-callout="todo"] {
+    --callout-color: 250, 155, 33;
+    --callout-icon: clipboard check;
+}
+
+
+/* ┏┓╻┏━╸╻ ╻   ┏━╸┏━┓╻  ╻  ┏━┓╻ ╻╺┳╸┏━┓ */
+/* ┃┗┫┣╸ ┃╻┃   ┃  ┣━┫┃  ┃  ┃ ┃┃ ┃ ┃ ┗━┓ */
+/* ╹ ╹┗━╸┗┻┛   ┗━╸╹ ╹┗━╸┗━╸┗━┛┗━┛ ╹ ┗━┛ */
 
 
 .callout[data-callout="query"] {
@@ -24,6 +39,8 @@
     --callout-color: 88, 61, 224;
     --callout-icon: pencil;
 }
+
+
 
 
 

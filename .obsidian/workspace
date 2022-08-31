@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c6db514b3e12a5",
+        "id": "fc8b50f78bdcfc1f",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -287,12 +287,12 @@
             }
           },
           {
-            "id": "5c05771185cb207f",
+            "id": "523cd7a78782d297",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs a rendre.md",
+                "file": "devoirs à faire.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -303,20 +303,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 466.49993896484375,
-    "collapsed": true
+    "width": 466.49993896484375
   },
-  "active": "e2c6db514b3e12a5",
+  "active": "fc8b50f78bdcfc1f",
   "lastOpenFiles": [
-    "typing.md",
+    "().md",
+    "daily/2022-08-31.md",
     "things to do.md",
     "daily/2022-08-10.md",
-    "devoirs a rendre.md",
-    "todo.md",
-    "branche parabolique.md",
-    "tags to add - notes to organize.md",
-    "sources/annotations/livre analyse exo7.md",
-    "daily/2022-08-29.md",
-    "obsidian plugins.md"
+    "devoirs à faire.md",
+    "devoirs.md",
+    "sources/annotations/livre algèbre exo7.md",
+    "transformations paramétrisées.md",
+    "meta.md",
+    "truc à faire.md"
   ]
 }

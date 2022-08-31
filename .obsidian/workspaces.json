@@ -320,28 +320,12 @@
         "type": "split",
         "children": [
           {
-            "id": "6d28a64e4021b480",
+            "id": "70bc4eecb8e20f2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "daily/2022-08-29.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f64de3ede5ac4ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exercices espaces vectoriels 2022-08-24.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "sources/annotations/livre algèbre exo7.md"
               }
             }
           }
@@ -370,7 +354,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#CV",
+                    "query": "tag:#devoir",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -396,7 +380,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "daily/2022-08-29.md",
+                    "file": "sources/annotations/livre algèbre exo7.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -408,7 +392,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "daily/2022-08-29.md",
+                    "file": "sources/annotations/livre algèbre exo7.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -433,6 +417,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
+            "dimension": 54.562737642585546,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -440,7 +425,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "daily/2022-08-29.md"
+                    "file": "sources/annotations/livre algèbre exo7.md"
                   }
                 }
               },
@@ -482,7 +467,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "daily/2022-08-29.md",
+                    "file": "sources/annotations/livre algèbre exo7.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -597,13 +582,30 @@
                   "type": "BC-tree",
                   "state": {}
                 }
+              },
+              {
+                "id": "6eef7a6fea7d0a57",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              },
+              {
+                "id": "dd8c7d2443958f22",
+                "type": "leaf",
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 9
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
+            "dimension": 45.43726235741445,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -617,15 +619,28 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "e06c83cab06fb399",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 357.5,
-        "collapsed": true
+        "width": 427.50006103515625
       },
-      "active": "6d28a64e4021b480"
+      "active": "70bc4eecb8e20f2b"
     },
     "main": {
       "main": {
@@ -633,7 +648,7 @@
         "type": "split",
         "children": [
           {
-            "id": "e2c6db514b3e12a5",
+            "id": "fc8b50f78bdcfc1f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -916,12 +931,12 @@
                 }
               },
               {
-                "id": "5c05771185cb207f",
+                "id": "523cd7a78782d297",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "devoirs a rendre.md",
+                    "file": "devoirs à faire.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -932,10 +947,9 @@
           }
         ],
         "direction": "horizontal",
-        "width": 466.49993896484375,
-        "collapsed": true
+        "width": 466.49993896484375
       },
-      "active": "e2c6db514b3e12a5"
+      "active": "fc8b50f78bdcfc1f"
     }
   },
   "active": "main"

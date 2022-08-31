@@ -10,7 +10,10 @@
     "fira_code",
     "custom-admonitions.e298c0",
     "custom_callouts",
-    "breadcrumbs"
+    "breadcrumbs",
+    "custom_tasks",
+    "tasks",
+    "general_interface"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",

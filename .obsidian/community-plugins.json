@@ -35,7 +35,6 @@
   "customizable-page-header-buttons",
   "workspaces-plus",
   "txt-as-md-obsidian",
-  "obsidian-query-language",
   "rss-reader",
   "obsidian-advanced-uri",
   "obsidian-shellcommands",
@@ -43,5 +42,8 @@
   "excalibrain",
   "sliding-panes-obsidian",
   "obsidian-path-finder",
-  "obsidian-snippet-downloader"
+  "obsidian-snippet-downloader",
+  "obsidian-custom-frames",
+  "sekund",
+  "obsidian-query-language"
 ]
