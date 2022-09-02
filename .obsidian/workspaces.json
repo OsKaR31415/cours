@@ -6,25 +6,12 @@
         "type": "split",
         "children": [
           {
-            "id": "e386eb1f38ae4f29",
+            "id": "3d5bcc6a957378fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "CV.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4e3588554540a19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conférences en ligne de mathématiques et d'informatique.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,11 +92,13 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 217.00238800048828
+        "width": 217.00238800048828,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -283,9 +272,33 @@
                   "type": "RSS_FEED",
                   "state": {}
                 }
+              },
+              {
+                "id": "d57a6c1cc59bf25e",
+                "type": "leaf",
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a05eecb7dce21915",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7ab5b0693ed3805a",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 7
           },
           {
             "id": "9b0b445260de35cb",
@@ -309,10 +322,9 @@
           }
         ],
         "direction": "horizontal",
-        "width": 359.5,
-        "collapsed": true
+        "width": 359.5
       },
-      "active": "e386eb1f38ae4f29"
+      "active": "3d5bcc6a957378fe"
     },
     "maths": {
       "main": {
@@ -320,12 +332,15 @@
         "type": "split",
         "children": [
           {
-            "id": "70bc4eecb8e20f2b",
+            "id": "8f7246d5b28fb433",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "sources/annotations/livre algèbre exo7.md"
+                "file": "tangente à une courbe.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -380,7 +395,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/annotations/livre algèbre exo7.md",
+                    "file": "tangente à une courbe.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -392,7 +407,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/annotations/livre algèbre exo7.md",
+                    "file": "tangente à une courbe.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -407,8 +422,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 359,
-        "collapsed": true
+        "width": 359
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -417,7 +431,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 54.562737642585546,
+            "dimension": 77.09049255441009,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -425,7 +439,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/annotations/livre algèbre exo7.md"
+                    "file": "tangente à une courbe.md"
                   }
                 }
               },
@@ -467,11 +481,11 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/annotations/livre algèbre exo7.md",
+                    "file": "tangente à une courbe.md",
                     "options": {
-                      "collapse-filter": false,
+                      "collapse-filter": true,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                      "localJumps": 1,
+                      "localJumps": 5,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": true,
@@ -556,12 +570,12 @@
                       "textFadeMultiplier": -1,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 2.66151355284701,
-                      "collapse-forces": true,
-                      "centerStrength": 0.791642706536324,
-                      "repelStrength": 15.6584243818286,
+                      "collapse-forces": false,
+                      "centerStrength": 0.540338010204082,
+                      "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.5992016463322635,
+                      "scale": 1.4424609312847394,
                       "close": true
                     }
                   }
@@ -600,12 +614,12 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 45.43726235741445,
+            "dimension": 22.90950744558992,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -633,14 +647,14 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 427.50006103515625
+        "width": 100,
+        "collapsed": true
       },
-      "active": "70bc4eecb8e20f2b"
+      "active": "8f7246d5b28fb433"
     },
     "main": {
       "main": {
@@ -648,11 +662,29 @@
         "type": "split",
         "children": [
           {
-            "id": "fc8b50f78bdcfc1f",
+            "id": "058cf01b12bded24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes rentrée Blois 2022-09-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0ceec91d937b4e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Patrick marcel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -706,7 +738,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "notes rentrée Blois 2022-09-02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -718,7 +750,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "notes rentrée Blois 2022-09-02.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -751,7 +783,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "things to do.md"
+                    "file": "notes rentrée Blois 2022-09-02.md"
                   }
                 }
               },
@@ -793,7 +825,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "notes rentrée Blois 2022-09-02.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -908,9 +940,17 @@
                   "type": "BC-tree",
                   "state": {}
                 }
+              },
+              {
+                "id": "f362aac240e2a4d8",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -920,6 +960,7 @@
               {
                 "id": "cb9c41a428bebf8c",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -927,12 +968,14 @@
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
                 "id": "523cd7a78782d297",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -940,16 +983,17 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 466.49993896484375
+        "width": 306.5
       },
-      "active": "fc8b50f78bdcfc1f"
+      "active": "058cf01b12bded24"
     }
   },
   "active": "main"

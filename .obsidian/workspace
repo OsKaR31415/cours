@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8b50f78bdcfc1f",
+        "id": "058cf01b12bded24",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "notes rentrée Blois 2022-09-02.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e0ceec91d937b4e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Patrick marcel.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -62,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "things to do.md",
+                "file": "notes rentrée Blois 2022-09-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -74,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "things to do.md",
+                "file": "notes rentrée Blois 2022-09-02.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "things to do.md"
+                "file": "notes rentrée Blois 2022-09-02.md"
               }
             }
           },
@@ -149,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "things to do.md",
+                "file": "notes rentrée Blois 2022-09-02.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -264,9 +282,17 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "f362aac240e2a4d8",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
@@ -276,6 +302,7 @@
           {
             "id": "cb9c41a428bebf8c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -283,12 +310,14 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
             "id": "523cd7a78782d297",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -296,26 +325,27 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 466.49993896484375
+    "width": 306.5
   },
-  "active": "fc8b50f78bdcfc1f",
+  "active": "058cf01b12bded24",
   "lastOpenFiles": [
-    "().md",
-    "daily/2022-08-31.md",
+    "daily/2022-09-02.md",
+    "Département informatique (Blois).md",
+    "Patrick marcel.md",
+    "daily/2022-09-05.md",
+    "daily/2022-09-01.md",
     "things to do.md",
-    "daily/2022-08-10.md",
-    "devoirs à faire.md",
-    "devoirs.md",
-    "sources/annotations/livre algèbre exo7.md",
-    "transformations paramétrisées.md",
-    "meta.md",
-    "truc à faire.md"
+    "famille.md",
+    "démonstration de l'expression de l'arg sinus hyperbolique.md",
+    "fonction arg cosinus hyperbolique.md",
+    "devoirs à faire.md"
   ]
 }
