@@ -11,15 +11,18 @@
 > 💻 : informatique
 > 🎵 : musique
 
-> [!query]- Eléments du CV
+> [!query] Eléments du CV
 > ```dataview
 > TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
 > WHERE contains(file.tags, "CV")
 >    or contains(file.outlinks, [[CV]])
 > WHERE file.name != this.file.name
-> SORT date
+> WHERE contains(up, [[CV]]) OR contains(up.up, [[CV]]) OR contains(up.up.up, [[CV]])
+> SORT up.up.up, up.up, date
 > ```
+
+
 
 ## Par thèmes
 

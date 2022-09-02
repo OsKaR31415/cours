@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2020-09-08
 description::"soutien en mathématiques des élèves en difficulté de seconde et terminale"
 compétences:: 🧑‍🏫 🧮

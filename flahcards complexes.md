@@ -15,8 +15,8 @@ $z = \overline{z} \iff z\in\R$
 Propriété de $z$ quand $z = -\overline{z}$
 ?
 $z\in i\R$
-<!--SR:!2022-08-27,23,150-->
+<!--SR:!2022-10-27,58,170-->
 
 $z\times\overline{z}$ :: $= |z|^2$
-<!--SR:!2022-08-25,21,210-->
+<!--SR:!2022-10-18,49,210-->
 

@@ -1,5 +1,7 @@
+up::[[CV]]
 date::2022-04-05, 2022-04-06
 compétences:: 🧑‍🏫 🗣️ 💻 🧮
+description::"Deux conférences, à Tours et à Blois (univ. de Tours)"
 #CV #maths #informatique 
 # conférence jeu de la vie rencontres audacieuses
 Conférences sur le [[jeu de la vie]] dans le cadre des "rencontres audacieuses", à l'université de Tours :

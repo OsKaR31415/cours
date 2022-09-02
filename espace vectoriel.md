@@ -4,7 +4,7 @@ sr-interval: 97
 sr-ease: 267
 alias: "ev"
 ---
-up::[[MOC algèbre]]
+up::[[structure algébrique]]
 #maths/algèbre #review 
 # espace vectoriel
 

@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2019 #todo
 description::"pass VIP offert par l'organisateur"
 #CV #maths 

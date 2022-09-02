@@ -25,3 +25,6 @@ $$\begin{aligned}
 \left\{\begin{array}{rrrrrl}x&+y&+7z&=&-7&(L_1\rightarrow L_1)\\ &-3y&-9z&=&-3&(L_2-2L_1\rightarrow L_2)\\ &-2y&-2z&=&-6&(L_3+L_1\rightarrow L_3) \end{array}\right.\\
 \end{aligned}$$
 
+### Méthode générale 
+
+![[système linéaire 2022-08-29 17.52.52.excalidraw|1500]]

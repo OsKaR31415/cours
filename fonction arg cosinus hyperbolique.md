@@ -10,7 +10,6 @@ sibling::[[fonction arg sinus hyperbolique]]
 
 $\begin{align*} \arg\ch : \quad & [1;+\infty[ \rightarrow \R^{+} \\ & y \mapsto x \text{ tel que } \ch(x) = y \\ &x \mapsto \ln(x + \sqrt{x^{2} - 1})\end{align*}$
 
-[[démonstration expression de l'arg cosinus hyperbolique]]
 
 ## Propriétés
 
@@ -18,3 +17,5 @@ $\begin{align*} \arg\ch : \quad & [1;+\infty[ \rightarrow \R^{+} \\ & y \mapsto 
  - $\arg\ch$ est [[fonction dérivable|dérivable]] sur $]1;+\infty[$ (pas en 1 à cause de la [[fonction racine carrée|racine carrée]])
      - $(\arg\ch)'(x) = \dfrac{1}{\sqrt{x^{2}-1}}$
  - 
+
+[[démonstration expression de l'arg cosinus hyperbolique|démonstration]] de $\arg\ch x = \ln \left( x+\sqrt{x^{2}-1} \right)$

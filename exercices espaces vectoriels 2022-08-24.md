@@ -1,5 +1,5 @@
 date::2022-08-24
-#exercice 
+#exercice #maths/algèbre 
 # exercices espaces vectoriels 2022-08-24
 
 ## [[sous espace vectoriel|sev]] de $\R$ munis de $\times$
@@ -77,26 +77,36 @@ Pour appartenir à $F$, un vecteur doit être une combinaison linéaire de $u$ e
 $\alpha u + \beta v$
 
 Donc, on doit avoir $-5 \alpha + 4 \beta = -37$ et $3 \alpha + 7 \beta = -3$
-
+On utilise la méthode de résulution par déterminant (voir [[système linéaire à deux inconnues]])
 $$\begin{align*}
 \left\{ \begin{gathered}
 -5 \alpha + 4 \beta = -37\\
 3 \alpha + 7 \beta = -3
 \end{gathered} \right. &\iff 
 \left\{ \begin{gathered}
--5 \alpha + 4 \beta = -37\\
-5 \alpha + \frac{35}{3} \beta = -5
-\end{gathered} \right.\\[1em]
-&\iff
-\left\{ \begin{gathered}
-\alpha = \frac{127}{167}\\
-\beta = - \frac{126}{167}
+\alpha = \frac{1}{\small\begin{vmatrix}-5&4\\3&7\end{vmatrix}} \begin{vmatrix} -37&4\\-3&7 \end{vmatrix}\\
+\beta = \frac{1}{\small\begin{vmatrix}-5&4\\3&7\end{vmatrix}} \begin{vmatrix} -5&-37\\3&-3 \end{vmatrix}
 \end{gathered} \right.\\
+&\iff \left\{ \begin{gathered}
+\alpha = \frac{247}{47}\\
+\beta = - \frac{126}{47}
+\end{gathered} \right.
 \end{align*}$$
-Alors, on sait que $\lambda = \frac{127}{167} - 2\times \frac{126}{167} = - \frac{125}{167}$ et que $\mu = 2 \times \frac{127}{167} + \frac{126}{167} = \frac{280}{167}$
+Alors, on sait que $\lambda = \alpha + 2\beta = - \frac{5}{47}$ et que $\mu = 2\alpha - \beta = \frac{368}{47}$
 Donc :
-$\left\{ \begin{gathered} \lambda = - \frac{156}{167}\\ \text{et} \\ \mu = \frac{280}{167} \end{gathered} \right.$
+$\left\{ \begin{gathered} \lambda = - \frac{5}{47} \\ \text{et} \\ \mu = \frac{368}{47} \end{gathered} \right.$
 
 ## Exercice 976
 Montrer que $a = (1, 2, 3)$ et $b = (2,-1,1)$ engendrent le même [[sous espace vectoriel|sev]] de $\R^{3}$ que $c=(1,0,1)$ et $d=(0,1,1)$
 
+$(c; d)$ est une [[famille de vecteurs libre]] car $c$ et $d$ ne sont pas [[vecteurs colinéaires|colinéaires]], leur [[sous espace vectoriel|sev]] engendré est donc de [[dimension d'un espace vectoriel|dimension]] 2.
+De même pour $(a;b)$.
+
+Or, $a = c + 2d$ et $b = 2c - d$
+
+Donc, puisque $(a;b)$ est [[famille de vecteurs libre|libre]] et engendre un [[sous espace vectoriel|sev]] de [[dimension d'un espace vectoriel|dimension]] 2, on peut dire qu'elle génère le même [[sous espace vectoriel|sev]] que $(c;d)$ car $(a;b)$ est contenue  dans le [[sous espace vectoriel|sev]] généré par $(c;d)$
+ - $(a;b)$ est [[famille de vecteurs libre|libre]]
+ - $a$ et $b$ ne sont pas [[vecteurs colinéaires|colinéaires]]
+ - donc $(a;b)$ engendre un [[sous espace vectoriel|sev]] de [[dimension d'un espace vectoriel|dimension]] 2
+ - $(a;b) \subset \text{Vect}(a;b)$
+ 

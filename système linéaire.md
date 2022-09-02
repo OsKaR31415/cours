@@ -26,6 +26,20 @@ Voir les [[résolution d'un SL|méthodes de résolution]]
 Un système linéaire peut être [[représentation matricielle d'un SL|représenté avec des matrices]].
 
 ## Systèmes particuliers
+ - [ ] #todo faire des notes pour chaque section
+
+> [!query]- Sous-notes de [[système linéaire]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#excalidraw AND -#MOC
+> WHERE contains(file.outlinks, [[système linéaire]])
+>    or contains(up,          [[système linéaire]])
+>    or contains(up.up,       [[système linéaire]])
+>    or contains(up.up.up,    [[système linéaire]])
+>    or contains(up.up.up.up, [[système linéaire]])
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
 ### Incompatible
 Un système _incompatible_ est un système qui n'admet aucune solution.
 
@@ -36,3 +50,4 @@ $(H) : \left\{\begin{array}{l}ax + by = 0\\ cx + dy = 0\end{array}\right.$
 
 ### Equivalent
 Deux systèmes sont _équivalents_ si l'ensemble de leurs solution est égal.
+

@@ -1,3 +1,4 @@
+up::[[CV]]
 description::"cours donnés, niveau collège/lycée"
 compétences:: 🧑‍🏫 🧮
 #CV #maths 

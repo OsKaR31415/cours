@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2020-07-03
 description::"spectacle de magie pour _la nuit des Maths_"
 #CV

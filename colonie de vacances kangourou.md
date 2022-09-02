@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2022-07-6
 date-end::2022-07-12
 description::"animation d'une colonie de vacances mathématique"

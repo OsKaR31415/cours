@@ -19,6 +19,8 @@ x = \sinh(y)
 
  - $\arg\sh$ est [[fonction dérivable|dérivable]] sur $\R$
      - $(\arg\sh)'(x) = \dfrac{1}{\sqrt{1+x^{2}}}$
- - 
+
+
+[[démonstration de l'expression de l'arg sinus hyperbolique|démonstration]] de $\arg\sh x = \ln \left( x+ \sqrt{1+x^{2}} \right)$
 
 

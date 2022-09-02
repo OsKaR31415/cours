@@ -25,3 +25,4 @@ $$f(x) =_{x_0} o(g(x)) \iff \lim_{x\rightarrow x_0}\dfrac{f(x)}{g(x)} = 0$$
  - $f = o(g) \implies f = O(g)$
      - où $O$ désigne la [[domination en un point]]
 
+ - $o(1) = \varepsilon(x)$ car $\lim \frac{o(1)}{1} = 0$ donc $\lim o(1) = 0$

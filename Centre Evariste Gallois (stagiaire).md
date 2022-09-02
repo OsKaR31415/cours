@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2018-06-17
 date-end::2018-06-23
 description::"stage de mathématiques"

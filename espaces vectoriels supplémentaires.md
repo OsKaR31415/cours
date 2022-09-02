@@ -1,3 +1,6 @@
+---
+alias: "supplémentaires"
+---
 up::[[somme d'espaces vectoriels]]
 sibling::[[somme directe d'espaces vectoriels]]
 #maths/algèbre #no-review 
@@ -11,4 +14,4 @@ $F$ et $G$ sont _supplémentaires dans $E$_ ssi tout élément de $E$ s'écrit d
  
  - $F+G = E$ et $F \cap G = \{0_{E}\}$
 
- - $F \oplus G = E$ ($F$ et $G$ sont en [[somme directe d'espaces vectoriels|somme directe]] dans $E$)
+ - $F \oplus G = E$ ($F$ et $G$ sont en [[somme directe d'espaces vectoriels|somme directe]] dans un [[espace vectoriel|ev]] $E$)

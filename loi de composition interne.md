@@ -19,6 +19,8 @@ Pour qu'une [[loi de composition]] soit _interne_, il faut que $\forall (x,y)\in
 - $(\{1, 2, 3\}, \times)$ --> $\times$ n'est pas une LCI sur $\{1, 2, 3\}$ car $2\times3 \not\in \{1, 2, 3\}$
 - $(\{0, 1\}, \times)$ --> $\times$ est une LCI sur $\{0,1\}$ car $\forall (x,y)\in\{0,1\}^2,\; x\times y \in \{0,1\}$
 
+$\notin$
+
 ## Voir
  - [[stabilité sur un ensemble]]
  - [[table de cayley]]

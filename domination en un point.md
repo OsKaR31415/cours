@@ -15,10 +15,13 @@ $\exists M\in\R^{+}, |f(x)| \leq M|g(x)|$ au voisinage de $a$
 $\exists M\in\R^{+}, \exists \alpha\in\R^{+*}, \forall x \in ]a-\alpha; a+\alpha[, |f(x)| \leq M|g(x)|$
 
 ## Notation
-On note $f = O(g)$ pour "_$f$ est dominée par $g$_".
+On note $f = O_{a}(g)$ pour "_$f$ est dominée par $g$ au voisinage de $a$_".
 c'est la notation du **grand O**
 
+
 ## Propriétés
+
+ - $O_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
 
 ## Voir :
 

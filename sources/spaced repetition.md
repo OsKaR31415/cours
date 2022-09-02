@@ -1,3 +1,4 @@
+link::https://ncase.me/remember/fr.html
 #PKM #obsidian
 # spaced repetition
 

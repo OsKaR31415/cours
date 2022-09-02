@@ -16,7 +16,7 @@
 
 > [!question] notes without review state
 > ```dataview
-> LIST FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir
+> LIST FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait
 > WHERE !contains(file.path, "sources")
 >   and !contains(file.path, "daily")
 >   and !contains(file.path, "__sekund__")

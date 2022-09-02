@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2019-05-11, 2019-05-30
 date-end::2019-05-12, 2019-06-02
 description::"deuxièmes régionaux, participation en finale nationale"

@@ -3,12 +3,12 @@
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
-<!--SR:!2022-08-30,7,242-->
+<!--SR:!2022-09-03,3,242-->
 
 Formule d'Euler pour $\sin(x)$
 ?
 $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
-<!--SR:!2022-08-31,18,201-->
+<!--SR:!2022-10-22,52,221-->
 
 Cosinus d'une somme $\cos(a+b) = ?$
 ?
@@ -18,7 +18,7 @@ $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
 Sinus d'une somme $\sin(a+b) = ?$
 ?
 $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
-<!--SR:!2022-08-28,16,210-->
+<!--SR:!2022-10-23,54,230-->
 
 Tangente d'une somme $\tan(a+b) = ?$
 ?
@@ -33,7 +33,7 @@ Sinus du double $\sin(2x) = ?$ :: $\sin(2x) = 2\sin(x)\cos(x)$
 
 
 Cosinus hyperbolique d'une somme $\ch(a+b) =?$ :: $\ch(a)\ch(b) + \sh(a)\sh(b)$
-<!--SR:!2022-08-27,9,234-->
+<!--SR:!2022-10-09,40,254-->
 
 Sinus hyperbolique d'une somme $\sh(a+b) =?$ :: $\sh(a)\ch(b) + \ch(a)\sh(b)$
 <!--SR:!2022-09-13,21,234-->

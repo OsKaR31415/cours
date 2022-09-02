@@ -1,5 +1,5 @@
 due::
 title::
-importance::🟩 🟧 🟥
+difficulty::🟩 🟧 🟥
 #devoir
 # {{TITLE}}

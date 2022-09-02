@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2020-02-09
 description::"jusqu'au 2ème tour régional, à Angers"
 compétences:: 💻

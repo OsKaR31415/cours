@@ -1,3 +1,4 @@
+up::[[CV]]
 date::2020-06-18
 description::"conférence filmée avec l'université d'orléans"
 compétences:: 🧑‍🏫 🗣️ 🧮 💻

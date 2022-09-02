@@ -6,7 +6,7 @@
 
 #### Devoirs
 ```dataview
-TABLE due, title as "description"
+TABLE difficulty as "", date, title as "description"
 FROM #devoir
 WHERE due = date({{DATE:YYYY-MM-DD}})
 ```

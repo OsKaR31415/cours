@@ -1,3 +1,4 @@
+up::[[CV]]
 description::"concerts de musique jazz et classique"
 compétences:: 🤝 🎵
 #CV
