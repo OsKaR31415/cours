@@ -55,12 +55,11 @@ here are the default types :
 > [!todo] todo
 > note the check mark instead of the i with `[!info]`
 
-> [!tip]- tip, hint, important
-> lorem ipsum dolor sit amet
-
 > [!done]- done, success, check
 > lorem ipsum dolor sit amet
 
+> [!tip]- tip, hint, important
+> lorem ipsum dolor sit amet
 > [!question]- question, help, faq
 > lorem ipsum dolor sit amet
 
@@ -86,4 +85,10 @@ here are the default types :
 
 > [!query] query
 > this is green and small. Used to wrap queries.
+
+> [!idea]
+> ideas for future things, improvements
+
+> [!definition]
+> for (mathematical) definitions
 

@@ -1,3 +1,6 @@
+---
+alias: "informatique"
+---
 #informatique #MOC
 # MOC informatique
 

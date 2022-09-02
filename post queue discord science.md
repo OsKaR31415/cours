@@ -2,6 +2,9 @@ up::[[post queues]]
 #science #no-review 
 # post queue discord science
 
+> [!todo] The concept of ruliad
+> Article de stephen wolfram sur la structure de "_ruliad_", possiblement la structure de l'univers.
+> https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/
 
 
 > [!todo] Prise de notes avec $\LaTeX$

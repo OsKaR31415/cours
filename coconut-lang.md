@@ -1,3 +1,5 @@
+up::[[langage de programmation]]
+title::"surcouche de python plus fonctionnelle. Pratique pour tester des choses rapidement."
 #informatique #no-review 
 # coconut-lang
 Langage de programmation : surcouche de python plus fonctionnelle

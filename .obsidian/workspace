@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "058cf01b12bded24",
+        "id": "609ff408cfbae38d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes rentrée Blois 2022-09-02.md",
+            "file": "sources/maths pédagogie activité interactive calculus (limites).md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "e0ceec91d937b4e6",
+        "id": "f15804a8a1356af1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Patrick marcel.md",
+            "file": "sources/wolfram concept of ruliad.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -75,12 +75,28 @@
             }
           },
           {
+            "id": "325e33879123bbe0",
+            "type": "leaf",
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "34680178bc620da8",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes rentrée Blois 2022-09-02.md",
+                "file": "sources/maths pédagogie activité interactive calculus (limites).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes rentrée Blois 2022-09-02.md",
+                "file": "sources/maths pédagogie activité interactive calculus (limites).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +117,21 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "6d4414eb0622ce1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "615b317b1df0f30f",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
             }
           }
         ]
@@ -125,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes rentrée Blois 2022-09-02.md"
+                "file": "sources/maths pédagogie activité interactive calculus (limites).md"
               }
             }
           },
@@ -154,20 +185,12 @@
             }
           },
           {
-            "id": "609ff408cfbae38d",
-            "type": "leaf",
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "notes rentrée Blois 2022-09-02.md",
+                "file": "sources/maths pédagogie activité interactive calculus (limites).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -292,7 +315,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "9b0b445260de35cb",
@@ -333,19 +356,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 369.5,
+    "collapsed": true
   },
-  "active": "058cf01b12bded24",
+  "active": "609ff408cfbae38d",
   "lastOpenFiles": [
-    "daily/2022-09-02.md",
-    "Département informatique (Blois).md",
-    "Patrick marcel.md",
-    "daily/2022-09-05.md",
-    "daily/2022-09-01.md",
-    "things to do.md",
-    "famille.md",
-    "démonstration de l'expression de l'arg sinus hyperbolique.md",
-    "fonction arg cosinus hyperbolique.md",
-    "devoirs à faire.md"
+    "attachments/Pasted image 20220903010214.png",
+    "sources/maths pédagogie activité interactive calculus (limites).md",
+    "attachments/Pasted image 20220903010042.png",
+    "attachments/Pasted image 20220903005945.png",
+    "attachments/Pasted image 20220903005732.png",
+    "attachments/Pasted image 20220903005605.png",
+    "sources/wolfram concept of ruliad.md",
+    "post queue discord science.md",
+    "attachments/Pasted image 20220903005216.png",
+    "attachments/Pasted image 20220903005120.png"
   ]
 }

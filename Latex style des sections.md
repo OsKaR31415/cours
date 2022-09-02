@@ -1,9 +1,10 @@
-up::[[latex]]
+up::[[LaTeX]]
+title::"comment changer le style des sections en latex"
 #informatique #no-review 
 
 
-# Latex format des sections
-Comment formatter les sections en LaTeX ?
+# Latex style des sections
+Comment changer le style des sections en LaTeX ?
 
 ## Numérotation des sections
 La numérotation est définie par les commandes `\thechapter`, `\thesection`, `\thesubsection` etc.

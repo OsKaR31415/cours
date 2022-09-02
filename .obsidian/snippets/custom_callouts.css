@@ -36,11 +36,16 @@
 
 .callout[data-callout="idea"] {
     /* ideas for future things (improvements...) */
-    --callout-color: 88, 61, 224;
-    --callout-icon: pencil;
+    --callout-color: 252, 213, 0;
+    --callout-icon: Lightbulb;
 }
 
 
+.callout[data-callout="definition"] {
+    /* definitions (expecially in maths) */
+    --callout-color: 77, 149, 247;
+    --callout-icon: Feather;
+}
 
 
 

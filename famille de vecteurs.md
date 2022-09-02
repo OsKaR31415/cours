@@ -3,4 +3,6 @@ up::[[espace vectoriel]]
 # famille de vecteurs
 Une [[famille]] de [[vecteur|vecteurs]]
 
+## Propriétés
 
+> [!note] 
