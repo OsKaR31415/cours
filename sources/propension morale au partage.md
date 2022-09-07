@@ -1,6 +1,7 @@
 #citation
 author::[[Jean-Paul Delahaye]]
 source::[[Livre - Jeux finis et infinis]]
+title::"nous avons une propension naturelle au partage (cf. [[jeu de l'ultimatum]])"
 # propension morale au partage
 
 

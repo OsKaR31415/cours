@@ -2,6 +2,7 @@
 sr-due: 2022-09-02
 sr-interval: 14
 sr-ease: 270
+alias: "sl"
 ---
 
 up::[[MOC algèbre]]
@@ -26,9 +27,7 @@ Voir les [[résolution d'un SL|méthodes de résolution]]
 Un système linéaire peut être [[représentation matricielle d'un SL|représenté avec des matrices]].
 
 ## Systèmes particuliers
- - [ ] #todo faire des notes pour chaque section
-
-> [!query]- Sous-notes de [[système linéaire]]
+> [!query] Sous-notes de [[système linéaire]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#excalidraw AND -#MOC
@@ -40,14 +39,5 @@ Un système linéaire peut être [[représentation matricielle d'un SL|représen
 > WHERE file.name != this.file.name
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
-### Incompatible
-Un système _incompatible_ est un système qui n'admet aucune solution.
 
-### Homogène
-Un système est _homogène_ si $(x, y,\ldots)=(0, 0, \ldots)$ est solution du système.
-On dit aussi que le système est _sans second membre_, car les systèmes homogènes sont de la forme :
-$(H) : \left\{\begin{array}{l}ax + by = 0\\ cx + dy = 0\end{array}\right.$
-
-### Equivalent
-Deux systèmes sont _équivalents_ si l'ensemble de leurs solution est égal.
 

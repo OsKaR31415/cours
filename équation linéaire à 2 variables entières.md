@@ -1,4 +1,4 @@
-up::[[MOC algèbre]]
+up::[[système linéaire]]
 #maths/arithmétique #no-review 
 # équation linéaire à 2 variables entières
 Equations de la forme

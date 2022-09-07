@@ -1,5 +1,5 @@
 author::[[Jean-Paul Delahaye]]
-ISBN::978.2.02.096483
+title::"livre sur des jeux mathématiques, sur la généralisation dans des cas infinis"
 #source
 # Livre - Jeux finis et infinis
 

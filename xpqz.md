@@ -1,10 +1,9 @@
 #personne
-# Adám Brudzewsky
+# xpqz
 
 
 ```dataview
 LIST title
-FROM ""
+FROM "sources"
 WHERE contains(author, this.file.link)
 ```
-

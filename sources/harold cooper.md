@@ -1,10 +1,9 @@
+link::https://x.st
 #personne
-# Adám Brudzewsky
-
+# harold cooper
 
 ```dataview
-LIST title
+TABLE title, link
 FROM ""
 WHERE contains(author, this.file.link)
 ```
-

@@ -7,8 +7,8 @@ Prof de maths de lycée
 ## Articles
 ```dataview
 LIST title
-FROM "sources"
-where author = this.file.link
+FROM ""
+where contains(author, this.file.link)
 ```
 
 
