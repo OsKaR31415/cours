@@ -3,12 +3,12 @@ up::[[post queues]]
 # post queue docstring
 
 
-> [!todo] Prise de notes avec $\LaTeX$
+> [!done] Prise de notes avec $\LaTeX$
 > comment être efficace dans la prise de notes avec $\LaTeX$
 > Explication d'un système de raccourcis efficace pour taper du $\LaTeX$
 > https://castel.dev/post/lecture-notes-1/
 
-> [!todo] word embeddings
+> [!done] word embeddings
 > https://x.st/fooling-around-with-word-embeddings/
 > espaces vectoriels sémantiques
 
