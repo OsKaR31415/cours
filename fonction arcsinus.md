@@ -22,17 +22,18 @@ $\sin$ est définie sur $\mathbb{R}$, et n'est pas [[bijection|bijective]] sur c
 Mais si on la limite à certains intervalles, elle peut être bijective.
 En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], elle est donc [[bijection|bijective]], et donc possède une réciproque, la fonction $\arcsin$
 
-$$\begin{aligned}
-\sin: &\left[-\dfrac\pi2; \dfrac\pi2\right] \rightarrow \left[-1; 1\right]\\
-      &x \mapsto \sin(x)\\
-&\\
-\arcsin: &[-1; 1] \rightarrow \left[-\dfrac\pi2; \dfrac\pi2\right]\\
-    &x \mapsto y\text{ tel que }\sin(y) = x \text{ et } y\in\left[-\dfrac\pi2; \dfrac\pi2\right]\\
-\end{aligned}$$
-⚠️ attention :
- - $\forall x\in\left[-\dfrac\pi2; \dfrac\pi2\right], \sin(\arcsin(x)) = x$
- - $\forall x\in\mathbb{R}, \arcsin(\sin(x))\neq x$ (en général)
- - $\forall x\in\left[\dfrac\pi2; \dfrac\pi2\right], \arcsin(\sin(x)) = x$ (seul cas où c'est égal)
+> [!définition]
+> $$\begin{aligned}
+> \sin: &\left[-\dfrac\pi2; \dfrac\pi2\right] \rightarrow \left[-1; 1\right]\\
+>       &x \mapsto \sin(x)\\
+> &\\
+> \arcsin: &[-1; 1] \rightarrow \left[-\dfrac\pi2; \dfrac\pi2\right]\\
+>     &x \mapsto y\text{ tel que }\sin(y) = x \text{ et } y\in\left[-\dfrac\pi2; \dfrac\pi2\right]\\
+> \end{aligned}$$
+
+ - [p] $\forall x\in\left[-\dfrac\pi2; \dfrac\pi2\right], \sin(\arcsin(x)) = x$
+ - [!] $\forall x\in\mathbb{R}, \arcsin(\sin(x))\neq x$ (en général)
+     - [p] $\forall x\in\left[\dfrac\pi2; \dfrac\pi2\right], \arcsin(\sin(x)) = x$ (seul cas où c'est égal)
 
 ## Notes
 

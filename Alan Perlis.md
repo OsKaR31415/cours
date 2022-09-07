@@ -6,3 +6,10 @@ Mathématicien, Informaticien
  - A participé à la création d'[[Algol]]
  - Auteur de SICP (Structure and Interpretation of Computer Programs)
      - Livre à propos de [[LISP]]
+
+```dataview
+LIST title
+FROM ""
+WHERE contains(author, this.file.link)
+```
+

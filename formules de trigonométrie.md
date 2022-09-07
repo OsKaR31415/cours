@@ -2,8 +2,6 @@ up::[[MOC trigonométrie]]
 #maths/trigonométrie #no-review 
 # formules de trigonométrie
 
-## [[Formules d'Euler]]
-
 ## Formules de somme
 
  - $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
@@ -40,3 +38,33 @@ On pose $t=\tan\left(\dfrac{x}{2}\right)$
 Avec ces définitions, on remarque bien la [[fonction paire|parité]] des fonctions ainsi que leur ensemble de définition (la [[fonction tangente]] n'est pas définie quand $t^2 = 1$ soit quand $x = \pm \dfrac\pi2 [\pi]$)
 
 **Note :** utile pour [[intégration|intégrer]] des fonctions trigonométriques.
+
+
+## Symétries
+
+ - $\sin\left(\frac{\pi}{2}-x\right) = \cos(x)$
+ - $\cos\left(\frac{\pi}{2} - x\right) = \sin(x)$
+ - $\tan\left(\frac{\pi}{2} - x\right) = \dfrac{1}{\tan(x)}$
+
+ - $\sin(\pi - x) = -\sin(x)$
+ - $\cos(\pi - x) = -\cos(x)$
+ - $\tan(\pi - x) = \tan(x)$
+
+
+## Formules d'Euler
+[[Formules d'Euler]]
+ - $\cos x = \frac{e^{ix} + e^{-ix}}{2}$
+ - $\sin x = \frac{e^{ix} - e^{-ix}}{2i}$
+
+
+
+
+
+
+
+
+
+
+
+
+

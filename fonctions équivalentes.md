@@ -5,16 +5,23 @@ sr-ease: 277
 alias: "équivalente"
 ---
 up::[[fonction]]
-sibling::[[négligabilité]]
+sibling::[[négligabilité]], [[domination en un point|domination]]
 #maths/analyse #review 
 # fonctions équivalentes
 Soient deux [[fonction|fonctions]] $f$ et $g$, on dit qu'elles sont _équivalentes en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x)\sim_{x_0}g(x)$.
 
 $$f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1$$
-
 > [!attention]
 > On n'écrit pas $0 \sim_{x_{0}} f$ car c'est évidemment toujours faux
 > **$f \sim_{x_{0}} 0$ n'a pas de sens**
+
+> [!definition] autre définition
+> $f \sim_{x_{0}} g$ si il existe $h$ telle que :
+>  - $\lim\limits_{x_{0}}h = 1$
+>  - $f = hg$
+> Dans cette définition, on peut avoir $f \sim_{x_{0}} 0$
+> Si $x_{0} = \pm \infty$, on peut définir $h$ seulement après $b \geq x_{0}$
+
 
 ## Propriétés
  - L'équivalence est une [[relation d'équivalence]].
@@ -27,3 +34,4 @@ $$f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1$$
  - Si $\disp\lim_{x \to x_{0}} f(x) = a \mid_{a \in \R^{*}}$ on a $f \sim_{x_{0}} a$
      - Si $a = 0$ ou $a = \pm\infty$ alors $f \nsim_{x_{0}} a$
 
+ - $f \sim_{x_{0}} g \iff f = g + o_{x_{0}}(g)$

@@ -15,6 +15,6 @@ $$\begin{align*}
 &\iff 
 \end{align*}$$
 
-- [ ] #task recopier la démonstration de l'expression de $\arg\sh$
+- [x] #task recopier la démonstration de l'expression de $\arg\sh$ ✅ 2022-09-05
 
 

@@ -1,3 +1,6 @@
+---
+alias: ["engendré", "espace vectoriel engendré"]
+---
 up::[[espace vectoriel]]
 #maths/algèbre #review 
 # espace vectoriel engendré par une famille de vecteurs

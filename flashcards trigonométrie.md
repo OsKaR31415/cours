@@ -3,7 +3,7 @@
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
-<!--SR:!2022-09-03,3,242-->
+<!--SR:!2022-09-10,7,242-->
 
 Formule d'Euler pour $\sin(x)$
 ?
@@ -39,5 +39,5 @@ Sinus hyperbolique d'une somme $\sh(a+b) =?$ :: $\sh(a)\ch(b) + \ch(a)\sh(b)$
 <!--SR:!2022-09-13,21,234-->
 
 Tangente hyperbolique d'une somme $\th(a+b) =?$ :: $\dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
-<!--SR:!2022-09-01,13,234-->
+<!--SR:!2022-10-21,48,254-->
 

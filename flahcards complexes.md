@@ -5,7 +5,7 @@ $z+\overline{z}$ :: $= 2\text{Re}(z)$
 <!--SR:!2022-09-22,35,190-->
 
 $z-\overline{z}$ :: $= 2i \text{Im}(z)$
-<!--SR:!2022-09-02,17,150-->
+<!--SR:!2022-10-13,40,170-->
 
 Propriété de $z$ quand $z = \overline{z}$
 ?
