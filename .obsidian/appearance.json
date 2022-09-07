@@ -13,7 +13,8 @@
     "breadcrumbs",
     "custom_tasks",
     "tasks",
-    "general_interface"
+    "general_interface",
+    "sidepane_icons"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",

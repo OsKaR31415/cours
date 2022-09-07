@@ -29,7 +29,6 @@
   "obsidian-hider",
   "obsidian-mind-map",
   "tag-wrangler",
-  "quick-latex",
   "quickadd",
   "obsidian-icon-shortcodes",
   "customizable-page-header-buttons",
@@ -45,5 +44,10 @@
   "obsidian-snippet-downloader",
   "obsidian-custom-frames",
   "sekund",
-  "obsidian-query-language"
+  "obsidian-query-language",
+  "graph-analysis",
+  "obsidian42-brat",
+  "nlp",
+  "url-into-selection",
+  "obsidian-latex-suite"
 ]

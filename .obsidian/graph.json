@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:#CV",
+      "color": {
+        "a": 1,
+        "rgb": 11010185
+      }
+    },
+    {
       "query": "tag:#maths",
       "color": {
         "a": 1,
@@ -78,44 +85,37 @@
       }
     },
     {
-      "query": "tag:#science",
+      "query": "tag:#science OR tag:#autres",
       "color": {
         "a": 1,
         "rgb": 15648605
       }
     },
     {
-      "query": "tag:#autres",
+      "query": "tag:#exercice OR tag:#cours",
       "color": {
         "a": 1,
-        "rgb": 6371584
+        "rgb": 16759552
       }
     },
     {
-      "query": "tag:#CV",
+      "query": "tag:#devoir OR tag:#devoir-fait",
       "color": {
         "a": 1,
-        "rgb": 11010185
-      }
-    },
-    {
-      "query": "tag:#exercice",
-      "color": {
-        "a": 1,
-        "rgb": 8870111
+        "rgb": 16711914
       }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.080078125,
+  "lineSizeMultiplier": 1.2806640625,
   "collapse-forces": true,
   "centerStrength": 0.763434600691286,
   "repelStrength": 13.7027469528834,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3431214551109299,
+  "scale": 0.12160396543008854,
   "close": true
 }

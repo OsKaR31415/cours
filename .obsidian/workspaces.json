@@ -662,12 +662,22 @@
         "type": "split",
         "children": [
           {
-            "id": "609ff408cfbae38d",
+            "id": "8fd702852c839504",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "sources/annotations/systeme exploitation intro environnement.md"
+              }
+            }
+          },
+          {
+            "id": "f738513a001e84cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/maths pédagogie activité interactive calculus (limites).md",
+                "file": "fonction arcsinus.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -675,12 +685,38 @@
             }
           },
           {
-            "id": "f15804a8a1356af1",
+            "id": "a627cc8e36938abc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/wolfram concept of ruliad.md",
+                "file": "templates/note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8fc776578b8f439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "unix commandes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79ccadd53b7e1e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "unix commandes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -712,7 +748,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#CV",
+                    "query": "tag:#personne",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -754,7 +790,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/maths pédagogie activité interactive calculus (limites).md",
+                    "file": "unix commandes.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -766,7 +802,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/maths pédagogie activité interactive calculus (limites).md",
+                    "file": "unix commandes.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -779,20 +815,6 @@
               }
             ],
             "currentTab": 4
-          },
-          {
-            "id": "6d4414eb0622ce1c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "615b317b1df0f30f",
-                "type": "leaf",
-                "state": {
-                  "type": "RSS_FEED",
-                  "state": {}
-                }
-              }
-            ]
           }
         ],
         "direction": "horizontal",
@@ -806,7 +828,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 48.291233283803855,
+            "dimension": 56.013745704467354,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -814,7 +836,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/maths pédagogie activité interactive calculus (limites).md"
+                    "file": "unix commandes.md"
                   }
                 }
               },
@@ -848,7 +870,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/maths pédagogie activité interactive calculus (limites).md",
+                    "file": "unix commandes.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -973,12 +995,12 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 51.708766716196145,
+            "dimension": 43.986254295532646,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -1003,7 +1025,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "devoirs à faire.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "backlinks": false,
                     "source": false
                   },
@@ -1014,10 +1036,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 369.5,
+        "width": 388.5,
         "collapsed": true
       },
-      "active": "609ff408cfbae38d"
+      "active": "79ccadd53b7e1e83"
     }
   },
   "active": "main"

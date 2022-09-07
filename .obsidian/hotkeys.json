@@ -236,5 +236,22 @@
       ],
       "key": "ArrowRight"
     }
-  ]
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:93be2869-85df-4541-81c0-1cfab797502d": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": []
 }

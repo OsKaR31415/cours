@@ -4,12 +4,13 @@
 /* ┗━╸╹ ╹╹┗━┛ ╹ ╹╹ ╹┗━┛   ┗━╸╹ ╹┗━╸┗━╸┗━┛┗━┛ ╹ ┗━┛ */
 
 .callout {
-    /* smaller font-size for all callouts */
-    font-size: 80%;
+    /* font-size: 80%; */
 }
 
 
 .callout[data-callout="todo"] {
+    /* orange is my color for todo
+     * (especially since tags are orange, and tasks have the #task tag) */
     --callout-color: 250, 155, 33;
     --callout-icon: clipboard check;
 }
@@ -28,9 +29,10 @@
     --callout-color: 68, 140, 80;
     --callout-icon: database;
     /* --callout-icon: '<svg>...custom svg...</svg>'; */
-    font-size: 18px; /* smaller font size, to see more results at se same time */
+    /* font-size: 18px; /1* smaller font size, to see more results at se same time *1/ */
+    font-size: 80%; /* smaller font size, to see more results at se same time */
     /* also change the size of any table contained in the callout */
-    --table-font-size: 18px;
+    --table-font-size: 80%;
 }
 
 
@@ -41,7 +43,7 @@
 }
 
 
-.callout[data-callout="definition"] {
+.callout[data-callout="definition"], .callout[data-callout="définition"]{
     /* definitions (expecially in maths) */
     --callout-color: 77, 149, 247;
     --callout-icon: Feather;

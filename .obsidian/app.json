@@ -32,5 +32,6 @@
     "templates/"
   ],
   "communityPluginSortOrder": "download",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "shortest",
+  "autoPairBrackets": false
 }

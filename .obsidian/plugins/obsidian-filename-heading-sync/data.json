@@ -1,6 +1,9 @@
 {
   "userIllegalSymbols": [],
-  "ignoredFiles": {},
+  "ignoredFiles": {
+    "démonstration croissance comparée ln x et x.md": null
+  },
   "ignoreRegex": "^(f|F)lashcards?|templates/|kanban/",
-  "useFileOpenHook": true
+  "useFileOpenHook": true,
+  "useFileSaveHook": true
 }
