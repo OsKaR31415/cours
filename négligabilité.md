@@ -5,24 +5,31 @@ sr-interval: 28
 sr-ease: 272
 ---
 up::[[fonction]]
-sibling::[[domination en un point]]
+sibling::[[domination en un point|domination]], [[fonctions équivalentes|équivalence]]
 #maths/analyse #review 
 # négligabilité
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_, et on note $f=_{x_{0}}o(g)$ :
 $\disp f =_{x_{0}} o(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
 
+> [!définition]
+> $f = o_{x_{0}}(g)$ si il existe $h$ telle que :
+>  - $\lim\limits_{x_{0}} h = 0$
+>  - $f = hg$
 
-## Notation
-On note $f =_{x_0} o(g)$
-C'est la notation du **petit O**
+> [!définition]
+> $f = o_{x_{0}}(g) \iff \forall \varepsilon>0, \forall b \in \R, \forall x \in X, x \geq b \implies |f(x)| \leq \varepsilon|g(x)|$
+> [[démonstration formule négligeabilité avec epsilon|démonstration]]
 
-## Définition
 
-$$f(x) =_{x_0} o(g(x)) \iff \lim_{x\rightarrow x_0}\dfrac{f(x)}{g(x)} = 0$$
 
 ## Propriétés
 
  - $f = o(g) \implies f = O(g)$
      - où $O$ désigne la [[domination en un point]]
-
+     
+ - Si $f = o_{+\infty}(g)$ et $h = o_{+\infty}(g)$, alors $\lambda f + \mu h = o_{+\infty}(g)$ ($(\lambda, \mu) \in \C^{2}$)
+     - stable par [[combinaison linéaire]]
+ 
  - $o(1) = \varepsilon(x)$ car $\lim \frac{o(1)}{1} = 0$ donc $\lim o(1) = 0$
+
+ - $f \sim_{x_{0}} g \iff f = g+o_{x_{0}}(g)$ ([[démonstration correspondance équivalence et domination|démonstration]])

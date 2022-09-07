@@ -1,3 +1,6 @@
+---
+alias: "inverse"
+---
 up::[[matrice]]
 #maths/algèbre #review 
 # inverse d'une matrice

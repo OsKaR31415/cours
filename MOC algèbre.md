@@ -63,8 +63,22 @@ alias: "algèbre"
 
 ## Algèbre linéaire
 
+### Combinaison linéaire
+> [!query] Sous-notes de [[combinaison linéaire]]
+> ```dataview
+> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#excalidraw AND -#MOC AND -"daily" AND -#cours AND -#exercice
+> WHERE contains(file.outlinks, [[combinaison linéaire]])
+>    or contains(up,          [[combinaison linéaire]])
+>    or contains(up.up,       [[combinaison linéaire]])
+>    or contains(up.up.up,    [[combinaison linéaire]])
+>    or contains(up.up.up.up, [[combinaison linéaire]])
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
 ### Applications linéaires
-> [!query]- Sous-notes de [[application linéaire]]
+> [!query] Sous-notes de [[application linéaire]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#excalidraw
@@ -88,16 +102,17 @@ alias: "algèbre"
 
 
 ### Matrices
-> [!query]- Sous-notes de [[matrice]]
+> [!query] Sous-notes de [[matrice]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[matrice]])
 >    or contains(up,          [[matrice]])
 >    or contains(up.up,       [[matrice]])
 >    or contains(up.up.up,    [[matrice]])
 >    or contains(up.up.up.up, [[matrice]])
-> SORT up.up.up.up, up.up.up, up.up, up.file
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
  - [[matrice]]
@@ -118,16 +133,18 @@ alias: "algèbre"
      
 
 ### Espaces vectoriels
-> [!query]- Sous-notes de [[espace vectoriel]]
+
+> [!query] Sous-notes de [[espace vectoriel]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#MOC -#excalidraw
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[espace vectoriel]])
 >    or contains(up,          [[espace vectoriel]])
 >    or contains(up.up,       [[espace vectoriel]])
 >    or contains(up.up.up,    [[espace vectoriel]])
 >    or contains(up.up.up.up, [[espace vectoriel]])
-> SORT up.up.up.up, up.up.up, up.up, up.file
+> WHERE file.name != this.file.name
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
  - [[espace vectoriel]]
@@ -142,7 +159,7 @@ alias: "algèbre"
      - [[famille de vecteurs génératrice]]
      - [[famille de vecteurs échelonnée]]
      - [[rang d'une famille de vecteurs]]
- - [[matrice d'un vecteur dans une base]]
+     - [[matrice d'un vecteur dans une base]]
 
 
  

@@ -1,6 +1,6 @@
 up::[[langage de programmation]]
 title::"langage pour créer des documents (articles, livres...)"
-#informatique 
+#informatique #no-review 
 # LaTeX
 
 

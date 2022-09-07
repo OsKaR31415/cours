@@ -1,6 +1,8 @@
 up::[[obsidian plugins]]
+link::https://github.com/joeyuping/quick_latex_obsidian
+title::"raccourcis clavier pour taper du LaTeX"
 #obsidian #no-review 
-# obsidian plugin quick latex
+# obsidian plugin quick LaTe
 
 ## Fermeture automatique
  - fermeture automatique des `(){}[]`

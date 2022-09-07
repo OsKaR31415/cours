@@ -84,11 +84,11 @@ here are the default types :
 ##### My callouts
 
 > [!query] query
-> this is green and small. Used to wrap queries.
+> this is green and small. Used to wrap dataview queries (especially in MOCs) so you can see more lines at the same time.
 
 > [!idea]
 > ideas for future things, improvements
 
 > [!definition]
-> for (mathematical) definitions
+> for definitions. both `[!definition]` and `[!définition]` works
 

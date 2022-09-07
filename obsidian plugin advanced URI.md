@@ -1,5 +1,6 @@
 up::[[obsidian plugins]]
 link::https://github.com/Vinzent03/obsidian-advanced-uri
+title::"utiliser des URI pour faire différentes actions dans obsidian"
 #obsidian 
 # obsidian plugin advanced URI
 

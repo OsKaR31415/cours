@@ -7,7 +7,7 @@ les types de checkboxes
  - [x] checked
  - [-] Barré
  - [>] Evoyer
- - [<] calendrier (<)
+ - [<] planifier (<)
  - [?] Question
  - [/] Half done
  - [!] Important
@@ -15,3 +15,13 @@ les types de checkboxes
  - [i] information
  - [I] Idea
  - [*] star
+ - [p] pros
+ - [c] cons
+ - [l] location
+ - [S] savings (S pour $)
+ - [f] fire
+ - [k] key
+ - [w] win
+ - [u] up
+ - [d] down
+

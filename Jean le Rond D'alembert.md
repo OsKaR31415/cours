@@ -1,5 +1,10 @@
 #personne 
 # Jean le Rond d'Alembert
-```query
-alembert
+
+
+```dataview
+LIST title
+FROM ""
+WHERE contains(author, this.file.link)
 ```
+

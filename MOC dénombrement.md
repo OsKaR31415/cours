@@ -1,4 +1,4 @@
-#MOC #not-done
+#MOC 
 # MOC dénombrement
 
 > [!query] Sous-notes de [[MOC dénombrement]]

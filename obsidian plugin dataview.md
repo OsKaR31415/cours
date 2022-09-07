@@ -1,4 +1,5 @@
 up::[[obsidian plugins]]
+title::"traîter le vault comme une base de donnée"
 #obsidian #no-review 
 # obsidian plugin dataview
 
