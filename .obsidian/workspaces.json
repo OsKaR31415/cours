@@ -662,22 +662,12 @@
         "type": "split",
         "children": [
           {
-            "id": "8fd702852c839504",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "sources/annotations/systeme exploitation intro environnement.md"
-              }
-            }
-          },
-          {
-            "id": "f738513a001e84cc",
+            "id": "7b3b8b61a6f02dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fonction arcsinus.md",
+                "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -685,38 +675,12 @@
             }
           },
           {
-            "id": "a627cc8e36938abc",
+            "id": "0b099aadebe76569",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8fc776578b8f439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unix commandes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79ccadd53b7e1e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unix commandes.md",
+                "file": "python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -790,7 +754,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "unix commandes.md",
+                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -802,7 +766,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "unix commandes.md",
+                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -836,7 +800,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "unix commandes.md"
+                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md"
                   }
                 }
               },
@@ -870,7 +834,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "unix commandes.md",
+                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -993,6 +957,14 @@
                   "type": "custom-frames-detexify",
                   "state": {}
                 }
+              },
+              {
+                "id": "421f3eb93f97e4e3",
+                "type": "leaf",
+                "state": {
+                  "type": "graph-analysis",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 2
@@ -1039,7 +1011,7 @@
         "width": 388.5,
         "collapsed": true
       },
-      "active": "79ccadd53b7e1e83"
+      "active": "7b3b8b61a6f02dab"
     }
   },
   "active": "main"

@@ -33,6 +33,7 @@
     font-size: 80%; /* smaller font size, to see more results at se same time */
     /* also change the size of any table contained in the callout */
     --table-font-size: 80%;
+    --font-code: 80%;
 }
 
 

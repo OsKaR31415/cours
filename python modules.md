@@ -4,7 +4,7 @@ up::[[python]]
 
 > [!query] Sous-notes de [[python modules]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> TABLE title, description, author
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[python modules]])
 >    or contains(up,          [[python modules]])

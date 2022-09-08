@@ -16,7 +16,7 @@
   "defaultViewMode": "source",
   "autoPairMarkdown": false,
   "promptDelete": false,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "rightToLeft": false,
   "spellcheck": false,
   "showUnsupportedFiles": true,

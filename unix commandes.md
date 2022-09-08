@@ -2,7 +2,6 @@ up::[[unix commandes]]
 title::"commandes du shell unix"
 # unix commandes
 
-$\sum_{k=1}}^$
 
 > [!query] Sous-notes de [[unix commandes]]
 > ```dataview
