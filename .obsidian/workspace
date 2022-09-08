@@ -15,6 +15,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "090d04c15b58a329",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Barbara Lasser.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2022-09-08.md",
+                "file": "Barbara Lasser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022-09-08.md",
+                "file": "Barbara Lasser.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022-09-08.md"
+                "file": "Barbara Lasser.md"
               }
             }
           },
@@ -163,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "daily/2022-09-08.md",
+                "file": "Barbara Lasser.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -331,11 +344,11 @@
     "direction": "horizontal",
     "width": 388.5
   },
-  "active": "f362aac240e2a4d8",
+  "active": "090d04c15b58a329",
   "lastOpenFiles": [
+    "daily/2022-09-08.md",
     "obsidian plugin LaTeX suite.md",
     "obsidian plugins.md",
-    "daily/2022-09-08.md",
     "conaissance.md",
     "foo.md",
     "templates/daily note.md",

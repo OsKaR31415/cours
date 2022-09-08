@@ -4860,6 +4860,22 @@ var cmd_symbols = {
   ":": " ",
   ";": " "
 };
+var fractions = {
+  "{1}{2}": "\xBD",
+  "{1}{3}": "\u2153",
+  "{2}{3}": "\u2154",
+  "{1}{4}": "\xBC",
+  "{1}{5}": "\u2155",
+  "{2}{5}": "\u2156",
+  "{3}{5}": "\u2157",
+  "{4}{5}": "\u2158",
+  "{1}{6}": "\u2159",
+  "{5}{6}": "\u215A",
+  "{1}{8}": "\u215B",
+  "{3}{8}": "\u215C",
+  "{5}{8}": "\u215D",
+  "{7}{8}": "\u215E"
+};
 var greek = {
   "alpha": "\u03B1",
   "beta": "\u03B2",
@@ -5134,7 +5150,7 @@ function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
   return false;
 }
 function escapeRegex(regex) {
-  const escapeChars = ["\\", "(", ")", "+", "-", "[", "]"];
+  const escapeChars = ["\\", "(", ")", "+", "-", "[", "]", "{", "}"];
   for (const escapeChar of escapeChars) {
     regex = regex.replaceAll(escapeChar, "\\" + escapeChar);
   }
@@ -5264,6 +5280,7 @@ function conceal(view) {
           ...concealSupSub(eqn, false, map_sub),
           ...concealSymbols(eqn, "\\^", "", map_super),
           ...concealSymbols(eqn, "_", "", map_sub),
+          ...concealSymbols(eqn, "\\\\frac", "", fractions),
           ...concealSymbols(eqn, "\\\\", "", __spreadValues(__spreadValues(__spreadValues({}, leftright), greek), cmd_symbols)),
           ...concealModifier(eqn, "hat", "\u0302"),
           ...concealModifier(eqn, "dot", "\u0307"),
@@ -5463,7 +5480,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h4", { text: "Snippets" });
+    containerEl.createEl("div", { text: "Snippets" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Enabled").setDesc("Whether snippets are enabled.").addToggle((toggle) => toggle.setValue(this.plugin.settings.snippetsEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.snippetsEnabled = value;
       yield this.plugin.saveSettings();
@@ -5527,7 +5544,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
         yield this.plugin.saveSettings();
       })).open();
     }));
-    containerEl.createEl("h4", { text: "Conceal" });
+    containerEl.createEl("div", { text: "Conceal" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     const fragment = document.createDocumentFragment();
     const line1 = document.createElement("div");
     line1.setText("Make equations more readable by hiding LaTeX markup and instead displaying it in a pretty format.");
@@ -5548,7 +5565,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
       }
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Highlight and color brackets" });
+    containerEl.createEl("div", { text: "Highlight and color brackets" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Color paired brackets").setDesc("Whether to colorize matching brackets.").addToggle((toggle) => toggle.setValue(this.plugin.settings.colorPairedBracketsEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.colorPairedBracketsEnabled = value;
       if (value) {
@@ -5567,7 +5584,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
       }
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Auto-fraction" });
+    containerEl.createEl("div", { text: "Auto-fraction" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Enabled").setDesc("Whether auto-fraction is enabled.").addToggle((toggle) => toggle.setValue(this.plugin.settings.autofractionEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.autofractionEnabled = value;
       yield this.plugin.saveSettings();
@@ -5577,7 +5594,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.settings.autofractionExcludedEnvs = value;
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Matrix shortcuts" });
+    containerEl.createEl("div", { text: "Matrix shortcuts" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Enabled").setDesc("Whether matrix shortcuts are enabled.").addToggle((toggle) => toggle.setValue(this.plugin.settings.matrixShortcutsEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.matrixShortcutsEnabled = value;
       yield this.plugin.saveSettings();
@@ -5587,12 +5604,12 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.matrixShortcutsEnvNames = value.replace(/\s/g, "").split(",");
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Tabout" });
+    containerEl.createEl("div", { text: "Tabout" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Enabled").setDesc("Whether tabout is enabled.").addToggle((toggle) => toggle.setValue(this.plugin.settings.taboutEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.taboutEnabled = value;
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Auto-enlarge brackets" });
+    containerEl.createEl("div", { text: "Auto-enlarge brackets" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Enabled").setDesc("Whether to automatically enlarge brackets containing e.g. sum, int, frac.").addToggle((toggle) => toggle.setValue(this.plugin.settings.autoEnlargeBrackets).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.autoEnlargeBrackets = value;
       yield this.plugin.saveSettings();
@@ -5602,7 +5619,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.autoEnlargeBracketsTriggers = value.replace(/\s/g, "").split(",");
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h4", { text: "Misc" });
+    containerEl.createEl("div", { text: "Misc" }).addClasses(["setting-item", "setting-item-heading", "setting-item-name"]);
     new import_obsidian2.Setting(containerEl).setName("Word delimiters").setDesc('Symbols that will be treated as word delimiters, for use with the "w" snippet option.').addText((text) => text.setPlaceholder(DEFAULT_SETTINGS.wordDelimiters).setValue(this.plugin.settings.wordDelimiters).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.wordDelimiters = value;
       yield this.plugin.saveSettings();

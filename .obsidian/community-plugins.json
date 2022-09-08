@@ -48,6 +48,7 @@
   "graph-analysis",
   "obsidian42-brat",
   "url-into-selection",
-  "quick-latex",
-  "obsidian-jupyter"
+  "obsidian-jupyter",
+  "obsidian-latex-suite",
+  "quick-latex"
 ]

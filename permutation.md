@@ -48,5 +48,3 @@ $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdo
 - Permutation réciproque : $\sigma^{-1}$
     - $\forall n, \sigma(\sigma^{-1}(n)) = \sigma^{-1}(\sigma(n)) = n$
     - comme une généralisation de $\sigma^n$
-
-
