@@ -662,25 +662,12 @@
         "type": "split",
         "children": [
           {
-            "id": "7b3b8b61a6f02dab",
+            "id": "8d84d1e8966598f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b099aadebe76569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python.md",
+                "file": "daily/2022-09-08.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -754,7 +741,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
+                    "file": "daily/2022-09-08.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -766,7 +753,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
+                    "file": "daily/2022-09-08.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -800,7 +787,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md"
+                    "file": "daily/2022-09-08.md"
                   }
                 }
               },
@@ -834,7 +821,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/Dysphorie de GENRE  le mirage de la TRANSITION.md",
+                    "file": "daily/2022-09-08.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -957,17 +944,9 @@
                   "type": "custom-frames-detexify",
                   "state": {}
                 }
-              },
-              {
-                "id": "421f3eb93f97e4e3",
-                "type": "leaf",
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 7
           },
           {
             "id": "9b0b445260de35cb",
@@ -1008,10 +987,9 @@
           }
         ],
         "direction": "horizontal",
-        "width": 388.5,
-        "collapsed": true
+        "width": 388.5
       },
-      "active": "7b3b8b61a6f02dab"
+      "active": "f362aac240e2a4d8"
     }
   },
   "active": "main"

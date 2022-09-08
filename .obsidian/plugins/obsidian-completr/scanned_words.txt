@@ -3092,6 +3092,8 @@ affirmative
 agent
 assignation
 argparse
+anniversaires
+anniv
 espace
 engendré
 et
@@ -7206,6 +7208,7 @@ prettyprint
 parseur
 positionnels
 paramètres
+paco
 une
 un
 utilisées
@@ -11020,6 +11023,7 @@ definir
 defaultdicts
 dictionnaires
 dynamiquement
+disphorie
 Soit
 Switch
 SR
@@ -20921,6 +20925,7 @@ tourner
 temporairement
 transferred
 typé
+transition
 EXCALIDRAW
 Elements
 EtnheR
@@ -33549,6 +33554,7 @@ LHja
 LISt
 LJUWLpUy
 LnMaju
+Louchart
 GPu
 GBEbGwOC
 Grandes
@@ -53282,6 +53288,7 @@ grammar
 gums
 gist
 grace
+genre
 xQM
 xJUw
 xu

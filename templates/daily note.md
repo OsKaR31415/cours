@@ -18,6 +18,13 @@
 > > WHERE contains(due, date(this.file.name))
 > > ```
 
+> [!query] anniversaires `=this.file.name`
+> ```dataview
+> TABLE title, anniv
+> FROM #personne 
+> WHERE contains(this.file.name, anniv)
+> ```
+
 ## I did
 
 > [!todo] tasks done

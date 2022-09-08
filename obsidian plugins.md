@@ -8,5 +8,6 @@ title::"notes sur les plugins obsidian"
 > TABLE title as "description", link
 > FROM #obsidian 
 > WHERE contains(up, this.file.link)
+> SORT link="core plugin" DESC
 > ```
 
