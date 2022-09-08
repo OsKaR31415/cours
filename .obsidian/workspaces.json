@@ -678,13 +678,8 @@
             "id": "ea2e2148535a6feb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paco Louchart.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -754,7 +749,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "paco Louchart.md",
+                    "file": "things to do.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -766,7 +761,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "paco Louchart.md",
+                    "file": "things to do.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -800,7 +795,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "paco Louchart.md"
+                    "file": "things to do.md"
                   }
                 }
               },
@@ -834,7 +829,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "paco Louchart.md",
+                    "file": "things to do.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
