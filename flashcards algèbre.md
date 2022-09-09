@@ -4,7 +4,7 @@ propriétés d'un semi groupe
 ?
 une loi de composition **interne**
 et **associative**
-<!--SR:!2022-09-09,17,172-->
+<!--SR:!2022-10-07,28,172-->
 
 propriétés d'un groupe
 ?

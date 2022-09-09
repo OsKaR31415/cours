@@ -678,8 +678,39 @@
             "id": "ea2e2148535a6feb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022-09-09.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac51a3e6fb558b9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC trigonométrie.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4ce2e0b1dde6f36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flashcards développements limités.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -749,7 +780,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "MOC trigonométrie.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -761,7 +792,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "MOC trigonométrie.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -795,7 +826,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "things to do.md"
+                    "file": "MOC trigonométrie.md"
                   }
                 }
               },
@@ -829,7 +860,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "MOC trigonométrie.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -954,7 +985,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -995,9 +1026,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 388.5
+        "width": 388.5,
+        "collapsed": true
       },
-      "active": "ea2e2148535a6feb"
+      "active": "ac51a3e6fb558b9f"
     }
   },
   "active": "main"

@@ -4,7 +4,7 @@ En BDD, la _sorte_ d'une relation est
 ?
 l'ensemble des attributs
 Ex: $sorte(R) = \{titre, réalisateur, année\}$
-<!--SR:!2022-09-08,70,270-->
+<!--SR:!2023-03-17,189,270-->
 
 En BDD, l'_arité_ d'une relation est
 ?

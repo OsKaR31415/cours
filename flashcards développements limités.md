@@ -5,7 +5,7 @@ Formule de _Taylor-Young_ pour les **développements limités**
 ?
 $$\text{DL}_n (x_0) f(x) = \sum_{k=0}^n\left( \dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\right) + (x-x_0)^n\varepsilon(x)$$ 
 avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
-<!--SR:!2022-09-09,47,201-->
+<!--SR:!2022-12-12,94,201-->
 
 
 **Développement limité**
@@ -50,9 +50,12 @@ $\DL_{2n+1}(0)\cos x =\ldots$
 ?
 $1-\dfrac{x^2}{2!}+\dfrac{x^4}{4!}-\cdots+(-1)^n\dfrac{x^{2n}}{(2n)!}+x^{2n+1}\varepsilon(x)$
 $=\sum\limits_{k=0}^{n} (-1)^{\frac{k}{2}}\frac{x^{k}}{k!}[2\mid k]$
-`{-/(⍵*k)÷!k←(2∘|⊢⍤/⊢)⍳N}x`
+```apl
+{-/(⍵*k)÷!k←((0=2∘|)⊢⍤/⊢)0,⍳N}x 
+```
 Puissances **Paires** car $\cos$ est une [[fonction paire]].
 Les parties régulières à l'ordre $2n$ et $2n+1$ sont les mêmes.
+<!--SR:!2022-09-10,1,200-->
 
 
 **Développement limité**
@@ -60,8 +63,12 @@ $\DL_n(0)\sin x =\ldots$
 ?
 $x - \dfrac{x^3}{3!}+\dfrac{x^5}{5!}-\cdots+(-1)^n\dfrac{x^{2n+1}}{2n+1!}+x^{2n+2}\varepsilon(x)$
 $\disp\sum\limits_{k=0}^{n} (-1)^{\frac{k-1}{2}}\frac{x^{k}}{k!}[2 \nmid k]$
+```apl
+{-/(⍵*k)÷!k←((1=2∘|)⊢⍤/⊢)0,⍳N}x
+```
 Puissances **Impaires** car $\sin$ est une [[fonction impaire]].
 Les parties régulières à l'ordre $2n+1$ et $2n+2$ sont les mêmes.
+<!--SR:!2022-09-11,2,219-->
 
 
 **Développement limité**
