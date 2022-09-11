@@ -5,7 +5,7 @@ title::"commandes du shell unix"
 
 > [!query] Sous-notes de [[unix commandes]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> TABLE title, usage, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[unix commandes]])
 >    or contains(up,          [[unix commandes]])

@@ -1,6 +1,19 @@
 up::[[unix commandes d'identification]]
+usage::"id ( | -A | -F | -G | -P | -g | -p | -u ) [user]"
 title::"affiche les informations sur un utilisateur"
 # unix commande id
+
+> [!definition] Usage
+> ```
+> id [user]
+> id -A
+> id -F [user]
+> id -G [-n] [user]
+> id -P [user]
+> id -g [-nr] [user]
+> id -p [user]
+> id -u [-nr] [user]
+> ```
 
 ## Exemples
 

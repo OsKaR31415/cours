@@ -1,3 +1,6 @@
+---
+alias: ["converge", "convergence"]
+---
 up::[[suite]]
 #maths/analyse #no-review 
 # suite convergente

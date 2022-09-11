@@ -12,9 +12,11 @@ Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\R$ (avec
 $f$ est _dominée_ par $g$ en $a$, ssi **$\frac{f}{g}$ est bornée au voisinage de $a$**
 
 > [!définition] Définitions
->  - $\exists M\in\R^{+}, |f(x)| \leq M|g(x)|$ au voisinage de $a$
->  - $\exists M\in\R^{+}, \exists \alpha\in\R^{+*}, \forall x \in ]a-\alpha; a+\alpha[, |f(x)| \leq M|g(x)|$
+>  - $f = \mathcal{O}_a(g) \iff \exists M\in\R^{+}, |f(x)| \leq M|g(x)|$ au voisinage de $a$
+>  - $f = \mathcal{O}_a(g) \iff \exists M\in\R^{+}, \exists \alpha\in\R^{+*}, \forall x \in ]a-\alpha; a+\alpha[, |f(x)| \leq M|g(x)|$
 
+> [!note]
+> $f$ est _dominée_ par $g$ si $f$ "_ne l'emporte pas complètement sur $g$_"
 
 ## Notation
 On note $f = O_{a}(g)$ pour "_$f$ est dominée par $g$ au voisinage de $a$_".
@@ -25,9 +27,13 @@ c'est la notation du **grand O**
 
  - $O_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
  
- - Si $f = O_{x_{0}}(g)$ et $h = O_{x_{0}}(g)$, alors $\lambda f + \mu h = O_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
+ - Si $f = \O_{x_{0}}(g)$ et $h = \O_{x_{0}}(g)$, alors $\lambda f + \mu h = \O_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
      - stable par [[combinaison linéaire]]
 
+ - $\O(\O(f)) = \O(f)$
+     - formellement si $f = \O(g)$ et $g = \O(h)$ alors $f = \O(h)$
+     - la domination est [[transitivité d'une relation|transitive]]
+ 
 ## Voir :
 
  - [[ensemble des réels complété]] : $\overline{\R}$

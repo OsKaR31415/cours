@@ -1,4 +1,5 @@
 up::[[unix commandes d'identification]]
+usage::"finger [-46gklmpsho] [user ...] [user@host ...]"
 title::"affiche les informations GECOS des utilisateurs connectés"
 #informatique/linux 
 # unix commande finger

@@ -4,51 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8d84d1e8966598f8",
+        "id": "c9b29b4854beb479",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-09-08.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "ea2e2148535a6feb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "daily/2022-09-09.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "ac51a3e6fb558b9f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "MOC trigonométrie.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "c4ce2e0b1dde6f36",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "flashcards développements limités.md",
+            "file": "unix commandes.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -122,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOC trigonométrie.md",
+                "file": "unix commandes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOC trigonométrie.md",
+                "file": "unix commandes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOC trigonométrie.md"
+                "file": "unix commandes.md"
               }
             }
           },
@@ -202,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOC trigonométrie.md",
+                "file": "unix commandes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -325,6 +286,14 @@
               "type": "custom-frames-detexify",
               "state": {}
             }
+          },
+          {
+            "id": "b85bc3439ecb2851",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -371,17 +340,17 @@
     "width": 388.5,
     "collapsed": true
   },
-  "active": "ac51a3e6fb558b9f",
+  "active": "c9b29b4854beb479",
   "lastOpenFiles": [
-    "MOC fonctions.md",
-    "fonction arcsinus.md",
-    "fonction sinus.md",
-    "dérivation.md",
-    "flashcards développements limités.md",
-    "flashcards limites.md",
-    "things to do.md",
-    "daily/2022-09-09.md",
-    "obsidian plugin LaTeX suite.md",
-    "daily/2022-09-08.md"
+    "unix commande finger.md",
+    "unix commandes d'identification.md",
+    "unix commandes.md",
+    "unix commande id.md",
+    "unix commande passwd.md",
+    "unix commande w.md",
+    "unix commande who.md",
+    "CV.md",
+    "MOC analyse.md",
+    "things to do.md"
   ]
 }

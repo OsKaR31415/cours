@@ -14,3 +14,17 @@ Enter the new password again : xxxxxxx
 > [!note]
 > modifie le fichier [[unix fichier etc-shadow|/etc/shadow]]
 
+> [!definition] Usage
+> ```
+>  passwd [-i infosystem] -l location]] [-u authname] [name]
+>   infosystem:
+>     file
+>     NIS
+>     OpenDirectory
+>     PAM
+>   location (for infosystem):
+>     file           location is path to file (default is /etc/master.passwd)
+>     NIS            location is NIS domain name
+>     OpenDirectory  location is directory node name
+>     PAM            location is not used
+> ```

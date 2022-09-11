@@ -70,3 +70,14 @@ Je suis très à l'aise à l'oral, et j'adore transmettre mes conaissances, aide
 
 J'ai déjà, et je compte développer encore dans le futur des engagements dans des associations qui mettent en avant les mathématiques et les sciences en général, pour tous les publics, comme l'association _[[la nuit des maths]]_, ou bien le _stage Evariste Galois_
 
+
+## Wrongly marked
+Each CV element should contain #CV and be linked via `up::` attribute to this file (`= this.file.link`). Here are the notes that miss one of these :
+> [!todo] CV elements that have wrong marks
+> ```dataview
+> TABLE description
+> FROM ""
+> WHERE ( contains(file.tags, "#CV") AND !contains(up, this.file.link) AND !contains(up.up, this.file.link) AND !contains(up.up.up, this.file.link) )
+>    OR ( !contains(file.tags, "#CV") AND ( contains(up, this.file.link) OR contains(up.up, this.file.link) OR contains(up.up.up, this.file.link) ) )
+> WHERE file.link != this.file.link
+> ```

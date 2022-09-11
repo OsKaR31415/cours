@@ -1,3 +1,6 @@
+---
+alias: ["transitivité", "transitive"]
+---
 up::[[relation]]
 #maths/algèbre #no-review 
 # transitivité d'une relation
