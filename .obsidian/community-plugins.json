@@ -37,7 +37,6 @@
   "rss-reader",
   "obsidian-advanced-uri",
   "obsidian-shellcommands",
-  "breadcrumbs",
   "excalibrain",
   "sliding-panes-obsidian",
   "obsidian-path-finder",
@@ -50,5 +49,7 @@
   "url-into-selection",
   "obsidian-jupyter",
   "obsidian-latex-suite",
-  "quick-latex"
+  "quick-latex",
+  "breadcrumbs",
+  "ob-table-enhancer"
 ]

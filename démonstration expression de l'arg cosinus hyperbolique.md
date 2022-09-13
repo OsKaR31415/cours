@@ -1,5 +1,6 @@
-up::[[fonction arg cosinus hyperbolique]]
+up::[[fonction cosinus hyperbolique|ch]]
 sibling::[[démonstration de l'expression de l'arg sinus hyperbolique]]
+description::"démonstration de $\arg\ch(x)=\ln\left(x + \sqrt{x^{2}-1}\right)$"
 #maths/trigonométrie #no-review 
 # démonstration expression de l'arg cosinus hyperbolique
 

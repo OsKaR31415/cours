@@ -29,7 +29,7 @@
 
 > [!todo] tasks done
 > ```tasks
-> done {{DATE}}
+> done {{DATE:YYYY-MM-DD}}
 > short mode
 > ```
 

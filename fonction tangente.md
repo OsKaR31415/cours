@@ -3,8 +3,10 @@ sr-due: 2022-09-08
 sr-interval: 20
 sr-ease: 309
 ---
-
 up::[[MOC trigonométrie]], [[MOC fonctions]]
+derivative::$1+\tan^{2(x)} = \frac{1}{\cos^{2}(x)}$
+description::"$\R \setminus \frac{\pi}{2}\Z \to \R$", "$x \mapsto \dfrac{\sin(x)}{\cos(x)}$"
+title::$\tan$
 
 #maths/analyse #maths/trigonométrie #review 
 # fonction tangente

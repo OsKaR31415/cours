@@ -3,6 +3,10 @@ alias: ["cos", "cosinus"]
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus]]
+derivative::[[fonction sinus|-sin]]
+properties::[[fonction paire|paire]]
+description::"$\R \to [-1;1]$", "$\dfrac{e^{ix}+e^{-ix}}{2}$"
+title::$\cos$
 #maths/analyse #maths/trigonométrie #no-review 
 # fonction cosinus
 

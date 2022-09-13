@@ -1,4 +1,4 @@
-up::[[ligne de commande]]
+up::[[unix commandes]]
 #informatique #no-review 
 # aamath
 outil en [[ligne de commande]].

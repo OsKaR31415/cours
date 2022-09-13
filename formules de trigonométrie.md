@@ -1,32 +1,22 @@
+---
+alias: "formule de trigonométrie"
+---
 up::[[MOC trigonométrie]]
 #maths/trigonométrie #no-review 
 # formules de trigonométrie
 
-## Formules de somme
+> [!query] Sous-notes de `=this.file.link`
+> ```dataview
+> TABLE title, join(type) as "type"
+> FROM #maths/trigonométrie AND -"templates"
+> WHERE contains(up,          this.file.link)
+>    or contains(up.up,       this.file.link)
+>    or contains(up.up.up,    this.file.link)
+>    or contains(up.up.up.up, this.file.link)
+> WHERE file.link != this.file.link
+> SORT join(type) DESC
+> ```
 
- - $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
- - $\sin(a+b) = \sin(a)\cos(b)+\sin(b)\cos(a)$
- - $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
-
- - $\ch(a+b) = \ch(a)\ch(b) + \sh(a)\sh(b)$
- - $\sh(a+b) = \sh(a)\ch(b) + \ch(a)\sh(b)$ ([[démonstration sh(a+b)|démonstration]])
- - $\th(a+b) = \dfrac{\th(a)+\th(b)}{1+\th(a)\th(b)}$
-
-## Formules de duplication
-Se déduisent des formules de somme.
-
- - $\begin{align}\cos(2x) &= \cos^2(x) - \sin^2(x)\\ &= 2\cos^2(x) -1\\ &= 1 - 2\sin^2(x)\end{align}$
-
- - $\sin(2x) = 2\sin(x)\cos(x)$
-
- - $\tan(2x) = \dfrac{2\tan(x)}{1-\tan^2(x)}$
-
- - $\ch(2x) = \ch^{2}(x) + \sh^{2}(x)$
-
- - $\sh(2x) = 2\ch(x)\sh(x)$
-
- - $\th(2x) = \dfrac{2\th(x)}{1 + \th^{2}(x)}$
- 
 ## En fonction de $t=\tan\left(\dfrac{x}{2}\right)$
 On pose $t=\tan\left(\dfrac{x}{2}\right)$
  - $\cos(x) = \dfrac{1-t^2}{1+t^2}$ ([[fonction paire]])

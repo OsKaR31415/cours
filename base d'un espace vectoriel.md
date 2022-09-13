@@ -23,3 +23,4 @@ c'est-à-dire comme une [[combinaison linéaire]] des vecteurs de cette base.
 Soit $B=\{u_1,\ldots,u_n\}$ une famille de $n$ vecteurs de $\R^n$, On a l'équivalence suivante :
  - $B$ est une _base_ de $\R^n$ $\iff$ $\det(u_1;\ldots;u_n) \neq 0$ 
 C'est-à-dire qu'une famille de vecteurs est une _base_ ssi la matrice formée par ses vecteurs (colonne) à un [[déterminant d'une matrice|déterminant]] non nul.
+

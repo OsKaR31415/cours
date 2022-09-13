@@ -1,4 +1,8 @@
+---
+alias: ["paire", "parité"]
+---
 up::[[fonction]]
+sibling::[[fonction impaire]]
 #maths/analyse #no-review 
 # fonction paire
 Une fonction $f$ est paire si et seulement si:

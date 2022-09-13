@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Stardusten/ob-table-enhancer/",
     "SkepticMystic/nlp"
   ],
   "pluginSubListFrozenVersion": [],

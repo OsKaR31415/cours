@@ -2,6 +2,11 @@
 alias: ["arccos", "arccosinus", "fonction arccosinus"]
 ---
 up::[[fonction cosinus]]
+sibling::[[fonction arcsinus|arcsin]]
+properties::
+description::"$[-1;1] \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$", "$x \mapsto \arccos(x)$"
+derivative::"$- \dfrac{1}{\sqrt{1-x^{2}}}$"
+title::$\arccos$
 #maths/analyse #maths/trigonométrie #no-review 
 # fonction arccosinus
 
@@ -18,6 +23,16 @@ $$\begin{aligned}
 \arccos: &[-1; 1] \rightarrow \left[-\dfrac\pi2; \dfrac\pi2\right]\\
 	&x \mapsto y\text{ tel que }\cos(y) = x \text{ et } y\in[0, \pi]\\
 \end{aligned}$$
+
+```desmos-graph
+width=400pt; height=400pt;
+top=3.5;
+left= -2;right=2;
+bottom=-0.5;
+---
+y=\arccos(x)
+```
+
 ## Propriétés
 
  - $\cos(\arcsin(x)) = -\sqrt{1 - x^2}$

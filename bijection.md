@@ -2,6 +2,7 @@
 sr-due: 2023-03-18
 sr-interval: 224
 sr-ease: 313
+alias: "bijective"
 ---
 up::[[application]]
 #maths/analyse #review 

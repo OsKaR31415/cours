@@ -3,6 +3,10 @@ alias: ["argsh", "arg sinus hyperbolique"]
 ---
 up::[[fonction sinus hyperbolique]]
 sibling::[[fonction arg cosinus hyperbolique]]
+properties::[[bijection|bijective]]
+derivative::$\dfrac{1}{\sqrt{1+x^{2}}}$
+description::"$\R \to \R$", "$x \mapsto \ln\left(x+ \sqrt{1+x^{2}}\right)$"
+title::$\arg \sh$
 #maths/analyse #maths/trigonométrie #review 
 # fonction arg sinus hyperbolique
 fonction [[réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]

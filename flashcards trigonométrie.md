@@ -3,7 +3,7 @@
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
-<!--SR:!2022-09-10,7,242-->
+<!--SR:!2022-09-28,17,242-->
 
 Formule d'Euler pour $\sin(x)$
 ?
@@ -29,7 +29,7 @@ Cosinus du double $\cos(2x) = ?$ :: $\cos(2x) = \cos^2(x)-\sin^2(x)$
 <!--SR:!2022-09-23,61,225-->
 
 Sinus du double $\sin(2x) = ?$ :: $\sin(2x) = 2\sin(x)\cos(x)$
-<!--SR:!2022-09-10,54,226-->
+<!--SR:!2023-01-12,123,226-->
 
 
 Cosinus hyperbolique d'une somme $\ch(a+b) =?$ :: $\ch(a)\ch(b) + \sh(a)\sh(b)$

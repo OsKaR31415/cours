@@ -8,4 +8,6 @@
 
 nmap <space>k :w<cr>
 
+nmap ; ,
+nmap , ;
 

@@ -2,6 +2,7 @@
 sr-due: 2022-10-28
 sr-interval: 83
 sr-ease: 212
+alias: "continue"
 ---
 up::[[fonction]]
 #maths/analyse #review 

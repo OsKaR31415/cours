@@ -6,6 +6,10 @@ sr-ease: 302
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus hyperbolique]]
+derivative::[[fonction sinus hyperbolique|-sh]]
+properties::[[fonction paire|paire]]
+description::"$\R \to [1; +\infty[$", "$\dfrac{e^{x}+e^{-x}}{2}$"
+title::$\ch$
 #maths/analyse #maths/trigonométrie #review 
 # fonction cosinus hyperbolique
 Notée $\cosh$ ou $\text{ch}$.

@@ -1,4 +1,4 @@
-up::[[MOC trigonométrie]]
+up::[[fonction arctangente|arctan]]
 #maths/trigonométrie #no-review 
 # Démonstration arctan(sqrt(3)) et arctan(1/sqrt(3))
 

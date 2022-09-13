@@ -1,4 +1,8 @@
+---
+alias: "impaire"
+---
 up::[[fonction]]
+sibling::[[fonction paire]]
 #maths/analyse #no-review 
 # fonction impaire
 Une fonction $f$ est impaire si et seulement si :

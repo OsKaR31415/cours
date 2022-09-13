@@ -1,3 +1,6 @@
+---
+alias: "advanced tables"
+---
 up::[[obsidian plugins]]
 link::https://github.com/tgrosinger/advanced-tables-obsidian
 title::"création/manipulation des tables markdown"

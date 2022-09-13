@@ -7,7 +7,7 @@
 [[dérivation|dérivée]] de $\cos x$ :: $-\sin x$
 <!--SR:!2023-04-20,240,330-->
 [[dérivation|dérivée]] de $\tan x$ :: $1 + \tan^2 x$
-<!--SR:!2022-09-10,1,212-->
+<!--SR:!2022-09-14,3,212-->
 [[dérivation|dérivée]] de $\tan(x)$ en fonction de $\cos$ :: $\dfrac{1}{\cos^{2}(x)}$
 <!--SR:!2023-02-21,171,280-->
 [[dérivation|dérivée]] de $\arcsin x$ :: $\dfrac1{\sqrt{1-x^2}}$
@@ -18,7 +18,7 @@
 <!--SR:!2022-09-20,33,230-->
 
 [[dérivation|dérivée]] de $\ln u$ :: $\dfrac{u'}u$
-<!--SR:!2022-09-12,72,312-->
+<!--SR:!2023-07-20,311,332-->
 [[dérivation|dérivée]] de $\ln |u|$ :: $\dfrac{u'}u$
 <!--SR:!2023-01-28,158,292-->
 [[dérivation|dérivée]] de $g\circ f$ :: $f'\times g'\circ f$
@@ -48,7 +48,7 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 [[intégration|primitive]] de $\tan x$ :: $-\ln(|\cos x|) + \text{cste.}$ 
 <!--SR:!2022-09-25,26,207-->
 [[intégration|primitive]] de $\dfrac{1}{1-x^{2}}$ :: $\arg\th$
-<!--SR:!2022-09-10,1,183-->
+<!--SR:!2022-09-14,2,163-->
 
 
 Formule de l'[[intégration par parties]]

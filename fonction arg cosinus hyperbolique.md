@@ -3,12 +3,15 @@ alias: ["argch", "arg cosinus hyperbolique"]
 ---
 up::[[fonction cosinus hyperbolique]]
 sibling::[[fonction arg sinus hyperbolique]]
+derivative::$\dfrac{1}{\sqrt{x^{2}-1}}$
+description::"$[1;+\infty[ \to \R^{+}$", "$x \mapsto \ln \left( x+\sqrt{x^{2}-1} \right)$"
+title::$\arg \ch$
 #maths/analyse #maths/trigonométrie #review 
 # fonction arg cosinus hyperbolique
 [[fonction réciproque]] du [[fonction cosinus hyperbolique|cosinus hyperbolique]]
 :luc_alert_triangle: $\ch$ n'est une bijection que de $\R^{+}$ dans $\R^{+}$, $\arg\ch$ est donc la [[fonction réciproque|réciproque]] de $\ch/_{\R^{+}}$
 
-$\begin{align*} \arg\ch : \quad & [1;+\infty[ \rightarrow \R^{+} \\ & y \mapsto x \text{ tel que } \ch(x) = y \\ &x \mapsto \ln(x + \sqrt{x^{2} - 1})\end{align*}$
+$\begin{align*} \arg\ch : \quad & [1;+\infty[ \rightarrow \R^{+} \\ & y \mapsto x \text{ tel que } \ch(x) = y \\ &x \mapsto \ln\left(x + \sqrt{x^{2} - 1}\right)\end{align*}$
 
 
 ## Propriétés

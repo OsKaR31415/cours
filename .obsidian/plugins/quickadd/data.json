@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] Sous-notes de {{VALUE}}\n> ```dataview\n> TABLE up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE contains(up,          {{VALUE}})\n>    or contains(up.up,       {{VALUE}})\n>    or contains(up.up.up,    {{VALUE}})\n>    or contains(up.up.up.up, {{VALUE}})\n> WHERE file.name != this.file.name\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
+        "format": "> [!query] Sous-notes de {{VALUE}}\n> ```dataview\n> TABLE up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE contains(up,          {{VALUE}})\n>    or contains(up.up,       {{VALUE}})\n>    or contains(up.up.up,    {{VALUE}})\n>    or contains(up.up.up.up, {{VALUE}})\n> WHERE file.link != this.file.link\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
       },
       "insertAfter": {
         "enabled": false,
@@ -154,7 +154,7 @@
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false
       },
-      "appendLink": false,
+      "appendLink": true,
       "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": false,
@@ -180,7 +180,7 @@
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false
       },
-      "appendLink": false,
+      "appendLink": true,
       "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": false,
@@ -191,7 +191,7 @@
       "openFileInMode": "default"
     },
     {
-      "id": "d908f09b-439e-43f9-ba99-d83daa2eb0d1",
+      "id": "573a6f23-e9eb-4111-a51a-7995c142a4f9",
       "name": "note",
       "type": "Capture",
       "command": true,
@@ -205,7 +205,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "up::\ntitle::\n#"
+        "format": "up::\ntitle::\n#\n"
       },
       "insertAfter": {
         "enabled": false,
