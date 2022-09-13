@@ -5,7 +5,7 @@ How i try to name notes consistently
 
 ![[Excalidraw/workflow.excalidraw.md#^group=J47Bj3drc5SM-nUY9J7dl|800]]
 
-> [!info] Goals in notes naming
+> [!important] Goals in notes naming
 >  - easy to remember
 >  - easy to find
 >  - not too long
@@ -14,7 +14,7 @@ Ease to remember and length sometimes go together, sometimes are opposed. The ri
 
 To make notes easy to **find**, we have to keep a structure for every note
 
-> [!important] Structure of notes titles
+> [!definition] Structure of notes titles
 >  - For concepts with well-defined name, be precise in the name
 >      - Example: `[[fonction arg sinus hyperbolique]]`, not `[[argsh]]`
 >      - **But:** use [[obsidian aliases]] to these shorter names

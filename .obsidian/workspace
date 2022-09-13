@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "7e39f5e042a381c6",
+        "id": "cec4f91374d96efe",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Patrick marcel.md",
+            "file": "obsidian workflow.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "99165ec8c1d01e26",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "dataview MOC query.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "démonstration",
+                "query": "infos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Patrick marcel.md",
+                "file": "dataview MOC query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Patrick marcel.md",
+                "file": "dataview MOC query.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +119,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Patrick marcel.md"
+                "file": "dataview MOC query.md"
               }
             }
           },
@@ -163,7 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Patrick marcel.md",
+                "file": "dataview MOC query.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -296,7 +308,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       },
       {
         "id": "9b0b445260de35cb",
@@ -336,17 +348,17 @@
     "width": 332.5,
     "collapsed": true
   },
-  "active": "7e39f5e042a381c6",
+  "active": "99165ec8c1d01e26",
   "lastOpenFiles": [
-    "fonctions trigonométriques.md",
-    "fonction arcsinus.md",
-    "démonstration de l'expression de l'arg sinus hyperbolique.md",
-    "démonstration sinus hyperbolique d'une somme.md",
-    "démonstration expression de l'arg cosinus hyperbolique.md",
-    "sinus hyperbolique d'une somme.md",
-    "négligabilité.md",
-    "sources/annotations/livre analyse exo7.md",
-    "élément neutre.md",
-    "division euclidienne.md"
+    "obsidian workflow.md",
+    "obsidian workflow cours.md",
+    "obsidian workflow naming notes.md",
+    "obsidian workflow daily note.md",
+    "Excalidraw/workflow.excalidraw.md",
+    "obsidian workflow sources.md",
+    "URI actions.md",
+    "dataview MOC query.md",
+    "Depth-first search.md",
+    "things to do.md"
   ]
 }

@@ -7,7 +7,7 @@ sr-ease: 279
 
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction cosinus hyperbolique]]
-properties::[[fonction impaire|impaire]], [[bijection]]
+properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\R \to \R$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\sh$

@@ -1,5 +1,6 @@
 #obsidian #PKM 
 up::[[obsidian workflow]], [[obsidian plugin advanced URI]]
+title::"[[obsidian plugin advanced URI|URIs]] for interesting actions"
 # URI actions
 
 Using the [[obsidian plugin advanced URI]]

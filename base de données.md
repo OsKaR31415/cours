@@ -1,3 +1,6 @@
+---
+alias: "BDD"
+---
 #informatique #no-review 
 # base de données
 
@@ -6,9 +9,9 @@
 ## Définition intuitive
  - Une **grande quantité de [[donnée|données]]**
  - Centralisées
- - Servant pour les besoins de plusieurs applications
+ - pour les besoins de plusieurs applications
  - Interrogeables et modifiables
- - par un groupe d'utilisateurs travaillant sur les mêmes données
+ - groupe d'utilisateurs travaillant sur les mêmes données
 
 ## [[niveaux d'abstraction BD]]
 

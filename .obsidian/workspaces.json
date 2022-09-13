@@ -672,12 +672,25 @@
         "type": "split",
         "children": [
           {
-            "id": "7e39f5e042a381c6",
+            "id": "cec4f91374d96efe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patrick marcel.md",
+                "file": "obsidian workflow.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99165ec8c1d01e26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dataview MOC query.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -709,7 +722,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "démonstration",
+                    "query": "infos",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -751,7 +764,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Patrick marcel.md",
+                    "file": "obsidian workflow.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -763,7 +776,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Patrick marcel.md",
+                    "file": "obsidian workflow.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -774,8 +787,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "horizontal",
@@ -797,7 +809,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Patrick marcel.md"
+                    "file": "obsidian workflow.md"
                   }
                 }
               },
@@ -831,7 +843,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Patrick marcel.md",
+                    "file": "obsidian workflow.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -964,7 +976,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 8
           },
           {
             "id": "9b0b445260de35cb",
@@ -1004,7 +1016,7 @@
         "width": 332.5,
         "collapsed": true
       },
-      "active": "7e39f5e042a381c6"
+      "active": "cec4f91374d96efe"
     }
   },
   "active": "cours"

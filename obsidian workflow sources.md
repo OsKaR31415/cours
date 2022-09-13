@@ -1,4 +1,5 @@
 up::[[obsidian workflow]]
+title::"how to denote sources (general informations)"
 #obsidian #PKM
 # obsidian workflow sources
 Les sources sont tout les éléments extérieurs qui sont intéressants :

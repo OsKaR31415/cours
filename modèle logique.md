@@ -5,7 +5,7 @@ up::[[base de données]]
 Constantes utilisées
  - **att** un ensemble d'attributs totalement ordonnés par $\leq$
  - **dom** ensemble de constantes du domaine
- - **relname** enseMble de noms de relation
+ - **relname** ensemble de noms de relation
  - **var** ensemble de variables à valeur sur **dom**
 
 

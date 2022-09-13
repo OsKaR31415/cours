@@ -2,6 +2,7 @@
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
+title: "mindmap about my workflow"
 
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==

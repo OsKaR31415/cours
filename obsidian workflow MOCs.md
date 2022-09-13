@@ -7,7 +7,7 @@ How I create my [[Map of content|Maps Of Content]]
 
 ## Textual MOCs
  - For **small** MOCs
-     - Simply use The dataview query
+     - Simply use The [[dataview MOC query]]
  - For big MOCs
      - Build sections by big themes, make nested lists
      - use the dataview queries to make sure everything is here

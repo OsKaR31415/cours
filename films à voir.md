@@ -20,6 +20,9 @@
  - rain man
  - whitness
  - 1984
+ - five fingers of death
+ - death rides a horse
+ - laidy snowblood
 
 > [!done]- Vus
 > - [ ] l'emmerdeur
