@@ -1,5 +1,5 @@
 up::[[cycle de vie nominal d'un logiciel]]
-#informatique 
+#informatique #no-review 
 # modèle en cascade
 
 title::![[modèle en cascade 2022-09-12 13.09.45.excalidraw|100%]]

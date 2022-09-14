@@ -1,5 +1,5 @@
 up::[[génie logiciel]]
-#informatique 
+#informatique #no-review 
 # maintenance logiciel
 
  - comprend la **formation de l'utilisateur** et l'assistance technique
