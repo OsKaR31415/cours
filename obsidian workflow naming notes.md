@@ -1,4 +1,5 @@
 up::[[obsidian workflow]]
+title::"how to properly name notes in obsidian"
 #obsidian #PKM 
 # obsidian workflow naming notes
 How i try to name notes consistently

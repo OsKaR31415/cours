@@ -1,4 +1,5 @@
 up::[[obsidian workflow]]
+title::"workflow for creating MOCs"
 #obsidian #PKM
 # obsidian workflow MOCs
 How I create my [[Map of content|Maps Of Content]]

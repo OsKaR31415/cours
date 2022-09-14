@@ -1,4 +1,5 @@
 up:: [[obsidian]]
+title::"publier un vault obsidian _sans obsidian publish_ (sites/techniques)"
 #obsidian
 # obsidian publier un vault
 

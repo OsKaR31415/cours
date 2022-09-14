@@ -1,4 +1,5 @@
 up::[[obsidian workflow]]
+title::"how and why of exercice notes"
 #obsidian #PKM
 # obsidian workflow exercices
 Pour les exercices faits sur obsidian

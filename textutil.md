@@ -1,4 +1,5 @@
 up::[[ligne de commande UNIX]]
+title::"conversion de fichiers texte ([[ligne de commande]])"
 #informatique #no-review 
 # textutil
 outil [[ligne de commande]]

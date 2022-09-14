@@ -1,5 +1,5 @@
 up::[[dérivation]]
-#maths/analyse 
+#maths/analyse #review 
 # théorème des acroissements finis
 Soit $f$ une [[fonction continue]] sur l'intervalle $[a; b]$ et [[fonction dérivable|dérivable]] sur $]a;b[$
 Il existe un point $c \in ]a; b[$ tel que l'on ait :

@@ -12,6 +12,7 @@ $\sum\limits_{k=0}^{n} \big(a_{k}(x) y^{(k)}\big) = 0$
  - où $n\in\N^{*}$ est l'[[équation différentielle#Propriétés#ordre d'une équation|ordre de l'équation]]
  - où $(a_{k})$ est une [[suite]] de [[fonction|fonctions]]
  - où $a_{n}$ n'est pas la fonction nulle
+ - où $y^{(k)}$ est la [[dérivées successives|dérivée k fois]] de $y$
 
 ### Equations d'ordre $n$
 

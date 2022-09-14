@@ -1,4 +1,5 @@
 up::[[obsidian syntaxe]]
+title::"sytaxe, types de callouts, callouts persos"
 #obsidian #no-review 
 # obsidian callouts
 
@@ -60,6 +61,7 @@ here are the default types :
 
 > [!tip]- tip, hint, important
 > lorem ipsum dolor sit amet
+
 > [!question]- question, help, faq
 > lorem ipsum dolor sit amet
 
@@ -84,7 +86,7 @@ here are the default types :
 ##### My callouts
 
 > [!query] query
-> this is green and small. Used to wrap dataview queries (especially in MOCs) so you can see more lines at the same time.
+> this is green and **small**. Used to wrap dataview queries (especially in MOCs) so you can see more lines at the same time.
 
 > [!idea]
 > ideas for future things, improvements

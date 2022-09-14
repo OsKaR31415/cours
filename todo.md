@@ -11,6 +11,7 @@ description does not include spaced repetition
 ![[devoirs]]
 
 
+![[tags to add - notes to organize]]
 
 
 ## done 

@@ -1,5 +1,6 @@
 #obsidian #PKM 
 up::[[obsidian]]
+title::"how i work in obsidian"
 # obsidian workflow
 
 > [!query] Sous-notes de [[obsidian workflow]]

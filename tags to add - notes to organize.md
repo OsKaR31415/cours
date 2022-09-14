@@ -7,6 +7,8 @@
 > ```dataview
 > TABLE file.tasks.text
 > FROM #todo
+> WHERE contains(file.tasks.text, "#todo")
+> WHERE contains(file.tasks.checked, false)
 > WHERE file.name != this.file.name
 > ```
 
@@ -16,7 +18,7 @@
 > [!question] notes without review state
 > ```dataview
 > LIST title
-> FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait AND -#cours AND -#fac AND -#PKM
+> FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait AND -#cours AND -#fac AND -#PKM AND -#not-done
 > WHERE !contains(file.path, "sources")
 >   and !contains(file.path, "daily")
 >   and !contains(file.path, "__sekund__")

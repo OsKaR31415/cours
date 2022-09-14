@@ -1,4 +1,5 @@
 up::[[obsidian syntaxe]]
+title::"les différents types de checkboxes"
 #obsidian 
 # obsidian syntaxe checkboxes (tasks)
 les types de checkboxes

@@ -1,5 +1,6 @@
 up::[[langage de programmation]]
 title::"langage de programmation interprété et dynamiquement typé"
+#informatique #no-review 
 # python
 
 

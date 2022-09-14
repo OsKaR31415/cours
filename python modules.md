@@ -1,5 +1,6 @@
 up::[[python]]
-#informatique/python
+title::"liste de modules python"
+#informatique/python #no-review 
 # python modules
 
 > [!query] Sous-notes de [[python modules]]

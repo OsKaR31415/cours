@@ -12,7 +12,7 @@ description: |
 ---
 up::[[python modules]]
 title::"des types conteneurs alternatifs"
-#informatique/python 
+#informatique/python #no-review 
 # python module collections
 
 > [!query] Sous-notes de this.file.link

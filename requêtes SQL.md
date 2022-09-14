@@ -1,4 +1,4 @@
-up::[[base de données]]
+up::[[SQL]]
 #informatique #no-review 
 # requêtes SQL
 Dans une [[base de données]]

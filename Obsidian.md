@@ -1,3 +1,4 @@
+up::[[MOC obsidian]]
 #obsidian #PKM #no-review 
 # obsidian
 
