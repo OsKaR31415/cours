@@ -6,11 +6,13 @@ alias: "équivalente"
 ---
 up::[[fonction]]
 sibling::[[négligabilité]], [[domination en un point|domination]]
+title::"$f \sim_{x_{0}} g \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)} = 1$"
 #maths/analyse #review 
 # fonctions équivalentes
 Soient deux [[fonction|fonctions]] $f$ et $g$, on dit qu'elles sont _équivalentes en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x)\sim_{x_0}g(x)$.
 
-$$f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1$$
+$\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
+
 > [!attention]
 > On n'écrit pas $0 \sim_{x_{0}} f$ car c'est évidemment toujours faux
 > **$f \sim_{x_{0}} 0$ n'a pas de sens**

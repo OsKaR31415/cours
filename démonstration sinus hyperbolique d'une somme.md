@@ -3,7 +3,7 @@ alias: "démonstration sh(a+b)"
 ---
 up::[[fonction sinus hyperbolique|sh]]
 description::"démonstration de $\sh(a+b)=\sh(a)\ch(b)+\sh(b)\ch(a)$"
-#maths/trigonométrie #no-review  
+#maths/trigonométrie #demonstration  #no-review  
 # démonstration sinus hyperbolique d'une somme
 
 $\sh(a)+\ch(a) = \dfrac{e^{a}-e^{-a}}{2}+\dfrac{e^{a}+e^{-a}}{2} = \dfrac{2e^{a}}{2} = e^a$

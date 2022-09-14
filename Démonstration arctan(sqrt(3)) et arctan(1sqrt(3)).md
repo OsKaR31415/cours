@@ -1,5 +1,5 @@
 up::[[fonction arctangente|arctan]]
-#maths/trigonométrie #no-review 
+#maths/trigonométrie #demonstration  #no-review 
 # Démonstration arctan(sqrt(3)) et arctan(1/sqrt(3))
 
 Démonstration de la valeur de $\arctan(\sqrt{3})$ et de $\arctan\left(\dfrac{1}{\sqrt{3}}\right)$

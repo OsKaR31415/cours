@@ -1,4 +1,5 @@
 up::[[ligne de commande UNIX]]
+title::"entourer du texte avec différents types de boîtes ([[ligne de commande UNIX]])"
 #informatique #no-review 
 # boxed
 Utilitaire [[ligne de commande]]

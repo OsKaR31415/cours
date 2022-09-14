@@ -6,6 +6,9 @@ alias: "injective"
 ---
 
 up::[[application]]
+sibling::[[surjection]]
+title::"$\forall(x,x') \in \mathscr{D}_{f}^{2}, f(x)=f(x') \implies x=x'$"
+description::"sans _collision_ : toute valeur à au maximum un antécédent"
 #maths/analyse #review 
 # injection
 Une injection est une [[application]] injective, c'est à dire qui ne possède pas de "collision".

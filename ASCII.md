@@ -1,4 +1,5 @@
 up::[[codage de caractères]]
+title::"[[codage de caractères|encodage]] 8bits, voir `man ASCII`"
 #informatique #no-review 
 # ASCII
 American Standard Code for Information Interchange

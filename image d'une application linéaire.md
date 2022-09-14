@@ -1,4 +1,5 @@
 up::[[application linéaire]]
+title::"$f : E \to F$", "$\im f = \big\{ v \in F \mid \exists u \in E, f(u) = v \big\}$"
 #maths/algèbre #no-review 
 # image d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,

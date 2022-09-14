@@ -1,4 +1,5 @@
 up::[[fonction]]
+title::"$\big|f(x)-f(y)\big| \leq k|x-y|$"
 #maths/analyse #no-review 
 # fonction lipschitzienne
 Soit $I \subset \R$ in [[intervalle]]

@@ -2,5 +2,5 @@
 alias: "DFS"
 ---
 up::[[algorithmes]]
-#informatique/algorithmie 
+#informatique/algorithmie #no-review 
 # Depth-first search

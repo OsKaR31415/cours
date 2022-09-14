@@ -1,5 +1,5 @@
 up::[[cycle de vie nominal d'un logiciel]]
-#informatique 
+#PM #no-review  
 # Cycle en spirale
 
 

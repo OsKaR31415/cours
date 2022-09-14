@@ -4,6 +4,8 @@ sr-interval: 226
 sr-ease: 316
 ---
 up::[[fonction]]
+title::"$\forall x \in \mathscr{D}_f, \exists y \in f(\mathscr{D}_f), y=f(x)$"
+description::"au moins une image"
 #maths/analyse #review
 # application
 Une application est une [[fonction]] telle que **tous les éléments de l'ensemble de définition ont une image**.

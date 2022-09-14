@@ -1,3 +1,7 @@
+---
+alias: "algèbre de Boole"
+---
+author::[[George Boole]]
 #logique #no-review 
 # calcul booléen
 

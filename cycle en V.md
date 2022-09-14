@@ -1,5 +1,5 @@
 up::[[cycle de vie nominal d'un logiciel]]
-#informatique 
+#informatique #no-review 
 # cycle en V
 
 title::![[cycle en V 2022-09-12 13.27.21.excalidraw|100%]]

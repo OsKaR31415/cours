@@ -1,6 +1,6 @@
 up::[[english]]
 title::""
-#anglais 
+#anglais #no-review 
 # english grammar
 
 > [!query] Sous-notes de `=this.file.link`

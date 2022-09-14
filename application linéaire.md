@@ -3,12 +3,9 @@ sr-due: 2022-09-05
 sr-interval: 15
 sr-ease: 286
 ---
-down:: [[down of application linéaire]]
-
-sibling:: [[sibling of application linéaire]]
-
 up::[[application]]
 sibling::[[combinaison linéaire]]
+title::"$f(\lambda u+v) = \lambda f(u) + f(v)$"
 #maths/algèbre #review
 # application linéaire
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,

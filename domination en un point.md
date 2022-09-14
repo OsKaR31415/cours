@@ -6,6 +6,7 @@ sr-ease: 270
 ---
 up::[[fonction]]
 sibling::[[négligabilité]], [[fonctions équivalentes|équivalence]]
+title::"$f = \bigO_{x_{0}}(g) \iff \dfrac{f}{g} \text{ est bornée au voisinage de } x_{0}$"
 #maths/analyse #review 
 # domination en un point
 Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\R$ (avec $a\in\overline{\R}$)

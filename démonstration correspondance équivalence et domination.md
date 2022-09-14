@@ -1,5 +1,5 @@
 up::[[fonctions équivalentes|équivalence]], [[domination en un point|domination]]
-#maths/analyse #no-review 
+#maths/analyse #demonstration #no-review 
 # démonstration correspondance équivalence et domination
 
 comme $f \sim_{x_{0}} g$ équivaut à $f = hg$ avec $\lim\limits_{+\infty} h = 1$

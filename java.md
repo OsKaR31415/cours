@@ -1,6 +1,6 @@
 up::[[langage de programmation]]
 title::"[[paradygme programmation orientée objet|OO]], haut niveau"
-#informatique 
+#informatique #no-review 
 # java
 
 

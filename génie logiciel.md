@@ -1,4 +1,4 @@
-#informatique 
+#informatique #no-review 
 # génie logiciel
 
 

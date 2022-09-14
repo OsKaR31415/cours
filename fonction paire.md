@@ -3,6 +3,8 @@ alias: ["paire", "parité"]
 ---
 up::[[fonction]]
 sibling::[[fonction impaire]]
+title::"$f(x) = -f(x)$"
+description::"$\forall x \in \mathscr{D}_{f}, f(x) = -f(x)$"
 #maths/analyse #no-review 
 # fonction paire
 Une fonction $f$ est paire si et seulement si:

@@ -3,6 +3,8 @@ alias: "impaire"
 ---
 up::[[fonction]]
 sibling::[[fonction paire]]
+title::"$f(x) = -f(-x)$"
+description::"$\forall x \in \mathscr{D}_{f}, f(x) = -f(-x)$"
 #maths/analyse #no-review 
 # fonction impaire
 Une fonction $f$ est impaire si et seulement si :

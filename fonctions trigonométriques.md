@@ -1,5 +1,5 @@
 up::[[MOC trigonométrie]]
-#maths/trigonométrie 
+#maths/trigonométrie #no-review 
 # fonctions trigonométriques
 
 

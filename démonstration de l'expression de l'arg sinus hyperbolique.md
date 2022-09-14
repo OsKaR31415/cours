@@ -1,8 +1,7 @@
 up::[[fonction sinus hyperbolique|sh]]
 sibling::[[démonstration expression de l'arg cosinus hyperbolique]]
 description::""
-
-#maths/trigonométrie #no-review 
+#maths/trigonométrie #demonstration #no-review 
 # démonstration de l'expression de l'arg sinus hyperbolique
 
 $$\begin{align*}

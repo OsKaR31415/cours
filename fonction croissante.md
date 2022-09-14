@@ -1,4 +1,5 @@
 up::[[fonction]]
+title::"$x \geq x' \implies f(x) \geq f(x')$"
 #maths/analyse #no-review 
 # fonction croissante
 Soit $f$ une fonction définie sur un intervalle $I$.
