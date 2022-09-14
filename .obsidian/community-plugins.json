@@ -23,7 +23,6 @@
   "quick-explorer",
   "obsidian-hover-editor",
   "obsidian-desmos",
-  "obsidian-task-progress-bar",
   "obsidian-functionplot",
   "obsidian-plugin-toc",
   "obsidian-hider",
@@ -51,5 +50,8 @@
   "obsidian-latex-suite",
   "quick-latex",
   "breadcrumbs",
-  "ob-table-enhancer"
+  "ob-table-enhancer",
+  "obsidian-pocket",
+  "nlp",
+  "obsidian-quickshare"
 ]

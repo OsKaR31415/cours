@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => PathFinderPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // src/algorithms/graph/types.ts
 var Edge = class {
@@ -6704,7 +6704,7 @@ function zoom_default2() {
 
 // src/ui/d3ForceGraphWithLabels.ts
 var import_obsidian4 = require("obsidian");
-async function ForceGraphWithLabels(container, nextPath, {
+async function ForceGraphWithLabels(view, contentEl, nextPath, {
   graph,
   getNodes,
   getLinks
@@ -6735,6 +6735,7 @@ async function ForceGraphWithLabels(container, nextPath, {
   linkGroups,
   linkType = ({ type: type2 }) => type2
 } = {}) {
+  contentEl.id = Date.now().toString();
   let nodes = getNodes(graph), links = getLinks(graph);
   let N = map(nodes, nodeId).map(intern);
   let LS = map(links, linkSource).map(intern);
@@ -6764,9 +6765,11 @@ async function ForceGraphWithLabels(container, nextPath, {
   if (linkStrength !== void 0)
     forceLink.strength(linkStrength);
   const simulation = simulation_default(nodes).force("link", forceLink).force("charge", forceNode).force("center", center_default());
-  container.setAttribute("style", "padding: 0px; overflow: hidden; position: relative;");
+  contentEl.setAttribute("style", "padding: 0px; overflow: hidden; position: relative;");
   const graphContainer = create_default("div").classed("path-finder force-graph", true);
-  const svg = graphContainer.append("svg").classed("path-finder path-graph", true).attr("width", width).attr("height", height).attr("viewBox", [0, 0, Infinity, Infinity]).style("font", "12px sans-serif");
+  width = contentEl.clientWidth;
+  height = contentEl.clientHeight;
+  const svg = graphContainer.append("svg").classed("path-finder path-graph", true).attr("width", width).attr("height", height).attr("viewBox", [-height / 2, -width / 2, height, width]).style("font", "12px sans-serif");
   svg.append("defs").append("marker").attr("id", "arrow").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", -0.5).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto").append("path").attr("fill", "var(--path-finder-link-stroke,--text-normal)").attr("d", "M0,-5L10,0L0,5");
   let link = svg.append("g").attr("fill", "none").selectAll("path").data(links).join("path").classed("path-finder link", true).attr("marker-end", `url(#arrow)`);
   let node = svg.append("g").attr("fill", nodeFill).attr("stroke-linecap", "round").attr("stroke-linejoin", "round").selectAll("g").data(nodes).join("g").classed("path-finder node", true).classed("fixed", (d) => d.fx !== void 0).call(drag(simulation)).on("click", click);
@@ -6813,8 +6816,8 @@ async function ForceGraphWithLabels(container, nextPath, {
   svg.call(zoom_default2().filter((evt) => {
     return !evt.ctrlKey && evt.type !== "click" || evt.type === "mousedown";
   }).extent([
-    [0, 0],
-    [width, height]
+    [-width / 2, -height / 2],
+    [width / 2, height / 2]
   ]).scaleExtent([0.1, 8]).on("zoom", zoomed));
   ``;
   function zoomed({ transform: transform2 }) {
@@ -6905,14 +6908,16 @@ async function ForceGraphWithLabels(container, nextPath, {
     }
     calculationComplete = true;
   }
-  leftButtonDiv.on("click", function(evt, d) {
-    index2--;
-    updatePathContent();
-  });
-  rightButtonDiv.on("click", function(evt, d) {
+  view.nextPath = function() {
     index2++;
     updatePathContent();
-  });
+  };
+  view.prevPath = function() {
+    index2--;
+    updatePathContent();
+  };
+  leftButtonDiv.on("click", view.prevPath);
+  rightButtonDiv.on("click", view.nextPath);
   function updateGraph() {
     let nodes2 = getNodes(graph);
     let links2 = getLinks(graph);
@@ -7028,13 +7033,13 @@ async function ForceGraphWithLabels(container, nextPath, {
   }
   let graphContainerNode = graphContainer.node();
   let panelContainerNode = panelContainer.node();
-  container.appendChild(graphContainerNode);
-  container.appendChild(panelContainerNode);
+  contentEl.appendChild(graphContainerNode);
+  contentEl.appendChild(panelContainerNode);
   const closeButton = panelContainerNode.createDiv();
   closeButton.addClasses(["path-finder", "panel-button", "mod-close"]);
   (0, import_obsidian4.setIcon)(closeButton, "cross", 20);
   closeButton.style.display = "none";
-  closeButton.onClickEvent(function(evt) {
+  view.closePanel = function() {
     this.style.display = "none";
     panelContainerNode.toggleClass("is-close", true);
     let path = paths[index2];
@@ -7046,15 +7051,17 @@ async function ForceGraphWithLabels(container, nextPath, {
       linkMap.set(`${path[i]}|${path[i + 1]}`, true);
     }
     setSelectedPath(nodeMap, linkMap, false);
-  });
+  }.bind(closeButton);
+  closeButton.onClickEvent(view.closePanel);
   closeButton.setAttribute("aria-label", "Close");
   const openButton = panelContainerNode.createDiv();
   openButton.addClasses(["path-finder", "panel-button", "mod-open"]);
   (0, import_obsidian4.setIcon)(openButton, "right-triangle", 20);
-  openButton.onClickEvent(function(evt) {
+  view.openPanel = function() {
     panelContainerNode.toggleClass("is-close", false);
     closeButton.style.display = "flex";
-  });
+  };
+  openButton.onClickEvent(view.openPanel);
   openButton.setAttribute("aria-label", "Open");
   panelContainerNode.addEventListener("mouseenter", function(evt) {
     if (!this.hasClass("is-close"))
@@ -7081,13 +7088,15 @@ var PathGraphView = class extends import_obsidian5.ItemView {
     return VIEW_TYPE_PATHGRAPHVIEW;
   }
   getDisplayText() {
-    return "Path view";
+    return "Path Graph View";
   }
   onResize() {
-    const container = this.containerEl.children[1];
-    const svg = container.getElementsByClassName("path-finder path-graph")[0];
-    svg.setAttribute("height", container.clientHeight.toString());
-    svg.setAttribute("width", container.clientWidth.toString());
+    const { contentEl } = this;
+    const svg = contentEl.getElementsByClassName("path-finder path-graph")[0];
+    let width = contentEl.clientWidth, height = contentEl.clientHeight;
+    svg.setAttribute("viewBox", `${-height / 2},${-width / 2},${height},${width}`);
+    svg.setAttribute("width", width.toString());
+    svg.setAttribute("height", height.toString());
   }
   getNodes(graph) {
     let ret = [];
@@ -7118,8 +7127,8 @@ var PathGraphView = class extends import_obsidian5.ItemView {
     return ret;
   }
   setData(from, to, length, graph) {
-    const container = this.containerEl.children[1];
-    container.empty();
+    const contentEl = this.contentEl;
+    contentEl.empty();
     let newGraph = new ExtendedGraph();
     newGraph.addVertice(from);
     newGraph.addVertice(to);
@@ -7127,7 +7136,7 @@ var PathGraphView = class extends import_obsidian5.ItemView {
     let target = newGraph.getID(to);
     this.source = source;
     this.target = target;
-    ForceGraphWithLabels(container, getNextPath(graph.getID(from), graph.getID(to), length, graph), {
+    ForceGraphWithLabels(this, contentEl, getNextPath(graph.getID(from), graph.getID(to), length, graph), {
       graph: newGraph,
       getNodes: this.getNodes.bind(this),
       getLinks: this.getLinks
@@ -7155,9 +7164,17 @@ var PathGraphView = class extends import_obsidian5.ItemView {
       }
     });
   }
+  nextPath() {
+  }
+  prevPath() {
+  }
+  openPanel() {
+  }
+  closePanel() {
+  }
   async onOpen() {
-    const container = this.containerEl.children[1];
-    container.empty();
+    const contentEl = this.contentEl;
+    contentEl.empty();
   }
   async onClose() {
   }
@@ -7264,10 +7281,165 @@ var PathView = class extends import_obsidian5.ItemView {
   }
 };
 
+// src/settings.ts
+var import_obsidian6 = require("obsidian");
+var DEFAULT_SETTINGS = {
+  nextPathHotkey: {
+    modifiers: [],
+    key: "ArrowRight"
+  },
+  prevPathHotkey: {
+    modifiers: [],
+    key: "ArrowLeft"
+  },
+  openPanelHotkey: {
+    modifiers: [],
+    key: "o"
+  },
+  closePanelHotkey: {
+    modifiers: [],
+    key: "w"
+  }
+};
+var PathFinderPluginSettingTab = class extends import_obsidian6.PluginSettingTab {
+  constructor(app2, plugin) {
+    super(app2, plugin);
+    this.plugin = plugin;
+  }
+  getName(hotkey) {
+    let ret = "";
+    if (!hotkey)
+      return "Blank";
+    if ((!hotkey.modifiers || hotkey.modifiers.length == 0) && !hotkey.key)
+      return "Blank";
+    hotkey.modifiers.sort();
+    for (let i = 0; i < hotkey.modifiers.length; i++) {
+      if (i != 0)
+        ret += " + ";
+      ret += hotkey.modifiers[i];
+    }
+    if (hotkey.key) {
+      if (ret != "") {
+        ret += " + ";
+      }
+      if (hotkey.key.length == 1)
+        ret += hotkey.key.toUpperCase();
+      else
+        ret += hotkey.key;
+    }
+    ret = ret.replaceAll("ArrowLeft", "\u2190");
+    ret = ret.replaceAll("ArrowRight", "\u2192");
+    ret = ret.replaceAll("ArrowUp", "\u2191");
+    ret = ret.replaceAll("ArrowDown", "\u2193");
+    if (import_obsidian6.Platform.isMacOS) {
+      ret = ret.replaceAll("Meta", "\u2318Command");
+      ret = ret.replaceAll("Alt", "\u2325Option");
+    } else {
+      ret = ret.replaceAll("Meta", "\u229EWindows");
+    }
+    return ret;
+  }
+  addHotkeySetting(title, target, defaultHotkey) {
+    let { containerEl } = this;
+    let hotkeyButton, resetButton;
+    new import_obsidian6.Setting(containerEl).setName(title).addButton((button) => {
+      hotkeyButton = button;
+      button.setButtonText(this.getName(target)).setTooltip("Customize hotkey").onClick(async (evt) => {
+        let controller = new AbortController();
+        button.setCta();
+        let blankHotkey = {
+          modifiers: [],
+          key: ""
+        };
+        let hotkey = {
+          modifiers: [],
+          key: ""
+        };
+        global.addEventListener("keydown", async (evt2) => {
+          let { modifiers, key } = hotkey;
+          if (evt2.key == "Escape") {
+            button.setButtonText("Blank");
+            Object.assign(target, blankHotkey);
+            await this.plugin.saveSettings();
+            button.removeCta();
+            controller.abort();
+            evt2.stopImmediatePropagation();
+            return;
+          }
+          if (evt2.ctrlKey) {
+            if (evt2.key == "Control") {
+              Object.assign(hotkey, blankHotkey);
+              return;
+            }
+            if (!modifiers.includes("Ctrl"))
+              modifiers.push("Ctrl");
+          }
+          if (evt2.shiftKey) {
+            if (evt2.key == "Shift") {
+              Object.assign(hotkey, blankHotkey);
+              return;
+            }
+            if (!modifiers.includes("Shift"))
+              modifiers.push("Shift");
+          }
+          if (evt2.altKey) {
+            if (evt2.key == "Alt") {
+              Object.assign(hotkey, blankHotkey);
+              return;
+            }
+            if (!modifiers.includes("Alt"))
+              modifiers.push("Alt");
+          }
+          if (evt2.metaKey) {
+            if (evt2.key == "Meta") {
+              Object.assign(hotkey, blankHotkey);
+              return;
+            }
+            if (!modifiers.includes("Meta"))
+              modifiers.push("Meta");
+          }
+          hotkey.key = evt2.key;
+          button.setButtonText(this.getName(hotkey));
+          Object.assign(target, hotkey);
+          await this.plugin.saveSettings();
+          button.removeCta();
+          controller.abort();
+        }, {
+          capture: true,
+          signal: controller.signal
+        });
+      });
+    }).addButton((button) => {
+      resetButton = button;
+      button.setIcon("reset").setTooltip("Restore default").onClick(async (evt) => {
+        if (defaultHotkey)
+          Object.assign(target, defaultHotkey);
+        else
+          Object.assign(target, { modifiers: [], key: "" });
+        hotkeyButton.setButtonText(this.getName(target));
+        await this.plugin.saveSettings();
+      });
+    });
+  }
+  display() {
+    let { containerEl } = this;
+    let { settings } = this.plugin;
+    containerEl.empty();
+    containerEl.createEl("h1", { text: "Hotkey Settings" });
+    this.addHotkeySetting("Previous Path", settings.prevPathHotkey, DEFAULT_SETTINGS.prevPathHotkey);
+    this.addHotkeySetting("Next Path", settings.nextPathHotkey, DEFAULT_SETTINGS.nextPathHotkey);
+    this.addHotkeySetting("Open Panel", settings.openPanelHotkey, DEFAULT_SETTINGS.openPanelHotkey);
+    this.addHotkeySetting("Close Panel", settings.closePanelHotkey, DEFAULT_SETTINGS.closePanelHotkey);
+  }
+};
+
 // src/main.ts
-var PathFinderPlugin = class extends import_obsidian6.Plugin {
+var import_posix = require("path/posix");
+var PathFinderPlugin = class extends import_obsidian7.Plugin {
   async onload() {
     console.log("Loading Path Finder plugin");
+    await this.loadSettings();
+    this.addSettingTab(new PathFinderPluginSettingTab(this.app, this));
     this.addCommand({
       id: "find-shortest-path",
       name: "Find Shortest Path",
@@ -7291,42 +7463,75 @@ var PathFinderPlugin = class extends import_obsidian6.Plugin {
     });
     this.registerView(VIEW_TYPE_PATHGRAPHVIEW, (leaf) => new PathGraphView(leaf));
     this.registerView(VIEW_TYPE_PATHVIEW, (leaf) => new PathView(leaf));
+    this.registerDomEvent(document, "keydown", (evt) => {
+      let activeView = app.workspace.getActiveViewOfType(PathGraphView);
+      if (!activeView)
+        return;
+      const { settings } = this;
+      if (this.isKey(evt, settings.prevPathHotkey))
+        activeView.prevPath();
+      if (this.isKey(evt, settings.nextPathHotkey))
+        activeView.nextPath();
+      if (this.isKey(evt, settings.openPanelHotkey))
+        activeView.openPanel();
+      if (this.isKey(evt, settings.closePanelHotkey))
+        activeView.closePanel();
+    });
   }
   onunload() {
     this.app.workspace.detachLeavesOfType(VIEW_TYPE_PATHGRAPHVIEW);
     this.app.workspace.detachLeavesOfType(VIEW_TYPE_PATHVIEW);
   }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+  isKey(evt, hotkey) {
+    if (evt.ctrlKey != hotkey.modifiers.includes("Ctrl"))
+      return false;
+    if (evt.shiftKey != hotkey.modifiers.includes("Shift"))
+      return false;
+    if (evt.altKey != hotkey.modifiers.includes("Alt"))
+      return false;
+    if (evt.metaKey != hotkey.modifiers.includes("Meta"))
+      return false;
+    if (evt.key != hotkey.key)
+      return false;
+    return true;
+  }
   findPaths(operation, from, to, length) {
-    from = (0, import_obsidian6.normalizePath)(from);
-    to = (0, import_obsidian6.normalizePath)(to);
+    from = (0, import_obsidian7.normalizePath)(from);
+    to = (0, import_obsidian7.normalizePath)(to);
     let { vault } = app;
     let { adapter } = vault;
     if (vault.getAbstractFileByPath(from) === null) {
-      new import_obsidian6.Notice(`${from} does not exist.`);
+      new import_obsidian7.Notice(`${from} does not exist.`);
       return;
     }
     if (vault.getAbstractFileByPath(to) === null) {
-      new import_obsidian6.Notice(`${to} does not exist.`);
+      new import_obsidian7.Notice(`${to} does not exist.`);
       return;
     }
     let graph = this.buildGraphFromLinks();
     let source = graph.getID(from);
     let target = graph.getID(to);
     if (source === void 0) {
-      new import_obsidian6.Notice(`${from} does not exist!`);
+      new import_obsidian7.Notice(`${from} does not exist!`);
       return;
     }
     if (target === void 0) {
-      new import_obsidian6.Notice(`${to} does not exist!`);
+      new import_obsidian7.Notice(`${to} does not exist!`);
       return;
     }
     let { dis } = dijkstra(source, graph);
     if (from === to) {
-      new import_obsidian6.Notice(`${from} and ${to} are the same file!`);
+      new import_obsidian7.Notice(`${from} and ${to} are the same file!`);
       return;
     }
     if (dis[target] === Infinity) {
-      new import_obsidian6.Notice(`${from} has no path that lead to ${to}.`);
+      new import_obsidian7.Notice(`${from} has no path that lead to ${to}.`);
       return;
     }
     if (operation == "shortest_path") {
@@ -7350,45 +7555,49 @@ var PathFinderPlugin = class extends import_obsidian6.Plugin {
   }
   async openPathGraphView(from, to, length, graph) {
     let { workspace } = app;
-    workspace.detachLeavesOfType(VIEW_TYPE_PATHGRAPHVIEW);
     let pathGraphViewLeaf = workspace.getLeaf(true);
+    pathGraphViewLeaf.getDisplayText = function() {
+      return `${(0, import_posix.basename)(from, (0, import_posix.extname)(from))}->${(0, import_posix.basename)(to, (0, import_posix.extname)(to))}${length == Infinity ? "" : ` within ${length} steps`}`;
+    };
     await pathGraphViewLeaf.setViewState({
       type: VIEW_TYPE_PATHGRAPHVIEW,
       active: true
     });
     let pathGraphView = pathGraphViewLeaf.view;
     if (!(pathGraphView instanceof PathGraphView)) {
-      new import_obsidian6.Notice("Failed to open Path View. Please try again.");
+      new import_obsidian7.Notice("Failed to open Path View. Please try again.");
       pathGraphViewLeaf.detach();
       return;
     }
     pathGraphView.setData(from, to, length, graph);
-    this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(VIEW_TYPE_PATHGRAPHVIEW)[0]);
+    this.app.workspace.revealLeaf(pathGraphViewLeaf);
   }
   async openPathView(from, to, length, graph) {
     let source = graph.getID(from), target = graph.getID(to);
     if (source === void 0) {
-      new import_obsidian6.Notice(`${from} does note exist!`);
+      new import_obsidian7.Notice(`${from} does note exist!`);
       return;
     }
     if (target === void 0) {
-      new import_obsidian6.Notice(`${to} does note exist!`);
+      new import_obsidian7.Notice(`${to} does note exist!`);
       return;
     }
     let { workspace } = app;
-    workspace.detachLeavesOfType(VIEW_TYPE_PATHVIEW);
-    await workspace.getLeaf(true).setViewState({
+    let pathViewLeaf = workspace.getLeaf(true);
+    pathViewLeaf.getDisplayText = function() {
+      return `${(0, import_posix.basename)(from, (0, import_posix.extname)(from))}->${(0, import_posix.basename)(to, (0, import_posix.extname)(to))}${length == Infinity ? "" : ` within ${length} steps`}`;
+    };
+    await pathViewLeaf.setViewState({
       type: VIEW_TYPE_PATHVIEW,
       active: true
     });
-    let pathViewLeaf = workspace.getLeavesOfType(VIEW_TYPE_PATHVIEW)[0];
     let pathView = pathViewLeaf.view;
     if (!(pathView instanceof PathView)) {
-      new import_obsidian6.Notice("Failed to open Path View. Please try again.");
+      new import_obsidian7.Notice("Failed to open Path View. Please try again.");
       pathViewLeaf.detach();
       return;
     }
     pathView.setData(source, target, length, graph);
-    this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(VIEW_TYPE_PATHVIEW)[0]);
+    this.app.workspace.revealLeaf(pathViewLeaf);
   }
 };

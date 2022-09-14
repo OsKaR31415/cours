@@ -1,5 +1,24 @@
 
+
+
+/* bigger collapse indicator on titles and lists */
 .collapse-indicator {
     transform: scale(2);
 }
+
+
+/* BreadCrumbs down pane (nested list of subconcepts) */
+.BC-downs {
+    font-size: 50%;
+}
+
+
+/* Graph Analysis */
+.GA-View {
+    font-size: 1vw;
+}
+table.GA-table {
+    --table-font-size: 1vw;
+}
+
 

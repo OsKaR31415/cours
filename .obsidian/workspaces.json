@@ -315,25 +315,12 @@
         "type": "split",
         "children": [
           {
-            "id": "1f5c0bc4fdcef4f9",
+            "id": "71eb2b7314e86ebe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "formules de trigonométrie.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6d6368d11511d77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fonctions trigonométriques.md",
+                "file": "youtube introduction à obsidian.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -394,7 +381,7 @@
                 }
               },
               {
-                "id": "34680178bc620da8",
+                "id": "46b7a7b198482df4",
                 "type": "leaf",
                 "state": {
                   "type": "RSS_FEED",
@@ -407,7 +394,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "fonctions trigonométriques.md",
+                    "file": "youtube introduction à obsidian.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -419,7 +406,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "fonctions trigonométriques.md",
+                    "file": "youtube introduction à obsidian.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -431,7 +418,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -453,7 +440,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "fonctions trigonométriques.md"
+                    "file": "youtube introduction à obsidian.md"
                   }
                 }
               },
@@ -487,7 +474,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "fonctions trigonométriques.md",
+                    "file": "youtube introduction à obsidian.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -620,7 +607,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -664,7 +651,7 @@
         "width": 388.5,
         "collapsed": true
       },
-      "active": "c6d6368d11511d77"
+      "active": "71eb2b7314e86ebe"
     },
     "cours": {
       "main": {
@@ -672,12 +659,12 @@
         "type": "split",
         "children": [
           {
-            "id": "cec4f91374d96efe",
+            "id": "c005a2f925d9c300",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian workflow.md",
+                "file": "outils de gestion de projet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -685,15 +672,45 @@
             }
           },
           {
-            "id": "99165ec8c1d01e26",
+            "id": "63e7ff04026dbead",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "fb1a581af817e5f6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "9a2cde9b6587a284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dataview MOC query.md",
+                "file": "Program Evaluation Review Technique.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "c51346f49d016e8e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/PERT exemple dessiner les précédences 2022-09-13 18.15.11.excalidraw.md"
               }
             }
           }
@@ -722,7 +739,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "infos",
+                    "query": "analyse fonctionnelle",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -764,7 +781,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "obsidian workflow.md",
+                    "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -776,7 +793,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "obsidian workflow.md",
+                    "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -787,7 +804,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
@@ -809,7 +827,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "obsidian workflow.md"
+                    "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md"
                   }
                 }
               },
@@ -843,7 +861,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "obsidian workflow.md",
+                    "file": "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1003,21 +1021,22 @@
                   "type": "markdown",
                   "state": {
                     "file": "devoirs à faire.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 332.5,
+        "width": 451.5000305175781,
         "collapsed": true
       },
-      "active": "cec4f91374d96efe"
+      "active": "63e7ff04026dbead"
     }
   },
-  "active": "cours"
+  "active": "main"
 }
