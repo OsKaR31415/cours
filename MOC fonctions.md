@@ -3,10 +3,10 @@ up::[[MOC analyse]]
 # MOC fonctions
 [[fonction|fonctions]] particulières
 
-> [!query]- Sous-notes de [[fonction]]
+> [!query] Sous-notes de [[fonction]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw AND -#MOC
+> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#excalidraw AND -#MOC AND -#demonstration
 > WHERE contains(file.outlinks, [[fonction]])
 >    or contains(up,          [[fonction]])
 >    or contains(up.up,       [[fonction]])
@@ -26,7 +26,7 @@ up::[[MOC analyse]]
 
 > [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
 > ```dataview
-> TABLE up, up.up, sibling
+> TABLE title, up, up.up, sibling
 > FROM -#excalidraw AND -#MOC
 > WHERE contains(file.outlinks, [[MOC fonctions]])
 >    or contains(up,          [[MOC fonctions]])

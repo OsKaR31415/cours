@@ -6,7 +6,8 @@ alias:
 ---
 up::[[suite]]
 sibling::[[limite inférieure d'une suite]]
-#maths/analyse 
+title::"$\sup\big\{u_{n} \mid n>k\big\}$ quand $k \to +\infty$"
+#maths/analyse #no-review 
 # limite supérieure d'une suite
 Soit $(x_{n})$ une suite réelle
 On appelle _limite supérieure de $(x_{n})$_ le nombre $L \in \overline{\R}$ le nombre tel que :
@@ -17,11 +18,11 @@ On note : $\lim\sup\limits_{n \rightarrow \infty} (x_{n}) = L$
 
 > [!définition]
 > Soit $x_{n}$ une suite
-> On pose : $v_{n} = \left\{ x_{k} | k \geq n \right\}$
+> On pose : $v_{n} = \sup \left\{ x_{k} | k \geq n \right\}$
 > alors :
 > $\limsup\limits_{n \to \infty} x_{n} = \lim\limits_{n \to \infty} v_{n}$
 > > [!idea] interprétation
-> > c'est le maximum **après**
+> > c'est le maximum de $(u_{n})$ **après** $k$ quand $k$ tend vers l'infini
 
 
 > [!définition]- Autre définition

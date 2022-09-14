@@ -6,7 +6,8 @@ alias:
 ---
 up::[[suite]]
 sibling::[[limite supérieure d'une suite]]
-#maths/analyse 
+title::"$\inf \big\{ u_{n} \mid n < k \big\}$ quand $k \to +\infty$"
+#maths/analyse #review 
 # limite inférieure d'une suite
 Soit $(x_{n})$ une suite réelle
 On appelle _limite inférieure de $(x_{n})$_ le nombre $L \in \overline{\R}$ le nombre tel que :

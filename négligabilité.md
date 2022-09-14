@@ -6,10 +6,11 @@ sr-ease: 272
 ---
 up::[[fonction]]
 sibling::[[domination en un point|domination]], [[fonctions équivalentes|équivalence]]
+title::"$f=o_{x_{0}}(g) \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)}=0$"
 #maths/analyse #review 
 # négligabilité
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_, et on note $f=_{x_{0}}o(g)$ :
-$\disp f =_{x_{0}} o(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
+$\disp f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
 
 > [!définition]
 > $f = o_{x_{0}}(g)$ si il existe $h$ telle que :

@@ -1,3 +1,4 @@
+up::[[MOC MOCs]]
 down::[[obsidian]]
 #MOC #obsidian
 # MOC obsidian

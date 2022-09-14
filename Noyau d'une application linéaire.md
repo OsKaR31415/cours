@@ -1,4 +1,6 @@
 up::[[application linéaire]]
+title::"$f: E \to F$", "$\ker f = \big\{ u \in E \mid f(u)=0_{F} \big\}$"
+description::"ensemble des valeurs dont l'image par une [[application linéaire]] est nulle"
 #maths/algèbre #review 
 # Noyau d'une application linéaire
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,
