@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 title::"comamdne pour modifier des mots de passe"
-#informatique/linux 
+#informatique/linux #no-review 
 # unix commande passwd
 Sans argument : change le mot de passe de l'utilisateur actuel
 ```bash

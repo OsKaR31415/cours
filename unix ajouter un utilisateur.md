@@ -1,6 +1,6 @@
 up::[[unix]]
 title::"comment ajouter un nouvel utilisateur"
-#informatique/linux 
+#informatique/linux #no-review 
 # unix ajouter un utilisateur
 
 > [!important] commande pour ajouter un utilisateur

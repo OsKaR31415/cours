@@ -1,5 +1,6 @@
 up::[[unix]]
 title::"comment ajouter un nouveau groupe"
+#informatique/linux #no-review 
 # unix ajouter un groupe
 
 Ajouter un nouveau groupe revient à ajouter une ligne au fichier [[unix fichier etc-group|/etc/group]]
