@@ -28,11 +28,11 @@ c'est la notation du **grand O**
 
  - $O_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
  
- - Si $f = \O_{x_{0}}(g)$ et $h = \O_{x_{0}}(g)$, alors $\lambda f + \mu h = \O_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
+ - Si $f = \mathcal{O}_{x_{0}}(g)$ et $h = \mathcal{O}_{x_{0}}(g)$, alors $\lambda f + \mu h = \mathcal{O}_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
      - stable par [[combinaison linéaire]]
 
- - $\O(\O(f)) = \O(f)$
-     - formellement si $f = \O(g)$ et $g = \O(h)$ alors $f = \O(h)$
+ - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$
+     - formellement si $f = \mathcal{O}(g)$ et $g = \mathcal{O}(h)$ alors $f = \mathcal{O}(h)$
      - la domination est [[transitivité d'une relation|transitive]]
  
 ## Voir :

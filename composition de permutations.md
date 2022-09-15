@@ -1,11 +1,8 @@
 ---
 alias: "composition"
-sr-due: 2022-08-20
-sr-interval: 4
-sr-ease: 286
 ---
 up::[[permutation]]
-#maths/algèbre #review 
+#maths/algèbre 
 # composition de permutations
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].
 On note $\sigma\circ\sigma'$ le _produit_ (ou _composition_) de $\sigma$ et $\sigma'$.

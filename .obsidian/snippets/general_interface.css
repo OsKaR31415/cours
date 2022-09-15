@@ -1,4 +1,9 @@
 
+/* for every pane content */
+.markdown-source-view.mod-cm6:not(.is-readable-line-width) .cm-contentContainer {
+    /* bigge left-margin */
+    margin: 0 0 0 calc(52% - var(--max-width)/2) !important; /* note : i hate the person that used !important */
+}
 
 
 /* bigger collapse indicator on titles and lists */
@@ -11,6 +16,11 @@
 .BC-downs {
     font-size: 50%;
 }
+/* BreadCrumbs top trail view */
+.BC-trail {
+    font-size: 20px;
+}
+
 
 
 /* Graph Analysis */
@@ -21,4 +31,10 @@ table.GA-table {
     --table-font-size: 1vw;
 }
 
+
+
+/* spaced repetition modal */
+.sr-modal-content {
+    font-size: calc(max(1.5vw , 3vh));
+}
 

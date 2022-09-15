@@ -5,8 +5,8 @@ sr-ease: 313
 alias: "bijective"
 ---
 up::[[application]]
-title::"$\forall x \in \mathscr{D}_{f}, \exists! y \in f(\mathscr{D}_{f}), y = f(x)$", "$\forall y \in f(\mathscr{D}_{f}), \exists! x \in \mathsf{D}_{f}, y = f(x)$"
-description::"[[application]] [[injection|injective]] et [[surjection|surjective]]"
+description::"$\forall x \in \mathscr{D}_{f}, \exists! y \in f(\mathscr{D}_{f}), y = f(x)$", "$\forall y \in f(\mathscr{D}_{f}), \exists! x \in \mathsf{D}_{f}, y = f(x)$"
+title::"[[application]] [[injection|injective]] et [[surjection|surjective]]"
 #maths/analyse #review 
 # bijection
 

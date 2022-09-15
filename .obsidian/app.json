@@ -10,8 +10,8 @@
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
-    "margin": "0",
-    "downscalePercent": 42
+    "margin": "2",
+    "downscalePercent": 75
   },
   "defaultViewMode": "source",
   "autoPairMarkdown": false,

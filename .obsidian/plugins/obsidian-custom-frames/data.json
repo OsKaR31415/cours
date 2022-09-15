@@ -9,7 +9,7 @@
       "openInCenter": false,
       "zoomLevel": 0.95,
       "forceIframe": false,
-      "customCss": "/* hide info clutter and ad banner */\n#classify--info-area,\n.adsbygoogle {\n\tdisplay: none !important\n}"
+      "customCss": "\n/* hide info clutter and ad banner */\n#classify--info-area,\n.adsbygoogle {\n\tdisplay: none !important\n}"
     },
     {
       "url": "https://github.com/OsKaR31415/cours",
@@ -21,6 +21,17 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ""
+    },
+    {
+      "url": "https://www.linguee.com",
+      "displayName": "linguee",
+      "icon": "languages",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "body {\n  filter: invert(0.9) brightness(2);\n}"
     }
   ],
   "padding": 5

@@ -30,7 +30,6 @@
   "tag-wrangler",
   "quickadd",
   "obsidian-icon-shortcodes",
-  "customizable-page-header-buttons",
   "workspaces-plus",
   "txt-as-md-obsidian",
   "rss-reader",
@@ -39,7 +38,6 @@
   "excalibrain",
   "sliding-panes-obsidian",
   "obsidian-path-finder",
-  "obsidian-snippet-downloader",
   "obsidian-custom-frames",
   "sekund",
   "obsidian-query-language",
@@ -48,10 +46,13 @@
   "url-into-selection",
   "obsidian-jupyter",
   "obsidian-latex-suite",
-  "quick-latex",
   "breadcrumbs",
   "ob-table-enhancer",
   "obsidian-pocket",
-  "nlp",
-  "obsidian-quickshare"
+  "obsidian-quickshare",
+  "obsidian-languagetool-plugin",
+  "obsidian-markmind",
+  "pane-relief",
+  "text-snippets-obsidian",
+  "quick-latex"
 ]

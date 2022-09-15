@@ -313,14 +313,36 @@
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
+        "ophidian:layout-settings": {
+          "pane-relief:sliding-panes": {
+            "active": false
+          }
+        },
         "children": [
           {
-            "id": "71eb2b7314e86ebe",
+            "id": "db7e49d86af40732",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "db7e49d86af40732",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugin LaTeX suite.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "db7e49d86af40732",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-15.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":104},\"to\":{\"line\":29,\"ch\":104}},\"scroll\":21.479461058166283}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "youtube introduction à obsidian.md",
+                "file": "obsidian plugin LaTeX suite.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -341,6 +363,10 @@
               {
                 "id": "84b1f06f81d5c515",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "file-explorer",
                   "state": {}
@@ -349,10 +375,14 @@
               {
                 "id": "390d098cee0c9651",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "groupe::",
+                    "query": "line:\", link\"",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -364,10 +394,14 @@
               {
                 "id": "ccd1190664578ee9",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "tag",
                   "state": {
-                    "sortOrder": "frequency",
+                    "sortOrder": "alphabetical",
                     "useHierarchy": true
                   }
                 }
@@ -375,6 +409,10 @@
               {
                 "id": "325e33879123bbe0",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "sekund-main-view",
                   "state": {}
@@ -383,6 +421,10 @@
               {
                 "id": "46b7a7b198482df4",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "RSS_FEED",
                   "state": {}
@@ -391,10 +433,14 @@
               {
                 "id": "c7afda8b81d643de",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "youtube introduction à obsidian.md",
+                    "file": "obsidian plugin LaTeX suite.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -403,10 +449,14 @@
               {
                 "id": "e855affa02bb755e",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "youtube introduction à obsidian.md",
+                    "file": "obsidian plugin LaTeX suite.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -418,12 +468,11 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 359,
-        "collapsed": true
+        "width": 512
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -432,21 +481,29 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 56.013745704467354,
+            "dimension": 56.84410646387833,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "youtube introduction à obsidian.md"
+                    "file": "obsidian plugin LaTeX suite.md"
                   }
                 }
               },
               {
                 "id": "d45511af0bde9bcf",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "advanced-tables-toolbar",
                   "state": {}
@@ -455,6 +512,10 @@
               {
                 "id": "bae8ca5650bdd5bf",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "calendar",
                   "state": {}
@@ -463,6 +524,10 @@
               {
                 "id": "bf6c068c22a39e9f",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "review-queue-list-view",
                   "state": {}
@@ -471,10 +536,14 @@
               {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "youtube introduction à obsidian.md",
+                    "file": "obsidian plugin LaTeX suite.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -575,48 +644,63 @@
                 }
               },
               {
-                "id": "b85bc3439ecb2851",
+                "id": "860dbc475755d3c7",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "graph-analysis",
                   "state": {}
                 }
               },
               {
-                "id": "9d4a82c600688c61",
+                "id": "85aeb63f2e0c6d4a",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "BC-matrix",
                   "state": {}
                 }
               },
               {
-                "id": "7fcbb167fc1182bf",
+                "id": "496015397ba429c8",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "BC-tree",
                   "state": {}
                 }
-              },
-              {
-                "id": "f362aac240e2a4d8",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 43.986254295532646,
+            "dimension": 43.155893536121674,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "cb9c41a428bebf8c",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "pinned": true,
                 "state": {
                   "type": "markdown",
@@ -632,6 +716,10 @@
               {
                 "id": "523cd7a78782d297",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "pinned": true,
                 "state": {
                   "type": "markdown",
@@ -648,10 +736,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 388.5,
+        "width": 300,
         "collapsed": true
       },
-      "active": "71eb2b7314e86ebe"
+      "active": "db7e49d86af40732"
     },
     "cours": {
       "main": {

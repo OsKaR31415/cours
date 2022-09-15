@@ -20,6 +20,6 @@ $x = \frac{1}{\left|\small \begin{matrix}a &b\\a'&b'\end{matrix}\right|} \left| 
 
 $y = \frac{1}{\left|\small \begin{matrix}a &b\\a'&b'\end{matrix}\right|} \left| \begin{matrix}a&c\\a'&c'\end{matrix} \right|$
 
-[[Démonstration solution unique d'un système linéaire à deux variables|Démonstration]]
+[[Démonstration solution unique d'un système linéaire à deux variables|Démonstration (unicité des solutions)]]
 
 

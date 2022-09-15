@@ -2,6 +2,7 @@
 sr-due: 2023-04-01
 sr-interval: 238
 sr-ease: 333
+alias: ["commutative", "commutatif"]
 ---
 up::[[structure algébrique]]
 #maths/algèbre #review 

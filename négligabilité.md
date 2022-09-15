@@ -1,4 +1,5 @@
 ---
+
 alias: "négligeable"
 sr-due: 2022-09-20
 sr-interval: 28

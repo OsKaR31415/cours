@@ -27,6 +27,7 @@ On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ 
 
 > [!definition] Espace vectoriel sur un corps
 > Quand les valeurs de la multiplication sont les éléments d'un corps $K$, on dit que l'espace vectoriel est **sur $K$**
+> On note que c'est un _K-ev_ ("_$K$ espace vectoriel_")
 
 > [!definition] Éléments
 > Les éléments de $E$ sont appelés les **[[vecteur]]**

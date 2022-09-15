@@ -1,6 +1,6 @@
 ---
-sr-due: 2022-08-31
-sr-interval: 16
+sr-due: 2022-11-28
+sr-interval: 74
 sr-ease: 317
 alias: "injective"
 ---
@@ -8,10 +8,10 @@ alias: "injective"
 up::[[application]]
 sibling::[[surjection]]
 title::"$\forall(x,x') \in \mathscr{D}_{f}^{2}, f(x)=f(x') \implies x=x'$"
-description::"sans _collision_ : toute valeur à au maximum un antécédent"
+description::"sans _collision_ : toute valeur a au maximum un antécédent"
 #maths/analyse #review 
 # injection
-Une injection est une [[application]] injective, c'est à dire qui ne possède pas de "collision".
+Une injection est une [[application]] injective, c'est-à-dire qui ne possède pas de "collision".
 
 ## Définition
 Soit f une application de $E$ dans $F$ :

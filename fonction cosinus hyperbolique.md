@@ -17,6 +17,7 @@ $\ch(x) = \dfrac{e^x+e^{-x}}2$
 
 Elle est appelée _cosinus_ car sa définition ressemble à celle de la [[fonction cosinus]]
 
+## Graphe
 ```desmos-graph
     top=3
 left=-2; right=2

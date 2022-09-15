@@ -1,3 +1,6 @@
+---
+alias: "symétrie"
+---
 up::[[relation]]
 #maths/algèbre #no-review 
 # symétrie d'une relation

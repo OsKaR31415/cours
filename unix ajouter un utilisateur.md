@@ -1,4 +1,5 @@
 up::[[unix]]
+sibling::[[unix supprimer un utilisateur]]
 title::"comment ajouter un nouvel utilisateur"
 #informatique/linux #no-review 
 # unix ajouter un utilisateur

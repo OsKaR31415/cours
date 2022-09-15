@@ -1,4 +1,4 @@
-up::[[MOC analyse]]
+u\p::[[MOC analyse]]
 #maths/analyse #review 
 # développement limité
 

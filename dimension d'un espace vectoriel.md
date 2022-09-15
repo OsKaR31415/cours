@@ -5,6 +5,7 @@ sr-interval: 21
 sr-ease: 278
 ---
 up::[[espace vectoriel]]
+title::"[[cardinal]] des [[base d'un espace vectoriel|bases]] de d'un [[espace vectoriel|ev]]"
 #maths/algèbre #review 
 # dimension d'un espace vectoriel
 Soit $E$ un [[espace vectoriel]].

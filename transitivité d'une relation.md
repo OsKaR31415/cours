@@ -1,4 +1,4 @@
----
+--
 alias: ["transitivité", "transitive"]
 ---
 up::[[relation]]

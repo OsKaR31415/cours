@@ -1,3 +1,6 @@
+---
+alias: "réflexive"
+---
 up::[[relation]]
 #maths/algèbre #no-review 
 # réflexivité d'une relation

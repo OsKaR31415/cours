@@ -1,0 +1,24 @@
+{
+  "snippets_file": "def : > [!definition] \ndéf : > [!définition]\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ntodo : > [!todo] \ndone : > [!done] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: \"$end$\"\\n---",
+  "snippets": [
+    "def : > [!definition] ",
+    "déf : > [!définition]",
+    "query : > [!query]",
+    "note : > [!note]",
+    "question : > [!question]",
+    "important : > [!important]",
+    "exemple : > [!example] Exemple ",
+    "todo : > [!todo] ",
+    "done : > [!done] ",
+    "fm : ---\\n$end$\\n---",
+    "alias : ---\\nalias: \"$end$\"\\n---"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "\\n",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

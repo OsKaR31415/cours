@@ -1,11 +1,8 @@
 ---
 alias: "bornée"
-sr-due: 2022-08-26
-sr-interval: 11
-sr-ease: 270
 ---
 up::[[fonction]]
-#maths/analyse #review 
+#maths/analyse 
 # fonction bornée
 Une fonction est dite _bornée_ si il existe des bornes à cette fonction, cad. si il existe des valeurs qu'elle ne dépasse jamais.
 

@@ -11,13 +11,14 @@ properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\R \to \R$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\sh$
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 # fonction sinus hyperbolique
 Noté $\sinh$, ou $\text{sh}$.
 $\sh(x) = \dfrac{e^x - e^{-x}}2$
 
 Elle est appelée _sinus_ car sa définition ressemble à celle de la [[fonction sinus]] dans la [[Formules d'Euler#sinus|formule d'Euler]]
 
+## Graphe
 ```desmos-graph
     top=2
 left=-2; right=2

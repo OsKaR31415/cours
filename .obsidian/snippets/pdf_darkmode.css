@@ -2,7 +2,7 @@
 .theme-dark .pdf-embed iframe,
 .theme-dark embed[type="application/pdf"],
 .theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
-    filter: invert(0.9);
+    filter: invert(0.7) brightness(0.9) contrast(1.8);
 }
 
 

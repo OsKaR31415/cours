@@ -5,6 +5,8 @@ sr-interval: 19
 sr-ease: 298
 ---
 up::[[espace vectoriel]]
+title::"espace vectoriel contenu dans un autre"
+description::"$F$ est un [[sous espace vectoriel|sev]] de $E$ ssi : $F \neq \emptyset$ ET $(F,+,\cdot)$ est un [[espace vectoriel|ev]]"
 #maths/algèbre #review 
 # sous espace vectoriel
 Un sous-espace vectoriel $F$ d'un [[espace vectoriel]] $(E, +, \cdot)$ est un sous ensemble de $E$ tel que :

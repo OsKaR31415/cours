@@ -1,6 +1,6 @@
 ---
-sr-due: 2022-08-30
-sr-interval: 16
+sr-due: 2022-11-19
+sr-interval: 65
 sr-ease: 270
 ---
 
@@ -78,7 +78,7 @@ Alors :
  - Et $M(x)e^{-A(x)}$ est une solution de l'équation
 **Conclusion :**
 Les solutions s'écrivent :
-$\underbrace{M(x)e^{-A(x)}}_{\text{solution particulière}} + \underbrace{Ke^{-A(x)}}_{\text{solution de l'équation sans second membre}}$
+$\disp \underbrace{M(x)e^{-A(x)}}_{\text{solution particulière}} + \underbrace{Ke^{-A(x)}}_{\text{solution de l'équation sans second membre}}$
 
 Soit : 
 $e^{-A(x)} (M(x) + K)$

@@ -8,7 +8,7 @@ Voir **[[MOC fonctions]]**
 
 > [!query]- Sous-notes de [[MOC analyse]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> TABLE titre, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#excalidraw
 > WHERE contains(file.outlinks, [[MOC analyse]])
 >    or contains(up,          [[MOC analyse]])

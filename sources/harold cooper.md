@@ -4,7 +4,7 @@ github::https://github.com/hrldcpr
 # harold cooper
 
 ```dataview
-TABLE title, link
+TABLE title, elink(link) as link
 FROM ""
 WHERE contains(author, this.file.link)
 ```
