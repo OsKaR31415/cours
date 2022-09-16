@@ -4,14 +4,15 @@ author::[[Emery Berger]]
 # Github copilot make coding assignments futile
 
 ## What copilot can do
- - generate code solutions from comments or simply function name
+ - generate code solutions from comments or even only function name
      - even complex codes like [[algorithme de Dijkstra|Dijkstra's algorithm]], [[quicksort]]...
  - Randomize code so every solution is not the same
 
 ## What solutions are possible
  - ~~Change programming language~~ : copilot knows even functionnal languages (everything that is on github)
      - teach in programming languages that don't exist
- - Make exams on paper on pen
+     - copilot is not very good for complex languages (such as haskell)
+ - Make exams on paper and pen
  - Ask students to explain their code
 
 ## What it means for assignments

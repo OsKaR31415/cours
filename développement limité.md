@@ -10,8 +10,8 @@ et $f$ une fonction de $I$ dans $\mathbb R$.
 On dit que $f$ possède un _développement limité à l'ordre $n$ **au voisinage de $0$**_ (noté $\DL_n(0)$ de $f$) s'il existe un polynôme $P$ de degré inférieur ou égal à $n$, à coefficients réels, et une fonction $\varepsilon$ de $I$ dans $\mathbb R$ tels que :
 
 $\begin{align}f(x) &= P(x)+x^n\epsilon(x)\\ &=a_0+a_1x+a_2x^2+\ldots+a_nx^n+\underbrace{x^n\epsilon(x)}_{\text{reste}}\end{align}$
-
 avec $\boxed{\lim_{x\rightarrow 0} \varepsilon(x) = 0}$
+
 
 ## Exemple
 

@@ -11,7 +11,7 @@ properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\R \to \R$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\sh$
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #no-review 
 # fonction sinus hyperbolique
 Noté $\sinh$, ou $\text{sh}$.
 $\sh(x) = \dfrac{e^x - e^{-x}}2$

@@ -1,5 +1,6 @@
 up::[[structure algébrique]]
-#maths/algèbre 
+title::"$(A,+,\times)$ où :", "$(A,+)$e st un [[groupe abélien]]", "$(A,\times)$ est un [[monoïde]]", "$\times$ est [[distributivité|distributive]] sur $+$"
+#maths/algèbre  
 # anneau
 Un ensemble $A$ muni de deux lois $+$ et $\times$ est un _anneau_ ssi :
  - $(A, +)$ est un [[groupe abélien]]

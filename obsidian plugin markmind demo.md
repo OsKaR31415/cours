@@ -1,5 +1,6 @@
 ---
 mindmap-plugin: rich
+tags: [ "#obsidian", "#no-review" ]
 ---
 
 # obsidian plugin markmind demo

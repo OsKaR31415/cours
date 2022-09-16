@@ -8,6 +8,8 @@ up::[[post queues]]
 > Explication d'un système de raccourcis efficace pour taper du $\LaTeX$
 > https://castel.dev/post/lecture-notes-1/
 
+^snippets-latex
+
 > [!done] word embeddings
 > https://x.st/fooling-around-with-word-embeddings/
 > espaces vectoriels sémantiques

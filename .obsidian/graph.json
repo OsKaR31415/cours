@@ -85,7 +85,7 @@
       }
     },
     {
-      "query": "tag:#science OR tag:#autres",
+      "query": "tag:#science OR tag:#autres OR tag:#fac",
       "color": {
         "a": 1,
         "rgb": 15648605
@@ -106,10 +106,10 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#PM",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 12091263
       }
     }
   ],
@@ -118,11 +118,11 @@
   "textFadeMultiplier": -0.3,
   "nodeSizeMultiplier": 1.080078125,
   "lineSizeMultiplier": 1.2806640625,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.488161670918367,
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.20470304909827083,
-  "close": false
+  "scale": 0.29187988286911754,
+  "close": true
 }

@@ -1,4 +1,4 @@
-#pocket
+#pocket #no-review 
 # pocket captures
 
 ```dataview

@@ -2,7 +2,7 @@
 alias: ["l'espace vectoriel R²", "espace vectoriel R²", "R²"]
 ---
 up::[[espace vectoriel]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # espace vectoriel R carré
 $\R^{2}$ forme un [[espace vectoriel]] avec $+$ et $\cdot$
 

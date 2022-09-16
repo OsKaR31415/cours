@@ -25,8 +25,11 @@ c'est la notation du **grand O**
 
 
 ## Propriétés
+ - $f=\mathcal{O}_{x_{0}}(g) \iff g=\mathcal{O}_{x_{0}}(f)$
+     - la domination est [[commutativité|commutative]]
+     - évident, car si $\frac{f}{g}$ est [[fonction bornée|bornée]], alors $\frac{g}{f}$ l'est aussi
 
- - $O_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
+ - $\mathcal{O}_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
  
  - Si $f = \mathcal{O}_{x_{0}}(g)$ et $h = \mathcal{O}_{x_{0}}(g)$, alors $\lambda f + \mu h = \mathcal{O}_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
      - stable par [[combinaison linéaire]]
@@ -34,8 +37,12 @@ c'est la notation du **grand O**
  - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$
      - formellement si $f = \mathcal{O}(g)$ et $g = \mathcal{O}(h)$ alors $f = \mathcal{O}(h)$
      - la domination est [[transitivité d'une relation|transitive]]
- 
-## Voir :
 
- - [[ensemble des réels complété]] : $\overline{\R}$
+ - avec les [[polynôme|polynômes]] : Soit $P(x)=a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n}$
+     - au voisinage de $0$ : $P(x)\sim a_{k_{0}}x^{k_{0}}$ où $a_{k_{0}}$ est le premier coefficient non nul de $P(x)$
+     - au voisinage de $\pm\infty$ : $P(x)\sim a_{n}x^{n}$
+
+
+> [!info] Voir
+>  - [[ensemble des réels complété]] : $\overline{\R}$
  

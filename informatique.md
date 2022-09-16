@@ -53,7 +53,7 @@ up::[[MOC informatique|informatique]]
          - éléctro-mécanique
              - tubes à vide
          - basé sur le [[calcul booléen]]
- - [<] 1945 : [[Electronical Numerical Integrator And Calculator|ENIAC]]
+ - [<] 1945 : [[ENIAC|ENIAC]]
      - tubes à vide
  - [[John Von Neumann|JvN]] : [[architecture de Von Neumann]]
          - ![[architecture de Von Neumann 2022-09-14 10.56.32.excalidraw|500]]
@@ -63,7 +63,7 @@ up::[[MOC informatique|informatique]]
  - [<] 1965-1980 : circuits intégrés
      - [u] plus de transistors dans moins de place
      - premier processeur : Intel 4004
-         - performances identiques à l'[[Electronical Numerical Integrator And Calculator|ENIAC]]
+         - performances identiques à l'[[ENIAC|ENIAC]]
          - [[architecture de Von Neumann]]
  - [<] 1980 : Large Scale Integration
      - intégration de milliards de transistors surune même puce55

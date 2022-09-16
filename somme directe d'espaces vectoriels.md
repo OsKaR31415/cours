@@ -1,5 +1,5 @@
 up::[[somme d'espaces vectoriels]]
-#maths/analyse #no-review 
+#maths/analyse #review 
 # somme directe d'espaces vectoriels
 Soit $(E, +, \cdot)$ un [[espace vectoriel réel]]
 Soient $F$ et $G$ deux [[sous espace vectoriel|sous espaces vectoriels]] de $E$

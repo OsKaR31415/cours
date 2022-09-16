@@ -9,29 +9,29 @@
     },
     "children": [
       {
-        "id": "db7e49d86af40732",
+        "id": "6c0c3e73204234d9",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "db7e49d86af40732",
+              "leaf": "6c0c3e73204234d9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugin LaTeX suite.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":11.166666666666666}"
             },
             {
-              "leaf": "db7e49d86af40732",
+              "leaf": "6c0c3e73204234d9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-15.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":104},\"to\":{\"line\":29,\"ch\":104}},\"scroll\":21.479461058166283}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian plugin LaTeX suite.md",
+            "file": "daily/2022-09-10.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -57,7 +57,7 @@
               "stack": []
             },
             "state": {
-              "type": "file-explorer",
+              "type": "pocket_item_list",
               "state": {}
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian plugin LaTeX suite.md",
+                "file": "daily/2022-09-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian plugin LaTeX suite.md",
+                "file": "daily/2022-09-10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,13 +155,33 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "8e6cf92b1e047f14",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "8e6cf92b1e047f14",
+                  "group": null,
+                  "state": "{\"type\":\"empty\",\"state\":{}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 512
+    "width": 328,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -182,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian plugin LaTeX suite.md"
+                "file": "daily/2022-09-10.md"
               }
             }
           },
@@ -232,7 +252,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "obsidian plugin LaTeX suite.md",
+                "file": "daily/2022-09-10.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -326,7 +346,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5992016463322635,
+                  "scale": 0.4465877798358785,
                   "close": true
                 }
               }
@@ -369,7 +389,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
@@ -386,7 +406,7 @@
                   "leaf": "cb9c41a428bebf8c",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                  "eState": "{}"
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
@@ -425,20 +445,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "db7e49d86af40732",
+  "active": "6c0c3e73204234d9",
   "lastOpenFiles": [
-    "daily/2022-09-15.md",
-    "obsidian plugin LaTeX suite.md",
-    "obsidian plugin quick LaTeX.md",
-    "sources/cours/L2_maths_geometrie_ch1_plan_vectoriel_euclidien.pdf",
+    "todo.md",
     "things to do.md",
-    "Excalidraw/plan rentrée L2 maths tours.excalidraw.md",
-    "images/Plan de la fac tours.png",
-    "Mi.md",
-    "espace vectoriel engendré par une famille de vecteurs.md",
-    "unix pipe.md"
+    "tags to add - notes to organize.md",
+    "position relative de droites vectorielles.md",
+    "unix supprimer un utilisateur.md",
+    "ENIAC.md",
+    "architecture de Von Neumann.md",
+    "markmind outline.md",
+    "obsidian plugin markmind demo.md",
+    "how internet changed the way we live.md"
   ]
 }

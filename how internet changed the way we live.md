@@ -1,6 +1,7 @@
 ---
 
 mindmap-plugin: rich
+tags: [ "#anglais", "#no-review" ]
 
 ---
 

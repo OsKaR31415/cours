@@ -3,19 +3,14 @@ up::[[obsidian]]
 title::"how i work in obsidian"
 # obsidian workflow
 
-> [!query] Sous-notes de [[obsidian workflow]]
+> [!bigquery] Sous-notes de `=this.file.name`
 > ```dataview
-> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
-> WHERE contains(file.outlinks, [[obsidian workflow]])
->    or contains(up,          [[obsidian workflow]])
->    or contains(up.up,       [[obsidian workflow]])
->    or contains(up.up.up,    [[obsidian workflow]])
->    or contains(up.up.up.up, [[obsidian workflow]])
-> WHERE file.name != this.file.name
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> TABLE title
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)
+> WHERE file.link != this.file.link
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
-
 
 
 

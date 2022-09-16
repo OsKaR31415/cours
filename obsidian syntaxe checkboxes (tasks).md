@@ -15,7 +15,7 @@ les types de checkboxes
  - [b] Bookmark
  - [i] information
  - [I] Idea
- - [*] star
+ - [*] star (`*`)
  - [p] pros
  - [c] cons
  - [l] location

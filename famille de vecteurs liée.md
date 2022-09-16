@@ -1,3 +1,6 @@
+---
+alias: "liée"
+---
 up::[[famille de vecteurs]]
 #maths/algèbre #review 
 # famille de vecteurs liée

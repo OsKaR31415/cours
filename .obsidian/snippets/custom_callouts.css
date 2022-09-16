@@ -36,6 +36,13 @@
     --font-code: 80%;
 }
 
+.callout[data-callout="bigquery"] {
+    /* same as query, but with default (bigger) size */
+    --callout-color: 68, 140, 80;
+    --callout-icon: database;
+}
+
+
 
 .callout[data-callout="idea"] {
     /* ideas for future things (improvements...) */

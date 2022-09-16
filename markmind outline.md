@@ -2,12 +2,13 @@
 
 mindmap-plugin: basic
 display-mode: outline
+tags: [ "#obsidian", "#no-review"]
 
 ---
 
 # markmind outline
 
-## new kind of outlines
+## a simple outliner
 
 ## features
 
@@ -16,4 +17,7 @@ display-mode: outline
 ### markdown support
 - $\LaTeX$
 - **bold**, _italic_ and [[html]] <u>styles</u>
+
+### can be converted to a mindmap easily
+- toggle the `display-mode` metadata attribute
 -

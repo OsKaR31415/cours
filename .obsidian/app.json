@@ -33,5 +33,5 @@
   ],
   "communityPluginSortOrder": "download",
   "newLinkFormat": "shortest",
-  "autoPairBrackets": false
+  "autoPairBrackets": true
 }
