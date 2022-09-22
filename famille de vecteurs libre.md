@@ -1,5 +1,5 @@
 ---
-alias: "libre"
+alias: [ "libre", "famille libre" ]
 sr-due: 2022-09-12
 sr-interval: 22
 sr-ease: 276

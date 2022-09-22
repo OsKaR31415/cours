@@ -1,5 +1,5 @@
 up::[[ligne de commande UNIX]]
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # clamav
 utilitaire [[ligne de commande UNIX]]
 C'est un [[anti-virus]]

@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] Sous-notes de `={{VALUE:file link}}`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)\n> WHERE file.link != this.file.link\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
+        "format": "> [!query] Sous-notes de `=this.file.link`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)\n> WHERE file.link != this.file.link\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
       },
       "insertAfter": {
         "enabled": false,
@@ -206,6 +206,40 @@
       "format": {
         "enabled": true,
         "format": "up::\ntitle::\n#\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "003c79e7-1d90-4ff9-a9fc-2922739cb644",
+      "name": "annotation",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "sources/annotations/{{VALUE:Titre}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\nannotate-target: {{LINKCURRENT}}\n---"
       },
       "insertAfter": {
         "enabled": false,

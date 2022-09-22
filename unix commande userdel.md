@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 sibling::[[unix commande useradd]]
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix commande userdel
  - supprimer un utilisateur
  - supprime son répertoire home avec

@@ -3,7 +3,6 @@
 
 ## Films
 
- - roller ball
  - papillon (dustin hoffman)
  - barry lindon
  - kramer vs kramer
@@ -25,8 +24,8 @@
  - laidy snowblood
 
 > [!done]- Vus
-> - [ ] l'emmerdeur
-
+> - l'emmerdeur
+> - roller ball
 ## Séries
 
  - [ ] Kippo

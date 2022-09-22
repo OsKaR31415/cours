@@ -1,4 +1,5 @@
 up::[[droite vectorielle]]
+title::"deux [[droite vectorielle|droites vectorielles]] sont confondues ou ont pour intersection $\emptyset$"
 #demonstration #maths/algèbre #no-review 
 # démonstration intersection de deux droites vectorielles
 

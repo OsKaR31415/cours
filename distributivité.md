@@ -1,3 +1,6 @@
+---
+alias: "distributive"
+---
 up::[[structure algébrique]]
 #maths/algèbre #no-review 
 # distributivité

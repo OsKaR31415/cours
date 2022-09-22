@@ -1,4 +1,5 @@
 up::[[matrice]]
+title::$(A \cdot B)_{ij} = \sum\limits_{k}A_{i,k}\times B_{k,j}$
 #maths/algèbre #no-review 
 # multiplication de matrices
 
@@ -10,7 +11,7 @@ Pour que deux matrices puissent être multipliées, il faut que le nombre de col
 
 Soient $A$ et $B$ deux [[matrice|matrices]] respectivement de taille $m\times n$ et $n\times p$. On a, pour tout $i\in [\![1;m]\!]$ et $j\in[\![1;p]\!]$:
 
-$\displaystyle A\cdot B_{i,j} = A_{i,1}B_{1,j}+A_{i,2}B_{2,j}+\ldots+A_{i,n}B_{n,j} = \sum_{k=1}^n A_{i,k}B_{k,j}$
+$\displaystyle (A\cdot B)_{i,j} = A_{i,1}B_{1,j}+A_{i,2}B_{2,j}+\ldots+A_{i,n}B_{n,j} = \sum_{k=1}^n A_{i,k}B_{k,j}$
 
 Le produit matriciel de $A$ et $B$ est donc la somme du produit élément-par-élément des lignes de $A$ avec les colonnes de $B$.
 

@@ -12,14 +12,14 @@ une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
 Tous les éléments ont un **symétrique**
-<!--SR:!2022-09-18,62,290-->
+<!--SR:!2023-05-31,254,310-->
 
 propriétés d'un monoïde
 ?
 une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
-<!--SR:!2022-09-19,38,212-->
+<!--SR:!2022-12-09,81,212-->
 
 l'**ordre d'un groupe** est...
 ?

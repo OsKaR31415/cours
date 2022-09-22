@@ -1,0 +1,459 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 10,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "Ctrl/Cmd+N, Ctrl/Cmd+P",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "Alt+Enter",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": false,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": true,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "obsidian": {
+      "obsidian": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663688213203
+        }
+      }
+    },
+    "multiplication de matrices": {
+      "multiplication de matrices": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663687981506
+        }
+      }
+    },
+    "dérivée": {
+      "dérivation": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663688076661
+        }
+      },
+      "dérivée": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663688069160
+        }
+      }
+    },
+    "dérivées": {
+      "dérivées": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663688071525
+        }
+      }
+    },
+    "dérivation": {
+      "dérivation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663688143386
+        }
+      }
+    },
+    "dataview MOC query": {
+      "dataview MOC query": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663688220447
+        }
+      }
+    },
+    "obsidian plugin dataview": {
+      "obsidian plugin dataview": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663688237653
+        }
+      }
+    },
+    "chose": {
+      "chose": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663688343512
+        }
+      }
+    },
+    "gantt": {
+      "gantt": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663688657657
+        }
+      }
+    },
+    "obsidian gantt diagram": {
+      "obsidian gantt diagram": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663748415117
+        }
+      }
+    },
+    "obsidian syntaxe": {
+      "obsidian syntaxe": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663704605546
+        }
+      }
+    },
+    "\\mathbb{R}^{n}": {
+      "\\mathbb{R}^{n}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663707077959
+        }
+      }
+    },
+    "linéaires": {
+      "linéaires": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663707179070
+        }
+      }
+    },
+    "ensemble des applications linéaires sur des espaces vectoriels": {
+      "ensemble des applications linéaires sur des espaces vectoriels": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663707180222
+        }
+      }
+    },
+    "application linéaire": {
+      "application linéaire": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1663773722354
+        }
+      }
+    },
+    "associative": {
+      "associativité": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663744639086
+        }
+      },
+      "associative": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1663747647585
+        }
+      }
+    },
+    "automorphisme": {
+      "automorphisme": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1663773056084
+        }
+      }
+    },
+    "plaisant@gmail": {
+      "plaisant@gmail": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663745790186
+        }
+      }
+    },
+    "stockage des données": {
+      "stockage des données": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663748286164
+        }
+      }
+    },
+    "registres": {
+      "registres": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663748932587
+        }
+      }
+    },
+    "bases numériques": {
+      "bases numériques": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663749311268
+        }
+      }
+    },
+    "requête": {
+      "requête": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663749721817
+        }
+      }
+    },
+    "bus de données": {
+      "bus de données": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663749825865
+        }
+      }
+    },
+    "chipset": {
+      "chipset": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663750456763
+        }
+      }
+    },
+    "comment progresser en L2 (boris)": {
+      "comment progresser en L2 (boris)": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663750931939
+        }
+      }
+    },
+    "architecture des ordinateurs": {
+      "architecture des ordinateurs": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663751028290
+        }
+      }
+    },
+    "processus": {
+      "processus": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1663768321959
+        }
+      }
+    },
+    "unix utilisateur": {
+      "unix utilisateur": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663767941112
+        }
+      }
+    },
+    "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw": {
+      "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663766121472
+        }
+      }
+    },
+    "groupe": {
+      "groupe": {
+        "internalLink": {
+          "count": 9,
+          "lastUpdated": 1663794097722
+        }
+      }
+    },
+    "répertoire profs fac": {
+      "répertoire profs fac": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663767956093
+        }
+      }
+    },
+    "accès aux données": {
+      "accès aux données": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663768194702
+        }
+      }
+    },
+    "bijective": {
+      "bijective": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1663773755100
+        }
+      }
+    },
+    "applications linéaires": {
+      "applications linéaires": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1663774283041
+        }
+      }
+    },
+    "surjective": {
+      "surjective": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663772640846
+        }
+      }
+    },
+    "endomorphisme linéaire": {
+      "endomorphisme linéaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663772924972
+        }
+      }
+    },
+    "isomorphisme": {
+      "isomorphisme": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1663773451551
+        }
+      }
+    },
+    "linéaire": {
+      "linéaire": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1663773751957
+        }
+      }
+    },
+    "application": {
+      "application": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663774348185
+        }
+      }
+    },
+    "automorphisme linéaire": {
+      "automorphisme linéaire": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663773728735
+        }
+      }
+    },
+    "espace vectoriel": {
+      "espace vectoriel": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663773717151
+        }
+      }
+    },
+    "morphisme": {
+      "morphisme": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663773405076
+        }
+      }
+    },
+    "bijectives": {
+      "bijectives": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1663774293343
+        }
+      }
+    },
+    "réciproque": {
+      "réciproque": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663773960419
+        }
+      }
+    },
+    "structure algébrique": {
+      "structure algébrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663774053121
+        }
+      }
+    },
+    "centre": {
+      "centre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1663777043615
+        }
+      }
+    },
+    "notation": {
+      "notation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663777027608
+        }
+      }
+    },
+    "MOC informatique": {
+      "MOC informatique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663779320651
+        }
+      }
+    },
+    "groupe abélien": {
+      "groupe abélien": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1663794100875
+        }
+      }
+    },
+    "APL thinking examples.pdf": {
+      "APL thinking examples.pdf": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1663795875383
+        }
+      }
+    }
+  }
+}

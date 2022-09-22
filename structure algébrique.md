@@ -1,3 +1,6 @@
+---
+alias: "structures algébriques"
+---
 up::[[MOC algèbre]]
 #maths/algèbre #no-review 
 # structure algébrique

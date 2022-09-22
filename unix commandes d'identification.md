@@ -1,6 +1,6 @@
 up::[[unix commandes]]
 title::"commandes pour avoir des informations sur l'identification des utilisateurs"
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix commandes d'identification
 
 > [!query] Sous-notes de [[unix commandes d'identification]]

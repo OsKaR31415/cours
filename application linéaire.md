@@ -2,6 +2,7 @@
 sr-due: 2022-09-05
 sr-interval: 15
 sr-ease: 286
+alias: ["applications linéaires", "linéaire", "linéaires"]
 ---
 up::[[application]]
 sibling::[[combinaison linéaire]]

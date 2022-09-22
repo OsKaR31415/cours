@@ -1,5 +1,5 @@
 up::[[unix]]
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix shell
 
  - au début d'une session, chaque utilisateur exécute un logiciel initial, ou interpréteur de commandes, son _login shell_

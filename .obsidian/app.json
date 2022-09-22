@@ -31,7 +31,7 @@
     "kanban/",
     "templates/"
   ],
-  "communityPluginSortOrder": "download",
+  "communityPluginSortOrder": "release",
   "newLinkFormat": "shortest",
   "autoPairBrackets": true
 }

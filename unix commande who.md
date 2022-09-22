@@ -1,7 +1,7 @@
 up::[[unix commandes d'identification]]
 usage::"who [-abdHlmpqrsTtu] [file]", "who am i"
 title::"affiche la liste des utilisateurs connectés"
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix commande who
  - affiche la liste des utilisateurs connectés
 ```bash

@@ -1,5 +1,5 @@
 up::[[droite vectorielle]]
-#maths/algèbre 
+#maths/algèbre #no-review 
 # position relative de droites vectorielles
 
 

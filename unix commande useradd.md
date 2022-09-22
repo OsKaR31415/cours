@@ -3,7 +3,7 @@ alias: "useradd"
 ---
 up::[[unix commandes]]
 title::"commande pour ajouter un nouvel utilisater"
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix commande useradd
 
 > [!definition] parametres

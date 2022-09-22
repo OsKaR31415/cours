@@ -1,3 +1,6 @@
+---
+alias: "isomorphismes"
+---
 up::[[morphisme]]
 #maths/algèbre #review 
 # isomorphisme

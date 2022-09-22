@@ -2,7 +2,7 @@
 sr-due: 2023-03-18
 sr-interval: 224
 sr-ease: 313
-alias: "bijective"
+alias: ["bijective", "bijectives"]
 ---
 up::[[application]]
 description::"$\forall x \in \mathscr{D}_{f}, \exists! y \in f(\mathscr{D}_{f}), y = f(x)$", "$\forall y \in f(\mathscr{D}_{f}), \exists! x \in \mathsf{D}_{f}, y = f(x)$"

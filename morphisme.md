@@ -2,6 +2,7 @@
 sr-due: 2022-09-29
 sr-interval: 39
 sr-ease: 278
+alias: "morphismes"
 ---
 up::[[structure algébrique]]
 #maths/algèbre #review 

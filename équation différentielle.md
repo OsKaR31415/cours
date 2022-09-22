@@ -31,6 +31,15 @@ On dit qu'une équation différentielle est à *variables séparées* lorsque le
 
 ## Propriétés
 
+> [!bigquery] Sous-notes de `=this.file.link`
+> ```dataview
+> TABLE title, description
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)
+> WHERE file.link != this.file.link
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
 ### Ordre d'une équation
 L'**ordre** d'une équation est le plus grand [[dérivées successives#Ordre|ordre]] des dérivées
 On dit _équation du $n^{\text{ème}}$ ordre_ pour désigner une équation d'ordre $n$

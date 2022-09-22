@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 title::"commande pour changer le shell par défaut (login shell)"
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix commande chsh
 
 ```bash

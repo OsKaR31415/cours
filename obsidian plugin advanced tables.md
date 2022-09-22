@@ -11,3 +11,5 @@ title::"création/manipulation des tables markdown"
  - (ajouter|supprimer) des (lignes|colonnes)
  - trier, aligner etc...
  - formules basiques (avec un langage nul)
+
+

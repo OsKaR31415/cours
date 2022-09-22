@@ -5,6 +5,7 @@ up::[[MOC analyse]]
 #maths/analyse #no-review 
 # dérivation
 
+
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :
 
 $\displaystyle f'(a) = \lim_{h\rightarrow0}\left( \dfrac{f(a+h) - f(a)}{h} \right)$

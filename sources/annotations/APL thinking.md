@@ -1,5 +1,5 @@
 ---
-annotation-target: "APL thinking examples.pdf"
+annotate-target: "APL thinking examples.pdf"
 ---
 # APL thinking
 

@@ -1,6 +1,6 @@
 up::[[unix]]
 title::"les groupes d'utilisateur unix"
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix groupes
 
  - chaque utilisateur peut appartenir à plusieurs groupes

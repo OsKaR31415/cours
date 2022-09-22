@@ -60,7 +60,7 @@ On sait que $x_{1} \times x_{2} = 0$ et $x'_{1}\times x'_{2} = 0$
  - alors $x_{2} = 0$ et $x'_{2} = 0$
  - Donc $(x_{1}\times x'_{1}) \times (x_{2}\times x'_{2}) = 0$ et $u \times u' \in F$
 **On suppose que $x_{2}\times x'_{2} \neq 0$
- - même résonnement que dans le cas précédent
+ - même raisonnement que dans le cas précédent
 **On suppose que $x_{1}\times x'_{1} = 0$ et $x_{2}\times x'_{2} = 0$**
  - alors on à bien $u \times u'\in F$
 **On suppose que $x_{1}\times x'_{1} \neq 0$ et $x_{2} \times x'_{2} \neq 0$**
@@ -109,4 +109,4 @@ Donc, puisque $(a;b)$ est [[famille de vecteurs libre|libre]] et engendre un [[s
  - $a$ et $b$ ne sont pas [[vecteurs colinéaires|colinéaires]]
  - donc $(a;b)$ engendre un [[sous espace vectoriel|sev]] de [[dimension d'un espace vectoriel|dimension]] 2
  - $(a;b) \subset \text{Vect}(a;b)$
- 
+

@@ -27311,15 +27311,15 @@ var ObsidianQueryLanguagePlugin = /** @class */ (function (_super) {
         });
     };
     ObsidianQueryLanguagePlugin.prototype.parseTags = function (metadata) {
-        var _a;
+        var _a, _b;
         return __awaiter(this, void 0, void 0, function () {
             var tags;
-            return __generator(this, function (_b) {
+            return __generator(this, function (_c) {
                 tags = [];
                 if (metadata) {
                     // Get the tags from the frontmatter
                     if ((_a = metadata === null || metadata === void 0 ? void 0 : metadata.frontmatter) === null || _a === void 0 ? void 0 : _a.tags) {
-                        tags = obsidian.parseFrontMatterTags(metadata.frontmatter);
+                        tags = (_b = obsidian.parseFrontMatterTags(metadata.frontmatter)) !== null && _b !== void 0 ? _b : [];
                     }
                     // Also add the tags from the metadata object (these are present in document itself)
                     if (metadata === null || metadata === void 0 ? void 0 : metadata.tags) {

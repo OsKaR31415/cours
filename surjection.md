@@ -1,8 +1,8 @@
 ---
-alias: "surjective"
 sr-due: 2022-09-16
 sr-interval: 26
 sr-ease: 319
+alias: ["surjective", "surjectives"]
 ---
 up::[[application]]
 sibling::[[injection]]

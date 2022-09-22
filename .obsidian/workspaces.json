@@ -320,33 +320,22 @@
         },
         "children": [
           {
-            "id": "6c0c3e73204234d9",
+            "id": "b6c52e3dc84af1b6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "6c0c3e73204234d9",
+                  "leaf": "b6c52e3dc84af1b6",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":7},\"to\":{\"line\":21,\"ch\":7}},\"scroll\":11.166666666666666}"
-                },
-                {
-                  "leaf": "6c0c3e73204234d9",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian commits.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2022-09-10.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -361,14 +350,21 @@
             "type": "tabs",
             "children": [
               {
-                "id": "84b1f06f81d5c515",
+                "id": "8e6cf92b1e047f14",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
-                  "stack": []
+                  "stack": [
+                    {
+                      "leaf": "8e6cf92b1e047f14",
+                      "group": null,
+                      "state": "{\"type\":\"empty\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
                 },
                 "state": {
-                  "type": "pocket_item_list",
+                  "type": "file-explorer",
                   "state": {}
                 }
               },
@@ -382,7 +378,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "line:\", link\"",
+                    "query": "tag:#math",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -401,7 +397,7 @@
                 "state": {
                   "type": "tag",
                   "state": {
-                    "sortOrder": "alphabetical",
+                    "sortOrder": "frequency",
                     "useHierarchy": true
                   }
                 }
@@ -419,7 +415,7 @@
                 }
               },
               {
-                "id": "46b7a7b198482df4",
+                "id": "bd1d7503d0848342",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -440,7 +436,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "daily/2022-09-10.md",
+                    "file": "things to do.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -456,7 +452,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "daily/2022-09-10.md",
+                    "file": "things to do.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -466,32 +462,13 @@
                     "unlinkedCollapsed": false
                   }
                 }
-              },
-              {
-                "id": "8e6cf92b1e047f14",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "8e6cf92b1e047f14",
-                      "group": null,
-                      "state": "{\"type\":\"empty\",\"state\":{}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 328,
+        "width": 422,
         "collapsed": true
       },
       "right": {
@@ -501,7 +478,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 56.84410646387833,
+            "dimension": 56.815578465063,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -513,7 +490,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "daily/2022-09-10.md"
+                    "file": "things to do.md"
                   }
                 }
               },
@@ -563,7 +540,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "daily/2022-09-10.md",
+                    "file": "things to do.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -657,7 +634,7 @@
                       "repelStrength": 15.6584243818286,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.4465877798358785,
+                      "scale": 1.2059531043345284,
                       "close": true
                     }
                   }
@@ -676,7 +653,19 @@
                 }
               },
               {
-                "id": "85aeb63f2e0c6d4a",
+                "id": "837d069be727ad7e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf9c467678aa05e4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -688,7 +677,7 @@
                 }
               },
               {
-                "id": "496015397ba429c8",
+                "id": "843072ab0d510e3d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -700,12 +689,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 43.155893536121674,
+            "dimension": 43.184421534937,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -717,7 +706,7 @@
                       "leaf": "cb9c41a428bebf8c",
                       "group": null,
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                      "eState": "{\"scroll\":0}"
+                      "eState": "{\"scroll\":3.804469273743017}"
                     }
                   ]
                 },
@@ -738,7 +727,14 @@
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
-                  "stack": []
+                  "stack": [
+                    {
+                      "leaf": "523cd7a78782d297",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
                 },
                 "pinned": true,
                 "state": {
@@ -756,9 +752,56 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 309.5,
+        "collapsed": true
       },
-      "active": "6c0c3e73204234d9"
+      "floating": {
+        "id": "92decdb0b0596fb8",
+        "type": "floating",
+        "children": [
+          {
+            "id": "e75c9646929dae3b",
+            "type": "window",
+            "children": [
+              {
+                "id": "8fa97d4d6b53fe10",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "8fa97d4d6b53fe10",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2022-09-22.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "direction": "vertical",
+            "x": 504,
+            "y": 810,
+            "width": 936,
+            "height": 90,
+            "maximize": true,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "b6c52e3dc84af1b6",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": true
+      }
     },
     "cours": {
       "main": {

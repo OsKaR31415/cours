@@ -1,4 +1,5 @@
 up::[[système d'exploitation]]
+title:::dev_unix_original:
 #informatique #no-review 
 # unix
 
@@ -13,3 +14,4 @@ up::[[système d'exploitation]]
 > WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
+

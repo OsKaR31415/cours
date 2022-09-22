@@ -1,6 +1,6 @@
 ---
-alias: "root"
+alias: ["root", "super user"]
 ---
 up::[[unix]]
-#informatique/linux #no-review 
+#informatique/unix #no-review 
 # unix user root

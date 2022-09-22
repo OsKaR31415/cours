@@ -367,7 +367,8 @@ var DEFAULT_SETTINGS = {
   dataviewFields: [],
   excludeDataviewValue: [],
   metadataFileFields: [],
-  frontmatterTitleKey: "title"
+  frontmatterTitleKey: "title",
+  shareExternalModified: false
 };
 
 // plugin/settings/style.ts
@@ -520,11 +521,11 @@ var en_us_default = {
   dataviewExcludeHeader: "Exclude value from conversion",
   dataviewExcludeDesc: "This will exclude value from being converted. Separate fields with a comma.",
   embed: "Embed",
-  transferImage: "Transfer image",
-  transferImageDesc: 'Send image embedded in a file to github. This option can be overridden by the frontmatter key "image".',
+  transferImage: "Transfer attachments",
+  transferImageDesc: 'Send attachments embedded in a file to github. This option can be overridden by the frontmatter key "attachment".',
   transferEmbeddedNotes: "Transfer embedded notes",
   transferEmbeddedNotesDesc: 'Send embedded notes in a shared file to github. Only shared files will be send! This option can be overridden by the frontmatter key "embed".',
-  defaultImageFolder: "Default image folder",
+  defaultImageFolder: "Default attachment folder",
   defaultImageFolderDesc: "To use a folder different from default",
   transferMetaFile: "Send files using a metadata field",
   transferMetaFileDesc: "Set the names of the metadata field you want to use to send files. Separate fields with a comma. Dataview inline field are supported.",
@@ -551,6 +552,8 @@ var en_us_default = {
   linkpathremoverDesc: "Remove this part from the created links. Separate by comma if multiple value must be removed.",
   logNoticeHeader: "Notice every error",
   logNoticeDesc: "On mobile, it can be hard to debug the plugin. Enable this option to log every error in a Notice.",
+  shareExternalModifiedTitle: "Share external modified file",
+  shareExternalModifiedDesc: "Send edited file if they are different from the active file. Useful when editing metadata using MetaEdit or Metadata Menu.",
   unablePublishNote: (fileInfo) => `Unable to publish note ${fileInfo}\uFF0Cskipping it`,
   errorPublish: (repoInfo) => `Error publishing to ${repoInfo}.`,
   unablePublishMultiNotes: "Unable to publish multiple notes, something went wrong.",
@@ -573,6 +576,11 @@ var zh_cn_default = {
   uploadAllNewEditedNote: "\u4E0A\u4F20\u65B0\u5EFA\u7ACB\u6587\u4EF6\u7684\u548C\u66F4\u65B0\u5DF2\u7F16\u8F91\u7684\u5206\u4EAB\u6587\u4EF6",
   uploadAllEditedNote: "\u66F4\u65B0\u6240\u6709\u5DF2\u7F16\u8F91\u7684\u6587\u4EF6",
   shareViewFiles: (viewFile) => `\u7528Mkdocs Publisher\u5171\u4EAB"${viewFile}"\u3002`,
+  errorDeleteDefaultFolder: "You need a default folder name in the settings to use this command.",
+  errorDeleteRootFolder: "You need to configure a root folder in the settings to use this command.",
+  successDeleting: (nb) => `Successfully deleted ${nb} files.`,
+  failedDeleting: (nb) => `Failed to delete ${nb} files.`,
+  noFileDeleted: "No files have been deleted.",
   githubConfiguration: "Github\u8BBE\u7F6E",
   repoName: "\u4ED3\u5E93\u540D",
   repoNameDesc: "\u4F60\u535A\u5BA2\u6240\u5728\u7684github\u4ED3\u5E93\u540D",
@@ -600,6 +608,8 @@ var zh_cn_default = {
   frontmatterKeyPlaceholder: "category",
   rootFolder: "\u6839\u6587\u4EF6\u5939",
   rootFolderDesc: "\u5C06\u6B64\u8DEF\u5F84\u8FFD\u52A0\u5230\u6587\u4EF6\u5939\u524D",
+  useFrontmatterTitle: "Set the title from the frontmatter",
+  useFrontmatterTitleDesc: 'Use a frontmatter value to generate the filename. By default, "title" is used.',
   textConversion: "\u6587\u672C\u8F6C\u6362",
   textHeader: "\u6587\u672C",
   linkHeader: "\u94FE\u63A5",
@@ -613,8 +623,6 @@ var zh_cn_default = {
   hardBreakDesc: "\u5728\u6BCF\u4E00\u884C\u4E4B\u540E\u6DFB\u52A0\u4E00\u4E2A\u6807\u8BB0\u6027\u7684\u786C\u65AD\u884C\uFF08\u53CC\u500D\u7A7A\u767D\uFF09\u3002",
   headerDataview: "Dataview",
   headerDataviewDesc: "Convert dataview to markdown.",
-  useFrontmatterTitle: "Use frontmatter title",
-  useFrontmatterTitleDesc: 'Use frontmatter "title" field instead of the file name.',
   censorTextHeader: "Text replacer",
   censorTextDesc: "Replace text (or regex) in the file with the given value.",
   censorTextInsensitive: "Case insensitive",
@@ -636,6 +644,8 @@ var zh_cn_default = {
   transferEmbeddedNotesDesc: "\u53D1\u5E03\u6587\u4EF6\u4E2D\u5D4C\u5165\u7684\u6587\u4EF6\u81F3github.\u8BE5\u5D4C\u5165\u6587\u4EF6\u9700\u8981\u5141\u8BB8\u88AB\u53D1\u5E03",
   defaultImageFolder: "\u9ED8\u8BA4\u56FE\u7247\u6587\u4EF6\u5939",
   defaultImageFolderDesc: "\u4F7F\u7528\u4E0E\u9ED8\u8BA4\u6587\u6863\u5939\u4E0D\u540C\u7684\u6587\u6863\u5939",
+  transferMetaFile: "Send files using a metadata field",
+  transferMetaFileDesc: "Set the names of the metadata field you want to use to send files. Separate fields with a comma. Dataview inline field are supported.",
   githubActionName: "Github action\u540D",
   githubActionNameDesc: "\u5982\u679C\u8981\u5728\u63D2\u4EF6\u63A8\u9001\u6587\u6863\u65F6\u6FC0\u6D3B github action\uFF0C\u8BF7\u8BBE\u7F6E\u5BF9\u5E94\u7684action\u540D\u79F0\uFF08\u5728 .github/worfklows \u6587\u6863\u5939\u4E2D\uFF09\u3002",
   autoCleanUp: "\u81EA\u52A8\u6E05\u7406",
@@ -659,6 +669,8 @@ var zh_cn_default = {
   linkpathremoverDesc: "\u4ECE\u521B\u5EFA\u7684\u94FE\u63A5\u4E2D\u5220\u9664\u8FD9\u90E8\u5206\u3002\u5982\u679C\u5FC5\u987B\u5220\u9664\u591A\u4E2A\u503C\uFF0C\u8BF7\u7528\u9017\u53F7\u5206\u5F00\u3002",
   logNoticeHeader: "\u6CE8\u610F\u6BCF\u4E00\u4E2A\u9519\u8BEF",
   logNoticeDesc: "\u5728\u79FB\u52A8\u8BBE\u5907\u4E0A\uFF0C\u8C03\u8BD5\u6A21\u5757\u53EF\u80FD\u5F88\u56F0\u96BE\u3002\u542F\u7528\u8BE5\u9009\u9879\u53EF\u4EE5\u901A\u8FC7Obsidian\u901A\u77E5\u6765\u901A\u77E5\u6240\u6709\u9519\u8BEF\u3002",
+  shareExternalModifiedTitle: "Share external modified file",
+  shareExternalModifiedDesc: "Send edited file if they are different from the active file. Useful when editing metadata using MetaEdit or Metadata Menu.",
   unablePublishNote: (fileInfo) => {
     return `\u4E0D\u80FD\u4E0A\u4F20\u6587\u4EF6${fileInfo}\uFF0C\u5DF2\u8DF3\u8FC7`;
   },
@@ -670,7 +682,8 @@ var zh_cn_default = {
   noNewNote: "\u6CA1\u6709\u65B0\u7B14\u8BB0\u9700\u8981\u4E0A\u4F20.",
   successfullPublish: (noticeValue) => `\u6210\u529F\u5730\u5C06${noticeValue[0]}\u53D1\u5E03\u5230${noticeValue[1]}\u3002`,
   waitingWorkflow: "\u73B0\u5728\uFF0C\u7B49\u5F85\u5DE5\u4F5C\u6D41\u7A0B\u7684\u5B8C\u6210...",
-  sendMessage: (noticeValue) => `\u5C06${noticeValue[0]}\u53D1\u9001\u5230${noticeValue[1]}${noticeValue[2]}\u3002`
+  sendMessage: (noticeValue) => `\u5C06${noticeValue[0]}\u53D1\u9001\u5230${noticeValue[1]}${noticeValue[2]}\u3002`,
+  mergeconflic: `Pull-request is not mergeable, you need to do it manually.`
 };
 
 // plugin/i18n/locales/fr-fr.ts
@@ -746,12 +759,12 @@ var fr_fr_default = {
   dataviewExcludeHeader: "Exclure des valeurs de la conversion",
   dataviewExcludeDesc: "Exclure la valeur de la conversion. S\xE9parez les valeurs par une virgule.",
   embed: "Transclusion",
-  transferImage: "Transf\xE9rer les images",
-  transferImageDesc: 'Envoyer les images int\xE9gr\xE9es dans un fichier dans le d\xE9p\xF4t. Ce param\xE8tre peut \xEAtre outrepass\xE9 par la cl\xE9 de m\xE9tadonn\xE9es "image".',
+  transferImage: "Transf\xE9rer les pi\xE8ces jointes",
+  transferImageDesc: 'Envoyer les pi\xE8ces-jointes int\xE9gr\xE9es dans un fichier dans le d\xE9p\xF4t. Ce param\xE8tre peut \xEAtre outrepass\xE9 par la cl\xE9 de m\xE9tadonn\xE9es "attachment".',
   transferEmbeddedNotes: "Transf\xE9rer les notes transclues",
   transferEmbeddedNotesDesc: 'Envoyez des notes transcluent dans un fichier partag\xE9 dans le d\xE9p\xF4t. Seuls les fichiers partag\xE9s seront envoy\xE9s ! Ce param\xE8tre peut \xEAtre outrepass\xE9 par la cl\xE9 de m\xE9tadonn\xE9es "embed".',
-  defaultImageFolder: "Dossier d'images par d\xE9faut",
-  defaultImageFolderDesc: "Pour utiliser un dossier diff\xE9rent de celui par d\xE9faut pour les images.",
+  defaultImageFolder: "Dossier de pi\xE8ces-jointes par d\xE9faut",
+  defaultImageFolderDesc: "Pour utiliser un dossier diff\xE9rent de celui par d\xE9faut pour les pi\xE8ces-jointes.",
   transferMetaFile: "Envoyer des fichiers en utilisant une cl\xE9 de m\xE9tadonn\xE9e",
   transferMetaFileDesc: "Mettez les noms des champs de m\xE9tadonn\xE9es que vous voulez utiliser pour envoyer les fichiers. S\xE9parez les champs par une virgule. Les champs Dataview sont pris en charge.",
   githubActionName: "Nom de l'action GitHub",
@@ -777,6 +790,8 @@ var fr_fr_default = {
   linkpathremoverDesc: "Supprimer cette partie des liens cr\xE9\xE9s. S\xE9parer par une virgule si plusieurs valeurs doivent \xEAtre supprim\xE9es.",
   logNoticeHeader: "Notifier toutes les erreurs",
   logNoticeDesc: "Sur mobile, il peut \xEAtre difficile de debug le module. Activer cette option pour notifier toutes les erreurs via une notification Obsidian.",
+  shareExternalModifiedTitle: "Partager les fichiers modifi\xE9s externes",
+  shareExternalModifiedDesc: "Envoyer les fichiers modifi\xE9s s'ils sont diff\xE9rents du fichier actif. Utile si vous modifier les m\xE9tadonn\xE9es \xE0 l'aide de Metadata Menu ou MetaEdit.",
   unablePublishNote: (fileInfo) => `Impossible de publier la note ${fileInfo}, ignor\xE9e.`,
   errorPublish: (repoInfo) => `Erreur lors de la publication sur ${repoInfo}.`,
   unablePublishMultiNotes: "Impossible de publier plusieurs notes, quelque chose s'est mal pass\xE9.",
@@ -831,6 +846,8 @@ var ru_default = {
   frontmatterKeyPlaceholder: "category",
   rootFolder: "\u041A\u043E\u0440\u043D\u0435\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430",
   rootFolderDesc: "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0442\u044C \u044D\u0442\u0443\u0442 \u043F\u0430\u043F\u043A\u0443 \u043A \u043F\u0443\u0442\u044F\u043C \u0437\u0430\u0434\u0430\u043D\u043D\u044B\u043C \u0447\u0435\u0440\u0435\u0437 \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u043E frontmatter.",
+  useFrontmatterTitle: "Set the title from the frontmatter",
+  useFrontmatterTitleDesc: 'Use a frontmatter value to generate the filename. By default, "title" is used.',
   textConversion: "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u0442\u0435\u043A\u0441\u0442\u0430",
   textHeader: "\u0422\u0435\u043A\u0441\u0442",
   linkHeader: "\u0421\u0441\u044B\u043B\u043A\u0438",
@@ -844,8 +861,6 @@ var ru_default = {
   hardBreakDesc: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0432\u0438\u0434\u0438\u043C\u044B\u0439 \u043F\u0435\u0440\u0435\u043D\u043E\u0441 \u0441\u0442\u0440\u043E\u043A\u0438 (\u0434\u0432\u043E\u0439\u043D\u043E\u0439 \u043F\u0435\u0440\u0435\u043D\u043E\u0441) \u0432 markdown \u043F\u043E\u0441\u043B\u0435 \u043A\u0430\u0436\u0434\u043E\u0439 \u0441\u0442\u0440\u043E\u043A\u0438.",
   headerDataview: "Dataview",
   headerDataviewDesc: "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C dataview \u0432 markdown.",
-  useFrontmatterTitle: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A \u0438\u0437 frontmatter",
-  useFrontmatterTitleDesc: '\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u043E frontmatter "title" \u0432\u043C\u0435\u0441\u0442\u043E \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F \u0444\u0430\u0439\u043B\u0430.',
   censorTextHeader: "Text replacer",
   censorTextDesc: "Replace text (or regex) in the file with the given value.",
   censorTextInsensitive: "Case insensitive",
@@ -867,6 +882,8 @@ var ru_default = {
   transferEmbeddedNotesDesc: "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0432\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u044B\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0438\u0437 \u043E\u0431\u0449\u0438\u0445 \u0444\u0430\u0439\u043B\u043E\u0432 \u043D\u0430 github. \u0422\u043E\u043B\u044C\u043A\u043E \u043E\u0431\u0449\u0438\u0435 \u0444\u0430\u0439\u043B\u044B \u0431\u0443\u0434\u0443\u0442 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B!",
   defaultImageFolder: "\u041F\u0430\u043F\u043A\u0430 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439",
   defaultImageFolderDesc: "\u0415\u0441\u043B\u0438 \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043F\u0430\u043F\u043A\u0443 \u043E\u0442\u043B\u0438\u0447\u043D\u0443\u044E \u043E\u0442 \u043F\u0430\u043F\u043A\u0438 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E",
+  transferMetaFile: "Send files using a metadata field",
+  transferMetaFileDesc: "Set the names of the metadata field you want to use to send files. Separate fields with a comma. Dataview inline field are supported.",
   githubActionName: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 Github action",
   githubActionNameDesc: "\u0415\u0441\u043B\u0438 \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u0430\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C github action \u043F\u043E\u0441\u043B\u0435 \u0442\u043E\u0433\u043E \u043A\u0430\u043A \u043F\u043B\u0430\u0433\u0438\u043D \u0437\u0430\u043F\u0443\u0448\u0438\u0442 \u0444\u0430\u0439\u043B, \u0443\u043A\u0430\u0436\u0438\u0442\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0444\u0430\u0439\u043B\u0430 (\u0432 \u043F\u0430\u043F\u043A\u0435 .github/worfklows).",
   autoCleanUp: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043E\u0447\u0438\u0441\u0442\u043A\u0430",
@@ -890,6 +907,8 @@ var ru_default = {
   linkpathremoverDesc: "\u0423\u0434\u0430\u043B\u044F\u0442\u044C \u044D\u0442\u0443 \u0447\u0430\u0441\u0442\u044C \u0438\u0437 \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u044B\u0445 \u0441\u0441\u044B\u043B\u043E\u043A. \u0415\u0441\u043B\u0438 \u043D\u0443\u0436\u043D\u043E \u0443\u0434\u0430\u043B\u044F\u0442\u044C \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0442\u0435 \u0437\u0430\u043F\u044F\u0442\u0443\u044E.",
   logNoticeHeader: "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u044F\u0442\u044C \u043E \u043A\u0430\u0436\u0434\u043E\u0439 \u043E\u0448\u0438\u0431\u043A\u0435",
   logNoticeDesc: "\u041D\u0430 \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0445 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0430\u0445 \u0441\u043B\u043E\u0436\u043D\u043E \u043E\u0442\u043B\u0430\u0436\u0438\u0432\u0430\u0442\u044C \u043F\u043B\u0430\u0433\u0438\u043D. \u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u044D\u0442\u0443 \u043E\u043F\u0446\u0438\u044E, \u0447\u0442\u043E\u0431\u044B \u043B\u043E\u0433\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043A\u0430\u0436\u0434\u0443\u044E \u043E\u0448\u0438\u0431\u043A\u0443",
+  shareExternalModifiedTitle: "Share external modified file",
+  shareExternalModifiedDesc: "Send edited file if they are different from the active file. Useful when editing metadata using MetaEdit or Metadata Menu.",
   unablePublishNote: (fileInfo) => `\u041D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0443 ${fileInfo}\uFF0C\u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u044E`,
   errorPublish: (repoInfo) => `\u041E\u0448\u0438\u0431\u043A\u0430 \u043F\u0443\u0431\u043B\u0438\u043A\u0430\u0446\u0438\u0438 \u0432 ${repoInfo}.`,
   unablePublishMultiNotes: "\u041D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u0442\u044C \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043E\u043A, \u0447\u0442\u043E-\u0442\u043E \u043F\u043E\u0448\u043B\u043E \u043D\u0435 \u0442\u0430\u043A.",
@@ -899,7 +918,8 @@ var ru_default = {
   noNewNote: "\u041E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044E\u0442 \u043D\u043E\u0432\u044B\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0434\u043B\u044F \u043F\u0443\u0431\u043B\u0438\u043A\u0430\u0446\u0438\u0438.",
   successfullPublish: (noticeValue) => `\u0423\u0441\u043F\u0435\u0448\u043D\u043E \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043D\u043E ${noticeValue[0]} \u0432 ${noticeValue[1]}.`,
   waitingWorkflow: "\u041E\u0436\u0438\u0434\u0430\u044E \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u044F \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438...",
-  sendMessage: (noticeValue) => `\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u044E ${noticeValue[0]} \u0432 ${noticeValue[1]}${noticeValue[2]}`
+  sendMessage: (noticeValue) => `\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u044E ${noticeValue[0]} \u0432 ${noticeValue[1]}${noticeValue[2]}`,
+  mergeconflic: `Pull-request is not mergeable, you need to do it manually.`
 };
 
 // plugin/i18n/index.ts
@@ -918,7 +938,6 @@ function t(str) {
 function openDetails(groupName, detailsState) {
   for (let i = 0; i < document.getElementsByTagName("details").length; i++) {
     const details = document.getElementsByTagName("details")[i];
-    console.log(details.innerText);
     if (details.innerText === groupName && detailsState) {
       details.open = true;
     }
@@ -1178,6 +1197,10 @@ var GithubPublisherSettings = class extends import_obsidian2.PluginSettingTab {
       shortcutsHideShow(value, pathRemover);
       yield this.plugin.saveSettings();
     })));
+    new import_obsidian2.Setting(containerEl).setName(t("shareExternalModifiedTitle")).setDesc(t("shareExternalModifiedDesc")).addToggle((toggle) => toggle.setValue(this.plugin.settings.shareExternalModified).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.shareExternalModified = value;
+      yield this.plugin.saveSettings();
+    })));
     const baseLinkSettings = new import_obsidian2.Setting(containerEl).setName(t("baselink")).setDesc(t("baselinkDesc")).setClass("obs-git-publisher").addText((text) => {
       text.setPlaceholder("my_blog.com").setValue(this.plugin.settings.mainLink).onChange((value) => __async(this, null, function* () {
         this.plugin.settings.mainLink = value;
@@ -1234,30 +1257,39 @@ function getDataviewPath(markdown, settings, vault) {
   }
   return linkedFiles;
 }
-function createRelativePath(sourceFile, targetFile, metadata, settings, vault) {
+function createRelativePath(sourceFile, targetFile, metadata, settings, vault, frontmatter) {
   const sourcePath = getReceiptFolder(sourceFile, settings, metadata, vault);
-  const frontmatter = metadata.getCache(targetFile.linked.path) ? metadata.getCache(targetFile.linked.path).frontmatter : null;
   if (targetFile.linked.extension === "md" && (!frontmatter || !frontmatter[settings.shareKey] || frontmatter[settings.shareKey] === false)) {
     return targetFile.altText;
   }
-  const targetPath = targetFile.linked.extension === "md" ? getReceiptFolder(targetFile.linked, settings, metadata, vault) : getImageLinkOptions(targetFile.linked, settings, frontmatter);
+  if (targetFile.linked.path === sourceFile.path) {
+    return getReceiptFolder(targetFile.linked, settings, metadata, vault).split("/").at(-1);
+  }
+  const targetPath = targetFile.linked.extension === "md" ? getReceiptFolder(targetFile.linked, settings, metadata, vault) : getImageLinkOptions(targetFile.linked, settings, getFrontmatterCondition(frontmatter, settings));
   const sourceList = sourcePath.split("/");
   const targetList = targetPath.split("/");
   const diffSourcePath = sourceList.filter((x) => !targetList.includes(x));
   const diffTargetPath = targetList.filter((x) => !sourceList.includes(x));
   const diffTarget = function(folderPath) {
-    const relativePath = [];
+    const relativePath2 = [];
     for (const folder of folderPath) {
       if (folder != folderPath.at(-1)) {
-        relativePath.push("..");
+        relativePath2.push("..");
       }
     }
-    return relativePath;
+    return relativePath2;
   };
-  console.log(diffTarget(diffSourcePath).concat(diffTargetPath).join("/"));
-  return diffTarget(diffSourcePath).concat(diffTargetPath).join("/");
+  const relativePath = diffTarget(diffSourcePath);
+  if (relativePath.length === 0) {
+    relativePath.push(".");
+  }
+  let relative = relativePath.concat(diffTargetPath).join("/");
+  if (relative.trim() === "." || relative.trim() === "") {
+    relative = getReceiptFolder(targetFile.linked, settings, metadata, vault).split("/").at(-1);
+  }
+  return relative;
 }
-function folderNoteIndex(file, vault, settings) {
+function folderNoteIndexOBS(file, vault, settings) {
   if (!settings.folderNote)
     return file.name;
   const fileName = file.name.replace(".md", "");
@@ -1271,13 +1303,22 @@ function folderNoteIndex(file, vault, settings) {
 }
 function createObsidianPath(file, settings, vault, fileName) {
   const folderDefault = settings.folderDefaultName;
-  fileName = folderNoteIndex(file, vault, settings);
+  fileName = folderNoteIndexOBS(file, vault, settings);
   const rootFolder = folderDefault.length > 0 ? folderDefault + "/" : "";
   const path = rootFolder + file.path.replace(file.name, fileName);
   if (settings.subFolder.length > 0) {
     return path.replace(settings.subFolder + "/", "");
   }
   return path;
+}
+function folderNoteIndexYAML(fileName, frontmatter, settings) {
+  const category = frontmatter[settings.yamlFolderKey];
+  const parentCatFolder = !category.endsWith("/") ? category.split("/").at(-1) : category.split("/").at(-2);
+  if (!settings.folderNote)
+    return fileName;
+  if (fileName.replace(".md", "").toLowerCase() === parentCatFolder.toLowerCase())
+    return "index.md";
+  return fileName;
 }
 function createFrontmatterPath(file, settings, frontmatter, fileName) {
   let path = settings.folderDefaultName.length > 0 ? settings.folderDefaultName + "/" + fileName : fileName;
@@ -1286,10 +1327,7 @@ function createFrontmatterPath(file, settings, frontmatter, fileName) {
     folderRoot = folderRoot + "/";
   }
   if (frontmatter && frontmatter[settings.yamlFolderKey]) {
-    const category = frontmatter[settings.yamlFolderKey];
-    const parentCatFolder = !category.endsWith("/") ? category.split("/").at(-1) : category.split("/").at(-2);
-    fileName = settings.folderNote && parentCatFolder === fileName.replace(".md", "") ? "index.md" : fileName;
-    path = folderRoot + frontmatter[settings.yamlFolderKey] + "/" + fileName;
+    path = folderRoot + frontmatter[settings.yamlFolderKey] + "/" + folderNoteIndexYAML(fileName, frontmatter, settings);
   }
   return path;
 }
@@ -1319,12 +1357,16 @@ function getReceiptFolder(file, settings, metadataCache, vault) {
   }
 }
 function getImageLinkOptions(file, settings, sourceFrontmatter) {
-  if (sourceFrontmatter == null ? void 0 : sourceFrontmatter.imageLink) {
-    return sourceFrontmatter.imageLink.toString().replace(/\/$/, "") + "/" + file.name;
-  } else if (settings.defaultImageFolder.length > 0) {
-    return settings.defaultImageFolder + "/" + file.name;
-  } else if (settings.folderDefaultName.length > 0) {
-    return settings.folderDefaultName + "/" + file.name;
+  if (!sourceFrontmatter) {
+    if (settings.defaultImageFolder.length > 0) {
+      return settings.defaultImageFolder + "/" + file.name;
+    } else if (settings.folderDefaultName.length > 0) {
+      return settings.folderDefaultName + "/" + file.name;
+    } else {
+      return file.path;
+    }
+  } else if (sourceFrontmatter && sourceFrontmatter.attachmentLinks !== void 0) {
+    return sourceFrontmatter.attachmentLinks + "/" + file.name;
   }
   return file.path;
 }
@@ -1406,6 +1448,79 @@ function trimObject(obj) {
     return value;
   });
   return JSON.parse(trimmed);
+}
+function isAttachment(filename) {
+  return filename.match(/(png|jpe?g|gif|bmp|svg|mp[34]|webm|wav|m4a|ogg|3gp|flac|ogv|mov|mkv|pdf)$/i);
+}
+function getFrontmatterCondition(frontmatter, settings) {
+  let imageDefaultFolder = null;
+  if (settings.defaultImageFolder.length > 0) {
+    imageDefaultFolder = settings.defaultImageFolder;
+  } else if (settings.folderDefaultName.length > 0) {
+    imageDefaultFolder = settings.folderDefaultName;
+  }
+  const settingsConversion = {
+    convertWiki: settings.convertWikiLinks,
+    attachment: settings.embedImage,
+    embed: settings.embedNotes,
+    attachmentLinks: imageDefaultFolder,
+    links: true,
+    removeEmbed: false,
+    dataview: settings.convertDataview,
+    hardbreak: settings.hardBreak
+  };
+  if (frontmatter.links !== void 0) {
+    if (typeof frontmatter.links === "object") {
+      if (frontmatter.links.convert !== void 0) {
+        settingsConversion.links = frontmatter.links.convert;
+      }
+      if (frontmatter.links.mdlinks !== void 0) {
+        settingsConversion.convertWiki = frontmatter.links.mdlinks;
+      }
+    } else {
+      settingsConversion.links = frontmatter.links;
+    }
+  }
+  if (frontmatter.embed !== void 0) {
+    if (typeof frontmatter.embed === "object") {
+      if (frontmatter.embed.send !== void 0) {
+        settingsConversion.embed = frontmatter.embed.send;
+      }
+      if (frontmatter.embed.remove !== void 0) {
+        settingsConversion.removeEmbed = frontmatter.embed.remove;
+      }
+    } else {
+      settingsConversion.embed = frontmatter.embed;
+    }
+  }
+  if (frontmatter.attachment !== void 0) {
+    if (typeof frontmatter.attachment === "object") {
+      if (frontmatter.attachment.send !== void 0) {
+        settingsConversion.attachment = frontmatter.attachment.send;
+      }
+      if (frontmatter.attachment.folder !== void 0) {
+        settingsConversion.attachmentLinks = frontmatter.attachment.folder;
+      }
+    } else {
+      settingsConversion.attachment = frontmatter.attachment;
+    }
+  }
+  if (frontmatter.attachmentLinks !== void 0) {
+    settingsConversion.attachmentLinks = frontmatter.attachmentLinks.toString().replace(/\/$/, "");
+  }
+  if (frontmatter.mdlinks !== void 0) {
+    settingsConversion.convertWiki = frontmatter.mdlinks;
+  }
+  if (frontmatter.removeEmbed !== void 0) {
+    settingsConversion.removeEmbed = frontmatter.removeEmbed;
+  }
+  if (frontmatter.dataview !== void 0) {
+    settingsConversion.dataview = frontmatter.dataview;
+  }
+  if (frontmatter.hardbreak !== void 0) {
+    settingsConversion.hardbreak = frontmatter.hardbreak;
+  }
+  return settingsConversion;
 }
 
 // node_modules/universal-user-agent/dist-web/index.js
@@ -2393,7 +2508,7 @@ function filterGithubFile(fileInRepo, settings) {
       if (settings.downloadedFolder === "yaml" /* yaml */ && settings.rootFolder.length === 0 || settings.folderDefaultName.length === 0) {
         return null;
       }
-      if ((file.file.includes(settings.folderDefaultName) || settings.downloadedFolder === "yaml" /* yaml */ && file.file.includes(settings.rootFolder) || settings.defaultImageFolder.length > 0 && file.file.includes(settings.defaultImageFolder)) && !excludedFileFromDelete(file.file, settings) && file.file.match(/(md|jpe?g|png|gif|bmp|svg|mp3|webm|wav|m4a|ogg|3gp|flac|mp4|ogv|pdf)$/)) {
+      if ((file.file.includes(settings.folderDefaultName) || settings.downloadedFolder === "yaml" /* yaml */ && file.file.includes(settings.rootFolder) || settings.defaultImageFolder.length > 0 && file.file.includes(settings.defaultImageFolder)) && !excludedFileFromDelete(file.file, settings) && (isAttachment(file.file) || file.file.match("md$"))) {
         sharedFilesInRepo.push(file);
       }
     }
@@ -2428,10 +2543,12 @@ function checkIndexFiles(octokit, settings, path) {
 }
 
 // plugin/contents_conversion/convertLinks.ts
-function convertWikilinks(fileContent, frontmatter, settings, linkedFiles) {
-  const convertWikilink = frontmatter.mdlinks !== void 0 ? frontmatter == null ? void 0 : frontmatter.mdlinks : settings.convertWikiLinks;
-  const imageSettings = frontmatter.image !== void 0 ? frontmatter == null ? void 0 : frontmatter.image : settings.embedImage;
-  if (!convertWikilink && (frontmatter == null ? void 0 : frontmatter.links) && imageSettings) {
+function convertWikilinks(fileContent, conditionConvert, settings, linkedFiles) {
+  const convertWikilink = conditionConvert.convertWiki;
+  const imageSettings = conditionConvert.attachment;
+  const embedSettings = conditionConvert.embed;
+  const convertLinks = conditionConvert.links;
+  if (!convertWikilink && convertLinks && imageSettings && embedSettings && !conditionConvert.removeEmbed) {
     return fileContent;
   }
   const wikiRegex = /!?\[\[.*?\]\]/g;
@@ -2441,33 +2558,36 @@ function convertWikilinks(fileContent, frontmatter, settings, linkedFiles) {
     for (const wikiMatch of wikiMatches) {
       const fileMatch = wikiMatch.match(fileRegex);
       const isEmbed = wikiMatch.startsWith("!") ? "!" : "";
+      const isEmbedBool = wikiMatch.startsWith("!");
       if (fileMatch) {
         let linkCreator = wikiMatch;
         const fileName = fileMatch[0].replaceAll("[", "").replaceAll("|", "").replaceAll("]", "").replaceAll("\\", "");
         const linkedFile = linkedFiles.find((item) => item.linkFrom === fileName);
         if (linkedFile) {
           const altText = linkedFile.altText.length > 0 ? linkedFile.altText : linkedFile.linked.extension === "md" ? linkedFile.linked.basename : "";
+          const removeEmbed = conditionConvert.removeEmbed && isEmbedBool && linkedFile.linked.extension === "md";
           if (convertWikilink) {
             linkCreator = `${isEmbed}[${altText}](${encodeURI(linkedFile.linkFrom)})`;
           }
-          if ((frontmatter == null ? void 0 : frontmatter.links) === false && linkedFile.linked.extension === "md") {
+          if (linkedFile.linked.extension === "md" && !convertLinks && !isEmbedBool) {
             linkCreator = altText;
           }
-          if (!imageSettings && linkedFile.linked.extension.match("png|jpg|jpeg|gif|svg")) {
+          if (!imageSettings && isAttachment(linkedFile.linked.extension) || removeEmbed) {
             linkCreator = "";
           }
           fileContent = fileContent.replace(wikiMatch, linkCreator);
         } else if (!fileName.startsWith("http")) {
           const altMatch = wikiMatch.match(/(\|).*(]])/);
           const altCreator = fileName.split("/");
-          const altLink = creatorAltLink(altMatch, altCreator, fileName.split(".").at(-1));
+          const altLink = creatorAltLink(altMatch, altCreator, fileName.split(".").at(-1), fileName);
+          const removeEmbed = !isAttachment(fileName.trim()) && conditionConvert.removeEmbed && isEmbedBool;
           if (convertWikilink) {
             linkCreator = `${isEmbed}[${altLink}](${encodeURI(fileName.trim())})`;
           }
-          if ((frontmatter == null ? void 0 : frontmatter.links) === false && fileName.trim().match("md$")) {
+          if (!isAttachment(fileName.trim()) && !convertLinks && !isEmbedBool) {
             linkCreator = altLink;
           }
-          if (!imageSettings && fileName.trim().match("(png|jpg|jpeg|gif|svg)$")) {
+          if (!imageSettings && isAttachment(fileName.trim()) || removeEmbed) {
             linkCreator = "";
           }
           fileContent = fileContent.replace(wikiMatch, linkCreator);
@@ -2477,35 +2597,43 @@ function convertWikilinks(fileContent, frontmatter, settings, linkedFiles) {
   }
   return fileContent;
 }
-function convertLinkCitation(fileContent, settings, linkedFiles, metadataCache, sourceFile, vault) {
+function addAltText(link, linkedFile) {
+  if (!link.match(/(\|).*(]])/)) {
+    return link.replace("|", "").replace("]]", `|${linkedFile.altText}]]`);
+  }
+  return link;
+}
+function convertLinkCitation(fileContent, settings, linkedFiles, metadataCache, sourceFile, vault, frontmatter) {
   if (!settings.convertForGithub) {
     return fileContent;
   }
   for (const linkedFile of linkedFiles) {
-    let pathInGithub = createRelativePath(sourceFile, linkedFile, metadataCache, settings, vault).replace(".md", "");
-    if (pathInGithub.trim().length == 0) {
-      pathInGithub = getReceiptFolder(sourceFile, settings, metadataCache, vault);
-    }
+    let pathInGithub = createRelativePath(sourceFile, linkedFile, metadataCache, settings, vault, frontmatter).replace(".md", "");
     const regexToReplace = new RegExp(`(\\[{2}${linkedFile.linkFrom}(\\\\?\\|.*)?\\]{2})|(\\[.*\\]\\(${linkedFile.linkFrom}\\))`, "g");
     const matchedLink = fileContent.match(regexToReplace);
     if (matchedLink) {
       for (const link of matchedLink) {
         const regToReplace = new RegExp(`${linkedFile.linkFrom}`);
-        const newLink = link.replace(regToReplace, pathInGithub);
+        const block_link = linkedFile.linkFrom.match(/#.*/);
+        if (block_link) {
+          pathInGithub += block_link[0];
+        }
+        let newLink = link.replace(regToReplace, pathInGithub);
+        newLink = addAltText(newLink, linkedFile);
         fileContent = fileContent.replace(link, newLink);
       }
     }
   }
   return fileContent;
 }
-function creatorAltLink(altMatch, altCreator, fileExtension) {
+function creatorAltLink(altMatch, altCreator, fileExtension, match) {
   if (altMatch) {
     return altMatch[0].replace("]]", "").replace("|", "");
   }
   if (fileExtension === "md") {
     return altCreator.length > 1 ? altCreator[altCreator.length - 1] : altCreator[0];
   }
-  return "";
+  return match.split("/").at(-1);
 }
 
 // plugin/contents_conversion/convertText.ts
@@ -2514,8 +2642,7 @@ var import_obsidian_dataview = __toESM(require_lib());
 function addHardLineBreak(text, settings, frontmatter) {
   try {
     text = text.replace(/^\s*\\\s*$/gmi, "<br/>");
-    const hardBreak = (frontmatter == null ? void 0 : frontmatter.hardbreak) !== void 0 ? frontmatter == null ? void 0 : frontmatter.hardbreak : settings.hardBreak;
-    if (hardBreak) {
+    if (frontmatter.hardbreak) {
       text = text.replace(/\n/gm, "  \n");
     }
     return text;
@@ -2524,15 +2651,16 @@ function addHardLineBreak(text, settings, frontmatter) {
     return text;
   }
 }
-function addToYAML(text, toAdd) {
+function addTagsToYAML(text, toAdd) {
   return __async(this, null, function* () {
     const yaml = text.split("---")[1];
     const yamlObject = (0, import_obsidian6.parseYaml)(yaml);
     if (yamlObject.tag) {
-      toAdd = [.../* @__PURE__ */ new Set([...toAdd, ...yamlObject.tag])];
+      toAdd = [.../* @__PURE__ */ new Set([...toAdd, ...yamlObject.tag.map((tag) => tag.replaceAll("/", "_"))])];
+      delete yamlObject.tag;
     }
     if (yamlObject.tags) {
-      yamlObject.tags = [.../* @__PURE__ */ new Set([...yamlObject.tags, ...toAdd])];
+      yamlObject.tags = [.../* @__PURE__ */ new Set([...yamlObject.tags.map((tag) => tag.replaceAll("/", "_")), ...toAdd])];
     } else {
       yamlObject.tags = toAdd;
     }
@@ -2543,20 +2671,20 @@ ${returnToYaml}---
 ${fileContentsOnly}`;
   });
 }
-function addInlineTags(settings, file, metadataCache, app2) {
+function addInlineTags(settings, file, metadataCache, app2, frontmatter) {
   return __async(this, null, function* () {
-    var _a, _b;
+    var _a;
     const text = yield app2.vault.cachedRead(file);
     if (!settings.inlineTags) {
       return text;
     }
     const inlineTags = (_a = metadataCache.getFileCache(file)) == null ? void 0 : _a.tags;
     const inlineTagsInText = inlineTags ? inlineTags.map((t2) => t2.tag.replace("#", "").replaceAll("/", "_")) : [];
-    const frontmatterTags = (0, import_obsidian6.parseFrontMatterTags)((_b = metadataCache.getFileCache(file)) == null ? void 0 : _b.frontmatter);
+    const frontmatterTags = (0, import_obsidian6.parseFrontMatterTags)(frontmatter);
     const yamlTags = frontmatterTags ? frontmatterTags.map((t2) => t2.replace("#", "").replaceAll("/", "_")) : [];
     const toAdd = [.../* @__PURE__ */ new Set([...inlineTagsInText, ...yamlTags])];
     if (toAdd.length > 0) {
-      return yield addToYAML(text, toAdd);
+      return yield addTagsToYAML(text, toAdd);
     }
     return text;
   });
@@ -2610,12 +2738,12 @@ function convertInlineDataview(text, settings, sourceFile, app2) {
       }
     }
     if (valueToAdd.length > 0) {
-      return yield addToYAML(text, valueToAdd.filter(Boolean));
+      return yield addTagsToYAML(text, valueToAdd.filter(Boolean));
     }
     return text;
   });
 }
-function convertDataviewQueries(text, path, settings, app2, metadataCache, frontmatter, sourceFile) {
+function convertDataviewQueries(text, path, settings, app2, metadataCache, frontmatterSettings, frontmatter, sourceFile) {
   return __async(this, null, function* () {
     if (!app2.plugins.enabledPlugins.has("dataview")) {
       return text;
@@ -2627,15 +2755,15 @@ function convertDataviewQueries(text, path, settings, app2, metadataCache, front
     const matches = text.matchAll(dataviewRegex);
     if (!matches)
       return;
-    const settingsDataview = frontmatter.dataview !== void 0 ? frontmatter == null ? void 0 : frontmatter.dataview : settings.convertDataview;
+    const settingsDataview = frontmatterSettings.dataview;
     for (const queryBlock of matches) {
       try {
         const block = queryBlock[0];
         const query = queryBlock[1];
         let md = settingsDataview ? yield dvApi.tryQueryMarkdown(query, path) : "";
         const dataviewPath = getDataviewPath(md, settings, vault);
-        md = convertLinkCitation(md, settings, dataviewPath, metadataCache, sourceFile, vault);
-        md = convertWikilinks(md, frontmatter, settings, dataviewPath);
+        md = convertLinkCitation(md, settings, dataviewPath, metadataCache, sourceFile, vault, frontmatter);
+        md = convertWikilinks(md, frontmatterSettings, settings, dataviewPath);
         replacedText = replacedText.replace(block, md);
       } catch (e) {
         noticeLog(e, settings);
@@ -2649,18 +2777,32 @@ function convertDataviewQueries(text, path, settings, app2, metadataCache, front
 
 // plugin/src/status_bar.ts
 var ShareStatusBar = class {
-  constructor(statusBarItem, numberOfNotesToPublish) {
+  constructor(statusBarItem, numberOfNotesToPublish, attachment = false) {
+    this.attachment = false;
     this.statusBarItem = statusBarItem;
     this.counter = 0;
     this.numberOfNotesToPublish = numberOfNotesToPublish;
+    this.attachment = attachment;
     this.statusBarItem.createEl("span", { text: "" });
-    this.status = this.statusBarItem.createEl("span", { text: `${this.numberOfNotesToPublish} files marked for sharing` });
+    let msg = `${this.numberOfNotesToPublish} files marked for sharing`;
+    if (this.attachment) {
+      msg = `${this.numberOfNotesToPublish} attachments linked`;
+    }
+    this.status = this.statusBarItem.createEl("span", { text: `${msg}` });
   }
   increment() {
-    this.status.setText(`\u231BSharing files: ${++this.counter}/${this.numberOfNotesToPublish}`);
+    let msg = `\u231BSharing files`;
+    if (this.attachment) {
+      msg = `\u231BSharing attachments`;
+    }
+    this.status.setText(`${msg}: ${++this.counter}/${this.numberOfNotesToPublish}`);
   }
   finish(displayDurationMillisec) {
-    this.status.setText(`\u2705 Published files: ${this.counter}/${this.numberOfNotesToPublish}`);
+    let msg = `\u2705 Published files`;
+    if (this.attachment) {
+      msg = `\u2705 Shared attachments`;
+    }
+    this.status.setText(`${msg}: ${this.counter}/${this.numberOfNotesToPublish}`);
     setTimeout(() => {
       this.statusBarItem.remove();
     }, displayDurationMillisec);
@@ -2684,24 +2826,28 @@ var Publisher = class {
       if (linkedFiles.length > 0) {
         if (linkedFiles.length > 1) {
           const statusBarItems = this.plugin.addStatusBarItem();
-          const statusBar = new ShareStatusBar(statusBarItems, linkedFiles.length);
+          const statusBar = new ShareStatusBar(statusBarItems, linkedFiles.length, true);
           for (const image of linkedFiles) {
-            if (image.extension === "md" && !fileHistory.includes(image) && deepScan) {
-              fileHistory.push(image);
-              yield this.publish(image, false, ref, fileHistory, true);
-            } else {
-              yield this.uploadImage(image, ref, sourceFrontmatter);
+            if (!fileHistory.includes(image)) {
+              if (image.extension === "md" && deepScan) {
+                yield this.publish(image, false, ref, fileHistory, true);
+              } else if (isAttachment(image.extension) && sourceFrontmatter.attachment) {
+                yield this.uploadImage(image, ref, sourceFrontmatter);
+                fileHistory.push(image);
+              }
             }
             statusBar.increment();
           }
           statusBar.finish(8e3);
         } else {
           const embed = linkedFiles[0];
-          if (embed.extension === "md" && !fileHistory.includes(embed) && deepScan) {
-            fileHistory.push(embed);
-            yield this.publish(embed, false, ref, fileHistory, true);
-          } else {
-            yield this.uploadImage(embed, ref, sourceFrontmatter);
+          if (!fileHistory.includes(embed)) {
+            if (embed.extension === "md" && deepScan) {
+              yield this.publish(embed, false, ref, fileHistory, true);
+            } else if (isAttachment(embed.extension) && sourceFrontmatter.attachment) {
+              yield this.uploadImage(embed, ref, sourceFrontmatter);
+              fileHistory.push(embed);
+            }
           }
         }
       }
@@ -2718,20 +2864,21 @@ var Publisher = class {
       }
       try {
         fileHistory.push(file);
-        let embedFiles = shareFiles.getSharedEmbed(file);
-        embedFiles = yield shareFiles.getMetadataLinks(file, embedFiles);
+        const frontmatterSettings = getFrontmatterCondition(frontmatter, this.settings);
+        let embedFiles = shareFiles.getSharedEmbed(file, frontmatterSettings);
+        embedFiles = yield shareFiles.getMetadataLinks(file, embedFiles, frontmatter, frontmatterSettings);
         const linkedFiles = shareFiles.getLinkedByEmbedding(file);
-        let text = yield addInlineTags(this.settings, file, this.metadataCache, this.plugin.app);
-        text = yield convertDataviewQueries(text, file.path, this.settings, this.plugin.app, this.metadataCache, frontmatter, file);
+        let text = yield addInlineTags(this.settings, file, this.metadataCache, this.plugin.app, frontmatter);
+        text = yield convertDataviewQueries(text, file.path, this.settings, this.plugin.app, this.metadataCache, frontmatterSettings, frontmatter, file);
         text = yield convertInlineDataview(text, this.settings, file, this.plugin.app);
-        text = addHardLineBreak(text, this.settings, frontmatter);
-        text = convertLinkCitation(text, this.settings, linkedFiles, this.metadataCache, file, this.vault);
-        text = convertWikilinks(text, frontmatter, this.settings, linkedFiles);
+        text = addHardLineBreak(text, this.settings, frontmatterSettings);
+        text = convertLinkCitation(text, this.settings, linkedFiles, this.metadataCache, file, this.vault, frontmatter);
+        text = convertWikilinks(text, frontmatterSettings, this.settings, linkedFiles);
         text = censorText(text, this.settings);
         const path = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
         noticeLog(`Upload ${file.name}:${path} on ${this.settings.githubName}/${this.settings.githubRepo}:${ref}`, this.settings);
         yield this.uploadText(file.path, text, path, file.name, ref);
-        yield this.statusBarForEmbed(embedFiles, fileHistory, ref, deepScan, frontmatter);
+        yield this.statusBarForEmbed(embedFiles, fileHistory, ref, deepScan, frontmatterSettings);
         if (autoclean && this.settings.autoCleanUp) {
           yield deleteFromGithub(true, this.settings, this.octokit, ref, shareFiles);
         }
@@ -2754,9 +2901,9 @@ var Publisher = class {
       }
       const octokit = this.octokit;
       let msg = `PUSH NOTE : ${title}`;
-      if (path.match(/(png|jpe?g|svg|bmp|gif)$/i)) {
+      if (isAttachment(path)) {
         title = path.split("/")[path.split("/").length - 1];
-        msg = `PUSH IMAGE : ${title}`;
+        msg = `PUSH ATTACHMENT : ${title}`;
       }
       const payload = {
         owner: this.settings.githubName,
@@ -2865,8 +3012,7 @@ var FilesManagement = class extends Publisher {
     const allFileWithPath = [];
     const shareKey = this.settings.shareKey;
     for (const file of files) {
-      const fileExtension = file.extension;
-      if (fileExtension.match(/(png|jpe?g|gif|bmp|svg|mp[34]|webm|wav|m4a|ogg|3gp|flac|ogv|mov|mkv|pdf)$/i)) {
+      if (isAttachment(file.extension)) {
         const filepath = getImageLinkOptions(file, this.settings, null);
         allFileWithPath.push({
           converted: filepath,
@@ -2891,7 +3037,7 @@ var FilesManagement = class extends Publisher {
     if (imageEmbedded != void 0) {
       for (const image of imageEmbedded) {
         try {
-          const imageLink = this.metadataCache.getFirstLinkpathDest(image.link, file.path);
+          const imageLink = this.metadataCache.getFirstLinkpathDest(image.link.replace(/#.*/, ""), file.path);
           if (imageLink !== null) {
             if (imageLink.extension === "md") {
               const checkFrontmatter = this.metadataCache.getCache(imageLink.path).frontmatter;
@@ -2939,14 +3085,13 @@ var FilesManagement = class extends Publisher {
     }
     return [];
   }
-  getSharedEmbed(file) {
+  getSharedEmbed(file, frontmatterSourceFile) {
     const embedCaches = this.metadataCache.getCache(file.path).embeds;
-    const frontmatterSourceFile = this.metadataCache.getFileCache(file).frontmatter;
     const imageList = [];
     if (embedCaches != void 0) {
       for (const embed of embedCaches) {
         try {
-          const imageLink = this.metadataCache.getFirstLinkpathDest(embed.link, file.path);
+          const imageLink = this.metadataCache.getFirstLinkpathDest(embed.link.replace(/#(.*)/, ""), file.path);
           imageList.push(this.imageSharedOrNote(imageLink, frontmatterSourceFile));
         } catch (e) {
           noticeLog(e, this.settings);
@@ -3032,21 +3177,21 @@ var FilesManagement = class extends Publisher {
     }
     return null;
   }
-  imageSharedOrNote(file, frontmatterSourceFile) {
-    const transferImage = frontmatterSourceFile.image !== void 0 ? frontmatterSourceFile.image : this.settings.embedImage;
-    if (file.extension.match(/(png|jpe?g|gif|bmp|svg|mp[34]|webm|wav|m4a|ogg|3gp|flac|ogv|mov|mkv|pdf)/i) && transferImage) {
+  imageSharedOrNote(file, settingsConversion) {
+    const transferImage = settingsConversion.attachment;
+    const transferEmbeds = settingsConversion.embed;
+    if (isAttachment(file.extension) && transferImage || transferEmbeds && file.extension === "md") {
       return file;
     }
-    return file;
+    return null;
   }
-  getMetadataLinks(file, embedFiles) {
+  getMetadataLinks(file, embedFiles, frontmatterSourceFile, frontmatterSettings) {
     return __async(this, null, function* () {
-      const frontmatterSourceFile = this.metadataCache.getFileCache(file).frontmatter;
       for (const field of this.settings.metadataFileFields) {
         if (frontmatterSourceFile[field] != void 0) {
           const imageLink = this.metadataCache.getFirstLinkpathDest(frontmatterSourceFile[field], file.path);
           if (imageLink !== null) {
-            embedFiles.push(this.imageSharedOrNote(file, frontmatterSourceFile));
+            embedFiles.push(this.imageSharedOrNote(file, frontmatterSettings));
           }
         }
       }
@@ -3058,10 +3203,10 @@ var FilesManagement = class extends Publisher {
           if (fieldValue != void 0) {
             if (fieldValue.constructor.name === "Array") {
               for (const value of fieldValue) {
-                embedFiles.push(this.getImageByPath(value, fieldValue, frontmatterSourceFile));
+                embedFiles.push(this.getImageByPath(value, fieldValue, frontmatterSettings));
               }
             } else {
-              embedFiles.push(this.getImageByPath(fieldValue, fieldValue, frontmatterSourceFile));
+              embedFiles.push(this.getImageByPath(fieldValue, fieldValue, frontmatterSettings));
             }
           }
         }
@@ -3137,14 +3282,24 @@ var GithubBranch = class extends FilesManagement {
   }
   pullRequest(branchName) {
     return __async(this, null, function* () {
-      return yield this.octokit.request("POST /repos/{owner}/{repo}/pulls", {
-        owner: this.settings.githubName,
-        repo: this.settings.githubRepo,
-        title: `PullRequest ${branchName} from Obsidian`,
-        body: "",
-        head: branchName,
-        base: "main"
-      });
+      try {
+        const PR = yield this.octokit.request("POST /repos/{owner}/{repo}/pulls", {
+          owner: this.settings.githubName,
+          repo: this.settings.githubRepo,
+          title: `PullRequest ${branchName} from Obsidian`,
+          body: "",
+          head: branchName,
+          base: "main"
+        });
+        return PR.data.number;
+      } catch (e) {
+        const PR = yield this.octokit.request("GET /repos/{owner}/{repo}/pulls", {
+          owner: this.settings.githubName,
+          repo: this.settings.githubRepo,
+          state: "open"
+        });
+        return PR.data[0].number;
+      }
     });
   }
   deleteBranch(branchName) {
@@ -3168,25 +3323,30 @@ var GithubBranch = class extends FilesManagement {
       const octokit = new Octokit({
         auth: this.settings.GhToken
       });
-      const branch = yield octokit.request("PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge", {
-        owner: this.settings.githubName,
-        repo: this.settings.githubRepo,
-        pull_number: pullRequestNumber,
-        commit_title: `[PUBLISHER] Merge #${pullRequestNumber}`,
-        merge_method: "squash"
-      });
-      if (branch.status === 405) {
+      try {
+        const branch = yield octokit.request("PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge", {
+          owner: this.settings.githubName,
+          repo: this.settings.githubRepo,
+          pull_number: pullRequestNumber,
+          commit_title: `[PUBLISHER] Merge #${pullRequestNumber}`,
+          merge_method: "squash"
+        });
+        return branch.status === 200;
+      } catch (e) {
         new import_obsidian9.Notice(t("mergeconflic"));
+        return false;
       }
-      return branch.status === 200;
     });
   }
   updateRepository(branchName) {
     return __async(this, null, function* () {
       const pullRequest = yield this.pullRequest(branchName);
-      yield this.mergePullRequest(branchName, true, pullRequest.data.number);
-      yield this.deleteBranch(branchName);
-      return true;
+      const PRSuccess = yield this.mergePullRequest(branchName, true, pullRequest);
+      if (PRSuccess) {
+        yield this.deleteBranch(branchName);
+        return true;
+      }
+      return false;
     });
   }
 };
@@ -3352,6 +3512,14 @@ var GithubPublisher = class extends import_obsidian11.Plugin {
           });
         }
       }));
+      this.registerEvent(this.app.vault.on("modify", (file) => __async(this, null, function* () {
+        if (file !== this.app.workspace.getActiveFile() && this.settings.shareExternalModified) {
+          const isShared = this.app.metadataCache.getFileCache(file).frontmatter ? this.app.metadataCache.getFileCache(file).frontmatter[this.settings.shareKey] : false;
+          if (isShared) {
+            yield shareOneNote(branchName, PublisherManager, this.settings, file, this.app.metadataCache, this.app.vault);
+          }
+        }
+      })));
       this.addCommand({
         id: "publisher-one",
         name: t("shareActiveFile"),

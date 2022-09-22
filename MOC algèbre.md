@@ -6,7 +6,7 @@ alias: "algèbre"
 
 > [!query]- Sous-notes de [[MOC algèbre]]
 > ```dataview
-> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> TABLE title, description, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#excalidraw
 > WHERE contains(file.outlinks, [[MOC algèbre]])
 >    or contains(up,          [[MOC algèbre]])

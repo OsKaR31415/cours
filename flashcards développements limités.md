@@ -36,7 +36,7 @@ $\DL_n(0)\ln(1+x) =\ldots$
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\disp\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
 `{-/(⍵*k)÷k←⍳N}x`
-<!--SR:!2022-09-17,10,130-->
+<!--SR:!2022-10-02,13,130-->
 
 
 **Développement limité**
@@ -56,7 +56,7 @@ $=\sum\limits_{k=0}^{n} (-1)^{\frac{k}{2}}\frac{x^{k}}{k!}[2\mid k]$
 _somme alternée des $\frac{x^{k}}{k!}$ quand $2$ divise $k$_
 Puissances **Paires** car $\cos$ est une [[fonction paire]].
 Les parties régulières à l'ordre $2n$ et $2n+1$ sont les mêmes.
-<!--SR:!2022-09-16,4,200-->
+<!--SR:!2022-09-30,11,200-->
 
 
 **Développement limité**
@@ -68,7 +68,7 @@ $\disp\sum\limits_{k=0}^{n} (-1)^{\frac{k-1}{2}}\frac{x^{k}}{k!}[2 \nmid k]$
 _somme alternée des $\frac{x^{k}}{k!}$ quand $2$ ne divise pas $k$_
 Puissances **Impaires** car $\sin$ est une [[fonction impaire]].
 Les parties régulières à l'ordre $2n+1$ et $2n+2$ sont les mêmes.
-<!--SR:!2022-09-15,4,219-->
+<!--SR:!2022-09-22,2,199-->
 
 
 **Développement limité**
@@ -79,7 +79,7 @@ $\disp\sh(x) = x + \frac{x^{3}}{3!} + \frac{x^{5}}{5!} + \cdots + \frac{x^{2n+1}
 _somme des $\frac{x^{k}}{k!}$ quand $2$ ne divise pas $k$_
 Puissances **impaires** car $\sh$ est une [[fonction impaire]]
 Mêmes termes que $\DL_{n}: e^{x}$
-<!--SR:!2022-09-18,19,198-->
+<!--SR:!2022-10-28,39,198-->
 
 **Développement limité**
 $\DL_{n}(0) :\ch(x) = \ldots$

@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -78,21 +78,21 @@
       }
     },
     {
-      "query": "path:sources OR tag:#citation OR tag:#source",
+      "query": "path:sources",
       "color": {
         "a": 1,
         "rgb": 3770873
       }
     },
     {
-      "query": "tag:#science OR tag:#autres OR tag:#fac",
+      "query": "tag:#science OR tag:#autres",
       "color": {
         "a": 1,
         "rgb": 15648605
       }
     },
     {
-      "query": "tag:#exercice OR tag:#cours",
+      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
       "color": {
         "a": 1,
         "rgb": 16759552
@@ -123,6 +123,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.29187988286911754,
+  "scale": 5.297413495760374,
   "close": true
 }

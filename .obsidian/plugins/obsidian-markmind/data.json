@@ -7,7 +7,7 @@
   "layoutDirect": "right",
   "protocol": "jump-to-pdf",
   "registerPdfEvent": true,
-  "viewerTheme": 2,
+  "viewerTheme": 1,
   "mindmapmode": "rich",
   "parseMindMap": true,
   "annotateTop": 0,
