@@ -17,13 +17,19 @@
             {
               "leaf": "b6c52e3dc84af1b6",
               "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "b6c52e3dc84af1b6",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian commits.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
