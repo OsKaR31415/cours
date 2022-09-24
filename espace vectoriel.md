@@ -5,6 +5,7 @@ sr-ease: 267
 alias: "ev"
 ---
 up::[[structure algébrique]]
+title::"$(E, +, \cdot)$ tel que", " - $(E, +)$ est un [[groupe abélien]]", " - $\cdot$ est [[distributivité|distributive]] sur $+$"
 #maths/algèbre #review 
 # espace vectoriel
 
@@ -34,9 +35,9 @@ On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ 
 > Les éléments de $K$ sont appelés les **scalaires**
 
 ## Exemples d'espaces vectoriels
- - Les espaces $\mathbb R$, $\mathbb R^2$, $\mathbb R^3$, ... $\mathbb R^n$ sont des espaces vectoriels (avec l'addition et la multiplication, et sur le corps $\R$)
- - L'ensemble des [[polynôme|polynômes]] (sur $\R$ ou $\C$)
- - L'ensemble des [[fonction dérivable|fonctions dérivables]] (sur $\R$ ou $\C$)
+ - Les espaces $\mathbb R$, $\mathbb R^2$, $\mathbb R^3$, ... $\mathbb R^n$ sont des espaces vectoriels (avec l'addition et la multiplication, et sur le corps $\mathbb{R}$)
+ - L'ensemble des [[polynôme|polynômes]] (sur $\mathbb{R}$ ou $\C$)
+ - L'ensemble des [[fonction dérivable|fonctions dérivables]] (sur $\mathbb{R}$ ou $\C$)
 
 
 ## Propriétés

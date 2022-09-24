@@ -1,4 +1,5 @@
 up::[[structure algébrique]]
+title::"ensemble muni d'une [[loi de composition interne|lci]] [[associativité|associative]]"
 #maths/algèbre #review 
 # semi groupe
 Soit un ensemble $E$, et $*$ une [[loi de composition interne]] sur $E$.

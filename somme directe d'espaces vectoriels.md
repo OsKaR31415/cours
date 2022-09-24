@@ -1,4 +1,5 @@
 up::[[somme d'espaces vectoriels]]
+title::"$F \oplus G : E$ ssi :", " - $F+G = E$ ([[somme d'espaces vectoriels]])", " - $F$ et $G$ sont [[espaces vectoriels supplémentaires|supplémentaires]] (toute décomposition est unique)"
 #maths/analyse #review 
 # somme directe d'espaces vectoriels
 Soit $(E, +, \cdot)$ un [[espace vectoriel réel]]

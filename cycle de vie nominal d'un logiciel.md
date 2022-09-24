@@ -2,7 +2,7 @@ up::[[génie logiciel]]
 #informatique #review 
 # cycle de vie nominal d'un logiciel
 
-> [!query] Sous-notes de `=this.file.link`
+> [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

@@ -31,7 +31,7 @@ On dit qu'une équation différentielle est à *variables séparées* lorsque le
 
 ## Propriétés
 
-> [!bigquery] Sous-notes de `=this.file.link`
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, description
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

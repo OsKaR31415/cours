@@ -11,7 +11,7 @@
 > 💻 : informatique
 > 🎵 : musique
 
-> [!query] Eléments du CV
+> [!smallquery] Eléments du CV
 > ```dataview
 > TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
@@ -26,7 +26,7 @@
 
 ## Par thèmes
 
-> [!query]- **Mathématiques**
+> [!smallquery]- **Mathématiques**
 > ```dataview
 > TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
@@ -37,7 +37,7 @@
 > SORT date
 > ```
 
-> [!query]- **Informatique**
+> [!smallquery]- **Informatique**
 > ```dataview
 > TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""
@@ -48,7 +48,7 @@
 > SORT date
 > ```
 
-> [!query]- **Anglais**
+> [!smallquery]- **Anglais**
 > ```dataview
 > TABLE date as "début", date-end as "fin", compétences, description
 > FROM ""

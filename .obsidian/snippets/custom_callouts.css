@@ -8,11 +8,16 @@
 }
 
 
-.callout[data-callout="todo"] {
+.callout[data-callout="todo"], .callout[data-callout="smalltodo"]{
     /* orange is my color for todo
      * (especially since tags are orange, and tasks have the #task tag) */
     --callout-color: 250, 155, 33;
-    --callout-icon: clipboard check;
+    --callout-icon: luc_clipboard_check;
+}
+.callout[data-callout="smalltodo"] {
+    font-size: 80%;
+    --table-font-size: 80%;
+    --font-code: 80%;
 }
 
 
@@ -21,7 +26,7 @@
 /* ╹ ╹┗━╸┗┻┛   ┗━╸╹ ╹┗━╸┗━╸┗━┛┗━┛ ╹ ┗━┛ */
 
 
-.callout[data-callout="query"] {
+.callout[data-callout="query"], .callout[data-callout="smallquery"]{
     /* small and green, for queries (dataview...) */
     /* change this -------.  to adjust brightness */
     /*                    |                       */
@@ -30,16 +35,12 @@
     --callout-icon: database;
     /* --callout-icon: '<svg>...custom svg...</svg>'; */
     /* font-size: 18px; /1* smaller font size, to see more results at se same time *1/ */
+}
+.callout[data-callout="smallquery"] {
     font-size: 80%; /* smaller font size, to see more results at se same time */
     /* also change the size of any table contained in the callout */
     --table-font-size: 80%;
     --font-code: 80%;
-}
-
-.callout[data-callout="bigquery"] {
-    /* same as query, but with default (bigger) size */
-    --callout-color: 68, 140, 80;
-    --callout-icon: database;
 }
 
 

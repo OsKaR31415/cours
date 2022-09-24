@@ -9,7 +9,7 @@ up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction cosinus hyperbolique]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
-description::"$\R \to \R$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
+description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\sh$
 #maths/analyse #maths/trigonométrie #no-review 
 # fonction sinus hyperbolique
@@ -36,9 +36,9 @@ $\ch^2 x - \sh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
 (Voir [[fonction cosinus hyperbolique]])
 
  - $\sh$ est une [[fonction impaire]]
- - $\sh$ est [[fonction dérivable|dérivable]] sur $\R$
+ - $\sh$ est [[fonction dérivable|dérivable]] sur $\mathbb{R}$
      - $\sh$ est donc [[fonction continue|continue]]
-     - dérivée : $\sh' = \ch$ [[fonction sinus hyperbolique|sinus hyperbolique]] (existe sur $\R$)
+     - dérivée : $\sh' = \ch$ [[fonction sinus hyperbolique|sinus hyperbolique]] (existe sur $\mathbb{R}$)
          - a pour [[tangente à une courbe|tangente]] en $0$ la courbe de $y = x$
  - $\sh$ est [[fonction croissante|strictement croissante]]
  - [[asymptote]] à $\ch$ en $+\infty$ et à $-\ch$ en $-\infty$

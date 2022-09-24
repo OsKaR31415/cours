@@ -1,4 +1,5 @@
 up::[[structure algébrique]]
+description::"table d'une opération (résultat de l'application sur toutes les valeurs possible)"
 #maths/algèbre #no-review 
 # table de cayley
 Soit $E$ un ensemble non vide, et $*$ une [[loi de composition interne|LCI]] sur $E$.

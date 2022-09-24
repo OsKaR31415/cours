@@ -12,7 +12,7 @@ ne dépend pas de la subdivision adaptée à $\phi$.
 Ce réel est appelé l'_intégrale de $\varphi$ sur $[a,b]$_ et noté $\disp\int_a^b\varphi(x)\d x$
 
 ## Fonction intégrable au sens de Riemann
-une [[fonction bornée]] $f: [a,b]\rightarrow \R$ est _intégrable au sens de Riemann_, ou encore _Riemann intégrable_, si :
+une [[fonction bornée]] $f: [a,b]\rightarrow \mathbb{R}$ est _intégrable au sens de Riemann_, ou encore _Riemann intégrable_, si :
 Pour tout $\varepsilon>0$ il existe des fonctions en escalier $\varphi$ et $\psi$ sur $[a,b]$ telles que :
 
 $\disp \forall x\in[a,b], \varphi(x)\leq f(x)\leq \psi(x)$ et $\disp\int_a^b\Big( \psi(x) - \varphi(x) \Big) \d x \leq \varepsilon$
@@ -37,7 +37,7 @@ De même pour toute [[fonction continue par morceaux]], pour toute fonction cont
 
 Toute fonction réelle [[fonction monotone|monotone]] suru un segment $[a,b]$ est _Riemann intégrable_.
 
-Soient $f$ et $g$ deux fonctions _Riemann intégrables_ sur $[a,b]$ et soit $k\in\R$,
+Soient $f$ et $g$ deux fonctions _Riemann intégrables_ sur $[a,b]$ et soit $k\in\mathbb{R}$,
 Alors les fonctions $k\cdot f$ et $f+g$ sont _Riemann intégrables_.
 De plus :
 $\disp \int_a^b (k\cdot f)(x) \d x = k\cdot\int_a^b f(x)\d x$
@@ -47,14 +47,14 @@ $\disp \int_a^b (f+g)(x)\d x = \int_a^b f(x)\d x + \int_a^b g(x) \d x$
 
 
 ### Relation de Chasles
-Soient $(a,b,c)\in\R^3$ tel que $a<b<c$ et $f$ une fonction intégrable au sens de Riemann sur $[a,c]$.
+Soient $(a,b,c)\in\mathbb{R}^3$ tel que $a<b<c$ et $f$ une fonction intégrable au sens de Riemann sur $[a,c]$.
 Alors la fonction $f$ est intégrable sur $[a,b]$ et sur $[b,c]$ et vérifie l'égalité :
 $\disp\int_a^c f(x)\d x = \int_a^b f(x)\d x + \int_b^c f(x)\d x$
 
 #### Généralisation
 soit $f$ une fonction Riemann intégrable sur $[a,b]$.
 On note $\disp\int_a^b f(x)\d x = -\int_a^b f(x)\d x$. Donc $\disp\int_a^a f(x)\d x = 0$
-Alors, pour tout $(a,b,c)\in\R^3$ et toute fonction $f$ Riemann intégrable sur un segment contenant $a$, $b$ et $c$, on a la relation de Casles généralisée :
+Alors, pour tout $(a,b,c)\in\mathbb{R}^3$ et toute fonction $f$ Riemann intégrable sur un segment contenant $a$, $b$ et $c$, on a la relation de Casles généralisée :
 $\int_a^c f(x)\d x = \int_a^b f(x)\d x + \int_b^c f(x)\d x$
 
 ### Inégalités

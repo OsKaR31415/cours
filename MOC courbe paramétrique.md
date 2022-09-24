@@ -2,16 +2,13 @@
 # MOC courbe paramétrique
  - [[courbe paramétrée]]
 
-> [!query]- Sous-notes de [[courbe paramétrée]]
+> [!query] Sous-notes de [[courbe paramétrée]]
 > ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM ""
-> WHERE contains(file.outlinks, [[courbe paramétrée]])
->    or contains(up,          [[courbe paramétrée]])
->    or contains(up.up,       [[courbe paramétrée]])
->    or contains(up.up.up,    [[courbe paramétrée]])
->    or contains(up.up.up.up, [[courbe paramétrée]])
-> SORT file.etags, up.up.up.up, up.up.up, up.up, up.file
+> TABLE title, description, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), [[courbe paramétrée]])
+> WHERE file.link != this.file.link
+> SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
 ## Propriétés

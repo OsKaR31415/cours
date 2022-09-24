@@ -5,7 +5,7 @@ sr-ease: 309
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 derivative::$1+\tan^{2(x)} = \frac{1}{\cos^{2}(x)}$
-description::"$\R \setminus \frac{\pi}{2}\Z \to \R$", "$x \mapsto \dfrac{\sin(x)}{\cos(x)}$"
+description::"$\mathbb{R} \setminus \frac{\pi}{2}\Z \to \mathbb{R}$", "$x \mapsto \dfrac{\sin(x)}{\cos(x)}$"
 title::$\tan$
 
 #maths/analyse #maths/trigonométrie #review 
@@ -14,7 +14,7 @@ Notée $\tan$. Fonction trigonométrique (fonction circulaire).
 Elle est une [[application]] sur $\{x\in\mathbb{R} | \cos x\neq 0\} = \mathbb{R}\setminus\left\{ \dfrac\pi2 + k\pi,  k\in\mathbb{Z} \right\}$
 Elle est [[fonction impaire|impaire]], [[fonction croissante|strictement croissante]] et de période $\pi$
 
-$\begin{align*} f: \quad & \R\setminus \left\{\frac{\pi}{2}+k \pi, k \in \Z\right\} \to \R\\ & x \mapsto \frac{\sin(x)}{\cos(x)} \end{align*}$
+$\begin{align*} f: \quad & \mathbb{R}\setminus \left\{\frac{\pi}{2}+k \pi, k \in \Z\right\} \to \mathbb{R}\\ & x \mapsto \frac{\sin(x)}{\cos(x)} \end{align*}$
 
 ## Propriétés
 $\tan(x) = \dfrac{\sin x}{\cos x}$ (voir [[fonction sinus]] et [[fonction cosinus]])

@@ -9,16 +9,16 @@ up::[[MOC analyse]]
 # courbe paramétrée
 
 ## Définition
-Une _courbe paramétrée plane_ est une [[application]] d'un sous-ensemble $D$ de $\R$ dans $\R^{2}$
+Une _courbe paramétrée plane_ est une [[application]] d'un sous-ensemble $D$ de $\mathbb{R}$ dans $\mathbb{R}^{2}$
 $$\begin{align*}
-f &: D\subset \R \rightarrow R^2\\
+f &: D\subset \mathbb{R} \rightarrow R^2\\
 & t \mapsto f(t)
 \end{align*}$$
 
  - application qui, à un réel $t$ (le **paramètre**) associe un _point_ du plan
 
  - On peut aussi écrire que $t \mapsto \begin{pmatrix} x(t)\\y(t) \end{pmatrix}$
- - Si on identifie $\R^2$ à $\C$, on à $t\mapsto x(t)+i \cdot y(t)$
+ - Si on identifie $\mathbb{R}^2$ à $\C$, on à $t\mapsto x(t)+i \cdot y(t)$
      - On associe alors un nombre à un point du [[plan complexe]]
 
 **Note :** malgré le nom de _courbe_ paramétrée, c'est bien une [[application]]
@@ -30,7 +30,7 @@ $$\left\{\begin{gathered}
 x(t)=3\ln(t)\\
 y(t)=2t^{2}+1
 \end{gathered} \right., t\in D$$
- - $x$ et $y$ sont des fonctions de $D$ dans $\R$
+ - $x$ et $y$ sont des fonctions de $D$ dans $\mathbb{R}$
 
 On écrit également :
 $z(t)=e^{it}, t\in D$
@@ -50,7 +50,7 @@ $z(t)=e^{it}, t\in D$
  - [[multiplicité d'un point d'une courbe paramétrée]]
 
 ### Représentation des fonctions
-Si $f$ est une fonction de $D$ vers $\R$, on peut paramétriser le graphe de $f$.
+Si $f$ est une fonction de $D$ vers $\mathbb{R}$, on peut paramétriser le graphe de $f$.
 On peut donc "_traduire_" $y=f(x)$ sous forme paramétrique :
 $$\left\{\begin{gathered}
 x(t)=t\\

@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:#gists",
+      "color": {
+        "a": 1,
+        "rgb": 6827411
+      }
+    },
+    {
       "query": "tag:#CV",
       "color": {
         "a": 1,
@@ -85,7 +92,7 @@
       }
     },
     {
-      "query": "tag:#science OR tag:#autres",
+      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
       "color": {
         "a": 1,
         "rgb": 15648605
@@ -123,6 +130,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.7514342322277564,
+  "scale": 0.353716011625202,
   "close": true
 }

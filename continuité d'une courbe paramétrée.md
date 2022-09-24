@@ -1,7 +1,7 @@
 up::[[courbe paramétrée]]
 #maths/analyse #review
 # continuité d'une courbe paramétrée
-Soit $f: t\mapsto M(t)=(x(t),y(t))$ avec $t\in D\subset \R$, une [[courbe paramétrée]]
+Soit $f: t\mapsto M(t)=(x(t),y(t))$ avec $t\in D\subset \mathbb{R}$, une [[courbe paramétrée]]
 Soit $t_{0}\in D$
 La courbe $f$ est _continue en $t_0$_ ssi les fonctions $x$ et $y$ sont [[fonction continue|continues]] en $t_0$.
 

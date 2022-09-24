@@ -5,7 +5,7 @@ date::2022-08-22
 # exercices espaces vectoriels 2022-08-22
 ## déterminer lesquels de ces ensembles forment des espaces vectoriels :
 
-### $E_{2} = \{ (x;y;z) \in \R^{3} \mid x^{2} - z^{2} = 0 \}$
+### $E_{2} = \{ (x;y;z) \in \mathbb{R}^{3} \mid x^{2} - z^{2} = 0 \}$
 
 > [!error]- Démonstration fausse
 > $E_{2} \neq \emptyset$ car $(0;0;0) \in E_{2}$
@@ -35,7 +35,7 @@ date::2022-08-22
 
 ---
 
-### $E_{3} = \{ (x;y;z) \in \R^{3}\mid x+y-z = x+y+z = 0\}$
+### $E_{3} = \{ (x;y;z) \in \mathbb{R}^{3}\mid x+y-z = x+y+z = 0\}$
 $E_{3} \neq \emptyset$ car $(0;0;0) \in E_{3}$
 
 $\lambda(x;y;z)+(x';y';z') = (\lambda x+x'; \lambda y+y'; \lambda z+z')$
@@ -60,14 +60,14 @@ Donc, la propriété est stable par [[combinaison linéaire]]. Puisque $E_{3}$ e
 > alors $x+y = 0$, donc $y = -x$
 > 
 > Donc :
-> $(x;y;z) \in E_{3} \iff (x;y;z) = x(1;-1;0) \mid_{x \in \R}$
+> $(x;y;z) \in E_{3} \iff (x;y;z) = x(1;-1;0) \mid_{x \in \mathbb{R}}$
 >
 > Donc $E_{3}$ est un [[sous espace vectoriel|sev]] de [[dimension d'un espace vectoriel|dimension]] 1 ([[droite vectorielle]], dont un vecteur générateur est $(1; -1; 0)$
 
 
 ---
 
-### $E_{4} = \{(x;y;z) \in \R^{3}\mid z(x^{2}+y^{2}) = 0 \}$
+### $E_{4} = \{(x;y;z) \in \mathbb{R}^{3}\mid z(x^{2}+y^{2}) = 0 \}$
 $E_{4} \neq \emptyset$ car $(0;0;0) \in E_{4}$
 
 On a :
@@ -95,7 +95,7 @@ Donc la propriété n'est pas stable par addition, et $(E_{4}; +)$ n'est pas un 
 > 
 > $z(x^{2}+y^{2}) = 0 \iff \left\{ \begin{gathered} z=0\\\text{ou}\\x=y=0 \end{gathered} \right.$
 > donc :
-> $E_{4} = \big\{ (x;y;0), (0; 0; z) \big| (x;y;z) \in \R^{3} \big\}$
+> $E_{4} = \big\{ (x;y;0), (0; 0; z) \big| (x;y;z) \in \mathbb{R}^{3} \big\}$
 > 
 > Or, $(1; 1; 0) \in E_{4}$ et $(0; 0; 1) \in E_{4}$
 > mais $(1;1;0)+(0;0;1) = (1;1;1) \notin E_{4}$
@@ -106,20 +106,20 @@ Donc la propriété n'est pas stable par addition, et $(E_{4}; +)$ n'est pas un 
 > Quand la propriété est simple, pour montrer qu'un ensemble est un [[espace vectoriel|ev]], il est préférable de trouver un contre-exemple.
 > Un moyen peut être d'écrire l'ensemble de façon plus explicite (comme dans la démonstration plus haut).
 
-## Montrer que $\R^{2}$ muni de ces lois est un ev
+## Montrer que $\mathbb{R}^{2}$ muni de ces lois est un ev
 
-$(\R^{2},+, \cdot)$ avec :
+$(\mathbb{R}^{2},+, \cdot)$ avec :
  - $(a;b)+(c;d) = (a+c;b+d)$
  - $\lambda(a;b) = (\lambda a; \lambda b)$
 $$\begin{align*} \lambda \big( (a;b) + (c;d)\big) &= \lambda(a+c; b+d)\\&= \big(\lambda(a+c); \lambda(b+d)\big) \\&= (\lambda a+\lambda c; \lambda b + \lambda d) \\&= (\lambda a; \lambda b) + (\lambda c; \lambda d) \\&= \lambda(a; b) + \lambda(c;d) \end{align*}$$
 
 > [!attention]
-> dans ce cas (et dans les suivants), il faut préciser que $(\R^{2}, +)$ forme un [[groupe abélien]]
+> dans ce cas (et dans les suivants), il faut préciser que $(\mathbb{R}^{2}, +)$ forme un [[groupe abélien]]
 > car on a montré seulement la [[distributivité]] de $\cdot$ par rapport à $+$
 
 ---
 
-$(\R^{2},+,\cdot)$ avec :
+$(\mathbb{R}^{2},+,\cdot)$ avec :
  - $(a; b) + (c; d) = (a+c; b+d)$
  - $\lambda(a;b) = (\lambda^{2}a; \lambda^{2}b)$
 
@@ -131,10 +131,10 @@ $$\begin{align*}
 &= \lambda(a;b) + \lambda(c;d)
 \end{align*}$$
 > [!attention]
-> Ici aussi il faut aussi montrer que $(\R^{2}, +)$ est un [[groupe abélien]]
+> Ici aussi il faut aussi montrer que $(\mathbb{R}^{2}, +)$ est un [[groupe abélien]]
 
 
-Donc $(\R^{2}, +, \cdot)$ est bien un [[espace vectoriel|ev]]
+Donc $(\mathbb{R}^{2}, +, \cdot)$ est bien un [[espace vectoriel|ev]]
 
 > [!note]
 > 
@@ -149,7 +149,7 @@ Donc $(\R^{2}, +, \cdot)$ est bien un [[espace vectoriel|ev]]
 
 ---
 
-$(\R^{2}, +)$ avec :
+$(\mathbb{R}^{2}, +)$ avec :
  - $(a; b)+(c;d) = (c;d)$
  - $\lambda(a;b) = (\lambda a; \lambda b)$
 
@@ -161,7 +161,7 @@ $= (\lambda a; \lambda b) + (\lambda c; \lambda d)$
 $= \lambda(a;b) + \lambda(c;d)$
 
 
-Donc $+$ est bien un [[espace vectoriel|ev]] avec $\R^{2}$
+Donc $+$ est bien un [[espace vectoriel|ev]] avec $\mathbb{R}^{2}$
 
 > [!info] meilleure démonstration
 > $(a;b) + (c;d) = (c;d)$

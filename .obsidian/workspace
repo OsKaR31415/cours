@@ -2,60 +2,52 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
-    "ophidian:layout-settings": {
-      "pane-relief:sliding-panes": {
-        "active": false
-      }
-    },
     "children": [
       {
-        "id": "ad4b4ffd126e1971",
+        "id": "38d12cc090016e67",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "ad4b4ffd126e1971",
+              "leaf": "38d12cc090016e67",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"scroll\":15.086945370607848}"
+            },
+            {
+              "leaf": "38d12cc090016e67",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":8},\"to\":{\"line\":32,\"ch\":8}},\"scroll\":14.588649851632047}"
+            },
+            {
+              "leaf": "38d12cc090016e67",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "38d12cc090016e67",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "38d12cc090016e67",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "daily/2022-09-22.md",
+            "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
             "mode": "source",
             "backlinks": false,
             "source": false
-          }
-        }
-      },
-      {
-        "id": "37dad55fd0a31aec",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "37dad55fd0a31aec",
-              "group": null,
-              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/annotations/notation as a tool of thought.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "37dad55fd0a31aec",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{}"
-            }
-          ]
-        },
-        "state": {
-          "type": "mindmapview",
-          "state": {
-            "file": "sources/annotations/notation as a tool of thought.md"
           }
         }
       }
@@ -71,18 +63,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e6cf92b1e047f14",
+            "id": "84b1f06f81d5c515",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": [
-                {
-                  "leaf": "8e6cf92b1e047f14",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
+              "stack": []
             },
             "state": {
               "type": "file-explorer",
@@ -99,13 +84,37 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#math",
+                "query": "significations",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "dd8c7d2443958f22",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
             }
           },
           {
@@ -124,30 +133,6 @@
             }
           },
           {
-            "id": "325e33879123bbe0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bd1d7503d0848342",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -157,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sources/annotations/notation as a tool of thought.md",
+                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sources/annotations/notation as a tool of thought.md",
+                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,11 +170,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 422,
+    "width": 359,
     "collapsed": true
   },
   "right": {
@@ -199,7 +184,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 56.815578465063,
+        "dimension": 43.807339449541274,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -211,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sources/annotations/notation as a tool of thought.md"
+                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md"
               }
             }
           },
@@ -261,11 +246,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "sources/annotations/notation as a tool of thought.md",
+                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                  "localJumps": 1,
+                  "localJumps": 5,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -350,43 +335,19 @@
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": true,
-                  "centerStrength": 0.791642706536324,
-                  "repelStrength": 15.6584243818286,
+                  "collapse-forces": false,
+                  "centerStrength": 0.540338010204082,
+                  "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.2059531043345284,
+                  "scale": 1.3573453840712635,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "860dbc475755d3c7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "837d069be727ad7e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "custom-frames-detexify",
-              "state": {}
-            }
-          },
-          {
-            "id": "bf9c467678aa05e4",
+            "id": "6d9ce680b04d5e2a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -398,7 +359,7 @@
             }
           },
           {
-            "id": "843072ab0d510e3d",
+            "id": "28d0934a6d784199",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -408,30 +369,46 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "6eef7a6fea7d0a57",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
+          },
+          {
+            "id": "b72e1f87df1d2bd7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 43.184421534937,
+        "dimension": 56.192660550458726,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": [
-                {
-                  "leaf": "cb9c41a428bebf8c",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                  "eState": "{\"scroll\":3.804469273743017}"
-                }
-              ]
+              "stack": []
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -439,57 +416,48 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "523cd7a78782d297",
+            "id": "e06c83cab06fb399",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": [
-                {
-                  "leaf": "523cd7a78782d297",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                  "eState": "{}"
-                }
-              ]
+              "stack": []
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
+    "width": 451.5000305175781,
     "collapsed": true
   },
-  "active": "37dad55fd0a31aec",
+  "active": "38d12cc090016e67",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "daily/2022-09-22.md",
     "things to do.md",
-    "anglais starlink video comprehension.md",
-    "multiplication de matrices.md",
-    "anglais starlink video 2022-09-22.md",
-    "daily/2022-09-15.md",
-    "english.md",
-    "symbole de kronecker.md",
-    "MOC fonctions.md",
-    "fonction.md"
+    "CV.md",
+    "daily/2022-09-28.md",
+    "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+    "daily/2022-09-24.md",
+    "démonstration somme des carrés.md",
+    "démonstration par réccurence somme des carrés.md",
+    "valeur d'adhérence d'une suite.md",
+    "somme des carrés.md",
+    "carré d'une somme.md"
   ]
 }

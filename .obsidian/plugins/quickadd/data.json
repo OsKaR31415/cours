@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] Sous-notes de `=this.file.link`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)\n> WHERE file.link != this.file.link\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
+        "format": "> [!query] Sous-notes de `=this.file.link`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)\n> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))\n> WHERE file.link != this.file.link\n> SORT up.up.up.up, up.up.up, up.up, up\n> ```"
       },
       "insertAfter": {
         "enabled": false,

@@ -17,5 +17,5 @@ Le [[groupe]] linéaire des [[matrice|matrices]] [[inverse d'une matrice#Matrice
 
 ## Exemples
  - $\text{GL}_n(\C)$
- - $\text{GL}_n(\R)$
+ - $\text{GL}_n(\mathbb{R})$
  - $\text{GL}_n(\Z)$

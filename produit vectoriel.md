@@ -1,4 +1,6 @@
 up::[[vecteur]]
+title::$\begin{pmatrix}x\\y\\z\end{pmatrix}\wedge \begin{pmatrix}x'\\y'\\z'\end{pmatrix}= \begin{pmatrix}yz'-y'z\\zx'-z'x\\xy'-x'y\end{pmatrix}$
+description::"$u \wedge v \wedge w$ = volume du [[parallélépipède]] porté par $u, v, w$"
 #maths/géométrie #maths/algèbre #no-review 
 # produit vectoriel
 Le _produit vectoriel_ de deux [[vecteur|vecteurs]] $\overrightarrow{u}$ et $\overrightarrow{v}$ est noté :

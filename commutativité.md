@@ -5,6 +5,7 @@ sr-ease: 333
 alias: ["commutative", "commutatif"]
 ---
 up::[[structure algébrique]]
+title::"$\forall (a, b) \in \mathbf{E}^{2},\quad a*b = b*a$"
 #maths/algèbre #review 
 # commutativité
 Soit $*$ une [[loi de composition interne]] sur $E$.

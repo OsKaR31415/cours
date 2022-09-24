@@ -3,7 +3,7 @@ up::[[courbe paramétrée]]
 # dérivée d'une courbe paramétrée
 
 ## Définition 
-Soit $\begin{align}f : & D\subset \R \rightarrow \R^{2}\\& t \mapsto (x(t); y(t)) \end{align}$ une [[courbe paramétrée]]
+Soit $\begin{align}f : & D\subset \mathbb{R} \rightarrow \mathbb{R}^{2}\\& t \mapsto (x(t); y(t)) \end{align}$ une [[courbe paramétrée]]
 Soit $t_{0}\in D$
 La courbe $f$ est **dérivable en $t_{0}$** ssi les deux [[fonction|fonctions]] $x$ et $y$ sont [[fonction dérivable|dérivables]] en $t_{0}$
 

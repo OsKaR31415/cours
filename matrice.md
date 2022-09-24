@@ -16,7 +16,7 @@ $A_{2,3} = 6$
  - [[addition de matrices]]
  - [[multiplication de matrices]]
 
-> [!bigquery] Sous-notes de `=this.file.link`
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, description
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

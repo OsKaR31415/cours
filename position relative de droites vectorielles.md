@@ -1,4 +1,6 @@
 up::[[droite vectorielle]]
+title::""
+description::"deux [[droite vectorielle|droites vectorielles]] sont confondues ou d'intersection $\{ 0_{E} \}$"
 #maths/algèbre #no-review 
 # position relative de droites vectorielles
 

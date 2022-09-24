@@ -1,5 +1,5 @@
 {
-  "snippets_file": "def : > [!definition] \ndéf : > [!définition]\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: \"$end$\"\\n---",
+  "snippets_file": "def : > [!definition] \ndéf : > [!définition]\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: \"$end$\"\\n---\n\nkev : $\\mathbf{K}$-[[espace vectoriel]]",
   "snippets": [
     "def : > [!definition] ",
     "déf : > [!définition]",
@@ -12,7 +12,8 @@
     "todo : > [!todo] ",
     "done : > [!done] ",
     "fm : ---\\n$end$\\n---",
-    "alias : ---\\nalias: \"$end$\"\\n---"
+    "alias : ---\\nalias: \"$end$\"\\n---",
+    "kev : $\\mathbf{K}$-[[espace vectoriel]]"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "\\n",

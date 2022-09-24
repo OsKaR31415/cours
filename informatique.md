@@ -2,10 +2,10 @@ up::[[MOC informatique|informatique]]
 #informatique 
 # informatique
 
-> [!query] Sous-notes de `=this.file.link`
+> [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, description
-> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> FROM #informatique 
 > WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)
 > WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up

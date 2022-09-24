@@ -1,11 +1,14 @@
 {
-  "userIllegalSymbols": [],
+  "userIllegalSymbols": [
+    "ne"
+  ],
   "ignoredFiles": {
     "démonstration croissance comparée ln x et x.md": null,
     "Untitled Kanban.md": null,
-    "starlink.md": null
+    "starlink.md": null,
+    "Exercices Lena 2022-09-23.md": null
   },
-  "ignoreRegex": "^(f|F)lashcards?|templates/|kanban/",
+  "ignoreRegex": "^(f|F)lashcards?|templates/|kanban/|gists/",
   "useFileOpenHook": true,
   "useFileSaveHook": true
 }

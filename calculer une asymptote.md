@@ -14,9 +14,9 @@ sr-ease: 261
 ### $\disp\lim_{x\rightarrow\pm\infty} f(x) =$
 - $\pm\infty$
    - $\disp\lim_{x\rightarrow\pm\infty} \frac{f(x)}{x} =$
-      - $a, a\in\R^*$
+      - $a, a\in\mathbb{R}^*$
          - $\disp\lim_{x\rightarrow\pm\infty}(f(x) - ax) =$
-            - $b, b\in\R$
+            - $b, b\in\mathbb{R}$
                - asymptote d'équation $y:ax+b$
             - $\pm\infty$ / pas de limite
                - [[branche parabolique]] de direction $y=ax$
@@ -26,22 +26,22 @@ sr-ease: 261
          - [[branche parabolique]] de direction $Oy$
       - pas de limite
    - $\disp\lim_{x\rightarrow\pm\infty}\frac{f(x)}{g(x)} =$
-      - $c, c\in\R$
+      - $c, c\in\mathbb{R}$
          - $\disp\lim_{x\rightarrow\pm\infty}(f(x) - c\cdot g(x)) =$
-            - $d,d\in\R$
+            - $d,d\in\mathbb{R}$
                - courbe [[asymptote]] d'équation $y=c\cdot g(x) + d$
             - $\pm\infty$ / pas de limite
                - [[branche parabolique]] de même direction que $g$
       - $\pm\infty$ / pas de limite
          - [[branche parabolique]] de même direction que $g$
-- $y_0, y_0\in\R$
+- $y_0, y_0\in\mathbb{R}$
    - [[asymptote]] horizontale
 - pas de limite
    - on ne sait pas
 
 ## pour des [[courbe paramétrée|courbes paramétrées]]
 
-### en un point $t_0\in\R$
+### en un point $t_0\in\mathbb{R}$
 - $x$ diverge mais pas $y$
    - $\lim\limits_{t\to t_0}(x(t)) =$
       - $\pm\infty$
@@ -56,11 +56,11 @@ sr-ease: 261
          - [[branche parabolique]] de direction $Oy$
       - $0$
          - [[branche parabolique]] de direction $Ox$ (car $x$ ne tend pas vers $0$)
-      - $e\in\R^*$
+      - $e\in\mathbb{R}^*$
          - $\lim\limits_{t\to t_0}(y(t) - e\cdot x(t))=$
             - $\pm\infty$ / pas de limite
                - [[branche parabolique]] de direction $y=ex$
-            - $f\in\R$
+            - $f\in\mathbb{R}$
                - [[asymptote]] d'équation $y=ex + f$
 
 ### en $t\to\pm\infty$

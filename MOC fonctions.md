@@ -3,65 +3,24 @@ up::[[MOC analyse]]
 # MOC fonctions
 [[fonction|fonctions]] particulières
 
-> [!query] Sous-notes de [[fonction]]
+> [!smallquery] Sous-notes de [[fonction]]
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw AND -#MOC AND -#demonstration
-> WHERE contains(file.outlinks, [[fonction]])
->    or contains(up,          [[fonction]])
->    or contains(up.up,       [[fonction]])
->    or contains(up.up.up,    [[fonction]])
->    or contains(up.up.up.up, [[fonction]])
-> WHERE file.name != this.file.name
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), [[fonction]])
+> WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
 ## Fonctions particulières
 
- - [[fonction signe]]
- - [[fonction rampe]]
- - [[fonction de Heaviside]]
-
-### Fonctions trigonométriques
-
-> [!query] Sous-notes de [[MOC fonctions]] et [[MOC trigonométrie]]
+> [!smallquery] Sous-notes de `=this.file.link` et [[MOC trigonométrie]]
 > ```dataview
-> TABLE title, up, up.up, sibling
-> FROM -#excalidraw AND -#MOC
-> WHERE contains(file.outlinks, [[MOC fonctions]])
->    or contains(up,          [[MOC fonctions]])
->    or contains(up.up,       [[MOC fonctions]])
->    or contains(up.up.up,    [[MOC fonctions]])
->    or contains(up.up.up.up, [[MOC fonctions]])
-> WHERE contains(file.outlinks, [[MOC trigonométrie]])
->    or contains(up,          [[MOC trigonométrie]])
->    or contains(up.up,       [[MOC trigonométrie]])
->    or contains(up.up.up,    [[MOC trigonométrie]])
->    or contains(up.up.up.up, [[MOC trigonométrie]])
+> TABLE title, description
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC AND -#demonstration
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, [[MOC trigonométrie]])))
+> WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
-
-
-
- - [[fonction sinus]]
-     - [[fonction arcsinus]] 
-     - [[fonction sinus hyperbolique]]
-         - [[fonction arg sinus hyperbolique]]
- - [[fonction cosinus]] 
-     - [[fonction arccosinus]]
-     - [[fonction cosinus hyperbolique]]
-         - [[fonction arg cosinus hyperbolique]]
- - [[fonction tangente]] 
-     - [[fonction arctangente]]
-     - [[fonction tangente hyperbolique]]
-         - [[fonction arg tangente hyperbolique]]
-
-
-## Types de fonctions
-
- - [[fonction affine]]
- - [[fonction indicatrice]]
-  
-
-
 

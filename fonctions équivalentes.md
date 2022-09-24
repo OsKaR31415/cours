@@ -36,14 +36,17 @@ $\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
              - $f \sim g \implies \ln(f) \sim \ln(g)$
 
 
- - Si $\disp\lim_{x \to x_{0}} f(x) = a \mid_{a \in \R^{*}}$ on a : $f \sim_{x_{0}} a$
+ - Si $\disp\lim_{x \to x_{0}} f(x) = a \mid_{a \in \mathbb{R}^{*}}$ on a : $f \sim_{x_{0}} a$
      - Si $a = 0$ ou $a = \pm\infty$ alors $f \nsim_{x_{0}} a$
 
  - $f \sim_{x_{0}} g \iff \alpha f \sim_{x_{0}} \alpha g \Big|_{\text{si } \alpha \neq 0}$
      - stable par multiplication par un scalaire **non nul**
- - $f \sim g \iff f^{\alpha} \sim g^{\alpha} \Big|_{\alpha \in \R}$
+ - $f \sim g \iff f^{\alpha} \sim g^{\alpha} \Big|_{\alpha \in \mathbb{R}}$
      - stable par puissance
 
  - $f \sim_{x_{0}} g \iff f = g + o_{x_{0}}(g)$
      - [[démonstration correspondance équivalence et domination|démonstration]]
 
+ - avec les [[polynôme|polynômes]] : Soit $P(x)=a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n}$
+     - au voisinage de $0$ : $P(x)\sim a_{k_{0}}x^{k_{0}}$ où $a_{k_{0}}$ est le premier coefficient non nul de $P(x)$
+     - au voisinage de $\pm\infty$ : $P(x)\sim a_{n}x^{n}$

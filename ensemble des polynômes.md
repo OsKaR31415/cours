@@ -5,7 +5,7 @@ Soit $K$ un [[corps]]
 On note $K[X]$ l'ensemble des [[polynôme|polynômes]] sur $K$
 
 ## Exemples
- - $\R[X]$ l'ensemble des polynômes sur $\R$
+ - $\mathbb{R}[X]$ l'ensemble des polynômes sur $\mathbb{R}$
  - $\C[X]$ l'ensemble des polynômes sur $\C$
 
 ## Propriétés

@@ -1,5 +1,6 @@
 up::[[unix]]
 sibling::[[unix liens symboliques]], [[unix lien physiques]]
+#informatique/unix 
 # unix liens symboliques et physiques
 
 > [!definition] Lien symbolique

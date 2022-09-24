@@ -36,7 +36,7 @@ S &= \dfrac{1-x^{n+1}}{1-x}
 
 ## Proposition
 
-Soient $I$ un intervalle de $\R$ contenant $0$, et soit $F$ une fonction de $I$ dans $\R$.
+Soient $I$ un intervalle de $\mathbb{R}$ contenant $0$, et soit $F$ une fonction de $I$ dans $\mathbb{R}$.
 Si $F$ est de [[classe d'une fonction|classe]] $C^1(I)$, et si $F'$ admet un $\DL_n(0)$, de partie régulière $P(x)$ ([[polynôme]]), alors $F$ possède un $\DL_{n+1}(0)$, de partie régulière la [[primitive]] de $P$ qui prend en $0$ la valeur $F(0)$
 $\disp F(x) = \underbrace{F(0) + \int_0^x P(t) \d t}_{\text{partie régulière}} + x^{n+1}\varepsilon(x)$ avec $\disp\lim_{x\rightarrow0}\varepsilon(x) = 0$
 On peut utiliser cette propriété pour calculer le $\DL$ de $F$.

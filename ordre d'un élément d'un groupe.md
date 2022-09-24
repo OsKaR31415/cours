@@ -1,4 +1,5 @@
 up::[[groupe]]
+title::"plus petit $k$ tel que $a^{*k} = a$"
 #maths/algèbre #review 
 # ordre d'un élément d'un groupe
 

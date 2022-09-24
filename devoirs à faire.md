@@ -1,6 +1,6 @@
 # devoirs à faire
 
-> [!query] devoirs
+> [!smallquery] devoirs
 > ```dataview
 > TABLE due, difficulty as "", title as "description"
 > FROM #devoir AND -"templates"

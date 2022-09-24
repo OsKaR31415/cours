@@ -1,3 +1,6 @@
+---
+alias: "combinaisons linéaires"
+---
 up::[[MOC algèbre]]
 #maths/algèbre #no-review 
 # combinaison linéaire

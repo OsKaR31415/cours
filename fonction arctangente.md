@@ -12,7 +12,7 @@ sibling::[[fonction arctangente]]
 La fonction $\arctan$ est la [[fonction réciproque]] de la [[fonction tangente]].
 
 $$\begin{align*}
-\arctan :\;& \R \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]\\
+\arctan :\;& \mathbb{R} \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]\\
 & y \mapsto x \text{ tel que } y=\tan(x)
 \end{align*}$$
 

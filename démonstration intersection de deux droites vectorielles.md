@@ -1,5 +1,6 @@
 up::[[droite vectorielle]]
-title::"deux [[droite vectorielle|droites vectorielles]] sont confondues ou ont pour intersection $\emptyset$"
+title::"$D_{1} = D_{1}$ ou $D_{1} \cap D_{2} = \{ 0_{E} \}$"
+outdescription::"deux droites vectorielles sont confondues ou ont pour intersection $0_{E}$"
 #demonstration #maths/algèbre #no-review 
 # démonstration intersection de deux droites vectorielles
 

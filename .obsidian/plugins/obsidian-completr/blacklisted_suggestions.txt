@@ -40,3 +40,4 @@ arccosinus
 asymptotes
 colinéaires
 négligeable
+\textasciicaron

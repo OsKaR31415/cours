@@ -4,7 +4,7 @@ title::"$R(x) = \begin{cases} x \text{ si } x \geq 0,\quad\\ 0 \text{ si } x < 0
 # fonction rampe
 La fonction _rampe_ Est la [[fonction]] définie par :
 $$\begin{align}
-R : & \R \rightarrow \R\\
+R : & \mathbb{R} \rightarrow \mathbb{R}\\
     & x \mapsto \left\{\begin{array}{cl}
         x & \text{si } x \geq 0\\
         0 & \text{si } x < 0
@@ -28,5 +28,5 @@ $R(x):= xH(x)$  soit la [[fonction de Heaviside]] multipliée par l'application 
 ## Propriétés
 
 ### Dérivée
-$R'(x) = H(x)$ sur $\R^*$ (la [[fonction de Heaviside]])
+$R'(x) = H(x)$ sur $\mathbb{R}^*$ (la [[fonction de Heaviside]])
 

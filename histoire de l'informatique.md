@@ -1,4 +1,5 @@
 up::[[informatique]]
+#informatique 
 # histoire de l'informatique
 
 

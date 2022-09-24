@@ -1,3 +1,4 @@
+up::[[cours analyse]]
 #cours
 # cours analyse L2
 
