@@ -2,7 +2,7 @@
 # flahcards complexes
 
 $z+\overline{z}$ :: $= 2\text{Re}(z)$
-<!--SR:!2022-09-22,35,190-->
+<!--SR:!2022-12-01,68,190-->
 
 $z-\overline{z}$ :: $= 2i \text{Im}(z)$
 <!--SR:!2022-10-13,40,170-->

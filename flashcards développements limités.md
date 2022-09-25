@@ -18,7 +18,7 @@ $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(
 $\DL_n(0)\dfrac{1}{1-x} =\ldots$
 ?
 $1+x+x^2+x^3+\cdots+x^n+x^n\varepsilon(x)$
-<!--SR:!2022-09-21,9,130-->
+<!--SR:!2022-10-08,14,130-->
 
 
 **Développement limité**
@@ -68,7 +68,7 @@ $\disp\sum\limits_{k=0}^{n} (-1)^{\frac{k-1}{2}}\frac{x^{k}}{k!}[2 \nmid k]$
 _somme alternée des $\frac{x^{k}}{k!}$ quand $2$ ne divise pas $k$_
 Puissances **Impaires** car $\sin$ est une [[fonction impaire]].
 Les parties régulières à l'ordre $2n+1$ et $2n+2$ sont les mêmes.
-<!--SR:!2022-09-22,2,199-->
+<!--SR:!2022-10-01,7,199-->
 
 
 **Développement limité**
