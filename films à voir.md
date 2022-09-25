@@ -22,6 +22,7 @@
  - five fingers of death
  - death rides a horse
  - laidy snowblood
+ - everything, everywhere, all at once
 
 > [!done]- Vus
 > - l'emmerdeur
