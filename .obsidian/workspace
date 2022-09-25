@@ -13,7 +13,7 @@
               "leaf": "38d12cc090016e67",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":15.086945370607848}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":185},\"to\":{\"line\":57,\"ch\":185}},\"scroll\":40.00106534090909}"
             },
             {
               "leaf": "38d12cc090016e67",
@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -449,15 +449,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "things to do.md",
-    "CV.md",
-    "daily/2022-09-28.md",
+    "sources/phoenix JP.md",
     "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
-    "daily/2022-09-24.md",
-    "démonstration somme des carrés.md",
-    "démonstration par réccurence somme des carrés.md",
-    "valeur d'adhérence d'une suite.md",
-    "somme des carrés.md",
-    "carré d'une somme.md"
+    "films à voir.md",
+    "things to do.md",
+    "obsidian plugin functionplot.md",
+    "obsidian plugins.md",
+    "obsidian plugin ompletr.md",
+    "obsidian.md",
+    "post queue discord science.md",
+    "post queues.md"
   ]
 }

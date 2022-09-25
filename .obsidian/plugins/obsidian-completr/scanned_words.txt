@@ -1827,6 +1827,8 @@ mBxF
 mVdN
 mkbMl
 mUMo
+meilleurs
+meilleures
 aFlVcTOo
 achat
 attributs
@@ -3701,6 +3703,14 @@ aagbaaC
 aCmFnA
 arithmetique
 abusif
+ambigu
+aisément
+appartiennent
+ambigus
+admettre
+ambiguités
+ambigue
+avantages
 espace
 engendré
 et
@@ -8672,6 +8682,12 @@ pEcv
 pJls
 pRVc
 projeté
+pensé
+proposée
+plutô
+pafois
+phoenixjp
+phoenix
 une
 un
 utilisées
@@ -10098,6 +10114,7 @@ uuws
 ueKs
 uHne
 uqjK
+utilisations
 famille
 finie
 faire
@@ -11609,6 +11626,8 @@ fFfm
 fRMCx
 fioB
 fWAF
+facon
+facilitent
 de
 dit
 document
@@ -13318,6 +13337,9 @@ dtkT
 dZoi
 dfQTt
 démontre
+distribue
+désigné
+décimaux
 Soit
 Switch
 SR
@@ -14714,6 +14736,8 @@ SRRbg
 Sxgbd
 SUih
 Smvh
+Significations
+Solutions
 On
 OPTIONS
 OENicqaA
@@ -17416,6 +17440,9 @@ qWEQd
 qWCx
 qDre
 qwXb
+quatificateur
+quantificateur
+quelquefois
 il
 in
 informatique
@@ -19162,6 +19189,7 @@ iOrOvm
 iXNY
 indiféremment
 initialisée
+impairs
 la
 le
 lWP
@@ -20716,6 +20744,11 @@ lvHF
 ljmm
 lmsq
 leMyVf
+lisible
+listons
+lourde
+longue
+lisibles
 on
 of
 obtenir
@@ -23599,6 +23632,8 @@ nqSo
 ndWd
 norme
 normes
+noterai
+noterait
 to
 the
 this
@@ -25254,6 +25289,7 @@ tQgg
 twBt
 tmSBCk
 totale
+traditionnelle
 EXCALIDRAW
 Elements
 EtnheR
@@ -32540,6 +32576,7 @@ jtuu
 jddD
 jMNf
 jUdF
+joli
 client
 codePostal
 clefs
@@ -34680,6 +34717,11 @@ ctJr
 clFll
 cwpj
 composantes
+certaine
+ceci
+créées
+contenir
+cerveau
 RlBDW
 Rhk
 RnNB
@@ -35826,6 +35868,7 @@ RCiF
 RqDlDv
 RRFd
 RAyJ
+Rédiger
 NuDQIfhe
 NWJc
 Nouveau
@@ -47859,6 +47902,12 @@ reFffRR
 ryyy
 rlxy
 réccurence
+rigoureuse
+reconnaître
+rares
+réellements
+remplacements
+retirent
 bU
 bien
 binaires
@@ -53449,6 +53498,10 @@ successeur
 sucesseur
 strict
 supposons
+significations
+sépare
+séparer
+spécialisés
 kr
 kUaRVS
 kl
@@ -59757,6 +59810,7 @@ AdCG
 ABMDRIQ
 Axiomes
 Axiome
+Ambiguités
 workshop
 wzmpwyen
 web

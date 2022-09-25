@@ -953,7 +953,7 @@
                   "leaf": "38d12cc090016e67",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":15.086945370607848}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":185},\"to\":{\"line\":57,\"ch\":185}},\"scroll\":40.00106534090909}"
                 },
                 {
                   "leaf": "38d12cc090016e67",
@@ -1110,7 +1110,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",

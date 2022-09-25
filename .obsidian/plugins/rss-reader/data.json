@@ -634,7 +634,7 @@
           "language": "fr",
           "folder": "",
           "feed": "usine digitale",
-          "read": false,
+          "read": true,
           "favorite": false,
           "created": false,
           "tags": [],
