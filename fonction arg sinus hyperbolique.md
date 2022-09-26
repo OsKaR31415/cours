@@ -2,7 +2,7 @@
 alias: ["argsh", "arg sinus hyperbolique"]
 ---
 up::[[fonction sinus hyperbolique]]
-sibling::[[fonction arg cosinus hyperbolique]]
+sibling::[[fonction arg cosinus hyperbolique|argch]]
 properties::[[bijection|bijective]]
 derivative::$\dfrac{1}{\sqrt{1+x^{2}}}$
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \ln\left(x+ \sqrt{1+x^{2}}\right)$"
