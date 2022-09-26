@@ -902,197 +902,124 @@
             }
           },
           {
-            "id": "ce0a784bba795d4f",
-            "type": "split",
-            "children": [
-              {
-                "id": "db8fa1a571a061d3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres algébriques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":5.433333333333334}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationnels quadratiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":6.280769230769231}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":6},\"to\":{\"line\":0,\"ch\":6}}}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"entiers quadratiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":9.54}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"entiers de gauss.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":7.615384615384615}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de Z.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"addition sur N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":0},\"to\":{\"line\":43,\"ch\":0}},\"scroll\":27.292881456267576}"
-                    },
-                    {
-                      "leaf": "db8fa1a571a061d3",
-                      "group": null,
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
-                      "eState": "{}"
-                    }
-                  ]
+            "id": "f9a21f6d67f25162",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"combinaison linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "nombres algébriques.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f9a21f6d67f25162",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.353643484742946}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres transcendants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":27},\"to\":{\"line\":0,\"ch\":27}},\"scroll\":0.9}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres entiers naturels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":0.8}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre complexe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des réels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":0.75}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":24},\"to\":{\"line\":3,\"ch\":24}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationls.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.37777777777777777}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":29.32673611111111}"
-                    },
-                    {
-                      "leaf": "f9a21f6d67f25162",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{}"
-                    }
-                  ]
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre premier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}"
                 },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "ensembles de nombres.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":7.353643484742946}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres transcendants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":27},\"to\":{\"line\":0,\"ch\":27}},\"scroll\":0.9}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres entiers naturels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0.8}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre complexe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des réels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0.75}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":24},\"to\":{\"line\":3,\"ch\":24}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationls.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.37777777777777777}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":29.32673611111111}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}"
                 }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "combinaison linéaire.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
-            ],
-            "direction": "horizontal"
+            }
           }
         ],
         "direction": "vertical"
@@ -1192,7 +1119,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "nombres algébriques.md",
+                    "file": "combinaison linéaire.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1208,7 +1135,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "nombres algébriques.md",
+                    "file": "combinaison linéaire.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1246,7 +1173,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "nombres algébriques.md"
+                    "file": "combinaison linéaire.md"
                   }
                 }
               },
@@ -1296,7 +1223,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "nombres algébriques.md",
+                    "file": "combinaison linéaire.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1512,50 +1439,7 @@
         "width": 309.5,
         "collapsed": true
       },
-      "floating": {
-        "id": "dc6d0cc590897f1d",
-        "type": "floating",
-        "children": [
-          {
-            "id": "c3f0da491be974e5",
-            "type": "window",
-            "children": [
-              {
-                "id": "2af65f0355518fcd",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "2af65f0355518fcd",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "daily/2022-09-24.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "direction": "vertical",
-            "x": 0,
-            "y": 0,
-            "width": 1440,
-            "height": 900,
-            "maximize": true,
-            "zoom": 0
-          }
-        ]
-      },
-      "active": "db8fa1a571a061d3",
+      "active": "f9a21f6d67f25162",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
