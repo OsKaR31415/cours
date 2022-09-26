@@ -4,8 +4,8 @@ sr-due: 2022-09-09
 sr-interval: 21
 sr-ease: 302
 ---
-
 up::[[fonction sinus]]
+sibling:: [[fonction arccosinus]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arcsinus
 La fonction arcsin est la [[fonction réciproque]] de la fonction [[fonction sinus]].
