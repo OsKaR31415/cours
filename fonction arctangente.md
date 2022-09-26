@@ -5,7 +5,6 @@ sr-interval: 18
 sr-ease: 309
 ---
 up::[[fonction tangente]]
-sibling::[[fonction arctangente]]
 #maths/analyse #maths/trigonométrie #review 
 # fonction arctangente
 
