@@ -1,9 +1,9 @@
 ---
 alias: "Si #"
 ---
-#no-review 
 up::[[Si]]
 down::[[Re b]]
+#no-review 
 # Do
 
 quinte::[[Sol]]
