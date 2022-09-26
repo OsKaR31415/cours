@@ -3,29 +3,20 @@ gists:
   - id: 92a99bc2c3393fdc0bc655384cd16e72
     url: 'https://gist.github.com/92a99bc2c3393fdc0bc655384cd16e72'
     createdAt: '2022-09-22T22:57:58Z'
-    updatedAt: '2022-09-23T10:41:52Z'
+    updatedAt: '2022-09-25T20:13:00Z'
     filename: cours analyse.md
     isPublic: true
 ---
 
-**Sommaire :**
-- [[#Notations de Laudau|Notations de Laudau]]
-	- [[#Notations de Laudau#Négligeabilité|Négligeabilité]]
-		- [[#Négligeabilité#Définitions|Définitions]]
-			- [[#Définitions#Définition formelle|Définition formelle]]
-			- [[#Définitions#Définition pratique|Définition pratique]]
-		- [[#Négligeabilité#Propriétés|Propriétés]]
-- [[#Domination en un point|Domination en un point]]
-
 # Notations de Laudau
 
 ## Négligeabilité
-Soient deux fonctions $f$ et $g$, on dit que $f$ _est nigligeable devant $g$ en $x_{0}\in \overline{\mathbb{R}}$, et on note $f = o_{x_{0}}(g)$  :
+Soient deux fonctions $f$ et $g$, on dit que $f$ est négligeable devant $g$ en $x_{0}\in \overline{\mathbb{R}}$, et on note $f = o_{x_{0}}(g)$  :
 $f = o_{x_{0}}(g) \iff \lim\limits_{ x \to x_{0} } \frac{f(x)}{g(x)} = 0$
 
 ### Définitions
 #### Définition formelle
-$f = o_{x_{0}}(g)$ ssi il existe une fonction $h$ tell que :
+$f = o_{x_{0}}(g)$ ssi il existe une fonction $h$ telle que :
  - $\lim\limits_{ x_{0}} g = 0$
  - $f = hg$
 
@@ -58,7 +49,8 @@ $\exists M\in\mathbb{R}^{+},\quad >  \exists \alpha \in\mathbb{R}^{+*},\quad \fo
      - évident, car si $\frac{f}{g}$ est bornée, alors $\frac{g}{f}$ l'est aussi
  - $\mathcal{O}_{a}(1)$ désigne toute fonction bornée au voisinage de $a$
 
- - Si $f = \mathcal{O}_{x_{0}}(g)$ et $h = \mathcal{O}_{x_{0}}(g)$, alors $\lambda f+\mu h = \mathcal{O}_{x_{0}}(g) \mid _{(\lambda,\mu)\in\mathbb{C}^{2}}$ 
+
+ - Si $f = \mathcal{O}(g)$ et $h = \mathcal{O}(g)$, alors $\lambda f + \mu h = \mathcal{O}(g) \mid_{(\lambda, \mu)\in\mathbb{R}^{2}}$
      - stable par combinaison linéaire
   - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$
       - formellement : si $f = \mathcal{O}(g)$ et $g = \mathcal{O}(h)$ alors $f=\mathcal{O}(h)$
@@ -100,7 +92,7 @@ $f \sim_{x_{0}} g$ si il existe une fonction $h$ telle que :
  - $\boxed{f\sim_{x_{0}}g \iff f = g+o_{x_{0}}(g)}$
 
  - Avec les polynômes : Soit $P(x) = a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n}$ un polynôme de degré $n$ (donc $a_{n} \neq 0$)
-     - $P(x) \sim_{0} a_{n}x^{n}$
-     - $P(x) \sim _{\pm\infty} a_{n}x^{n}$
+     - au voisinage de $0$ : $P(x) \sim a_{0}$
+     - au voisinage de $\pm\infty$ $P(x) \sim a_{n}x^{n}$
 
  - [ ] #todo continuer rédaction

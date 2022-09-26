@@ -1,4 +1,4 @@
-up::[[CV]]
+up::[[CV]], [[youtube videos]]
 date::2020-07-03
 link::[nuit des maths](http://www.nuitdesmaths.org/editions-precedentes/edition-2020/les-vies-de-conway)
 description::"conférence sur le _jeu de la vie_, à la Nuit des Maths"

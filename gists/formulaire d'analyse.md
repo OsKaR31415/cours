@@ -1,12 +1,11 @@
 ---
 gists:
-  - id: 733c8d01682fe179e4773da95df91312
-    url: 'https://gist.github.com/733c8d01682fe179e4773da95df91312'
-    createdAt: '2022-09-23T13:52:40Z'
-    updatedAt: '2022-09-23T15:19:13Z'
+  - id: de51c8e76d38d10836647f5269334af6
+    url: 'https://gist.github.com/de51c8e76d38d10836647f5269334af6'
+    createdAt: '2022-09-25T20:05:29Z'
+    updatedAt: '2022-09-25T20:05:29Z'
     filename: formulaire d'analyse.md
     isPublic: true
-tags: [ #maths ]
 ---
 # formulaire d'analyse
 ## Rappels : Identités remarquables
@@ -110,7 +109,6 @@ $\displaystyle(u^{-1})' = \dfrac{1}{u' \circ u^{-1}}$
 | $x$                                     | $\mathbb{R}$                                                                                  | $1$                                | $\mathbb{R}$                                                                                 |
 | $\dfrac{1}{x}$                          | $\mathbb{R}^{*}$                                                                              | $-\dfrac{1}{x^{2}}$                | $\mathbb{R}^{*}$                                                                             |
 | $\sqrt{ x }$                            | $\mathbb{R}^{+}$                                                                              | $\frac{1}{2\sqrt{ x }}$            | $\mathbb{R}^{+*}$                                                                            |
-|                                         |                                                                                               |                                    |                                                                                              |
 | $x^{n}$ avec $n \in\mathbb{Z}$ | $\mathbb{R}$ | $nx^{n-1}$ | $\mathbb{R} \text{ si } n \geq 0, \quad \mathbb{R}^{*} \text{ si } n < 0$ |
 | $x^{\alpha}$ avec $\alpha \in\mathbb{R}$ | $\mathbb{R}^{+} \text{ si } \alpha \geq 0, \quad \mathbb{R}^{+*} \text{ si } \alpha<0$ | $\alpha x^{\alpha-1}$ | $\mathbb{R} \text{ si } n \geq 0, \quad \mathbb{R}^{*} \text{ si } \alpha < 1$
 | $\ln \mid x \mid$                       | $\mathbb{R}^{+*}$                                                                             | $\dfrac{1}{x}$                     | $\mathbb{R}^{+*}$                                                                            |

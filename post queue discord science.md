@@ -15,6 +15,8 @@ up::[[post queues]]
 > comment être efficace dans la prise de notes avec $\LaTeX$
 > Explication d'un système de raccourcis efficace pour taper du $\LaTeX$
 > https://castel.dev/post/lecture-notes-1/
+> 
+ [[latex as fast as handwriting]] 
 
 > [!done] word embeddings
 > https://x.st/fooling-around-with-word-embeddings/

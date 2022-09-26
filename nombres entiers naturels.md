@@ -1,6 +1,9 @@
-up::[[ensemble]]
+---
+alias: [ "entiers naturels", "entier naturel", "naturels", "naturel" ]
+---
+up::[[ensembles de nombres]]
 #maths #no-review 
-# Entiers naturels
+# nombres entiers naturels
 
 ## Définition
 On construit $\N$ l'ensemble des entiers naturels :

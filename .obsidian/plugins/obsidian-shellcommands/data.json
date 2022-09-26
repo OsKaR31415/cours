@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.15.0",
+  "settings_version": "0.16.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -11,11 +11,13 @@
   },
   "error_message_duration": 20,
   "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
   "output_channel_clipboard_also_outputs_to_notification": true,
   "enable_events": true,
   "approve_modals_by_pressing_enter_key": true,
   "max_visible_lines_in_shell_command_fields": false,
   "shell_commands": [],
   "prompts": [],
-  "custom_variables": []
+  "custom_variables": [],
+  "output_wrappers": []
 }

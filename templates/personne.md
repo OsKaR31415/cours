@@ -1,3 +1,5 @@
+link::
+title::
 #personne
 # {{TITLE}}
 

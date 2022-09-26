@@ -2,7 +2,7 @@
 # post queues
 
 
-> [!bigquery] Sous-notes de [[post queues]]
+> [!query] Sous-notes de [[post queues]]
 > ```dataview
 > TABLE up as "Up"
 > FROM ""

@@ -2,54 +2,243 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
+    "ophidian:layout-settings": {
+      "pane-relief:sliding-panes": {
+        "active": false
+      }
+    },
     "children": [
       {
-        "id": "38d12cc090016e67",
+        "id": "3a577d58ceca2f87",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "38d12cc090016e67",
+              "leaf": "3a577d58ceca2f87",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":185},\"to\":{\"line\":57,\"ch\":185}},\"scroll\":40.00106534090909}"
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
+              "eState": "{}"
             },
             {
-              "leaf": "38d12cc090016e67",
+              "leaf": "3a577d58ceca2f87",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":8},\"to\":{\"line\":32,\"ch\":8}},\"scroll\":14.588649851632047}"
+              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/annotations/L2 maths arithmetique CC1.md\"}}",
+              "eState": "{}"
             },
             {
-              "leaf": "38d12cc090016e67",
+              "leaf": "3a577d58ceca2f87",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_CC1.pdf\"}}",
+              "eState": "{}"
             },
             {
-              "leaf": "38d12cc090016e67",
+              "leaf": "3a577d58ceca2f87",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "38d12cc090016e67",
-              "group": null,
-              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "file": "sources/cours/L2_maths_arithmetique_beamer_cours.pdf"
           }
         }
+      },
+      {
+        "id": "ce0a784bba795d4f",
+        "type": "split",
+        "children": [
+          {
+            "id": "db8fa1a571a061d3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres algébriques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":5.433333333333334}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationnels quadratiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":6.280769230769231}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":6},\"to\":{\"line\":0,\"ch\":6}}}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"entiers quadratiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":9.54}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"entiers de gauss.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":7.615384615384615}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de Z.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"addition sur N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":0},\"to\":{\"line\":43,\"ch\":0}},\"scroll\":27.292881456267576}"
+                },
+                {
+                  "leaf": "db8fa1a571a061d3",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nombres algébriques.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9a21f6d67f25162",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.353643484742946}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres transcendants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":27},\"to\":{\"line\":0,\"ch\":27}},\"scroll\":0.9}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres entiers naturels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0.8}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre complexe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des réels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0.75}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":24},\"to\":{\"line\":3,\"ch\":24}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationls.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.37777777777777777}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":29.32673611111111}"
+                },
+                {
+                  "leaf": "f9a21f6d67f25162",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ensembles de nombres.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -63,11 +252,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84b1f06f81d5c515",
+            "id": "8e6cf92b1e047f14",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "leaf": "8e6cf92b1e047f14",
+                  "group": null,
+                  "state": "{\"type\":\"empty\",\"state\":{}}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "file-explorer",
@@ -84,37 +280,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "significations",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "dd8c7d2443958f22",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "609ff408cfbae38d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
             }
           },
           {
@@ -133,6 +305,30 @@
             }
           },
           {
+            "id": "325e33879123bbe0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd1d7503d0848342",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -142,7 +338,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                "file": "nombres algébriques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                "file": "nombres algébriques.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,11 +366,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 359,
+    "width": 467,
     "collapsed": true
   },
   "right": {
@@ -184,7 +380,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 43.807339449541274,
+        "dimension": 56.815578465063,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -196,7 +392,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md"
+                "file": "nombres algébriques.md"
               }
             }
           },
@@ -246,11 +442,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                "file": "nombres algébriques.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                  "localJumps": 5,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -335,43 +531,31 @@
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": false,
-                  "centerStrength": 0.540338010204082,
-                  "repelStrength": 20,
+                  "collapse-forces": true,
+                  "centerStrength": 0.791642706536324,
+                  "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.3573453840712635,
+                  "scale": 1.2059531043345284,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "6d9ce680b04d5e2a",
+            "id": "860dbc475755d3c7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": []
             },
             "state": {
-              "type": "BC-matrix",
+              "type": "graph-analysis",
               "state": {}
             }
           },
           {
-            "id": "28d0934a6d784199",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "6eef7a6fea7d0a57",
+            "id": "837d069be727ad7e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -383,32 +567,52 @@
             }
           },
           {
-            "id": "b72e1f87df1d2bd7",
+            "id": "bf9c467678aa05e4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": []
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "843072ab0d510e3d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "BC-tree",
               "state": {}
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 56.192660550458726,
+        "dimension": 43.184421534937,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "leaf": "cb9c41a428bebf8c",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                  "eState": "{\"scroll\":3.804469273743017}"
+                }
+              ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -416,24 +620,34 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "e06c83cab06fb399",
+            "id": "523cd7a78782d297",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "leaf": "523cd7a78782d297",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                  "eState": "{}"
+                }
+              ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -441,23 +655,66 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5000305175781,
+    "width": 309.5,
     "collapsed": true
   },
-  "active": "38d12cc090016e67",
+  "floating": {
+    "id": "dc6d0cc590897f1d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c3f0da491be974e5",
+        "type": "window",
+        "children": [
+          {
+            "id": "2af65f0355518fcd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "2af65f0355518fcd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022-09-24.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "db8fa1a571a061d3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "sources/phoenix JP.md",
-    "Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
-    "films à voir.md",
+    "ensembles de nombres.md",
+    "nombres irrationls.md",
+    "nombres transcendants.md",
+    "nombres algébriques.md",
+    "nombres irrationnels quadratiques.md",
+    "équation quadratique.md",
     "things to do.md",
-    "obsidian plugin functionplot.md",
-    "obsidian plugins.md",
-    "obsidian plugin ompletr.md",
-    "obsidian.md",
-    "post queue discord science.md",
-    "post queues.md"
+    "nombres rationnels.md",
+    "forme algébrique.md",
+    "nombres entiers naturels.md"
   ]
 }

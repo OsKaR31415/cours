@@ -1,4 +1,4 @@
-up::[[conférences en ligne de mathématiques et d'informatique]]
+up::[[conférences en ligne de mathématiques et d'informatique]], [[youtube videos]]
 date::2022-07-04
 link::[sur youtube](https://www.youtube.com/watch?v=dbP_hD5qWOE&t=632s)
 description::"intro à obsidian, discord _afterthinking_"

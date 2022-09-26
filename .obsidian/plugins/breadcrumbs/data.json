@@ -1,6 +1,6 @@
 {
   "addDendronNotes": false,
-  "addDateNotes": false,
+  "addDateNotes": true,
   "aliasesInIndex": false,
   "alphaSortAsc": true,
   "altLinkFields": [],
@@ -112,7 +112,7 @@
     }
   ],
   "writeBCsInline": true,
-  "showWriteAllBCsCmd": false,
+  "showWriteAllBCsCmd": true,
   "visGraph": "Force Directed Graph",
   "visRelation": "Parent",
   "visClosed": "Real",
@@ -120,9 +120,9 @@
   "wikilinkIndex": true,
   "impliedRelations": {
     "siblingIdentity": false,
-    "sameParentIsSibling": true,
-    "siblingsSiblingIsSibling": false,
-    "siblingsParentIsParent": false,
+    "sameParentIsSibling": false,
+    "siblingsSiblingIsSibling": true,
+    "siblingsParentIsParent": true,
     "parentsSiblingsIsParents": false,
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false

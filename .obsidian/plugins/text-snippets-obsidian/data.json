@@ -1,7 +1,7 @@
 {
-  "snippets_file": "def : > [!definition] \ndéf : > [!définition]\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: \"$end$\"\\n---\n\nkev : $\\mathbf{K}$-[[espace vectoriel]]",
+  "snippets_file": "def : > [!definition] $end$\\n> \\n^definition\ndéf : > [!définition]\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: \"$end$\"\\n---\n\nkev : $\\mathbf{K}$-[[espace vectoriel]]",
   "snippets": [
-    "def : > [!definition] ",
+    "def : > [!definition] $end$\\n> \\n^definition",
     "déf : > [!définition]",
     "query : > [!query]",
     "note : > [!note]",

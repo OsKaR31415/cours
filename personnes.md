@@ -2,7 +2,7 @@
 # personnes
 
 ```dataview
-TABLE link
-FROM #personne
+TABLE title, link
+FROM #personne AND -"templates"
 WHERE file.link != this.file.link
 ```
