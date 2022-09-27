@@ -1,6 +1,8 @@
 ---
 alias: "sin(a+b)"
 ---
+sibling:: [[cosinus d'une somme]]
+
 up::[[formules de trigonométrie]]
 sibling::[[cosinus d'une somme]]
 type::"formule de somme"

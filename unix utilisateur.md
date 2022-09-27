@@ -3,6 +3,6 @@ alias: "utilisateur"
 ---
 up::[[unix]]
 title::
-#informatique/unix 
+#informatique/unix #no-review 
 
 # unix utilisateur

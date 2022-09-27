@@ -5,7 +5,7 @@ sr-interval: 22
 sr-ease: 302
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
-sibling::[[fonction sinus hyperbolique]]
+sibling::[[fonction sinus hyperbolique|sh]]
 derivative::[[fonction sinus hyperbolique|-sh]]
 properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [1; +\infty[$", "$\dfrac{e^{x}+e^{-x}}{2}$"

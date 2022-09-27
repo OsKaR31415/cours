@@ -1,6 +1,8 @@
 ---
 alias: "tan(2x)"
 ---
+sibling:: [[tangente hyperbolique du double]]
+
 up::[[formules de trigonométrie]]
 sibling::[[tangente hyperbolique du double]]
 type::"formule de duplication"

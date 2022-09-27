@@ -1,8 +1,10 @@
 ---
 alias: "valeur propre"
 ---
+sibling:: [[vecteur propre d'une application linéaire]]
+
 up::[[endomorphisme linéaire]]
-#maths/algèbre 
+#maths/algèbre #review 
 # valeur propre d'une application linéaire
 Soit $\varphi  : E \to E$ un [[endomorphisme linéaire]]
 Un réel $\lambda$ est une _valeur propre_ de $\varphi$ ssi il existe un vecteur $u \neq 0_{E}$ tel que $\varphi(u)=\lambda u$

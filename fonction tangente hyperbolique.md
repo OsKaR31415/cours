@@ -2,7 +2,6 @@
 alias: ["th", "tangente hyperbolique"]
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
-sibling::[[fonction tangente]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::$\dfrac{1}{\ch^{2}(x)}$
 description::"$\mathbb{R} \to [-1; 1]$", "$x \mapsto \dfrac{\sh(x)}{\ch(x)} = \dfrac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$"

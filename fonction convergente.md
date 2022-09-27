@@ -2,6 +2,7 @@
 alias: ["converge", "convergente"]
 ---
 up::[[fonction]]
+sibling:: [[suite divergente]]
 #maths/analyse #no-review 
 # fonction convergente
 

@@ -4,6 +4,8 @@ alias:
   - limite inf
   - limite inférieure
 ---
+sibling:: [[limite supérieure d'une suite]]
+
 up::[[suite]]
 sibling::[[limite supérieure d'une suite]]
 title::"$\inf \big\{ u_{n} \mid n < k \big\}$ quand $k \to +\infty$"

@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
   "search": "-#MOC",
-  "showTags": false,
-  "showAttachments": false,
+  "showTags": true,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -130,6 +130,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.254867397917997,
+  "scale": 0.18179066115733766,
   "close": true
 }

@@ -5,7 +5,6 @@
   "translucency": false,
   "enabledCssSnippets": [
     "mono",
-    "pdf_darkmode",
     "query_header_title",
     "fira_code",
     "custom-admonitions.e298c0",
@@ -14,7 +13,8 @@
     "custom_tasks",
     "tasks",
     "general_interface",
-    "sidepane_icons"
+    "sidepane_icons",
+    "pdf_darkmode"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",

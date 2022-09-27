@@ -1,5 +1,5 @@
 up::[[unix]]
-#informatique/unix 
+#informatique/unix #no-review 
 # unix droits
 
 | Droits        | Fichier | Répertoire |

@@ -1,3 +1,4 @@
+sibling:: [[cosinus hyperbolique du double]]
 up::[[formules de trigonométrie]]
 sibling::[[cosinus hyperbolique du double]]
 type::"formule de duplication", "hyperbolique"

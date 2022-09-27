@@ -4,14 +4,16 @@ sr-interval: 14
 sr-ease: 270
 alias: "sl"
 ---
-
 up::[[MOC algèbre]]
+title::"système d'équations linéaires (combinaisons linéaires des variables)"
 #maths/algèbre #review 
 # système linéaire
 _système linéaire_, abb. _SL_
 
-Un système linéaire est un système d'équations linéaires.
-Le mot _linéaire_ signifie que le système est formé de [[combinaison linéaire|combinaisons linéaires]] des inconnues.
+> [!definition] 
+>  Un système linéaire est un système d'équations linéaires.
+> Le mot _linéaire_ signifie que le système est formé de [[combinaison linéaire|combinaisons linéaires]] des inconnues.
+^definition
 
 
 #### Exemple

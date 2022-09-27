@@ -1,5 +1,5 @@
 up::[[cuisine]]
-#cuisine
+#cuisine 
 # recette cake
 
  - 2 oeufs

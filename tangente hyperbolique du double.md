@@ -1,6 +1,8 @@
 ---
 alias: "th(2x)"
 ---
+sibling:: [[tangente du double]]
+
 up::[[formules de trigonométrie]]
 sibling::[[tangente du double]]
 type::"formule de duplication", "hyperbolique"

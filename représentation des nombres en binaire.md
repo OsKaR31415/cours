@@ -1,5 +1,5 @@
 up::[[binaire]]
-#informatique 
+#informatique #no-review 
 # représentation des nombres en binaire
 
 On à besoin de représenter :

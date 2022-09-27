@@ -2,7 +2,7 @@
 alias: "inode"
 ---
 up::[[unix]]
-#informatique/unix 
+#informatique/unix #no-review 
 # unix structure inode
 Tous les [[unix fichier|fichiers]] sont gérés par le [[système d'exploitation|SE]] au moyen des _inodes_.
 

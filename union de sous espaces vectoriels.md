@@ -1,3 +1,4 @@
+sibling:: [[intersection de sous espaces vectoriels]]
 up::[[sous espace vectoriel]]
 sibling::[[intersection de sous espaces vectoriels]]
 title::"$F \cup G$ est un [[sous espace vectoriel|sev]] $\implies$ $F \subset G$ ou $G \subset F$"

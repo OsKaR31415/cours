@@ -1,6 +1,8 @@
 ---
 alias: [ "nombre rationnel", "rationnel", "rationnels" ]
 ---
+sibling:: [[nombres irrationls]]
+
 up::[[ensembles de nombres]]
 title::"$\mathbb{Q} := \left\{  \frac{a}{b} \mid (a, b) \in \mathbb{Z} \times \mathbb{Z}^{*}  \right\}$"
 #maths

@@ -4,9 +4,8 @@ sr-due: 2022-09-01
 sr-interval: 13
 sr-ease: 279
 ---
-
 up::[[MOC trigonométrie]], [[MOC fonctions]]
-sibling::[[fonction cosinus hyperbolique]]
+sibling::[[fonction cosinus hyperbolique|ch]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"

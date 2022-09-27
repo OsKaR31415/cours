@@ -6,32 +6,35 @@
         "type": "split",
         "children": [
           {
-            "id": "cdf4a31042e8f322",
+            "id": "2bf6dc8969760c12",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "leaf": "cdf4a31042e8f322",
+                  "leaf": "2bf6dc8969760c12",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "cdf4a31042e8f322",
+                  "leaf": "2bf6dc8969760c12",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "mindmapview",
               "state": {
-                "file": "gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "sources/cours/L2_info_POO_TP3-annotate.md"
               }
             }
           }
@@ -90,6 +93,18 @@
                 }
               },
               {
+                "id": "d57a6c1cc59bf25e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "ccd1190664578ee9",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -114,7 +129,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -130,7 +145,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -141,12 +156,11 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 217.00238800048828,
+        "width": 299,
         "collapsed": true
       },
       "right": {
@@ -168,7 +182,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md"
+                    "file": "sources/cours/L2_info_POO_TP3-annotate.md"
                   }
                 }
               },
@@ -185,6 +199,30 @@
                 }
               },
               {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "31b1c63a457b6e3d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -194,7 +232,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md",
+                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -295,42 +333,6 @@
                 }
               },
               {
-                "id": "bae8ca5650bdd5bf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "31b1c63a457b6e3d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "d57a6c1cc59bf25e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "sekund-main-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "a05eecb7dce21915",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -353,8 +355,21 @@
                   "type": "BC-tree",
                   "state": {}
                 }
+              },
+              {
+                "id": "309f8009b1cc52b3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "9b0b445260de35cb",
@@ -368,6 +383,7 @@
                   "pos": 0,
                   "stack": []
                 },
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -375,16 +391,45 @@
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "8d8d223c8b48a4c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "8d8d223c8b48a4c7",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 359.5
+        "width": 359.5,
+        "collapsed": true
       },
-      "active": "cdf4a31042e8f322",
+      "active": "2bf6dc8969760c12",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -545,7 +590,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "yt video obsidian how i use dataview.md",
+                    "file": "yt video usages of dataview.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -561,7 +606,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "yt video obsidian how i use dataview.md",
+                    "file": "yt video usages of dataview.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -599,7 +644,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "yt video obsidian how i use dataview.md"
+                    "file": "yt video usages of dataview.md"
                   }
                 }
               },
@@ -649,7 +694,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "yt video obsidian how i use dataview.md",
+                    "file": "yt video usages of dataview.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -784,21 +829,9 @@
                   "type": "custom-frames-detexify",
                   "state": {}
                 }
-              },
-              {
-                "id": "b72e1f87df1d2bd7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
@@ -847,7 +880,7 @@
         "width": 451.5000305175781,
         "collapsed": true
       },
-      "active": "4b375dbf39c33cdd",
+      "active": "c7c4642ee4028648",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -902,119 +935,631 @@
             }
           },
           {
-            "id": "f9a21f6d67f25162",
+            "id": "dea49c79a5f7625a",
+            "type": "split",
+            "children": [
+              {
+                "id": "f9a21f6d67f25162",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction paire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction impaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":25},\"to\":{\"line\":4,\"ch\":25}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction cosinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":30},\"to\":{\"line\":4,\"ch\":30}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":40},\"to\":{\"line\":7,\"ch\":40}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":44},\"to\":{\"line\":7,\"ch\":44}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction convergente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arccosinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arcsinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":32},\"to\":{\"line\":7,\"ch\":32}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"démonstration de l'expression de l'arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"démonstration expression de l'arg cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}}}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"domination en un point.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Do.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "f9a21f6d67f25162",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cosinus pi sur 2 moins x.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "fonction tangente.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4676a33f3abec10a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "4676a33f3abec10a",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"scroll\":1.4333333333333333}"
+                    },
+                    {
+                      "leaf": "4676a33f3abec10a",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "fonction tangente hyperbolique.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "64de298669508ee4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a3e04033addcedcd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8e6cf92b1e047f14",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "8e6cf92b1e047f14",
+                      "group": null,
+                      "state": "{\"type\":\"empty\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "390d098cee0c9651",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ccd1190664578ee9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "325e33879123bbe0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bd1d7503d0848342",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c7afda8b81d643de",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "fonction tangente hyperbolique.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e855affa02bb755e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "fonction tangente hyperbolique.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 467,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1102f19b896c7a16",
+        "type": "split",
+        "children": [
+          {
+            "id": "980f845ab893296e",
+            "type": "tabs",
+            "dimension": 56.815578465063,
+            "children": [
+              {
+                "id": "5f0a6b2e995376e5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "fonction tangente hyperbolique.md"
+                  }
+                }
+              },
+              {
+                "id": "d45511af0bde9bcf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf6c068c22a39e9f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "32d6a52d872d783d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "fonction tangente hyperbolique.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#todo",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16711680
+                          }
+                        },
+                        {
+                          "query": "tag:#not-done",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2829614
+                          }
+                        },
+                        {
+                          "query": "tag:#MOC",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6356992
+                          }
+                        },
+                        {
+                          "query": "tag:#flashcards",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16427551
+                          }
+                        },
+                        {
+                          "query": "tag:#maths",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2520842
+                          }
+                        },
+                        {
+                          "query": "tag:#logique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2902193
+                          }
+                        },
+                        {
+                          "query": "tag:#informatique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 32882
+                          }
+                        },
+                        {
+                          "query": "tag:#personne",
+                          "color": {
+                            "a": 1,
+                            "rgb": 10710150
+                          }
+                        },
+                        {
+                          "query": "path:annotation",
+                          "color": {
+                            "a": 1,
+                            "rgb": 12844865
+                          }
+                        },
+                        {
+                          "query": "tag:#PKM OR tag:#obsidian",
+                          "color": {
+                            "a": 1,
+                            "rgb": 4667545
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 2.66151355284701,
+                      "collapse-forces": true,
+                      "centerStrength": 0.791642706536324,
+                      "repelStrength": 15.6584243818286,
+                      "linkStrength": 1,
+                      "linkDistance": 30,
+                      "scale": 1.2059531043345284,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "837d069be727ad7e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf9c467678aa05e4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "843072ab0d510e3d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "9b0b445260de35cb",
+            "type": "tabs",
+            "dimension": 43.184421534937,
+            "children": [
+              {
+                "id": "cb9c41a428bebf8c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "cb9c41a428bebf8c",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{\"scroll\":3.804469273743017}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "things to do.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "523cd7a78782d297",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "523cd7a78782d297",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "active": "4676a33f3abec10a",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": true
+      }
+    },
+    "cours": {
+      "main": {
+        "id": "239f495bbbd2d5df",
+        "type": "split",
+        "ophidian:layout-settings": {
+          "pane-relief:sliding-panes": {
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "id": "3fa23553782ec488",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "3fa23553782ec488",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"combinaison linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "3fa23553782ec488",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre premier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"versioning.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":15},\"to\":{\"line\":35,\"ch\":15}},\"scroll\":23.181818181818183}"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "3fa23553782ec488",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":7.353643484742946}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres transcendants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":27},\"to\":{\"line\":0,\"ch\":27}},\"scroll\":0.9}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres entiers naturels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":0.8}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre complexe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des réels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":0.75}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":24},\"to\":{\"line\":3,\"ch\":24}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationls.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.37777777777777777}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":29.32673611111111}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PM Gestion des risques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":23.796296296296298}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "combinaison linéaire.md",
+                "file": "git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -1119,7 +1664,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "combinaison linéaire.md",
+                    "file": "git.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1135,459 +1680,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "combinaison linéaire.md",
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 467,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1102f19b896c7a16",
-        "type": "split",
-        "children": [
-          {
-            "id": "980f845ab893296e",
-            "type": "tabs",
-            "dimension": 56.815578465063,
-            "children": [
-              {
-                "id": "5f0a6b2e995376e5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "combinaison linéaire.md"
-                  }
-                }
-              },
-              {
-                "id": "d45511af0bde9bcf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bae8ca5650bdd5bf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bf6c068c22a39e9f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "32d6a52d872d783d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "combinaison linéaire.md",
-                    "options": {
-                      "collapse-filter": false,
-                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
-                      "showTags": false,
-                      "showAttachments": true,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [
-                        {
-                          "query": "tag:#todo",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16711680
-                          }
-                        },
-                        {
-                          "query": "tag:#not-done",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2829614
-                          }
-                        },
-                        {
-                          "query": "tag:#MOC",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6356992
-                          }
-                        },
-                        {
-                          "query": "tag:#flashcards",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16427551
-                          }
-                        },
-                        {
-                          "query": "tag:#maths",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2520842
-                          }
-                        },
-                        {
-                          "query": "tag:#logique",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2902193
-                          }
-                        },
-                        {
-                          "query": "tag:#informatique",
-                          "color": {
-                            "a": 1,
-                            "rgb": 32882
-                          }
-                        },
-                        {
-                          "query": "tag:#personne",
-                          "color": {
-                            "a": 1,
-                            "rgb": 10710150
-                          }
-                        },
-                        {
-                          "query": "path:annotation",
-                          "color": {
-                            "a": 1,
-                            "rgb": 12844865
-                          }
-                        },
-                        {
-                          "query": "tag:#PKM OR tag:#obsidian",
-                          "color": {
-                            "a": 1,
-                            "rgb": 4667545
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
-                      "showArrow": true,
-                      "textFadeMultiplier": -1,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 2.66151355284701,
-                      "collapse-forces": true,
-                      "centerStrength": 0.791642706536324,
-                      "repelStrength": 15.6584243818286,
-                      "linkStrength": 1,
-                      "linkDistance": 30,
-                      "scale": 1.2059531043345284,
-                      "close": true
-                    }
-                  }
-                }
-              },
-              {
-                "id": "860dbc475755d3c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
-              },
-              {
-                "id": "837d069be727ad7e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bf9c467678aa05e4",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "BC-matrix",
-                  "state": {}
-                }
-              },
-              {
-                "id": "843072ab0d510e3d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "BC-tree",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "9b0b445260de35cb",
-            "type": "tabs",
-            "dimension": 43.184421534937,
-            "children": [
-              {
-                "id": "cb9c41a428bebf8c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "cb9c41a428bebf8c",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                      "eState": "{\"scroll\":3.804469273743017}"
-                    }
-                  ]
-                },
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "things to do.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "523cd7a78782d297",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "523cd7a78782d297",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "devoirs à faire.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 309.5,
-        "collapsed": true
-      },
-      "active": "f9a21f6d67f25162",
-      "ophidian:layout-settings": {
-        "pane-relief:focus-lock": true
-      }
-    },
-    "cours": {
-      "main": {
-        "id": "239f495bbbd2d5df",
-        "type": "split",
-        "ophidian:layout-settings": {
-          "pane-relief:sliding-panes": {
-            "active": false
-          }
-        },
-        "children": [
-          {
-            "id": "33135361a0bb4162",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "33135361a0bb4162",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "64de298669508ee4",
-        "type": "split",
-        "children": [
-          {
-            "id": "a3e04033addcedcd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8e6cf92b1e047f14",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "8e6cf92b1e047f14",
-                      "group": null,
-                      "state": "{\"type\":\"empty\",\"state\":{}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {}
-                }
-              },
-              {
-                "id": "390d098cee0c9651",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "ccd1190664578ee9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "325e33879123bbe0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "sekund-main-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bd1d7503d0848342",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "RSS_FEED",
-                  "state": {}
-                }
-              },
-              {
-                "id": "c7afda8b81d643de",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "things to do.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "e855affa02bb755e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "things to do.md",
+                    "file": "git.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1603,7 +1696,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 467,
+        "width": 195,
         "collapsed": true
       },
       "right": {
@@ -1613,7 +1706,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 56.815578465063,
+            "dimension": 52.275249722530525,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -1625,7 +1718,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "things to do.md"
+                    "file": "git.md"
                   }
                 }
               },
@@ -1675,7 +1768,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "git.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1788,18 +1881,6 @@
                 }
               },
               {
-                "id": "837d069be727ad7e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
-              },
-              {
                 "id": "bf9c467678aa05e4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1822,14 +1903,26 @@
                   "type": "BC-tree",
                   "state": {}
                 }
+              },
+              {
+                "id": "837d069be727ad7e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 8
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 43.184421534937,
+            "dimension": 47.72475027746948,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -1891,11 +1984,11 @@
         "width": 309.5,
         "collapsed": true
       },
-      "active": "33135361a0bb4162",
+      "active": "3fa23553782ec488",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     }
   },
-  "active": "maths"
+  "active": "cours"
 }

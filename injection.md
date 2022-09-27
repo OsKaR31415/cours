@@ -4,6 +4,8 @@ sr-interval: 74
 sr-ease: 317
 alias: "injective"
 ---
+sibling:: [[surjection]]
+
 
 up::[[application]]
 sibling::[[surjection]]

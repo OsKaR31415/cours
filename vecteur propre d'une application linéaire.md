@@ -3,7 +3,7 @@ alias: "vecteur propre"
 ---
 up::[[endomorphisme linéaire]]
 sibling::[[valeur propre d'une application linéaire|valeur propre]]
-#maths/algèbre 
+#maths/algèbre #review 
 # vecteur propre d'une application linéaire
 Soit $\varphi: E \to E$ un [[endomorphisme linéaire]]
 Un vecteur $u \in E$ **non nul** est un _vecteur propre_ de $\varphi$ ssi il existe un réel $\lambda$ tel que $\varphi(u) = \lambda u$

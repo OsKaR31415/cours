@@ -9,158 +9,35 @@
     },
     "children": [
       {
-        "id": "3a577d58ceca2f87",
+        "id": "3fa23553782ec488",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "3a577d58ceca2f87",
+              "leaf": "3fa23553782ec488",
               "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
-              "leaf": "3a577d58ceca2f87",
+              "leaf": "3fa23553782ec488",
               "group": null,
-              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/annotations/L2 maths arithmetique CC1.md\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"versioning.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":15},\"to\":{\"line\":35,\"ch\":15}},\"scroll\":23.181818181818183}"
             },
             {
-              "leaf": "3a577d58ceca2f87",
+              "leaf": "3fa23553782ec488",
               "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_CC1.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "3a577d58ceca2f87",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
-              "eState": "{}"
-            }
-          ]
-        },
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "sources/cours/L2_maths_arithmetique_beamer_cours.pdf"
-          }
-        }
-      },
-      {
-        "id": "f9a21f6d67f25162",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"combinaison linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre premier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":7.353643484742946}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres transcendants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":27},\"to\":{\"line\":0,\"ch\":27}},\"scroll\":0.9}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres entiers naturels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":0.8}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombre complexe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des réels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensembles de nombres.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":0.75}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres rationnels.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":24},\"to\":{\"line\":3,\"ch\":24}},\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nombres irrationls.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.37777777777777777}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de N.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"scroll\":29.32673611111111}"
-            },
-            {
-              "leaf": "f9a21f6d67f25162",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"axiomatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PM Gestion des risques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":23.796296296296298}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "combinaison linéaire.md",
+            "file": "git.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -265,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "combinaison linéaire.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "combinaison linéaire.md",
+                "file": "git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,11 +170,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 467,
+    "width": 195,
     "collapsed": true
   },
   "right": {
@@ -307,7 +184,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 56.815578465063,
+        "dimension": 52.275249722530525,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -319,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "combinaison linéaire.md"
+                "file": "git.md"
               }
             }
           },
@@ -369,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "combinaison linéaire.md",
+                "file": "git.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -482,18 +359,6 @@
             }
           },
           {
-            "id": "837d069be727ad7e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "custom-frames-detexify",
-              "state": {}
-            }
-          },
-          {
             "id": "bf9c467678aa05e4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -516,14 +381,26 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "837d069be727ad7e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 43.184421534937,
+        "dimension": 47.72475027746948,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -585,20 +462,20 @@
     "width": 309.5,
     "collapsed": true
   },
-  "active": "f9a21f6d67f25162",
+  "active": "3fa23553782ec488",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "nombre premier.md",
-    "ensembles de nombres.md",
-    "nombres algébriques.md",
-    "daily/2022-09-24.md",
-    "nombres irrationls.md",
-    "nombres transcendants.md",
-    "nombres irrationnels quadratiques.md",
-    "équation quadratique.md",
+    "versioning.md",
+    "PM Gestion des risques.md",
     "things to do.md",
-    "nombres rationnels.md"
+    "interesting stats.md",
+    "boxed.md",
+    "fonction tangente.md",
+    "fonction tangente hyperbolique.md",
+    "sources/sound when you send data to google.md",
+    "sources/cours/L2_info_POO_TP3-annotate.md",
+    "sources/cours/L2_info_POO_TP3.pdf"
   ]
 }

@@ -19,15 +19,8 @@
 > [!question] notes without review state
 > ```dataview
 > LIST title
-> FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait AND -#cours AND -#fac AND -#PKM AND -#not-done
-> WHERE !contains(file.path, "sources")
->   and !contains(file.path, "daily")
->   and !contains(file.path, "__sekund__")
->   and !contains(file.path, "Excalidraw")
->   and !contains(file.path, "images")
->   and !contains(file.path, "kanban")
->   and !contains(file.path, "templates")
->   and !contains(file.path, "informatique")
+> FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait AND -#cours AND -#fac AND -#PKM AND -#cuisine AND -#not-done
+>  AND -"sources" AND -"daily" AND -"__sekund__" AND -"Excalidraw" AND -"images" AND -"kanban" AND -"templates" AND -"informatique" 
 > SORT contains(file.tags, "#not-done")
 > ```
 

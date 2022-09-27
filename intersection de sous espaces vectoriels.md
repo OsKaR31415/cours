@@ -1,3 +1,4 @@
+sibling:: [[union de sous espaces vectoriels]]
 up::[[sous espace vectoriel]]
 sibling::[[union de sous espaces vectoriels]]
 title::"l'intersection de [[sous espace vectoriel|sev]] est toujours un [[sous espace vectoriel|sev]]"

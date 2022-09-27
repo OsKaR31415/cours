@@ -4,6 +4,8 @@ sr-interval: 26
 sr-ease: 319
 alias: ["surjective", "surjectives"]
 ---
+sibling:: [[injection]]
+
 up::[[application]]
 sibling::[[injection]]
 title::"$\forall y \in \mathscr{D}_{f}, \exists x \in f(\mathscr{D}_{f}), f(x) = y$"

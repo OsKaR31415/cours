@@ -1,6 +1,6 @@
 up::[[java]]
 title::"gestion des erreurs"
-#informatique 
+#informatique #no-review 
 # java exceptions
 
 Gestion des erreurs avec java.

@@ -1,6 +1,8 @@
 ---
 alias: "sh(a+b)"
 ---
+sibling:: [[cosinus hyperbolique d'une somme]]
+
 up::[[formules de trigonométrie]]
 sibling::[[cosinus hyperbolique d'une somme]]
 type::"formule de somme", "hyperbolique"

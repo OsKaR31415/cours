@@ -1,6 +1,8 @@
 ---
 alias: "sin(2x)"
 ---
+sibling:: [[cosinus du double]]
+
 up::[[formules de trigonométrie]]
 sibling::[[cosinus du double]]
 type::"formule de duplication"

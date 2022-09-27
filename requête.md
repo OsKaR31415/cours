@@ -14,3 +14,9 @@ sur la [[BDD films]]
         - il existe une valeur de `r` associée à `"américaine"` dans l'instance de `réalisateurs`? et
         - on retrouve cette valeur dans l'instance de `films`
         - alors la valeur de `t` associée à la valeur de `r` dans l'instance de `films` fait partie du résultat
+
+ - requêtes booléennes
+     - Exemple : $\mathrm{ans}() \leftarrow \text{réalisateurx}(r, "américaine")$ 
+     - renvoie une valeur booléenne selon si la règle est [[satisfaisable]] ou non
+         - $\{ () \}$ (ensemble contenant le tuple vide) pour _vrai_
+         - $\emptyset$ (ensemble vide) pour _faux_
