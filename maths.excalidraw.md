@@ -31,15 +31,15 @@ algèbre ^T9j20WEf
 
 # Embedded files
 dfdd33cc80418c2b20f47faa76e58dc357a76d2e: $$ax^3 + cx$$
-ef8901d67ed6ac0c24410c762c140c13aab07b6e: [[attachments/Pasted Image 20220820011546_569.png]]
-fa5e5fed05574397cf3bf552cff394d87f89587a: [[attachments/Pasted Image 20220820011829_697.png]]
-e686ce3cf27d68d6d5ba8a9bb47c8c1941652d5d: [[attachments/Pasted Image 20220820012723_635.png]]
-dc30ecd818f768f27c09b2688184568dd4fff41b: [[attachments/Pasted Image 20220820020326_640.png]]
-3540d28db9e21cc9dfa63db55ca338278fbddf95: [[attachments/Pasted Image 20220820020608_900.png]]
-df663ca5c8b519f2adbf6713e6df388a19998408: [[attachments/Pasted Image 20220820021336_008.png]]
-9f2976f6a1abeac7891eff2cc03b515f552e3c06: [[attachments/Pasted Image 20220820022359_482.png]]
-8caf6abe6f753f42953e2c2d1f084f470a5b607c: [[attachments/Pasted Image 20220820022906_283.png]]
-97523a355d37e680ff20c3790b9f1335f96fca24: [[attachments/Pasted Image 20220820023621_309.png]]
+ef8901d67ed6ac0c24410c762c140c13aab07b6e: [[Pasted Image 20220820011546_569.png]]
+fa5e5fed05574397cf3bf552cff394d87f89587a: [[Pasted Image 20220820011829_697.png]]
+e686ce3cf27d68d6d5ba8a9bb47c8c1941652d5d: [[Pasted Image 20220820012723_635.png]]
+dc30ecd818f768f27c09b2688184568dd4fff41b: [[Pasted Image 20220820020326_640.png]]
+3540d28db9e21cc9dfa63db55ca338278fbddf95: [[Pasted Image 20220820020608_900.png]]
+df663ca5c8b519f2adbf6713e6df388a19998408: [[Pasted Image 20220820021336_008.png]]
+9f2976f6a1abeac7891eff2cc03b515f552e3c06: [[Pasted Image 20220820022359_482.png]]
+8caf6abe6f753f42953e2c2d1f084f470a5b607c: [[Pasted Image 20220820022906_283.png]]
+97523a355d37e680ff20c3790b9f1335f96fca24: [[Pasted Image 20220820023621_309.png]]
 
 %%
 # Drawing

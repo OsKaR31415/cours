@@ -9,35 +9,35 @@
     },
     "children": [
       {
-        "id": "3fa23553782ec488",
+        "id": "8585a5df4db9d4b9",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "3fa23553782ec488",
+              "leaf": "8585a5df4db9d4b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{}"
             },
             {
-              "leaf": "3fa23553782ec488",
+              "leaf": "8585a5df4db9d4b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"versioning.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":15},\"to\":{\"line\":35,\"ch\":15}},\"scroll\":23.181818181818183}"
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
             },
             {
-              "leaf": "3fa23553782ec488",
+              "leaf": "8585a5df4db9d4b9",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PM Gestion des risques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":23.796296296296298}"
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "git.md",
+            "file": "fonction.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,6 +71,18 @@
             },
             "state": {
               "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "512b085b09382b44",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "file-tree-view",
               "state": {}
             }
           },
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "fonction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "fonction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,12 +181,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 195,
+    "width": 366,
     "collapsed": true
   },
   "right": {
@@ -184,7 +195,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 52.275249722530525,
+        "dimension": 70.81021087680355,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -196,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "fonction.md"
               }
             }
           },
@@ -246,7 +257,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "git.md",
+                "file": "fonction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -340,7 +351,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.2059531043345284,
+                  "scale": 0.7118881815513922,
                   "close": true
                 }
               }
@@ -395,12 +406,12 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 47.72475027746948,
+        "dimension": 29.189789123196448,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -459,23 +470,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 334.5
   },
-  "active": "3fa23553782ec488",
+  "active": "8585a5df4db9d4b9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "versioning.md",
-    "PM Gestion des risques.md",
     "things to do.md",
-    "interesting stats.md",
-    "boxed.md",
-    "fonction tangente.md",
+    "sources/cours/L2_maths_arithmetique_TD1.pdf",
+    "daily/2022-09-28.md",
     "fonction tangente hyperbolique.md",
-    "sources/sound when you send data to google.md",
-    "sources/cours/L2_info_POO_TP3-annotate.md",
-    "sources/cours/L2_info_POO_TP3.pdf"
+    "gists/how i see the unix command line.md",
+    "daily/2022-09-29.md",
+    "daily/2022-09-27.md",
+    "informatique/projets/L2/genie_logiciel_et_OOP/obsidian/daily notes/2022-09-26.md",
+    "templates/daily note.md",
+    "templates/devoir.md"
   ]
 }

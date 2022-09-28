@@ -198,7 +198,7 @@ for a quick description ^ChwywbsF
 
 
 # Embedded files
-d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[attachments/logo_obsidian.png]]
+d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[logo_obsidian.png]]
 
 %%
 # Drawing

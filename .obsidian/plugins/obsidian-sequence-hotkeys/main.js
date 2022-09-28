@@ -394,13 +394,11 @@ var SequenceHotkeysPlugin = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       this.hotkeyManager = new HotkeyManager((id) => this.app.commands.executeCommandById(id));
       yield this.loadSettings();
-      this.statusBar = this.addStatusBarItem();
       this.addSettingTab(new SequenceHotkeysSettingTab(this.app, this));
       this.chordListener = new ChordListener((chord) => {
         if (!!this.app.setting.activeTab) {
           return false;
         }
-        this.statusBar.setText(chord.toString());
         return this.hotkeyManager.handleChordPress(chord);
       });
     });

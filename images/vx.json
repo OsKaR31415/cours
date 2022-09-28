@@ -1,0 +1,124 @@
+{
+    "created_time": "2022-09-27T07:23:43Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "582",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "72_crayons.jpg",
+            "signature": "1704834274209998079",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "583",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "cube.png",
+            "signature": "3129895558210299135",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "584",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "don de sang groupes sanguins.png",
+            "signature": "4354516705690690815",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "585",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "dé Videau.png",
+            "signature": "5450570055864722687",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "586",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "exercice quaternions.png",
+            "signature": "7779857543495591167",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "591",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "graphe topologie homogène.svg",
+            "signature": "3470956883961095423",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "592",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "octaèdre.png",
+            "signature": "4006693903120114943",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "593",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "Plan de la fac tours.png",
+            "signature": "2233166430448297215",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "594",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "qui possède les médias français.png",
+            "signature": "3627739309277357311",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "595",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "réseau dodécaèdre adouci.png",
+            "signature": "8886079645354730751",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:43Z",
+            "id": "596",
+            "modified_time": "2022-09-27T07:23:43Z",
+            "name": "tétraèdre.png",
+            "signature": "7034106390317802751",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "graph"
+        }
+    ],
+    "id": "581",
+    "modified_time": "2022-09-27T07:23:43Z",
+    "signature": "599436990755284223",
+    "version": 3
+}

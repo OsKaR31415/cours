@@ -3,7 +3,7 @@ gists:
   - id: 982f721e53dce3613d68cd2512a4b721
     url: 'https://gist.github.com/982f721e53dce3613d68cd2512a4b721'
     createdAt: '2022-09-24T23:15:29Z'
-    updatedAt: '2022-09-26T05:42:27Z'
+    updatedAt: '2022-09-27T11:14:40Z'
     filename: 'Contre, l''usage abusif, de la virgule, dans la notation, mathématique.md'
     isPublic: true
 ---
@@ -60,8 +60,9 @@ Bien sûr, la propriété $\mathscr{P}$ peut contenir des quantificateurs. Par e
 
 Ici, on note que le "tel que" est noté avec un $\mid$. L'utilisation de la virgule dans ce contexte est très rare. En effet, les expressions sont alors beaucoup moins lisibles : $\lbrace x \in \mathbb{R}, \forall y \in \mathbb{N}, x\cdot y \notin \mathbb{N} \rbrace$
 
-Dans le contexte de la définition d'ensembles, il arrive également que l'on utilise la virgule comme "et" logique : $\left\lbrace  \frac{a}{b} \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{*}  \right\rbrace$.
-On pourrait donc avoir cette formule : $\left\lbrace   \frac{a}{b}, a, b \in \mathbb{Z}, b \neq 0  \right\rbrace$, que l'on n'écrira bien sûr jamais, mais qui montre bien les nombreuses significations possibles de la virgule, et le travail d'interprétation que l'on doit faire à chaque fois pour deviner laquelle est la bonne.
+Dans le contexte de la définition d'ensembles, il arrive également que l'on utilise la virgule comme "et" logique : $\left\lbrace  \frac{a}{b} \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}  \right\rbrace$ ou même $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$.
+
+On pourrait donc avoir cette formule : $\left\lbrace q, a, b \in \mathbb{Z}, b \neq 0, q = \frac{a}{b} \right\rbrace$, que l'on n'écrira bien sûr jamais, mais qui montre bien les nombreuses significations possibles de la virgule, et le travail d'interprétation que l'on doit faire à chaque fois pour deviner laquelle est la bonne.
 
 ## Solutions possibles
 
@@ -71,7 +72,7 @@ Par exemple, on ne noterait pas $\forall x, y \in \mathbb{R}, \exists z \in \mat
 
 La solution consiste donc à :
  - ne jamais mettre deux variables ensemble (utiliser plusieurs quantificateurs, un par variable)
-     - on peut aussi écrire $(x, y) \in \mathbb{R}^{2}$ (on a en fait qu'une seule variable : le vecteur $(x, y)$)
+     - on peut aussi écrire $(x, y) \in \mathbb{R}^{2}$ (on a en fait qu'une seule variable : le vecteur $(x, y)$ )
  - mettre des parenthèses plutôt que des virgules (élimine toutes les ambiguïtés)
 
 ### Utiliser de meilleurs symboles
@@ -80,7 +81,7 @@ La solution proposée par la logique formelle est plutôt lourde (longue à écr
 On peut, plus simplement, utiliser des symboles spécialisés pour chacune des significations
 
  - Le $;$ est un meilleur symbole pour séparer les éléments d'un vecteur
-     - Dans les langues où c'est la virgule qui est l'indicateur pour les nombres décimaux, on préfère le "$;$" dans les vecteurs
+     - Dans les langues où c'est la virgule qui est l'indicateur pour les nombres décimaux, on préfère le " $;$ " dans les vecteurs
  - Pour "tel que", on préfère " $\mid$ ", " $/$ " ou bien quelquefois " $:$ "
      - **Exemple :** $\forall x \in \mathbb{R}, \exists y \in \mathbb{R} \mid y = x+1$ ou bien $\lbrace x \in \mathbb{R} : \cos(x) = 0 \rbrace$
  - Pour décrire que plusieurs variables sont dans un ensemble, on utilise $(x, y) \in \mathbb{R}^{2}$ ou bien $(x, y, z) \in \mathbb{R}^{3}$ etc.
@@ -91,17 +92,17 @@ Ces remplacements ont plusieurs avantages :
  - ils sont plus lisibles : avoir un symbole pour chaque signification permet au cerveau de comprendre et d'utiliser plus facilement ces symboles et de mieux les associer à leur signification
 
 Ils ont cependant un problème : ils obligent parfois à être plus formel, et donc à écrire plus de choses.
-Par exemple, $\left\{  \frac{a}{b} \mid a, b \in \mathbb{Z}, b \neq 0  \right\}$ est plus lisible que $\left\{  \frac{a}{b} \mid (a;b)\in \mathbb{Z}\times \mathbb{Z}^{*}  \right\}$, ou bien $\left\{  \frac{a}{b}\mid (a;b)\in\mathbb{Z}^{2} \wedge b\neq 0  \right\}$ ou encore $\left\{  \frac{a}{b} \mid a \in \mathbb{Z} \wedge b \in \mathbb{Z}^{*}  \right\}$ (bien sûr, les 4 ont la même signification, et sont donc tous aussi simples, mais il faut moins d'efforts au cerveau pour comprendre les valeurs possibles de $a$ et $b$ dans le premier cas, car la notation donne sans détour les informations que l'on recherche).
+Par exemple, $\left\lbrace \frac{a}{b} \mid a, b \in \mathbb{Z}, b \neq 0  \right\rbrace$ est plus lisible que $\left\lbrace \frac{a}{b} \mid (a;b)\in \mathbb{Z}\times \mathbb{Z}^{\ast}  \right\rbrace$, ou bien $\left\lbrace \frac{a}{b}\mid (a;b)\in\mathbb{Z}^{2} \wedge b\neq 0  \right\rbrace$ ou encore $\left\lbrace \frac{a}{b} \mid a \in \mathbb{Z} \wedge b \in \mathbb{Z}^{\ast}  \right\rbrace$ (bien sûr, les 4 ont la même signification, et sont donc tous aussi simples, mais il faut moins d'efforts au cerveau pour comprendre les valeurs possibles de $a$ et $b$ dans le premier cas, car la notation donne sans détour les informations que l'on recherche).
 
 Il semble donc que, dans certains cas, c'est au contrainre l'utilisation de notation plus abrégées, par exemple avec des virgules, qui est plus lisible.
 
 ### Exemples
 Voici quelques exemples d'expressions écrite en utilisant plus ou moins de virgules
 
-| maximum de virgules                                                                      | intermédiaire                                                                                                    | minimum de virgules                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\forall x, y \in \mathbb{R}, \exists a, b \in \mathbb{R}, x+y = a+b, x\neq a, y \neq b$ | $\forall (x, y) \in \mathbb{R}^{2}, \exists (a, b) \in \mathbb{R}^{2}, x+y = a+b \wedge x\neq a \wedge y \neq b$ | $\forall (x;y)\in\mathbb{R}^{2}, \exists (a;b)\in\mathbb{R}^{2}, x+y=a+b \wedge x\neq a \wedge y \neq b$                                                              |
-| $\left\{  \frac{a}{b}, a,b\in\mathbb{Z}, b \neq 0  \right\}$                             | $\left\{  \frac{a}{b} \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{*} \right\}$                                      | $\left\{  \frac{a}{b} \mid (a, b) \in \mathbb{Z}\times \mathbb{Z}^{*} \right\}$ ou bien $\left\{  \frac{a}{b} \mid (a, b)\in \mathbb{Z}^{*} \wedge b \neq 0 \right\}$ |
+| maximum de virgules                                                                      | intermédiaire                                                                                                    | minimum de virgules                                                                                                                     |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| $\forall x, y \in \mathbb{R}, \exists a, b \in \mathbb{R}, x+y = a+b, x\neq a, y \neq b$ | $\forall (x, y) \in \mathbb{R}^{2}, \exists (a, b) \in \mathbb{R}^{2}, x+y = a+b \wedge x\neq a \wedge y \neq b$ | $\forall (x;y)\in\mathbb{R}^{2}, \exists (a;b)\in\mathbb{R}^{2}, x+y=a+b \wedge x\neq a \wedge y \neq b$                                |
+| $\left\lbrace q,a,b\in\mathbb{Z}, b \neq 0, q=\frac{a}{b} \right\rbrace$                          | $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$                      | $\left\lbrace q \mid (a; b) \in \mathbb{Z}^{2} \wedge b \neq 0 \wedge q = \frac{a}{b} \right\rbrace$ ou bien $\left\lbrace q \mid (a; b) \in \mathbb{Z} \times \mathbb{Z}^{\ast} \wedge q = \frac{a}{b} \right\rbrace$ |
 
 _(des exemples supplémentaire dans les commentaires sont les bienvenus)_
 
@@ -125,5 +126,4 @@ L'utilisation de la virgule dans la notation mathématique peut parfois conduire
 Les alternatives disponibles sont meilleures, car elles facilitent la compréhension et l'écriture des mathématiques.
 
 Et en plus c'est beaucoup plus joli !
-
 

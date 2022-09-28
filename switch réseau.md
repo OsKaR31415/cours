@@ -1,3 +1,6 @@
+---
+alias: [ "switch", "switchs" ]
+---
 up::[[matériel réseau informatique]]
 title::"redirige des [[réseau paquet|paquets]] vers le bon destinataire ([[Local Area Network|LAN]])"
 #informatique #no-review 

@@ -20,9 +20,9 @@ tags: [excalidraw]
 
 
 # Embedded files
-4ccd589d6d20a5015283c6cda9c0ec2642ce867d: [[attachments/Pasted Image 20220820003257_636.png]]
-bdba18d00da0b2f0f1381a38ce2d9a2838f0a8f9: [[attachments/Pasted Image 20220820010829_253.png]]
-214bc5343c0339561e5439bc89f2427ba5b302e1: [[attachments/Pasted Image 20220823214736_945.png]]
+4ccd589d6d20a5015283c6cda9c0ec2642ce867d: [[Pasted Image 20220820003257_636.png]]
+bdba18d00da0b2f0f1381a38ce2d9a2838f0a8f9: [[Pasted Image 20220820010829_253.png]]
+214bc5343c0339561e5439bc89f2427ba5b302e1: [[Pasted Image 20220823214736_945.png]]
 d8b8ceb36491fa5f3241bf2218bccac26485ac5a: [[logo_obsidian.png]]
 
 %%

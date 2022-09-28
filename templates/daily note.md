@@ -1,11 +1,10 @@
 # {{DATE:YYYY-MM-DD}}
-
 ## Todo
 - [ ] spaced repetition
 - [ ] kung-fu
 
-#### Devoirs
-> [!todo] Devoirs
+## Devoirs
+> [!smalltodo] Devoirs
 > ```dataview
 > TABLE difficulty as "", due as "date", title as "description", file.etags as "tags"
 > FROM #devoir
@@ -18,7 +17,7 @@
 > > WHERE contains(due, date(this.file.name))
 > > ```
 
-> [!query] anniversaires `=this.file.name`
+> [!smallquery] anniversaires `=this.file.name`
 > ```dataview
 > TABLE title, anniv
 > FROM #personne 

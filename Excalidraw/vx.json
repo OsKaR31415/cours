@@ -1,0 +1,614 @@
+{
+    "created_time": "2022-09-27T07:23:33Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "422",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "APL combinateur atop.excalidraw.md",
+            "signature": "18595839961375989",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "423",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "APL_symbols.excalidraw.md",
+            "signature": "2972623283283993845",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "424",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "arbres ternaires.excalidraw.md",
+            "signature": "3499716534730925301",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "425",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "architecture de Von Neumann 2022-09-14 10.56.32.excalidraw.md",
+            "signature": "8757991329607361781",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "426",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "architecture de Von Neumann 2022-09-14 10.56.32.excalidraw.png",
+            "signature": "3742278764142437621",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "427",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "architecture de Von Neumann 2022-09-14 11.13.27.excalidraw.md",
+            "signature": "3796885901761750261",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "428",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "bus de données 2022-09-21 10.44.36.excalidraw.md",
+            "signature": "1853624611496961269",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "429",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "carré d'une somme 2022-09-17 16.14.42.excalidraw.md",
+            "signature": "381453373120095477",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "430",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "chipset 2022-09-21 10.52.16.excalidraw.md",
+            "signature": "3285116556756034805",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "431",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "couche physique 2022-09-20 13.16.26.excalidraw.md",
+            "signature": "7649247068333188341",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "432",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - point d'allure ordinaire - parité.excalidraw.md",
+            "signature": "6775947743085110517",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "433",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - point d'allure ordinaire.excalidraw.md",
+            "signature": "2554407491445368053",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "434",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - point d'inflexion - parité.excalidraw.md",
+            "signature": "5766607965846152437",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "435",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - point d'inflexion.excalidraw.md",
+            "signature": "7788468403168257269",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "436",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - rebroussement de première espèce - parité.excalidraw.md",
+            "signature": "3290789830596928757",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "437",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - rebroussement de première espèce.excalidraw.md",
+            "signature": "4802687665330889973",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "438",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - rebroussement de seconde espèce - parité.excalidraw.md",
+            "signature": "1080174462607992053",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "439",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "courbe paramétrée - rebroussement de seconde espèce.excalidraw.md",
+            "signature": "1379304155791926517",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "440",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "cube octaedre.excalidraw.md",
+            "signature": "6091492881392116981",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "441",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Cycle en spirale 2022-09-12 14.16.42.excalidraw.md",
+            "signature": "1352399338188481781",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "442",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "cycle en V 2022-09-12 13.27.21.excalidraw.md",
+            "signature": "7864498936444265717",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "443",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "cycle en Y 2022-09-12 14.15.53.excalidraw.md",
+            "signature": "2458592637996934389",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "444",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "devoir gestion de projet 2022-09-20 16.15.47.excalidraw.md",
+            "signature": "1597205468968822005",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "445",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Démonstration arctan(1sqrt(3)).excalidraw.md",
+            "signature": "538292092572706037",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "446",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Démonstration arctan(1÷sqrt(3)).excalidraw.md",
+            "signature": "1658504522117588213",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "447",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "déterminant d'une matrice - méthode de Sarrus.excalidraw.md",
+            "signature": "8025836217527608565",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "448",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "exemple diagramme entité-association.excalidraw.md",
+            "signature": "5844492331561166069",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "449",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "exemple graphe topologie hiérarchique.excalidraw.md",
+            "signature": "4208896548189414645",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "450",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw.md",
+            "signature": "4429436122337289461",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "451",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "formule_euler_cos.excalidraw.md",
+            "signature": "6323894240383509749",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "452",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "formule_euler_sin.excalidraw.md",
+            "signature": "3978007618981635317",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "453",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "graphe_topologie_homogène.excalidraw.md",
+            "signature": "1023349665870030069",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "454",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw.md",
+            "signature": "6954406520451933429",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "455",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "modèle en cascade 2022-09-12 13.09.45.excalidraw.md",
+            "signature": "2308571354493002997",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "456",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "modèle OSI 2022-09-13 13.48.43.excalidraw.md",
+            "signature": "266875010146280693",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "457",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "mémoire 2022-09-21 10.21.29.excalidraw.md",
+            "signature": "6496176983627703541",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "458",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "méthodologie scrum 2022-09-20 08.33.02.excalidraw.md",
+            "signature": "756733390512891125",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "459",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "new APL symbols.excalidraw.md",
+            "signature": "3724164176930841845",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "460",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "nombre de régions avec n+1 cercles.excalidraw.md",
+            "signature": "5607989704003855605",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "461",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "notes sur un dodécaèdre.excalidraw.md",
+            "signature": "6525138038298944757",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "462",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "PERT exemple dessiner les précédences 2022-09-13 18.15.11.excalidraw.md",
+            "signature": "6006626509466543349",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "463",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "pizza hawaienne.excalidraw.md",
+            "signature": "9168314607938479349",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "464",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "plan rentrée L2 maths tours.excalidraw.md",
+            "signature": "7877493179609687285",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "465",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "polygone 2022-07-26 16.40.43.excalidraw.md",
+            "signature": "2514406261994464501",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "466",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Program Evaluation Review Technique 2022-09-13 17.40.48.excalidraw.md",
+            "signature": "2552015946280772853",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "467",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Program Evaluation Review Technique 2022-09-13 17.42.07.excalidraw.md",
+            "signature": "1004795716388955381",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "468",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md",
+            "signature": "6003798277797094645",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "470",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "somme des carrés 2022-06-23 14.34.47.excalidraw.md",
+            "signature": "658096674831508725",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "471",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "symboles_musique.excalidraw.md",
+            "signature": "1691230321782203637",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "472",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "système linéaire 2022-08-29 17.52.52.excalidraw.md",
+            "signature": "1312922227891676405",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "473",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "tableaux de variations.excalidraw.md",
+            "signature": "2279546506672514293",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "474",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "tangente à une courbe 2022-08-23 17.05.20.excalidraw.md",
+            "signature": "1160994816426943733",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "475",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "TD génie logiciel 2022-09-23 2022-09-23 08.45.50.excalidraw.md",
+            "signature": "1172233577609471221",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "476",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "unix fichier etc-shadow 2022-09-07 15.31.12.excalidraw.md",
+            "signature": "8722896730924950773",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "477",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "unix structure inode 2022-09-21 16.01.38.excalidraw.md",
+            "signature": "6791359756485436661",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "478",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "visualisation de la multiplication de matrices.excalidraw.md",
+            "signature": "8637943733803984117",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "479",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "WBS exemple recrutement 2022-09-13 16.46.40.excalidraw.md",
+            "signature": "1202418186858964213",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "480",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "workflow.excalidraw.md",
+            "signature": "8471388668751422709",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "481",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "workflow.excalidraw.png",
+            "signature": "4203285426820261109",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-09-27T07:23:33Z",
+            "id": "482",
+            "modified_time": "2022-09-27T07:23:33Z",
+            "name": "équation de la tangente 2022-08-23 17.28.26.excalidraw.md",
+            "signature": "1052785456161400053",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "Scripts"
+        }
+    ],
+    "id": "421",
+    "modified_time": "2022-09-27T07:23:33Z",
+    "signature": "3322218064806847733",
+    "version": 3
+}

@@ -28,6 +28,6 @@
 
 > [!missing] notes without tags
 > ```dataview
-> LIST FROM -"daily" AND -"informatique" AND -"templates" AND -"sources" AND -"__sekund__"
+> LIST FROM -"daily" AND -"informatique" AND -"templates" AND -"sources" AND -"__sekund__" AND -"gists"
 > WHERE !file.tags
 > ```

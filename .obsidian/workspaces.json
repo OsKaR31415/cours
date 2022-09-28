@@ -1,439 +1,5 @@
 {
   "workspaces": {
-    "CV": {
-      "main": {
-        "id": "239f495bbbd2d5df",
-        "type": "split",
-        "children": [
-          {
-            "id": "2bf6dc8969760c12",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3.pdf\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "sources/cours/L2_info_POO_TP3-annotate.md"
-              }
-            }
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "64de298669508ee4",
-        "type": "split",
-        "children": [
-          {
-            "id": "a3e04033addcedcd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "407c81c708328992",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {}
-                }
-              },
-              {
-                "id": "390d098cee0c9651",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#CV",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "609ff408cfbae38d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "RSS_FEED",
-                  "state": {}
-                }
-              },
-              {
-                "id": "d57a6c1cc59bf25e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "sekund-main-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ccd1190664578ee9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "c7afda8b81d643de",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "e855affa02bb755e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 299,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1102f19b896c7a16",
-        "type": "split",
-        "children": [
-          {
-            "id": "980f845ab893296e",
-            "type": "tabs",
-            "dimension": 66.61585365853658,
-            "children": [
-              {
-                "id": "5f0a6b2e995376e5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sources/cours/L2_info_POO_TP3-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "d45511af0bde9bcf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bae8ca5650bdd5bf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "31b1c63a457b6e3d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "32d6a52d872d783d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "sources/cours/L2_info_POO_TP3-annotate.md",
-                    "options": {
-                      "collapse-filter": false,
-                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
-                      "showTags": false,
-                      "showAttachments": true,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [
-                        {
-                          "query": "tag:#todo",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16711680
-                          }
-                        },
-                        {
-                          "query": "tag:#not-done",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2829614
-                          }
-                        },
-                        {
-                          "query": "tag:#MOC",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6356992
-                          }
-                        },
-                        {
-                          "query": "tag:#flashcards",
-                          "color": {
-                            "a": 1,
-                            "rgb": 16427551
-                          }
-                        },
-                        {
-                          "query": "tag:#maths",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2520842
-                          }
-                        },
-                        {
-                          "query": "tag:#logique",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2902193
-                          }
-                        },
-                        {
-                          "query": "tag:#informatique",
-                          "color": {
-                            "a": 1,
-                            "rgb": 32882
-                          }
-                        },
-                        {
-                          "query": "tag:#personne",
-                          "color": {
-                            "a": 1,
-                            "rgb": 10710150
-                          }
-                        },
-                        {
-                          "query": "path:annotation",
-                          "color": {
-                            "a": 1,
-                            "rgb": 12844865
-                          }
-                        },
-                        {
-                          "query": "tag:#PKM OR tag:#obsidian",
-                          "color": {
-                            "a": 1,
-                            "rgb": 4667545
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
-                      "showArrow": true,
-                      "textFadeMultiplier": -1,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 2.66151355284701,
-                      "collapse-forces": true,
-                      "centerStrength": 0.791642706536324,
-                      "repelStrength": 15.6584243818286,
-                      "linkStrength": 1,
-                      "linkDistance": 30,
-                      "scale": 0.7746356178080479,
-                      "close": true
-                    }
-                  }
-                }
-              },
-              {
-                "id": "a05eecb7dce21915",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "BC-matrix",
-                  "state": {}
-                }
-              },
-              {
-                "id": "7ab5b0693ed3805a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "BC-tree",
-                  "state": {}
-                }
-              },
-              {
-                "id": "309f8009b1cc52b3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          },
-          {
-            "id": "9b0b445260de35cb",
-            "type": "tabs",
-            "dimension": 33.38414634146341,
-            "children": [
-              {
-                "id": "cb9c41a428bebf8c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "things to do.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "8d8d223c8b48a4c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "8d8d223c8b48a4c7",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "devoirs à faire.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 359.5,
-        "collapsed": true
-      },
-      "active": "2bf6dc8969760c12",
-      "ophidian:layout-settings": {
-        "pane-relief:focus-lock": true
-      }
-    },
     "obsidian october": {
       "main": {
         "id": "239f495bbbd2d5df",
@@ -885,7 +451,597 @@
         "pane-relief:focus-lock": true
       }
     },
-    "maths": {
+    "perso": {
+      "main": {
+        "id": "239f495bbbd2d5df",
+        "type": "split",
+        "children": [
+          {
+            "id": "2bf6dc8969760c12",
+            "type": "leaf",
+            "dimension": 20.44317369549678,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gists/how i see the unix command line.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":1.0666666666666667}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "2bf6dc8969760c12",
+                  "group": null,
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gists/how i see the unix command line.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf5afea965f6c78f",
+            "type": "leaf",
+            "dimension": 79.55682630450322,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":9,\"ch\":12}},\"scroll\":28.4655823409817}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "cf5afea965f6c78f",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "64de298669508ee4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a3e04033addcedcd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "407c81c708328992",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "390d098cee0c9651",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#CV",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "609ff408cfbae38d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d57a6c1cc59bf25e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ccd1190664578ee9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c7afda8b81d643de",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e855affa02bb755e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 299,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1102f19b896c7a16",
+        "type": "split",
+        "children": [
+          {
+            "id": "980f845ab893296e",
+            "type": "tabs",
+            "dimension": 66.61585365853658,
+            "children": [
+              {
+                "id": "5f0a6b2e995376e5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
+                  }
+                }
+              },
+              {
+                "id": "d45511af0bde9bcf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "31b1c63a457b6e3d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "32d6a52d872d783d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#todo",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16711680
+                          }
+                        },
+                        {
+                          "query": "tag:#not-done",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2829614
+                          }
+                        },
+                        {
+                          "query": "tag:#MOC",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6356992
+                          }
+                        },
+                        {
+                          "query": "tag:#flashcards",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16427551
+                          }
+                        },
+                        {
+                          "query": "tag:#maths",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2520842
+                          }
+                        },
+                        {
+                          "query": "tag:#logique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2902193
+                          }
+                        },
+                        {
+                          "query": "tag:#informatique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 32882
+                          }
+                        },
+                        {
+                          "query": "tag:#personne",
+                          "color": {
+                            "a": 1,
+                            "rgb": 10710150
+                          }
+                        },
+                        {
+                          "query": "path:annotation",
+                          "color": {
+                            "a": 1,
+                            "rgb": 12844865
+                          }
+                        },
+                        {
+                          "query": "tag:#PKM OR tag:#obsidian",
+                          "color": {
+                            "a": 1,
+                            "rgb": 4667545
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 2.66151355284701,
+                      "collapse-forces": true,
+                      "centerStrength": 0.791642706536324,
+                      "repelStrength": 15.6584243818286,
+                      "linkStrength": 1,
+                      "linkDistance": 30,
+                      "scale": 0.7746356178080479,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "a05eecb7dce21915",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7ab5b0693ed3805a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
+              },
+              {
+                "id": "309f8009b1cc52b3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "9b0b445260de35cb",
+            "type": "tabs",
+            "dimension": 33.38414634146341,
+            "children": [
+              {
+                "id": "cb9c41a428bebf8c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "things to do.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "8d8d223c8b48a4c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "8d8d223c8b48a4c7",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 359.5
+      },
+      "active": "cf5afea965f6c78f",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": true
+      }
+    },
+    "maths tours": {
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
@@ -1086,7 +1242,7 @@
                       "leaf": "4676a33f3abec10a",
                       "group": null,
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"scroll\":1.4333333333333333}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "leaf": "4676a33f3abec10a",
@@ -1520,7 +1676,7 @@
         "pane-relief:focus-lock": true
       }
     },
-    "cours": {
+    "maths": {
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
@@ -1531,38 +1687,29 @@
         },
         "children": [
           {
-            "id": "3fa23553782ec488",
+            "id": "8585a5df4db9d4b9",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
-                  "leaf": "3fa23553782ec488",
+                  "leaf": "8585a5df4db9d4b9",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
                 },
                 {
-                  "leaf": "3fa23553782ec488",
+                  "leaf": "8585a5df4db9d4b9",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"versioning.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":15},\"to\":{\"line\":35,\"ch\":15}},\"scroll\":23.181818181818183}"
-                },
-                {
-                  "leaf": "3fa23553782ec488",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PM Gestion des risques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":23.796296296296298}"
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
               }
             }
           }
@@ -1593,6 +1740,18 @@
                 },
                 "state": {
                   "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "512b085b09382b44",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "file-tree-view",
                   "state": {}
                 }
               },
@@ -1664,7 +1823,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "git.md",
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1680,7 +1839,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "git.md",
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1691,12 +1850,11 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 195,
+        "width": 366,
         "collapsed": true
       },
       "right": {
@@ -1706,7 +1864,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 52.275249722530525,
+            "dimension": 70.81021087680355,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -1718,7 +1876,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "git.md"
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
                   }
                 }
               },
@@ -1768,7 +1926,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "git.md",
+                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1862,7 +2020,7 @@
                       "repelStrength": 15.6584243818286,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 1.2059531043345284,
+                      "scale": 0.7118881815513922,
                       "close": true
                     }
                   }
@@ -1917,12 +2075,12 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 47.72475027746948,
+            "dimension": 29.189789123196448,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -1981,10 +2139,489 @@
           }
         ],
         "direction": "horizontal",
-        "width": 309.5,
+        "width": 334.5,
         "collapsed": true
       },
-      "active": "3fa23553782ec488",
+      "active": "8585a5df4db9d4b9",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": true
+      }
+    },
+    "cours": {
+      "main": {
+        "id": "239f495bbbd2d5df",
+        "type": "split",
+        "ophidian:layout-settings": {
+          "pane-relief:sliding-panes": {
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "id": "8585a5df4db9d4b9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "8585a5df4db9d4b9",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "8585a5df4db9d4b9",
+                  "group": null,
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "8585a5df4db9d4b9",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fonction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "64de298669508ee4",
+        "type": "split",
+        "children": [
+          {
+            "id": "a3e04033addcedcd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8e6cf92b1e047f14",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "8e6cf92b1e047f14",
+                      "group": null,
+                      "state": "{\"type\":\"empty\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "512b085b09382b44",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "390d098cee0c9651",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ccd1190664578ee9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "325e33879123bbe0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "sekund-main-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bd1d7503d0848342",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c7afda8b81d643de",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "fonction.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "e855affa02bb755e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "fonction.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 366,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1102f19b896c7a16",
+        "type": "split",
+        "children": [
+          {
+            "id": "980f845ab893296e",
+            "type": "tabs",
+            "dimension": 70.81021087680355,
+            "children": [
+              {
+                "id": "5f0a6b2e995376e5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "fonction.md"
+                  }
+                }
+              },
+              {
+                "id": "d45511af0bde9bcf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bae8ca5650bdd5bf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf6c068c22a39e9f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "32d6a52d872d783d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "fonction.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#todo",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16711680
+                          }
+                        },
+                        {
+                          "query": "tag:#not-done",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2829614
+                          }
+                        },
+                        {
+                          "query": "tag:#MOC",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6356992
+                          }
+                        },
+                        {
+                          "query": "tag:#flashcards",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16427551
+                          }
+                        },
+                        {
+                          "query": "tag:#maths",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2520842
+                          }
+                        },
+                        {
+                          "query": "tag:#logique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2902193
+                          }
+                        },
+                        {
+                          "query": "tag:#informatique",
+                          "color": {
+                            "a": 1,
+                            "rgb": 32882
+                          }
+                        },
+                        {
+                          "query": "tag:#personne",
+                          "color": {
+                            "a": 1,
+                            "rgb": 10710150
+                          }
+                        },
+                        {
+                          "query": "path:annotation",
+                          "color": {
+                            "a": 1,
+                            "rgb": 12844865
+                          }
+                        },
+                        {
+                          "query": "tag:#PKM OR tag:#obsidian",
+                          "color": {
+                            "a": 1,
+                            "rgb": 4667545
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 2.66151355284701,
+                      "collapse-forces": true,
+                      "centerStrength": 0.791642706536324,
+                      "repelStrength": 15.6584243818286,
+                      "linkStrength": 1,
+                      "linkDistance": 30,
+                      "scale": 0.7118881815513922,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "860dbc475755d3c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "graph-analysis",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf9c467678aa05e4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "843072ab0d510e3d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
+              },
+              {
+                "id": "837d069be727ad7e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "9b0b445260de35cb",
+            "type": "tabs",
+            "dimension": 29.189789123196448,
+            "children": [
+              {
+                "id": "cb9c41a428bebf8c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "cb9c41a428bebf8c",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{\"scroll\":3.804469273743017}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "things to do.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "523cd7a78782d297",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "523cd7a78782d297",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 334.5
+      },
+      "active": "8585a5df4db9d4b9",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }

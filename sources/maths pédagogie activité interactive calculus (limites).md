@@ -26,16 +26,16 @@ Les élèves doivent choisir au hasard les propriétés une-par-une, et chacun s
 
 L'élève 1 doît tracer la propriété $f(-4) = -2$
 Une simple fonction linéaire suffit :
-![[../attachments/Pasted image 20220903005605.png\|500]]
+![[Pasted image 20220903005605.png\|500]]
 
 L'élève 2 doît ajouter $\lim\limits_{x \to -4^{+}} f(x) = 5$
-![[../attachments/Pasted image 20220903005732.png\|500]]
+![[Pasted image 20220903005732.png\|500]]
 
 Elève 3 : $\lim\limits_{x \to 0} f(x) = 1$
-![[../attachments/Pasted image 20220903005945.png\|500]]
+![[Pasted image 20220903005945.png\|500]]
 
 Elève 4 : $f(0) = 3$
-![[../attachments/Pasted image 20220903010042.png\|500]]
+![[Pasted image 20220903010042.png\|500]]
 
 Elève 5 : $\lim\limits_{x \to -4^{-}} f(x) = -2$
-![[../attachments/Pasted image 20220903010214.png|500]]
+![[Pasted image 20220903010214.png|500]]

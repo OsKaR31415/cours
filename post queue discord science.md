@@ -2,6 +2,9 @@ up::[[post queues]]
 #science #no-review 
 # post queue discord science
 
+> [!todo] Surveillance de la part du gouvernement
+> L'association _la quadrature du net_ attaque le gouvernement contre l'utilisation des technologies de surveillance (caméras, fichage injustifié...)
+> https://www.usine-digitale.fr/article/plus-de-15-000-personnes-poursuivent-le-ministere-de-l-interieur-pour-surveillance-generalisee.N2047702
 
 > [!done] The concept of ruliad
 > Article de stephen wolfram sur la structure de "_ruliad_", possiblement la structure de l'univers.

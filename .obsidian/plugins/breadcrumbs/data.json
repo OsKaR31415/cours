@@ -3,7 +3,9 @@
   "addDateNotes": true,
   "aliasesInIndex": false,
   "alphaSortAsc": true,
-  "altLinkFields": [],
+  "altLinkFields": [
+    "alias"
+  ],
   "CSVPaths": "",
   "createIndexIndent": "  ",
   "dateFormat": "YYYY-MM-DD",
@@ -120,7 +122,7 @@
   "wikilinkIndex": true,
   "impliedRelations": {
     "siblingIdentity": false,
-    "sameParentIsSibling": false,
+    "sameParentIsSibling": true,
     "siblingsSiblingIsSibling": true,
     "siblingsParentIsParent": true,
     "parentsSiblingsIsParents": false,

@@ -10,14 +10,14 @@ tags: [excalidraw]
 # Text Elements
 
 # Embedded files
-cf2d84923f90e36119cd78495fb6ff8dc0ea4101: [[attachments/Pasted Image 20220820035449_797.png]]
-0ee53404a3fdec3c33185fa875cf8391094519c7: [[attachments/Pasted Image 20220820035642_648.png]]
-665735ccf56ff9d1a3eedbff3b417d8af9aa199a: [[attachments/Pasted Image 20220820040637_669.png]]
-e30a70e6ecabddb22114210eacc7b03c1702e48c: [[attachments/Pasted Image 20220820123844_241.png]]
-9329349edee07c7d3b01015c3aa29190f6375dd6: [[attachments/Pasted Image 20220820124654_970.png]]
-daf5dc462451cd9a6f0bd6a89761100b99e58750: [[attachments/Pasted Image 20220825181357_091.png]]
-10b434b702c72525f183f6d45da60e64d0ca2dbb: [[attachments/Pasted Image 20220825213202_055.png]]
-0d636af949c1f4deef3e7259ec76b101d60efd0d: [[attachments/Pasted Image 20220825213354_255.png]]
+cf2d84923f90e36119cd78495fb6ff8dc0ea4101: [[Pasted Image 20220820035449_797.png]]
+0ee53404a3fdec3c33185fa875cf8391094519c7: [[Pasted Image 20220820035642_648.png]]
+665735ccf56ff9d1a3eedbff3b417d8af9aa199a: [[Pasted Image 20220820040637_669.png]]
+e30a70e6ecabddb22114210eacc7b03c1702e48c: [[Pasted Image 20220820123844_241.png]]
+9329349edee07c7d3b01015c3aa29190f6375dd6: [[Pasted Image 20220820124654_970.png]]
+daf5dc462451cd9a6f0bd6a89761100b99e58750: [[Pasted Image 20220825181357_091.png]]
+10b434b702c72525f183f6d45da60e64d0ca2dbb: [[Pasted Image 20220825213202_055.png]]
+0d636af949c1f4deef3e7259ec76b101d60efd0d: [[Pasted Image 20220825213354_255.png]]
 
 %%
 # Drawing
