@@ -1515,71 +1515,32 @@
         },
         "children": [
           {
-            "id": "264af251e337dbdd",
+            "id": "7d3c1d771c833691",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "264af251e337dbdd",
+                  "leaf": "7d3c1d771c833691",
                   "group": null,
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"actions.excalidraw.md\"}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace vectoriel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.303030125548228}"
                 },
                 {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Open.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
+                  "leaf": "7d3c1d771c833691",
                   "group": null,
                   "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":8.890909222619474}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "264af251e337dbdd",
-                  "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\"}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "actions.excalidraw.md"
+                "file": "espace vectoriel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -1693,7 +1654,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "actions.excalidraw.md",
+                    "file": "espace vectoriel.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1709,7 +1670,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "actions.excalidraw.md",
+                    "file": "espace vectoriel.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1746,7 +1707,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "actions.excalidraw.md"
+                    "file": "espace vectoriel.md"
                   }
                 }
               },
@@ -1796,7 +1757,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "actions.excalidraw.md",
+                    "file": "espace vectoriel.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2012,7 +1973,7 @@
         "width": 334.5,
         "collapsed": true
       },
-      "active": "264af251e337dbdd",
+      "active": "7d3c1d771c833691",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
