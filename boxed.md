@@ -1,5 +1,5 @@
-up::[[ligne de commande UNIX]]
-title::"entourer du texte avec différents types de boîtes ([[ligne de commande UNIX]])"
+up::[[unix redirection de flux]]
+title::"entourer du texte avec différents types de boîtes ([[unix redirection de flux]])"
 #informatique #no-review 
 # boxed
 Utilitaire [[ligne de commande]]

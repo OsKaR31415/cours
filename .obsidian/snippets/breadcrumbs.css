@@ -1,5 +1,10 @@
 
 .BC-trail {
     font-size: 20px;
+    width:10%;
+}
+
+.BC-trail::after {
+    content: "\a";
 }
 

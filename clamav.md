@@ -1,7 +1,7 @@
-up::[[ligne de commande UNIX]]
+up::[[unix redirection de flux]]
 #informatique/unix #no-review 
 # clamav
-utilitaire [[ligne de commande UNIX]]
+utilitaire [[unix redirection de flux]]
 C'est un [[anti-virus]]
 
 ## Usage

@@ -1,6 +1,6 @@
 up::[[MOC informatique|informatique]]
 title::"ordinateurs connectés, acheminant de l'information entre eux"
-#informatique 
+#informatique #no-review 
 # réseau informatique
 
 > [!définition]

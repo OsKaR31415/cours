@@ -1,30 +1,10 @@
-up:: [[ligne de commande]]
+up::[[unix redirection de flux]]
 #informatique #no-review 
-# ligne de commande UNIX
+# unix redirection de flux
 
-La ligne de commande UNIX est l'interface [[ligne de commande]] implémentée dans le [[système d'exploitation|système]] [[UNIX]].
-
-## Description
-
-### Syntaxe d'une commande
-
-La syntaxe générale d'une commande est :
-```sh
-$ commande options fichiers_ou_données
-```
-
-#### Option
-
-Une option (aussi appelée _flag_, ou _argument_), **modifie le fonctionnement** d'une commande.
-Le plus souvent, les options sont introduites par `-` ou par `--`.
-
-Souvent, on peut afficher un résumé des options d'un programme en le lancant avec une des options `?` `-?` `-h` `/?` `/h` `-help` ou `--help`.
-
-### Redirections d'entrée sortie
-
-Par défaut, les commandes récupèrent les données tapées par l'utilisateur au clavier en entrée (stdin).
-Par défaut, la sortie des commandes (stdout) est affichée à l'écran.
-Par défaut, la sortie des erreur (stderr) est également affichée à l'écran.
+Par défaut, les commandes récupèrent les données tapées par l'utilisateur au clavier en entrée ([[unix stdin|stdin]]).
+Par défaut, la sortie des commandes ([[unix stdout|stdout]]) est affichée à l'écran.
+Par défaut, la sortie des erreur ([[unix stderr]]) est également affichée à l'écran.
 
 #### Commandes de redirection
  - `< entree` les données de la commande (stdin) seront lues dans le fichier `entree` plutôt qu'au clavier

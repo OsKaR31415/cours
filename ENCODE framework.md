@@ -1,4 +1,7 @@
-**Harold Cooper**up::[[PKM]]
+---
+alias: [ "ENCODE", "framework ENCOE" ]
+---
+up::[[PKM]]
 #PKM #review 
 # ENCODE framework
 

@@ -2,6 +2,7 @@
 ## Todo
 - [ ] spaced repetition
 - [ ] kung-fu
+## I did
 
 ## Devoirs
 > [!smalltodo] Devoirs
@@ -23,14 +24,5 @@
 > FROM #personne 
 > WHERE contains(this.file.name, anniv)
 > ```
-
-## I did
-
-> [!todo] tasks done
-> ```tasks
-> done {{DATE:YYYY-MM-DD}}
-> short mode
-> ```
-
 ## I am gratefull to
 

@@ -3,7 +3,7 @@
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
-<!--SR:!2022-09-28,17,242-->
+<!--SR:!2022-11-29,61,262-->
 
 Formule d'Euler pour $\sin(x)$
 ?
@@ -41,7 +41,7 @@ parité du [[fonction sinus hyperbolique|sinus hyperbolique]] :: [[fonction sinu
 <!--SR:!2022-10-12,18,279-->
 
 Parité du [[fonction cosinus hyperbolique|cosinus hyperbolique]] :: [[fonction cosinus hyperbolique|ch]] est [[fonction paire|paire]] : ![[fonction cosinus hyperbolique#Graphe]]
-<!--SR:!2022-09-27,3,260-->
+<!--SR:!2022-10-16,17,280-->
 
 Cosinus hyperbolique d'une somme $\ch(a+b) =?$ :: $\ch(a)\ch(b) + \sh(a)\sh(b)$
 <!--SR:!2022-10-09,40,254-->

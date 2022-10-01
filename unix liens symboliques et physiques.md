@@ -1,4 +1,6 @@
-sibling:: [[unix liens symboliques]]
+---
+alias: [ "symlink", "lien physique", "lien symbolique", "liens physiques", "liens symboliques" ]
+---
 up::[[unix]]
 sibling::[[unix liens symboliques]], [[unix lien physiques]]
 #informatique/unix 

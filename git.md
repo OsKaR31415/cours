@@ -1,4 +1,4 @@
-up::[[versioning]]
+up::[[versioning]], [[unix commandes]]
 title::"Système de [[versioning]]"
 #PM #informatique 
 # git
@@ -10,11 +10,15 @@ title::"Système de [[versioning]]"
      - [[checksum]] pour chaque fichier 
      - donne un _identifiant_ pour git
 
-## Configuration
 
-```bash
-$> git config --global user.name "Thierry Brouard"  # nom d'utilisateur local
-$> git config --global user.email brouard@univ-tours.fr  # email de l'utilisateur
-$> git config --global core.editor vim  # éditeur utilisé
-```
+
+> [!query] Sous-notes de `=this.file.link`
+> ```dataview
+> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file.link != this.file.link
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+
 

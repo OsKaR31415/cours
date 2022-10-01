@@ -26,5 +26,7 @@
   "pdfjsMacPath": "Users/oscarplaisant/devoirs/cours/.obsidian/pdfjs",
   "useMarkdownSaveAnnotation": "md",
   "pdfjsPath": "Users/oscarplaisant/devoirs/cours/.obsidian/pdfjs",
-  "openProtocol": 1
+  "openProtocol": 1,
+  "autoCreateNodeWhenAnnotate": true,
+  "isDecodeURl": false
 }

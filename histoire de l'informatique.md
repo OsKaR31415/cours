@@ -1,4 +1,5 @@
 up::[[informatique]]
+title::"historique de la création de l'informatique"
 #informatique 
 # histoire de l'informatique
 
@@ -8,7 +9,7 @@ up::[[informatique]]
 >      - calculs liés à un système mathématique (ex: [[bases numériques|bases]])
 >  - répétition de tâches (automatisme)
 > 
-> concepts déclinés avec l'évolution des technos
+> concepts déclinés avec l'évolution des technologies
 
 
  - [<] 17ème (renaissance) : essor des sciences et technologies

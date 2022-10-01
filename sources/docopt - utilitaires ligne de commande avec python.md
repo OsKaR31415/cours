@@ -1,4 +1,4 @@
-up::[[python modules]], [[ligne de commande UNIX]]
+up::[[python modules]], [[unix redirection de flux]]
 link::http://docopt.org/
 date::2022-09-07
 title::"module pour créer des utilitaires lignes de commande simplement a partir du message d'aide renvoyé par cette commande"

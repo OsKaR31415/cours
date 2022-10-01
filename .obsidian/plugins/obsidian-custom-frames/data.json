@@ -9,7 +9,7 @@
       "openInCenter": false,
       "zoomLevel": 0.95,
       "forceIframe": false,
-      "customCss": "\n/* hide info clutter and ad banner */\n#classify--info-area,\n.adsbygoogle {\n\tdisplay: none !important\n}"
+      "customCss": "/* hide info clutter and ad banner */\n#classify--info-area,\n.adsbygoogle {\n\tdisplay: none !important\n}"
     },
     {
       "url": "https://github.com/OsKaR31415/cours",
@@ -31,7 +31,7 @@
       "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
-      "customCss": "body {\n  filter: invert(0.9) brightness(2);\n}"
+      "customCss": "body {\n    filter: invert(0.70) brightness(0.9) contrast(1.8) hue-rotate(180deg);\n}\n\n/* hide google adds */\n.adsbygoogle, iframe {\n\tdisplay: none !important\n}"
     }
   ],
   "padding": 5

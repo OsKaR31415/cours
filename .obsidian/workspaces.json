@@ -457,193 +457,26 @@
         "type": "split",
         "children": [
           {
-            "id": "2bf6dc8969760c12",
+            "id": "2b65b4c156f74a94",
             "type": "leaf",
-            "dimension": 20.44317369549678,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "2bf6dc8969760c12",
+                  "leaf": "2b65b4c156f74a94",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gists/how i see the unix command line.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":1.0666666666666667}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gists/Contre, l'usage abusif, de la virgule, dans la notation, mathématique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3.pdf\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "2bf6dc8969760c12",
-                  "group": null,
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_info_POO_TP3-annotate.md\"}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Noyau d'une application linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gists/how i see the unix command line.md",
+                "file": "Noyau d'une application linéaire.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "cf5afea965f6c78f",
-            "type": "leaf",
-            "dimension": 79.55682630450322,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":9,\"ch\":12}},\"scroll\":28.4655823409817}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "cf5afea965f6c78f",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
               }
             }
           }
@@ -702,12 +535,8 @@
                 }
               },
               {
-                "id": "d57a6c1cc59bf25e",
+                "id": "fc3b6a3b8bfc3760",
                 "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
                 "state": {
                   "type": "sekund-main-view",
                   "state": {}
@@ -738,7 +567,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "Noyau d'une application linéaire.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -754,7 +583,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "Noyau d'une application linéaire.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -769,8 +598,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 299,
-        "collapsed": true
+        "width": 456
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -779,7 +607,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 66.61585365853658,
+            "dimension": 82.75563258232236,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -791,7 +619,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
+                    "file": "Noyau d'une application linéaire.md"
                   }
                 }
               },
@@ -841,7 +669,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "Noyau d'une application linéaire.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -978,12 +806,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 33.38414634146341,
+            "dimension": 17.24436741767764,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -1036,7 +864,7 @@
         "direction": "horizontal",
         "width": 359.5
       },
-      "active": "cf5afea965f6c78f",
+      "active": "2b65b4c156f74a94",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -1687,29 +1515,71 @@
         },
         "children": [
           {
-            "id": "8585a5df4db9d4b9",
+            "id": "264af251e337dbdd",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "leaf": "8585a5df4db9d4b9",
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"actions.excalidraw.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Open.excalidraw.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
                   "group": null,
                   "state": "{\"type\":\"graph\",\"state\":{}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "8585a5df4db9d4b9",
+                  "leaf": "264af251e337dbdd",
                   "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":8.890909222619474}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "264af251e337dbdd",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\"}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
+                "file": "actions.excalidraw.md"
               }
             }
           }
@@ -1823,7 +1693,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "actions.excalidraw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1839,7 +1709,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "actions.excalidraw.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1854,7 +1724,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 366,
+        "width": 544,
         "collapsed": true
       },
       "right": {
@@ -1876,7 +1746,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf"
+                    "file": "actions.excalidraw.md"
                   }
                 }
               },
@@ -1926,7 +1796,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/cours/L2_maths_arithmetique_TD1.pdf",
+                    "file": "actions.excalidraw.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2142,12 +2012,12 @@
         "width": 334.5,
         "collapsed": true
       },
-      "active": "8585a5df4db9d4b9",
+      "active": "264af251e337dbdd",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     },
-    "cours": {
+    "TP java": {
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
@@ -2158,35 +2028,128 @@
         },
         "children": [
           {
-            "id": "8585a5df4db9d4b9",
+            "id": "badc99b06ab38588",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "8585a5df4db9d4b9",
+                  "leaf": "badc99b06ab38588",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2 info systèmes d'exploitation TD1 fichiers et droits-annotate.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "8585a5df4db9d4b9",
+                  "leaf": "badc99b06ab38588",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/cours/L2 maths analyse TD1-annotate.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/cours/L2 info systèmes d'exploitation TD1 fichiers et droits-annotate.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":76},\"to\":{\"line\":1,\"ch\":76}}}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2 maths arithmetique CC1-annotate.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "8585a5df4db9d4b9",
+                  "leaf": "badc99b06ab38588",
                   "group": null,
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2 info systèmes d'exploitation TD1 fichiers et droits-annotate.md\"}}",
                   "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/annotations/formulaire maths-annotate.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_systemes_d_exploitation_TD1_fichiers_et_droits.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/EVGeneralites.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_systemes_d_exploitation_TD1_fichiers_et_droits.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_info_systemes_d_exploitation_TP2_commandes_de_base_de_gestion_des_fihiers.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"architecture des ordinateurs TD2 2022-09-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":48},\"to\":{\"line\":6,\"ch\":48}},\"scroll\":2.509992139632739}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/daily note.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "badc99b06ab38588",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-09-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":8.296087921964237}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "sources/cours/L2 info systèmes d'exploitation TD1 fichiers et droits-annotate.md"
+              }
+            }
+          },
+          {
+            "id": "3052638fb1919278",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "leaf": "3052638fb1919278",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"accès aux données.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "3052638fb1919278",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"architecture des ordinateurs TD2 2022-09-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.0285825386413443}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fonction.md",
+                "file": "architecture des ordinateurs TD2 2022-09-30.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -2245,7 +2208,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#maths",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2303,7 +2266,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "fonction.md",
+                    "file": "architecture des ordinateurs TD2 2022-09-30.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2319,7 +2282,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "fonction.md",
+                    "file": "architecture des ordinateurs TD2 2022-09-30.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2334,8 +2297,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 366,
-        "collapsed": true
+        "width": 569.0050811767578
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -2356,7 +2318,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "fonction.md"
+                    "file": "architecture des ordinateurs TD2 2022-09-30.md"
                   }
                 }
               },
@@ -2406,7 +2368,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "fonction.md",
+                    "file": "architecture des ordinateurs TD2 2022-09-30.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2507,18 +2469,6 @@
                 }
               },
               {
-                "id": "860dbc475755d3c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
-              },
-              {
                 "id": "bf9c467678aa05e4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2543,7 +2493,7 @@
                 }
               },
               {
-                "id": "837d069be727ad7e",
+                "id": "b8c37155de2a1a40",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2555,7 +2505,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -2614,18 +2564,18 @@
                   "pinned": true
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 334.5
+        "width": 334.5,
+        "collapsed": true
       },
-      "active": "8585a5df4db9d4b9",
+      "active": "3052638fb1919278",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     }
   },
-  "active": "cours"
+  "active": "maths"
 }

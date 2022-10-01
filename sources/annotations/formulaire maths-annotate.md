@@ -23,3 +23,13 @@ annotate-target: sources/formulaire maths.pdf
 >
 ^beac9429-1351-0a52
 
+>%%
+>```annotate-json
+>{"id":"b5cab0c5-ab41-39cb","text":"{\"id\":\"b5cab0c5-ab41-39cb\",\"page\":2,\"rect\":[321.4093141925569,69.8146404330636],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1664555687810.png\",\"relateRect\":[{\"x\":0.5508241758241759,\"y\":1.2994505494505495,\"width\":0.33791208791208793,\"height\":0.06318681318681318}],\"pdfName\":\"sources/formulaire maths.pdf\",\"pageWidth\":728,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664555687810.png?1664555697138\"}","type":"rect","page":2,"width":246,"height":46,"pdfName":"sources/formulaire maths.pdf"}
+>```
+>%%
+>![[attachments/markmind/1664555687810.png]]
+>[[#^b5cab0c5-ab41-39cb|Show annotate]]
+>
+^b5cab0c5-ab41-39cb
+

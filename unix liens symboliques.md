@@ -1,5 +1,5 @@
 sibling:: [[unix liens symboliques et physiques]]
-up::[[ligne de commande UNIX]]
+up::[[unix redirection de flux]]
 sibling::[[unix liens symboliques et physiques]]
 #informatique/unix #review 
 # unix liens symboliques

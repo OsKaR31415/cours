@@ -1,5 +1,8 @@
 ---
 alias: "Maps Of Content"
+title:
+ - "you reach a [[mental squezze point]]"
+ - "you have a preconcieved idea"
 ---
 #PKM #not-done #no-review 
 # Map of content

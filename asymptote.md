@@ -1,7 +1,7 @@
 ---
 alias: "asymptotes"
-sr-due: 2022-09-03
-sr-interval: 15
+sr-due: 2022-12-18
+sr-interval: 79
 sr-ease: 277
 ---
 up::[[MOC analyse]]
@@ -9,7 +9,7 @@ up::[[MOC analyse]]
 # asymptote
 Soit $f: x \mapsto f(x)$ une [[fonction]]
 On dit que la [[courbe d'une fonction|courbe]] de $g: x \mapsto g(x)$ est une _asymptote_ de la [[courbe d'une fonction|courbe]] de $f$ en $a$ ssi :
-$\disp\lim_{x \rightarrow a} (f(x) - g(x)) = 0$
+$\displaystyle\lim_{x \rightarrow a} (f(x) - g(x)) = 0$
 
 
 Voir : [[calculer une asymptote]]

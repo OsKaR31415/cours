@@ -1,4 +1,4 @@
-up::[[ligne de commande UNIX]]
+up::[[unix redirection de flux]]
 title::"conversion de fichiers texte ([[ligne de commande]])"
 #informatique #no-review 
 # textutil

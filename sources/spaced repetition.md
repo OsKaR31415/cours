@@ -1,4 +1,5 @@
 link::https://ncase.me/remember/fr.html
+title::"méthode d'apprentissage"
 #PKM #obsidian
 # spaced repetition
 

@@ -1,3 +1,12 @@
+---
+gists:
+  - id: 88e29cabd85f710168ad836523fde914
+    url: 'https://gist.github.com/88e29cabd85f710168ad836523fde914'
+    createdAt: '2022-09-28T08:37:00Z'
+    updatedAt: '2022-09-28T08:37:00Z'
+    filename: how i see the unix command line.md
+    isPublic: true
+---
 # How I see the unix command line
 
 **Important :** When I use the term "command line", i really mean "unix command line", or at least "unix-like command line".
@@ -48,7 +57,13 @@ The special thing with emacs is that the environment is not anymore the command 
 What is important to understand is that this philosophy of _control_, _composition_ and _automatisation_ is not at all limited to the command line (even if it is one of the places where it is the most important, and therefore the most implemented) : it can be realized anywhere to make any environment better.
 
 
+## ???
+example of apps that use the command line powers very well
+
 ## Conclusion
+
+
+
 
 > **Disclaimer :**
 > In this article, I try to explain what I understand of some concepts and tools, in the hope that it will help some people to understand and use them.

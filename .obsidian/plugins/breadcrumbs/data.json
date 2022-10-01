@@ -4,7 +4,7 @@
   "aliasesInIndex": false,
   "alphaSortAsc": true,
   "altLinkFields": [
-    "alias"
+    "name"
   ],
   "CSVPaths": "",
   "createIndexIndent": "  ",
@@ -25,7 +25,8 @@
   "jugglLayout": "hierarchy",
   "limitWriteBCCheckboxes": [
     "up",
-    "sibling"
+    "sibling",
+    "down"
   ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
   "gridDefaultDepth": 25,
@@ -34,9 +35,7 @@
   ],
   "hierarchyNoteIsParent": false,
   "HNUpField": "",
-  "indexNotes": [
-    ""
-  ],
+  "indexNotes": [],
   "namingSystemField": "",
   "namingSystemRegex": "",
   "namingSystemSplit": ".",
@@ -74,8 +73,9 @@
     "up"
   ],
   "limitJumpToFirstFields": [
+    "up",
     "sibling",
-    "same"
+    "down"
   ],
   "showAll": "All",
   "noPathMessage": "",
@@ -124,7 +124,7 @@
     "siblingIdentity": false,
     "sameParentIsSibling": true,
     "siblingsSiblingIsSibling": true,
-    "siblingsParentIsParent": true,
+    "siblingsParentIsParent": false,
     "parentsSiblingsIsParents": false,
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false

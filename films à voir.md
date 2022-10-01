@@ -29,7 +29,6 @@
 > - roller ball
 ## Séries
 
- - [ ] Kippo
- - [ ] Good omen
-
+ - Kippo
+ - Good omen
 

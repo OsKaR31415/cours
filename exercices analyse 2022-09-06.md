@@ -1,7 +1,7 @@
 #exercice 
 title::"TD1 d'analyse"
 # exercices analyse 2022-09-06
-sujet : [[L2 maths analyse TD1]]
+sujet : [[L2 maths analyse TD1-annotate]]
 
 ## Exercice 1
 Pour chacune des suites dont le terme général est donné ci-dessous, déterminer son éventuelle limite.

@@ -1,5 +1,5 @@
 ---
-alias: ["composée", "composition"]
+alias: [ "composée", "composition" ]
 ---
 up::[[fonction]]
 #maths/analyse #no-review 

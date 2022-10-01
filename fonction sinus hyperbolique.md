@@ -9,11 +9,11 @@ sibling::[[fonction cosinus hyperbolique|ch]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
-title::$\sh$
+title::$\mathrm{sh}$
 #maths/analyse #maths/trigonométrie #no-review 
 # fonction sinus hyperbolique
 Noté $\sinh$, ou $\text{sh}$.
-$\sh(x) = \dfrac{e^x - e^{-x}}2$
+$\mathrm{sh}(x) = \dfrac{e^x - e^{-x}}2$
 
 Elle est appelée _sinus_ car sa définition ressemble à celle de la [[fonction sinus]] dans la [[Formules d'Euler#sinus|formule d'Euler]]
 
@@ -30,25 +30,25 @@ y = \sinh(x)
 
 ## Propriétés
 
-$\boxed{\ch^{2} - \sh^{2} = 1}$
-$\ch^2 x - \sh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
+$\boxed{\mathrm{ch}^{2} - \mathrm{sh}^{2} = 1}$
+$\mathrm{ch}^2 x - \mathrm{sh}^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
 (Voir [[fonction cosinus hyperbolique]])
 
- - $\sh$ est une [[fonction impaire]]
- - $\sh$ est [[fonction dérivable|dérivable]] sur $\mathbb{R}$
-     - $\sh$ est donc [[fonction continue|continue]]
-     - dérivée : $\sh' = \ch$ [[fonction sinus hyperbolique|sinus hyperbolique]] (existe sur $\mathbb{R}$)
+ - $\mathrm{sh}$ est une [[fonction impaire]]
+ - $\mathrm{sh}$ est [[fonction dérivable|dérivable]] sur $\mathbb{R}$
+     - $\mathrm{sh}$ est donc [[fonction continue|continue]]
+     - dérivée : $\mathrm{sh}' = \mathrm{ch}$ [[fonction sinus hyperbolique|sinus hyperbolique]] (existe sur $\mathbb{R}$)
          - a pour [[tangente à une courbe|tangente]] en $0$ la courbe de $y = x$
- - $\sh$ est [[fonction croissante|strictement croissante]]
- - [[asymptote]] à $\ch$ en $+\infty$ et à $-\ch$ en $-\infty$
-     - $\sh \underset{+\infty}{\sim} \ch$ ([[fonctions équivalentes|équivalentes]]) et $\sh \underset{-\infty}{\sim} -\ch$
- - $\sh$ est une [[bijection]]
-     - $\sh$ est [[fonction continue|continue]] car elle est [[fonction dérivable|dérivable]]
-     - $\sh$ est [[fonction croissante|strictement croissante]]
+ - $\mathrm{sh}$ est [[fonction croissante|strictement croissante]]
+ - [[asymptote]] à $\mathrm{ch}$ en $+\infty$ et à $-\mathrm{ch}$ en $-\infty$
+     - $\mathrm{sh} \underset{+\infty}{\sim} \mathrm{ch}$ ([[fonctions équivalentes|équivalentes]]) et $\mathrm{sh} \underset{-\infty}{\sim} -\mathrm{ch}$
+ - $\mathrm{sh}$ est une [[bijection]]
+     - $\mathrm{sh}$ est [[fonction continue|continue]] car elle est [[fonction dérivable|dérivable]]
+     - $\mathrm{sh}$ est [[fonction croissante|strictement croissante]]
      - toute fonction _continue_ et _strictement monotone_ est une [[bijection]]
 
 
 
 #### Note
-$\sin(x) = \sinh(ix)$ soit $\sh(x) = \sin\left(\frac{x}{i}\right) = \sin(-ix)$
+$\sin(x) = \sinh(ix)$ soit $\mathrm{sh}(x) = \sin\left(\frac{x}{i}\right) = \sin(-ix)$
 ⚠️ $\sin$ ne peut pas être défini sur $\C$ car il perd ses propriétés

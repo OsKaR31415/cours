@@ -6,6 +6,7 @@ tags: [ "#obsidian", "#no-review"]
 
 ---
 
+
 # markmind outline
 
 ## a simple outliner

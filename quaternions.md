@@ -2,11 +2,11 @@ up::[[MOC algèbre]]
 #maths/algèbre #no-review 
 # quaternions
 
-L'ensemble $\H$ des quaternions peut être défini comme l'[[algèbre associative]] sur le [[corps]] des nombres réels $\R$ engendrée par les 3 éléments $i$, $j$ et $k$, satisfaisant les [[quaternions#Relations quaternioniques]] : $i^2 = j^2 = k^2 = ijk = -1$.
+L'ensemble $\mathbb{H}$ des quaternions peut être défini comme l'[[algèbre associative]] sur le [[corps]] des nombres réels $\mathbb{R}$ engendrée par les 3 éléments $i$, $j$ et $k$, satisfaisant les [[quaternions#Relations quaternioniques]] : $i^2 = j^2 = k^2 = ijk = -1$.
 
 
 ## Définitions
-On peux définir les quaterions comme l'ensemble : $\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\C^2\right\}$ muni de la [[multiplication de matrices]].
+On peux définir les quaterions comme l'ensemble : $\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\mathbb{C}^2\right\}$ muni de la [[multiplication de matrices]].
 On peux alors montrer les rela
 
 
@@ -26,13 +26,13 @@ On peux alors montrer les rela
 
 ## Exercice
 L'ensemble des quaternions est l'ensemble :
-$\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\C^2\right\}$
+$\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\mathbb{C}^2\right\}$
 On note $\mathbb{H}^*$ l'ensemble $\mathbb{H}$ privé de $\begin{pmatrix}0&0\\0&0\end{pmatrix}$
 On pose :
 $\mathbb{1}=\begin{pmatrix}1&0\\0&1\end{pmatrix}$, $i = \begin{pmatrix}i&0\\0&-i\end{pmatrix}$, $j=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$, $k=\begin{pmatrix}0&-i\\-i&0\end{pmatrix}$
 
- 1. Montrer que $\mathbb{H}^*$ est un sous-groupe $\text{GL}_2(\C)$ (le groupe linéaire de matrices inversible $2\times2$ à coefficients dans $\C$)
+ 1. Montrer que $\mathbb{H}^*$ est un sous-groupe $\text{GL}_2(\mathbb{C})$ (le groupe linéaire de matrices inversible $2\times2$ à coefficients dans $\mathbb{C}$)
  2. verrifier que :
      - $i^2 = j^2 = k^2 = -1$, $ij=k$, $ik=-j$, $ji=-k$, $jk=i$, $ki=j$, $kj=-i$
  3. montrer que le groupe engendré par $1, i, j, k$ est d'ordre 8. On appelle ce groupe $H_8$
- 4. montrer que ces groupes sont deux-à-deux non-isomorphes : $(H_8, \times)$, $(\Z/2\Z\times\Z/2\Z\times\Z/2\Z, \dot+)$, $(\Z/2\Z\times\Z/4\Z,\dot+), (\Z/8\Z,\dot+)$
+ 4. montrer que ces groupes sont deux-à-deux non-isomorphes : $(H_8, \times)$, $(\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/2\mathbb{Z}, \dot+)$, $(\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/4\mathbb{Z},\dot+), (\mathbb{Z}/8\mathbb{Z},\dot+)$

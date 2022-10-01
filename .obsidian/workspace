@@ -9,38 +9,71 @@
     },
     "children": [
       {
-        "id": "8585a5df4db9d4b9",
+        "id": "264af251e337dbdd",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "8585a5df4db9d4b9",
+              "leaf": "264af251e337dbdd",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"actions.excalidraw.md\"}}",
               "eState": "{}"
             },
             {
-              "leaf": "8585a5df4db9d4b9",
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Open.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
               "group": null,
               "state": "{\"type\":\"graph\",\"state\":{}}",
               "eState": "{}"
             },
             {
-              "leaf": "8585a5df4db9d4b9",
+              "leaf": "264af251e337dbdd",
               "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD1.pdf\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":8.890909222619474}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "264af251e337dbdd",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\"}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "fonction.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "file": "actions.excalidraw.md"
           }
         }
       }
@@ -154,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fonction.md",
+                "file": "actions.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fonction.md",
+                "file": "actions.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366,
+    "width": 544,
     "collapsed": true
   },
   "right": {
@@ -207,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fonction.md"
+                "file": "actions.excalidraw.md"
               }
             }
           },
@@ -257,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "fonction.md",
+                "file": "actions.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -406,7 +439,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
@@ -470,22 +503,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 334.5,
+    "collapsed": true
   },
-  "active": "8585a5df4db9d4b9",
+  "active": "264af251e337dbdd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Open.excalidraw.md",
     "things to do.md",
-    "sources/cours/L2_maths_arithmetique_TD1.pdf",
-    "daily/2022-09-28.md",
-    "fonction tangente hyperbolique.md",
-    "gists/how i see the unix command line.md",
-    "daily/2022-09-29.md",
-    "daily/2022-09-27.md",
-    "informatique/projets/L2/genie_logiciel_et_OOP/obsidian/daily notes/2022-09-26.md",
-    "templates/daily note.md",
-    "templates/devoir.md"
+    "daily/2022-10-05.md",
+    "sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf",
+    "daily/2022-10-02.md",
+    "daily/2022-10-01.md",
+    "sources/cours/L2_maths_analyse_TD1 - fait.pdf",
+    "sources/cours/L2_maths_analyse_TD2.pdf",
+    "sources/cours/L2_maths_geometrie_TD1 - fait.pdf",
+    "sources/cours/L2_maths_algebre_lineaire_TD4.pdf"
   ]
 }

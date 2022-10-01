@@ -164,8 +164,8 @@
     "application linéaire": {
       "application linéaire": {
         "internalLink": {
-          "count": 6,
-          "lastUpdated": 1664015597873
+          "count": 8,
+          "lastUpdated": 1664388167062
         }
       }
     },
@@ -278,8 +278,8 @@
     "unix utilisateur": {
       "unix utilisateur": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663767941112
+          "count": 3,
+          "lastUpdated": 1664373119359
         }
       }
     },
@@ -406,8 +406,8 @@
     "réciproque": {
       "réciproque": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663773960419
+          "count": 2,
+          "lastUpdated": 1664388429059
         }
       }
     },
@@ -582,16 +582,16 @@
     "dimension": {
       "dimension": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951887446
+          "count": 4,
+          "lastUpdated": 1664388219087
         }
       }
     },
     "droites vectorielles": {
       "droites vectorielles": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663952142254
+          "count": 2,
+          "lastUpdated": 1664382328287
         }
       }
     },
@@ -606,8 +606,8 @@
     "vecteur": {
       "vecteur": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663952362536
+          "count": 2,
+          "lastUpdated": 1664387734715
         }
       }
     },
@@ -864,6 +864,174 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1664283729177
+        }
+      }
+    },
+    "partie entière": {
+      "partie entière": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664353149414
+        }
+      }
+    },
+    "stdin": {
+      "stdin": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664373581354
+        }
+      }
+    },
+    "stdout": {
+      "stdout": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664373583325
+        }
+      }
+    },
+    "unix": {
+      "unix": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664373588784
+        }
+      }
+    },
+    "classe d'une fonction": {
+      "classe d'une fonction": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1664377595316
+        }
+      }
+    },
+    "converge": {
+      "converge": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664377780937
+        }
+      }
+    },
+    "théorème": {
+      "théorème": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664377904350
+        }
+      }
+    },
+    "théorème de Newton": {
+      "théorème de Newton": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664377910690
+        }
+      }
+    },
+    "déterminant d'une matrice": {
+      "déterminant d'une matrice": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664387368688
+        }
+      }
+    },
+    "composition": {
+      "composition": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664387419745
+        }
+      }
+    },
+    "composition de fonctions": {
+      "composition de fonctions": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1664387445030
+        }
+      }
+    },
+    "composition de permutations": {
+      "composition de permutations": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664387429677
+        }
+      }
+    },
+    "droite vectorielle": {
+      "droite vectorielle": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664387862034
+        }
+      }
+    },
+    "plan vectoriel": {
+      "plan vectoriel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664387705802
+        }
+      }
+    },
+    "réflexion": {
+      "réflexion": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664387762767
+        }
+      }
+    },
+    "rotation": {
+      "rotation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664388375715
+        }
+      }
+    },
+    "composée": {
+      "composée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664388379610
+        }
+      }
+    },
+    "inverse": {
+      "inverse": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664388431889
+        }
+      }
+    },
+    "lien symbolique": {
+      "lien symbolique": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1664543363409
+        }
+      }
+    },
+    "lien physique": {
+      "lien physique": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1664543347613
+        }
+      }
+    },
+    "primitive": {
+      "primitive": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1664616949050
         }
       }
     }

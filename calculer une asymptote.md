@@ -11,11 +11,11 @@ sr-ease: 261
 
 ## pour des courbes de fonctions
 
-### $\disp\lim_{x\rightarrow\pm\infty} f(x) =$
+### $\displaystyle\lim_{x\rightarrow\pm\infty} f(x) =$
 - $\pm\infty$
-   - $\disp\lim_{x\rightarrow\pm\infty} \frac{f(x)}{x} =$
+   - $\displaystyle\lim_{x\rightarrow\pm\infty} \frac{f(x)}{x} =$
       - $a, a\in\mathbb{R}^*$
-         - $\disp\lim_{x\rightarrow\pm\infty}(f(x) - ax) =$
+         - $\displaystyle\lim_{x\rightarrow\pm\infty}(f(x) - ax) =$
             - $b, b\in\mathbb{R}$
                - asymptote d'équation $y:ax+b$
             - $\pm\infty$ / pas de limite
@@ -25,9 +25,9 @@ sr-ease: 261
       - $\pm\infty$
          - [[branche parabolique]] de direction $Oy$
       - pas de limite
-   - $\disp\lim_{x\rightarrow\pm\infty}\frac{f(x)}{g(x)} =$
+   - $\displaystyle\lim_{x\rightarrow\pm\infty}\frac{f(x)}{g(x)} =$
       - $c, c\in\mathbb{R}$
-         - $\disp\lim_{x\rightarrow\pm\infty}(f(x) - c\cdot g(x)) =$
+         - $\displaystyle\lim_{x\rightarrow\pm\infty}(f(x) - c\cdot g(x)) =$
             - $d,d\in\mathbb{R}$
                - courbe [[asymptote]] d'équation $y=c\cdot g(x) + d$
             - $\pm\infty$ / pas de limite

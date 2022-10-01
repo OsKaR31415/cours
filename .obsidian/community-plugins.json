@@ -1,13 +1,11 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-filename-heading-sync",
   "obsidian-fullscreen-plugin",
   "obsidian-pandoc",
   "table-editor-obsidian",
   "obsidian-latex",
   "obsidian-spaced-repetition",
   "obsidian-completr",
-  "obsidian-enhancing-mindmap",
   "obsidian-kanban",
   "obsidian-annotator",
   "calendar",
@@ -48,7 +46,6 @@
   "breadcrumbs",
   "ob-table-enhancer",
   "obsidian-pocket",
-  "obsidian-quickshare",
   "obsidian-languagetool-plugin",
   "obsidian-markmind",
   "pane-relief",
@@ -56,5 +53,8 @@
   "obsidian-3d-graph",
   "various-complements",
   "obsidian-share-as-gist",
-  "file-tree-alternative"
+  "customizable-page-header-buttons",
+  "obsidian-filename-heading-sync",
+  "darlal-switcher-plus",
+  "obsidian-quickshare"
 ]

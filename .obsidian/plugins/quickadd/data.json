@@ -49,7 +49,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] sous-notes directes de `=this.file.link`\n> ```dataview\n> LIST join(list(title, description), \"   \")\n> FROM \"\"\n> WHERE econtains(up, this.file.link)\n> ```"
+        "format": "> [!query] sous-notes directes de `=this.file.link`\n> ```dataview\n> LIST title\n> FROM \"\"\n> WHERE econtains(up, this.file.link)\n> ```"
       },
       "insertAfter": {
         "enabled": false,

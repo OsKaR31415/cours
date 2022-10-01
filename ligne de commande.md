@@ -12,4 +12,4 @@ Une interface homme-machine dans laquelle la communication se fait en mode texte
  - Plus ancienne des interfaces homme-machine
  - remplacé par l'apparition dans les années 80 des terminaux en mode graphique
  - encore toujours utilisée, notamment dans les systèmes [[UNIX]] et leur [[dérivés d'UNIX|dérivés]]
-     - voir [[ligne de commande UNIX]]
+     - voir [[unix redirection de flux]]

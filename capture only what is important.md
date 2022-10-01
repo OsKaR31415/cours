@@ -1,4 +1,5 @@
 up::[[note taking]]
+title::"what and how to capture ideas"
 #PKM #no-review 
 # capture only what is important
 

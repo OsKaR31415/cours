@@ -13,9 +13,9 @@ La notation mathématique traditionnelle cherche à traduire des phrases et des 
 
 La notation mathématique intéressante principalement pour deux choses :
  - elle est plus lisible : on préfère $\forall x \in N, \forall i, j \in \mathbb{N}, \quad i\times j|n \implies (i\mid n) \wedge (j\mid n)$ plutôt que "si un entier est divisible par le produit de deux entiers, alors il est divisible par chacun des deux entiers"
- - elle en plus rigoureuse : écrire des théorèmes ou expressions mathématiques en français peut être ambigu et sujet à interprétation
+ - elle est plus rigoureuse : écrire des théorèmes ou expressions mathématiques en français peut être ambigu et sujet à interprétation
 
-C'est pour ce deuxième point que la virgule pose un problème : elle rend la notation mathématique moins rigoureuse, et parfois même ambiguë.
+C'est pour ce deuxième point que la virgule pose un problème : elle rend la notation mathématique moins rigoureuse, et parfois même ambigüe.
 
 ## Les différentes significations de la virgule
 Pour comprendre les problèmes de la virgule, listons les significations possibles de ce symbole :
@@ -25,7 +25,8 @@ Pour comprendre les problèmes de la virgule, listons les significations possibl
  - Elle signifie "tel que" : $\exists x \in \mathbb{R}, x^{2} < 42$
  - Elle "distribue" un $\in$ sur plusieurs valeurs : $\forall x, y \in \mathbb{R}\dots$
 
-## Ambiguités créées par la virgule
+## Ambiguïtés créées par la virgule
+
 Nous avons vu que la virgule possède plusieurs utilisations différentes. En fait, on peut aisément construire un exemple qui utilise toutes ces significations :
 
 $\forall x, y \in \mathbb{R}, \exists y \in \mathbb{R}, y \in (x, y)$

@@ -44,7 +44,7 @@ compétences:: 🤝 🧑‍🏫 🗣️ 💻
 
 ### Formation
  - [x] [[2022-09-22]] formation
- - [ ] [[2022-09-29]] formation
+ - [ ] [[2022-09-29]] :obs_cross:
  - [ ] [[2022-10-06]] formation
  - [ ] [[2022-10-13]] ==séance école 1==
  - [ ] [[2022-10-20]] ==séance école 2==
