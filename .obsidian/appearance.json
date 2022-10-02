@@ -1,0 +1,17 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "baseFontSize": 21,
+  "enabledCssSnippets": [
+    "breadcrumbs",
+    "custom_callouts",
+    "fira_code",
+    "general_interface",
+    "pdf_darkmode",
+    "query_header_title",
+    "tasks"
+  ],
+  "interfaceFontFamily": "FiraCode Nerd Font",
+  "textFontFamily": "FiraCode Nerd Font",
+  "monospaceFontFamily": "FiraCode Nerd Font"
+}

@@ -1450,7 +1450,7 @@ function trimObject(obj) {
   return JSON.parse(trimmed);
 }
 function isAttachment(filename) {
-  return filename.match(/(png|jpe?g|gif|bmp|svg|mp[34]|webm|wav|m4a|ogg|3gp|flac|ogv|mov|mkv|pdf)$/i);
+  return filename.match(/(png|jpe?g|gif|bmp|svg|mp[34]|web[mp]|wav|m4a|ogg|3gp|flac|ogv|mov|mkv|pdf)$/i);
 }
 function getFrontmatterCondition(frontmatter, settings) {
   let imageDefaultFolder = null;
@@ -3512,14 +3512,16 @@ var GithubPublisher = class extends import_obsidian11.Plugin {
           });
         }
       }));
-      this.registerEvent(this.app.vault.on("modify", (file) => __async(this, null, function* () {
-        if (file !== this.app.workspace.getActiveFile() && this.settings.shareExternalModified) {
-          const isShared = this.app.metadataCache.getFileCache(file).frontmatter ? this.app.metadataCache.getFileCache(file).frontmatter[this.settings.shareKey] : false;
-          if (isShared) {
-            yield shareOneNote(branchName, PublisherManager, this.settings, file, this.app.metadataCache, this.app.vault);
+      if (this.settings.shareExternalModified) {
+        this.registerEvent(this.app.vault.on("modify", (file) => __async(this, null, function* () {
+          if (file !== this.app.workspace.getActiveFile()) {
+            const isShared = this.app.metadataCache.getFileCache(file).frontmatter ? this.app.metadataCache.getFileCache(file).frontmatter[this.settings.shareKey] : false;
+            if (isShared) {
+              yield shareOneNote(branchName, PublisherManager, this.settings, file, this.app.metadataCache, this.app.vault);
+            }
           }
-        }
-      })));
+        })));
+      }
       this.addCommand({
         id: "publisher-one",
         name: t("shareActiveFile"),

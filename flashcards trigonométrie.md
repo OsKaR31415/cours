@@ -35,7 +35,7 @@ définition du [[fonction cosinus hyperbolique|cosinus hyperbolique]] $\ch(x)=?$
 <!--SR:!2022-10-11,17,259-->
 
 définition du [[fonction sinus hyperbolique|sinus hyperbolique]] $\sh(x)=?$ :: $\dfrac{e^{x}-e^{-x}}{2}$
-<!--SR:!2022-10-02,8,239-->
+<!--SR:!2022-10-29,27,259-->
 
 parité du [[fonction sinus hyperbolique|sinus hyperbolique]] :: [[fonction sinus hyperbolique|sh]] est [[fonction impaire|impaire]] : ![[fonction sinus hyperbolique#Graphe]]
 <!--SR:!2022-10-12,18,279-->

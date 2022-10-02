@@ -4597,6 +4597,21 @@ function isWithinInlineEquationState(state) {
   const inlineMath = d.sliceString(end, end + 2) != "$$";
   return inlineMath;
 }
+function isTouchingInlineEquation(state, pos) {
+  const tree = (0, import_language4.syntaxTree)(state);
+  const prevToken = tree.resolveInner(pos - 1, 1).name;
+  const token = tree.resolveInner(pos, 1).name;
+  const nextToken = tree.resolveInner(pos + 1, 1).name;
+  if (token.contains("math-end") && !prevToken.contains("math-end") && !nextToken.contains("math-end")) {
+    return -1;
+  } else if (!token.contains("math-begin") && nextToken.contains("math-begin")) {
+    const nextNextToken = tree.resolveInner(pos + 2, 1).name;
+    if (!nextNextToken.contains("math-begin")) {
+      return 1;
+    }
+  }
+  return 0;
+}
 function getEquationBounds(view, pos) {
   const s = view instanceof import_view4.EditorView ? view.state : view;
   const text = s.doc.toString();
@@ -5588,25 +5603,38 @@ var cursorTooltipField = import_state5.StateField.define({
   provide: (f) => import_view7.showTooltip.computeN([f], (state) => state.field(f))
 });
 function getCursorTooltips(state) {
-  if (isWithinEquation(state) && isWithinInlineEquationState(state)) {
-    const bounds = getEquationBounds(state);
+  const isInsideInlineEqn = isWithinEquation(state) && isWithinInlineEquationState(state);
+  let shouldShowTooltip = isInsideInlineEqn;
+  let isTouchingInlineEqn;
+  let pos = state.selection.main.from;
+  if (!isInsideInlineEqn) {
+    isTouchingInlineEqn = isTouchingInlineEquation(state, pos - 1);
+    if (isTouchingInlineEqn != 0) {
+      pos += isTouchingInlineEqn;
+      shouldShowTooltip = true;
+    }
+  }
+  if (shouldShowTooltip) {
+    const bounds = getEquationBounds(state, pos);
     if (!bounds)
       return [];
     if (bounds.start === bounds.end)
       return [];
     const eqn = state.sliceDoc(bounds.start, bounds.end);
-    return [{
-      pos: bounds.start,
-      above: true,
-      strictSide: true,
-      arrow: true,
-      create: () => {
-        let dom = document.createElement("div");
-        dom.className = "cm-tooltip-cursor";
-        import_obsidian2.MarkdownRenderer.renderMarkdown("$" + eqn + "$", dom, "", null);
-        return { dom };
+    return [
+      {
+        pos: bounds.start,
+        above: true,
+        strictSide: true,
+        arrow: true,
+        create: () => {
+          let dom = document.createElement("div");
+          dom.className = "cm-tooltip-cursor";
+          import_obsidian2.MarkdownRenderer.renderMarkdown("$" + eqn + "$", dom, "", null);
+          return { dom };
+        }
       }
-    }];
+    ];
   } else {
     return [];
   }

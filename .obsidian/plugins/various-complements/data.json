@@ -382,8 +382,8 @@
     "espace vectoriel": {
       "espace vectoriel": {
         "internalLink": {
-          "count": 8,
-          "lastUpdated": 1664015651998
+          "count": 9,
+          "lastUpdated": 1664658842851
         }
       }
     },
@@ -446,8 +446,8 @@
     "groupe abélien": {
       "groupe abélien": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663951197301
+          "count": 3,
+          "lastUpdated": 1664658873600
         }
       }
     },
@@ -494,8 +494,8 @@
     "loi de composition interne": {
       "loi de composition interne": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663950783650
+          "count": 2,
+          "lastUpdated": 1664658878864
         }
       }
     },
@@ -510,8 +510,8 @@
     "élément neutre": {
       "élément neutre": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1663951690755
+          "count": 6,
+          "lastUpdated": 1664658925760
         }
       }
     },
@@ -534,8 +534,8 @@
     "distributive": {
       "distributive": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951206961
+          "count": 2,
+          "lastUpdated": 1664661425744
         }
       }
     },
@@ -670,8 +670,8 @@
     "commutative": {
       "commutative": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663973019336
+          "count": 2,
+          "lastUpdated": 1664658883105
         }
       }
     },
@@ -1032,6 +1032,22 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1664616949050
+        }
+      }
+    },
+    "obsidian plugins": {
+      "obsidian plugins": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664637936762
+        }
+      }
+    },
+    "symétrisables": {
+      "symétrisables": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1664658935364
         }
       }
     }

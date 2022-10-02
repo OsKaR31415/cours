@@ -1,0 +1,135 @@
+{
+  "collapse-filter": true,
+  "search": "-#MOC",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#not-done",
+      "color": {
+        "a": 1,
+        "rgb": 8882055
+      }
+    },
+    {
+      "query": "tag:#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 11730944
+      }
+    },
+    {
+      "query": "tag:#excalidraw",
+      "color": {
+        "a": 1,
+        "rgb": 8019199
+      }
+    },
+    {
+      "query": "tag:#PKM OR tag:#obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 4863904
+      }
+    },
+    {
+      "query": "tag:#flashcards",
+      "color": {
+        "a": 1,
+        "rgb": 4863904
+      }
+    },
+    {
+      "query": "tag:#gists",
+      "color": {
+        "a": 1,
+        "rgb": 6827411
+      }
+    },
+    {
+      "query": "tag:#CV",
+      "color": {
+        "a": 1,
+        "rgb": 11010185
+      }
+    },
+    {
+      "query": "tag:#maths",
+      "color": {
+        "a": 1,
+        "rgb": 2792960
+      }
+    },
+    {
+      "query": "tag:#logique",
+      "color": {
+        "a": 1,
+        "rgb": 13050
+      }
+    },
+    {
+      "query": "tag:#informatique",
+      "color": {
+        "a": 1,
+        "rgb": 1346167
+      }
+    },
+    {
+      "query": "tag:#personne",
+      "color": {
+        "a": 1,
+        "rgb": 13470121
+      }
+    },
+    {
+      "query": "path:sources",
+      "color": {
+        "a": 1,
+        "rgb": 3770873
+      }
+    },
+    {
+      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+      "color": {
+        "a": 1,
+        "rgb": 15646813
+      }
+    },
+    {
+      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
+      "color": {
+        "a": 1,
+        "rgb": 16759552
+      }
+    },
+    {
+      "query": "tag:#devoir OR tag:#devoir-fait",
+      "color": {
+        "a": 1,
+        "rgb": 16711914
+      }
+    },
+    {
+      "query": "tag:#PM",
+      "color": {
+        "a": 1,
+        "rgb": 12091263
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.080078125,
+  "lineSizeMultiplier": 1.2806640625,
+  "collapse-forces": true,
+  "centerStrength": 0.488161670918367,
+  "repelStrength": 8.77869897959184,
+  "linkStrength": 0.893694196428571,
+  "linkDistance": 30,
+  "scale": 0.1240944333264811,
+  "close": true
+}
