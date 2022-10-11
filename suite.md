@@ -16,4 +16,3 @@ Une _suite_ est une [[famille]] d'éléments - appelés ses _termes_ - indexée 
 
 ## Suite finie
 Une _suite finie_ est une [[famille]] indexée par des entiers strictement positifs **inférieurs à un certain entier**. Cet entier est appelé _longueur de la suite_.
-

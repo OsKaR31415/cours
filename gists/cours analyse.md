@@ -51,7 +51,7 @@ $\exists M\in\mathbb{R}^{+},\quad >  \exists \alpha \in\mathbb{R}^{+*},\quad \fo
 
 
  - Si $f = \mathcal{O}(g)$ et $h = \mathcal{O}(g)$, alors $\lambda f + \mu h = \mathcal{O}(g) \mid_{(\lambda, \mu)\in\mathbb{R}^{2}}$
-     - stable par combinaison linéaire
+     - stable par [[combinaison linéaire]] 
   - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$
       - formellement : si $f = \mathcal{O}(g)$ et $g = \mathcal{O}(h)$ alors $f=\mathcal{O}(h)$
       - la domination est _transitive_

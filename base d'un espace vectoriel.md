@@ -14,7 +14,7 @@ La famille $\{u_1,\ldots,u_k\}$ est une _base_ lorsqu'elle est simultanément [[
 ## Propriétés
 Soit $E$ un espace vectoriel
 Soit $B$ une base de $E$
- - $\card G = \dim E$
+ - $\mathrm{card}\; G = \dim E$
 
 Si une famille $\{u_1,\ldots,u_k\}$ est _base_ d'un [[espace vectoriel]] $(E,+,\cdot)$,
 tout vecteur de $E$ se décompose de façon **unique** sous la forme $u = \lambda_1u_1+\cdots+\lambda_ku_k$

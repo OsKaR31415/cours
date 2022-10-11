@@ -8,6 +8,6 @@ Si $P$ est produit de polynômes du premier degré à coefficients dans un [[cor
 
 ## Exemples
 
- - $x^{2} - 1 = (x - 1)(x + 1)$ : scindé sur $\R$
- - $2x^{3}+3x^{2}-14x-12 = (2x+2)(x - 3)(x+2)$ : scindé sur $\R$
- - $x^{2}+1 = (x-i)(x+i)$ = scindé sur $\C$ mais pas sur $\R$
+ - $x^{2} - 1 = (x - 1)(x + 1)$ : scindé sur $\mathbb{R}$
+ - $2x^{3}+3x^{2}-14x-12 = (2x+2)(x - 3)(x+2)$ : scindé sur $\mathbb{R}$
+ - $x^{2}+1 = (x-i)(x+i)$ = scindé sur $\mathbb{C}$ mais pas sur $\mathbb{R}$

@@ -8,10 +8,7 @@ title::"langage de programmation interprété et dynamiquement typé"
 > ```dataview
 > TABLE title, description, author
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE contains(up,          this.file.link)
->    or contains(up.up,       this.file.link)
->    or contains(up.up.up,    this.file.link)
->    or contains(up.up.up.up, this.file.link)
-> WHERE file.name != this.file.name
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```

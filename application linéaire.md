@@ -7,7 +7,7 @@ alias: ["applications linéaires", "linéaire", "linéaires"]
 up::[[application]]
 sibling::[[combinaison linéaire]]
 title::"$f(\lambda u+v) = \lambda f(u) + f(v)$"
-#maths/algèbre #review
+#maths/algèbre 
 # application linéaire
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,
 $f: E \mapsto F$ est _linéaire_ ssi :
@@ -41,16 +41,16 @@ f: & \mathbb{R}^2 \mapsto \mathbb{R}\\
 
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels de dimension finie, et $f: E\rightarrow F$ une _application linéaire_, alors :
 
-  - $\dim \ker f + \dim \im f = \dim E$ ([[théorème du rang]])
+  - $\dim \ker f + \dim \mathrm{Im} f = \dim E$ ([[théorème du rang]])
       - $\dim$ la [[dimension d'un espace vectoriel]]
       - $\ker$ le [[Noyau d'une application linéaire]]
-      - $\im$ l'[[image d'une application linéaire]]
+      - $\mathrm{Im}$ l'[[image d'une application linéaire]]
   - Lorsque $E = F$, $f$ est un [[endomorphisme]] de $E$ (un [[endomorphisme linéaire]])
       - alors $f$ est [[injection|injective]]
       - alors $\ker f = \{0_E\}$
       - alors $\dim\ker f = 0$
-      - alors $\dim\im f = \dim E$ (grâce au [[théorème du rang]])
-      - alors $\im f = E$
+      - alors $\dim\mathrm{Im} f = \dim E$ (grâce au [[théorème du rang]])
+      - alors $\mathrm{Im} f = E$
       - alors $f$ est [[surjection|surjective]]
       - D'où : si $f$ est un [[endomorphisme]] de $E$, $f$ est une [[bijection]]
 

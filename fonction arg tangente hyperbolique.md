@@ -6,13 +6,13 @@ up::[[fonction tangente hyperbolique]]
 # fonction arg tangente hyperbolique
 La [[fonction réciproque]] de la [[fonction tangente hyperbolique]]
 
-$\begin{align*} \arg\th: \quad & ]-1; 1[ \;\to \mathbb{R}\\ & y \mapsto x \text{ tel que } \th(x) = y\\ & x \mapsto \frac{1}{2}\ln\left(\frac{1+x}{1-x}\right) \end{align*}$
+$\begin{align*} \arg\mathrm{th}: \quad & ]-1; 1[ \;\to \mathbb{R}\\ & y \mapsto x \text{ tel que } \mathrm{th}(x) = y\\ & x \mapsto \frac{1}{2}\ln\left(\frac{1+x}{1-x}\right) \end{align*}$
 
 ## Propriétés
- - $\arg\th$ est une [[fonction impaire]]
- - $\arg\th$ est [[fonction croissante|strictement croissante]]
- - $\arg\th$ est [[fonction dérivable|dérivable]]
-     - $(\arg\th)'(x) = \dfrac{1}{1-x^{2}}$
+ - $\arg\mathrm{th}$ est une [[fonction impaire]]
+ - $\arg\mathrm{th}$ est [[fonction croissante|strictement croissante]]
+ - $\arg\mathrm{th}$ est [[fonction dérivable|dérivable]]
+     - $(\arg\mathrm{th})'(x) = \dfrac{1}{1-x^{2}}$
 
 
 

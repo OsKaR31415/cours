@@ -4,6 +4,6 @@ alias: "ch(a+b)"
 up::[[formules de trigonométrie]]
 sibling::[[sinus hyperbolique d'une somme]]
 type::"formule de somme", "hyperbolique"
-title::$\ch(a+b) = \ch(a)\ch(b) + \sh(a)\sh(b)$
+title::$\mathrm{ch}(a+b) = \mathrm{ch}(a)\mathrm{ch}(b) + \mathrm{sh}(a)\mathrm{sh}(b)$
 #maths/trigonométrie #no-review 
 # cosinus hyperbolique d'une somme

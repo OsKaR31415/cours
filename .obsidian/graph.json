@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-#MOC",
+  "collapse-filter": false,
+  "search": "",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -122,7 +122,7 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.3,
+  "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 1.080078125,
   "lineSizeMultiplier": 1.2806640625,
   "collapse-forces": true,
@@ -130,6 +130,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.1240944333264811,
+  "scale": 0.17326730501372403,
   "close": true
 }

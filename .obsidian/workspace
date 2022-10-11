@@ -2,64 +2,24 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
-    "ophidian:layout-settings": {
-      "pane-relief:sliding-panes": {
-        "active": false
-      }
-    },
     "children": [
       {
-        "id": "ef238cba157b85b8",
+        "id": "d9e941073d92a656",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
-              "leaf": "ef238cba157b85b8",
+              "leaf": "d9e941073d92a656",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"homebrew.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}}}"
-            },
-            {
-              "leaf": "ef238cba157b85b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"installing ruby on macos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}}}"
-            },
-            {
-              "leaf": "ef238cba157b85b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ruby.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "ef238cba157b85b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"installing ruby on macos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":33},\"to\":{\"line\":0,\"ch\":33}}}"
-            },
-            {
-              "leaf": "ef238cba157b85b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/moteur de recherche programmation say hello.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-            },
-            {
-              "leaf": "ef238cba157b85b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/w3m sixel images 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "state": "{\"type\":\"graph\",\"state\":{}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "installing ruby on macos.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -74,33 +34,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e6cf92b1e047f14",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "8e6cf92b1e047f14",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "512b085b09382b44",
+            "id": "407c81c708328992",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": []
             },
             "state": {
-              "type": "file-tree-view",
+              "type": "file-explorer",
               "state": {}
             }
           },
@@ -114,13 +55,37 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#maths",
+                "query": "ayma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
+            "id": "fc3b6a3b8bfc3760",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
             }
           },
           {
@@ -139,30 +104,6 @@
             }
           },
           {
-            "id": "325e33879123bbe0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bd1d7503d0848342",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -172,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "installing ruby on macos.md",
+                "file": "things to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "installing ruby on macos.md",
+                "file": "things to do.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,12 +141,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 569.0050811767578,
-    "collapsed": true
+    "width": 381
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -214,7 +154,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 70.81021087680355,
+        "dimension": 82.75563258232236,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -226,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "installing ruby on macos.md"
+                "file": "things to do.md"
               }
             }
           },
@@ -255,7 +195,7 @@
             }
           },
           {
-            "id": "bf6c068c22a39e9f",
+            "id": "31b1c63a457b6e3d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -276,7 +216,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "installing ruby on macos.md",
+                "file": "things to do.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -370,14 +310,14 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7118881815513922,
+                  "scale": 0.7746356178080479,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "bf9c467678aa05e4",
+            "id": "a05eecb7dce21915",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -389,7 +329,7 @@
             }
           },
           {
-            "id": "843072ab0d510e3d",
+            "id": "7ab5b0693ed3805a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -401,7 +341,7 @@
             }
           },
           {
-            "id": "b8c37155de2a1a40",
+            "id": "309f8009b1cc52b3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -413,26 +353,19 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 29.189789123196448,
+        "dimension": 17.24436741767764,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": [
-                {
-                  "leaf": "cb9c41a428bebf8c",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                  "eState": "{\"scroll\":3.804469273743017}"
-                }
-              ]
+              "stack": []
             },
             "pinned": true,
             "state": {
@@ -447,15 +380,15 @@
             }
           },
           {
-            "id": "523cd7a78782d297",
+            "id": "8d8d223c8b48a4c7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "523cd7a78782d297",
+                  "leaf": "8d8d223c8b48a4c7",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{}"
                 }
               ]
@@ -476,23 +409,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
+    "width": 359.5,
     "collapsed": true
   },
-  "active": "ef238cba157b85b8",
+  "active": "d9e941073d92a656",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "homebrew.md",
-    "installing ruby on macos.md",
-    "ruby.md",
+    "sources/DistroWatch.com.md",
     "things to do.md",
-    "sources/moteur de recherche programmation say hello.md",
-    "sources/w3m sixel images 1.md",
-    "sources/cours/L2_info_POO_TP4-annotate.md",
-    "sources/La méthode complète pour organiser ses notes facilement et efficacement - App Obsidian - YouTube 1.md",
-    "sources/La méthode complète pour organiser ses notes facilement et efficacement - App Obsidian - YouTube.md",
-    "sources/cours/L2 info systèmes d'exploitation TD1 fichiers et droits-annotate.md"
+    "aymane elfardi.md",
+    "L2 maths  Feuille d'Exercices 1.md",
+    "daily/2022-10-11.md",
+    "obsidian plugin markmind demo.md",
+    "sources/annotations/formulaire maths-annotate.md",
+    "sources/cours/L2_info_POO_TP4.pdf",
+    "sources/cours/L2_info_POO_TP3-annotate.pdf",
+    "sources/cours/L2_info_POO_TP3-annotate.md"
   ]
 }

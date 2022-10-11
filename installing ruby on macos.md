@@ -7,5 +7,6 @@ description::"`brew install chruby ruby-install`", "`ruby-install ruby`"
 You need [[homebrew]].
 
 ```bash
-$> brew install 
+$> brew install chruby ruby-install
+$> ruby-install ruby
 ```

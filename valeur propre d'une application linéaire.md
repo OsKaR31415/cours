@@ -14,6 +14,7 @@ Un réel $\lambda$ est une _valeur propre_ de $\varphi$ ssi il existe un vecteur
 > Soit $\varphi : E \to E$ un [[endomorphisme linéaire]]
 > Soit $\lambda \in \mathbf{K}$
 > $\lambda$ est une _valeur propre_ de $\varphi$ ssi $\exists u \in E^{*}, \varphi(u)=\lambda u$
+^definition
 
 > [!definition] vecteur propre associé à une valeur propre
 > Si $\varphi(u) = \lambda u$ avec $u \neq 0_{E}$

@@ -4,9 +4,9 @@ alias: "th(a+b)"
 up::[[formules de trigonométrie]]
 sibling::[[tangente d'une somme]]
 type::"formule de somme", "hyperbolique"
-title::"$\th(a+b) = \dfrac{\th(a)+\th(b)}{1-\th(a)\th(b)}$"
+title::"$\mathrm{th}(a+b) = \dfrac{\mathrm{th}(a)+\mathrm{th}(b)}{1-\mathrm{th}(a)\mathrm{th}(b)}$"
 #maths/trigonométrie #no-review 
 # tangente hyperbolique d'une somme
 
-$\th(a+b) = \dfrac{\th(a)+\th(b)}{1-\th(a)\th(b)}$
+$\mathrm{th}(a+b) = \dfrac{\mathrm{th}(a)+\mathrm{th}(b)}{1-\mathrm{th}(a)\mathrm{th}(b)}$
 

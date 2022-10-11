@@ -11,13 +11,13 @@ _bespoke_ :: _customize according to your preferences_ ("a bespoke suit by a goo
 <!--SR:!2022-10-12,10,250-->
 
 _hurdle_ :: obstacle, difficulté, barrière
-<!--SR:!2022-10-04,3,250-->
+<!--SR:!2022-10-05,1,230-->
 
 ## Idioms and expressions
 
 _to happen overnight_ :: _to happend quickly_
-<!--SR:!2022-10-04,3,250-->
+<!--SR:!2022-10-14,10,270-->
 
 _to roll out_ :: déployer, implémenter, généraliser
-<!--SR:!2022-10-03,1,210-->
+<!--SR:!2022-10-05,1,190-->
 

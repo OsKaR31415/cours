@@ -13,7 +13,6 @@
  - les fugitifs
  - The elephant man
  - the fly (la mouche)
- - le professionel
  - un chien dans un jeu de quilles
  - platoon
  - rain man

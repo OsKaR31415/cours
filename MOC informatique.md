@@ -4,16 +4,12 @@ alias: "informatique"
 #informatique #MOC
 # MOC informatique
 
-> [!query] Sous-notes de [[MOC informatique]]
+
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw AND -#MOC
-> WHERE contains(file.outlinks, [[MOC informatique]])
->    or contains(up,          [[MOC informatique]])
->    or contains(up.up,       [[MOC informatique]])
->    or contains(up.up.up,    [[MOC informatique]])
->    or contains(up.up.up.up, [[MOC informatique]])
-> WHERE file.name != this.file.name
+> TABLE title, description, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
-

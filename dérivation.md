@@ -42,11 +42,11 @@ cos(x) & -sin(x)\\\hline
 \tan x & \dfrac{1}{\cos^{2}(x)} = 1 + \tan^{2}(x)\\\hline
 \tan x & \dfrac{1}{\cos^{2}(x)} \\\hline
 \arctan x & \dfrac1{1+x^2}\\\hline
-\sh(x) & \ch(x) \\\hline
-\ch(x) & \sh(x)\\\hline
-\arg\sh'(x) & \dfrac{1}{\sqrt{1+x^{2}}}\\\hline
-\arg\ch'(x) & -\dfrac{1}{\sqrt{1+x^{2}}}\\\hline
-\th(x) & \dfrac{1}{\ch^{2}(x)} = 1 - \th^2(x)\\\hline
+\mathrm{sh}(x) & \mathrm{ch}(x) \\\hline
+\mathrm{ch}(x) & \mathrm{sh}(x)\\\hline
+\arg\mathrm{sh}'(x) & \dfrac{1}{\sqrt{1+x^{2}}}\\\hline
+\arg\mathrm{ch}'(x) & -\dfrac{1}{\sqrt{1+x^{2}}}\\\hline
+\mathrm{th}(x) & \dfrac{1}{\mathrm{ch}^{2}(x)} = 1 - \mathrm{th}^2(x)\\\hline
 \end{array}$$
 
 

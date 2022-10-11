@@ -1,6 +1,6 @@
 up::[[obsidian]]
 title::"notes sur les plugins obsidian"
-#MOC #obsidian #no-review 
+#obsidian #no-review 
 # obsidian plugins
 
 > [!query]

@@ -3,17 +3,17 @@ alias: ["th", "tangente hyperbolique"]
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
-derivative::$\dfrac{1}{\ch^{2}(x)}$
-description::"$\mathbb{R} \to [-1; 1]$", "$x \mapsto \dfrac{\sh(x)}{\ch(x)} = \dfrac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$"
-title::$\th$
+derivative::$\dfrac{1}{\mathrm{ch}^{2}(x)}$
+description::"$\mathbb{R} \to [-1; 1]$", "$x \mapsto \dfrac{\mathrm{sh}(x)}{\mathrm{ch}(x)} = \dfrac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$"
+title::$\mathrm{th}$
 #maths/trigonométrie #maths/analyse #no-review 
 # fonction tangente hyperbolique
 La *tangente hyperbolique* est la [[fonction]] suivante :
 
-$\begin{align*} \th : & \mathbb{R} \to [-1; 1]\\ & x \mapsto \frac{\cosh(x)}{\sinh(x)} \end{align*}$
+$\begin{align*} \mathrm{th} : & \mathbb{R} \to [-1; 1]\\ & x \mapsto \frac{\cosh(x)}{\sinh(x)} \end{align*}$
 
 ou bien, sous une autre forme :
-$\disp\th(x) = \frac{e^{x}-e^{-x}}{e^{x} + e^{-x}}$
+$\displaystyle\mathrm{th}(x) = \frac{e^{x}-e^{-x}}{e^{x} + e^{-x}}$
 
 
 ```desmos-graph
@@ -28,7 +28,7 @@ y = \tanh(x)
 
 ## Propriétés
 
- - $\th$ est une [[fonction impaire]]
- - dérivée : $\th'=\frac{1}{\ch^{2}}$
+ - $\mathrm{th}$ est une [[fonction impaire]]
+ - dérivée : $\mathrm{th}'=\frac{1}{\mathrm{ch}^{2}}$
  - 
 

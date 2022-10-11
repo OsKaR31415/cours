@@ -1,14 +1,11 @@
 ---
-sr-due: 2022-09-08
-sr-interval: 20
-sr-ease: 309
 ---
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 derivative::$1+\tan^{2(x)} = \frac{1}{\cos^{2}(x)}$
 description::"$\mathbb{R} \setminus \frac{\pi}{2}\mathbb{Z} \to \mathbb{R}$", "$x \mapsto \dfrac{\sin(x)}{\cos(x)}$"
 title::$\tan$
 
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 # fonction tangente
 Notée $\tan$. Fonction trigonométrique (fonction circulaire).
 Elle est une [[application]] sur $\{x\in\mathbb{R} | \cos x\neq 0\} = \mathbb{R}\setminus\left\{ \dfrac\pi2 + k\pi,  k\in\mathbb{Z} \right\}$

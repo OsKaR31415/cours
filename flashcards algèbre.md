@@ -42,4 +42,9 @@ $(E, +, \cdot)$ tel que :
  - $\cdot$ est [[distributivité|distributive]] sur $+$
 <!--SR:!2022-10-05,3,252!2022-10-06,4,272-->
 
+sous espace vectorie
+?
+ - $0_{E} \in F$
+ - $\forall (u, v) \in E^{2}, \forall \lambda \in \mathbb{R}, \lambda u + v \in F$ (stable par combinaison linéaire)
+
 - [ ] #todo: pour l'algèbre linéaire

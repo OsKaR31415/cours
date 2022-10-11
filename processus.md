@@ -10,3 +10,6 @@ up::[[unix]]
  - `EUID` (Effective User IDentification) : 
 
  - [ ] #todo : compléter les [attributs des processus unix](https://stackoverflow.com/questions/30493424/what-is-the-difference-between-a-process-pid-ppid-uid-euid-gid-and-egid)
+
+## Etats d'un processus
+![[processus 2022-10-05 15.05.33.excalidraw|100%]]

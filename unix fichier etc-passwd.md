@@ -1,8 +1,6 @@
 ---
 alias: "/etc/passwd"
 ---
-sibling:: [[unix fichier etc-shadow]]
-
 up::[[unix]]
 title::"le fichier `/etc/passwd`, contient les mdp et infos des utilisateurs"
 sibling::[[unix fichier etc-shadow|/etc/shadow]]

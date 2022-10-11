@@ -1,11 +1,8 @@
 ---
 alias: ["arctan", "arctangente"]
-sr-due: 2022-09-06
-sr-interval: 18
-sr-ease: 309
 ---
 up::[[fonction tangente]]
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 # fonction arctangente
 
 La fonction $\arctan$ est la [[fonction réciproque]] de la [[fonction tangente]].

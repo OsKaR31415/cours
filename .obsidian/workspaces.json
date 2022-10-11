@@ -56,13 +56,8 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "yt video obsidian how i use dataview.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -156,7 +151,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "yt video usages of dataview.md",
+                    "file": "things to do.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -172,7 +167,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "yt video usages of dataview.md",
+                    "file": "things to do.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -210,7 +205,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "yt video usages of dataview.md"
+                    "file": "things to do.md"
                   }
                 }
               },
@@ -260,7 +255,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "yt video usages of dataview.md",
+                    "file": "things to do.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -446,7 +441,7 @@
         "width": 451.5000305175781,
         "collapsed": true
       },
-      "active": "c7c4642ee4028648",
+      "active": "4b375dbf39c33cdd",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -457,27 +452,22 @@
         "type": "split",
         "children": [
           {
-            "id": "2b65b4c156f74a94",
+            "id": "d9e941073d92a656",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "2b65b4c156f74a94",
+                  "leaf": "d9e941073d92a656",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Noyau d'une application linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Noyau d'une application linéaire.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -513,7 +503,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#CV",
+                    "query": "ayma",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -537,6 +527,10 @@
               {
                 "id": "fc3b6a3b8bfc3760",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
                 "state": {
                   "type": "sekund-main-view",
                   "state": {}
@@ -567,7 +561,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Noyau d'une application linéaire.md",
+                    "file": "things to do.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -583,7 +577,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Noyau d'une application linéaire.md",
+                    "file": "things to do.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -594,11 +588,12 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 456
+        "width": 381
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -619,7 +614,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Noyau d'une application linéaire.md"
+                    "file": "things to do.md"
                   }
                 }
               },
@@ -669,7 +664,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Noyau d'une application linéaire.md",
+                    "file": "things to do.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -862,9 +857,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 359.5
+        "width": 359.5,
+        "collapsed": true
       },
-      "active": "2b65b4c156f74a94",
+      "active": "d9e941073d92a656",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -1515,70 +1511,171 @@
         },
         "children": [
           {
-            "id": "dfc1303a2d4e4e8e",
+            "id": "e9f5d2922a99c7fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sous espace vectoriel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":18},\"to\":{\"line\":2,\"ch\":18}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arcsinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":35},\"to\":{\"line\":5,\"ch\":35}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"monoïde.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"application linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/6302acdd579ae62fb4e2110d/pages/Dmitry Korzhov.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":8.278688524590164}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/62e5e87a5305bf62e769d6d5/How to make collective learning less costly.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/61b3ed5c048b84e9c12d2a07/Sekund/Welcome Note.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":2.019649621212121}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2.pdf\"}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace vectoriel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":38.29034290580804}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":28},\"to\":{\"line\":5,\"ch\":28}}}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\"}}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"phrases.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6400000254313151}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoir gestion de projet.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fonction tangente.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc40d3d9156d29ed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "cc40d3d9156d29ed",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards dérivation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "cc40d3d9156d29ed",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"foobar.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":34.696969696969695}"
                 },
                 {
-                  "leaf": "dfc1303a2d4e4e8e",
+                  "leaf": "cc40d3d9156d29ed",
                   "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards trigonométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "cc40d3d9156d29ed",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "flashcards dérivation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -1633,7 +1730,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#review",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1658,12 +1755,8 @@
                 }
               },
               {
-                "id": "325e33879123bbe0",
+                "id": "2edd82e583b0a08a",
                 "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
                 "state": {
                   "type": "sekund-main-view",
                   "state": {}
@@ -1691,7 +1784,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "flashcards dérivation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1707,7 +1800,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "flashcards dérivation.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1718,11 +1811,12 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 544,
+        "width": 346,
         "collapsed": true
       },
       "right": {
@@ -1744,7 +1838,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "things to do.md"
+                    "file": "flashcards dérivation.md"
                   }
                 }
               },
@@ -1794,7 +1888,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "things to do.md",
+                    "file": "flashcards dérivation.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1895,18 +1989,6 @@
                 }
               },
               {
-                "id": "860dbc475755d3c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
-              },
-              {
                 "id": "bf9c467678aa05e4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1943,7 +2025,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "9b0b445260de35cb",
@@ -2010,12 +2092,12 @@
         "width": 334.5,
         "collapsed": true
       },
-      "active": "dfc1303a2d4e4e8e",
+      "active": "cc40d3d9156d29ed",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     },
-    "TP java": {
+    "cours": {
       "main": {
         "id": "239f495bbbd2d5df",
         "type": "split",
@@ -2026,45 +2108,15 @@
         },
         "children": [
           {
-            "id": "ef238cba157b85b8",
+            "id": "ca4f78ac7e11601b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "leaf": "ef238cba157b85b8",
+                  "leaf": "ca4f78ac7e11601b",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"homebrew.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}}}"
-                },
-                {
-                  "leaf": "ef238cba157b85b8",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"installing ruby on macos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "ef238cba157b85b8",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ruby.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "ef238cba157b85b8",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"installing ruby on macos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":33},\"to\":{\"line\":0,\"ch\":33}}}"
-                },
-                {
-                  "leaf": "ef238cba157b85b8",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/moteur de recherche programmation say hello.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "ef238cba157b85b8",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/w3m sixel images 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"algèbre SPJR.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{}"
                 }
               ]
@@ -2072,7 +2124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "installing ruby on macos.md",
+                "file": "algèbre SPJR.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -2110,18 +2162,6 @@
                 }
               },
               {
-                "id": "512b085b09382b44",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "file-tree-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "390d098cee0c9651",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2131,7 +2171,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#maths",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2189,7 +2229,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "installing ruby on macos.md",
+                    "file": "algèbre SPJR.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2205,7 +2245,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "installing ruby on macos.md",
+                    "file": "algèbre SPJR.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2216,12 +2256,11 @@
                   }
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 569.0050811767578,
+        "width": 328,
         "collapsed": true
       },
       "right": {
@@ -2231,7 +2270,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 70.81021087680355,
+            "dimension": 51.140684410646394,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -2243,7 +2282,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "installing ruby on macos.md"
+                    "file": "algèbre SPJR.md"
                   }
                 }
               },
@@ -2293,7 +2332,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "installing ruby on macos.md",
+                    "file": "algèbre SPJR.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2430,12 +2469,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 29.189789123196448,
+            "dimension": 48.859315589353606,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -2496,11 +2535,11 @@
         "width": 334.5,
         "collapsed": true
       },
-      "active": "ef238cba157b85b8",
+      "active": "ca4f78ac7e11601b",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     }
   },
-  "active": "TP java"
+  "active": "perso"
 }

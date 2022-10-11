@@ -34,7 +34,7 @@
       "customCss": "body {\n    filter: invert(0.70) brightness(0.9) contrast(1.8) hue-rotate(180deg);\n}\n\n/* hide google adds */\n.adsbygoogle, iframe {\n\tdisplay: none !important\n}"
     },
     {
-      "url": "https://www.beta.sayhello.so",
+      "url": "https://beta.sayhello.so",
       "displayName": "say hello programming search engine",
       "icon": "search",
       "hideOnMobile": true,
