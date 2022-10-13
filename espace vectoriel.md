@@ -4,7 +4,7 @@ sr-interval: 97
 sr-ease: 267
 alias: "ev"
 ---
-up::[[structure algébrique]]
+up::[[espace]]
 title::"$(E, +, \cdot)$ tel que", " - $(E, +)$ est un [[groupe abélien]]", " - $\cdot$ est [[distributivité|distributive]] sur $+$"
 #maths/algèbre #review 
 # espace vectoriel

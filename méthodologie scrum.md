@@ -1,5 +1,5 @@
 up::[[méthodologie agile]]
-#PM
+#PM #no-review 
 # méthodologie scrum
 
  - scrum : argot pour _mêlée_ au rugby

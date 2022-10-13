@@ -1,5 +1,8 @@
+---
+alias: [ "RR", "Round Robin" ]
+---
 up::[[Ordonnancement d'exécution des processus|ordonnancement]]
-title:: "RR"
+title:: "[[Ordonnancement FCFS|FCFS]] avec préemption"
 #informatique 
 # Ordonnancement par Tourniquet
 

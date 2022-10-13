@@ -1,4 +1,4 @@
 up::[[transformations]]
 down:: [[rotation vectorielle]]
-#maths
+#maths #no-review 
 # rotation

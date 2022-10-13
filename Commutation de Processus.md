@@ -1,6 +1,6 @@
 down:: [[interruption horloge]]
 up::[[système d'exploitation]]
-#informatique 
+#informatique #no-review 
 # Commutation de Processus
 
  - possible à chaque fosi que le [[système d'exploitation|SE]] reprends le contrôle par rapport au processus en cours d'exécution

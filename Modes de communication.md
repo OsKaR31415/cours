@@ -1,5 +1,5 @@
 up::[[couche liaison]]
-#informatique 
+#informatique #no-review 
 # Modes de communication
 
 

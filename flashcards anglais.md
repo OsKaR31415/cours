@@ -13,6 +13,8 @@ _bespoke_ :: _customize according to your preferences_ ("a bespoke suit by a goo
 _hurdle_ :: obstacle, difficulté, barrière
 <!--SR:!2022-10-05,1,230-->
 
+*culprit* :: *criminal*
+
 ## Idioms and expressions
 
 _to happen overnight_ :: _to happend quickly_

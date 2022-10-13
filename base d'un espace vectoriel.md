@@ -1,5 +1,5 @@
 ---
-alias: "base"
+alias: [ "base" ]
 sr-due: 2022-09-14
 sr-interval: 24
 sr-ease: 277

@@ -1,4 +1,5 @@
-down:: [[diagramme de classes]]
+down:: [[UML diagramme de séquence]]
+down:: [[UML diagramme de classes]]
 up::[[outils de gestion de projet]]
 #informatique 
 # diagramme UML
@@ -9,3 +10,5 @@ up::[[outils de gestion de projet]]
 > FROM ""
 > WHERE econtains(up, this.file.link)
 > ```
+
+

@@ -1,4 +1,4 @@
-#exercices
+#exercice
 # Calcul littéral et équations
 
 ## Simplifier les expressions

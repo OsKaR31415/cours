@@ -75,7 +75,7 @@
           "language": "en",
           "folder": "",
           "feed": "wolfram",
-          "read": true,
+          "read": false,
           "favorite": false,
           "created": false,
           "tags": [],
@@ -119,7 +119,7 @@
           "language": "en",
           "folder": "",
           "feed": "wolfram",
-          "read": true,
+          "read": false,
           "favorite": false,
           "created": false,
           "tags": [],
@@ -470,6 +470,28 @@
       "description": "xkcd.com: A webcomic of romance and math humor.",
       "items": [
         {
+          "title": "Road Space Comparison",
+          "description": "<img src=\"https://imgs.xkcd.com/comics/road_space_comparison.png\" title=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" alt=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" />",
+          "content": "<img src=\"https://imgs.xkcd.com/comics/road_space_comparison.png\" title=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" alt=\"I wonder how hard it would be to ride an electric scooter in a hamster ball.\" />",
+          "category": "",
+          "link": "https://xkcd.com/2684/",
+          "creator": "",
+          "pubDate": "Wed, 12 Oct 2022 04:00:00 -0000",
+          "enclosure": "",
+          "enclosureType": "",
+          "image": "",
+          "id": "",
+          "language": "en",
+          "folder": "",
+          "feed": "xkcd",
+          "read": false,
+          "favorite": false,
+          "created": false,
+          "tags": [],
+          "hash": "48cbe4c0f34bb661329d8c130f157b1f",
+          "highlights": []
+        },
+        {
           "title": "Fan Theories",
           "description": "<img src=\"https://imgs.xkcd.com/comics/fan_theories.png\" title=\"The universe fandom is great. Such sweet and enthusiastic people.\" alt=\"The universe fandom is great. Such sweet and enthusiastic people.\" />",
           "content": "<img src=\"https://imgs.xkcd.com/comics/fan_theories.png\" title=\"The universe fandom is great. Such sweet and enthusiastic people.\" alt=\"The universe fandom is great. Such sweet and enthusiastic people.\" />",
@@ -809,7 +831,8 @@
     "xkcd",
     "rss-folders",
     "rss-filters-read",
-    "rss-filters-Favorites"
+    "rss-filters-Favorites",
+    "rss-filters-unread"
   ],
   "renamedText": {
     "filtered_folders": "",

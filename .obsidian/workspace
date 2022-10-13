@@ -4,13 +4,110 @@
     "type": "split",
     "children": [
       {
-        "id": "d9e941073d92a656",
+        "id": "dd291ae3ec829e84",
         "type": "leaf",
+        "dimension": 23.373838456040026,
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "d9e941073d92a656",
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-15.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards anglais.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":1.5808424583210021}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"diagramme UML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":8.426015407366647}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"UML diagramme d'activités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"scroll\":21.057026224641266}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"diagramme UML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"scroll\":5.630445075757576}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"UML diagramme de séquence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":17},\"to\":{\"line\":0,\"ch\":17}}}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"diagramme UML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"UML cardinalités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"diagramme UML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"UML diagramme d'activités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":0},\"to\":{\"line\":54,\"ch\":0}},\"scroll\":51.56534049393541}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"diagramme UML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":5.231721906751815}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"uml.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "dd291ae3ec829e84",
               "group": null,
               "state": "{\"type\":\"graph\",\"state\":{}}",
               "eState": "{}"
@@ -18,8 +115,35 @@
           ]
         },
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022-10-15.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bb6447325e5fa9a2",
+        "type": "leaf",
+        "dimension": 76.62616154395997,
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "bb6447325e5fa9a2",
+              "group": null,
+              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2-annotate.md\"}}",
+              "eState": "{}"
+            }
+          ]
+        },
+        "state": {
+          "type": "mindmapview",
+          "state": {
+            "file": "sources/cours/L2_maths_analyse_TD2-annotate.md"
+          }
         }
       }
     ],
@@ -113,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "things to do.md",
+                "file": "daily/2022-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "things to do.md",
+                "file": "daily/2022-10-15.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,11 +265,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 381
+    "width": 381,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -166,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "things to do.md"
+                "file": "daily/2022-10-15.md"
               }
             }
           },
@@ -216,7 +341,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "things to do.md",
+                "file": "daily/2022-10-15.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -353,7 +478,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
@@ -412,20 +537,20 @@
     "width": 359.5,
     "collapsed": true
   },
-  "active": "d9e941073d92a656",
+  "active": "dd291ae3ec829e84",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "sources/DistroWatch.com.md",
+    "sources/cours/L2_maths_analyse_TD2-annotate.md",
+    "sources/cours/L2_maths_geometrie_TD1_2020-2021-annotate.md",
+    "daily/2022-10-15.md",
+    "daily/2022-10-13.md",
     "things to do.md",
-    "aymane elfardi.md",
-    "L2 maths  Feuille d'Exercices 1.md",
-    "daily/2022-10-11.md",
-    "obsidian plugin markmind demo.md",
-    "sources/annotations/formulaire maths-annotate.md",
-    "sources/cours/L2_info_POO_TP4.pdf",
-    "sources/cours/L2_info_POO_TP3-annotate.pdf",
-    "sources/cours/L2_info_POO_TP3-annotate.md"
+    "flashcards anglais.md",
+    "diagramme UML.md",
+    "UML diagramme de séquence.md",
+    "Excalidraw/UML diagramme de séquence 2022-10-13 09.38.50.excalidraw.md",
+    "UML diagramme d'activités.md"
   ]
 }

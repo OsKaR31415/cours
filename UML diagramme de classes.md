@@ -1,6 +1,6 @@
 up:: [[diagramme UML]]
 #informatique 
-# diagramme de classes
+# UML diagramme de classes
 
  - Reprise du [[modèle entité association]]
      - Entité -> Classe

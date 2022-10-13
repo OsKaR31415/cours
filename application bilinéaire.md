@@ -1,3 +1,6 @@
+---
+alias: [ "forme bilinéaire", "bilinéaire" ]
+---
 up::[[application linéaire]]
 title::"$f: E^{2} \to \mathbf{K}$ linéaire par rapport à ses deux paramètres"
 #maths/algèbre 

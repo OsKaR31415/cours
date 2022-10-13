@@ -1,5 +1,5 @@
 ---
-alias: "symétrie"
+alias: [ "symétrie", "symétrique" ]
 ---
 up::[[relation]]
 #maths/algèbre #no-review 
