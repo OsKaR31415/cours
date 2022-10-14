@@ -13,5 +13,6 @@
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font"
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "accentColor": "#227b0a"
 }

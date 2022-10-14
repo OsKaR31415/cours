@@ -9,173 +9,154 @@
     },
     "children": [
       {
-        "id": "3a577d58ceca2f87",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "3a577d58ceca2f87",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "3a577d58ceca2f87",
-              "group": null,
-              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/annotations/L2 maths arithmetique CC1.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "3a577d58ceca2f87",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_CC1.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "3a577d58ceca2f87",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_beamer_cours.pdf\"}}",
-              "eState": "{}"
-            }
-          ]
-        },
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "sources/cours/L2_maths_arithmetique_beamer_cours.pdf"
-          }
-        }
-      },
-      {
-        "id": "dea49c79a5f7625a",
-        "type": "split",
+        "id": "1d7dc9df7785e064",
+        "type": "tabs",
         "children": [
           {
-            "id": "f9a21f6d67f25162",
+            "id": "e9f5d2922a99c7fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction paire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction impaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":25},\"to\":{\"line\":4,\"ch\":25}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sous espace vectoriel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":18},\"to\":{\"line\":2,\"ch\":18}},\"scroll\":0}",
+                  "title": "sous espace vectoriel",
+                  "icon": "document"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction cosinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":30},\"to\":{\"line\":4,\"ch\":30}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":40},\"to\":{\"line\":7,\"ch\":40}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":44},\"to\":{\"line\":7,\"ch\":44}}}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction convergente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arccosinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arcsinus.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":32},\"to\":{\"line\":7,\"ch\":32}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":35},\"to\":{\"line\":5,\"ch\":35}}}",
+                  "title": "fonction arcsinus",
+                  "icon": "document"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"démonstration de l'expression de l'arg sinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}",
+                  "title": "fonction arctangente",
+                  "icon": "document"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"démonstration expression de l'arg cosinus hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"monoïde.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}",
+                  "title": "monoïde",
+                  "icon": "document"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"domination en un point.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"application linéaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}",
+                  "title": "application linéaire",
+                  "icon": "document"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Do.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/6302acdd579ae62fb4e2110d/pages/Dmitry Korzhov.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":8.278688524590164}",
+                  "title": "Dmitry Korzhov",
+                  "icon": "lines-of-text"
                 },
                 {
-                  "leaf": "f9a21f6d67f25162",
+                  "leaf": "e9f5d2922a99c7fa",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cosinus pi sur 2 moins x.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/62e5e87a5305bf62e769d6d5/How to make collective learning less costly.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}",
+                  "title": "How to make collective learning less costly",
+                  "icon": "lines-of-text"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"__sekund__/61b3ed5c048b84e9c12d2a07/Sekund/Welcome Note.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":2.019649621212121}",
+                  "title": "Welcome Note",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2.pdf\"}}",
+                  "eState": "{}",
+                  "title": "L2_maths_analyse_TD2.pdf",
+                  "icon": "pdf-file"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":28},\"to\":{\"line\":5,\"ch\":28}}}",
+                  "title": "2022-10-12",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "2022-10-10",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "2022-10-09",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\"}}",
+                  "eState": "{}",
+                  "title": "L2_maths_geometrie_TD1_2020-2021.pdf",
+                  "icon": "pdf-file"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}",
+                  "title": "2022-10-12",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "2022-10-10",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "2022-10-09",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "e9f5d2922a99c7fa",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "2022-10-08",
+                  "icon": "document"
                 }
               ]
             },
@@ -188,39 +169,60 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a2768cba41ca3120",
+        "type": "tabs",
+        "children": [
           {
-            "id": "4676a33f3abec10a",
+            "id": "cc40d3d9156d29ed",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "4676a33f3abec10a",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente hyperbolique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "leaf": "4676a33f3abec10a",
+                  "leaf": "cc40d3d9156d29ed",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction tangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":34.696969696969695}",
+                  "title": "flashcards algèbre",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "cc40d3d9156d29ed",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards trigonométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"scroll\":0}",
+                  "title": "flashcards trigonométrie",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "cc40d3d9156d29ed",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction arctangente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{}",
+                  "title": "fonction arctangente",
+                  "icon": "document"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fonction tangente hyperbolique.md",
+                "file": "flashcards dérivation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,15 +242,32 @@
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "8e6cf92b1e047f14",
-                  "group": null,
-                  "state": "{\"type\":\"empty\",\"state\":{}}",
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "512b085b09382b44",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-tree-view",
               "state": {}
             }
           },
@@ -257,12 +276,17 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "search",
               "state": {
-                "query": "tours ",
+                "query": "tag:#review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -276,7 +300,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "tag",
@@ -287,12 +316,8 @@
             }
           },
           {
-            "id": "325e33879123bbe0",
+            "id": "2edd82e583b0a08a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "sekund-main-view",
               "state": {}
@@ -303,7 +328,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "RSS_FEED",
@@ -315,12 +345,17 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fonction tangente hyperbolique.md",
+                "file": "flashcards dérivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,12 +366,17 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fonction tangente hyperbolique.md",
+                "file": "flashcards dérivation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,12 +387,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 467
+    "width": 346,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -361,19 +401,24 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 56.815578465063,
+        "dimension": 70.81021087680355,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "outline",
               "state": {
-                "file": "fonction tangente hyperbolique.md"
+                "file": "flashcards dérivation.md"
               }
             }
           },
@@ -382,7 +427,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "advanced-tables-toolbar",
@@ -394,7 +444,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "calendar",
@@ -406,7 +461,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "review-queue-list-view",
@@ -418,12 +478,17 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "fonction tangente hyperbolique.md",
+                "file": "flashcards dérivation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -517,22 +582,10 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.2059531043345284,
+                  "scale": 0.7118881815513922,
                   "close": true
                 }
               }
-            }
-          },
-          {
-            "id": "837d069be727ad7e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "custom-frames-detexify",
-              "state": {}
             }
           },
           {
@@ -540,7 +593,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "BC-matrix",
@@ -552,20 +610,42 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "837d069be727ad7e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 43.184421534937,
+        "dimension": 29.189789123196448,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -574,10 +654,8 @@
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "cb9c41a428bebf8c",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"things to do.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
-                  "eState": "{\"scroll\":3.804469273743017}"
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
@@ -600,9 +678,7 @@
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "523cd7a78782d297",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"devoirs à faire.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false},\"pinned\":true}",
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
@@ -624,23 +700,26 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
+    "width": 334.5,
     "collapsed": true
   },
-  "active": "4676a33f3abec10a",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "cc40d3d9156d29ed",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "notes 2022-09-01.md",
+    "sources/cours/L2 info architecture des ordinateure TD1 v2-annotate.md",
+    "flashcards dérivation.md",
+    "MOC informatique.md",
+    "algèbre SPJR.md",
+    "fonction tangente.md",
     "fonction tangente hyperbolique.md",
+    "MOC MOCs.md",
+    "espace vectoriel.md",
     "daily/2022-10-15.md",
-    "fonction arctangente.md",
-    "sources/cours/L2_maths_analyse_TD2-annotate.md",
-    "sources/cours/L2_maths_geometrie_TD1_2020-2021-annotate.md",
-    "daily/2022-10-13.md",
-    "things to do.md",
-    "flashcards anglais.md",
-    "diagramme UML.md"
+    "notes 2022-09-01.md"
   ]
 }
