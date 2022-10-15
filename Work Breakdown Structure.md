@@ -4,7 +4,8 @@ alias: "WBS"
 up::[[outils de gestion de projet]]
 title::"décomposer le travail en sous-taches faciles (mais pas trop simples)"
 #PM #no-review 
-# Work Breakdown Structure
+
+----
 
 > [!définition]
 > **Décomposition** du travail

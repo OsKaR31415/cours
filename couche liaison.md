@@ -1,6 +1,7 @@
 up::[[modèle OSI]]
 #informatique 
-# couche liaison
+
+---
 
 **problème posé** : distinguer des trames de données dans un flux.
 

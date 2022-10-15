@@ -1,5 +1,6 @@
 up::[[diagramme UML]]
-# UML diagramme d'activités
+
+----
  - [?] Pourquoi ?
      - Accent sur les traitement
          - modélisation des flots de contrôle / de données

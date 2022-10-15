@@ -1,6 +1,7 @@
 up::[[MOC analyse]]
 #maths/analyse #no-review 
-# cycloïde
+
+---
 La _cycloide_ est la courbe que parvourt un point choisi d'une roue lorsque celle-ci avance.
 
 ## Définitions

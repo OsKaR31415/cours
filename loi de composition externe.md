@@ -1,6 +1,7 @@
 up::[[loi de composition]]
 #maths/algèbre #no-review 
-# loi de composition externe
+
+----
 Une _loi de composition externe_ est une [[loi de composition]] qui n'est **pas** [[loi de composition interne|interne]].
 
 > [!definition]

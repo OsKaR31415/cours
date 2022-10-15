@@ -1,4 +1,5 @@
-# devoirs à faire
+
+----
 
 > [!smallquery] devoirs
 > ```dataview

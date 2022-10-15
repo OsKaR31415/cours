@@ -1,5 +1,6 @@
 #logique #no-review 
-# langages formels
+
+----
 
 Soit $V$ [[vocabulaire]] (ensemble fini de symboles) donné
 On appelle _langage formel_ $L = <R, V>$ tout ensemble, potentiellement infini, de séquences de symboles de $V$ respectant les règles de formation ([[règle d'inférence|règles d'inférence]]) pour faire une **fbf** (formule bien formée).

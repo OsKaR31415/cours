@@ -1,7 +1,8 @@
 up::[[vim]]
 link::https://github.com/tweekmonster/braceless.vim
 #informatique/vim #no-review 
-# vim plugin braceless
+
+----
 Plugin pour mieux gérer les langages où l'indentation est sémantique (python...)
 
  - Meilleurs motions (`[[` pour les définitions python etc.)

@@ -1,5 +1,6 @@
 #fac/TD 
-# architecture des ordinateurs TD2  2022-09-30
+
+---
 
 ## Question 7
 ![[attachments/markmind/1664536539208.png|500]]

@@ -1,7 +1,8 @@
 up::[[MOC arithmétique]]
 title::"$\left( \sum\limits_{k=0}^{n}a_{k} \right)^{2} = \sum\limits_{i=1}^{n}\left( \sum\limits_{j=1}^{n} a_{i}\times a_{j} \right)$"
 #maths/arithmétique #review 
-# carré d'une somme
+
+---
 $\left( \sum\limits_{k=0}^{n}a_{k} \right)^{2} = \sum\limits_{i=1}^{n}\left( \sum\limits_{j=1}^{n} a_{i}\times a_{j} \right)$
 ## Cas particuliers
 

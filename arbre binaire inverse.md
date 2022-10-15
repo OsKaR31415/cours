@@ -1,6 +1,7 @@
 up::[[arbre binaire]]
 #informatique/algorithmie #no-review 
-# arbre binaire inverse
+
+---
 Opération d'inversion d'un [[arbre binaire]].
 
 L'inverse d'un [[arbre binaire]] est un autre arbre qui est obtenu en inversant la droite et la gauche de l'arbre original.

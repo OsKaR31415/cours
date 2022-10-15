@@ -1,7 +1,8 @@
 up:: [[obsidian]]
 title::"syntaxe de base de obsidian"
 #obsidian #no-review 
-# obsidian syntaxe
+
+----
 
 ## Titres 
 

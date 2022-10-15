@@ -1,6 +1,7 @@
 up::[[intégration]]
 #maths/analyse #review 
-# intégrale de Riemann
+
+----
 
 Soit $\varphi\in\varepsilon([a,b])$ une [[fonction escalier]] sur $[a,b]$
 Soit $s=(x_i)_{0\leq i\leq n}\in\cal S([a,b])$ une [[Subdivision d'un intervalle|subdivision]] sur $[a,b]$ _adaptée_ à $\varphi$

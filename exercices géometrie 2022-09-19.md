@@ -1,6 +1,7 @@
 #exercice 
 up::[[L2_maths_geometrie_TD1 - fait.pdf]]
-# exercices géometrie 2022-09-19
+
+----
 
 
 ## Exercice 2

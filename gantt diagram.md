@@ -2,7 +2,8 @@ up::[[outils de gestion de projet]]
 title::"planification, suivi, contrôle"
 link::[présentation de gantt (yt)](https://www.youtube.com/watch?v=TAndnWJd1Lo)
 #PM 
-# gantt diagram
+
+----
 
 
 Gantt permet : 

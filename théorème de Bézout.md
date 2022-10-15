@@ -1,7 +1,8 @@
 up::[[MOC arithmétique]]
 title::"$d = \mathrm{pgcd}(a;b) \implies \exists (u;v)\in \mathbb{Z}^{2}, au+bv=d$"
 #maths/arithmétique #review 
-# théorème de Bézout
+
+----
 Soit $(a, b)\in(\mathbb N^*)^2$,
 Soit $d = \mathrm{pgcd}(a; b)$,
 $\exists(u, v)\in\mathbb Z^2, au+bv = d$

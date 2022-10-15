@@ -1,6 +1,7 @@
 up::[[MOC polynômes]]
 #maths/analyse #no-review 
-# polynôme 
+
+----
 
 
 Un polynôme est une expression de la forme :

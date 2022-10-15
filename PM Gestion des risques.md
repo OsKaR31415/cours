@@ -1,5 +1,6 @@
 #PM
-# PM Gestion des risques
+
+----
 
 5 classes de risques :
  - [[PM risque organisationnel]]

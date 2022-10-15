@@ -484,7 +484,7 @@
           "language": "en",
           "folder": "",
           "feed": "xkcd",
-          "read": false,
+          "read": true,
           "favorite": false,
           "created": false,
           "tags": [],
@@ -828,11 +828,8 @@
     "css tricks",
     "css-tricks",
     "wolfram",
-    "xkcd",
-    "rss-folders",
     "rss-filters-read",
-    "rss-filters-Favorites",
-    "rss-filters-unread"
+    "rss-filters-Favorites"
   ],
   "renamedText": {
     "filtered_folders": "",

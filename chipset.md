@@ -1,6 +1,7 @@
 up::[[carte mère]]
 #informatique 
-# chipset
+
+---
 
  - relie la majorité des bus 
  - gère surtout les composants peu rapides

@@ -1,6 +1,7 @@
 up::[[MOC informatique|informatique]]
 #informatique 
-# informatique
+
+----
 
 > [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview

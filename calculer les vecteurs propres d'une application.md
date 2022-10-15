@@ -1,7 +1,7 @@
-# calculer les vecteurs propres d'u application
 up::[[vecteur propre d'une application linéaire|vecteur propre]], [[valeur propre d'une application linéaire|valeur propre]]
 #maths/algèbre  
 
+---
 Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]
 Soit $f : E \to E$ une [[application linéaire]] de matrice  $A = \begin{pmatrix}1&2\\2&1\end{pmatrix}$
 $\det A \neq 0$ donc $f$ est [[bijection|bijective]].

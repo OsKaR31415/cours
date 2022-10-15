@@ -1,7 +1,8 @@
 up::[[obsidian workflow]]
 title::"how to properly name notes in obsidian"
 #obsidian #PKM 
-# obsidian workflow naming notes
+
+----
 How i try to name notes consistently
 
 ![[Excalidraw/workflow.excalidraw.md#^group=J47Bj3drc5SM-nUY9J7dl|800]]

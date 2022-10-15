@@ -7,7 +7,9 @@ sr-ease: 277
 up::[[espace vectoriel]]
 title::"[[famille de vecteurs]] [[famille de vecteurs libre|libre]] et [[famille de vecteurs génératrice|génératrice]]"
 #maths/algèbre #review 
-# base d'un espace vectoriel
+
+---
+
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$
 La famille $\{u_1,\ldots,u_k\}$ est une _base_ lorsqu'elle est simultanément [[famille de vecteurs génératrice|génératrice]] et [[famille de vecteurs libre|libre]].
 

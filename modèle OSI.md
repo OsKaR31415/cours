@@ -1,6 +1,7 @@
 up::[[réseau informatique]]
 #informatique #review 
-# modèle OSI
+
+----
 
 title::![[modèle OSI 2022-09-27 13.25.56.excalidraw|200]]
 

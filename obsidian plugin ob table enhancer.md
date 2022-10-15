@@ -2,7 +2,8 @@ up::[[obsidian plugins]]
 link::https://github.com/Stardusten/ob-table-enhancer/tree/master
 title::"edition de tables, javascript dans les cellules"
 #obsidian 
-# obsidian plugin ob table enhancer
+
+----
 
  - édition de tables (plus que le formattage de [[obsidian plugin advanced tables|advanced tables]])
      - fonctionne correctement avec le [[LaTeX]] et les styles

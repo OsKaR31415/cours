@@ -1,5 +1,6 @@
 #logique #no-review 
-# skolem
+
+----
 Un _skolem_ est une forme particulière de formules de la [[logique des predicats du premier ordre]].
 Elle consiste en une formule sous [[forme normale conjonctive]] et [[forme prénèxe|prénèxe]], mais sur laquelle on à supprimé tous les [[quantificateurs]] existentiels ($\exists$) en utilisant des fonctions, pour ne garder que des quantificateurs $\forall$.
 

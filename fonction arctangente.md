@@ -3,7 +3,8 @@ alias: ["arctan", "arctangente"]
 ---
 up::[[fonction tangente]]
 #maths/analyse #maths/trigonométrie 
-# fonction arctangente
+
+----
 
 La fonction $\arctan$ est la [[fonction réciproque]] de la [[fonction tangente]].
 

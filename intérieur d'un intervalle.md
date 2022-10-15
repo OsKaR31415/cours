@@ -1,5 +1,6 @@
 #maths/ensembles #review 
-# intérieur d'un intervalle
+
+----
 Soit $I$ un intervalle.
 On apelle _intérieur de $I$_, et on note $\dot{I}$, le plus grand intervalle ouvert contenu dans $I$.
 

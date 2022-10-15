@@ -1,6 +1,7 @@
 up::[[ensemble des polynômes]]
 #maths/algèbre #maths/analyse #no-review 
-# ensemble des polynômes de degré inférieur ou égal à n
+
+----
 Soit $K$ un [[corps]]
 On note $K_{n}[X]$ l'ensemble des [[polynôme|polynômes]] sur $K$ de [[polynôme#Degré|degré]] inférieur ou égal à $n$
 

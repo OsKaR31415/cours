@@ -1,6 +1,7 @@
 up::[[internet]]
 #informatique #no-review 
-# protocoles
+
+----
 
 le protocole général :
 TCP-IP (Transmission Control Protocol, Internet Protocol)

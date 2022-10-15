@@ -1,7 +1,8 @@
 up::[[MOC MOCs]]
 down::[[obsidian]]
 #MOC #obsidian
-# MOC obsidian
+
+----
 
 > [!query] Sous-notes de [[obsidian]]
 > ```dataview

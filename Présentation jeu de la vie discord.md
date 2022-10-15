@@ -3,5 +3,6 @@ date::2022-03-04
 description::"conférence sur le jeu de la vie"
 compétences:: 🧑‍🏫 🗣️ 🧮 💻
 #CV #maths #informatique 
-# Présentation jeu de la vie discord
+
+----
 

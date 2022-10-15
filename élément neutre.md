@@ -1,7 +1,8 @@
 up::[[structure algébrique]]
 title::"$e$ tel que $\forall x \in E, x*e = e*x = x$"
 #maths/algèbre #no-review 
-# élément neutre
+
+----
 Un élément $e\in E$ est appelé _élément neutre_ de $E$ pour la loi $*$ ssi : $\forall a\in E, a*e=e*a=a$
 ## Remarque
  - S'il existe $e\in E$ tel que $\forall a\in E, a*e=a$, on dit que $e$ est _élément neutre à droite_.

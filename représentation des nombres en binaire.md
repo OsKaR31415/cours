@@ -1,7 +1,8 @@
 up::[[représentations en binaire]]
 down:: [[codage binaire des nombres réels en virgule flottante]], [[codage binaire des nombres réels en virgule fixe]]
 #informatique #no-review 
-# représentation des nombres en binaire
+
+----
 
 On à besoin de représenter :
  - des entiers naturels / flottants

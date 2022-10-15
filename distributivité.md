@@ -4,7 +4,8 @@ alias: "distributive"
 up::[[structure algébrique]]
 title::"$*$ _distributive sur_ $\bot$ ssi :", " - $a*(b \bot c) = (a*b)\bot (a*c)$ (distributivité à droite)", " - $(b \bot c)*a = (b*a) \bot (c*a)$ (distributivité à gauche)"
 #maths/algèbre #no-review 
-# distributivité
+
+----
 Soit $E$ un ensemble muni de deux [[loi de composition interne]] : $*$ et $\bot$ :
 La loi $*$ est _distributive_ par rapport à $\bot$ ssi : 
 $\forall(a,b,c)\in E^3,$

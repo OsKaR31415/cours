@@ -3,7 +3,8 @@ alias: "PERT"
 ---
 up::[[outils de gestion de projet]]
 #PM #review 
-# Program Evaluation Review Technique
+
+----
 
 title::![[Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw]]
 

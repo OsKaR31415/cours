@@ -1,10 +1,11 @@
 up::[[application linéaire]]
-title::"$\rang f = \dim \im f$"
+title::"$\mathrm{rang} f = \dim \mathrm{Im} f$"
 #maths/algèbre #review 
-# rang d'une application linéaire
+
+----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]
 Soit $f: E\rightarrow F$ une [[application linéaire]]
-Le _rang_ de $f$ est $\rang f = \dim \im f$
+Le _rang_ de $f$ est $\mathrm{rang} f = \dim \mathrm{Im} f$
 
 
 

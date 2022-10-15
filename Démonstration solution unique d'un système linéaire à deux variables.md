@@ -1,5 +1,6 @@
 #maths/algèbre #no-review 
-# Démonstration solution unique d'un système linéaire à deux variables
+
+---
 
 Soit le système :
 $(S) :\left\{ \begin{gathered}ax+by = c\\ a'x + b'y = c' \end{gathered}\right.$

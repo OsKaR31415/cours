@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review
-# accès aux données
+
+---
 ## Accès aux données
 
 Pour

@@ -1,6 +1,7 @@
 up::[[modèle OSI]]
 #informatique 
-# couche réseau
+
+---
 
 
 > [!query] sous-notes directes de `=this.file.link`

@@ -8,7 +8,8 @@ sibling::[[tangente hyperbolique du double]]
 type::"formule de duplication"
 title::$\tan(2x) = \dfrac{2\tan(x)}{1-\tan^{2}(x)}$
 #maths/trigonométrie #no-review 
-# tangente du double
+
+----
 
 $\tan(2x) = \dfrac{2\tan(x)}{1-\tan^{2}(x)}$
 

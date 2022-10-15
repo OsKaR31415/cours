@@ -1,7 +1,8 @@
 up::[[polynôme]]
 title::"tous les termes sont de même degré (notamment intéressant avec plusieurs variables)"
 #maths/analyse 
-# polynôme homogène
+
+----
 Quand tous les termes sont du même degré.
 
 Notamment intéressant pour les polynômes sur des vecteurs 

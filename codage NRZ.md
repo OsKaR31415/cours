@@ -1,6 +1,7 @@
 up::[[couche physique]]
 #informatique 
-# codage NRZ
+
+---
 
  - `0` codé comme une tension négative
  - `1` codé comme une tension positive

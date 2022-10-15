@@ -1,6 +1,7 @@
 up::[[définition axiomatique de N]]
 #maths #logique 
-# addition sur N
+
+---
 
 > [!definition] Addition sur $\mathbb{N}$
 > On définit l'addition avec :

@@ -1,6 +1,7 @@
 up::[[axiomes Zemerlo Frankel]]
 #maths 
-# axiome de l'infini
+
+---
 Il existe un [[classe héréditaire|ensemble héréditaire]] le plus petit (à l'intersection de tous les ensembles héréditaires).
 Cet ensemble est, par définition, $\mathbb{N}$.
 

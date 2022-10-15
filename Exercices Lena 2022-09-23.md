@@ -1,5 +1,6 @@
 #exercice
-# Calcul littéral et équations
+
+----
 
 ## Simplifier les expressions
  - $2x + 3x$

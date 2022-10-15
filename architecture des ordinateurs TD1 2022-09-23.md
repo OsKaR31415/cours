@@ -1,6 +1,7 @@
 #fac/TD 
 next::[[architecture des ordinateurs TD2  2022-09-30]]
-# architecture des ordinateurs TD1 2022-09-23
+
+---
 
 ## Question 1
 

@@ -1,7 +1,8 @@
 up::[[obsidian plugins]]
 title::"tracer des fonctions mathématiques"
 #obsidian #no-review 
-# obsidian plugin functionplot
+
+----
 Pour tracer des fonctions mathématiques
 
 

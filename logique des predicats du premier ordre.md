@@ -1,5 +1,6 @@
 #logique #no-review 
-# logique des predicats du premier ordre
+
+----
 
 ## Exemple de raisonnement en LP1
 ```

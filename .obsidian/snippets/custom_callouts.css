@@ -11,7 +11,7 @@
 .callout[data-callout="todo"], .callout[data-callout="smalltodo"]{
     /* orange is my color for todo
      * (especially since tags are orange, and tasks have the #task tag) */
-    --callout-color: 250, 155, 33;
+    --callout-color: 255, 160, 30;
     --callout-icon: luc_clipboard_check;
 }
 .callout[data-callout="smalltodo"] {
@@ -31,7 +31,8 @@
     /* change this -------.  to adjust brightness */
     /*                    |                       */
     /*                    V                       */
-    --callout-color: 68, 140, 80;
+    /* --callout-color: 68, 140, 80; */
+    --callout-color: 30, 120, 10;
     --callout-icon: database;
     /* --callout-icon: '<svg>...custom svg...</svg>'; */
     /* font-size: 18px; /1* smaller font size, to see more results at se same time *1/ */

@@ -6,7 +6,8 @@ sr-ease: 270
 
 up::[[équation différentielle]]
 #maths/algèbre #review
-# équation différentielle du premier ordre
+
+----
 Des [[équation différentielle|équations différentielles]] dans lesquelles seule la [[dérivation|dérivée]] [[dérivées successives|première]] apparaît.
 
 ## Forme

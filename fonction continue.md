@@ -6,7 +6,8 @@ alias: "continue"
 ---
 up::[[fonction]]
 #maths/analyse #review 
-# fonction continue
+
+----
 Soit $I$ un intervalle de $\mathbb R$
 Soit $f$ une fonction définie sur $I$
 Soit $a \in I$

@@ -5,7 +5,8 @@ sr-ease: 292
 ---
 up::[[dérivation]]
 #maths/analyse #review 
-# dérivées successives
+
+---
 
 On utilise la notation pour les [[dérivation|dérivées]] : 
  - $f^{(0)}=f$

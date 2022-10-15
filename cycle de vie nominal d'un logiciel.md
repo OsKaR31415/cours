@@ -1,6 +1,7 @@
 up::[[génie logiciel]]
 #informatique #review 
-# cycle de vie nominal d'un logiciel
+
+---
 
 > [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview

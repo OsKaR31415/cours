@@ -1,6 +1,7 @@
 up::[[unix]]
 #informatique/unix
-# processus
+
+----
 
 ## Attributs des [[processus]] 
  - `PID` (Process IDentification) : numéro unique d'identification

@@ -3,7 +3,8 @@ alias: "MAN"
 ---
 up::[[classes de réseau]]
 #informatique #no-review 
-# Metropolitan Area Network
+
+----
 
 > [!definition] MAN : Metropolitan Area Network
 >  - couvrent une région géographique

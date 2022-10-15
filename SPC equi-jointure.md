@@ -1,6 +1,7 @@
 up::[[algèbre SPC]]
 #informatique 
-# SPC equi-jointure
+
+----
 
 soient deux instances $I$ et $J$
 soit une formule $\varphi = (j_{1} = k_{1}) \wedge (j_{2} = k_{2}) \wedge \cdots$

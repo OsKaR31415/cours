@@ -1,6 +1,7 @@
 up::[[fonction]]
 #maths/analyse #no-review 
-# fonction escalier
+
+----
 Une fonction $f:[a, b]\rightarrow\mathbb{R}$ est dite _en escalier_ s'il existe une [[Subdivision d'un intervalle|subdivision]] $s\in \cal S([a, b])$ telle que $f$ soit **constante** sur chacun des intervalles **ouverts** de $s$.
 
 On note $\varepsilon([a, b])$ l'ensemble des _fonctions en escalier_ sur $[a, b ]$

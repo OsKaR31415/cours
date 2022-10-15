@@ -1,7 +1,8 @@
 up::[[unix commandes d'identification]]
 title::"changer la valeur du champ [[unix GECOS|GECOS]]"
 #informatique/unix #no-review 
-# unix commande chfn
+
+----
 `chfn` (CHange FiNger information)
 
 ```bash

@@ -4,7 +4,8 @@ link::[sur youtube](https://www.youtube.com/watch?v=dbP_hD5qWOE&t=632s)
 description::"intro à obsidian, discord _afterthinking_"
 compétences:: 🧑‍🏫 🗣️
 #CV 
-# livre blanc introduction à obsidian
+
+----
 Présentation de l'outil de prise de note [[obsidian]]; sur le discord "afterthinking".
 
 La conférence à été enregistrée, et est disponible sur youtube :

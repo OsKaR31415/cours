@@ -1,6 +1,7 @@
 up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
-# cube
+
+---
 symbole de shläfli : $\{4, 3\}$
 ![[cube.png|200]]
 

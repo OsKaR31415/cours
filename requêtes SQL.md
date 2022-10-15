@@ -1,6 +1,7 @@
 up::[[SQL]]
 #informatique #no-review 
-# requêtes SQL
+
+----
 Dans une [[base de données]]
 | numemp | nom | emploi | embauche | salaire | prime | numdept | chef |
 |--|--|--|--|--|--|--|--|--|

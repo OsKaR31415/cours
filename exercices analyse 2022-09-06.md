@@ -1,6 +1,7 @@
 #exercice 
 title::"TD1 d'analyse"
-# exercices analyse 2022-09-06
+
+----
 sujet : [[L2 maths analyse TD1-annotate]]
 
 ## Exercice 1

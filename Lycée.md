@@ -4,7 +4,8 @@ date-end::2021-06-22
 description::"lycée Augustin Thierry, Maths Informatique Physique"
 compétences:: 🇬🇧 🧮 💻
 #CV 
-# Lycée
+
+----
 
 ## Spécialités
  - Mathématiques #maths

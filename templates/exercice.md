@@ -1,4 +1,4 @@
 date::{{DATE}}
 #exercice 
-# {{TITLE}}
 
+---

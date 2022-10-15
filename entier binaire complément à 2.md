@@ -1,7 +1,8 @@
 up::[[représentation des nombres en binaire]]
 title::"opposé = "
 #informatique 
-# entier binaire complément à 2
+
+----
 
 **Avantages**
  - une seule représentation de $0$ : pas de $+0$ et $-0$

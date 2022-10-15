@@ -1,6 +1,7 @@
 up::[[java objets]]
 #informatique 
-# java polymorphisme
+
+----
 
 ```java
 class Animal {

@@ -1,6 +1,7 @@
 up::[[permutation]]
 #maths/algèbre #review 
-# transposition
+
+----
 
 Une _transposition_ est une [[permutation]] qui n'échange que 2 éléments.
 Une transposition est donc un [[p-cycle|2-cycle]].

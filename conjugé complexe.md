@@ -1,6 +1,7 @@
 up::[[nombre complexe]]
 #maths/analyse/complexes #review 
-# conjugé complexe
+
+---
 Soit $z = a+ib$ un [[nombre complexe]].
 Le _complexe conjugué_ $z$ est noté $\overline z$, et est le complexe tel que :
 $\overline{z} = a-ib$

@@ -7,7 +7,8 @@ alias: "morphismes"
 up::[[structure algébrique]]
 title::"$\begin{align}f :& (E, *) \to (F, \bot)\\ &x \mapsto f(x)\end{align}$", "$f(x*y) = f(x)\bot f(y)$"
 #maths/algèbre #review 
-# morphisme
+
+----
 
 Soient $(E, *)$ et $(R,\bot)$ deux ensembles, munis chacun d'une [[loi de composition interne]].
 Une application

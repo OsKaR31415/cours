@@ -1,4 +1,5 @@
-# index
+
+----
 
 > [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview

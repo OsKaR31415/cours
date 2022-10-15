@@ -1,6 +1,7 @@
 up::[[cuisine]]
 #cuisine 
-# recette cake
+
+----
 
  - 2 oeufs
  - 100gr-110gr de sucre

@@ -1,6 +1,7 @@
 up::[[relation d'équivalence]]
 #maths/algèbre #review 
-# classe d'équivalence
+
+---
 Soit un ensemble $E$ et une [[relation d'équivalence]] $\mathscr R$
 Soit $x\in E$
 La _classe d'équivalence de $x$ par $\mathscr R$ dans $E$_ est l'ensemble $\text{cl}(x)$ tel que :

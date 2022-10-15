@@ -1,5 +1,6 @@
 #MOC #maths/arithmétique 
-# MOC arithmétique
+
+----
 
 > [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview

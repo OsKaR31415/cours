@@ -1,6 +1,7 @@
 up::[[unix]]
 #informatique/unix #no-review 
-# unix shell
+
+----
 
  - au début d'une session, chaque utilisateur exécute un logiciel initial, ou interpréteur de commandes, son _login shell_
  - environnement de travail complet :

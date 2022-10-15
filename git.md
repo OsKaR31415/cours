@@ -1,7 +1,8 @@
 up::[[versioning]], [[unix commandes]]
 title::"Système de [[versioning]]"
 #PM #informatique 
-# git
+
+----
 
  - gère des _instantannés_
      - stocke _a priori_ tous les fichiers 

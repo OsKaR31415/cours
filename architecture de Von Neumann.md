@@ -1,7 +1,8 @@
 up::[[architecture des ordinateurs]]
 author::[[John Von Neumann]]
 #informatique #no-review 
-# architecture de Von Neumann
+
+---
 
 Se retrouve toujours dans les architectures actuelles.
 

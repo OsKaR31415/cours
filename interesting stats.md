@@ -1,5 +1,6 @@
 #PKM
-# interesting stats
+
+----
 
 There are `$= dv.pages().length` notes in this vault.
  - `$= dv.pages("#MOC").length` [[Map of content|MOCs]]

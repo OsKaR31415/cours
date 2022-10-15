@@ -3,7 +3,8 @@ alias: "dérivée"
 ---
 up::[[MOC analyse]]
 #maths/analyse #no-review 
-# dérivation
+
+---
 
 
 La dérivée d'une fonction $f$ est la fonction $f'$ telle que :

@@ -1,5 +1,6 @@
 #logique #no-review 
-# complétude sémantique
+
+---
 Ou _complétude faible_
 Soit une [[théorie logique]] $T$ dont on peut donner une définition axiomatique ou sémantique. $T$ est _sémantiquement complète_ ssi **toute [[tautologie]] est démontrable dans $T$**
 

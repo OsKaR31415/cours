@@ -1,4 +1,3 @@
-# {{DATE:YYYY-MM-DD}}
 ## Todo
 - [ ] spaced repetition
 - [ ] kung-fu

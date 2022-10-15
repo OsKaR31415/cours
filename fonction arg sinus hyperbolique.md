@@ -8,7 +8,8 @@ derivative::$\dfrac{1}{\sqrt{1+x^{2}}}$
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \ln\left(x+ \sqrt{1+x^{2}}\right)$"
 title::$\arg \mathrm{sh}$
 #maths/analyse #maths/trigonométrie #review 
-# fonction arg sinus hyperbolique
+
+----
 fonction [[réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]
 
 $\begin{align*} \arg\mathrm{sh} : \quad & \mathbb{R} \rightarrow \mathbb{R} \\ & y \mapsto x \text{ tel que } y = \mathrm{sh}(x) \\ & x \mapsto \ln\left(x+\sqrt{1+x^{2}}\right)\end{align*}$

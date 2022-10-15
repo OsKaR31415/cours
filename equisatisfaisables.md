@@ -1,5 +1,6 @@
 #logique #no-review 
-# equisatisfaisables
+
+----
 Deux formules sont dites _equisatisfaisables_ ssi :
 Si l'une est [[satisfaisable]], l'autre l'est aussi (et réciproquement).
 

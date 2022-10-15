@@ -6,7 +6,8 @@ sibling::[[sinus du double]]
 type::"formule de duplication"
 title::$\cos(2x) = \cos^{2}(x) - \sin^{2}(x)$
 #maths/trigonométrie #no-review  
-# cosinus du double
+
+---
 
 $$\begin{align*}
 \cos(2x) &= \cos^2(x)-\sin^2(x)\\

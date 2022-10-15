@@ -1,5 +1,6 @@
 #maths/ensembles #no-review 
-# cardinal
+
+---
 
 Le _cardinal d'un ensemble_ est le **nombre d'éléments** de cet ensemble.
 Soit $E$ un ensemble, on note $\text{card}(E)$ ou $|E|$ le cardinal de $E$.

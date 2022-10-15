@@ -5,7 +5,8 @@ up::[[morphisme]]
 title::"[[morphisme]] [[bijection|bijectif]]"
 description::
 #maths/algèbre #review 
-# isomorphisme
+
+----
 Un _isomorphisme_ est un [[morphisme]] [[bijection|bijectif]].
 
 ## Exemple

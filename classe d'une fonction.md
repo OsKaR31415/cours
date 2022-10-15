@@ -3,7 +3,8 @@ alias: "classe"
 ---
 up::[[dérivées successives]]
 #maths/analyse #review 
-# classe d'une fonction
+
+---
 voir [[dérivées successives]].
 
 Soit $f$ une fonction définie sur un intervalle $I$.

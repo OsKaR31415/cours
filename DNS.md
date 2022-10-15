@@ -1,6 +1,7 @@
 up::[[internet]]
 #informatique #no-review 
-# DNS
+
+----
 
 
 ## Exemples de noms de domaines

@@ -1,7 +1,8 @@
 #obsidian #PKM 
 up::[[obsidian]]
 title::"how i work in obsidian"
-# obsidian workflow
+
+----
 
 > [!bigquery] Sous-notes de `=this.file.name`
 > ```dataview

@@ -1,6 +1,7 @@
 up::[[système linéaire]]
 #maths/algèbre #review 
-# système linéaire à deux inconnues
+
+----
 
 Des [[système linéaire|systèmes linéaires]] à deux variables, c'est-à-dire de la forme :
 

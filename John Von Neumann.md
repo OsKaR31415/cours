@@ -1,5 +1,6 @@
 #personne
-# John Von Neumann
+
+----
 
 
 ```dataview

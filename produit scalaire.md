@@ -1,6 +1,8 @@
 up::[[vecteur]]
+title::$\langle u; v \rangle = \sum\limits_{i} (u_{i} \times v_{i}) = u^{T}\times v$
 #maths/algèbre #no-review #not-done 
-# produit scalaire
+
+----
 Le _produit scalaire_ de deux [[vecteur|vecteurs]] $u$ et $v$ est défini comme :
 $<u, v> = u +.\times v = u^T \times v$ ([[multiplication de matrices]], avec $u$ en ligne et $v$ en colonnes)
 

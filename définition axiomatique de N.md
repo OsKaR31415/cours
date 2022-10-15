@@ -1,6 +1,7 @@
 up::[[axiomatique]]
 #maths
-# définition axiomatique de N
+
+---
 
 ## Axiomes de Peano
  - $0 \in \mathbb{N}$

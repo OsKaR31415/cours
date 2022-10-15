@@ -1,6 +1,7 @@
 up::[[unix commandes]]
 #informatique 
-# unix commande chmod
+
+----
 
 Pour changer les [[unix droits|permissions]] des fichiers
 

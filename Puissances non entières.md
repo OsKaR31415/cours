@@ -1,6 +1,7 @@
 up::[[MOC arithmétique]]
 #maths/arithmétique #no-review 
-# Puissances non entières
+
+----
 
 
 ## Propriétés

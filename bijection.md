@@ -8,7 +8,8 @@ up::[[application]]
 description::"$\forall x \in \mathscr{D}_{f}, \exists! y \in f(\mathscr{D}_{f}), y = f(x)$", "$\forall y \in f(\mathscr{D}_{f}), \exists! x \in \mathsf{D}_{f}, y = f(x)$"
 title::"[[application]] [[injection|injective]] et [[surjection|surjective]]"
 #maths/analyse #review 
-# bijection
+
+---
 
 Une *bijection* est une [[application]] [[surjection|surjective]] et [[injection|injective]].
 

@@ -1,7 +1,8 @@
 up::[[LaTeX]]
 title::"comment aligner correctement une suite d'équations"
 #informatique #no-review 
-# LaTeX aligner des équations
+
+----
 
 ## Alignement simple
 $$\begin{align*}

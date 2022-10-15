@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# modèle logique
+
+----
 
 Constantes utilisées
  - **att** un ensemble d'attributs totalement ordonnés par $\leq$

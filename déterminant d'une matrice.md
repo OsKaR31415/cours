@@ -6,7 +6,8 @@ sr-ease: 291
 
 up::[[matrice]]
 #maths/algèbre #review 
-# déterminant d'une matrice
+
+---
 Soit $A$ une [[matrice]].
 On note $\det(A)$ le _déterminant_ d'une matrice.
 

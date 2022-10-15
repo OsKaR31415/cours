@@ -1,6 +1,7 @@
 up::[[croissances comparées usuelles]]
 #maths #no-review 
-# démonstration croissance comparée $\ln(x)$ et $x$
+
+---
 
 On cherche à montrer que $\ln(x) = o(x)$
 

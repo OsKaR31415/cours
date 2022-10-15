@@ -1,7 +1,8 @@
 up::[[installing things]]
 title::"macos package manager"
 #informatique 
-# homebrew
+
+----
 
 ## Changing installation settings
 You can edit settings for a certain app using : 

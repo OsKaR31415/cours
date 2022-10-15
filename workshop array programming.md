@@ -1,7 +1,8 @@
 up::[[APL]]
 title::"workshop sur la programmation array ([[APL]])"
 #informatique #no-review 
-# workshop array programming
+
+----
 
 ## [[notation as a tool of thought.pdf|Notation as a tool of thought]]
 

@@ -1,6 +1,7 @@
 up::[[polynôme]]
 #maths/algèbre #maths/analyse #review 
-# polynôme unitaire
+
+----
 Un [[polynôme]] _unitaire_ est un polynôme dont le coefficient du terme de plus haut [[polynôme#Degré|degré]] est $1$
 
 C'est donc un polynôme de la forme :

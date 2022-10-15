@@ -1,6 +1,7 @@
 up::[[fonction]]
 #maths/analyse #no-review 
-# fonction réciproque
+
+----
 
 Soit $f$ une [[bijection]] de $E$ dans $F$:
 $$f: E \rightarrow F$$

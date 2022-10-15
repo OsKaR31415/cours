@@ -1,6 +1,7 @@
 up::[[permutation]]
 #maths/algèbre #review 
-# support d'une permutation
+
+----
 
 Soit $\sigma$ une [[permutation]].
 On note $\text{Supp}(\sigma)$ et on appelle _support de $\sigma$_ l'ensemble des éléments qui **ne sont pas [[invariant par une permutation|invariants]] par $\sigma$**

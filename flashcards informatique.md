@@ -1,5 +1,6 @@
 #flashcards 
-# Flashcards informatique
+
+----
 
 différence [[unix liens symboliques et physiques|lien physique]] <-> [[unix liens symboliques et physiques|lien symbolique]] 
 ?

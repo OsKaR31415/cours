@@ -10,7 +10,8 @@ up::[[suite]]
 sibling::[[limite inférieure d'une suite]]
 title::"$\sup\big\{u_{n} \mid n>k\big\}$ quand $k \to +\infty$"
 #maths/analyse #no-review 
-# limite supérieure d'une suite
+
+----
 Soit $(x_{n})$ une suite réelle
 On appelle _limite supérieure de $(x_{n})$_ le nombre $L \in \overline{\R}$ le nombre tel que :
  - Quelque soit $\lambda < L$, l'ensemble des $n \in \N$ tels que $x_{n} > \lambda$ est infini

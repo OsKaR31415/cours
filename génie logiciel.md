@@ -1,5 +1,6 @@
 #informatique #no-review 
-# génie logiciel
+
+----
 
 
 > [!query] Sous-notes de `=this.file.link`

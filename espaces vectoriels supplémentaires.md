@@ -4,7 +4,8 @@ alias: "supplémentaires"
 up::[[somme d'espaces vectoriels]]
 sibling::[[somme directe d'espaces vectoriels]]
 #maths/algèbre #no-review 
-# espaces vectoriels supplémentaires
+
+----
 Soient $F$ et $G$ deux [[sous espace vectoriel|sous espaces vectoriels]] de $E$
 $F$ et $G$ sont _supplémentaires dans $E$_ ssi tout élément de $E$ s'écrit de manière unique comme la somme d'un élément de $F$ et d'un élément de $G$
 

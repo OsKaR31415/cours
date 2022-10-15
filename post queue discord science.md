@@ -1,6 +1,7 @@
 up::[[post queues]]
 #science #no-review 
-# post queue discord science
+
+----
 
 
 > [!done] The concept of ruliad

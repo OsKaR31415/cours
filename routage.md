@@ -1,7 +1,8 @@
 up::[[réseau informatique]]
 sibling::[[routeur réseau]]
 #informatique 
-# routage
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

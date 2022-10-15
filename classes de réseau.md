@@ -1,7 +1,8 @@
 up::[[réseau informatique]]
 title::"différents types de réseau"
 #informatique #review 
-# classes de réseau
+
+---
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

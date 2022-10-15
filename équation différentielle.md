@@ -1,6 +1,7 @@
 up::[[équation fonctionnelle]]
 #maths/algèbre #no-review 
-# équation différentielle
+
+----
 
  - [[équation différentielle du premier ordre]]
 

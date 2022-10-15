@@ -1,6 +1,7 @@
 up::[[MOC informatique|informatique]]
 #informatique 
-# encodage
+
+----
 
  - transformer une [[information]] en une donnée utilisable
 

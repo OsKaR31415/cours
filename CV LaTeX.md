@@ -27,7 +27,8 @@ header-includes: |
 ---
 #autres 
 
-# CV LaTeX
+
+---
 
 \begin{tabular}{lcl}
 

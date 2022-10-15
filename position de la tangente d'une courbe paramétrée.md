@@ -1,6 +1,7 @@
 up::[[courbe paramétrée]]
 #maths/algèbre #review 
-# position de la tangente d'une courbe paramétrée
+
+----
 Soit une [[courbe paramétrée]] $f: t \mapsto M(t)$
 Lorsque la courbe approche sa tangente en un point $t_0$, la courbe peut être positionée de plusieurs manières par rapport à sa tangente :
 

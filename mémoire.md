@@ -1,6 +1,7 @@
 up::[[architecture des ordinateurs]]
 #informatique 
-# mémoire
+
+----
 
  - espace de [[stockage des données]] 
  - composées de circuits logiques

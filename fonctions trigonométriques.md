@@ -1,6 +1,7 @@
 up::[[MOC trigonométrie]]
 #maths/trigonométrie #no-review 
-# fonctions trigonométriques
+
+----
 
 
 

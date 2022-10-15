@@ -1,7 +1,8 @@
 up::
 title::"personnes par date d'anniversaire"
 #PKM 
-# anniversaires
+
+---
 
 > [!query] Personnes triées par date d'anniversaire
 > ```dataview

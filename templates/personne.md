@@ -1,7 +1,8 @@
 link::
 title::
 #personne
-# {{TITLE}}
+
+---
 
 
 ```dataview

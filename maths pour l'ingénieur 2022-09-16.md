@@ -1,5 +1,6 @@
 #exercice #maths 
-# maths pour l'ingénieur 2022-09-16
+
+----
 
 ## Exercice 1
 ### 1)

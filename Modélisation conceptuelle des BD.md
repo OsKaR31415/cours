@@ -1,5 +1,6 @@
 #informatique #no-review 
-# Modélisation conceptuelle des BD
+
+----
 
 - Tâches de conception
     - Définir une **représentation** des **données** à l'aide de **concepts** qui :

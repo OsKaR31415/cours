@@ -3,7 +3,8 @@ alias: "suite extraite"
 ---
 up::[[suite]]
 #maths/analyse #no-review 
-# sous suite
+
+----
 Soit $(u_{n})$ une suite
 Une _sous suite_ de $(u_{n})$ (ou _suite extraite_) est une suite de la forme :
 $\left( u_{\varphi(n)} \right)_{n \in \N}$ où $\varphi : \N \rightarrow \N$ est strictement croissante

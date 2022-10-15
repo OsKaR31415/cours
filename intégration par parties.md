@@ -1,16 +1,18 @@
 up::[[intégration]]
 #maths/analyse #review 
-# intégration par parties
 
-$\disp\int u'v\d x = uv - \int uv'\d x$
+----
+
+
+$\displaystyle \int u' \times v \, dx = u\times v - \int u \times v' \, dx$
 
 Formule de l'intégration par parties :
 
-$\disp\int u'(x)v(x)\d x = u(x)v(x) - \int u(x)v'(x) \d x$
+$\displaystyle \int u'(x)\times v(x) \, dx = u(x)\times v(x) - \int u(x)v'(x) \, dx$
 
 Ou, avec bornes : 
 
-$\disp\int_\alpha^\beta u'(x)v(x)\d x = \big[u(x)v(x)\big]_\alpha^\beta - \int_\alpha^\beta u(x)v'(x) \d x$
+$\displaystyle \int _{\alpha}^{\beta} u'(x)\times v(x) \, dx = \left[ u(x)\times v(x) \right]_{\alpha}^{\beta} - \int _{\alpha}^{\beta} u(x)\times v'(x) \, dx$
 
 
 ## Démonstration

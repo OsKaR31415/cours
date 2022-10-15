@@ -1,6 +1,7 @@
 up::[[polynôme]]
 #maths/analyse #no-review 
-# équation du second degré
+
+----
 Ou _équation [[polynôme]] du second degré_.
 
 Une équation du second degré s'écrit :

@@ -1,7 +1,8 @@
 up::[[développement limité]]
 title::"$\disp f(x_{0}) = \sum_{k=0}^{n} \left( \frac{f^{(k)}(x_{0})}{k!}\cdot(x-x_{0})^{k} \right)$"
 #maths/analyse #review 
-# formules de Taylor
+
+----
 Formules pour calculer des [[développement limité]].
 
 ## Formule de Taylor pour les polynômes

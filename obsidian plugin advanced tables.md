@@ -5,7 +5,8 @@ up::[[obsidian plugins]]
 link::https://github.com/tgrosinger/advanced-tables-obsidian
 title::"création/manipulation des tables markdown"
 #obsidian 
-# obsidian plugin advanced tables
+
+----
  - pour faire des Tables markdown
  - auto changement de la largeur des colonnes
  - (ajouter|supprimer) des (lignes|colonnes)

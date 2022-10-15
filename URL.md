@@ -1,6 +1,7 @@
 up::[[internet]]
 #informatique #no-review 
-# URL
+
+----
 ---
 ## Format de nommage universel
 Pour nommer une ressource (au sens large) Internet

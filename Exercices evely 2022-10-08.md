@@ -1,5 +1,6 @@
 #exercice #maths
-# Exercices evelyne 2022-10-08
+
+----
 ![800](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664963348304.png?1664963348339)
 
 $\displaystyle I_{4} = \int_{0}^{\frac{\pi}{2}} \frac{\sin ^{3}t}{1+\cos ^{2}t} \, dt$

@@ -2,7 +2,8 @@ due::2022-10-10
 title::"Exercices 6 TD2 bases de données"
 difficulty::🟩 🟧 🟥
 #devoir-fait
-# TD2 base de données
+
+----
 
 ## Savoir écrire des démonstrations 
 Dans ce qui suit, $I$ est une instance de base de données et $q$ une requête conjonctive.

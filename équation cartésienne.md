@@ -1,7 +1,8 @@
 up::[[MOC analyse|analyse]]
 author::[[Descartes]]
 #maths
-# équation cartésienne
+
+----
 
 > [!definition] Equation cartésienne
 > Une équation de la forme 

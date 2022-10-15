@@ -1,6 +1,7 @@
 up::[[MOC analyse]]
 #maths/analyse #review
-# constante d'Euler-Mascheroni
+
+---
 Notée $\gamma$
 
 ## Définitions

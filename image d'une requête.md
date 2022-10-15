@@ -1,6 +1,7 @@
 up::[[requête]]
 #informatique #no-review 
-# image d'une requête
+
+----
 Soit $q$ une [[requête]] $ans(u)\leftarrow R_1(u_1), \ldots, R_n(u_n)$
 Soit $I$ une instance de [[base de données]] de schéma $D$
 l'_image_ de (la réponse à) $q$ sur $I$ est :

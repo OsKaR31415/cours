@@ -1,5 +1,6 @@
 #informatique #no-review 
-# code morse
+
+---
 Le _code Morse international_, l'_alphabet Morse international_ :
  - alphabet pour transmettre un texte comme une série d'impulsions courtes et longues
  - inventé en 1832 pour la télégraphie

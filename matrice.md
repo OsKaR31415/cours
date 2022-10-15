@@ -1,6 +1,7 @@
 up::[[MOC algèbre]]
 #maths/algèbre #no-review 
-# matrice
+
+----
 Une matrice est l'objet mathématique désignant un tableau.
 
 Une matrice à $m$ lignes et $n$ colonnes (souvent dit $m\times n$) est un tableau rectangulaire de $m\times n$ nombres.

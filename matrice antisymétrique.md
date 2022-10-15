@@ -1,7 +1,8 @@
 up::[[matrice]]
 title::"$M^{T} = -M$ ([[transposée]])"
 #maths/algèbre #review 
-# matrice antisymétrique
+
+----
 Soit $M\in M_{n,n}(\R)$ une [[matrice]], $M$ est _antisymétrique_ ssi :
 $M^{T}=-M$ (Sa transposée est son opposé).
 

@@ -1,6 +1,7 @@
 up::[[ensemble]]
 #maths/ensembles #review 
-# ensemble équipotent
+
+----
 L'_équipotence_ est une relations entre ensembles.
 Deux ensembles sont _équipotents_ si il existe une [[bijection]] entre entre eux.
 

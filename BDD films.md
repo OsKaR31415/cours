@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# BDD films
+
+---
 
 | film | nom      | auteur | date |
 |------|----------|--------|------|

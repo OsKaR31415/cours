@@ -1,7 +1,8 @@
 up::[[système d'exploitation]]
 title:::dev_unix_original:
 #informatique #no-review 
-# unix
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

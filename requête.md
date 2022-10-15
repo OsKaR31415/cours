@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# requête
+
+----
 
 Une "question" que l'on pose à une [[base de données]].
 

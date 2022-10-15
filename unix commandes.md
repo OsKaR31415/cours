@@ -1,7 +1,8 @@
-up::[[unix commandes]]
+p::[[unix commandes]]
 title::"commandes du shell unix"
 #informatique/unix #no-review 
-# unix commandes
+
+----
 
 
 > [!query] Sous-notes de [[unix commandes]]

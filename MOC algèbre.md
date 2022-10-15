@@ -2,7 +2,8 @@
 alias: "algèbre"
 ---
 #MOC #maths/algèbre 
-# MOC algèbre
+
+----
 
 > [!smallquery]- Sous-notes de `=this.file.link`
 > ```dataview
@@ -15,7 +16,7 @@ alias: "algèbre"
 
 ## Structures algébriques
 
-> [!smallquery]- Sous-notes de [[structure algébrique]]
+> [!smallquery] Sous-notes de [[structure algébrique]]
 > ```dataview
 > TABLE title, description, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
@@ -38,7 +39,7 @@ alias: "algèbre"
 > ```
 
 ### Applications linéaires
-> [!smallquery]- Sous-notes de [[application linéaire]]
+> [!smallquery] Sous-notes de [[application linéaire]]
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
@@ -47,14 +48,6 @@ alias: "algèbre"
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
- - [[application linéaire]]
-     - [[rang d'une application linéaire]]
-     - [[image d'une application linéaire]]
-     - [[Noyau d'une application linéaire]]
-     - [[matrice associée à une application linéaire]]
- - [[système linéaire]]
-     - [[équation linéaire à 2 variables entières]]
- - [[combinaison linéaire]]
 
 
 
@@ -71,7 +64,7 @@ alias: "algèbre"
 
 ### Espaces vectoriels
 
-> [!smallquery]- Sous-notes de [[espace vectoriel]]
+> [!smallquery] Sous-notes de [[espace vectoriel]]
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
@@ -83,7 +76,7 @@ alias: "algèbre"
 
 #### Famille de vecteurs
 
-> [!smallquery]- Sous-notes de [[famille de vecteurs]]
+> [!smallquery] Sous-notes de [[famille de vecteurs]]
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

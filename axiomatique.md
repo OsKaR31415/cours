@@ -1,5 +1,6 @@
 #maths #logique 
-# axiomatique
+
+---
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

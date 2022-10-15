@@ -1,6 +1,7 @@
 up::[[requête]]
 #informatique 
-# calcul conjonctif
+
+---
 
  - $R(a, b, \dots)$
  - $\varphi \wedge \psi$ où $\varphi$ et $\psi$ sont des requêtes valides

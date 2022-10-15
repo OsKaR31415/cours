@@ -1,6 +1,7 @@
 up::[[MOC analyse]]
 #MOC #maths/analyse 
-# MOC fonctions
+
+----
 [[fonction|fonctions]] particulières
 
 > [!smallquery] Sous-notes de `=this.file.link`

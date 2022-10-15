@@ -6,13 +6,14 @@ sr-ease: 308
 ---
 up::[[courbe paramétrée]]
 #maths/analyse #review 
-# multiplicité d'un point d'une courbe paramétrée
+
+----
 
 Soit $f$ une [[courbe paramétrée]] :
-$\begin{align*} f:& D\subset\R \rightarrow \R^2\\ &t\mapsto M(t)  \end{align*}$ 
+$\begin{align*} f:& D\subset\mathbb{R} \rightarrow \mathbb{R}^2\\ &t\mapsto M(t)  \end{align*}$ 
 
 Soit $A$ un point du [[Support d'une courbe paramétrée|support]] de $f$ 
-La _multiplicité_ de $A$ est $\card(f^{-1}(A))$
+La _multiplicité_ de $A$ est $\mathrm{card}(f^{-1}(A))$
 
 C'est donc le nombre de réels $t$ pour lesquels $M(t) = A$
 

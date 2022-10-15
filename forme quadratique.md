@@ -1,5 +1,6 @@
 #maths/algèbre 
-# forme quadratique
+
+----
 
 > [!definition] Forme quadratique
 > Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] finie

@@ -1,7 +1,8 @@
 up::[[unix redirection de flux]]
 title::"conversion de fichiers texte ([[ligne de commande]])"
 #informatique #no-review 
-# textutil
+
+----
 outil [[ligne de commande]]
 Pour manipuler des fichiers texte de différents formats
 

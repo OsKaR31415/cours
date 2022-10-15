@@ -8,7 +8,8 @@ up::[[application]]
 sibling::[[combinaison linéaire]]
 title::"$f(\lambda u+v) = \lambda f(u) + f(v)$"
 #maths/algèbre 
-# application linéaire
+
+---
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,
 $f: E \mapsto F$ est _linéaire_ ssi :
 $\forall(u,v)\in E^{2}, \forall\lambda\in\mathbb{R},\;\;\; f(u+v) = f(u) + f(v) \;\;\wedge\;\; f(\lambda u) = \lambda f(u)$

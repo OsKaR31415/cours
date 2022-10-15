@@ -1,6 +1,7 @@
 up::[[MOC dénombrement]]
 #maths/dénombrement #maths/arithmétique #no-review 
-# somme des termes d'une suite
+
+----
 Soit $u$ une [[suite]]
 
 ## Suite Arithmétique

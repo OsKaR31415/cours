@@ -6,7 +6,8 @@ sr-ease: 302
 
 up::[[MOC trigonométrie]]
 #maths/trigonométrie #review 
-# Formules d'Euler
+
+----
 
 
 ## cosinus

@@ -1,6 +1,7 @@
 up::[[polynôme]]
 #maths/analyse #no-review 
-# discriminant
+
+----
 
 Le _discriminant_ d'un polynôme (du second degré) est un indicateur qui permet de résoudre des équations
 

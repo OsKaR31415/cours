@@ -1,7 +1,8 @@
 up::[[espace]]
 title::
 #maths/algèbre 
-# espace euclidien
+
+----
 
 > [!definition] Espace  euclidien
 > Un espace euclidien est défini par la donnée :

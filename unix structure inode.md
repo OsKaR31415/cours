@@ -4,7 +4,8 @@ alias: "inode"
 up::[[unix]]
 title::![[unix structure inode 2022-09-21 16.01.38.excalidraw|400]]
 #informatique/unix #no-review 
-# unix structure inode
+
+----
 Tous les [[unix fichier|fichiers]] sont gérés par le [[système d'exploitation|SE]] au moyen des _inodes_.
 
  - numéro unique pour chaque fichier

@@ -1,7 +1,8 @@
 up:: [[automorphisme]] 
 title:: "[[isomorphisme]] [[application linéaire|linéaire]] d'un ensemble dans lui-même"
 #maths/algèbre #review 
-# automorphisme linéaire
+
+---
 Un _automorphisme linéaire_ est un [[automorphisme]] qui est aussi une [[application linéaire]].
 
 > [!définition]

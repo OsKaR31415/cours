@@ -1,5 +1,6 @@
 #maths #no-review 
-# suite
+
+----
 Une _suite_ est une [[famille]] d'éléments - appelés ses _termes_ - indexée par les entiers naturels
 
 > [!définition]

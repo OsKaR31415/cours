@@ -1,6 +1,7 @@
 up::[[gantt diagram]], [[obsidian syntaxe]] 
 #informatique 
-# obsidian gantt diagram
+
+----
 
 
 

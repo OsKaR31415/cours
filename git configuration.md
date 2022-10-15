@@ -1,7 +1,8 @@
 up::[[git]]
 title::"configurations de git (username, email, editor...)"
 #informatique 
-# git configuration
+
+----
 
 ```bash
 $> git config --global user.name "Thierry Brouard"  # nom d'utilisateur local

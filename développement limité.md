@@ -1,6 +1,7 @@
 u\p::[[MOC analyse]]
 #maths/analyse #review 
-# développement limité
+
+---
 
 ## Définition
 Soient $n\in\mathbb N$,

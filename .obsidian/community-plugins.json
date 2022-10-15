@@ -34,7 +34,6 @@
   "obsidian-advanced-uri",
   "obsidian-shellcommands",
   "excalibrain",
-  "sliding-panes-obsidian",
   "obsidian-path-finder",
   "obsidian-custom-frames",
   "sekund",
@@ -50,12 +49,11 @@
   "obsidian-markmind",
   "pane-relief",
   "text-snippets-obsidian",
-  "obsidian-3d-graph",
   "various-complements",
   "obsidian-share-as-gist",
   "customizable-page-header-buttons",
-  "obsidian-filename-heading-sync",
   "darlal-switcher-plus",
   "obsidian-quickshare",
-  "obsidian-better-internal-link-inserter"
+  "obsidian-better-internal-link-inserter",
+  "obsidian-argdown-plugin"
 ]

@@ -1,6 +1,7 @@
 up::[[couche liaison]]
 #informatique #no-review 
-# Modes de communication
+
+----
 
 
  - "full duplex"

@@ -1,6 +1,7 @@
 up::[[système linéaire]]
 #maths/algèbre #review 
-# système linéaire incompatible
+
+----
 Un _[[système linéaire]] incompatible_ est un système qui n'admet aucune solution.
 
 ## Propriétés

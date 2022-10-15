@@ -5,7 +5,8 @@ sr-ease: 295
 ---
 up::[[MOC algèbre]]
 #maths/algèbre #review 
-# permutation
+
+----
 Une _permutation_ représente le réarrangement d'objets.
 
 ## Définition

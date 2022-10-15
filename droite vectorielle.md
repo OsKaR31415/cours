@@ -5,7 +5,8 @@ up::[[espace vectoriel]]
 sibling::[[plan vectoriel]]
 title::"[[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] 1"
 #maths/algèbre #no-review
-# droite vectorielle
+
+----
 Une _droite vectorielle_ est un [[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] 1
 
 

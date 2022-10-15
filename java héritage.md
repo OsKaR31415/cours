@@ -3,7 +3,8 @@ alias: "héritage"
 ---
 up::[[java]], [[paradygme programmation orientée objet|OOP]]
 #informatique 
-# java héritage
+
+----
 
 
 > [!définition]

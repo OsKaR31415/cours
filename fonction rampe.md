@@ -1,7 +1,8 @@
 up::[[MOC fonctions]]
 title::"$R(x) = \begin{cases} x \text{ si } x \geq 0,\quad\\ 0 \text{ si } x < 0 \end{cases}$"
 #maths/analyse #no-review 
-# fonction rampe
+
+----
 La fonction _rampe_ Est la [[fonction]] définie par :
 $$\begin{align}
 R : & \mathbb{R} \rightarrow \mathbb{R}\\

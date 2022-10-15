@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# stockage des données
+
+----
 
 ## Différents moyenS de stockage des données
  - Papier

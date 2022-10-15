@@ -1,6 +1,7 @@
 up::[[requête conjonctive]]
 #informatique 
-# propriétés des requêtes conjonctives
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

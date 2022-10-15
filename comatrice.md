@@ -1,6 +1,7 @@
 up::[[matrice]]
 #maths/algèbre #review 
-# comatrice
+
+---
 Soit $A$ une [[matrice]] de taille $n\times n$.
 
 On pose les coefficients suivants :

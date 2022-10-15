@@ -1,7 +1,8 @@
 up::[[MOC arithmétique]]
 title::"$p$ tel que les seuls diviseurs de $p$ sont $1$ et $p$ et que $p \neq 1$"
 #maths/arithmétique #no-review 
-# nombre premier
+
+----
 
 Un *nombre premier* est un entier $\geq 2$ dont les seuls diviseurs positifs sont $1$ et $p$.
 

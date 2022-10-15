@@ -2,7 +2,8 @@
 alias: "BDD"
 ---
 #informatique #no-review 
-# base de données
+
+---
 > [!query]- Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"

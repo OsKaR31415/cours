@@ -11,7 +11,8 @@ derivative::[[fonction cosinus hyperbolique|ch]]
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\mathrm{sh}$
 #maths/analyse #maths/trigonométrie #no-review 
-# fonction sinus hyperbolique
+
+----
 Noté $\sinh$, ou $\text{sh}$.
 $\mathrm{sh}(x) = \dfrac{e^x - e^{-x}}2$
 

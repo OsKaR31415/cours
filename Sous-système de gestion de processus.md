@@ -1,6 +1,7 @@
 up::[[système d'exploitation]]
 #informatique 
-# Sous-système de gestion de processus
+
+----
 Corrdonne tous les besoins nécessaires à la gestion des processus
 
  - cycle de vie d'un processus --> création, exécution et terminaison

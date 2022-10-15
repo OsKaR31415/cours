@@ -1,4 +1,5 @@
-# unix types de fichiers
+
+----
 
  - fichiers réguliers
  - 

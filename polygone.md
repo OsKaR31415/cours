@@ -1,6 +1,7 @@
 up::[[MOC géométrie]]
 #maths/géométrie #no-review 
-# polygone
+
+----
 Un **polygone** est une figure géométrique plane formée d'une _ligne brisée_ **fermée**, c'est-à-dire d'une suite cyclique de segments consécutifs
 
 

@@ -1,6 +1,7 @@
 up::[[propriétés des requêtes conjonctives]]
 #informatique #not-done 
-# requêtes équivalentes
+
+----
 
 Deux requêtes sont équivalentes si on peut exprimer 
 

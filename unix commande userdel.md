@@ -1,7 +1,8 @@
 up::[[unix commandes d'identification]]
 sibling::[[unix commande useradd]]
 #informatique/unix #no-review 
-# unix commande userdel
+
+----
  - supprimer un utilisateur
  - supprime son répertoire home avec
      - [!] si on ne le supprime pas, l'UID peut être attribué à un autre nouvel utilisateur, donc les fichiers seront accessibles à un autre utilisateur

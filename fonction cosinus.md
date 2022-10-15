@@ -8,7 +8,8 @@ properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [-1;1]$", "$\dfrac{e^{ix}+e^{-ix}}{2}$"
 title::$\cos$
 #maths/analyse #maths/trigonométrie #no-review 
-# fonction cosinus
+
+----
 
 Notée $\cos$.
 Elle est [[fonction continue|continue]] et [[fonction dérivable|dérivable]] sur $\mathbb{R}$.

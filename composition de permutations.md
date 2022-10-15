@@ -3,7 +3,8 @@ alias: "composition"
 ---
 up::[[permutation]]
 #maths/algèbre #no-review 
-# composition de permutations
+
+---
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].
 On note $\sigma\circ\sigma'$ le _produit_ (ou _composition_) de $\sigma$ et $\sigma'$.
 $\sigma\circ\sigma'$ est la permutation composée de l'application successive $\sigma'$ puis de $\sigma$.

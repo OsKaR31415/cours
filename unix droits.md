@@ -3,7 +3,8 @@ alias: [ "droits", "permissions" ]
 ---
 up::[[unix]]
 #informatique/unix #no-review 
-# unix droits
+
+----
 
 | Droits        | Fichier | Répertoire |
 | ------------- | ------- | ---------- |

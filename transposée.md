@@ -1,7 +1,8 @@
 up::[[matrice]]
 title::"$M^{T}_{i,j}=M_{j,i}$"
 #maths/algèbre #no-review 
-# transposée
+
+----
 
 Soit $M$ une [[matrice|matrice]] de dimension $(m, n)$.
 La _transposée_ de $M$ est la matrice $M^T$ (ou $^TM$) telle que :

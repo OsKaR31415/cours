@@ -1,6 +1,7 @@
 up::[[diagramme UML]]
 #informatique 
-# UML diagramme de cas d'utilisation
+
+----
 
 title::![[diagramme de cas d'utilisation 2022-10-04 08.32.29.excalidraw|700]]
 

@@ -1,6 +1,7 @@
 up::[[méthodologie agile]]
 #PM #no-review 
-# méthodologie scrum
+
+----
 
  - scrum : argot pour _mêlée_ au rugby
  - analogie à la mêlée du Rubby

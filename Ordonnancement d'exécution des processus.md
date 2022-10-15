@@ -6,7 +6,8 @@ down:: [[Ordonnancement SJF]]
 
 up::[[système d'exploitation]]
 #informatique 
-# Ordonnancement d'exécution des processus
+
+----
 
  - Base des [[système d'exploitation|SE]] multiprogrammés --> optimiser l'utilisation de l'[[unité centrale]]
 

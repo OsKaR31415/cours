@@ -1,7 +1,8 @@
 up::[[obsidian workflow]]
 title::"how and why of exercice notes"
 #obsidian #PKM
-# obsidian workflow exercices
+
+----
 Pour les exercices faits sur obsidian
 
 ![[Excalidraw/workflow.excalidraw.md#^group=xtPo1W30o9e5a0jUcd5qC|1000]]

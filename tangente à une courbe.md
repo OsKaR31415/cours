@@ -1,6 +1,7 @@
 up::[[MOC analyse|analyse]]
 #maths/analyse #no-review 
-# tangente à une courbe
+
+----
 Soit $\mathscr{C}_f$ la courbe représentative de la fonction $f$.
 La tangente en un point $M$ à $\mathscr{C}_f$ est la droite qui à la même direction que $\mathscr{C}_{f}$ au point $M$, et qui passe par le point $M$.
 

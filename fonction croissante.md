@@ -1,7 +1,8 @@
 up::[[fonction]]
 title::"$x \geq x' \implies f(x) \geq f(x')$"
 #maths/analyse #no-review 
-# fonction croissante
+
+----
 Soit $f$ une fonction définie sur un intervalle $I$.
 On dit que $f$ est _croissante_ sur $I$ ssi :
 $\forall (x; x')\in I^2, x \geq x' \implies f(x) \geq f(x')$

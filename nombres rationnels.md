@@ -1,12 +1,13 @@
 ---
 alias: [ "nombre rationnel", "rationnel", "rationnels" ]
 ---
-sibling:: [[nombres irrationls]]
+sibling:: [[nombres irrationels]]
 
 up::[[ensembles de nombres]]
 title::"$\mathbb{Q} := \left\{  \frac{a}{b} \mid (a, b) \in \mathbb{Z} \times \mathbb{Z}^{*}  \right\}$"
 #maths
-# nombres rationnels
+
+----
 
 Les nombres rationnels sont l'ensemble des nombres que l'on peut écrire sous forme de fraction de deux [[entiers relatifs]].
 

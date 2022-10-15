@@ -1,7 +1,8 @@
 up::[[représentation des nombres en binaire]]
 title::"partie entière et partie décimale"
 #informatique 
-# codage binaire des nombres réels en virgule fixe
+
+---
 
  - format en deux parties : [[partie entière]] et partie décimale
 

@@ -1,6 +1,7 @@
 up::[[MOC fonctions]]
 #maths/analyse #no-review 
-# fonction signe
+
+----
 La _fonction signe_, notée $\sgn$ ou $\sg$, est une [[fonction]] qui extrait le signe d'un nombre réel.
 
 $$\sgn(x) = \left\{\begin{array}{lr}

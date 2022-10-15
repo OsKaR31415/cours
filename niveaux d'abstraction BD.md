@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# niveaux d'abstraction BD
+
+----
 ## Niveau d'abstraction
 
 En [[base de données]], on a coutume de distinguer 3 niveauX d'abstraction :

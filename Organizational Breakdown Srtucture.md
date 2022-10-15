@@ -3,7 +3,8 @@ alias: "OBS"
 ---
 up::[[outils de gestion de projet]]
 #PM #no-review 
-# Organizational Breakdown Srtucture
+
+----
 
 > [!important] objectif
 > qui fait quoi pour chaque tâche

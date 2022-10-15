@@ -3,7 +3,8 @@ alias: ["orienté objet", "programmation orientée objet", "OOP"]
 ---
 up::[[paradygme de programmation]]
 #informatique #no-review 
-# paradygme programmation orientée objet
+
+----
 
 Contrairement a la programmation [[paradygme programmation procédurale|procédurale]] (définition de _procédures_), la programmation _orientée objet_ repose sur la définition de _classe_
 

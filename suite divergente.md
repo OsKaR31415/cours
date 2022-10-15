@@ -1,7 +1,8 @@
 up::[[suite]]
 sibling::[[fonction convergente|converge]]
 #maths/analyse #no-review 
-# suite divergente
+
+----
 Une _suite divergente_ est une [[suite]] qui ne [[suite convergente|converge]] pas.
 
 > [!definition] divergence vers $+\infty$

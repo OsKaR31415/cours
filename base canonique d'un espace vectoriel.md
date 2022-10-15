@@ -3,7 +3,8 @@ alias: "base canonique"
 ---
 up::[[base d'un espace vectoriel]]
 #maths/algèbre #review 
-# base canonique d'un espace vectoriel
+
+---
 
 ## Définition
 Soit $E$ un espace vectoriel de [[dimension d'un espace vectoriel|dimension]] $n$,

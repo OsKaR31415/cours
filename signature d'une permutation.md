@@ -1,6 +1,7 @@
 up::[[permutation]]
 #maths/algèbre #review 
-# signature d'une permutation
+
+----
 Soit $s$ une [[permutation]].
 Soit $k$ le nombre de [[transposition|transpositions]] dans la [[décomposition en produit de transpositions]] de s.
 La _signature_ de $s$ est $\varepsilon(s) = (-1)^k$, soit $\varepsilon(s) = \left\{\begin{gathered}1\text{ si } k\in2\mathbb Z\\ -1\text{ sinon}\end{gathered}\right.$

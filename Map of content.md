@@ -5,7 +5,8 @@ title:
  - "you have a preconcieved idea"
 ---
 #PKM #not-done #no-review 
-# Map of content
+
+----
 
 ## When ?
  - when you reach a [[mental squezze point]]

@@ -1,6 +1,7 @@
 up::[[algèbre relationelle]]
 #informatique 
-# algèbre SPJR
+
+---
 
 | initiale | opération          | symbole   |
 | -------- | ------------------ | --------- |

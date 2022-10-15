@@ -2,7 +2,8 @@ date::2022-08-22
 #exercice #maths/algèbre 
 
 
-# exercices espaces vectoriels 2022-08-22
+
+----
 ## déterminer lesquels de ces ensembles forment des espaces vectoriels :
 
 ### $E_{2} = \{ (x;y;z) \in \mathbb{R}^{3} \mid x^{2} - z^{2} = 0 \}$

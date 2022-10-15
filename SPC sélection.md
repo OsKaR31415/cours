@@ -1,6 +1,7 @@
 up::[[algèbre SPC]]
 #informatique 
-# SPC sélection
+
+----
 
 Soient $j, k \in \mathbb{N}$ et $a \in \mathbf{dom}$, $I$ une instance de relation, tels que $\max(j, k) \leq \text{arité}(I)$
 

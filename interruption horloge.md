@@ -1,6 +1,7 @@
 up:: [[Commutation de Processus]]
 #informatique 
-# interruption horloge
+
+----
 
 ## Routine de traitement de l'interuption horloge
  1. Réarmer l'interruption horloge 

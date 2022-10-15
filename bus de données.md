@@ -4,7 +4,8 @@ alias: "bus"
 up::[[architecture des ordinateurs]]
 title::"tous les composants échangent des données via des bus"
 #informatique 
-# bus de données
+
+---
 
 ### Types de bus
  - Bus de donnés

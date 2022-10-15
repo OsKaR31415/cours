@@ -4,7 +4,8 @@ date-end::
 description::"présentation de l'informatique à des élèves d'école primaire"
 compétences:: 🤝 🧑‍🏫 🗣️ 💻
 #CV #fac
-# cercip astep
+
+---
 
 ## Méthode
  - partager notions vues

@@ -7,7 +7,8 @@ alias: "sl"
 up::[[MOC algèbre]]
 title::"système d'équations linéaires (combinaisons linéaires des variables)"
 #maths/algèbre #no-review 
-# système linéaire
+
+----
 _système linéaire_, abb. _SL_
 
 > [!definition] 

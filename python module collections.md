@@ -13,7 +13,8 @@ description: |
 up::[[python modules]]
 title::"des types conteneurs alternatifs"
 #informatique/python #no-review 
-# python module collections
+
+----
 
 > [!query] Sous-notes de this.file.link
 > ```dataview

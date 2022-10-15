@@ -6,7 +6,8 @@ sr-ease: 305
 
 up::[[MOC analyse]]
 #maths/analyse #review 
-# courbe paramétrée
+
+---
 
 ## Définition
 Une _courbe paramétrée plane_ est une [[application]] d'un sous-ensemble $D$ de $\mathbb{R}$ dans $\mathbb{R}^{2}$

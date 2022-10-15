@@ -1,7 +1,8 @@
 up::[[obsidian syntaxe]]
 title::"sytaxe, types de callouts, callouts persos"
 #obsidian #no-review 
-# obsidian callouts
+
+----
 
 > [!info]
 > les callouts permettent de faire des blocks d'information, pour grouper certaines parties des notes.

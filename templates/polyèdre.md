@@ -1,13 +1,12 @@
 #maths/géométrie/polyèdre #no-review 
-# {{TITLE}}
-symbole de shläfli : 
+symbole de shläfli ::
 
 
-faces :
-sommets : 
-arrêtes : 
+faces ::
+sommets ::
+arrêtes ::
 
 
 ## Transformations
-[[polyèdre dual|dual]] : 
-[[polyèdre adouci|adouci]] : 
+[[polyèdre dual|dual]] :: 
+[[polyèdre adouci|adouci]] :: 

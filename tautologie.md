@@ -1,5 +1,6 @@
 #logique #no-review 
-# tautologie
+
+----
 
 Une tautologie est une [[proposition]] qui est toujours vraie, indépendamment de son [[interprétation]].
 

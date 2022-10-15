@@ -3,7 +3,8 @@ alias: "formule de trigonométrie"
 ---
 up::[[MOC trigonométrie]]
 #maths/trigonométrie #no-review 
-# formules de trigonométrie
+
+----
 
 > [!done] Sous-notes de `=this.file.link`
 > ```dataview

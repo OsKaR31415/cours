@@ -1,6 +1,7 @@
 up::[[génie logiciel]]
 #PM #no-review 
-# outils de gestion de projet
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

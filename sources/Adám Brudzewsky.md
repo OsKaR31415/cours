@@ -1,5 +1,4 @@
 #personne
-# Adám Brudzewsky
 
 
 ```dataview

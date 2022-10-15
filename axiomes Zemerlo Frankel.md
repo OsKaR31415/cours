@@ -3,7 +3,8 @@ alias: ["axiomes ZF", "ZF"]
 ---
 up::[[axiomatique]]
 #maths
-# axiomes Zemerlo Frankel
+
+---
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

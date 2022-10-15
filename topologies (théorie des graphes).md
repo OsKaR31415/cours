@@ -1,6 +1,7 @@
 up::[[graphe]]
 #maths/graphes #no-review r
-# topologies (théorie des graphes)
+
+----
 Il existe 3 grandes familles de [[graphe|graphes]], et 5 catégories au total.
 
  - Les graphes _homogènes_ : Les sommets et les arrêtes reproduisent un shéma régulier.

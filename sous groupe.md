@@ -6,7 +6,8 @@ sr-ease: 288
 
 up::[[groupe]], [[structure algébrique]]
 #maths/algèbre #no-review 
-# sous groupe
+
+----
 Soit $H$ un **sous-ensemble** non vide d'un groupe $G$ muni d'une loi $*$.
 $(H, *)$ est un _sous-groupe_ de $(G, *)$ ssi :
  - $*$ est une [[loi de composition interne]] sur $H$ : $\forall (h_1,h_2)\in H^2, h_1*h_2\in H$

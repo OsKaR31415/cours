@@ -1,6 +1,7 @@
 up::[[post queues]]
 #informatique #no-review 
-# post queue docstring
+
+----
 
 
 > [!done] Prise de notes avec $\LaTeX$

@@ -1,7 +1,8 @@
 up::[[fonction]]
 title::"$x \geq x' \implies f(x) \leq f(x')$"
 #maths/analyse #no-review 
-# fonction décroissante
+
+----
 
 Soit $f$ une fonction définie sur un intervalle $I$.
 On dit que $f$ est _décroissante_ sur $I$ ssi :

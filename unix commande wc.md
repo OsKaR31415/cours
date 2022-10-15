@@ -1,7 +1,8 @@
 up::[[unix commandes]]
 title::"compter le nombre de caractères, mots, lignes, d'un texte"
 #informatique/unix #no-review 
-# unix commande wc
+
+----
  - `wc` pour "_Word Count_"
 
 `wc [-cwl]`

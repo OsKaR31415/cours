@@ -4,7 +4,8 @@ alias: "trace"
 up::[[matrice]]
 title::$\mathrm{Tr}(M) = \sum\limits_{k} M_{k,k}$
 #maths/algèbre #no-review 
-# trace d'une matrice
+
+----
 La _trace_ d'une [[matrice]] **carrée** est la somme de ses coefficients diagonaux.
 
 ## Notation

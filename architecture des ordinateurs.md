@@ -1,7 +1,8 @@
 up::[[informatique]]
 title::
 #informatique 
-# architecture des ordinateurs
+
+---
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

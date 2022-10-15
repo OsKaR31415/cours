@@ -1,5 +1,6 @@
 #maths/graphes #no-review 
-# graphe
+
+----
 
 ## Définitions
 ### Définition classique :

@@ -1,3 +1,5 @@
 date::{{DATE}}
 #cours 
-# {{TITLE}}
+
+---
+

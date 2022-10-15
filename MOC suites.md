@@ -1,6 +1,7 @@
 up::[[MOC analyse]]
 #MOC 
-# MOC suites
+
+----
 
 > [!query] Sous-notes de [[suite]]
 > ```dataview

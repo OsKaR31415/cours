@@ -1,5 +1,6 @@
 #informatique #no-review 
-# APL to maths
+
+---
 
  - Traduire APL en notation mathématique
  - Utiliser la notation mathématique la plus standard possible

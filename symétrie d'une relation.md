@@ -3,7 +3,8 @@ alias: [ "symétrie", "symétrique" ]
 ---
 up::[[relation]]
 #maths/algèbre #no-review 
-# symétrie d'une relation
+
+----
 Soit $\mathscr R$ une [[relation]] sur $E$.
 $\mathscr R$ est _symétrique_ ssi :
 $\forall (x,y)\in E^2, x\mathscr Ry\implies y\mathscr Rx$

@@ -1,6 +1,7 @@
 up::[[MOC algèbre|algèbre]]
 #maths
-# ensembles de nombres
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

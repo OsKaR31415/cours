@@ -2,7 +2,8 @@
 source:https://github.com/Jam3/math-as-code/blob/master/PYTHON-README.md
 ---
 #informatique #maths #no-review 
-# math-as-code (Python version)
+
+----
 
 
 This is a reference to ease developers into mathematical notation by showing comparisons with Python code.

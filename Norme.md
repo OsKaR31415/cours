@@ -1,7 +1,8 @@
 up::[[espace vectoriel]]
 title::""
 #maths/algèbre 
-# Norme
+
+----
 
 > [!definition] Norme
 > Soit $\mathbf{K}$ un [[corps commutatif]] muni d'une [[valeur absolue]] 

@@ -4,7 +4,8 @@ alias: "adresse IP"
 up::[[réseau informatique]]
 title::""
 #informatique #no-review 
-# adresses IP
+
+---
 
 ## Adressage IPv4 (le plus utilisé)
 **quatre nombre entiers (de 0 à 255)**

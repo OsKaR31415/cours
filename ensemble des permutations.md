@@ -1,6 +1,7 @@
 up::[[permutation]]
 #maths/algèbre #review 
-# ensemble des permutations
+
+----
 
 On note $\mathfrak S_n$ L'ensemble des [[permutation|permutations]] à $n$ éléments.
 

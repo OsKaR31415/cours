@@ -11,7 +11,8 @@ sibling::[[injection]]
 title::"$\forall y \in \mathscr{D}_{f}, \exists x \in f(\mathscr{D}_{f}), f(x) = y$"
 description::"au moins un antécédent"
 #maths/analyse #review 
-# surjection
+
+----
 
 Soit $f: E\mapsto F$ une [[application]].
 

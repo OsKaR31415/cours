@@ -1,6 +1,7 @@
 up::[[polynôme]]
 #maths/algèbre #maths/analyse #review 
-# polynôme premier
+
+----
 Soit $P$ un [[polynôme]] dans $A[X]$
 $P$ est _premier_ si :
  - il n'est **pas nul**
@@ -13,7 +14,7 @@ Autrement dit, $P\in A[X]$ est premier si :
  - $P$ est [[polynôme irréductible|irréductible]] :
      - $P\neq \mathbb 0$
      - $\nexists Q\in A[X], PQ = \mathbb{1}$
- - $\begin{align} f :& A[X] \rightarrow \B\\ & x \mapsto P|x \end{align}$ est un [[morphisme]] de $(A[X], \times)$ vers $(\B, \vee)$
+ - $\begin{align} f :& A[X] \rightarrow \mathbb{B}\\ & x \mapsto P|x \end{align}$ est un [[morphisme]] de $(A[X], \times)$ vers $(\mathbb{B}, \vee)$
 
  
 ## Propriétés

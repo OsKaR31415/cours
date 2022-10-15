@@ -1,6 +1,7 @@
 up::[[java]], [[paradygme programmation orientée objet|OOP]]
 #informatique 
-# java objets
+
+----
 
 > [!note] Constructeurs
 > Le constructeur est la fonction qui permet d'initialiser un objet (de créer un objet à partir de sa classe).

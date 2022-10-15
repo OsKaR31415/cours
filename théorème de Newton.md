@@ -4,7 +4,8 @@ alias: "algorithme de Newton"
 up::[[MOC analyse|analyse]]
 #maths/analyse 
 author::[[Isaac Newton]]
-# théorème de Newton
+
+----
 
 > [!definition] Théorème de Newton
 > Soit $f$ une fonction de $\mathbb{R}^{+}$ dans $\mathbb{R}^{+}$, de [[classe d'une fonction|classe]] $\mathcal{C}^{1}$ 

@@ -1,7 +1,8 @@
 up::[[axiomatique]]
 title::""
 #maths #logique 
-# définition axiomatique de Z
+
+---
 
 
 > [!definition] Définition de $\mathbb{Z}$

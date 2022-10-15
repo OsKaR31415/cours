@@ -1,6 +1,7 @@
 up::[[algèbre SPC]]
 #informatique 
-# algèbre SPC forme normale
+
+---
 
 toute requête SPC peut être mise sous la forme :
 

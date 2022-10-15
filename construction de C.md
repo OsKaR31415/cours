@@ -1,6 +1,7 @@
 up::[[nombre complexe]]
 #maths/analyse/complexes #no-review 
-# construction de C
+
+---
 On utilise des [[matrice]] pour définir les nombres complexes.
 
 On note $\text{Im} = \left( \begin{array}{cc}0&-1\\1&0\end{array} \right)$

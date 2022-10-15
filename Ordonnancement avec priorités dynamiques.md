@@ -2,7 +2,8 @@ up::[[Ordonnancement d'exécution des processus|ordonnancement]]
 title::""
 sibling::[[Ordonnancement avec priorités statiques]]
 #informatique 
-# Ordonnancement avec priorités dynamiques
+
+----
 Permet de résoudre le problème de _famine_ que pose l'[[Ordonnancement avec priorités statiques]] : on peut éviter que certaines tâches n'accèdent jamais au processeur.
 
 ## Principe

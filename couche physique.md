@@ -1,6 +1,7 @@
 up::[[modèle OSI]]
 #informatique 
-# couche physique
+
+---
 
  - couche la plus basse
 

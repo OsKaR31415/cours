@@ -1,7 +1,8 @@
 up::[[MOC informatique|informatique]]
 title::"ordinateurs connectés, acheminant de l'information entre eux"
 #informatique #no-review 
-# réseau informatique
+
+----
 
 > [!définition]
 >  - un ensemble d'équipements et logiciels

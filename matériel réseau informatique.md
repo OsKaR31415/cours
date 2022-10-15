@@ -1,7 +1,8 @@
 up::[[réseau informatique]]
 title::"hardware pour la mise en place d'un réseau"
 #informatique
-# matériel réseau informatique
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

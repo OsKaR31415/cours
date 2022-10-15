@@ -1,6 +1,7 @@
 up::[[croissances comparées]]
 #maths/analyse #review 
-# croissances comparées usuelles
+
+---
 [[croissances comparées]]
 
  - $x^{\alpha}= o_{+\infty}(\alpha^x)$ si $\alpha \in \mathbb{R}$ et $\alpha > 1$

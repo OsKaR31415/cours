@@ -1,6 +1,7 @@
 up::[[unix]]
 #informatique 
-# unix entrée et sortie standards
+
+----
 
 La [[table des descripteurs]] réserve les adresses 0, 1 et 2. Par défaut ils sont :
  - 1 : l'entrée standard [[unix stdin|stdin]] 

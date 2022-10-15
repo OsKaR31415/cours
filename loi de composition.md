@@ -6,7 +6,8 @@ sr-ease: 359
 ---
 up::[[opérateur binaire]]
 #maths/algèbre #review 
-# loi de composition
+
+----
 Soient $E$ et $F$ deux ensembles (non vides)
 Une _loi de composition_ est la donnée d'une application de $F\times E$ dans $E$ (c'est une [[opérateur binaire|opération binaire]] stable par $E$)
 $E \times F \to E$

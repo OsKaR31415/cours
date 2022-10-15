@@ -1,7 +1,8 @@
 up::[[outils de gestion de projet]]
 link::https://www.agilemanifesto.org
 #PM
-# méthodologie agile
+
+----
 
 > [!error] problèmes des méthodes classiques
 >  - cycle de développement long

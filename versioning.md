@@ -2,7 +2,8 @@ up::[[outils de gestion de projet]]
 title::"contrôle des versions d'un ensemble de documents"
 down::[[git]]
 #PM
-# versioning
+
+----
 
  - maintenir un **état cohérent** un ensemble de documents
 

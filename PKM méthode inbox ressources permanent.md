@@ -1,5 +1,6 @@
 #PKM
-# PKM méthode inbox ressources permanent
+
+----
 Façon d'implémenter le framework [[ENCODE framework|ENCODE]]
 
 

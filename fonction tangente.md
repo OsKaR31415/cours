@@ -6,7 +6,8 @@ description::"$\mathbb{R} \setminus \frac{\pi}{2}\mathbb{Z} \to \mathbb{R}$", "$
 title::$\tan$
 
 #maths/analyse #maths/trigonométrie 
-# fonction tangente
+
+----
 Notée $\tan$. Fonction trigonométrique (fonction circulaire).
 Elle est une [[application]] sur $\{x\in\mathbb{R} | \cos x\neq 0\} = \mathbb{R}\setminus\left\{ \dfrac\pi2 + k\pi,  k\in\mathbb{Z} \right\}$
 Elle est [[fonction impaire|impaire]], [[fonction croissante|strictement croissante]] et de période $\pi$

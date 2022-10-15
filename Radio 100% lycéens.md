@@ -4,7 +4,8 @@ description::"émissions sur la radio du lycée"
 compétences:: 🗣️ 🧮
 #CV #maths 
 - [ ] #todo: check date
-# Radio 100% lycéens
+
+----
 Radio organisée dans le lycée Augustin Thierry
 
 Deux émissions :

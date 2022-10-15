@@ -1,6 +1,7 @@
 up::[[MOC arithmétique]]
 #maths/arithmétique #no-review 
-# division euclidienne
+
+----
 Soient $a\in\Z$ et $b\in\N^*$, il existe des entiers $(q,r)\in\Z$ tels que $\fbox{a = bq+r}$ avec $0\leq r\leq b$ 
 On montre que $r$ et $q$ sont [[division euclidienne#Unicité du quotient et du reste|uniques]].
 

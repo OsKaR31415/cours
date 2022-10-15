@@ -3,7 +3,8 @@ title::"comment changer le style des sections en latex"
 #informatique #no-review 
 
 
-# Latex style des sections
+
+----
 Comment changer le style des sections en LaTeX ?
 
 ## Numérotation des sections

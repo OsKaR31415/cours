@@ -1,6 +1,7 @@
 up::[[système linéaire]]
 #maths/algèbre #review 
-# représentation matricielle d'un SL
+
+----
 Soit $(S)$ le [[système linéaire]] suivant :
 $(S):\left\{\begin{array}{}ax+by=u\\cx+dy=v\end{array}\right.$
 

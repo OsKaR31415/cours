@@ -1,6 +1,7 @@
 up::[[application]]
 #maths/algèbre #no-review 
-# application affine
+
+---
 Soient $E$ et $E'$ deux [[espace affine|espaces affines]] d'[[espace vectoriel|espaces vectoriels]] associés $\vec{E}$ et $\vec{E}'$
 Une [[application]] $f$ de $E$ dans $E'$ est dite **affine** lorsque $f$ conserve les [[barycentre|barycentres]]
 

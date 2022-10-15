@@ -1,6 +1,7 @@
 date::2022-08-24
 #exercice #maths/algèbre 
-# exercices espaces vectoriels 2022-08-24
+
+----
 
 ## [[sous espace vectoriel|sev]] de $\mathbb{R}$ munis de $\times$
 On munit $\mathbb{R}^{n}$ des lois produit usuelles. Parmi les sous-ensembles suivants $F$ de $\mathbb{R}^{n}$, lesquels sont des [[sous espace vectoriel|sev]] ?

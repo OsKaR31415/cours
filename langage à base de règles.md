@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #review
-# langage à base de règles
+
+----
 
 Une [[requête conjonctive]] sur un shéma de base données $D$ est une expression de la forme :
 $ans(u) \leftarrow R_1(u_1),\ldots,R_n(u_n)$

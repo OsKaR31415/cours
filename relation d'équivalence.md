@@ -6,7 +6,8 @@ sr-ease: 291
 
 up::[[relation]]
 #maths/algèbre #review 
-# relation d'équivalence
+
+----
 Soient $E$ un ensemble non vide, et $\mathscr R$ une [[relation]].
 $\mathscr R$ est une _relation d'équivalence_ ssi elle est :
  - [[réflexivité d'une relation|réflexive]] : $\forall x\in E, x\mathscr Rx$

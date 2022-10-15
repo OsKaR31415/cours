@@ -1,6 +1,7 @@
 up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
-# dodécaèdre
+
+----
 symbole de shläfli : $\{5, 3\}$
 ![200](https://www.techno-science.net/illustration/Definition/180px/Dodecahedron.gif)
 

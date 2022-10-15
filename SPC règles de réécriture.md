@@ -1,6 +1,7 @@
 up::[[algèbre SPC]]
 #informatique 
-# SPC règles de réécriture
+
+----
 Transformations qui préserve l'équivalence des requêtes
 
 ## Fusion

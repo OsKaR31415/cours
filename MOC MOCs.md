@@ -1,5 +1,6 @@
 #MOC
-# MOC MOCs
+
+----
 
 > [!query] MOCs
 > ```dataview

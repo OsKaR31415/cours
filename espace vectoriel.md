@@ -7,7 +7,8 @@ alias: "ev"
 up::[[espace]]
 title::"$(E, +, \cdot)$ tel que", " - $(E, +)$ est un [[groupe abélien]]", " - $\cdot$ est [[distributivité|distributive]] sur $+$"
 #maths/algèbre #review 
-# espace vectoriel
+
+----
 
 Un _espace vectoriel_ est un ensemble $E$ muni de deux opérations :
  - une [[loi de composition interne]] notée $+$

@@ -8,7 +8,8 @@ description::"$[-1;1] \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$", "$x \
 derivative::"$- \dfrac{1}{\sqrt{1-x^{2}}}$"
 title::$\arccos$
 #maths/analyse #maths/trigonométrie #no-review 
-# fonction arccosinus
+
+----
 
 La fonction $\arccos$ est la [[fonction réciproque]] de la [[fonction cosinus]].
 

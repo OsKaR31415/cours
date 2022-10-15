@@ -1,7 +1,8 @@
 up::[[informatique]]
 title::"historique de la création de l'informatique"
 #informatique 
-# histoire de l'informatique
+
+----
 
 
 > [!question] buts initiaux de l'informatique

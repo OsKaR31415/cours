@@ -2,7 +2,8 @@ up::[[obsidian plugins]]
 link::https://github.com/Razumihin/obsidian-fullscreen-plugin
 title::"mettre une page en plein écran"
 #obsidian 
-# obsidian plugin fullscreen mode plugin
+
+----
  - mettre une page en plein écran
 
  - [p] rapide

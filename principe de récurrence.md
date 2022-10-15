@@ -1,7 +1,8 @@
 up::[[axiomatique]]
 title::"$P(0) \wedge \forall n, P(n) \implies P(n+1)$"
 #maths
-# principe de récurrence
+
+----
 Si un propriété est vraie pour $x_{0}$, et si pour tout $n > x_{0}$ on a $P(n) \implies P(n+1)$, alors on à $\forall n > x_{0}, P(n)$.
 
 > [!définition]

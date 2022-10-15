@@ -1,7 +1,8 @@
 up::[[obsidian workflow]]
 title::"how to take notes about a lesson"
 #obsidian 
-# obsidian workflow cours
+
+----
 
 > [!important] goals
 >  - keep track of what is done during a lesson

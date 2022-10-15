@@ -2,7 +2,8 @@
 alias: "informatique"
 ---
 #informatique #MOC
-# MOC informatique
+
+----
 
 
 > [!query] Sous-notes de `=this.file.link`

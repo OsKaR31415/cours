@@ -6,7 +6,8 @@ sr-ease: 346
 up::[[structure algébrique]]
 title::"[[loi de composition interne|lci]] [[associativité|associative]]", "[[élément neutre]]", "touts les éléments sont [[éléments symétrisables|symétrisables]]" 
 #maths/algèbre #review 
-# groupe
+
+----
 
 Un ensemble $G$ muni d'une [[loi de composition interne]] $*$ est un _groupe_ ssi :
 - La loi est [[associativité|associative]]

@@ -1,7 +1,8 @@
 up::[[ensembles de nombres]]
 title::"$\mathbb{C} := \{ a + ib \mid (a, b) \in \mathbb{R} \}$ où $i^{2} = -1$"
 #maths/analyse/complexes #no-review 
-# nombre complexe
+
+----
 On a créé un objet noté $i$ tel que $i^2 = -1$
 Un nombre complexe $z$ s'écrit $z = a + ib$ avec $(a, b)\in\mathbb R^2$
 $\mathbb C$ est l'ensemble des nombres complexes. On a donc $z\in\mathbb C$

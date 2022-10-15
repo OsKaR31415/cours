@@ -1,7 +1,8 @@
 up::[[anneau]]
 title::"$(A, +, \times)$ où", " - $(A, +)$ est un [[groupe abélien]]", " - $(A, \times)$ est un [[monoïde]] [[commutativité|commutatif]]", " - $\times$ est [[distributivité|distributive]] sur $+$"
 #maths/algèbre 
-# anneau commutatif
+
+---
 Un _anneau commutatif_ est un [[anneau]] pour lequel la loi $\times$ est [[commutativité|commutative]]
 
 

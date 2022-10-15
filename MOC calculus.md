@@ -2,7 +2,8 @@
 alias: "calculus"
 ---
 #MOC
-# MOC calculus
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

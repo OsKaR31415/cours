@@ -1,7 +1,8 @@
 up::[[ensemble des matrices]]
 title::"$\mathrm{GL}_{n}(E)=\{ m\in\mathcal{M}_{n}(E) \mid \det(m) \neq 0 \wedge m^{-1} \in \mathcal{M}_{n}(E)\}$"
 #maths/algèbre #no-review 
-# groupe linéaire des matrices inversibles
+
+----
 Le [[groupe]] linéaire des [[matrice|matrices]] [[inverse d'une matrice#Matrice inversible|inversibles]] de dimension $n\times n$ à coefficients dans l'ensemble $E$ et dont **les inverses sont aussi à coefficients dans $E$** se note $\text{GL}_n(E)$
 
 > [!définition]

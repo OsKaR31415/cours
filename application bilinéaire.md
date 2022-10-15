@@ -4,7 +4,8 @@ alias: [ "forme bilinéaire", "bilinéaire" ]
 up::[[application linéaire]]
 title::"$f: E^{2} \to \mathbf{K}$ linéaire par rapport à ses deux paramètres"
 #maths/algèbre 
-# application bilinéaire
+
+---
 Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]
 Une application *bilinéaire* est une [[application]] de $E^{2}$ dans $\mathbf{K}$ ssi elle est [[application linéaire|linéaire]] par rapport à ses deux paramètres.
 

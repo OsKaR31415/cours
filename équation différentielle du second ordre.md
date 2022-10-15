@@ -6,7 +6,8 @@ sr-ease: 255
 
 up::[[équation différentielle]]
 #maths/algèbre #review 
-# équation différentielle du second ordre
+
+----
 [[équation différentielle]] dans laquelle seule les [[dérivées successives|dérivée première et seconde]] apparaîssent
 
 ## Forme 

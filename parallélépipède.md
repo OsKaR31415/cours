@@ -1,7 +1,8 @@
 up::[[MOC géométrie]]
 source::https://mathcurve.com/polyedres/parallelepipede/pallelepipede.shtml
 #maths/géométrie #no-review 
-# parallélépipède
+
+----
 
 La notion de parallélépipède est la généralisation à l'espace de celle de [parallélogramme](https://mathcurve.com/polyedres/parallelogramme/parallelogramme.shtml).  
 Un parallélépipède est un polyèdre à 6 faces (hexaèdre) se regroupant en 3 couples de faces parallèles. C'est un [paralléloèdre](https://mathcurve.com/polyedres/paralleloedre/paralleloedre.shtml), mais ce n'est pas le seul, et un [zonoèdre](https://mathcurve.com/polyedres/zonaedre/zonaedre.shtml).

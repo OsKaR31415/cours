@@ -1,5 +1,6 @@
 #MOC #maths/géométrie 
-# MOC géométrie
+
+----
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

@@ -1,6 +1,7 @@
 up::[[unix redirection de flux]]
 #informatique #no-review 
-# unix redirection de flux
+
+----
 
 Par défaut, les commandes récupèrent les données tapées par l'utilisateur au clavier en entrée ([[unix stdin|stdin]]).
 Par défaut, la sortie des commandes ([[unix stdout|stdout]]) est affichée à l'écran.

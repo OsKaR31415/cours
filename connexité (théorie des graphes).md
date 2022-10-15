@@ -1,6 +1,7 @@
 up::[[graphe]]
 #maths/graphes #no-review 
-# connexité (théorie des graphes)
+
+---
 Un [[graphe|graphe non orienté]] est dit _connexe_ si il est d'un seul tenant.
 
 ## Définition

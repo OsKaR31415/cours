@@ -1,8 +1,9 @@
 up::[[matrice]]
 title::"telle que $M = M^{T}$ ([[transposée]])"
 #maths/algèbre #review 
-# matrice symétrique
-Soit $M\in M_{n,n}(\R)$ une [[matrice]],
+
+----
+Soit $M\in M_{n,n}(\mathbb{R})$ une [[matrice]],
 $M$ est une _matrice symétrique_ ssi :
 $M = \,^TM$
 

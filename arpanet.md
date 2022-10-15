@@ -1,6 +1,7 @@
 up::[[internet]]
 #informatique #no-review 
-# arpanet
+
+---
 Advanced Research Projects Agency NETwork.
 
 ## Technologie

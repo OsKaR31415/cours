@@ -1,5 +1,6 @@
 #MOC
-# MOC courbe paramétrique
+
+----
  - [[courbe paramétrée]]
 
 > [!query] Sous-notes de [[courbe paramétrée]]

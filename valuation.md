@@ -1,7 +1,8 @@
 up::[[base de données]]
 #informatique #no-review 
 [[base de données]]
-# valuation
+
+----
 Une _valuation_ est une fonction qui associe des valeurs à des variables.
 
 $v_1, v_2, v_3$ sont trois valuations :

@@ -1,6 +1,7 @@
 up::[[algèbre SPJR]]
 #informatique 
-# SPJR jointure naturelle
+
+----
 
 Soient $I$ et $J$ deux instances
 

@@ -1,9 +1,8 @@
 ---
-
-alias: "négligeable"
 sr-due: 2022-09-20
 sr-interval: 28
 sr-ease: 272
+alias: "négligeable"
 ---
 sibling:: [[fonctions équivalentes]]
 
@@ -11,9 +10,10 @@ up::[[fonction]]
 sibling::[[domination en un point|domination]], [[fonctions équivalentes|équivalence]]
 title::"$f=o_{x_{0}}(g) \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)}=0$"
 #maths/analyse #review 
-# négligabilité
+
+----
 Soient deux fonctions $f$ et $g$, on dit que _$f$ est négligable devant $g$ en $x_0\in\overline{\mathbb{R}}$_, et on note $f=_{x_{0}}o(g)$ :
-$\disp f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
+$\displaystyle f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
 
 > [!définition]
 > $f = o_{x_{0}}(g)$ si il existe $h$ telle que :
@@ -21,7 +21,7 @@ $\disp f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
 >  - $f = hg$
 
 > [!définition]
-> $f = o_{x_{0}}(g) \iff \forall \varepsilon>0, \forall b \in \R, \forall x \in X, x \geq b \implies |f(x)| \leq \varepsilon|g(x)|$
+> $f = o_{x_{0}}(g) \iff \forall \varepsilon>0, \forall b \in \mathbb{R}, \forall x \in X, x \geq b \implies |f(x)| \leq \varepsilon|g(x)|$
 > [[démonstration formule négligeabilité avec epsilon|démonstration]]
 
 
@@ -31,7 +31,7 @@ $\disp f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
  - $f = o(g) \implies f = O(g)$
      - où $O$ désigne la [[domination en un point]]
      
- - Si $f = o_{+\infty}(g)$ et $h = o_{+\infty}(g)$, alors $\lambda f + \mu h = o_{+\infty}(g)$ ($(\lambda, \mu) \in \C^{2}$)
+ - Si $f = o_{+\infty}(g)$ et $h = o_{+\infty}(g)$, alors $\lambda f + \mu h = o_{+\infty}(g)$ ($(\lambda, \mu) \in \mathbb{C}^{2}$)
      - stable par [[combinaison linéaire]]
  
  - $o(1) = \varepsilon(x)$ car $\lim \frac{o(1)}{1} = 0$ donc $\lim o(1) = 0$

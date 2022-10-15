@@ -1,6 +1,7 @@
 up::[[graphe]]
 #maths/graphes #no-review 
-# graphe orienté
+
+----
 
 ## Définitions
 ### Définition classique

@@ -2,7 +2,8 @@ up::[[équation polynomiale]]
 title::"$ax^{2} + bx + c = 0$"
 description::"[[équation polynomiale]] de degré 2"
 #maths 
-# équation quadratique
+
+----
 
 > [!definition] Equation quadratique
 > Une _équation quadratique_ est une [[équation polynomiale]] de degré 2. C'est donc une équation de la forme :

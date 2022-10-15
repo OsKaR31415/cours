@@ -1,6 +1,7 @@
 up::[[internet]]
 #informatique #no-review 
-# world wide web
+
+----
 world wide web, ou web, ou toile, ou net, ou internet...
 
 ## Le web :

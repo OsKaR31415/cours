@@ -1,7 +1,8 @@
 up::[[matrice]]
 title::$(A \cdot B)_{ij} = \sum\limits_{k}A_{i,k}\times B_{k,j}$
 #maths/algèbre #no-review 
-# multiplication de matrices
+
+----
 
 La multiplication de [[matrice|matrices]] **n'est pas élément-par-élément**.
 

@@ -1,5 +1,6 @@
 #personne #no-review 
-# Alan Perlis
+
+---
 Mathématicien, Informaticien
 
  - Premier prix Turing (1966)

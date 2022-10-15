@@ -1,6 +1,7 @@
 up::[[base de données]]
 #informatique #no-review 
-# modèle entité association
+
+----
 
 [[exemple diagramme entité-association.excalidraw]]
 

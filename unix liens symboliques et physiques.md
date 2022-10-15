@@ -4,7 +4,8 @@ alias: [ "symlink", "lien physique", "lien symbolique", "liens physiques", "lien
 up::[[unix]]
 sibling::[[unix liens symboliques]], [[unix lien physiques]]
 #informatique/unix 
-# unix liens symboliques et physiques
+
+----
 
 > [!definition] Lien symbolique
 > Sorte d'alias, pour avoir une version "_virtuelle_" d'un fichier (ou répertoire) à un autre endroit que sa place réelle

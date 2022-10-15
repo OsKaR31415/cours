@@ -1,6 +1,7 @@
 up::[[permutation]]
 #maths/algèbre #review 
-# nombre d'inversions d'une permutations
+
+----
 Le _nombre d'inversions_ d'une permutation $\sigma\in\mathfrak S_n$ est le nombre de couples $(i, j)\in[\![1; n]\!]$ tels que $i<j$ et $\sigma(i) > \sigma(j)$, c'est-à-dire que la permutation $\sigma$ "inverse le sens" de $i$ et de $j$.
 
 ## Définition formelle

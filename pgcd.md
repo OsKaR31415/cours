@@ -1,6 +1,7 @@
 up::[[MOC arithmétique]]
 #maths/arithmétique #review 
-# pgcd
+
+----
 Le Plus Grand Commun Diviseur de plusieurs nombres (souvent deux) est noté  $\text{pgcd}(a; b; c;\cdots)$ et est le plus grand nombre qui divise tous ces nombres
 
 > [!definition] PGCD

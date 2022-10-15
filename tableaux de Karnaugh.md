@@ -1,6 +1,7 @@
 up::[[Portes logiques]]
 #informatique 
-# tableaux de Karnaugh
+
+----
 
 Permettent de simplifier les équations.
  - on recherche les valeurs $1$ et on élimine toutes les entrées variables

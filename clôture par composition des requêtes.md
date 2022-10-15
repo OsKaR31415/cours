@@ -5,7 +5,8 @@ up::[[propriétés des requêtes conjonctives]]
 title::"toute instance est close par l'application de requêtes"
 description::"le résultat d'une requête est une nouvelle BDD sur laquelle on peut aussi faire des requêtes"
 #informatique 
-# clôture par composition des requêtes
+
+---
 
 ## Sur les requêtes conjonctives
 La composition de [[requête conjonctive]] est équivalente à une [[requête conjonctive]] plus complexe.

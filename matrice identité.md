@@ -1,7 +1,8 @@
 up::[[matrice]]
 title::"$\mathrm{Id}_{i,j} = \delta _{i,j} = [i=j]$"
 #maths/algèbre #no-review 
-# matrice identité
+
+----
 La matrice identité de taille $n$ est la [[matrice]] $Id_n$ telle que :
 
 $$\forall (i,j)\in[\![1;n]\!]^2, 

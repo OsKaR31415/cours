@@ -1,6 +1,7 @@
 up::[[MOC algèbre]]
 #maths/algèbre #no-review 
-# quaternions
+
+----
 
 L'ensemble $\mathbb{H}$ des quaternions peut être défini comme l'[[algèbre associative]] sur le [[corps]] des nombres réels $\mathbb{R}$ engendrée par les 3 éléments $i$, $j$ et $k$, satisfaisant les [[quaternions#Relations quaternioniques]] : $i^2 = j^2 = k^2 = ijk = -1$.
 

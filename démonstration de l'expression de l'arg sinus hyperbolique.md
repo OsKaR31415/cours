@@ -2,7 +2,8 @@ up::[[fonction sinus hyperbolique|sh]]
 sibling::[[démonstration expression de l'arg cosinus hyperbolique]]
 description::""
 #maths/trigonométrie #demonstration #no-review 
-# démonstration de l'expression de l'arg sinus hyperbolique
+
+---
 
 $$\begin{align*}
 \sh(x) = y &\iff \frac{e^{x}-e^{-x}}{2} = y\\

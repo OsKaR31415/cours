@@ -1,6 +1,7 @@
 up::[[MOC géométrie]]
 #maths
-# transformations
+
+----
 
 
 > [!query] Sous-notes de `=this.file.link`

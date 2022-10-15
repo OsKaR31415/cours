@@ -3,7 +3,8 @@ alias: "algèbre de Boole"
 ---
 author::[[George Boole]]
 #logique #no-review 
-# calcul booléen
+
+---
 
 _Algèbre de Boole_, ou _Calcul Booléen_.
 Approche algébrique de la **logique**.

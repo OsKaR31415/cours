@@ -1,6 +1,7 @@
 up::[[MOC calculus|calculus]]
 #maths #review 
-# somme des cubes
+
+----
 
 $\boxed{\sum\limits_{k=1}^{n} k^{3} = \frac{n^{2}(n+1)^{2}}{4}}$
 

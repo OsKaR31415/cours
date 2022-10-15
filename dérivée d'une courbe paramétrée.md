@@ -1,6 +1,7 @@
 up::[[courbe paramétrée]]
 #maths/analyse #review 
-# dérivée d'une courbe paramétrée
+
+---
 
 ## Définition 
 Soit $\begin{align}f : & D\subset \mathbb{R} \rightarrow \mathbb{R}^{2}\\& t \mapsto (x(t); y(t)) \end{align}$ une [[courbe paramétrée]]

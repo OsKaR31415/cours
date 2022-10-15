@@ -1,6 +1,7 @@
 up::[[java classe abstraite]], [[java interfaces]]
 #informatique #no-review 
-# java classe abstraite vs interface
+
+----
 
 ## Exemple : véhicule amphibie
 

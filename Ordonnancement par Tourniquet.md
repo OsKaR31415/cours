@@ -4,7 +4,8 @@ alias: [ "RR", "Round Robin" ]
 up::[[Ordonnancement d'exécution des processus|ordonnancement]]
 title:: "[[Ordonnancement FCFS|FCFS]] avec préemption"
 #informatique 
-# Ordonnancement par Tourniquet
+
+----
 
  - concu pour les systèmes à temps partagé
  - allouter le processeur à tour de rôle aux processus pour une durée prédéfinie = **quantum**

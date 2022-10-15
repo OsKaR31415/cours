@@ -1,5 +1,6 @@
 #logique #no-review 
-# atome
+
+---
 
 Un atome est un [[jugement]] de base irreductible.
 

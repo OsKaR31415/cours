@@ -1,7 +1,8 @@
 up::[[application]] 
 title::"$f: E^{2} \to \mathbf{K}$ telle que $\forall (u, v)\in E^{2}, \quad f((u,v)) = f((v, u))$"
 #maths
-# application symétrique
+
+---
 
 > [!definition] application symétrique
 > Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]

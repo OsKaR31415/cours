@@ -1,6 +1,7 @@
 up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
-# tétraèdre
+
+----
 symbole de shläfli : $\{3, 3\}$
 ![[tétraèdre.png|200]]
 

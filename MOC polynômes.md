@@ -1,6 +1,7 @@
 up::[[MOC fonctions]]
 #MOC #maths/analyse 
-# MOC polynômes
+
+----
 MOC sur les [[polynôme|polynômes]]
 
 > [!query]- Sous-notes de [[polynôme]]

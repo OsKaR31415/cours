@@ -1,6 +1,7 @@
 up::[[modèle logique]], [[modèle entité association]]
 #informatique #no-review 
-# conversion modèle ER, modèle logique
+
+---
 Méthode de conversion du [[modèle entité association]] vers le [[modèle logique]].
 
 Voir [[conversion modèle ER, modèle logique.excalidraw]]

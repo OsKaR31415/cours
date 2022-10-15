@@ -4,7 +4,8 @@ alias: "projection"
 up::[[droite vectorielle]]
 title::"soit $D_{1}=Vect(e_{1})$", "soit $u=xe_{1}+ye_{2}+\dots$", "$p_{1}: u \mapsto xe_{1}$ est la _projection sur_ $D_{1}$"
 #maths/algèbre 
-# projection d'un vecteur sur une droite vectorielle
+
+----
 
 > [!définition]
 > Soit $E$ un [[espace vectoriel]]

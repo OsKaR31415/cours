@@ -1,6 +1,7 @@
 up::[[courbe paramétrée]]
 #maths/analyse #review 
-# tangente à une courbe paramétrée
+
+----
 ## Définition
 Soit $f: t\mapsto M(t)$ avec $t\in D\subset \R$ une [[courbe paramétrée]].
 Soit $t_{0}\in D$

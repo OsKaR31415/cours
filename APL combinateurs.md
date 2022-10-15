@@ -3,7 +3,8 @@ alias: ["combinateur", "combinateurs"]
 ---
 up::[[APL]]
 #informatique #review
-# APL combinateurs
+
+---
 
 ## Beside ∘
 **Beside**, **Compose**, **After**

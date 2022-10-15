@@ -4,7 +4,8 @@ alias: [ "forme bilinéaire symétrique" ]
 up::[[application bilinéaire]]
 title::"$f: \mathbf{E}^{2}\to \mathbf{K}$ linéaire par rapport à ses deux paramètres, et $f(u, v) = f(v, u)$"
 #maths/algèbre 
-# application bilinéaire symétrique
+
+---
 
 > [!definition] Forme bilinéaire
 > Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]

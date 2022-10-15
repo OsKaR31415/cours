@@ -1,6 +1,7 @@
 up::[[polyèdre]]
 #maths/géométrie/polyèdre #no-review 
-# notation de Conway
+
+----
 Notation pour décrire des polyèdres
 Chaque polyèdre est défini en partant d'un polyèdre de base (souvent les [[solides de platon]]), et en y appliquant successivement des transformations
 

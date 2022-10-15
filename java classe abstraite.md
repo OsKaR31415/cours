@@ -1,7 +1,8 @@
 up::[[java objets]]
 sibling::[[java interfaces]]
 #informatique 
-# java classe abstraite
+
+----
 Une classe abstraite est une classe pour laquelle on ne définit pas d'implémentation des méthodes. Le but est de pouvoir hériter de cette méthode
 
 ```java

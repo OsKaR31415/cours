@@ -1,7 +1,8 @@
 up::[[obsidian workflow]]
 title::"workflow for creating MOCs"
 #obsidian #PKM
-# obsidian workflow MOCs
+
+----
 How I create my [[Map of content|Maps Of Content]]
 
 ![[Excalidraw/workflow.excalidraw.md#^group=UgEZXQeVDw70s33lGGBBp|100%]]

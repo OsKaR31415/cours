@@ -7,7 +7,8 @@ derivative::$\dfrac{1}{\sqrt{x^{2}-1}}$
 description::"$[1;+\infty[ \to \mathbb{R}^{+}$", "$x \mapsto \ln \left( x+\sqrt{x^{2}-1} \right)$"
 title::$\arg \mathrm{ch}$
 #maths/analyse #maths/trigonométrie #review 
-# fonction arg cosinus hyperbolique
+
+----
 [[fonction réciproque]] du [[fonction cosinus hyperbolique|cosinus hyperbolique]]
 :luc_alert_triangle: $\mathrm{ch}$ n'est une bijection que de $\mathbb{R}^{+}$ dans $\mathbb{R}^{+}$, $\arg\mathrm{ch}$ est donc la [[fonction réciproque|réciproque]] de $\mathrm{ch}/_{\mathbb{R}^{+}}$
 

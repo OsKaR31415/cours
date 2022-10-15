@@ -1,7 +1,8 @@
 up::[[internet]]
 sibling::[[https]]
 #informatique #no-review 
-# http
+
+----
 Voir : [[https]] : version sécurisée du protocole
 
 Prococole permettant de transmettre des pages hypertexte (codées en [[html]]).

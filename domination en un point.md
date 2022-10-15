@@ -1,8 +1,9 @@
 up::[[fonction]]
 sibling::[[négligabilité]], [[fonctions équivalentes|équivalence]]
-title::"$f = \bigO_{x_{0}}(g) \iff \dfrac{f}{g} \text{ est bornée au voisinage de } x_{0}$"
+title::"$f = \mathcal{O}_{x_{0}}(g) \iff \dfrac{f}{g} \text{ est bornée au voisinage de } x_{0}$"
 #maths/analyse #review 
-# domination en un point
+
+----
 Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\mathbb{R}$ (avec $a\in\overline{\mathbb{R}}$)
 $f$ est _dominée_ par $g$ en $a$, ssi **$\frac{f}{g}$ est bornée au voisinage de $a$**
 
@@ -25,7 +26,7 @@ c'est la notation du **grand O**
 
  - $\mathcal{O}_{a}(1)$ désigne toute [[fonction bornée]] au voisinage de $a$
  
- - Si $f = \mathcal{O}_{x_{0}}(g)$ et $h = \mathcal{O}_{x_{0}}(g)$, alors $\lambda f + \mu h = \mathcal{O}_{x_{0}}(g)$ ($(\lambda, \mu) \in \C^{2}$)
+ - Si $f = \mathcal{O}_{x_{0}}(g)$ et $h = \mathcal{O}_{x_{0}}(g)$, alors $\lambda f + \mu h = \mathcal{O}_{x_{0}}(g)$ ($(\lambda, \mu) \in \mathbb{C}^{2}$)
      - stable par [[combinaison linéaire]]
 
  - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$

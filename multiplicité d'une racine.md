@@ -1,6 +1,7 @@
 up::[[racine]]
 #maths/analyse #no-review 
-# multiplicité d'une racine
+
+----
 
 ## Définition 
 Soit $P$ un [[polynôme]] de [[polynôme#Degré|degré]] $n$

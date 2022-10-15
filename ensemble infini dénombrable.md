@@ -1,6 +1,7 @@
 up::[[ensemble]]
 #maths/ensembles #no-review 
-# ensemble infini dénombrable
+
+----
 Un ensemble est dit _dénombrable_, ou _infini dénombrable_ lorque ses éléments peut être listés **sans omission ni répétition** dans une suite indexée par les entiers.
 Parfois, les ensembles finis sont aussi appelés _dénombrables_. Il est alors utile de donner la précision _infini dénombrable_.
 

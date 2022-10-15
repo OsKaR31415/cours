@@ -6,7 +6,8 @@ sr-ease: 274
 
 up::[[système linéaire]]
 #maths/algèbre #review 
-# résolution d'un SL
+
+----
 
 
 ### Résolution par substitution

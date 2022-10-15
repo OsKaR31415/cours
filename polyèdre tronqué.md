@@ -1,6 +1,7 @@
 up::[[polyèdre]]
 #maths/géométrie/polyèdre/transformation #no-review 
-# polyèdre tronqué
+
+----
 
 
 ## tronquature aux sommets

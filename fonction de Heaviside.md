@@ -1,6 +1,7 @@
 up::[[MOC fonctions]]
 #maths/analyse #no-review 
-# fonction de Heaviside
+
+----
 La fonction de _Heaviside_ Est la [[fonction indicatrice]] de $\mathbb{R}^+$ dans $\mathbb{R}$.
 C'est donc la fonction $H$ prenant la valeur $1$ pour tous les réels strictement positifs, et la valeur $0$ pour les réels strictement négatifs :
 $$\forall x\in\mathbb{R}, H(x) = \left\{\begin{array}{cl}

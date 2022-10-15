@@ -1,6 +1,7 @@
 up::[[gantt diagram]]
 #exercice 
-# génie logiciel TP gantt 2022-09-22
+
+----
 
 ```mermaid
 gantt 

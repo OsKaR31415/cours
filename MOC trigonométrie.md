@@ -2,7 +2,8 @@
 alias: "trigonométrie"
 ---
 #MOC 
-# MOC trigonométrie
+
+----
 [[formules de trigonométrie]]
 
 > [!query] Sous-notes de `=this.file.link`
