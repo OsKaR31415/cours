@@ -7,14 +7,14 @@ down::[[git]]
 
  - maintenir un **état cohérent** un ensemble de documents
 
-## Avantages
+# Avantages
  - assurer la cohérence d'un ensemble de documents (codes sources, mais pas que)
  - retrouver, une version précédente d'un document
  - comparer différentes versions d'un document
  - partager les versions au sein d'une communauté
  - participer à l'élaboration
 
-## Solutions
+# Solutions
  - Duplication complète
      - copier la version précédente dans un nouveau répertoire 
      - gaspillage d'espace disque

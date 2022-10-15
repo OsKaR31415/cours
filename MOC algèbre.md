@@ -9,12 +9,12 @@ alias: "algèbre"
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)
+> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up, up.up.up.up.up, up.up.up.up.up.up, up.up.up.up.up.up.up), this.file.link)
 > WHERE file.link != this.file.link
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT up.up.up.up.up.up.up, up.up.up.up.up.up, up.up.up.up.up, up.up.up.up, up.up.up, up.up, up
 > ```
 
-## Structures algébriques
+# Structures algébriques
 
 > [!smallquery] Sous-notes de [[structure algébrique]]
 > ```dataview
@@ -25,9 +25,9 @@ alias: "algèbre"
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-## Algèbre linéaire
+# Algèbre linéaire
 
-### Combinaison linéaire
+## Combinaison linéaire
 
 > [!query]- Sous-notes de [[combinaison linéaire]]
 > ```dataview
@@ -38,7 +38,7 @@ alias: "algèbre"
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-### Applications linéaires
+## Applications linéaires
 > [!smallquery] Sous-notes de [[application linéaire]]
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
@@ -51,7 +51,7 @@ alias: "algèbre"
 
 
 
-### Matrices
+## Matrices
 
 > [!smallquery] Sous-notes de [[matrice]]
 > ```dataview
@@ -62,7 +62,7 @@ alias: "algèbre"
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-### Espaces vectoriels
+## Espaces vectoriels
 
 > [!smallquery] Sous-notes de [[espace vectoriel]]
 > ```dataview
@@ -74,7 +74,7 @@ alias: "algèbre"
 > ```
 
 
-#### Famille de vecteurs
+### Famille de vecteurs
 
 > [!smallquery] Sous-notes de [[famille de vecteurs]]
 > ```dataview

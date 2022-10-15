@@ -22,7 +22,7 @@ Une *symétrie* est une [[application]] qui fait la [[réflexion]] d'un vecteur 
 > $s_{D_{\alpha}} \;\widehat{=} \begin{pmatrix}\cos2\alpha & \sin2\alpha\\ \sin2\alpha & -\cos2\alpha\end{pmatrix}$
 
 
-## Propriétés
+# Propriétés
 Soient $s_{1}$ et $s_{2}$ des symétries
 
  - la [[composition de fonctions|composée]] de deux symétries est une [[rotation vectorielle]]

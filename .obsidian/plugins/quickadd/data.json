@@ -239,7 +239,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "up::\ntitle::\n#\n"
+        "format": "up::\ntitle::\n#\n\n---"
       },
       "insertAfter": {
         "enabled": false,

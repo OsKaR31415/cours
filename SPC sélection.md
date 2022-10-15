@@ -10,7 +10,7 @@ $\sigma_{j=a}(I) = \{ t \in I \mid t(j) = a \}$
 $\sigma_{j=k}(I) = \{ t \in I \mid t(j) = t(k) \}$
 
 
-## Sélection généralisée
+# Sélection généralisée
 
 Soit $\varphi$ une formule conjonctive de sélection : 
 $\varphi = \gamma_{1} \wedge \gamma_{2} \wedge \cdots$

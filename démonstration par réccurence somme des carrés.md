@@ -4,7 +4,7 @@ title::"démonstration de $\sum\limits_{k=1}^{n}k^{2} = \frac{n(n+1)(2n+1)}{6}$"
 
 ---
 
-## Initialisation
+# Initialisation
 On définit la propriété $\mathscr{P}$ 
 $\mathscr{P}_{n} : \sum\limits_{k=1}^{n}k^{2} = \frac{n(n+1)(2n+1)}{6}$
 
@@ -12,7 +12,7 @@ $\begin{align}\mathscr{P}_{1} :& 1^{2} = \frac{1 \times 2 \times 3}{6}\\ &1 = 1\
 
 Donc, $\mathscr{P}_{1}$ est vraie et $\mathscr{P}$ est initialisée.
 
-## Hérédité
+# Hérédité
 On cherche à montrer que $\forall n \in \mathbb{N}^{*}, \mathscr{P}_{n} \implies \mathscr{P}_{n+1}$
 
 Pour cela, on suppose $\mathscr{P}_{n}$ vraie pour un $n$ fixé.

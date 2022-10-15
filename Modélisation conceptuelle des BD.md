@@ -15,14 +15,14 @@
             - entre plusieurs concepteurs, avec l'admin^ BD, avec les utilisAteurs
         - Plus **facile à maintenir**
 
-## Phases de la modélisation conceptuelle
+# Phases de la modélisation conceptuelle
 
 - **Comprendre**  le monde réel à représenter
 - **Spécification** de l'information dans un langage de haut niveau
 - **Validation** du shéma résultat
 
 
-## Principes de la modélisation
+# Principes de la modélisation
 
 - Principe du 100%
     - Un shéma conceptuel doit représenter **tous les aspects dU problème**
@@ -33,13 +33,13 @@
     - éviter la redondance
     - être simple
 
-## L'abstraction dans la modélisation
+# L'abstraction dans la modélisation
 
 - Processus mental pour. **sélectionner les caractéristiques et les propriétés d'un ensemble d'objets** et éliminer d'autres caractéristiques qui ne sont par importantes
 - Nous Utilisons une abstraction pour nous **concentrer sur les propriétés considérées comme essentielles** et oublier les autres
     - exclusion des détails
 
-### types d'abstraction
+## types d'abstraction
 - Classification
     - Définir un concept comme une classe d'éléments du monde réel
         - définition des classes

@@ -13,7 +13,7 @@ title::"relie les composants entre eux et avec l'extérieur"
 >          - chaque interface possède son système de décodage
 
 
-## Bus
+# Bus
 La carte mère relie les composants entre eux via des [[bus de données|bus]]
 
 ![[bus de données#Types de bus|bus]]

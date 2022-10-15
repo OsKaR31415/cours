@@ -14,11 +14,11 @@ Elle est [[fonction impaire|impaire]], [[fonction croissante|strictement croissa
 
 $\begin{align*} f: \quad & \mathbb{R}\setminus \left\{\frac{\pi}{2}+k \pi, k \in \mathbb{Z}\right\} \to \mathbb{R}\\ & x \mapsto \frac{\sin(x)}{\cos(x)} \end{align*}$
 
-## Propriétés
+# Propriétés
 $\tan(x) = \dfrac{\sin x}{\cos x}$ (voir [[fonction sinus]] et [[fonction cosinus]])
 On peut déduire de cette formule la [[dérivation|dérivée]] de $\tan$.
 
-## Dérivée
+# Dérivée
 La [[dérivation|dérivée]] de $\tan$ est $1+\tan^2$ :
 $$\begin{aligned}
 \tan'(x) &= \left(x\mapsto\dfrac{\sin x}{\cos x}\right)'(x)\\
@@ -27,6 +27,6 @@ $$\begin{aligned}
 &= 1 + \tan^2(x)
 \end{aligned}$$
 
-## Réciproque
+# Réciproque
 La fonction $\tan/_{[-\frac\pi2; \frac\pi2]}$ possède une réciproque, la [[fonction arctangente]].
 

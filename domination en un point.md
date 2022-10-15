@@ -14,12 +14,12 @@ $f$ est _dominée_ par $g$ en $a$, ssi **$\frac{f}{g}$ est bornée au voisinage 
 > [!note]
 > $f$ est _dominée_ par $g$ si $f$ "_ne l'emporte pas complètement sur $g$_"
 
-## Notation
+# Notation
 On note $f = O_{a}(g)$ pour "_$f$ est dominée par $g$ au voisinage de $a$_".
 c'est la notation du **grand O**
 
 
-## Propriétés
+# Propriétés
  - $f=\mathcal{O}_{x_{0}}(g) \iff g=\mathcal{O}_{x_{0}}(f)$
      - la domination est [[commutativité|commutative]]
      - évident, car si $\frac{f}{g}$ est [[fonction bornée|bornée]], alors $\frac{g}{f}$ l'est aussi

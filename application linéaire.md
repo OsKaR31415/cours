@@ -15,7 +15,7 @@ $f: E \mapsto F$ est _linéaire_ ssi :
 $\forall(u,v)\in E^{2}, \forall\lambda\in\mathbb{R},\;\;\; f(u+v) = f(u) + f(v) \;\;\wedge\;\; f(\lambda u) = \lambda f(u)$
 
 
-## Autres définitions
+# Autres définitions
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,
 Une application $f: E \mapsto F$ est _linéaire_ ssi :
 $\forall (u, v)\in E^{2}, \forall\lambda\in\mathbb{R}, \quad f(\lambda u + v) = \lambda f(u) + f(v)$
@@ -23,7 +23,7 @@ $\forall (u, v)\in E^{2}, \forall\lambda\in\mathbb{R}, \quad f(\lambda u + v) = 
 Une [[application]] $f$ est _linéaire_ ssi ses [[composition de fonctions|composées]] à gauche et à droite avec toute [[combinaison linéaire]] sont égales, soit si appliquer $f$ avant ou après une [[combinaison linéaire]]  des vecteurs donne le même résultat
 
 
-## Exemples
+# Exemples
 
 L'application $\begin{aligned} Id: & E\mapsto E\\ & u \mapsto u \end{aligned}$ est une _application linéaire_
 
@@ -38,7 +38,7 @@ f: & \mathbb{R}^2 \mapsto \mathbb{R}\\
      \end{pmatrix}
 \end{aligned}$$
 
-## Propriétés
+# Propriétés
 
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels de dimension finie, et $f: E\rightarrow F$ une _application linéaire_, alors :
 

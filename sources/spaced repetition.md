@@ -1,7 +1,8 @@
 link::https://ncase.me/remember/fr.html
 title::"méthode d'apprentissage"
 #PKM #obsidian
-# spaced repetition
+
+----
 
 Technique pour apprendre a long terme
  - Basé sur des flashcards
@@ -14,13 +15,13 @@ Technique pour apprendre a long terme
      - concepts liés entre eux
      - ensemble qui à du sens 
 
-## Leitner system
+# Leitner system
  - Système pour implémenter _spaced repetition_
      - avoir physiquement des boites et des cartes
      - on respecte un agenda pour réviser certaines cartes ou non.
  - https://en.wikipedia.org/wiki/Leitner_system
 
-## Applications
+# Applications
  - Anki 
      - https://apps.ankiweb.net/
      - La plus utilisée

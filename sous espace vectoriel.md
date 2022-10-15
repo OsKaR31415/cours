@@ -15,7 +15,7 @@ Un sous-espace vectoriel $F$ d'un [[espace vectoriel]] $(E, +, \cdot)$ est un so
  - $(F,+,\cdot)$ est un $\mathbb R$-espace vectoriel
 
 
-## Autre définition
+# Autre définition
 Un sous espace vectoriel $F$ de $E$ est un sous-ensemble de $E$ tel que :
  - $0_E \in F$
  - $\forall (u,v)\in E^2, \forall \lambda \in \mathbb R, \lambda \cdot u + v \in F$ (stabilité par [[combinaison linéaire|combinaisons linéaires]])

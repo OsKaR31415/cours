@@ -7,7 +7,7 @@
 > Une *forme quadratique* sur $E$ est une [[application]] $Q$ de $E \to \mathbf{K}$ qui s'exprique quelle que soit la [[base d'un espace vectoriel|base]], sous la forme d'un [[polynôme homogène]] de [[degré d'un polynôme|degré]] $2$
 ^definition
 
-## Propriétés 
+# Propriétés 
 Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] finie
 
 Soit $Q : \mathbf{E} \to K$ une [[application]] 

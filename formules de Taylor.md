@@ -5,12 +5,12 @@ title::"$\disp f(x_{0}) = \sum_{k=0}^{n} \left( \frac{f^{(k)}(x_{0})}{k!}\cdot(x
 ----
 Formules pour calculer des [[développement limité]].
 
-## Formule de Taylor pour les polynômes
+# Formule de Taylor pour les polynômes
 Soit $P$ un [[polynôme]], $a$ un réel, $n$ un entier tel que $n\geq deg(P)$
 Alors :
 $\boxed{ P(a) = \sum_{k=0}^n \left( \dfrac{p^{(k)}(a)}{k!}\cdot(x-a)^k \right) }$
 
-### Exemple
+## Exemple
 $P(x) = 3x^4 + 5x^3 - 4x^2 + x - 7$
 $a = 2$, $n = 4$
 D'après la formule de Taylor :
@@ -24,7 +24,7 @@ $$P(x) = \dfrac{P^{(0)}(2)}{0!}(1-2)^0 + \dfrac{P^{(1)}(2)}{1!}(x-2)^1 + \dfrac{
 
 $P(a)$
 
-## Formule de Taylor Lagrange
+# Formule de Taylor Lagrange
 Soit $[a; b]$ un intervalle de $\mathbb R$, $a<b$,
 et soit $f$ une fonction définie sur $[a; b]$ :
  - de classe $C^n$ sur $[a;b]$ (voir [[classe d'une fonction]])
@@ -38,7 +38,7 @@ $$f(b) = f(a)+\dfrac{f^{(1)}(a)}{1!}(b-a) + \dfrac{f^{(2)}(a)}{2!}(b-a)^2 + \ldo
  + \underbrace{\dfrac{f^{(n+1)}(c)}{(n+1)!}(b-a)^{n+1}}_{\text{reste de Lagrange}}$$
 
 
-### Formule de Mac-Laurin (cas particulier)
+## Formule de Mac-Laurin (cas particulier)
 Dans le cas particulier où $a=0$
  $$f(x) = \underbrace{f(0) 
  + \dfrac{f^{(1)}(0)}{1!}x 
@@ -47,7 +47,7 @@ Dans le cas particulier où $a=0$
  + \dfrac{f^{(n)}(0)}{n!}x^n}_{\text{partie régulière}}
  + \underbrace{\dfrac{f^{(n+1)}(c)}{(n+1)!}x^{n+1}}_{\text{reste de Taylor}}$$
 
-## Formule de Taylor-Young
+# Formule de Taylor-Young
 A l'ordre $n$, au voisinage de $x_0$ :
 Soient $f$ une fonction définie sur un intervalle $I$, $n\in\mathbb N^*$, $x_0\in I$;
 On suppose que $f$ est de [[classe d'une fonction|classe]] $C^{n-1}$ sur $I$ et que $f^{(n)}(x_0)$ existe.

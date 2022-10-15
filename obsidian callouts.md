@@ -8,7 +8,7 @@ title::"sytaxe, types de callouts, callouts persos"
 > les callouts permettent de faire des blocks d'information, pour grouper certaines parties des notes.
 > Ils upportent *tout* le formattage, comme les maths ($e^{i \pi} + 1 = 0$) ou les blocks de `code`
 
-## Syntaxe
+# Syntaxe
 
 ```
 > [!info] Test de callouts
@@ -25,7 +25,7 @@ On peut aussi ajouter un tiret : `[!info]- callout pliable` pour permettre de "p
 > [!info]- callout pliable
 > le contenu est caché par défaut !
 > cliquer sur le titre permet de le montrer
-### Types de callouts
+## Types de callouts
 Il existe 12 types par défaut :
 
  - note
@@ -41,9 +41,9 @@ Il existe 12 types par défaut :
  - example
  - quote, cite
 
-#### Examples
+### Examples
 
-##### Default types
+#### Default types
 here are the default types :
 > [!note]- note
 > lorem ipsum dolor sit amet
@@ -84,7 +84,7 @@ here are the default types :
 > [!quote]- quote, cite
 > lorem ipsum dolor sit amet
 
-##### My callouts
+#### My callouts
 
 > [!query] query
 > this is green and **small**. Used to wrap dataview queries (especially in MOCs) so you can see more lines at the same time.

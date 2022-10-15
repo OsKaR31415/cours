@@ -5,7 +5,7 @@
  - Traduire APL en notation mathématique
  - Utiliser la notation mathématique la plus standard possible
 
-## Notes
+# Notes
  - TMN signifie "Traditionnal Mathematical Notation" : Notation Mathématique Traditionnelle
  - RTL et LTR :
      - RTL : Right-To-Left : quand ce qui est à droite (Right) est évalué en premier, et ce qui est à gauche en dernier 
@@ -17,9 +17,9 @@
 
 # Equivalence entre APL et la notation mathématique
 
-## Opérations mathématiques standard
+# Opérations mathématiques standard
 
-### Sur les nombres réels
+## Sur les nombres réels
 
 Les opérations sur l'ensemble des nombres réels sont presque équivalentes en TMN et en APL
 
@@ -36,16 +36,16 @@ Soient $a$ et $b$ deux Réels
 | partie entière            | `⌊a`    | $\lfloor a \rfloor$ ou $E(a)$ |
 | partie entière supérieure | `⌈a`    | $\lceil a \rceil$             |
 
-#### Fonctions trigonométriques
+### Fonctions trigonométriques
 Les fonctions trigonométriques ($\sin$, $\cos$, $\tan$, $\arcsin$...) sont toutes accessibles en APL avec le symbole `○`
 Par exemple, `1○` $\leftrightarrow$ $\sin$, et `¯1○` $\arcsin$
 
-### Opérations particulières à APL
+## Opérations particulières à APL
 
 La multiplication par $\pi$ est une primitive d'APL, notée `○`. 
 Par exemple, `○ 2` $\leftrightarrow$ $2\pi$
 
-### Opérations mathématiques
+## Opérations mathématiques
 
  - La **racine carrée** : $\sqrt{a}$ n'est pas une primitive. On peut l'exprimer de plusieurs manières :
      - Avec une puissance $\frac{1}{2}$ : `(a)*1÷2`, ou `(a)*÷2`

@@ -2,7 +2,7 @@
 
 ----
 
-## Exemple de raisonnement en LP1
+# Exemple de raisonnement en LP1
 ```
 (P1) Toute personne coupable est condamnée
 (P2) Cain est coupable
@@ -16,7 +16,7 @@ Dans la [[logique des propositions]], on ne peut pas représenter certains énon
 
 
 
-## Elements de la LP1
+# Elements de la LP1
  - **variable** : représente des concepts quelconques de l'univers du discours qui ne sont pas définit précisément
  - **constantes** : Des concepts de l'univers du discours qui sont définits et fixés
      - Exemple: `Abel` et `Caïn` sont des constantes

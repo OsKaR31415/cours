@@ -5,7 +5,7 @@ up::[[base de données]]
 
 Une "question" que l'on pose à une [[base de données]].
 
-## Exemple
+# Exemple
 
 sur la [[BDD films]]
 

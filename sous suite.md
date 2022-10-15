@@ -10,7 +10,7 @@ Une _sous suite_ de $(u_{n})$ (ou _suite extraite_) est une suite de la forme :
 $\left( u_{\varphi(n)} \right)_{n \in \N}$ où $\varphi : \N \rightarrow \N$ est strictement croissante
 
 
-## Propriétés
+# Propriétés
 Soit $(u_{n})$ une suite
 Soit $\left( u_{\varphi(n)} \right)_{n \in \N}$ une sous-suite de $(u_{n})$
 

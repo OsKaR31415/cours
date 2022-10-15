@@ -22,10 +22,10 @@ up::[[architecture des ordinateurs]]
 
 
 
-## Types de mémoire
+# Types de mémoire
 ![[mémoire 2022-09-21 10.21.29.excalidraw|600]]
 
-## Sous-notes
+# Sous-notes
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"

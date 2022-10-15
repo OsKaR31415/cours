@@ -20,7 +20,7 @@ $\begin{align*} \arg\mathrm{sh} : \quad & \mathbb{R} \rightarrow \mathbb{R} \\ &
 x = \sinh(y)
 ```
 
-## Propriétés
+# Propriétés
 
  - $\arg\mathrm{sh}$ est [[fonction dérivable|dérivable]] sur $\mathbb{R}$
      - $(\arg\mathrm{sh})'(x) = \dfrac{1}{\sqrt{1+x^{2}}}$

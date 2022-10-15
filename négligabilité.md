@@ -26,7 +26,7 @@ $\displaystyle f = o_{x_{0}}(g) \iff \lim_{x \to x_{0}} \frac{f(x)}{g(x)} = 0$
 
 
 
-## Propriétés
+# Propriétés
 
  - $f = o(g) \implies f = O(g)$
      - où $O$ désigne la [[domination en un point]]

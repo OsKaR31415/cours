@@ -2,7 +2,7 @@
 
 ----
 
-## Simplifier les expressions
+# Simplifier les expressions
  - $2x + 3x$
  - $2x + 7 + 2$
  - $3x + 9 - x$
@@ -11,7 +11,7 @@
  - $x(1+2)$
 
 
-## Résoudre les équations suivantes
+# Résoudre les équations suivantes
  - $2x = 3x$
  - $5x = 15$
  - $x + 13 = 14$

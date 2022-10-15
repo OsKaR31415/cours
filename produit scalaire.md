@@ -19,7 +19,7 @@ $<u, v> = u +.\times v = u^T \times v$ ([[multiplication de matrices]], avec $u$
 > **Note :** $\vec{u}\cdot\vec{v} = \vec{v}\cdot\vec{u}$ donc on peut [[projection d'un vecteur sur une droite vectorielle|projeter]] sur $\vec{u}$ ou sur $\vec{v}$ indiféremment.
 
 
-## Propriétés
+# Propriétés
 
  - le _produit scalaire_ est une [[application bilinéaire]]
  - le _produit scalaire_ est une [[application symétrique]] 

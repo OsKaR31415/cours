@@ -16,14 +16,14 @@ $(H, *)$ est un _sous-groupe_ de $(G, *)$ ssi :
 
 On sait aussi que $(H,*)$ est commutatif et associatif car $(G,*)$ l'est, et que $H\subset G$
 
-## Autres définition
+# Autres définition
 Soit un groupe $(G, *)$,
 $(H, *)$ est un sous-groupe de $(G, *)$ ssi :
  - $H\subset G$ et $H\neq\emptyset$
  - $H$ est stable par la loi $*$ : $\forall (a,b)\in H^2, a*b\in H$
  - $H$ est stable par passage au symétrique : $\forall a\in H? a^{*(-1)}\in H$ 
 
-## Propriétés
+# Propriétés
  - Un sous ensemble **non vide** $H$ d'un groupe $(G, *)$ est un sous-groupe ssi $\forall(h_1,h_2)\in H^2, h_1*h_2^{-1}\in H$
  - Soit $(G, *)$ un groupe et $(H_i)$ une famille quelconque de sous-groupes. Alors : $\disp\cap_{i}H_{i}$ est également un sous-groupe de $(G, *)$
 

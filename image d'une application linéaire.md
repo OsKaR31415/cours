@@ -10,7 +10,7 @@ $\mathrm{Im}(f) = \{ v\in F \;|\; \exists u\in E, f(u) = v\}$
 De façon plus concise, $\mathrm{Im}(f) = f(E)$
 
 
-## Propriétés
+# Propriétés
  - $Im(f)\subset E$ donc $\dim Im(f) = \mathrm{rang} f \leq \dim f$
  - $f$ est [[surjection|surjective]] $\iff$ $Im(f) = F$
 

@@ -3,7 +3,8 @@ date::2022-09-03
 author::[[Sarah Carter]]
 title::"activité qui enseignle les limites, en faisant tracer le graphe d'une fonction a partir de certaines limites"
 #pedagogie
-# maths pédagogie activité interactive calculus (limites)
+
+----
 
 Pour des exercices sur les [[limite d'une fonction|limites]], les élèves n'ont pas forcément de problèmes sur _comment faire_, mais plutôt sur **par quoi commencer ?**.
 
@@ -12,7 +13,7 @@ L'activité permet de :
  - montrer que l'on peut commencer avec n'importe quelle information
  - faire ressortir quelles notions ne sont pas bien acquises
 
-## Déroulement de l'activité
+# Déroulement de l'activité
 
 Le but pour les élèves est de tracer le graphe d'une fonction sur une feuille :
 ![[Pasted image 20220903005120.png\|500]]
@@ -22,7 +23,7 @@ Pour cela, on leur donne une liste de propriétés de la fonction. Plus particul
 
 Les élèves doivent choisir au hasard les propriétés une-par-une, et chacun son tour ajouter / corriger sur le graphique pour que la fonction corresponde aux propriétés.
 
-### Exemple de déroulement
+## Exemple de déroulement
 
 L'élève 1 doît tracer la propriété $f(-4) = -2$
 Une simple fonction linéaire suffit :

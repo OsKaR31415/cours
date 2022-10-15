@@ -4,6 +4,6 @@ title::"mindmaps et annotations de pdfs"
 
 ----
 
-## Mindmaps
+# Mindmaps
 
 ![[obsidian plugin markmind demo]]

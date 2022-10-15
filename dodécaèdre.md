@@ -11,7 +11,7 @@ arrêtes : 30
 
 C'est un des [[solides de platon]]
 
-## Transformations
+# Transformations
 [[polyèdre dual|dual]] : [[icosaèdre]]
 [[polyèdre adouci|adouci]] : [[dodécaèdre adouci]]
 [[polyèdre tronqué#Tronquature aux arrêtes et aux sommets|chanfreiné]] : [[rhombicosidodécaèdre]]

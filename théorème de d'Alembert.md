@@ -5,7 +5,7 @@ up::[[polynôme]]
 Aussi appelé _Théorème fondamental de l'algèbre_, _Théorème de d'Alembert-Gauss_, du nom de [[Jean le Rond d'Alembert]] et de [[Carl Friedrich Gauss]].
 
 
-## Enoncés
+# Enoncés
 
  - Tout [[polynôme]] non constant, à coefficients [[nombre complexe|complexes]], admet au moins une [[racine]] [[nombre complexe|complexe]]
  - Tout polynôme non constant à coefficients réels admet au moins une racine complexe.

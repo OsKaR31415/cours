@@ -10,7 +10,7 @@ $P(x) = a_0x^n + a_1x^{n-1} + \cdots + a_{n-2}x^2 + a_{n-1}x + a_n$
 
 Soit : $\displaystyle P(x) = \sum_{n=0}^d(a_nx^{d-n})$
 
-## Degré
+# Degré
 
 Le _degré_ d'un polynôme est la plus haute puissance contenue dans ce polynôme.
 

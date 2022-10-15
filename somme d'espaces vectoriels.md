@@ -10,4 +10,4 @@ $\boxed{E_{1}+E_{2} = \big\{ u_{1} + u_{2} \mid u_{1}\in E_{1} \wedge u_{2} \in 
 
 Cette somme est un [[sous espace vectoriel]] de $E$
 
-## Propriétés
+# Propriétés

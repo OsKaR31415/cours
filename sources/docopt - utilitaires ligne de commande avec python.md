@@ -3,7 +3,8 @@ link::http://docopt.org/
 date::2022-09-07
 title::"module pour créer des utilitaires lignes de commande simplement a partir du message d'aide renvoyé par cette commande"
 #informatique 
-# docopt - utilitaires ligne de commande avec python
+
+----
 Permet de créer un parseur des arguments (comme [argparse](https://docs.python.org/3/library/argparse.html))
  - utilise la syntaxe des [[unix man|man pages]] pour le créer
      - beaucoup plus façile et intuitif

@@ -6,7 +6,7 @@ Signifie "_les quatre chemins_"
 
 Fait partie, avec le [[trivium]], des [[sept arts libéraux]]
 
-## les sciences du quadrivium
+# les sciences du quadrivium
  - [[MOC arithmétique|arithmétique]]
  - [[MOC géométrie|géométrie]]
  - [[musique]]

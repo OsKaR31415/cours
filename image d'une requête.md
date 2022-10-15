@@ -8,7 +8,7 @@ l'_image_ de (la réponse à) $q$ sur $I$ est :
 
  $q(I) = \{v(u) \;|\; v \text{ est une valuation sur } \mathrm{var}(q) \text{ et } \forall i\in[\![1, n]\!], v(u_i)\in I(R_i)\}$
 
-## Exemple
+# Exemple
 sur la [[BDD films]]
 
 - les films donc l'auteur est américain.e

@@ -12,7 +12,7 @@ arrêtes : 6
 C'est un des [[solides de platon]]
 
 
-## Transformations
+# Transformations
 [[polyèdre adouci]] : [[icosaèdre]]
 [[polyèdre dual]] : [[tétraèdre]]
 

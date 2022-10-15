@@ -15,10 +15,10 @@ Un vecteur $u \in E$ **non nul** est un _vecteur propre_ de $\varphi$ ssi il exi
 > Soit $u \in E$ avec $\boxed{u \neq 0_{E}}$
 > $u$ est un _vecteur propre_ de $\varphi$ ssi $\exists \lambda \in \mathbf{K}, \varphi(u)=\lambda u$
 
-## Propriétés
+# Propriétés
 
  - l'ensemble des _vecteurs propres_ **associés à une même [[valeur propre d'une application linéaire|valeur propre]] $\lambda$** est un [[sous espace vectoriel|sev]] de $(E, +, \cdot)$
      - c'est le [[sous espace vectoriel|sev]] _associé à la valeur propre $\lambda$_
 
-## Méthode de calcul
+# Méthode de calcul
 **[[calculer les vecteurs propres d'une application]]**

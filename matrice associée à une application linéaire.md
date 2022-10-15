@@ -22,7 +22,7 @@ La colonne numéro $j$ est donc $\mathrm{Mat}_{\cal C}(f(e_j))$ et correspond au
 
 
 
-## Exemples
+# Exemples
 
 L'application $f: \begin{pmatrix} x_1\\x_2 \end{pmatrix} \mapsto \begin{pmatrix} 2x_1+x_2\\ x_1-3x_2\\ -x_1+2x_2 \end{pmatrix}$ est une [[application linéaire]] de $\mathbb{R}^2$ dans $\mathbb{R}^3$
 Si $\mathcal B_2$ désigne la [[base canonique d'un espace vectoriel|matrice canonique]] de $\mathbb{R}^2$ et $\mathcal B_3$ celle de $\mathbb{R}^3$, alors :
@@ -37,7 +37,7 @@ L'application cherchée est : $f: \begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix} \m
 
 
 
-## Propriétés
+# Propriétés
 Soient $E$, $F$ et $G$ des $\mathbb{R}$-[[espace vectoriel|espaces vectoriels]] de [[dimension d'un espace vectoriel|dimension]] finie, de bases repectives $\cal E$, $\cal F$ et $\cal G$,
 Soient $f$ et $h$ des applications linéaires de $E$ dans $F$
 Soit $g$ une application linéaire de $F$ dans $G$
@@ -51,7 +51,7 @@ On a :
 
 
 
-## Exemples
+# Exemples
 On munit $\mathbb{R}^2$ et $\mathbb{R}^3$ de leurs bases respectives $\mathcal B_2$ et $\mathcal B_3$,
 Soient :
 

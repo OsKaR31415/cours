@@ -6,10 +6,10 @@ description::"table d'une opération (résultat de l'application sur toutes les 
 Soit $E$ un ensemble non vide, et $*$ une [[loi de composition interne|LCI]] sur $E$.
 On représente la loi par une _table de Cayley_.
 
-## Propriété
+# Propriété
 Si la table est symétrique par rapport à sa diagonale, cad. si sa [[transposée]] est égale à elle-même, alors la loi est [[commutativité|commutative]].
 
-## Exemple
+# Exemple
 Dans $\mathbb Z/_{5\mathbb Z}$, la loi étant $\dot{\times}$ :
 $$\begin{array}{c|ccccc}
 \dot\times & \dot0 & \dot1 & \dot2 & \dot3 & \dot4\\

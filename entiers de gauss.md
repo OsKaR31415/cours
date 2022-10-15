@@ -10,7 +10,7 @@ title::"$\mathbb{Z}[i] = \{ m+in \mid (m, n) \in \mathbb{Z}^{2} \} \subset \math
 > Donc : 
 > $\mathbb{Z}[i] = \{ m+in \mid (m, n)\in \mathbb{Z}^{2} \}$
 
-## Propriétés
+# Propriétés
 
  - $\mathbb{Z}[i] \subset \mathbb{C}$
  - $(\mathbb{Z}[i], +, \cdot)$ est un [[anneau]] 

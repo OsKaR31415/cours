@@ -1,12 +1,12 @@
 
 ----
 
-## Exercice 3
+# Exercice 3
 
-### 1.
+## 1.
 
 
-### 2.
+## 2.
 
 Soit $f: x \mapsto (\cos(x^{2}) + a)e^{x} - \sqrt{ x^{3} +2 }$
 
@@ -32,7 +32,7 @@ On a :
 On conclut que $\frac{f(x)}{e^{x}}$ est bornée au voisinnage de $+\infty$ 
 (La somme de deux fonctions bornées est aussi bornée)
 
-### 3.
+## 3.
 
 Si on pose $a = 2$
 
@@ -54,10 +54,10 @@ $\begin{align} \lim\limits_{ x \to + \infty } \frac{\left( \cos (x^{2}) + 2\righ
 Cette limite n'existe pas, elle est donc différente de $1$, donc on à pas l'équivalence.
 
 
-## Exercice 4
+# Exercice 4
 Déterminer un équivalent simple des expressions suivantes au voisinage de $+\infty$
 
-### a)
+## a)
 
 $-5 x ^{3} + \pi x ^{4} - \ln 2$
 
@@ -71,7 +71,7 @@ Donc : $\pi x^{4} - 5 x^{3} - \ln 2 = \pi x^{4}  + o(\pi x^{4}) + o(\pi x^{4})$
 Et donc : $-5x^{3} + \pi x^{4} - \ln 2 \sim \pi x^{4}$
 
 
-### b)
+## b)
 
 $\displaystyle 2e^{x} - \frac{1}{3}x^{12}  k \sqrt{ 2 }\ln x$
 
@@ -85,7 +85,7 @@ donc :
 $2e^{x}- \frac{1}{3}x^{12} + \sqrt{ 2 }\ln x \sim 2e^{x}$
 
 
-### c)
+## c)
 
 $\displaystyle \frac{e^{x+2}+\ln x}{e^{x-1}+x+1}$
 
@@ -107,7 +107,7 @@ On sait que : $\displaystyle\frac{e^{x+1}}{e^{x-1}} = e^{(x+1)-(x-1)} = e^{2}$
 Donc : 
 $\displaystyle \frac{e^{x+2}+\ln x}{e^{x-1}+x+1} \sim e^{2}$
 
-### d)
+## d)
 $\ln(x+2)$
 
 $$
@@ -122,7 +122,7 @@ $$
 Donc $\ln(x+2) \sim \ln(x)$
 
 
-### e)
+## e)
 
 $e^{2x} - 9e^{\sqrt{ x }} - \ln(3x)$
 
@@ -140,7 +140,7 @@ $$
 &= 0 & \text{car } \lim\limits_{ x \to +\infty } e^{-x} = 0
 \end{align}
 $$
-### f)
+## f)
 $\displaystyle x^{2}+8x^{2}\ln (x)+ \frac{2x}{\ln(x)}$
 
 $\displaystyle x^{2}+8x^{2}\ln (x)+ \frac{2x}{\ln(x)} = \frac{x^{2}\ln(x) + 8x^{2}\ln^{2}(x) + 2x}{\ln(x)}$

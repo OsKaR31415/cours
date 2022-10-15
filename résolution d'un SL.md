@@ -10,11 +10,11 @@ up::[[système linéaire]]
 ----
 
 
-### Résolution par substitution
+## Résolution par substitution
 On cherche a exprimer une variable en fonction d'une autre, puis on remplace des expressions des variables ainsi trouvées.
 
-### Méthode du pivot de Gauss
-#### Exemple
+## Méthode du pivot de Gauss
+### Exemple
 $(S): \left\{ \begin{array}{rcllr} x&+y&+7z&=-1&L_1\\ 2x&-y&+5z&=-5&L_2\\ -x&-3y&-9z&=-5&L_3 \end{array} \right.$
 
 On transforme $(S)$ en un système équivalent lorsque l'on effectue l'une des opérations suivantes :
@@ -32,6 +32,6 @@ $$\begin{aligned}
 \left\{\begin{array}{rrrrrl}x&+y&+7z&=&-7&(L_1\rightarrow L_1)\\ &-3y&-9z&=&-3&(L_2-2L_1\rightarrow L_2)\\ &-2y&-2z&=&-6&(L_3+L_1\rightarrow L_3) \end{array}\right.\\
 \end{aligned}$$
 
-### Méthode générale 
+## Méthode générale 
 
 ![[système linéaire 2022-08-29 17.52.52.excalidraw|1500]]

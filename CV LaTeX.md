@@ -55,7 +55,7 @@ Je suis très à l\'aise à l\'oral, et j\'adore transmettre mes connaissances, 
 J\'ai déjà et je compte développer encore dans le futur des engagements dans des associations qui mettent en avant les mathématiques et les sciences en général, pour tous les publics, comme l\'association _La nuit des Maths_, ou bien le _stage Évariste Gallois_.
 
 
-### Mathématiques
+## Mathématiques
 
 
  - Centre Évariste Gallois du 17 au 23 juin 2018 comme élève stagiaire (Direction Philippe Grillot)
@@ -71,7 +71,7 @@ J\'ai déjà et je compte développer encore dans le futur des engagements dans 
  - Animateur d'une colonie de vacances mathématique (avec l'association "Kangourou des mathématiques") du 6 au 12 juillet 2022
 
 
-### Activites personnelles
+## Activites personnelles
 
  - Conférences en ligne de mathématiques et d\'informatique
  - Cours de mathématiques et d\'informatique dispensés, niveau collège et lycée
@@ -82,7 +82,7 @@ J\'ai déjà et je compte développer encore dans le futur des engagements dans 
  - Club informatique au FabLab de Blois \og{} Coding-goûters \fg{} avec l\'association \og{} Loir-et-Cher tech \fg{}
 
 
-### Parcours scolaire
+## Parcours scolaire
 
  - Première année de licence d\'informatique de l\'université de Tours
  - Lycée :

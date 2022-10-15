@@ -14,7 +14,7 @@ title::""
 >  - [[inégalité triangulaire]] ([[sous-additivité]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
 ^definition
 
-## Propriétés 
+# Propriétés 
 
  - La norme est toujours positive 
  - 

@@ -6,7 +6,7 @@ title::"tracer des fonctions mathématiques"
 Pour tracer des fonctions mathématiques
 
 
-## Syntaxe
+# Syntaxe
 ```functionplot
 ---
 title: The title

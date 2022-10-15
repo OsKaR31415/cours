@@ -15,7 +15,7 @@ $\mathscr R$ est une _relation d'équivalence_ ssi elle est :
      - On peut facilement prouver que cette proposition est équivalente à $\forall (x,y)\in E^2, x\mathscr Ry \iff y\mathscr Rx$
  - [[transitivité d'une relation|transitive]] : $\forall (x,y,z)\in E^3, x\mathscr Ry \vee y\mathscr Rz \implies x\mathscr Rz$
 
-## Exemples
+# Exemples
  - l'égalité est une relation d'équivalence
  - Soit $E$ l'ensemble des droites du plan, le parallélisme sur $E$ est une relation d'équivalence
  - Soit $E$ l'ensemble des étudiants d'une université, la relation _être dans la même promotion_ est une relation d'équivalence sur $E$

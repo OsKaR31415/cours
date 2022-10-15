@@ -26,7 +26,7 @@ $\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
 > Si $x_{0} = \pm \infty$, on peut définir $h$ seulement après $b \geq x_{0}$
 
 
-## Propriétés
+# Propriétés
  - L'équivalence est une [[relation d'équivalence]].
 
  - $f \sim g \implies f \circ \varphi \sim g \circ \varphi$

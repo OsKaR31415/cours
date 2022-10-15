@@ -30,7 +30,7 @@ title::"definir des [[arbre|arbres]] avec les defaultdicts du module [[python mo
 Permet de définir la structure d'[[arbre]] de manière simple, grace aux `defaultdicts` (module collections)
 
 
-## Définition
+# Définition
 ```python
 from collections import defaultdict
 
@@ -44,7 +44,7 @@ tree = lambda: defaultdict(tree)
 
 
 
-## Créer
+# Créer
 
 **Avec assignation**
  - les feuilles sont des valeurs (pas des dictionnaires vides)
@@ -70,7 +70,7 @@ taxonomy['Plantae']['Solanales']['Convolvulaceae']['Ipomoea']['sweet potato']
 ```
 
 
-## Afficher
+# Afficher
 
 Il faut d'abord transformer les arbres en vrais dictionnaires
 ```python
@@ -97,7 +97,7 @@ pprint(tree_to_dict(taxonomy))
 
 
 
-## Modifier
+# Modifier
 
 **Ajouter un chemin**
  - on ajoute tout un chemin du graphe d'un seul coup

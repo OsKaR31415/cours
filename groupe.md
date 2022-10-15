@@ -14,11 +14,11 @@ Un ensemble $G$ muni d'une [[loi de composition interne]] $*$ est un _groupe_ ss
 - $G$ possède un [[élément neutre]]
 - Tout élément de $G$ possède un [[éléments symétrisables|symétrique]] par $*$
 
-## Ordre d'un groupe
+# Ordre d'un groupe
 L'_ordre d'un groupe_ est le [[cardinal]] de son ensemble **si celui-ci est fini**
 
 
-## Propriétés
+# Propriétés
 
  - Un groupe n'est jamais vide
      - car il ne pourrait pas posséder d'élément neutre
@@ -32,12 +32,12 @@ L'_ordre d'un groupe_ est le [[cardinal]] de son ensemble **si celui-ci est fini
      - On note $(a^{-1})^{*n} = a^{-n}, (n\in\mathbb N)$
      - Alors: $(a^{-1})^{*n} = (a^{*n})^{-1}$
 
-### Proposition
+## Proposition
 Soit $(G, *)$ un groupe, et $a\in G$.
 Si il existe un entier naturel $n$ tel que $a^{*n} = e$, alors il existe un plus petit entier $n_0$ tel que $a^{*n_0} = e$.
 On appelle alors $n_0$ _l'ordre de $a$_.
 Si $n$ n'existe pas? on dit que $a$ est _d'ordre infini_.
 
 
-## Exemples
+# Exemples
 

@@ -1,6 +1,7 @@
 #autres
-# médias Francais
 
-## Qui les possède ?
+----
+
+# Qui les possède ?
 
 ![[qui possède les médias français.png]]

@@ -32,7 +32,6 @@
   "txt-as-md-obsidian",
   "rss-reader",
   "obsidian-advanced-uri",
-  "obsidian-shellcommands",
   "excalibrain",
   "obsidian-path-finder",
   "obsidian-custom-frames",
@@ -40,7 +39,6 @@
   "obsidian-query-language",
   "obsidian42-brat",
   "url-into-selection",
-  "obsidian-jupyter",
   "obsidian-latex-suite",
   "breadcrumbs",
   "ob-table-enhancer",
@@ -55,5 +53,6 @@
   "darlal-switcher-plus",
   "obsidian-quickshare",
   "obsidian-better-internal-link-inserter",
-  "obsidian-argdown-plugin"
+  "obsidian-argdown-plugin",
+  "obsidian-contextual-typography"
 ]

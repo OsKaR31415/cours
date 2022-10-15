@@ -7,11 +7,11 @@ Signifie "_les trois chemins_"
 Fait partie avec le [[quadrivium]] les [[sept arts libéraux]]
 
 
-## les arts du trivium
+# les arts du trivium
  - [[grammaire]]
  - [[dialectique]] 
  - [[rhétorique]]
 
 
-## Notes
+# Notes
  - Le _trivium_ consiste en bien plus qu'apprendre à bien parler et à acquérir une bonne syntaxe 

@@ -3,7 +3,7 @@
 ----
 
 
-## Types de gaspillage
+# Types de gaspillage
 
 Le BCFN propose une différenciation entre :
  - le **"food loss"** : les pertes en amont de la chaîne alimentaire
@@ -17,7 +17,7 @@ Le BCFN propose une différenciation entre :
      - consommation finale
 
 
-### Répartition du gaspillage
+## Répartition du gaspillage
 
 
 Dans les **pays d'[[Europe]]**

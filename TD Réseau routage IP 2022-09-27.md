@@ -2,7 +2,7 @@
 
 ----
 
-## Exercice 1 : adressage
+# Exercice 1 : adressage
 
 compléter (en gras ceux qui sont donnés) :
 

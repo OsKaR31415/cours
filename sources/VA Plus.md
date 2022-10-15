@@ -1,7 +1,8 @@
 up::[[youtube]]
 link::https://www.youtube.com/c/VAplusmedia
 title::"chaîne d'information (youtube)"
-# VA Plus
+
+----
 
 > [!query] Contenu créé par `=this.file.link`
 > ```dataview

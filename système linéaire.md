@@ -17,7 +17,7 @@ _système linéaire_, abb. _SL_
 ^definition
 
 
-#### Exemple
+### Exemple
 Système linéaire à 2 équations et 2 inconnues :
 $(S) :\left\{ \begin{array}{l} ax+by=u\\ cx+dy=v \end{array} \right.$
 où $a, b, c, d$ sont fixés, et où $x, y$ sont les inconnues.
@@ -29,7 +29,7 @@ Voir les [[résolution d'un SL|méthodes de résolution]]
 
 Un système linéaire peut être [[représentation matricielle d'un SL|représenté avec des matrices]].
 
-## Systèmes particuliers
+# Systèmes particuliers
 > [!query] Sous-notes de [[système linéaire]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"

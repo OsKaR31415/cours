@@ -4,6 +4,7 @@ author::[[emergent garden]]
 title::"simulation simple avec évolution darwinienne"
 description::"automate cellulaire avec des entités (yeux, bouche, killer, nouriturre...)"
 #informatique 
-# The Life Engine
+
+----
 
 

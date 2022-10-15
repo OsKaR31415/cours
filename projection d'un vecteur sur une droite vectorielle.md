@@ -24,6 +24,6 @@ De même pour $p_{2}$
 
 
 
-## Propriétés
+# Propriétés
 
  - 

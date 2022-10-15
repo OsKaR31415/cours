@@ -4,7 +4,7 @@ up::[[MOC analyse]]
 ---
 Notée $\gamma$
 
-## Définitions
+# Définitions
 
  - $\gamma = \lim\limits_{ n \to \infty }(H_{n} - \ln(n))$
      - où $H_n$ est la [[série harmonique]]

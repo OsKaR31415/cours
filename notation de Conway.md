@@ -7,7 +7,7 @@ Chaque polyèdre est défini en partant d'un polyèdre de base (souvent les [[so
 
 Créée par [[John Horton Conway]]
 
-## Transformations
+# Transformations
 
 | opérateur | nom      | description                                                                                         |
 | ---------:| -------- | --------------------------------------------------------------------------------------------------- |

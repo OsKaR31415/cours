@@ -6,7 +6,7 @@ Elle consiste en une formule sous [[forme normale conjonctive]] et [[forme prén
 
 **Note :** On ne cherche pas à ce que la forme de skolem soit [[equivalence|équivalente]] à la formule originale. On veut simplement que **si l'une est [[satisfaisable]], l'autre le soit aussi**. On veut qu'elles soient [[equisatisfaisables]]
 
-## Exemple
+# Exemple
 Soit la formule suivant : $\forall x \exists y \text{ Sup}(x, y)$
 Avec $\text{Sup}(x, y) \equiv x < y$, et avec pour [[domaine d'interprétation]] $\N$
 On sait que cette formule est vraie : on peut toujours trouver un entier plus grand que n'importe quel autre.

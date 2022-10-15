@@ -18,7 +18,7 @@ y=x | x >= 0 | #58F
 0   | x <  0 | #58F
 ```
 
-## Définitions
+# Définitions
 
 $R(x) := \dfrac{x+|x|}{2}$ soit la moyenne arithmétique entre $x$ et $|x|$
 
@@ -26,8 +26,8 @@ $R(x):= xH(x)$  soit la [[fonction de Heaviside]] multipliée par l'application 
 
 
 
-## Propriétés
+# Propriétés
 
-### Dérivée
+## Dérivée
 $R'(x) = H(x)$ sur $\mathbb{R}^*$ (la [[fonction de Heaviside]])
 

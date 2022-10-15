@@ -13,7 +13,7 @@ title::"[[dimension d'un espace vectoriel|2D]] : $r_{\theta} \;\widehat{=}  \beg
 > La rotation $r_{\theta}$ d'angle $\theta$ peut être définie comme :
 > $r_{\theta} \;\widehat{=}  \begin{pmatrix}\cos\theta & -\sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}$
 
-## Propriétés
+# Propriétés
 soient $r_{1}$ et $r_{2}$ des rotations
 
  - $r_{1} \circ r_{2}$ est une [[rotation]] (la [[composition de fonctions|composée]] de rotations est une rotation d'angle la somme des angles $1$ et $2$)

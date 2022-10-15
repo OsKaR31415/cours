@@ -6,9 +6,9 @@ up::[[diagramme UML]]
          - modélisation des flots de contrôle / de données
      - modéliser comportement d'une méthode, déroulement d'un cas d'utilisation
 
-## Dessin
+# Dessin
 
-### Composants des diagrammes
+## Composants des diagrammes
  - noeud initial
      - petit cercle plein $\cdot$
      - le flot débute
@@ -48,7 +48,7 @@ up::[[diagramme UML]]
          - Action temporelle
          - ![[UML diagramme d'activités 2022-10-13 00.52.43.excalidraw|70]]
 
-## Exemples
+# Exemples
 
 ![[UML diagramme d'activités 2022-10-12 13.19.11.excalidraw|700]]
 

@@ -8,7 +8,7 @@ On à besoin de représenter :
  - des entiers naturels / flottants
  - des nombres signés / non signés
 
-## Types de représentation
+# Types de représentation
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title

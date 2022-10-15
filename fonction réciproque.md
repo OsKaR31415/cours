@@ -16,10 +16,10 @@ f^{-1}: &F \rightarrow E\\
    &y \mapsto x\text{ tel que }y=f(x),\text{ avec } y\in F \text{ et } x\in E\\
 \end{aligned}$$
 
-## propriétés
+# propriétés
 $f^{-1}$ à le même sens de variation que $f$.
 
-## [[composition de fonctions]]
+# [[composition de fonctions]]
 Lorsque l'on [[composition de fonctions|compose]] $f$ et $f^{-1}$, on obtient une fonction identité :
 
 $f \circ f^{-1} = id_E$     $(E \rightarrow F \rightarrow E)$
@@ -27,15 +27,15 @@ $f^{-1}\circ f = id_F$     $(F \rightarrow E \rightarrow F)$
 
 ⚠️ généralement, $f\circ f^{-1} \neq f^{-1}\circ f$, car leur [[ensemble de définition|ensembles de définition]] sont différents.
 
-## calcul de la fonction réciproque
+# calcul de la fonction réciproque
 
-### Exemple
+## Exemple
 $$\begin{aligned}
 f: &\mathbb{R}^+ \rightarrow \mathbb{R}^+\\
    &x \mapsto x^2
 \end{aligned}$$
 Avec ces ensembles de départ et d'arrivée, $f$ est bien une bijection
 
-### Exemples
+## Exemples
 Voir: [[fonction sinus]]
 Voir: [[fonction cosinus]]

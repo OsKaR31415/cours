@@ -17,7 +17,7 @@ $$
 y = x
 ```
 
-## Notation
+# Notation
 La fonction _indicatrice_ de $F$ peut être notée :
  - $\chi_F$
  - $1_F$
@@ -25,7 +25,7 @@ La fonction _indicatrice_ de $F$ peut être notée :
  - $I_F$ 
 
 
-## Propriétées
+# Propriétées
 Soient $A$ et $B$ sont deux sous-ensembles de $E$
 
  - $(A \subseteq B) \iff (\chi_A \leq \chi_B)$

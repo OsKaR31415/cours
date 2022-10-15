@@ -6,7 +6,7 @@ up::[[cycle de vie nominal d'un logiciel]]
 title::![[modèle en cascade 2022-09-12 13.09.45.excalidraw|100%]]
 
 
-## Fin de chaque phase
+# Fin de chaque phase
  - production d'un **livrable**
      - document(s)
      - Prototype (PoC : Proof of Concept)

@@ -5,7 +5,7 @@ difficulty::🟩 🟧 🟥
 
 ----
 
-## Savoir écrire des démonstrations 
+# Savoir écrire des démonstrations 
 Dans ce qui suit, $I$ est une instance de base de données et $q$ une requête conjonctive.
 
  1. Montrer que les requêtes conjonctives sont monotones et satisfiables

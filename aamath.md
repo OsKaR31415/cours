@@ -5,7 +5,7 @@ up::[[unix commandes]]
 outil en [[ligne de commande]].
 Permet d'afficher des expressions mathématiques en [[ASCII]].
 
-## Exemple
+# Exemple
 
 L'expression
 `int(cos(x^2/sqrt(1-tan(pi/12))), x = -pi/4 .. pi/4)`

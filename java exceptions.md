@@ -9,7 +9,7 @@ Gestion des erreurs avec java.
  - détections / traitement des erreurs
      - `try` `catch` et `finally`
 
-## Détection d'erreurs
+# Détection d'erreurs
 
 ```java
 public class TextException {

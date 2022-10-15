@@ -4,9 +4,9 @@ date::2022-08-22
 
 
 ----
-## déterminer lesquels de ces ensembles forment des espaces vectoriels :
+# déterminer lesquels de ces ensembles forment des espaces vectoriels :
 
-### $E_{2} = \{ (x;y;z) \in \mathbb{R}^{3} \mid x^{2} - z^{2} = 0 \}$
+## $E_{2} = \{ (x;y;z) \in \mathbb{R}^{3} \mid x^{2} - z^{2} = 0 \}$
 
 > [!error]- Démonstration fausse
 > $E_{2} \neq \emptyset$ car $(0;0;0) \in E_{2}$
@@ -36,7 +36,7 @@ date::2022-08-22
 
 ---
 
-### $E_{3} = \{ (x;y;z) \in \mathbb{R}^{3}\mid x+y-z = x+y+z = 0\}$
+## $E_{3} = \{ (x;y;z) \in \mathbb{R}^{3}\mid x+y-z = x+y+z = 0\}$
 $E_{3} \neq \emptyset$ car $(0;0;0) \in E_{3}$
 
 $\lambda(x;y;z)+(x';y';z') = (\lambda x+x'; \lambda y+y'; \lambda z+z')$
@@ -68,7 +68,7 @@ Donc, la propriété est stable par [[combinaison linéaire]]. Puisque $E_{3}$ e
 
 ---
 
-### $E_{4} = \{(x;y;z) \in \mathbb{R}^{3}\mid z(x^{2}+y^{2}) = 0 \}$
+## $E_{4} = \{(x;y;z) \in \mathbb{R}^{3}\mid z(x^{2}+y^{2}) = 0 \}$
 $E_{4} \neq \emptyset$ car $(0;0;0) \in E_{4}$
 
 On a :
@@ -107,7 +107,7 @@ Donc la propriété n'est pas stable par addition, et $(E_{4}; +)$ n'est pas un 
 > Quand la propriété est simple, pour montrer qu'un ensemble est un [[espace vectoriel|ev]], il est préférable de trouver un contre-exemple.
 > Un moyen peut être d'écrire l'ensemble de façon plus explicite (comme dans la démonstration plus haut).
 
-## Montrer que $\mathbb{R}^{2}$ muni de ces lois est un ev
+# Montrer que $\mathbb{R}^{2}$ muni de ces lois est un ev
 
 $(\mathbb{R}^{2},+, \cdot)$ avec :
  - $(a;b)+(c;d) = (a+c;b+d)$

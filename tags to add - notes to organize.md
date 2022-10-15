@@ -3,7 +3,7 @@ title::notes à refactor (tags à ajouter, notes todo...)
 
 ----
 
-## notes todo
+# notes todo
 
 > [!todo]
 > ```dataview
@@ -15,7 +15,7 @@ title::notes à refactor (tags à ajouter, notes todo...)
 > ```
 
 
-## notes without review state
+# notes without review state
 
 
 > [!question] notes without review state
@@ -26,7 +26,7 @@ title::notes à refactor (tags à ajouter, notes todo...)
 > SORT contains(file.tags, "#not-done")
 > ```
 
-## Notes without tags
+# Notes without tags
 
 > [!missing] notes without tags
 > ```dataview

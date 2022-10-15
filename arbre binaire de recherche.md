@@ -8,8 +8,8 @@ Il est tel que, pour tout noeud $N$ de l'arbre, l'ensemble des descendants à dr
 **Note :** On peut inverser la droite et la gauche dans cette définition. Cela équivaut à [[arbre binaire inverse|inverser]] l'arbre.
 
 
-## Propriétés
-### Complexité des opérations
+# Propriétés
+## Complexité des opérations
 [[complexité algorithmique]]
 Dans un arbre binaire de recherche avec $n$ noeuds :
  - La **recherche** d'un élément

@@ -4,7 +4,7 @@
 
 La conclusion est ce que l'on déduit.
 
-## Exemple
+# Exemple
 
 $$\begin{array}{ll}
 (P1) & \text{ Tous les hommes sont mortels }\\

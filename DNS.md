@@ -4,8 +4,8 @@ up::[[internet]]
 ----
 
 
-## Exemples de noms de domaines
-### Noms des domaines gérés directement par l'ICANN
+# Exemples de noms de domaines
+## Noms des domaines gérés directement par l'ICANN
 - `.edu` : universités américaines
 - `.gov` organismes gouvernementaux américains
 - `mil` organimes militaires américains
@@ -13,7 +13,7 @@ up::[[internet]]
 - `.org` organisation (non restrictif)
 - `.net` geStionnaire de réseaux (non restrictif)
 
-### noms de domaines par pays
+## noms de domaines par pays
 - `fr` : France
 - `uk` : Royaume-Uni
 - `tw` : Taiwan
@@ -25,9 +25,9 @@ up::[[internet]]
  - université de tours
 	 - nommée `univ-tours.fr`
 
-## Mais...
+# Mais...
 Augmentation importante du nombre d'adresses. ex: saturation de `.com`.
 
-## Voir
+# Voir
 
 format complet des adresses : [[URL]]

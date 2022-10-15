@@ -8,7 +8,7 @@ description::"le résultat d'une requête est une nouvelle BDD sur laquelle on p
 
 ---
 
-## Sur les requêtes conjonctives
+# Sur les requêtes conjonctives
 La composition de [[requête conjonctive]] est équivalente à une [[requête conjonctive]] plus complexe.
 
 > [!example] Exemple 

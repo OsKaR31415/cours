@@ -6,7 +6,7 @@ up::[[internet]]
 le protocole général :
 TCP-IP (Transmission Control Protocol, Internet Protocol)
 
-## Protocoles applicatifs
+# Protocoles applicatifs
 
 - `http` : web
 - `https` : web sécurisé

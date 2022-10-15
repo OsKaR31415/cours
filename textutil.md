@@ -9,9 +9,9 @@ Pour manipuler des fichiers texte de différents formats
 Il peut gérer les formats txt, rtf, rtfd, html, doc, docx, odt, wordml, et webarchive
 
 
-## Utilisation
+# Utilisation
 
-### Conversion de fichiers
+## Conversion de fichiers
 
 ```zsh
 textutil -convert <out_format> -output <out_file> <in_file>

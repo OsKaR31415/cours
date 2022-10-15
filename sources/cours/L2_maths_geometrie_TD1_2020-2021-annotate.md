@@ -1,7 +1,6 @@
 ---
 annotate-target: sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf
 ---
-# L2_maths_geometrie_TD1_2020-2021-annotate
 
 >%%
 >```annotate-json
@@ -52,4 +51,24 @@ annotate-target: sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf
 >[[#^5cdbf5f2-e2e8-ba64|Show annotate]]
 >
 ^5cdbf5f2-e2e8-ba64
+
+>%%
+>```annotate-json
+>{"id":"1b02bb8f-60cd-e96b","text":"{\"id\":\"1b02bb8f-60cd-e96b\",\"page\":2,\"rect\":[37.78866457874785,773.3015203882162,35.37081080133112,632.098859787079],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1665832938396.png\",\"relateRect\":[{\"x\":0.06011372867587327,\"y\":0.34524776604386676,\"width\":0.8708367181153533,\"height\":0.15272136474411047}],\"pdfName\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1665832938396.png?1665832944990\"}","type":"rect","page":2,"width":1072,"height":188,"pdfName":"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf"}
+>```
+>%%
+>![[attachments/markmind/1665832938396.png]]
+>[[#^1b02bb8f-60cd-e96b|Show annotate]]
+>
+^1b02bb8f-60cd-e96b
+
+>%%
+>```annotate-json
+>{"id":"f8fc6aab-24b5-10fd","text":"{\"id\":\"f8fc6aab-24b5-10fd\",\"page\":2,\"rect\":[242.00219175240397,749.852469626408,35.878632877525234,774.679676997892],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1665833023091.png\",\"relateRect\":[{\"x\":0.058195926285160036,\"y\":0.11057225994180407,\"width\":0.8554801163918526,\"height\":0.22987390882638215}],\"pdfName\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\",\"pageWidth\":1031,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1665833023091.png?1665833023118\"}","type":"rect","page":2,"width":882,"height":237,"pdfName":"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf"}
+>```
+>%%
+>![[attachments/markmind/1665833023091.png]]
+>[[#^f8fc6aab-24b5-10fd|Show annotate]]
+>
+^f8fc6aab-24b5-10fd
 

@@ -34,12 +34,12 @@ bottom=-0.5;
 y=\arccos(x)
 ```
 
-## Propriétés
+# Propriétés
 
  - $\cos(\arcsin(x)) = -\sqrt{1 - x^2}$
  - $\sin(\arccos(x)) = \sqrt{1 - x^2}$
 
-### Dérivation
+## Dérivation
 $\arccos$ est [[fonction dérivable|dérivable]] sur $\mathbb R$ (son [[ensemble de définition]]).
 La [[dérivation|dérivée]] de $\arccos$ peut être calculée grâce à la formule de [[dérivation]] d'une fonction réciproque :
 $(f^{-1})' = \dfrac1{f'\circ f^{-1}}$
@@ -54,6 +54,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-### Equations avec des arccosinus
+## Equations avec des arccosinus
 Pour résoudre une équation avec des $\arccos$, on commence par poser :
 $$\arccos x = y \iff \left\{ \begin{array}{l} x = \cos y\\\text{et}\\y \in [0; \pi] \end{array} \right.$$

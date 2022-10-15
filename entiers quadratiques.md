@@ -10,7 +10,7 @@ Les _entiers quadratiques_ sont une **extension** des [[entiers relatifs]].
 > On note $\mathbb{Z}[\sqrt{ d }]$ l'ensemble des _entiers quadratiques_ :
 > $\mathbb{Z}[\sqrt{ d }] = \{ m+\sqrt{ d }n \mid (m, n)\in \mathbb{Z}^{2}\}$
 
-## Propriétés
+# Propriétés
 
  - $\mathbb{Z}[\sqrt{ d }]\subset \mathbb{R}$
  - $(\mathbb{Z}[\sqrt{ d }], +, \cdot)$ est un [[anneau]] 

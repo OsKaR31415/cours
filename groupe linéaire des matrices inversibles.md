@@ -13,10 +13,10 @@ Le [[groupe]] linéaire des [[matrice|matrices]] [[inverse d'une matrice#Matrice
 
 ⚠️ : on à pas le droit d'écrire $\text{GL}_n(E)$ si $(\mathcal{M}_n(E), \cdot)$ ne forme pas un [[groupe]] ($\mathcal{M}_n(E)$ muni de la [[multiplication de matrices]])
 
-## Propriétés
+# Propriétés
  - $\text{GL}_n(E)$ contient la [[matrice identité]] de dimension $n$
 
-## Exemples
+# Exemples
  - $\text{GL}_n(\C)$
  - $\text{GL}_n(\mathbb{R})$
  - $\text{GL}_n(\Z)$

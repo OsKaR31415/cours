@@ -11,10 +11,10 @@ Undef & \text{si } x = 0\\
 \end{array}\right.$$
 
 
-## Propriétés
+# Propriétés
 
-### Dérivée
+## Dérivée
 La dérivée de la fonction de _Heaviside_ est la [[distribution de Dirac]] : $H' = \delta$
 
-### Primitive
+## Primitive
 La primitive de la fonction de _Heaviside_ est la [[fonction rampe]]

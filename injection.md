@@ -16,7 +16,7 @@ description::"sans _collision_ : toute valeur a au maximum un antécédent"
 ----
 Une injection est une [[application]] injective, c'est-à-dire qui ne possède pas de "collision".
 
-## Définition
+# Définition
 Soit f une application de $E$ dans $F$ :
 $f: E \rightarrow F$
 

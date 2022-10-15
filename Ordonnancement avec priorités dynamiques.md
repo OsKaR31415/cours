@@ -6,7 +6,7 @@ sibling::[[Ordonnancement avec priorités statiques]]
 ----
 Permet de résoudre le problème de _famine_ que pose l'[[Ordonnancement avec priorités statiques]] : on peut éviter que certaines tâches n'accèdent jamais au processeur.
 
-## Principe
+# Principe
  - $n$ files de priorité différentes ($0$ pour haute jusqu'à $n$ pour la plus basse)
  - les processus sont tous mis dans la file $0$
  - A chaque fois qu'ils sont exécutés, les processus sont mis dans la file suivante (moins prioritaire)

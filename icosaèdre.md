@@ -11,6 +11,6 @@ arrêtes : 30
 
 C'est un des [[solides de platon]]
 
-## Transformations
+# Transformations
 [[polyèdre dual|dual]] : 
 [[polyèdre adouci|adouci]] :

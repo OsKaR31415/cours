@@ -21,18 +21,18 @@ c'est une [[approche non nomée]] : les attributs sont différenciés par leur p
 > ```
 
 
-## Syntaxe des requêtes 
+# Syntaxe des requêtes 
 Pour une base de données de schéma $D$, une requête SPC $q$ est :
  - $R$, si $R\in D$, $\text{arité}(q) = \text{arité}(R)$
  - $\{ (a) \}$ si $a \in \mathbf{dom}$, $\text{arité}(q) = 1$
  - $\sigma_{\varphi}(q')$ si $q'$ est une requête, $\text{arité}(q) = \text{arité}(q')$
  - 
 
-### Certaines reqêtes ne sont pas satisfiables
+## Certaines reqêtes ne sont pas satisfiables
 Exemple :
 $\sigma_{1=a} \left( \sigma_{1=b} (I) \right)$ avec $\text{arité}(I) \geq 1$ et $a \neq b$
 
-## Exemples
+# Exemples
 comment construire les tuples r2sultats de la requête "lister les films résalisés par des américains"
  1. **Sélection** des tupes de _réalisateurs_ correspondant à des réalisateurs américains
      - $I_{1} := \sigma_{2=''\text{américaine}''}(\text{réalisateurs})$

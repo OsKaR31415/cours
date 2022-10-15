@@ -15,5 +15,5 @@ Une _suite_ est une [[famille]] d'éléments - appelés ses _termes_ - indexée 
 > On peut réduire l'ensemble de définition d'une suite $u$ à $\left\{ n \in \N \mid n \leq n_{0} \right\}$
 > On note alors $(u_{n})_{n \leq n_{0}}$
 
-## Suite finie
+# Suite finie
 Une _suite finie_ est une [[famille]] indexée par des entiers strictement positifs **inférieurs à un certain entier**. Cet entier est appelé _longueur de la suite_.

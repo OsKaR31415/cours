@@ -4,7 +4,7 @@ up::[[MOC analyse]]
 ---
 La _cycloide_ est la courbe que parvourt un point choisi d'une roue lorsque celle-ci avance.
 
-## Définitions
+# Définitions
 Définition comme une [[courbe paramétrée]] :
 $$\left\{\begin{gathered}
 x(t) = r(t-\sin(t))\\
@@ -23,5 +23,5 @@ T=at|hidden
 y = acos(1-x) - sin(acos(1-x))
 ```
 
-## Propriétés
+# Propriétés
 La cycloide renversée est une courbe [[brachistochrone]]

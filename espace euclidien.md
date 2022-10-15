@@ -12,8 +12,8 @@ title::
 ^definition
 
 
-## Propriétés
+# Propriétés
 
-### Produit scalaire
+## Produit scalaire
 Soit un $\mathbb{R}$-[[espace euclidien]] $E$, avec $Q$ la forme quadratique de $E$ 
 On appelle 

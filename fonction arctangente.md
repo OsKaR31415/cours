@@ -13,7 +13,7 @@ $$\begin{align*}
 & y \mapsto x \text{ tel que } y=\tan(x)
 \end{align*}$$
 
-## Définition
+# Définition
 La fonction $\tan$ n'est pas [[bijection|bijective]] sur $\mathbb{R}$, mais réduite à l'intervalle $\left[-\dfrac\pi2; \dfrac\pi2\right]$, $\tan/_{[-\frac\pi2;\frac\pi2]}$ est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], donc elle est [[bijection|bijective]].
 Elle possède donc une [[fonction réciproque]], la fonction $\arctan$ :
 
@@ -27,7 +27,7 @@ $$\begin{aligned}
           &y\mapsto x \text{ tel que } y = \tan(x) \text{ et } y\in\left[-\dfrac\pi2; \dfrac\pi2\right]\
 \end{aligned}$$
 
-## Dérivée
+# Dérivée
 La [[dérivation|dérivée]] de $\arctan$ est :
 $$\begin{aligned}
 \arctan'(x) &= \dfrac1{\tan'(\arctan x)}\\
@@ -38,7 +38,7 @@ Plus généralement, on a : $(\arctan(u))' = \dfrac{u'}{1+u^2}$
 (en utilisant $(f\circ g)' = f'\times g'\circ f$)
 
 
-## Equations avec des arctangentes
+# Equations avec des arctangentes
 On commence par poser :
 $$\arctan x = y \iff \left\{ \begin{array}{l} x = \tan y\\\text{et}\\y \in \left[-\dfrac\pi2;\dfrac\pi2\right]\end{array} \right.$$
 

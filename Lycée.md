@@ -7,12 +7,12 @@ compétences:: 🇬🇧 🧮 💻
 
 ----
 
-## Spécialités
+# Spécialités
  - Mathématiques #maths
  - Informatique (NSI) #informatique 
  - Physique (en première)
  
-## Options
+# Options
  - Classe Européenne Mathématiques Anglais #anglais 
  - Grec Ancien
  - Mathématiques expertes

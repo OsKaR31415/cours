@@ -18,7 +18,7 @@ Dans une [[base de données]]
 SELECT * from nomTable
 ```
 
-## Projection
+# Projection
 projection -> choisir certaines colonnes
 
 Sélectionner **certaines colonnes** :
@@ -33,7 +33,7 @@ SELECT DISTINCT col1, col2
 from nomTable
 ```
 
-## Sélection
+# Sélection
 -> choisir certaines lignes
 
 Sélectionner seulement les valeurs column des tuples donc la valeur other_col vaut 4.

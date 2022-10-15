@@ -7,7 +7,7 @@ Parfois, les ensembles finis sont aussi appelés _dénombrables_. Il est alors u
 
 Certains ensembles contiennent "trop" d'éléments pour être parcourus complètement par l'ensemble des entiers. Ils sont alors dit [[ensemble infini non dénombrable|non dénombrables]].
 
-## Définition
+# Définition
 
 Un ensemble $E$ est dit _dénombrable_ quand il existe une [[bijection]] entre l'ensemble $\mathbb N$ et $E$ (on dit qu'il est [[ensemble équipotent|équipotent]] à $\mathbb N$).
 

@@ -9,7 +9,7 @@ title::""
 > $\mathbb{Z} = \mathbb{N}^{*} \cup \{ 0 \} \cup (-\mathbb{N}^{*})$
 ^definition
 
-## Opérations
+# Opérations
 
 On sait que, sur $\mathbb{N}$ :
  - Si $x \leq y$, il existe $z$ tel que $y = x+z$

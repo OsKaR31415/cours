@@ -15,7 +15,7 @@ $\displaystyle\lim_{x \rightarrow a} (f(x) - g(x)) = 0$
 
 Voir : [[calculer une asymptote]]
 
-## Courbes asymptotes entre elles
+# Courbes asymptotes entre elles
 Soient deux fonctions $f$ et $g$
 On dit que les courbes $\mathscr C_f$ et $\mathscr{C}_g$ sont **asymptotes** en $a \in \overline{\mathbb{R}}$ ssi :
 $\lim\limits_{x\to a} \big(f(x) - g(x)\big) = 0$

@@ -7,7 +7,7 @@ Par défaut, les commandes récupèrent les données tapées par l'utilisateur a
 Par défaut, la sortie des commandes ([[unix stdout|stdout]]) est affichée à l'écran.
 Par défaut, la sortie des erreur ([[unix stderr]]) est également affichée à l'écran.
 
-#### Commandes de redirection
+### Commandes de redirection
  - `< entree` les données de la commande (stdin) seront lues dans le fichier `entree` plutôt qu'au clavier
  - `> sortie` la sortie de la command (stdout) sera écrite dans le fichier `sortie`, en l'écrasant si il existait déjà
  - `>> sortie` comme `> sortie` sauf que le fichier n'est pas écrasé (le stdout de la commande est ajouté à la fin du fichier)
@@ -16,19 +16,19 @@ Par défaut, la sortie des erreur ([[unix stderr]]) est également affichée à 
  - `2>&1` le stderr est fusionné avec le stdout
  - `1>&2` les données en sortie sont fusionnées avec les messages d'erreur (cas rare)
 
-##### Exemples
+#### Exemples
 
  - `sort monfichier` affiche à l'écran les lignes du fichier classées par ordre alphabétique. Si le fichier n'existe pas, un message d'erreur apparaît à l'écran
  - `sort monfichier > resultat 2> problemes` écrit les lignes de `monfichier` triées par ordre alphabétique dans `resultat`. Si le fichier `monfichier` n'existe pas, le message d'erreur est écrit dans le fichier `problemes`
 
-#### Enchaînement des commandes
+### Enchaînement des commandes
 
-##### Syntaxe générale
+#### Syntaxe générale
 ```sh
 commande1 options arguments | commande2 options | commande3 ...
 ```
 
-##### Exemple
+#### Exemple
  - `find / -size +1000k -mtime -7 | sort | tee trace | less`
      - la commande `find` recherche dans tous les répertoires de l'ordinateur les fichiers de plus de 1000 kilooctets modifiés durant les 7 derniers jours et affiche leur chemin d'accès
      - la commande `sort` fait un tri alphabétique des données reçues en entrée
@@ -36,7 +36,7 @@ commande1 options arguments | commande2 options | commande3 ...
      - la commande `less` permet de visualiser un texte trop long pour tenir en entier à l'écran.
 
 
-### Métacaractères
+## Métacaractères
 Utilisés pour exprimer des noms de fichiers.
  - `?` n'importe quel caractère, une seule fois
  - `*` n'importe quel caractère, 0, une ou plusieurs fois
@@ -44,11 +44,11 @@ Utilisés pour exprimer des noms de fichiers.
  - `\` le caractère suivant de doit pas être traité comme un métacaractère (échappement)
  - `.` le caractère `.` en première position doit être précisé explicitement (car les fichiers dont le nom commence par ce caractère sont des fichiers cachés, ils ne sont dont pas considérés pas défaut)
 
-### Résultat d'une commande comme argument d'une autre
+## Résultat d'une commande comme argument d'une autre
 
 Les \` entourant une commande permettent d'utiliser le résultat de cette commande comme argument(s) dans la line de commande
 
-##### Exemples
+#### Exemples
 
 ```sh
 $ echo "Nous sommes le" `date +%d/%m/%y` "et il est" `date +%H:%M:%S`
@@ -58,7 +58,7 @@ $ echo "Nous sommes le" `date +%d/%m/%y` "et il est" `date +%H:%M:%S`
 $ echo "2 + 2 =" `expr 2 + 2`
 ```
 
-### Faire se suivre des commandes
+## Faire se suivre des commandes
  - `;` entre deux commandes pour les exécuter l'une après l'autre
  - `&&` (signifie "et") entre deux commandes pour exécuter la seconde uniquement si la première n'a pas renvoyé d'erreur
  - `||` (signifie "ou") entre deux commandes pour exécuter la seconde uniquement si la première a renvoyé une erreur

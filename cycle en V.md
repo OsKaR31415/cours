@@ -5,9 +5,9 @@ up::[[cycle de vie nominal d'un logiciel]]
 
 title::![[cycle en V 2022-09-12 13.27.21.excalidraw|100%]]
 
-## Phases
+# Phases
 
-### Analyse des besoins et faisabilité
+## Analyse des besoins et faisabilité
 > [!important] Besoins
 >  - cahier des charges : besoins métiers du client
 >  - les _spécifications_ sont une réponse informatique
@@ -24,7 +24,7 @@ title::![[cycle en V 2022-09-12 13.27.21.excalidraw|100%]]
 >          - [[dette technique]]
 >  - Légale
 
-### Spécification fonctionnelle
+## Spécification fonctionnelle
 description des fonctions (modules) d'un logiciel
  - décrit dans le détails comment les exigences seront prises en compte
  - Deux niveau :
@@ -56,7 +56,7 @@ description des fonctions (modules) d'un logiciel
      - le logiciel résulte de l'assemblage des parties de manière récursive
          - ==> intégration
 
-#### Spécification fonctionnelle détaillée
+### Spécification fonctionnelle détaillée
 
 > [!example] Exemple
 > Module de création d'un client
@@ -70,9 +70,9 @@ description des fonctions (modules) d'un logiciel
 > - [?] dans quel ordre ?
 >     - certains ordres sont plus efficaces
 
-### Tests unitaires
+## Tests unitaires
 
 
-### Tests d'intégration
+## Tests d'intégration
  - tester que les différents modules s'intègrent
 

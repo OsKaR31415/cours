@@ -7,7 +7,7 @@ On a créé un objet noté $i$ tel que $i^2 = -1$
 Un nombre complexe $z$ s'écrit $z = a + ib$ avec $(a, b)\in\mathbb R^2$
 $\mathbb C$ est l'ensemble des nombres complexes. On a donc $z\in\mathbb C$
 
-## Propriétés
+# Propriétés
 
  - $\mathbb{C}$ est un [[corps]] 
 
@@ -30,7 +30,7 @@ Soit $z = a+ib$ un nombre complexe :
      - Démonstration : $z\times\overline z = (a+ib)(a-ib) = a^2-(ib)^2 = a^2 + b^2 = |z|^2$
 - $\dfrac1z = \overline z\dfrac1{|z^2|}$
      - Démonstration : $\dfrac1z = \dfrac{\overline z}{z\times\overline z} = \dfrac{\overline z}{|z|^2} = \overline z\dfrac1{|z|^2}$
-## Notations
+# Notations
 Soit $z = a+ib, (a,b)\in\mathbb R^2$.
 
  - $\text{Re}(z)$ est la _partie réelle_ de $z$ (soit $a$)

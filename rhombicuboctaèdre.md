@@ -12,7 +12,7 @@ arrêtes : 48
 
 C'est un [[solide d'Archimède]]
 
-## Transformations
+# Transformations
 [[polyèdre dual|dual]] : [[icositétraèdre trapézoidal]]
 [[polyèdre adouci|adouci]] :
 

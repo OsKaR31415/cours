@@ -7,7 +7,7 @@ title::"comment changer le style des sections en latex"
 ----
 Comment changer le style des sections en LaTeX ?
 
-## Numérotation des sections
+# Numérotation des sections
 La numérotation est définie par les commandes `\thechapter`, `\thesection`, `\thesubsection` etc.
 On peut modifier leur définition pour changer le style des numérations :
 ```latex
@@ -21,7 +21,7 @@ On peut modifier leur définition pour changer le style des numérations :
 
 Problème : cela ne permet de changer que les numérotations, pas le style général
 
-## Style complet avec titlesec
+# Style complet avec titlesec
 Le package `titlesec` permet de personnaliser réellement les sections
 
 ```latex

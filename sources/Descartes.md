@@ -1,6 +1,7 @@
 #personne 
 
-# Descartes
+
+----
 
 
 ```dataview

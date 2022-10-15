@@ -28,7 +28,7 @@ For simplicity, many of the code examples here operate on floating point values 
 
 
 
-## variable name conventions
+# variable name conventions
 
 There are a variety of naming conventions depending on the context and field of study, and they are not always consistent. However, in some of the literature you may find variable names to follow a pattern like so:
 
@@ -39,7 +39,7 @@ There are a variety of naming conventions depending on the context and field of 
 
 This will also be the format of this guide.
 
-### Numpy
+## Numpy
 Numpy is a powerful **array programming** library, which in python can be
 interpreted as a **domain specific language** (DSL). Sometimes it's helpful to
 think of math in python as two languages sharing a namespace, with special
@@ -49,7 +49,7 @@ the other. This will be important in our vectors and matrices section, because
 convention is `import numpy as np`, so when you see `np.something` you know that
 we're working in numpy.  
 
-## equals symbols
+# equals symbols
 
 There are a number of symbols resembling the equals sign `=`. Here are a few common examples:
 
@@ -61,13 +61,13 @@ There are a number of symbols resembling the equals sign `=`. Here are a few com
 In Python:
 
 ```python
-## equality
+# equality
 2 == 3
 
-## inequality
+# inequality
 2 != 3
 
-## approximately equal
+# approximately equal
 import math
 math.isclose(math.pi, 3.14159) # math.isclose doesn't have a third argument for tolerance, so this is false
 
@@ -133,7 +133,7 @@ It's important to know *when a falsehood ought to crash a program* vs. when you 
 
 
 
-## square root and complex numbers
+# square root and complex numbers
 
 A square root operation is of the form:
 
@@ -208,13 +208,13 @@ np.testing.assert_almost_equal(z1**3, z2**3)
 ```
 [Read on about numpy's complex numbers](https://docs.scipy.org/doc/numpy/user/basics.types.html)
 
-## dot & cross
+# dot & cross
 
 The dot `·` and cross `×` symbols have different uses depending on context.
 
 They might seem obvious, but it's important to understand the subtle differences before we continue into other sections.
 
-#### scalar multiplication
+### scalar multiplication
 
 Both symbols can represent simple multiplication of scalars. The following are equivalent:
 
@@ -240,7 +240,7 @@ If these variables represent scalars, the code would be:
 result = 3 * k * j
 ```
 
-#### vector multiplication
+### vector multiplication
 
 To denote multiplication of one vector with a scalar, or element-wise multiplication of a vector with another vector, we typically do not use the dot `·` or cross `×` symbols. These have different meanings in linear algebra, discussed shortly.
 
@@ -285,7 +285,7 @@ def multiply_scalar(scalar, a):
   return scalar * np.array(a)
 ```
 
-#### dot product
+### dot product
 
 The dot symbol `·` can be used to denote the [*dot product*](https://en.wikipedia.org/wiki/Dot_product) of two vectors. Sometimes this is called the *scalar product* since it evaluates to a scalar.
 
@@ -310,7 +310,7 @@ def dot(a, b):
   return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
 ```
 
-#### cross product
+### cross product
 
 The cross symbol `×` can be used to denote the [*cross product*](https://en.wikipedia.org/wiki/Cross_product) of two vectors.
 
@@ -344,7 +344,7 @@ def cross(a, b):
 It's good to practice and grok these operations, but in real life you'll use
 Numpy. 
 
-## sigma 
+# sigma 
 
 The big Greek `Σ` (Sigma) is for [Summation](https://en.wikipedia.org/wiki/Summation). In other words: summing up some numbers.
 
@@ -412,7 +412,7 @@ sum(
 ```
 
 
-## capital Pi
+# capital Pi
 
 The capital Pi or "Big Pi" is very similar to [Sigma](#sigma), except we are using multiplication to find the product of a sequence of values. 
 
@@ -458,7 +458,7 @@ ys.prod()
 which is better on larger input, but you're always welcome to use functions for
 ordinary lists as you please. 
 
-## pipes
+# pipes
 
 Pipe symbols, known as *bars*, can mean different things depending on the
 context. Below are three common uses: [absolute value](#absolute-value),
@@ -466,7 +466,7 @@ context. Below are three common uses: [absolute value](#absolute-value),
 
 These three features all describe the *length* of an object.
 
-#### absolute value 
+### absolute value 
 
 ![pipes1](http://latex.codecogs.com/svg.latex?%5Cleft%20%7C%20x%20%5Cright%20%7C)
 
@@ -479,7 +479,7 @@ x = -5
 abs(x)
 # Out: 5
 ```
-#### Euclidean norm
+### Euclidean norm
 
 ![pipes4](http://latex.codecogs.com/svg.latex?%5Cleft%20%5C%7C%20%5Cmathbf%7Bv%7D%20%5Cright%20%5C%7C)
 
@@ -525,7 +525,7 @@ np.linalg.norm([0, 4, -3])
 Resources: 
 - [numpy.linalg docs](get link to numpy.linalg docs)
 
-#### determinant
+### determinant
 
 ![pipes3](http://latex.codecogs.com/svg.latex?%5Cleft%20%7C%5Cmathbf%7BA%7D%20%5Cright%20%7C)
 
@@ -561,7 +561,7 @@ np.linalg.det(np.array([[0, -1], [1, 0]])) # 90 degree rotation.
 
 The second matrix was the [**2D rotation**](https://en.wikipedia.org/wiki/Rotation_matrix) at 90 degrees. 
 
-## hat
+# hat
 
 In geometry, the "hat" symbol above a character is used to represent a [unit vector](https://en.wikipedia.org/wiki/Unit_vector). For example, here is the unit vector of **a**:
 
@@ -619,7 +619,7 @@ But it's actually **faster** on large input, because arrays.
 [*Read* the Numpy docs. *BE* the Numpy docs](https://docs.scipy.org/doc/numpy/reference/routines.linalg.html)
 
 
-## element
+# element
 
 In set theory, the "element of" symbol `∈` and `∋` can be used to describe whether something is an element of a *set*. For example:
 
@@ -663,7 +663,7 @@ You can also use the "not an element of" symbols `∉` and `∌` like so:
 
 Which you know is represented by the convenient `not` keyword in python. 
 
-## common number sets
+# common number sets
 
 You may see some some large [Blackboard](https://en.wikipedia.org/wiki/Blackboard_bold) letters among equations. Often, these are used to describe sets.
 
@@ -675,7 +675,7 @@ For example, we might describe *k* to be an [element of](#element) the set $R$.
 
 Listed below are a few common sets and their symbols.
 
-#### $\R$ real numbers
+### $\R$ real numbers
 
 The large $\R$ describes the set of *real numbers*. These include integers, as well as rational and irrational numbers.
 
@@ -694,7 +694,7 @@ with the `assert` keyword when you see fit.
 
 [Excellent resource on floats in python](https://youtu.be/zguLmgYWhM0)
 
-#### $\Q$ rational numbers
+### $\Q$ rational numbers
 
 Rational numbers are real numbers that can be expressed as a fraction, or
 *ratio*. Rational numbers cannot have zero as a denominator.
@@ -719,7 +719,7 @@ equality `==` when anything like `sqrt` or `log` is involved!
 You can work with rationals without dividing them into floatiness with the
 [`fractions` standard module](https://docs.python.org/3.7/library/fractions.html)
 
-#### $\Z$ integers
+### $\Z$ integers
 
 An integer is a whole number. Just imagine starting from zero and one and
 building out an inventory with addition and subtraction. 
@@ -730,7 +730,7 @@ An integer has no division, no decimals.
 assert isinstance(8/7, int), "GO DIRECTLY TO JAIL"
 ```
 
-#### $\N$ natural numbers
+### $\N$ natural numbers
 
 A natural number, a non-negative integer. 
 
@@ -749,7 +749,7 @@ $N$ is not a datatype in python, we can't use *typechecking* to disambiguate `in
 from `non-negative int`, but in a pinch you could easily write up something that
 combines `x >= 0` judgments with `isinstance(x, int)`.
 
-#### $\C$ complex numbers
+### $\C$ complex numbers
 
 As we saw earlier, the complex numbers are a particular wrapper around tuples of
 reals. 
@@ -758,7 +758,7 @@ A complex number is a combination of a real and imaginary number, viewed as a co
 
 We can say `ℂ = {a + b*i | a,b ∈ ℝ}`, which is a notation called
 
-## Set builder notation 
+# Set builder notation 
 
 Pythoners have a name for *set builder notation*; and the name is comprehension
 
@@ -788,7 +788,7 @@ R = np.linspace(-2, 2, 100)
 # too much to print but try it yourself. 
 ```
 
-## functions
+# functions
 
 [Functions](https://en.wikipedia.org/wiki/Function_%28mathematics%29) are fundamental features of mathematics, and the concept is fairly easy to translate into code.
 
@@ -843,7 +843,7 @@ Functions can also have multiple parameters, like in a programming language. The
 
 <!-- f(x,y) = \sqrt{x^2 + y^2} -->
 
-### dictionaries are functions
+## dictionaries are functions
 
 Sometimes mathematicians, like software developers, need to specify *maps* by
 *enumerating each input-output pair** when there is no expression that computes
@@ -860,7 +860,7 @@ Notice also that we make no such requirement on
 these, we can [study the properties of different kinds of functions](https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection)
 into different kinds, important in compression and security engineering.
 
-### piecewise function
+## piecewise function
 
 Some functions will use different relationships depending on the input value, *x*.
 
@@ -887,7 +887,7 @@ def f(x):
 
 ```
 
-### common functions
+## common functions
 
 There are some function names that are ubiquitous in mathematics. For a programmer, these might be analogous to functions "built-in" to the language (like `parseInt` in JavaScript).
 
@@ -918,7 +918,7 @@ See [signum](https://github.com/scijs/signum) for this function as a module.
 
 Other examples of such functions: *sin*, *cos*, *tan*.
 
-### function notation
+## function notation
 
 In some literature, functions may be defined with more explicit notation. For example, let's go back to the `square` function we mentioned earlier:
 
@@ -989,7 +989,7 @@ functions are not the same if they use a different *domain*. This is also called
 *polymorphism* and it explains why `'literally' + 'alonzo'` concats two strings
 together but `1 + 1` is addition on numbers. 
 
-## prime
+# prime
 
 The prime symbol (`′`) is often used in variable names to describe things which are similar, without giving it a different name altogether. It can describe the "next value" after some transformation.
 
@@ -1021,7 +1021,7 @@ def f_prime(x):
 
 Multiple prime symbols can be used to describe the second derivative *ƒ′′* and third derivative *ƒ′′′*. After this, authors typically express higher orders with roman numerals *ƒ*<sup>IV</sup> or superscript numbers *ƒ*<sup>(n)</sup>.
 
-## floor & ceiling
+# floor & ceiling
 
 The special brackets `⌊x⌋` and `⌈x⌉` represent the *floor* and *ceil* functions, respectively.
 
@@ -1053,11 +1053,11 @@ When the two symbols are mixed `⌊x⌉`, it typically represents a function tha
 
 Python automatically gives you a keyword `round` to call on a number. 
 
-## arrows
+# arrows
 
 Arrows are often used in [function notation](#function-notation). Here are a few other areas you might see them.
 
-#### material implication
+### material implication
 
 Arrows like `⇒` and `→` are sometimes used in logic for *material implication.* That is, if A is true, then B is also true.
 
@@ -1080,7 +1080,7 @@ The arrows can go in either direction `⇐` `⇒`, or both `⇔`. When *A ⇒ B*
 
 <!-- A \Leftrightarrow B -->
 
-#### inequality
+### inequality
 
 In math, the `<` `>` `≤` and `≥` are typically used in the same way we use them in code: *less than*, *greater than*, *less than or equal to* and *greater than or equal to*, respectively.
 
@@ -1108,7 +1108,7 @@ word, the polynomial *beats* the logarithm."
 
 <!-- k \gg j -->
 
-#### conjunction & disjunction
+### conjunction & disjunction
 
 Another use of arrows in logic is conjunction `∧` and disjunction `∨`. They are analogous to a programmer's `AND` and `OR` operators, respectively.
 
@@ -1139,7 +1139,7 @@ The down arrow `∨` is logical disjunction, like the OR operator.
 In Python, we have the `or` keyword. Like and, it is a function that will trade
 you one bool for two bools. 
 
-## logical negation
+# logical negation
 
 Occasionally, the `¬`, `~` and `!` symbols are used to represent logical `NOT`. For example, *¬A* is only true if A is false.
 
@@ -1157,7 +1157,7 @@ lambda x, y: if (x != y): assert not x == y, "arrr, buried treasure lost forever
 
 *Note:* The tilde `~` has many different meanings depending on context. For example, *row equivalence* (matrix theory) or *same order of magnitude* (discussed in [equality](#equality)).
 
-## intervals
+# intervals
 
 Sometimes a function deals with real numbers restricted to some range of values, such a constraint can be represented using an *interval*
 
@@ -1246,15 +1246,15 @@ You should definitely run these in repl and try to wrap your head around them.
 
 
 
-## more...
+# more...
 
 Like this guide? Suggest some [more features](https://github.com/Jam3/math-as-code/issues/1) or send us a Pull Request!
 
-## Contributing
+# Contributing
 
 For details on how to contribute, see `./CONTRIBUTING.md`.
 
-## License
+# License
 
 MIT, see [LICENSE.md](http://github.com/Jam3/math-as-code/blob/master/LICENSE.md) for details.
 

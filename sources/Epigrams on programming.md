@@ -1,7 +1,8 @@
-author::[[Alan Perlis]]
+@uthor::[[Alan Perlis]]
 title::"dictons sur la programmation"
 #informatique #no-review 
-# Epigrams on programming
+
+----
 
 1. One man's constant is another man's variable.
 
@@ -246,4 +247,4 @@ title::"dictons sur la programmation"
 
 ---
 
-###### From ACM's SIGPLAN publication, (September, 1982), Article "Epigrams in Programming", by Alan J. Perlis of Yale University.
+##### From ACM's SIGPLAN publication, (September, 1982), Article "Epigrams in Programming", by Alan J. Perlis of Yale University.

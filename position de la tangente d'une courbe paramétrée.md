@@ -14,7 +14,7 @@ Lorsque la courbe approche sa tangente en un point $t_0$, la courbe peut être p
 Intuitivement, un rebroussement ne peut être qu'en un [[Point stationnaire d'une courbe paramétrique|point stationnaire]], car en un point où la "vitesse" est non nulle, on continue son chemin dans le même sens.
 
 
-## Déterminer la position de la tangente
+# Déterminer la position de la tangente
 Soit $f: t\mapsto (x(t); y(t))$ une [[courbe paramétrée]]
 Pour trouver la position de la tangente en $t_0$ à $f$, on calcule le [[développement limité]] de $x$ et $y$ au voisinage de $t_0$
 

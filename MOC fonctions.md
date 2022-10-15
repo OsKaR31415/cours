@@ -13,7 +13,7 @@ up::[[MOC analyse]]
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-## Fonctions particulières
+# Fonctions particulières
 
 > [!smallquery] Sous-notes de `=this.file.link` et [[MOC trigonométrie]]
 > ```dataview

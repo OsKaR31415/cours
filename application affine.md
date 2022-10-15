@@ -5,7 +5,7 @@ up::[[application]]
 Soient $E$ et $E'$ deux [[espace affine|espaces affines]] d'[[espace vectoriel|espaces vectoriels]] associés $\vec{E}$ et $\vec{E}'$
 Une [[application]] $f$ de $E$ dans $E'$ est dite **affine** lorsque $f$ conserve les [[barycentre|barycentres]]
 
-## Définition
+# Définition
 Soit $f : E \mapsto E'$ une [[application]]
 Soit $\vec{f} : \vec{E}\mapsto \vec{E}'$ une [[application linéaire]] 
 Soient $O \in E$ et $O \in E'$ deux points

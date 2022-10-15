@@ -12,12 +12,12 @@
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-## Propriétés
-### Propriétés des points
+# Propriétés
+## Propriétés des points
  - [[point régulier d'une courbe paramétrique|point régulier]]
  - [[multiplicité d'un point d'une courbe paramétrée|multiplicité d'un point]]
  
-### Propriétés d'une courbe
+## Propriétés d'une courbe
  - [[courbe paramétrée simple|courbe simple]]
  - [[continuité d'une courbe paramétrée|courbe continue]]
  - [[Support d'une courbe paramétrée|support d'une courbe]]
@@ -26,7 +26,7 @@
  - [[asymptote]]
      - [[calculer une asymptote]]
 
-### Opérations
+## Opérations
  - [[dérivée d'une courbe paramétrée|dérivée]]
  - [[tangente à une courbe paramétrée|tangente]]
      - [[position de la tangente d'une courbe paramétrée]]

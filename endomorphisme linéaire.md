@@ -8,7 +8,7 @@ On peut montrer qu'une application linéaire d'une espace vectoriel dans lui-mê
 Soit $f: E\rightarrow F$ une [[application linéaire]] avec $E$ et $F$ des [[espace vectoriel|espaces vectoriels]], si $E = F$, alors $f$ est un [[endomorphisme]] de $E$.
 
 
-## Propriétés
+# Propriétés
 
 Sur un _endomorphisme linéaire_, on a la suite d'équivalences suivante :
   $f$ est [[injection|injective]].

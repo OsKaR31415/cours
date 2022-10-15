@@ -25,7 +25,7 @@ C'est donc le nombre de réels $t$ pour lesquels $M(t) = A$
 
  - une courbe dont **tous les points sont simples** est une _courbe paramétrée simple_
 
-## Trouver les points multiples
+# Trouver les points multiples
 
 Pour trouver les points multiples d'une courbe, on cherche les couples $(t,u)\in D^2$ tels que $t>u$ et $M(t)=M(u)$
 

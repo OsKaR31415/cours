@@ -6,7 +6,7 @@ description::"deux [[droite vectorielle|droites vectorielles]] sont confondues o
 ----
 
 
-## Propriétés
+# Propriétés
 Soient $\overrightarrow{D_{1}}=Vect(\vec{e_{1}})$ et $\overrightarrow{D_{2}}=Vect(\vec{e_{2}})$ deux [[droite vectorielle|droites vectorielles]]
 
  - soit l'intersection $\overrightarrow{F}=\overrightarrow{D_{1}}\cap\overrightarrow{D_{2}}$ 

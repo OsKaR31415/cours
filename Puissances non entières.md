@@ -4,13 +4,13 @@ up::[[MOC arithmétique]]
 ----
 
 
-## Propriétés
+# Propriétés
 
-### Esemble de définition
+## Esemble de définition
 On ne peut pas définir les puissances non entières sur $\R$
 On est obligé de les définir sur $\R^+$
 
-#### Contre-exemple :
+### Contre-exemple :
 $8^{\frac{1}{3}} = 2$
 
 $$\begin{align}

@@ -6,14 +6,14 @@ up::[[requête]]
  - $R(a, b, \dots)$
  - $\varphi \wedge \psi$ où $\varphi$ et $\psi$ sont des requêtes valides
  - $\exists y \varphi$ où $\varphi$ est une rête valide (et $y$ est une variable)
-## Exemple
+# Exemple
 
 en [[langage à base de règles]] :
  - $\text{ans}(r) \leftarrow \text{film}(t, r, a), \text{réalisateur}(r, n)$
 en [[calcul conjonctif]] :
  - $\{ r \mid \exists t, a, n \text{film}(t, r, a) \wedge \text{réalisateur}(r, n)\}$
 
-## Sous-notes
+# Sous-notes
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

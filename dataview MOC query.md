@@ -18,7 +18,7 @@ title::"[[Depth-first search|DFS]] in the reciprocal of `up::` property"
 >      - wrappable callout (spoiler)
 >  - [[Depth-first search]] order
 
-## The query
+# The query
 
 > [!query] subnotes of `=this.file.link`
 > ```dataview

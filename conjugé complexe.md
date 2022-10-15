@@ -6,7 +6,7 @@ Soit $z = a+ib$ un [[nombre complexe]].
 Le _complexe conjugué_ $z$ est noté $\overline z$, et est le complexe tel que :
 $\overline{z} = a-ib$
 
-## Propriétés
+# Propriétés
 
 La conjuguaison complexe est distributive sur l'addition, la soustraction, la multiplication et la division :
 

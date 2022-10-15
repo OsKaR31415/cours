@@ -7,7 +7,7 @@ compétences:: 🤝 🧑‍🏫 🗣️ 💻
 
 ---
 
-## Méthode
+# Méthode
  - partager notions vues
 
 > [!info] objectifs pour les élèves
@@ -38,12 +38,12 @@ compétences:: 🤝 🧑‍🏫 🗣️ 💻
 >      - méthodes mises en place
 >      - ce qui à fonctionné ou non
 
-## Organisation
+# Organisation
  - 6 séances
 
  - par binômes
 
-### Formation
+## Formation
  - [x] [[2022-09-22]] formation
  - [ ] [[2022-09-29]] :obs_cross:
  - [ ] [[2022-10-06]] formation
@@ -59,7 +59,7 @@ compétences:: 🤝 🧑‍🏫 🗣️ 💻
  - [ ] [[2022-12-15]] soutenances finales
 
 
-## Pédagogie
+# Pédagogie
 
  - introduction
      - pas de prérequis

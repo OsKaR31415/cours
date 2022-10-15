@@ -22,29 +22,29 @@ Une _loi de composition interne_ est une [[loi de composition]] qui est interne,
 > - $(\{1, 2, 3\}, \times)$ --> $\times$ n'est pas une LCI sur $\{1, 2, 3\}$ car $2\times3 \not\in \{1, 2, 3\}$
 > - $(\{0, 1\}, \times)$ --> $\times$ est une LCI sur $\{0,1\}$ car $\forall (x,y)\in\{0,1\}^2,\; x\times y \in \{0,1\}$
 
-## Voir
+# Voir
  - [[stabilité sur un ensemble]]
  - [[table de cayley]]
 
-## Propriétés
+# Propriétés
 
-### [[associativité]]
+## [[associativité]]
 $\forall(a,b,c)\in E^3, a*(b*c)=(a*b)*c$
 
-### [[élément neutre]]
+## [[élément neutre]]
 $\exists e\in E, \forall a\in E, a*e=e*a=a$
 
-### [[éléments symétrisables]]
+## [[éléments symétrisables]]
 $a\in E$ est symétrisable ssi: $\exists a'\in E, a*a' = a'*a = e$
 
-### [[commutativité]]
+## [[commutativité]]
 $\forall(a,b)\in E^2, a*b = b*a$
 
-### [[distributivité]]
+## [[distributivité]]
 
 
 
-## Définitions
+# Définitions
 
 > [!definition] Itération d'un élément
 > Soit $E$ un ensemble muni d'une LCI $*$ [[associativité|associative]], et soit $a\in E$.

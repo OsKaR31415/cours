@@ -9,7 +9,7 @@ description::
 ----
 Un _isomorphisme_ est un [[morphisme]] [[bijection|bijectif]].
 
-## Exemple
+# Exemple
 Sur $(\mathbb{R},+)$, la fonction $\ln$ est un [[isomorphisme]]
 $$\begin{align}
 \ln :& (\mathbb{R}, +) \mapsto (\mathbb{R},\times)\\

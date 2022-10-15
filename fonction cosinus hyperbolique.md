@@ -18,7 +18,7 @@ $\mathrm{ch}(x) = \dfrac{e^x+e^{-x}}2$
 
 Elle est appelée _cosinus_ car sa définition ressemble à celle de la [[fonction cosinus]]
 
-## Graphe
+# Graphe
 ```desmos-graph
     top=3
 left=-2; right=2
@@ -29,7 +29,7 @@ y = \cosh(x)
 (0, 1) | black
 ```
 
-## Propriétés
+# Propriétés
 $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
 (Voir [[fonction sinus hyperbolique]])
 
@@ -41,6 +41,6 @@ $\cosh^2 x - \sinh^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 =
  - $\mathrm{ch} \underset{+\infty}{\sim} \mathrm{sh}$ ([[fonctions équivalentes|équivalentes]]) et $\mathrm{ch} \underset{-\infty}{\sim} -\mathrm{sh}$
 
 
-#### Note :
+### Note :
 $\cos(x) = \mathrm{ch}(ix)$ soit $\mathrm{ch}(x) = \cos\left(\frac{x}{i}\right) = \cos(-ix)$
 ⚠️ $\cos$ ne peut pas être défini sur $\mathbb{C}$ car il perd ses propriétés

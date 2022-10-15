@@ -4,30 +4,30 @@ title::"syntaxe de base de obsidian"
 
 ----
 
-## Titres 
+# Titres 
 
 On utilise des `#` pour faire des titre
 Note: il faut mettre un espace après le #
 
 ```
 # Titre
-## Sous-titre
-### Sous-sous-titre
-#### Sous-sous-sous-titre
-##### Sous-sous-sous-sous-titre
-###### Sous-sous-sous-sous-sous-titre
+# Sous-titre
+## Sous-sous-titre
+### Sous-sous-sous-titre
+#### Sous-sous-sous-sous-titre
+##### Sous-sous-sous-sous-sous-titre
 ```
 
 donne :
 # Titre
-## Sous-titre
-### Sous-sous-titre
-#### Sous-sous-sous-titre
-##### Sous-sous-sous-sous-titre
-###### Sous-sous-sous-sous-sous-titre
+# Sous-titre
+## Sous-sous-titre
+### Sous-sous-sous-titre
+#### Sous-sous-sous-sous-titre
+##### Sous-sous-sous-sous-sous-titre
 
 
-## Listes
+# Listes
 
  - les listes sont avec `- `
  * on peux aussi utiliser `* `
@@ -40,7 +40,7 @@ donne :
  1. listes numérotées : simplement `1.` (numéro.)
  2. la numérotation augmente automatiquement quand on va à la ligne
 
-## Styles
+# Styles
  - **gras** : `**gras**`
      - raccourci : sélectionner le texte, puis `contrôle+b` (comme _bold_)
  - _italique_ : `_italique_` ou bien `*italique*`
@@ -49,26 +49,26 @@ donne :
  - ==surligné== : `==surligné==`
 
 
-## Liens
+# Liens
 
 
-### Internet
+## Internet
  - Format : `[nom affiché](https://adresse.du.site.com)`
  - Exemple : [voici google](https://www.google.com)
  - raccourci : `contôle+k`
 
-### Autre note
+## Autre note
  - Format : `[[nom de la note|nom affiché]]`
  - Exemple : [[obsidian syntaxe|la note actuelle]]
 
-## Citations
+# Citations
 
 > pour les citations : `>` suivi d'un espace
 > elles peuvent être sur plusieurs lignes
 >> les citations peuvent être sur plusieurs niveaux et c'est cool
 
 
-## Callouts
+# Callouts
 
 > [!note] callouts
 > les callouts permettent faire des boîtes pour grouper visuellement du contenu.

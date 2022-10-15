@@ -14,7 +14,7 @@ Un ensemble $E$ muni d'une [[loi de composition interne]] $*$ est un _monoïde_ 
 
 Un _monoïde_ est un [[semi groupe]] qui possède un élément neutre.
 
-## Exemple
+# Exemple
 
  - Soit $E$ un ensemble, on étudie $(\mathscr P(E), \cup)$
      - La loi $\cup$ est [[commutativité|commutative]] et [[associativité|associative]]

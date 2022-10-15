@@ -16,7 +16,7 @@ Voir **[[MOC fonctions]]**
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-## Propriétés des [[fonction|fonctions]]
+# Propriétés des [[fonction|fonctions]]
 > [!query]- Sous-notes de [[fonction]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
@@ -44,7 +44,7 @@ Voir **[[MOC fonctions]]**
  - [[négligabilité]] (petit $o$)
 
 
-## Opérations
+# Opérations
  - [[limite d'une fonction]]
  - [[dérivation]]
      - [[fonction dérivable]]
@@ -59,7 +59,7 @@ Voir **[[MOC fonctions]]**
  - [[asymptote]]
      - [[calculer une asymptote]]
 
-## Equations
+# Equations
 > [!query]- Sous-notes de [[équation différentielle]]
 > ```dataview
 > TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"

@@ -188,14 +188,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "workspaces-plus:open-workspaces-plus": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "W"
-    }
-  ],
   "command-palette:open": [
     {
       "modifiers": [
@@ -452,5 +444,22 @@
       "key": "O"
     }
   ],
-  "switcher:open": []
+  "switcher:open": [],
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-workspaces": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ]
 }

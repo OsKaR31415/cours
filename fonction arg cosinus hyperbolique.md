@@ -15,7 +15,7 @@ title::$\arg \mathrm{ch}$
 $\begin{align*} \arg\mathrm{ch} : \quad & [1;+\infty[ \rightarrow \mathbb{R}^{+} \\ & y \mapsto x \text{ tel que } \mathrm{ch}(x) = y \\ &x \mapsto \ln\left(x + \sqrt{x^{2} - 1}\right)\end{align*}$
 
 
-## Propriétés
+# Propriétés
 
  - $\arg\mathrm{ch}$ est définie sur $[1; +\infty[$ et à valeurs dans $\mathbb{R}^{+}$
  - $\arg\mathrm{ch}$ est [[fonction dérivable|dérivable]] sur $]1;+\infty[$ (pas en 1 à cause de la [[fonction racine carrée|racine carrée]])

@@ -12,18 +12,18 @@ On utilise la notation pour les [[dérivation|dérivées]] :
  - $f^{(0)}=f$
  - $f^{(n)} = (f^{(n-1)})'$ cette dérivée existe
 
-## Propriétés
+# Propriétés
 
   - Si $f^{(n)}$ existe, alors toutes les dérivées d'ordre inférieur existent
   - $\left(f^{(p)}\right)^{(q)} = f^{(p+q)}$
 
-### Ordre
+## Ordre
 Dans $f^{(n)}$, on appelle **ordre** de dérivation la valeur de $n$
 
 Exemple :
 $f^{(5)}$ est une dérivée d'**ordre 5**
 
-### Théorème
+## Théorème
 Si $f$ et $g$ sont $n$ fois dérivables avec $n\in\mathbb N^*$
  - $(f+g)$ est $n$ fois dérivable
  - $(f+g)^{(n)} = f^{(n)}+g^{(n)}$
@@ -32,10 +32,10 @@ Si $f$ et $g$ sont $n$ fois dérivables avec $n\in\mathbb N^*$
  - Si $g$ ne s'annule pas, $\frac{f}{g}$ est $n$ fois dérivable
  
  
-### Formule de Leibniz
+## Formule de Leibniz
 $\displaystyle(f\times g)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k}f^{(k)}\times g^{(n-k)} \right)$
 
-#### Exemple : $h(x) = x^2 \times e^{3x}, \mathscr D_f = \mathbb R$
+### Exemple : $h(x) = x^2 \times e^{3x}, \mathscr D_f = \mathbb R$
 On pose $f(x) = x^2$ et $g(x) = e^{3x}$
 - $f^{(0)}=x^2$
 - $f^{(1)}=2x$

@@ -4,7 +4,7 @@ title::"comment aligner correctement une suite d'équations"
 
 ----
 
-## Alignement simple
+# Alignement simple
 $$\begin{align*}
 \tan(a+b) &= \frac{\sin(a+b)}{\cos(a+b)}\\
 &= \frac{\sin a \cos b + \sin b \cos a}{\cos a \cos b - \sin a \sin b}\\
@@ -15,7 +15,7 @@ $$\begin{align*}
 &= \frac{\tan a + \tan b}{1 - \tan a \tan b}
 \end{align*}$$
 
-## Alignement **avec des commentaires**
+# Alignement **avec des commentaires**
 
 en utilisant une colonne supplémentaire
 $$\begin{align*}

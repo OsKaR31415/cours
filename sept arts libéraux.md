@@ -7,6 +7,6 @@ Ensemble de 7 arts, répartis entre le [[trivium]] et le [[quadrivium]] :
 
 ![[quadrivium#les sciences du quadrivium]]
 
-## Histoire
+# Histoire
 
 

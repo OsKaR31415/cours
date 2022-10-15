@@ -15,5 +15,5 @@ Ou, avec bornes :
 $\displaystyle \int _{\alpha}^{\beta} u'(x)\times v(x) \, dx = \left[ u(x)\times v(x) \right]_{\alpha}^{\beta} - \int _{\alpha}^{\beta} u(x)\times v'(x) \, dx$
 
 
-## Démonstration
+# Démonstration
 On part de la  

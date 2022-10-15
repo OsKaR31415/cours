@@ -9,7 +9,7 @@ up::[[nombre complexe]]
 ----
 Soit $z\in\mathbb C$, la _forme algébrique_ de $z$ est la forme $z=a+ib$ avec $(a,b)\in\mathbb R^2$.
 
-## Passage à la [[forme exponentielle]]
+# Passage à la [[forme exponentielle]]
 Soit $z = a+ib$.
 On sait que la forme exponentielle est $z=re^{i\theta}$ où $r=|z|$
 On a donc : $e^{i\theta} = \dfrac z{|z|}$

@@ -6,17 +6,17 @@ up::[[MOC algèbre]]
 L'ensemble $\mathbb{H}$ des quaternions peut être défini comme l'[[algèbre associative]] sur le [[corps]] des nombres réels $\mathbb{R}$ engendrée par les 3 éléments $i$, $j$ et $k$, satisfaisant les [[quaternions#Relations quaternioniques]] : $i^2 = j^2 = k^2 = ijk = -1$.
 
 
-## Définitions
+# Définitions
 On peux définir les quaterions comme l'ensemble : $\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\mathbb{C}^2\right\}$ muni de la [[multiplication de matrices]].
 On peux alors montrer les rela
 
 
-## Propriétés
+# Propriétés
 
-### Relations quaternioniques
+## Relations quaternioniques
  - $i^2 = j^2 = k^2 = ijk = -1$
 
-### [[table de cayley]] des quaternions
+## [[table de cayley]] des quaternions
 | $\times$   |     | $\mathbb 1$ | $i$         | $j$         | $k$         |
 | ---------- | --- | ----------- | ----------- | ----------- | ----------- |
 |            |     |             |             |             |             |
@@ -25,7 +25,7 @@ On peux alors montrer les rela
 | $j$        |     | $j$         | $-k$        | $-\mathbb1$ | $i$         |
 | $k$        |     | $k$         | $j$         | $-i$        | $-\mathbb1$ |
 
-## Exercice
+# Exercice
 L'ensemble des quaternions est l'ensemble :
 $\mathbb{H} = \left\{\left.\begin{pmatrix}y&z\\-\overline{z}&\overline{y}\end{pmatrix} \right| (y, z)\in\mathbb{C}^2\right\}$
 On note $\mathbb{H}^*$ l'ensemble $\mathbb{H}$ privé de $\begin{pmatrix}0&0\\0&0\end{pmatrix}$

@@ -3,7 +3,7 @@ up:: [[Commutation de Processus]]
 
 ----
 
-## Routine de traitement de l'interuption horloge
+# Routine de traitement de l'interuption horloge
  1. Réarmer l'interruption horloge 
  2. Mise à jour les statistiques d'utilisation CPU du processus courant
  3. Accomplir des fonctions relatives à l'ordonnancement 

@@ -2,7 +2,7 @@
 
 ---
 
-## Notes
+# Notes
 
  - parler des apps qui sont "opposées"
      - [[microsoft one note]]
@@ -11,7 +11,7 @@
  - Exemple où ce système fonctionne mieux
      - [[sept arts libéraux]]
 
-### Livre blanc
+## Livre blanc
 
 
 

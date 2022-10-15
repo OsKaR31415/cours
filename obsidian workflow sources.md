@@ -16,6 +16,6 @@ Les sources sont tout les éléments extérieurs qui sont intéressants :
 >  - développer des idées personnelles
 >      - partie "_Develop_" de l'[[ENCODE framework]]
 
-## Format des sources
+# Format des sources
 ![[sources]]
 

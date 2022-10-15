@@ -22,7 +22,7 @@
 >  - Prendre des marges
 >  --> Faire diminuer le risque
 
-## Gestion des risques
+# Gestion des risques
  1. **identification** et caractérisation
      - points faibles du projet ?
      - questionnaires d'évaluation

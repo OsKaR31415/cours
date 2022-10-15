@@ -9,14 +9,14 @@ up::[[MOC algèbre]]
 ----
 Une _permutation_ représente le réarrangement d'objets.
 
-## Définition
+# Définition
 Une permutation est une [[bijection]] d'un ensemble dans lui-même.
 Notamment, une permutation de $n\in\mathbb N$ éléments est une [[bijection]] d'un ensemble fini de [[cardinal]] n sur lui-même.
 
 On parle généralement des permutations sur un intervalle $[\![1;n]\!]$.
 
 
-## Notation
+# Notation
 On note $\mathfrak S_n$ l'ensemble des permutations sur $[\![1;n]\!]$.
 
 un élément $\sigma\in\mathfrak S_n$ se note :

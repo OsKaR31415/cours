@@ -18,6 +18,6 @@ Inversement, les parallélépipèdes sont les déformations affines du cube.
 
 La généralisation à la dimension _n_ de la notion de parallélépipède est celle de [parallélotope](https://mathcurve.com/polyedres/parallelotope/parallelotope.shtml).
 
-## Etymologie
+# Etymologie
 
 Étymologie : de parallèle et epipedon = surface en grec.

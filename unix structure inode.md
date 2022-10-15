@@ -14,7 +14,7 @@ Tous les [[unix fichier|fichiers]] sont gérés par le [[système d'exploitation
      - Un inode est ssocié 0 exactement un seul fichier 
      - Un fichier est contrôlé par exactement un seul inode
 
-## Attributs de l'inode
+# Attributs de l'inode
 l'inode contient 16 bits
 
 ![[unix structure inode 2022-09-21 16.01.38.excalidraw|100%]]

@@ -5,7 +5,7 @@
  - Par Loir et cher tech
  - Au campus CCI Blois
 
-## La fin de google analytics ?
+# La fin de google analytics ?
 -> Décision de la CNIL d'interdire google analytics
 
 
@@ -17,7 +17,7 @@
 - => Décision publiée le 10 février https://vu.fr/TaZe
     - Grandes entreprises mises en demeure
 
-## Quelles données ?
+# Quelles données ?
  - Adresse IP du visiteur du site
  - ID du cookie google
  - autres métadonnées
@@ -35,23 +35,23 @@
 
 
 
-## Que pourrait faire google
-### Clauses de protection
+# Que pourrait faire google
+## Clauses de protection
  - conclues entre google et l'éditeur du site
  - rendues inopérantes par le _cloud act_
      - L'état américan peut aller chercher n'importe quelle donnée tant que c'est une entreprise américaine
   
-### Mesures supplémentaires
+## Mesures supplémentaires
  - intentions mais pas de preuve concrète
  - option de tronquer l'IP : pas par défaut
  - Pseudonymisation
      - devenu _profil_
      - est donc équivalent à un individu
 
-### Dérogations (l'utilisateur accepte)
+## Dérogations (l'utilisateur accepte)
  - consentement souvent non-explicite
 
-## Conclusion
+# Conclusion
  - sans retour du _privacy shield_ (RGPD américain), pas d'avenir
  - évolutions à court terme peu satisfaisantes
  - coordination européenne forte sur le sujet
@@ -61,11 +61,11 @@
 
 # Impacts et perspectives
 
-## Personalisation des pubs
+# Personalisation des pubs
 Un bien ou un mal ?
 Un est face à un dilemme : on peut préférer avoir une expérience personalisée
 
-## impacts de la suppression des cookies tiers
+# impacts de la suppression des cookies tiers
 
  - moins de précision dans l'nalyse
  - forte réduction des capacités de civlage des annonceurs => publicités moins efficaces => vaisse du coût du CPM => **moins d'applicaitons et de services gratuits**
@@ -75,22 +75,22 @@ Un est face à un dilemme : on peut préférer avoir une expérience personalis�
 **Exemple :** Apple a donné un moyen de stopper le système d'analyse de facebook sur ses appareils
 => Facebook à subi des pertes énormes (plus grande perte de l'histoire de la bourse)
 
-## Stratégies publicitaires
-### Prise d'empreinte du navigateur
+# Stratégies publicitaires
+## Prise d'empreinte du navigateur
  - reconstituer l'emprunte à partir d'autres données
      - taille de l'écran
      - informations sur l'OS
      - navigateur
      - $\vdots$
 
-### L'identification unique
+## L'identification unique
  - On utilise un seule compte/code/identifiant pour plusieurs services (ce qui leur permet de partager les données)
 
 
 **Voir** : Site de la IABE (ou YABE ?)
 
 
-## Outil analytique sans cookie
+# Outil analytique sans cookie
 [plausible](https://plausible.io/plausible.io)
 
  - les UTM : communiquer en utilisant des [[URL]] enrichies
@@ -98,7 +98,7 @@ Un est face à un dilemme : on peut préférer avoir une expérience personalis�
      - Résultats de visites aggrégées
 
 
-## Conclusion
+# Conclusion
 
  - Nouveau site
      - Choisir des alternatives EUR

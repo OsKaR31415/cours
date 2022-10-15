@@ -9,6 +9,6 @@ $M = \,^TM$
 
 Visuellement, cela veut dire que la matrice est symétrique par rapport à sa diagonale.
 
-## Exemple
+# Exemple
 $M = \begin{pmatrix} 2&3&5\\ 3&4&7\\ 5&7&0 \end{pmatrix}$
 On a bien $M = \,^TM$

@@ -6,6 +6,7 @@ There are `$= dv.pages().length` notes in this vault.
  - `$= dv.pages("#MOC").length` [[Map of content|MOCs]]
  - my notes contain :
      - `$= dv.pages("#maths").length` #maths notes
+     - `$= dv.pages("#maths/algèbre").length` #maths/algèbre notes
      - `$= dv.pages("#informatique").length` #informatique notes
      - `$= dv.pages("#PKM").length` #PKM notes
      - `$= dv.pages("#obsidian").length` #obsidian notes

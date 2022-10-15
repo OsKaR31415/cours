@@ -27,7 +27,7 @@ y = \tanh(x)
 ```
 
 
-## Propriétés
+# Propriétés
 
  - $\mathrm{th}$ est une [[fonction impaire]]
  - dérivée : $\mathrm{th}'=\frac{1}{\mathrm{ch}^{2}}$

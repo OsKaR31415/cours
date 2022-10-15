@@ -19,7 +19,7 @@ et se lit $ans$ est vrai si $R_1, R_2, \ldots, R_n$ sont vraies
 
 Pour calculer le résultat de la requête, on doit tester toutes le [[valuation|valuations]] possibles qui respectent $R_1, R,2, \ldots, R_n$, et appliquer ces [[valuation|valuations]] sur la relation $ans$ pour obtenir l'instance de $ans$.
 
-## Exemples
+# Exemples
 
 - qui est le réalisateur de dune ?
     - $ans(r) \leftarrow films("dune", r, a)$

@@ -8,13 +8,13 @@ title::"raccourcis clavier pour taper du LaTeX"
 
 ----
 
-## Fermeture automatique
+# Fermeture automatique
  - fermeture automatique des `(){}[]`
  - fermeture automatique des `$`
  - également supression automatique quand ils sont collés
 
 
-## Ajout automatique
+# Ajout automatique
 
  - ajout de `\limits` après `sum`
  - ajout de `\left` et `\right` autour des parenthèses qui contiennent `\sum`, `\int` ou `\frac`

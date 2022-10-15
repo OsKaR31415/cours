@@ -7,7 +7,7 @@ On dit aussi que cette proposition est _insatifaisable_
 
 Une [[proposition]] qui n'est pas une contradiction est [[satisfaisable]].
 
-## Exemple
+# Exemple
 > La pièce est sur le côté pile et le côté face
 
 Contradition : on ne peut être à la fois quelque chose et son contraire.

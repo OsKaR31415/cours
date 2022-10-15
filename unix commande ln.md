@@ -4,7 +4,7 @@ title::"`ln target_file new_file` [[unix liens symboliques et physiques|lien phy
 
 ----
 
-## Utilisation
+# Utilisation
 ```bash
 $> ln target_file physical_link_file  # here a physical link
 $> ln -s target_file symlink_file  # -s for symlinks 

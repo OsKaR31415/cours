@@ -19,7 +19,7 @@ On note : $\boxed{E = F \oplus G}$
 
 
 
-## Propriétés
+# Propriétés
 Soient $E = F \oplus G$
 
  - la [[famille de vecteurs]] formée par l'union de deux [[base d'un espace vectoriel|bases]] de $F$ et $G$ est [[famille de vecteurs libre|libre]]

@@ -12,6 +12,6 @@ $\forall (x;x')\in I^2, x>x' \implies f(x) > f(x')$
 
 Voir: [[fonction décroissante]]
 
-## Propriétés
+# Propriétés
 Si une fonction est _strictement croissante_ et [[fonction bornée|majorée]], alors elle [[fonction convergente|converge]].
 

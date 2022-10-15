@@ -3,7 +3,7 @@
 ----
 
 
-## Formules de somme
+# Formules de somme
 
 Somme d'une [[suite géométrique]] de raison $q$
 $\sum\limits_{k=0}^{n}q^{k} = ?$

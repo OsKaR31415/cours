@@ -11,8 +11,8 @@ Cette transformation est la succession de :
  2. un déphasage de $\pi/2$ ($x \mapsto \frac{\pi}{2}+x$)
 
 
-## Propriétés
+# Propriétés
 
-### Avec les fonctions trigonométriques
+## Avec les fonctions trigonométriques
 Cette transformations, appliquée aux [[fonctions trigonométriques]] correspond au fait d'ajouter _co-_ : $\tan\left(\frac{\pi}{2} -x\right) = \cotan(x)$
 

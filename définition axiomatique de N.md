@@ -3,7 +3,7 @@ up::[[axiomatique]]
 
 ---
 
-## Axiomes de Peano
+# Axiomes de Peano
  - $0 \in \mathbb{N}$
  - si $x \in \mathbb{N}$ alors le successeur de $x$, noté $s(x)$ est dans $\mathbb{N}$ ($\forall x \in \mathbb{N}, s(x) \in \mathbb{N}$)
  - $\forall (x, y) \in \mathbb{N}^{2}, \quad s(x) = s(y) \iff x = y$
@@ -12,7 +12,7 @@ up::[[axiomatique]]
      - proposition de récurrence
      - équivalent à dire que _tout sous-ensemble de $\mathbb{N}$ a un plus petit élément ($\mathbb{N}$ est bien ordonné)_
 
-## Théorie des ensembles
+# Théorie des ensembles
 [[axiomes Zemerlo Frankel]]
 
  - $0 := \emptyset$
@@ -32,7 +32,7 @@ De plus, on a une relation d'ordre totale et d'ordre strict totale : $x \geq y \
 
 Avec cette définition, le [[principe de récurrence]] n'est plus un axiome, mais on le démontre : [[ZF démonstration du principe de récurrence]]
 
-## Propriétés
+# Propriétés
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

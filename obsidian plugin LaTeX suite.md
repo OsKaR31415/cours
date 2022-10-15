@@ -11,7 +11,7 @@ title::"raccourcis et conceal pour LaTeX"
      - utilise les raccourcis [[post queue docstring#^snippets-latex|raccourcis de gilles castel]]
  - conceal du $\LaTeX$ : permet de mieux voir ce que l'on tape
 
-## Raccourcis
+# Raccourcis
 
  - `mk` : mode maths, `dm` : double maths (`$$ \n $$`)
      - [!] fonctionne en dehors du mode maths

@@ -15,7 +15,7 @@ $$
 \end{align*}
 $$
 
-## Définition
+# Définition
 $\sin$ est définie sur $\mathbb{R}$, et n'est pas [[bijection|bijective]] sur cet ensemble.
 Mais si on la limite à certains intervalles, elle peut être bijective.
 En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction continue|continue]] et [[fonction monotone|strictement monotone]], elle est donc [[bijection|bijective]], et donc possède une réciproque, la fonction $\arcsin$
@@ -33,12 +33,12 @@ En particulier, sur $\left[-\dfrac\pi2; \dfrac\pi2\right]$, elle est [[fonction 
  - [!] $\forall x\in\mathbb{R}, \arcsin(\sin(x))\neq x$ (en général)
      - [p] $\forall x\in\left[\dfrac\pi2; \dfrac\pi2\right], \arcsin(\sin(x)) = x$ (seul cas où c'est égal)
 
-## Notes
+# Notes
 
 $\cos(\arcsin(x)) = \sqrt{1 - x^2}$
 $\sin(\arccos(x)) = \sqrt{1 - x^2}$
 
-## Dérivée
+# Dérivée
 La [[dérivation|dérivée]] de $\arccos$ peut être calculée grâce à la formule de [[dérivation]] d'une fonction réciproque :
 $(f^{-1})'(x) = \dfrac1{f'(f(x))}$
 $$\begin{aligned}
@@ -50,6 +50,6 @@ $$\begin{aligned}
 \end{aligned}$$
 (Voir [[dérivation]], notamment la dérivée d'une fonction réciproque)
 
-## Equations avec des arcsinus
+# Equations avec des arcsinus
 $$\arcsin x = y \iff \left\{ \begin{array}{l} x = \sin y\\\text{et}\\y \in \left[-\dfrac\pi2; \dfrac\pi2\right] \end{array} \right.$$
 

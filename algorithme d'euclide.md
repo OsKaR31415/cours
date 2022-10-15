@@ -2,5 +2,5 @@
 
 ---
 
-## Algorithme inverse
+# Algorithme inverse
 

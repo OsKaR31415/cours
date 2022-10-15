@@ -9,9 +9,9 @@ sr-ease: 241
 
 # calculer une asymptote
 
-## pour des courbes de fonctions
+# pour des courbes de fonctions
 
-### $\displaystyle\lim_{x\rightarrow\pm\infty} f(x) =$
+## $\displaystyle\lim_{x\rightarrow\pm\infty} f(x) =$
 - $\pm\infty$
    - $\displaystyle\lim_{x\rightarrow\pm\infty} \frac{f(x)}{x} =$
       - $a, a\in\mathbb{R}^*$
@@ -39,9 +39,9 @@ sr-ease: 241
 - pas de limite
    - on ne sait pas
 
-## pour des [[courbe paramétrée|courbes paramétrées]]
+# pour des [[courbe paramétrée|courbes paramétrées]]
 
-### en un point $t_0\in\mathbb{R}$
+## en un point $t_0\in\mathbb{R}$
 - $x$ diverge mais pas $y$
    - $\lim\limits_{t\to t_0}(x(t)) =$
       - $\pm\infty$
@@ -63,6 +63,6 @@ sr-ease: 241
             - $f\in\mathbb{R}$
                - [[asymptote]] d'équation $y=ex + f$
 
-### en $t\to\pm\infty$
+## en $t\to\pm\infty$
 - $\lim\limits_{t\to\pm\infty}\left( \dfrac{y(t)}{x(t)} \right) =$
    - même chose que quand $x$ et $y$ divergent en un point $t_0$

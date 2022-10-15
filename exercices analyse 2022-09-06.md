@@ -4,7 +4,7 @@ title::"TD1 d'analyse"
 ----
 sujet : [[L2 maths analyse TD1-annotate]]
 
-## Exercice 1
+# Exercice 1
 Pour chacune des suites dont le terme général est donné ci-dessous, déterminer son éventuelle limite.
 Lorsque cette limite vaut $0^{+}$ ou $+\infty$, donner une équivalent simple.
 

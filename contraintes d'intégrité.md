@@ -3,7 +3,7 @@
 ---
 On peut poser des contraintes sur des valeurs. Par exemple, l'âge d'une personne ne peut pas être négatif
 
-## Intégrité et clés
+# Intégrité et clés
  - Propriétés d'intégrité générale
      - clés uniques
          - un **ensemble d'attributs** est dit _clé unique_ si. **deux tuples différents**

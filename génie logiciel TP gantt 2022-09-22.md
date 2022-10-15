@@ -19,7 +19,7 @@ gantt
         Fin: milestone, 2020-01-08
 ```
 
-## Exercice 1 : gestion de tickets d'incident
+# Exercice 1 : gestion de tickets d'incident
 
 ```mermaid
 gantt

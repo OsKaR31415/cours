@@ -11,13 +11,13 @@ Soient $v_1,\ldots,v_k$ des vecteurs de $\mathbb{R}^n$ avec $1\leq k \leq n$. On
 C'est-à-dire ssi : $\forall i,t\in[\![1;k]\!]^2, (t>i \iff v_i[t] = 0)$
 (où $v_i[t]$ est là $t^{\text{ème}}$ coordonnée de $v_i$)
 
-## Exemples
+# Exemples
 La famille $\left\{ \begin{pmatrix} 1\\0\\0 \end{pmatrix}; \begin{pmatrix} 2\\-4\\0 \end{pmatrix}; \begin{pmatrix} 2\\6\\3 \end{pmatrix}\right\}$ est _échelonnée_ dans $\mathbb{R}^3$.
 
 La famille $\left\{ \begin{pmatrix} 1\\2\\0\\0 \end{pmatrix} \begin{pmatrix} 1\\-4\\0\\4 \end{pmatrix} \begin{pmatrix} 1\\2\\3\\-1 \end{pmatrix} \right\}$ n'est **pas** _échelonnée_ $\mathbb{R}^4$.
 
 
-## Propriétés
+# Propriétés
  - Toute famille _échelonnée_ dans $\mathbb{R}^n$ est [[famille de vecteurs libre|libre]]
 
 

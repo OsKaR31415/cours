@@ -5,7 +5,7 @@ up::[[polynôme]]
 
 Le _discriminant_ d'un polynôme (du second degré) est un indicateur qui permet de résoudre des équations
 
-## polynômes du second degré
+# polynômes du second degré
 Soit $P(x) = ax^2 + bx + c$ un [[polynôme]] de degré 2.
 Le discriminant $\Delta$ de $P$ est :
 $\Delta = b^2 - 4ac$

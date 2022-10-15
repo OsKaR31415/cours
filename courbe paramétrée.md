@@ -9,7 +9,7 @@ up::[[MOC analyse]]
 
 ---
 
-## Définition
+# Définition
 Une _courbe paramétrée plane_ est une [[application]] d'un sous-ensemble $D$ de $\mathbb{R}$ dans $\mathbb{R}^{2}$
 $$\begin{align*}
 f &: D\subset \mathbb{R} \rightarrow R^2\\
@@ -25,7 +25,7 @@ f &: D\subset \mathbb{R} \rightarrow R^2\\
 **Note :** malgré le nom de _courbe_ paramétrée, c'est bien une [[application]]
  - on remarque notamment que l'on à une information en plus de l'ensemble des points : l'ordre de parcours
 
-## Notation
+# Notation
 On écrit souvent les équations paramétriques de la manière suivante :
 $$\left\{\begin{gathered}
 x(t)=3\ln(t)\\
@@ -40,17 +40,17 @@ $z(t)=e^{it}, t\in D$
 
 
 
-## Exemples
+# Exemples
  - $t\mapsto (\cos(t); \sin(t)), t\in[0;2\pi[$ paramétrisation du [[cercle trigonométrique]]
  - $t\mapsto(2t-3; 3t+1), t\in R$  paramétrisation de la droite passant par le point $A(-3, 1)$ et de vecteur directeur $\vec{u}(2, 3)$
  - $\lambda\mapsto\left((1-\lambda)x_{A}+\lambda x_{B}; (1-\lambda)y_{A} + \lambda y_{B}\right)$  paramétrisation du segment $[AB]$
 
-## Propriétés
+# Propriétés
 
  - [[Support d'une courbe paramétrée]]
  - [[multiplicité d'un point d'une courbe paramétrée]]
 
-### Représentation des fonctions
+## Représentation des fonctions
 Si $f$ est une fonction de $D$ vers $\mathbb{R}$, on peut paramétriser le graphe de $f$.
 On peut donc "_traduire_" $y=f(x)$ sous forme paramétrique :
 $$\left\{\begin{gathered}

@@ -13,7 +13,7 @@ $a*(b\bot c) = (a*b)\bot(a*c)$ (distributivité à droite)
 $(a\bot b)*c = (a*c)\bot(b*c)$ (distributivité à gauche)
 
 
-## Exemple
+# Exemple
 Dans $\mathbb R$, on considère les lois $+$ et $\times$ :
 La loi $\times$ est distributive par rapport à la loi $+$
 $\forall(x,y,z)\in\mathbb R^2,$

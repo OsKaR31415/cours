@@ -1,11 +1,12 @@
-# visite de Tours
+
+----
 
 
-## Bibliothèque
+# Bibliothèque
  - détruite pendant la 2nd guerre mondiale, et reconstruite ensuite (terminée en 1957)
  - l'architecte original à épuisé tous les fonds, la fin de la construction à été faîte par un autre architecte
 
-## Opéra 
+# Opéra 
  - A la révolution francaise, l'ancienne église est vendue
  - Elle est transformée en une salle de spectacle de 800 places
      - Dès le début, il y à aussi bien de du théatre que de l'opéra
@@ -16,13 +17,13 @@
      - seuls les 4 murs et la façade ont résisté : les galeries, le lustre et le toit se sont effondrés
 A l'entrée on peut voir l'ange de l'inspiration
 
-## Château de Tours
+# Château de Tours
  - Tours à été capitale du Royaume : Louis XI c'est marié dans ce château
  - Le château à été vite délaissé car les châteaux style Renaissance étaient plus à la mode et plus comfortables
 
-## Religion
+# Religion
 
-### Basilique St Martin
+## Basilique St Martin
  - Transformée en écurie en 1793
  - Effondrée en 1797
  - Reconstruite 1886 et 1902
@@ -51,7 +52,7 @@ A l'entrée on peut voir l'ange de l'inspiration
              - une grande échelle de 100 barreaux avec une hirondelle sur le premier, deux sur le 2ème, 3 sur le 3ème ... 99 sur le 99ème etc. combien d'hirontelles ?
 
 
-### Eglise saint julien
+## Eglise saint julien
  - jolis vitraux
  - Détruite et reconstruite beaucoup 
      - par les normands

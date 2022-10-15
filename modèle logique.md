@@ -18,7 +18,7 @@ Constantes utilisées
     - ex: $film[titre, réalisateur, année]$
 
 
-## Différentes approches
+# Différentes approches
 
  - est-ce que les noms d'attribut sont importants
      - utilisés pour manipuler les relations : approche **nommée**

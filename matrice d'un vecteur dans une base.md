@@ -7,11 +7,11 @@ Un vecteur $x$ de $E$ se décompose de façon unique sous la forme $x = x_1e_1+\
 
 ----
 $\mathrm{Mat}_{\scr B}(x) = [x]_{\scr B} = \begin{pmatrix} x_1\\\vdots\\x_n \end{pmatrix}$  
-## Propriétés
+# Propriétés
 L'[[application]] $x\mapsto [x]_{\scr B}$ est [[application linéaire|linéaire]] de $E$ dans $\mathbb{R}^n$.
 
 
-## Exemple
+# Exemple
 Les vecteurs $u_1 = \begin{pmatrix} 0\\1\\1 \end{pmatrix}$, $u_2 = \begin{pmatrix} 1\\0\\1 \end{pmatrix}$, $u_3 = \begin{pmatrix} 1\\1\\0 \end{pmatrix}$ forment une [[base d'un espace vectoriel|base]] de $\mathbb{R}^3$
 Le vecteur $v = \begin{pmatrix} 1\\1\\1 \end{pmatrix}$ se décompose sous la forme $xu_1+yu_2+zu_3$, soit :
 

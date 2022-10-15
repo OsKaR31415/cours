@@ -17,7 +17,7 @@ title::"affiche les informations sur un utilisateur"
 > id -u [-nr] [user]
 > ```
 
-## Exemples
+# Exemples
 
 ```bash
 $ id

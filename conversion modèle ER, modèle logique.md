@@ -7,13 +7,13 @@ Méthode de conversion du [[modèle entité association]] vers le [[modèle logi
 Voir [[conversion modèle ER, modèle logique.excalidraw]]
 
 
-## Conversion des entités
+# Conversion des entités
  - Chaque entité devient une relation
      - propriété -> attribut
      - clé -> clé primaire
      - occurrences -> tuples
 
-## Conversion des associations binaires
+# Conversion des associations binaires
 - Association ...,1 <=> ...,N
     - exemple:
         - recopie de la clé de personne en tant qu'attribut de vélo. clé étrangère

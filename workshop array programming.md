@@ -4,7 +4,7 @@ title::"workshop sur la programmation array ([[APL]])"
 
 ----
 
-## [[notation as a tool of thought.pdf|Notation as a tool of thought]]
+# [[notation as a tool of thought.pdf|Notation as a tool of thought]]
 
 # Presentation :
 [[array programming]]
@@ -58,7 +58,7 @@ title::"workshop sur la programmation array ([[APL]])"
      - `+/÷!⍳20` : $\sum_{n=1}^{20}\frac{1}{n!}$
 
 
-## Problem solving
+# Problem solving
  - score des entreprises
      - une entreprise est "proche" d'une autre si la différence de leurs scores < 95
      - on cherche pour chaque entreprise à savoir lequelles sont proches d'elle 
@@ -69,7 +69,7 @@ title::"workshop sur la programmation array ([[APL]])"
      - personnes dont les primes font au moins 6% du salaire
 
 
-## Notes
+# Notes
 
  - "APL fait la même chose que n'importe quel langage. Il le fait juste plus"
      - "APL does the same thing as every programming language, it only does it more"
@@ -88,7 +88,7 @@ title::"workshop sur la programmation array ([[APL]])"
 
 
 
-## Introduction
+# Introduction
  what is `2+2` ?
 -> 4 !
 **no :** it is an **expression**, composed of `2`, `+`, `2`

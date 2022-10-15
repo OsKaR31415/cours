@@ -33,6 +33,6 @@ title::![[méthodologie scrum 2022-09-20 08.33.02.excalidraw|100%]]
 
 
 
-## Bibliographie
+# Bibliographie
  - Le guide pratique de la méthode agile la plus populaire (2015)Aubry
      - blog : Scrum, agilité & Rock'n Roll (Blog d'Aubry) : http://www.aubryconseil.com

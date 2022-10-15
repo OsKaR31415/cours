@@ -5,7 +5,7 @@ title::"langage pour créer des documents (articles, livres...)"
 ----
 
 
-## A propos de LaTeX
+# A propos de LaTeX
 Notes de ce vault à propos de $\LaTeX$ :
 ```dataview
 LIST title

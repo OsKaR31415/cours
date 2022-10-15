@@ -5,7 +5,7 @@ up::[[transposition]]
 Soit $\sigma$ une [[permutation]]
 La _décomposition en produit de transpositions_ de $\sigma$ est une écriture de $\sigma$ dans laquelle on utilise uniquement des transpositions composées entre elles.
 
-## Exemple
+# Exemple
 
 Soit $\sigma=\begin{pmatrix}1&2&3&4&5&6\\ 2&1&3&6&4&5\end{pmatrix}$
 

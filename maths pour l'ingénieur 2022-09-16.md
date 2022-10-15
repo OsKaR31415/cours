@@ -2,8 +2,8 @@
 
 ----
 
-## Exercice 1
-### 1)
+# Exercice 1
+## 1)
 Soient $f$ et $g$ deux fonctions définies au voisinage de $0$, et telles que :
  - $f(x) = o(x)$
  - $g(x)=o(x^2)$
@@ -36,7 +36,7 @@ Donc : $g(x)\neq o(f(x))$ alors que $f(x)=o(x)$ et $g(x)=o(x^{2})$
 > > $f = o(g)$
 
 
-### 2)
+## 2)
 *Au voisinage de $0$*
 On à : $f(x) = o(x)$
 On cherche à montrer que $f(x) = o(x^{2})$
@@ -49,7 +49,7 @@ $\lim\limits_{ x \to 0 }\frac{f(x)}{x^{2}} = \lim\limits_{ x \to 0 } \frac{x^{2}
 Donc $f(x) \neq o(x^{2})$ alors que $f(x) = o(x)$
 
 
-### 3)
+## 3)
 *au voisinage de $0$*
 On a : $f(x) = o(x)$
 On cherche à montrer que $f(x) \sim x$
@@ -58,12 +58,12 @@ Or, $f(x)\sim x \iff \lim\limits_{ x \to 0 }\frac{f(x)}{x} = 1$
 Donc $f(x) \not\sim x$
 
 ---
-## Exercice 2
+# Exercice 2
 
 $f(x) = x (1+\sqrt{ x })$
 $g(x) = (x-1)\ln(x)(x+e^{-x})$
 
-### 1)
+## 1)
  1. montrer que $f(x) \sim x^{\frac{3}{2}}$
 $$
 \begin{align}

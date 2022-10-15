@@ -4,6 +4,6 @@ title::"préambule LaTeX, packages supplémentaires"
 #obsidian 
 
 ----
-### Extended mathJax
+## Extended mathJax
  - Support plus complet du LaTeX
      - préambule (dans `preamble.sty`)

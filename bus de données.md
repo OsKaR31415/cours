@@ -7,7 +7,7 @@ title::"tous les composants échangent des données via des bus"
 
 ---
 
-### Types de bus
+## Types de bus
  - Bus de donnés
      - transmet les adresse
  - Bus d'adresses

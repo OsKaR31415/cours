@@ -13,5 +13,5 @@ est un [[sous espace vectoriel]] de $E$.
     On dit qu'il est **engendré par la famille $\{u_1,u_2,\ldots,u_k\}$**, et on le note $Vec\{u_1,u_2,\ldots,u_k\}$.
 Il est l'ensemble de toutes les [[combinaison linéaire|combinaisons linéaires]] possibles des vecteurs $\{u_1,u_2,\ldots,u_k\}$.
 
-## Notation
+# Notation
 On note $\text{Vect}(u_{1}, \ldots, u_{n})$ l'espace vectoriel engendré par la famille $(u_{1},\ldots,u_{n})$

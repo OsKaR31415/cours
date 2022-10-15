@@ -4,7 +4,7 @@ up::[[limite d'une fonction]]
 ----
 Voir [[limite d'une fonction|limite]] d'une [[fonction]]
 
-## Limites connues
+# Limites connues
 $$\begin{array}{|r|l|}
 \hline
 \displaystyle\lim_{x\rightarrow+\infty} \dfrac{\alpha}{x} & 0\\\hline

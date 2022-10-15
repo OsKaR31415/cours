@@ -8,7 +8,7 @@ title::"utiliser des URI pour faire différentes actions dans obsidian"
 > [!tip]
 > Use command line (my `urlencode` alias) to encode with the `%` notation
 
-## Opening files
+# Opening files
 
 |                        | parameters                  | explanation                                                                                        |
 | ---------------------- | --------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -30,7 +30,7 @@ title::"utiliser des URI pour faire différentes actions dans obsidian"
 > `obsidian://advanced-uri?vault=<your-vault>&filepath=my-file&block=12345`
 
 
-## Editing files
+# Editing files
 
 |           | parameters                   | explanation                                                       |
 | --------- | ---------------------------- | ----------------------------------------------------------------- |
@@ -51,13 +51,13 @@ title::"utiliser des URI pour faire différentes actions dans obsidian"
 > `obsidian://advanced-uri?vault=<your-vault>&daily=true&clipboard=true&mode=append`
 
 
-## Navigation parameters
-### View modes
+# Navigation parameters
+## View modes
 Just put one of the following parameters :
  - `source`: sets to "reading: source mode"
  - `live`: sets to "reading: live mode"
  - `preview`: sets to preview mode
 
-### Open in new pane
+## Open in new pane
 the `newpane` parameters tell if the uri should be opened in a new pane
 accepts `newpane=true` or `newpane=false`

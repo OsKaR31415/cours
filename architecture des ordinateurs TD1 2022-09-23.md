@@ -3,7 +3,7 @@ next::[[architecture des ordinateurs TD2  2022-09-30]]
 
 ---
 
-## Question 1
+# Question 1
 
 > Pourquoi a-t-on un circuit d’horloge dans une machine informatique ?
 
@@ -19,7 +19,7 @@ La carte mère permet au composants de communiquer entre eux via des [[bus de do
 Le BIOS d'une carte mère est le programme qui gère le démarrage du [[système d'exploitation]].
 Il cherche le disque de démarrage, trouve le bootloader et l'exécute.
 
-## Question 2
+# Question 2
 
 > Expliquer cette suite de shémas
 > ![](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663933338694.png?1663933343618)
@@ -40,11 +40,11 @@ dans le codage sur 3 bits, on à plus d'états possibles, donc l'approximation e
 le bruit est toujours présent mais plus faîble
 
 
-## Question 3
+# Question 3
 ![](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663934986024.png?1663935003266)
  - Modèle de fonctionnement des ordinateur : [[architecture de Von Neumann]] 
 
-## Question 4
+# Question 4
 
 ![](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663935053289.png?1663935065358)
  - bus de données : transmet les données ente les composant
@@ -52,14 +52,14 @@ le bruit est toujours présent mais plus faîble
  - bus de contrôle/requête : communique l'action à faire (lecture/écriture, interruptions)
 
 
-## Question 5
+# Question 5
 
 ![](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663935204098.png?1663935217647)
  - flèches "Données" : représentent des envois de données
  - flèches "commande" : représentent des envois d'ordre, des demandes d'actions à faire
 
 
-## Question 6
+# Question 6
 
 ![](app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663935539410.png?1663935553690)
  - mémoire

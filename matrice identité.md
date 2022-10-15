@@ -15,5 +15,5 @@ Id_{n_{i,j}} =
 Autre définition : $\forall(i,j)\in[\![1;n]\!], Id_{n_{i,j}} = \delta_{i,j}$ où $\delta$ est le [[symbole de kronecker]].
 
 
-## Propriétés
+# Propriétés
 - $Id$ est l'élément neutre des matrices pour la [[multiplication de matrices]] : $Id\times M = M\times Id = M$

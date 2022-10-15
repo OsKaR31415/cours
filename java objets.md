@@ -21,7 +21,7 @@ up::[[java]], [[paradygme programmation orientée objet|OOP]]
 > [!note] attributs / méthodes
 > Les attributs et méthodes sont appelés avec le `.` : `MaClasse.attr` désigne l'attribut `attr` de `MaClasse`
 
-## Variables
+# Variables
 
 > [!note] variable d'instance
 >  - déclaration sans mots clef (simplement dans le corps de la classe)
@@ -37,7 +37,7 @@ up::[[java]], [[paradygme programmation orientée objet|OOP]]
 >  - ne peuvent pas être modifiées
 > 
 
-## Méthodes
+# Méthodes
 
 > [!note] redéfinir une méthode
 > Pour redéfinir une méthode, on utilise le décorateur `@Override`
@@ -51,5 +51,5 @@ up::[[java]], [[paradygme programmation orientée objet|OOP]]
 > }
 > ```
 
-## Héritage
+# Héritage
  -> [[java héritage]]

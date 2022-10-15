@@ -6,7 +6,7 @@ up::[[système d'exploitation]]
 
  - possible à chaque fosi que le [[système d'exploitation|SE]] reprends le contrôle par rapport au processus en cours d'exécution
 
-## Types de commutations
+# Types de commutations
 
  - **Interruptions**
      - [[interruption horloge]]

@@ -8,5 +8,9 @@
   "minimal-cards-style@@cards-min-width": "400px",
   "customizable-page-header-buttons@@page-header-spacing-mobile": 0,
   "customizable-page-header-buttons@@page-header-spacing-desktop": 0,
-  "minimal-advanced@@cursor": "pointer"
+  "minimal-advanced@@cursor": "pointer",
+  "minimal-style@@checkbox-shape": "checkbox-square",
+  "quick-explorer@@qe-hide-breadcrumbs": false,
+  "minimal-style@@base@@light": "#1E780A",
+  "minimal-style@@h1-color@@light": "#1E780A"
 }

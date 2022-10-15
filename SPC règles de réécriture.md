@@ -4,9 +4,9 @@ up::[[algèbre SPC]]
 ----
 Transformations qui préserve l'équivalence des requêtes
 
-## Fusion
+# Fusion
 
-### Merge select
+## Merge select
 $\sigma_{F}(\sigma_{F'}(q)) \to \sigma_{F\wedge F'}(q)$
 
-### Merge project
+## Merge project

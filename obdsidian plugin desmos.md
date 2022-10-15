@@ -7,7 +7,7 @@ title::"tracer des fonctions mathématiques"
 
 Syntaxe du plugin [obsidian desmos](https://github.com/Nigecat/obsidian-desmos#offline-usage)
 
-## Syntaxe de base
+# Syntaxe de base
 ```desmos-graph
 y = 2x
 ```
@@ -21,13 +21,13 @@ y = \frac{1}{x}
 ```
 
 
-## Styles
+# Styles
 
 
-### Styles de courbes
+## Styles de courbes
 Les styles de courbes sont sur la même ligne que l'équation de la courbe, séparés par des `|`
 
-#### couleur
+### couleur
 choisir la couleur de chaque équation
  - nom : `red`, `green` etc.
  - couleur hex (`#42ddf5`...)
@@ -35,7 +35,7 @@ choisir la couleur de chaque équation
 y=x^2|RED
 ```
 
-#### type de ligne
+### type de ligne
 choisir le type de ligne
 possibilités :
  - ligne (e.g `y=x`)
@@ -52,7 +52,7 @@ x=2|green|dashed
 ```
 
 
-#### restrictions sur les courbes
+### restrictions sur les courbes
 On peut ajouter des restrictions sur les définitons des courbes
  - sur la même ligne, séparées par des `|`
 ```desmos-graph
@@ -60,7 +60,7 @@ y=2|x>2
 y=3|x > -2|x < 5
 ```
 
-#### cacher une courbe
+### cacher une courbe
 on ajoute `|hidden`
 pratique lorsque l'on à défini une fonction mais qu'on ne veut pas la tracer (ici, pour avoir sa dérivée)
 ```desmos-graph
@@ -69,7 +69,7 @@ pratique lorsque l'on à défini une fonction mais qu'on ne veut pas la tracer (
 ```
 
 
-#### labels
+### labels
 pour afficher du texte à côté d'un point
  - ne fonctionne pas pour les courbes (seulement les points)
 ```desmos-graph
@@ -79,7 +79,7 @@ y=x|label:not showed
 ```
 
 
-### Style de la fenêtre
+## Style de la fenêtre
 
 On peux changer la taille de la grille
  - avec les attributs `left` `right` `top` et `bottom`

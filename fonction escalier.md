@@ -7,7 +7,7 @@ Une fonction $f:[a, b]\rightarrow\mathbb{R}$ est dite _en escalier_ s'il existe 
 On note $\varepsilon([a, b])$ l'ensemble des _fonctions en escalier_ sur $[a, b ]$
 
 
-## Propriétés
+# Propriétés
 
  - L'ensemble $\varepsilon([a, b])$ est [[stabilité sur un ensemble|stable]] par [[combinaison linéaire]]
      - Soient $(\varphi, \psi)\in\varepsilon([a,b])^2$, et soit $k\in\mathbb{R}$, les fonctions $k\cdot\varphi$, $\varphi+\psi$ et $\varphi\times\psi$ sont également dans $\varepsilon([a,b])$

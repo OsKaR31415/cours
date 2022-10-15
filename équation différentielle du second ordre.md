@@ -10,13 +10,13 @@ up::[[équation différentielle]]
 ----
 [[équation différentielle]] dans laquelle seule les [[dérivées successives|dérivée première et seconde]] apparaîssent
 
-## Forme 
+# Forme 
 
-### Forme usuelle
+## Forme usuelle
 La forme la plus commune est : $ay'' + by' + cy = f(x)$ avec $a\neq0$
  - peut se ramèner à $y'' + ay' + by = f(x)$
 
-### Equation avec condition initiale
+## Equation avec condition initiale
 Soit $(E)$ une [[équation différentielle du second ordre]] de la forme quelconque :
 $(E): \Gamma(y'', y', y) = f(x)$
 
@@ -30,7 +30,7 @@ On donne souvent l'image par $y$ et $y'$ d'une même valeur : $\left\{ \begin{ga
 **Propriété :** pour des *conditions initiales* de la forme $y(x_{0}) = y_{0}$ et $y'(x_{0}) = y_{1}$, il existe **une unique solution** à l'équation
 
 
-## Résolution
+# Résolution
 
 Soient $(1)$ et $(2)$ deux équations de [[équation différentielle du second ordre#Forme usuelle|forme usuelle]] ($a \neq 0$):
 
@@ -41,7 +41,7 @@ $(1)-(2) : a(y_{1}-y_{2})'' + b(y_{1}-y_{2})' + c(y_{1}-y_{2}) = 0$ ([[équation
 Donc, comme pour les [[équation différentielle du premier ordre|équations du premier ordre]], connaître la solution pour **l'équation sans second membre**, ainsi qu'une **solution particulière**, permet de connaître (par somme) la forme de l'**ensemble des solutions**
 
 
-### Equation sans second membre
+## Equation sans second membre
 $(H): ay'' + by' + cy = 0$
 
 On cherche une solution de la forme $y = e^{rx}$ ($r \in \C$ une constante)
@@ -50,10 +50,10 @@ $e^{rx}( ar^{2} + br + c ) = 0$
 Or, $e^{rx}$ ne s'annule pas, donc :
 $(H) \iff ar^{2} + br +c = 0$
 
-#### Polynôme caractéristique
+### Polynôme caractéristique
 On cherche donc les [[racines d'un polynôme|racines]] de $P(r) = ar^{2}+br+c$ le **polynôme caractéristique**
 
-##### deux racines réelles
+#### deux racines réelles
 On appelle $r_{1}$ et $r_{2}$ ces deux racines distinctes ($(r_{1},r_{2})\in \R^{2}$)
 
 Donc les solutions de l'équation $(H)$ sont :
@@ -64,7 +64,7 @@ $\boxed{S_{H} = \big\{c_{1}e^{r_{1}x} + c_{2}e^{r_{2}x} \big| (c_{1};c_{2}) \in 
 
 
 
-##### une racine double
+#### une racine double
 Si $\Delta = 0$ (le [[discriminant]])
 On note $s$ cette racine : $P(s) = 0$
 On a aussi $P'(s) = 0$
@@ -78,7 +78,7 @@ On pose $\boxed{y_{2} = xe^{sx}}$, et on montre que $y_{2}$ est aussi solution
 Puisque $(H)$ est [[équation différentielle#Equation Homogène|homogène]], les solutions sont des [[combinaison linéaire|combinaisons linéaires]] de $y_{1}$ et $y_{2}$ :
 $\boxed{S_{H} = \big\{ e^{sx}(c_{1}+c_{2}x) \big| (c_{1}; c_{2}) \in \R \big\}}$
 
-##### deux racines complexes
+#### deux racines complexes
 Les deux racines sont $\lambda, \overline{\lambda}$
 Dans ce cas, $\lambda$ et $\lambda$ sont [[conjugé complexe|conjugées]]
 
@@ -94,7 +94,7 @@ $S_{H} = \big\{x \mapsto e^{\alpha x}(c_{1} \cos(\beta x) + \underbrace{c_{2}\si
 Si on veut les solutions réelles, on obtient :
 $\boxed{S_{H}= \Big\{\big( x \mapsto e^{\alpha x} (d_{1} \cos(\beta x) + d_{2} \sin(\beta x)\big) \in \R^{\R}\Big| (d_{1}; d_{2}) \in \R \Big\}}$
 
-#### Résumé
+### Résumé
 Soit une équation :
 $(H): ay'' + by' + cy = 0$
 
@@ -107,7 +107,7 @@ Soit $\Delta = b^{2}-4ac$ le [[discriminant]] de $P(x) = ax^{2}+ bx+c$ (le [[éq
 | $\Delta=0$   | $s \in \R$                               | $e^{sx}(c_{1}+c_{2}x),\quad (c_{1},c_{2})\in \R$           |
 | $\Delta<0$   | $(\lambda,\overline{\lambda})\in \C^{2}$ | $e^{\alpha x}(c_{1}\cos(\beta x)+ic_{2}\sin(\beta x)), \quad (c_{1};c_{2}) \in \R \quad \lambda = \alpha+i \beta$     |
 
-### Equation avec second membre
+## Equation avec second membre
 Soit l'équation $(E): ay'' + by' + cy = f(x)$
 On cherche une solution particulière
 
@@ -130,7 +130,7 @@ $S = \left\{(x \mapsto y_{p} + y_{h})\right\}$
   donc : $y = \sum\limits_{i=1}^{k} z_i$
 
 Voici quelques formes usuelles pour $f$
-#### Second membre de la forme $f(x)=e^{\lambda x} R(x)$
+### Second membre de la forme $f(x)=e^{\lambda x} R(x)$
 avec $\lambda \in \R$ et $R(x) \in \R[x]$ (parfois $\C[x]$)
 
 On cherche une solution particulière de la forme $y_{p}(x)=e^{\lambda x} Q(x)$ où $Q \in \R[x]$
@@ -144,24 +144,24 @@ On cherche une solution particulière de la forme $y_{p}(x)=e^{\lambda x} Q(x)$ 
      - $\deg Q_{2} = \deg R$ avec $Q_{2} \in \R[x]$
      - on pose $Q(x) = x^{2}Q_{2}(x)$
 
-##### Trouver les coefficients de $Q$
+#### Trouver les coefficients de $Q$
 on trouve les coefficients de $Q$ par identification : on remplace $y$ par $y_{p}=e^{\lambda x} R(x)$ dans l'expression de $(E)$
 
 $ay_{p}''(x) + by_{p}'(x) + cy_{p}(x) = e^{\lambda x} R(x)$ avec $y_{p} = e^{\lambda x}Q(x)$
 
 On obtient un système dont les variables sont les coefficients de $R$ et $\lambda$
 
-#### Second membre de la forme $f(x) = e^{rx}\cos(sx)R(x)$ ou $f(x) = e^{rx}\sin(sx)R(x)$
+### Second membre de la forme $f(x) = e^{rx}\cos(sx)R(x)$ ou $f(x) = e^{rx}\sin(sx)R(x)$
 où $r \in \R$ et $R \in \R[x]$
 
-##### Forme $f(x) = e^{rx}\cos(sx) R(x)$
+#### Forme $f(x) = e^{rx}\cos(sx) R(x)$
  
 $\begin{align} f(x) &= \text{Re}\big(f(x)\big) \qquad \text{(car } f \text{ est une fonction réelle)}\\ &= \text{Re}\big(e^{rx} \cos(sx) R(x)\big)\\ &= \text{Re}\big( e^{rx}(\cos(sx) + i \sin(sx))R(x) \big)\\ &= \text{Re}\big(  e^{rx}e^{isx}R(x) \big)\\ &= \boxed{\text{Re}\big(e^{(r+is)x}R(x)\big)} \end{align}$
 
 On se ramène donc à la [[équation différentielle du second ordre#Second membre de la forme f x e lambda x R x|première forme]] : $e^{\lambda x} R(x)$ (ici $\lambda = r+is$)
 en considérant uniquement la partie réelle de la fonction
 
-##### Forme $f(x) = e^{rx}\sin(sx) R(x)$
+#### Forme $f(x) = e^{rx}\sin(sx) R(x)$
 
 $\begin{align} f(x) &= \text{Re}\big(f(x)\big) \qquad \text{(car } f \text{ est une fonction réelle)}\\ &= \text{Re}\big(e^{rx} \sin(sx) R(x)\big)\\ &= \text{Im}\big( e^{rx}(\cos(sx) + i \sin(sx))R(x) \big)\\ &= \text{Im}\big(  e^{rx}e^{isx}R(x) \big)\\ &= \boxed{\text{Im}\big(e^{(r+is)x}R(x)\big)} \end{align}$
 

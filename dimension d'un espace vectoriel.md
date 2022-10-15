@@ -14,7 +14,7 @@ On sait que $E$ admet une [[base d'un espace vectoriel|base]].
 **Toutes les bases de $E$ on le même [[cardinal]]**.
 Ce cardinal commun est appelé _dimension_ de $E$.
 
-## Propriétés
+# Propriétés
  - $\{0_E\}$ est un espace vectoriel de dimension 0
  - toute [[famille de vecteurs génératrice|famille génératrice]] $G$ de $E$ vérifie $\card G \geq \dim E$ 
  . toute [[famille de vecteurs libre|famille libre]] $L$ de $E$ vérifie $\card L \leq \dim E$

@@ -7,7 +7,7 @@ title::"what and how to capture ideas"
  - **do not** capture _everything interesting
      - but how to select what to choose ?
 
-## what to capture ?
+# what to capture ?
  - capture what is **important**
      - really only things that _stand out_
  - what **_will_ be usefull**

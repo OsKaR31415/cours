@@ -18,7 +18,7 @@ $\mathrm{sh}(x) = \dfrac{e^x - e^{-x}}2$
 
 Elle est appelée _sinus_ car sa définition ressemble à celle de la [[fonction sinus]] dans la [[Formules d'Euler#sinus|formule d'Euler]]
 
-## Graphe
+# Graphe
 ```desmos-graph
     top=2
 left=-2; right=2
@@ -29,7 +29,7 @@ y = \sinh(x)
 (0, 0) | black
 ```
 
-## Propriétés
+# Propriétés
 
 $\boxed{\mathrm{ch}^{2} - \mathrm{sh}^{2} = 1}$
 $\mathrm{ch}^2 x - \mathrm{sh}^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2+e^{-2x}}4 = 1$
@@ -50,6 +50,6 @@ $\mathrm{ch}^2 x - \mathrm{sh}^2 x = \dfrac{e^{2x}+2+e^{-2x}}4 - \dfrac{e^{2x}-2
 
 
 
-#### Note
+### Note
 $\sin(x) = \sinh(ix)$ soit $\mathrm{sh}(x) = \sin\left(\frac{x}{i}\right) = \sin(-ix)$
 ⚠️ $\sin$ ne peut pas être défini sur $\C$ car il perd ses propriétés

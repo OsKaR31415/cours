@@ -11,7 +11,7 @@ Gantt permet :
  - **suivi** de l'avancement
  - **contrôle** par comparaison planification vs réalisation : calculs d'écarts, modifications en conséquence
 
-## Sous-notes
+# Sous-notes
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"

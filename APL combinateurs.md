@@ -6,7 +6,7 @@ up::[[APL]]
 
 ---
 
-## Beside ∘
+# Beside ∘
 **Beside**, **Compose**, **After**
 Composition de fonctions
  - Monadique : `f∘g ⍵` $\iff$ `f(g ⍵)`
@@ -15,14 +15,14 @@ Composition de fonctions
  - 
 
 
-## Atop ⍤
+# Atop ⍤
  - Monadique : `(g ⍥ h) ⍵` $\iff$ `g (h ⍵)`
      - même chose que [[APL combinateurs#Beside ∘|beside ∘]] et [[APL combinateurs#Over ⍥|over ⍥]]
  - Dyadique : `⍺ (g ⍤ h) ⍵` $\iff$ `g (⍺ h ⍵)`
      - ![[APL combinateur atop.excalidraw|200]]
 
 
-## Over ⍥
+# Over ⍥
  - Monadique : `(g ⍥ h) ⍵` $\iff$ `g (h ⍵)`
      - même chose que [[APL combinateurs#Beside ∘|beside ∘]] et [[APL combinateurs#Atop ⍤|Atop ⍤]]
  - Dyadique : `⍺ (g ⍥ h) ⍵` $\iff$ `(h ⍺) g (h ⍵)`

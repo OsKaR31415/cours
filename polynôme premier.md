@@ -17,7 +17,7 @@ Autrement dit, $P\in A[X]$ est premier si :
  - $\begin{align} f :& A[X] \rightarrow \mathbb{B}\\ & x \mapsto P|x \end{align}$ est un [[morphisme]] de $(A[X], \times)$ vers $(\mathbb{B}, \vee)$
 
  
-## Propriétés
+# Propriétés
 
  - Tout [[polynôme premier]] est [[polynôme irréductible|irréductible]]
  - Dans un [[anneau factoriel]] (dans $A[X]$ si a est [[anneau factoriel|factoriel]]), la notion de [[polynôme premier]] et de [[polynôme irréductible]] sont équivalentes

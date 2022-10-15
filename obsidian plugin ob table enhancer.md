@@ -34,11 +34,11 @@ title::"edition de tables, javascript dans les cellules"
 
 
 
-## Examples
+# Examples
 
-### Total
+## Total
 
-#### Total simple
+### Total simple
 |         | prix |
 | ------- | ---- |
 |         | 10   |
@@ -46,7 +46,7 @@ title::"edition de tables, javascript dans les cellules"
 |         | 9    |
 | total : |>>>sum(nc)|
 
-#### Total de certaines valeurs
+### Total de certaines valeurs
 
 |     | gains |
 | --- | ----- |
@@ -60,7 +60,7 @@ title::"edition de tables, javascript dans les cellules"
 |total des gains :|>>>sum(nc.filter(x => x>=0))|
 |total des pertes :|>>>sum(nc.filter(x => x<=0))|
 
-#### Compter des valeurs
+### Compter des valeurs
 Nombre d'occurences de "TODO" :
 | task         | State |
 | ------------ | ----- |

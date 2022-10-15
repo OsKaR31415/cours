@@ -1,8 +1,9 @@
 source::[[Livre - Jeux finis et infinis]]
 #maths/théorie-des-jeux #no-review 
-# jeu de l'ultimatum
 
-## Déroulement du jeu
+----
+
+# Déroulement du jeu
 Il y à deux joueurs le _Donneur_ et le _Receveur_.
 Ils ne peuvent pas communiquer.
 Le jeu n'est **pas répété**
@@ -14,13 +15,13 @@ Le jeu n'est **pas répété**
      - Si il accepte, les deux joueurs repartent avec cet argent
      - Si il refuse, les deux joueurs repartent **sans rien**
 
-## Analyse
+# Analyse
 
-### Analyse mathématique
+## Analyse mathématique
 D'un point de vue mathématique, le Receveur n'a jamais intérêt à refuser de l'argent.
 Sachant cela, le Donneur devrait toujours donner le minimum d'argent, pour avoir un maximum de gain.
 
-### Données expérimentales
+## Données expérimentales
 Lorsque l'expérience est vraiment faîte, les Receveurs refusent parfois l'argent, surtout quand les sommes données ne sont pas élevées
 
  - offres (argent donnée par le donneur)
@@ -41,20 +42,20 @@ Les Donneurs, sachant que les Receveurs - même si c'est absurde - refuseront de
 Le comportement des donneurs - qui donnent en moyenne 44% du total - est donc tout à fait logique si on considère comme connu le comportement des Receveurs.
 Un altruisme de la part des Donneurs n'est pas nécessaire pour expliquer ces comportements.
 
-#### Contexte de ces données
+### Contexte de ces données
  - expériences faîtes véritablement avec de l'argent
  - expériences menées dans des pays industrialisés (occidentaux ? occidentalisés ?)
  - expériences souvent menées sur des étudiants
 
 
-## Conclusions
+# Conclusions
 L'intérêt de ce jeu est la différence entre les résultats théoriques si chacun cherche à _maximiser ses gains_, et les résultats expérimentaux.
 
  - on peut conclure que **le gain n'est pas la seule motivation des humains**
      - les humains ont aussi une motivation d'**équité**
      - une [[propension morale au partage]]
 
-## Expériences sur d'autres sociétés
+# Expériences sur d'autres sociétés
 Dans les sociétés _non industrialisées_, une grande variété de comportements à été observée :
 
 | groupe                      | pays      | offre moyenne | % de refus pour l'offre de 20% |
@@ -79,7 +80,7 @@ Dans les sociétés _non industrialisées_, une grande variété de comportement
 | Torguud                     | Mongolie  | 0.35          | 0                              |
 | Tsimané                     | Bolivie   | 0.37          | 0                              |
 
-## Conclusions
+# Conclusions
 variabilité des résultats ==> l'équité est **acquise** et **non innée**
 
 Dans certains groupes, on donne plus au Receveur que l'on en garde.

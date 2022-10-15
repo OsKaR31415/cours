@@ -7,7 +7,7 @@ How I create my [[Map of content|Maps Of Content]]
 
 ![[Excalidraw/workflow.excalidraw.md#^group=UgEZXQeVDw70s33lGGBBp|100%]]
 
-## Textual MOCs
+# Textual MOCs
  - For **small** MOCs
      - Simply use The [[dataview MOC query]]
  - For big MOCs
@@ -15,7 +15,7 @@ How I create my [[Map of content|Maps Of Content]]
      - use the dataview queries to make sure everything is here
          - Put dataview queries for each section
 
-## Drawed MOCs
+# Drawed MOCs
 Not implemented yet
 
 > [!note] Ideas

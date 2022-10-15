@@ -14,7 +14,7 @@ C'est un des [[solides de platon]]
 
 Le cube est un [[tétraèdre]] [[polyèdre tronqué#Tronquature aux arrêtes|tronqué aux arrêtes]]
 
-## Transformations
+# Transformations
 [[polyèdre dual|dual]] : [[octaèdre]]
 [[polyèdre adouci|adouci]] : [[cube adouci]]
 [[polyèdre tronqué#Tronquature aux arrêtes et aux sommets|chanfreiné]] : [[rhombicuboctaèdre]]

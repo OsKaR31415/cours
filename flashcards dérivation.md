@@ -1,6 +1,6 @@
 #flashcards #maths
 
-## Dérivation
+# Dérivation
 
 [[dérivation|dérivée]] de $\sin x$ ::: [[intégration|primitive]] de $\cos x$ 
 <!--SR:!2022-10-05,4,274!2022-10-05,3,255-->
@@ -44,7 +44,7 @@ $$(fg)^{(n)} = \sum_{k=0}^n \left( \binom{n}{k} f^{(k)}g^{(n-k)} \right)$$
 <!--SR:!2022-12-07,123,292-->
 
 
-## Intégration
+# Intégration
 
 
 Formule de l'[[intégration par parties]]

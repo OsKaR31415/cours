@@ -12,15 +12,15 @@ Soit $A$ une [[matrice]].
 On note $\det(A)$ le _déterminant_ d'une matrice.
 
 
-## Définition
+# Définition
 
-### Matrices de taille 2
+## Matrices de taille 2
 Soit $A=\begin{pmatrix}a&b\\c&d\end{pmatrix}$
 $\det A = ad - bc$
 
-### Matrices de taille 3
+## Matrices de taille 3
 
-#### Méthode de Sarrus
+### Méthode de Sarrus
 
 $$\begin{align}
 \det A &= \left|\begin{array}{cc}
@@ -35,7 +35,7 @@ On peut retrouver les coefficients avec le shéma suivant :
 ![[déterminant d'une matrice - méthode de Sarrus.excalidraw|100%]]
 
 
-#### Méthode générale
+### Méthode générale
 
 La méthode générale permet de calculer les déterminants de n'importe quelle matrice (carrée)
 Cette méthode se base sur une formule de récurrence : 
@@ -50,7 +50,7 @@ Cette méthode se base sur une formule de récurrence :
          - Développement par lignes : $\disp\det(A) = \sum_{i=1}^n \left( c_{i,j}\times A'_{i,j} \right)$
 
 
-#### Définition en APL
+### Définition en APL
 ```apl
 det ← {
     2∧.=⍴⍵:-/×⌿(⌽@2)⍵  ⍝ déterminant d'une matrice 2x2
@@ -68,7 +68,7 @@ det ← {
 
 
 
-## Propriétés
+# Propriétés
  - Le déterminant d'une matrice possédant 2 lignes ou 2 colonnes proportionelles est **nul**
  - La multiplication d'une ligne ou d'une colonne par un réel $\lambda$ multiplie le déterminant par $\lambda$ 
 

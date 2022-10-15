@@ -9,4 +9,4 @@ La _partie entière_ de $x$ est notée $E(x)$ ou $\underline{E}(x)$
 y = \floor(x)
 ```
 
-## Propriétés
+# Propriétés

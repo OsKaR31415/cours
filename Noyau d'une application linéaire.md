@@ -10,7 +10,7 @@ $\ker f = \{u\in E \;|\; f(u) = 0_F\}$
 C'est l'ensemble des éléments de $E$ dont **l'image par $f$ est nulle**.
 
 
-## Propriétés
+# Propriétés
  - $\ker f \subset E$ donc $\dim(\ker f) \leq \dim E$
  - $f$ est [[injection|injective]] $\iff$ $\ker f = \{0_E\}$
 

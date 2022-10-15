@@ -17,7 +17,7 @@ On dit que $f$ est de classe $C^\infty$ ssi :
  - $\displaystyle C^\infty = \bigcap_{n>0}C^n$
 
 
-## Notation
+# Notation
 On note:
  - $C^n(I)$ l'ensemble des fonctions de classe $C^n$ sur $I$
  - $\displaystyle C^\infty(I) = \cap_{n\in\mathbb N}C^n(I)$  l'ensemble des fonctions dérivables une infinité de fois

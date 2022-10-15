@@ -6,7 +6,7 @@ up::[[ensembles de nombres]]
 
 ----
 
-## Définition
+# Définition
 On construit $\mathbb{N}$ l'ensemble des entiers naturels :
 
  1. $0\in\mathbb{N}$

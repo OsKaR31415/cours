@@ -4,6 +4,6 @@ up::[[espace vectoriel]]
 ----
 Une [[famille]] de [[vecteur|vecteurs]]
 
-## Propriétés
+# Propriétés
 
 > [!note] 

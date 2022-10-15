@@ -3,7 +3,7 @@ up::[[MOC informatique|informatique]]
 
 ----
 
-## Liste des langages
+# Liste des langages
 Listes des langages référencés dans ce vault
 ```dataview
 LIST title

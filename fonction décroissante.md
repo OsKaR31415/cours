@@ -13,5 +13,5 @@ $\forall (x;x')\in I^2, x > x' \implies f(x) < f(x')$
 
 Voir: [[fonction croissante]]
 
-## Propriétés
+# Propriétés
 Si une fonction est _strictement décroissante_ et [[fonction bornée|minorée]], alors elle [[fonction convergente|converge]].

@@ -10,7 +10,7 @@ title::"[[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] 1"
 Une _droite vectorielle_ est un [[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] 1
 
 
-## Propriétés
+# Propriétés
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

@@ -9,16 +9,16 @@ tags: [ "#obsidian", "#no-review"]
 
 # markmind outline
 
-## a simple outliner
+# a simple outliner
 
-## features
+# features
 
-### nesting (indent with `tab`)
+## nesting (indent with `tab`)
 
-### markdown support
+## markdown support
 - $\LaTeX$
 - **bold**, _italic_ and [[html]] <u>styles</u>
 
-### can be converted to a mindmap easily
+## can be converted to a mindmap easily
 - toggle the `display-mode` metadata attribute
 -

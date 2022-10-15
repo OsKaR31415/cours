@@ -4,8 +4,8 @@ up::[[L2_maths_geometrie_TD1 - fait.pdf]]
 ----
 
 
-## Exercice 2
-### 1)
+# Exercice 2
+## 1)
 > Montrer que l'ensemble des applications linéaires de $\mathbb{R}^{n}\to \mathbb{R}^{n}$ muni de la composition est un groupe $G$ non commutatif dès que $n \geq 2$
 
 > [!error] Problème dans le sujet
@@ -34,7 +34,7 @@ On note $\mathcal{L}(\mathbb{R}^{n}, \mathbb{R}^{n})$ l'ensemble des application
 
 Puisque $\circ$ est interne, associative et que tous les éléments de $G$ sont symétrisables par $\circ$, alors $(G, \circ)$ est un [[groupe]] 
 
-### 2)
+## 2)
 > Montrer que le [[centre d'un groupe|centre]] le $G$ est l'ensemble des [[homotétie|homotéties]] (non nulles)
 
 On note $\mathrm{Z}(G)$ le [[centre d'un groupe|centre]] de $G$

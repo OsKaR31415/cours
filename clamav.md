@@ -5,7 +5,7 @@ up::[[unix redirection de flux]]
 utilitaire [[unix redirection de flux]]
 C'est un [[anti-virus]]
 
-## Usage
+# Usage
 
 ```bash
 $ clamscan

@@ -6,7 +6,7 @@ Opération d'inversion d'un [[arbre binaire]].
 
 L'inverse d'un [[arbre binaire]] est un autre arbre qui est obtenu en inversant la droite et la gauche de l'arbre original.
 
-## Exemple
+# Exemple
 Soit cet arbre binaire :
 ```mermaid
 graph TD

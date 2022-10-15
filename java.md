@@ -12,7 +12,7 @@ title::"[[paradygme programmation orientée objet|OO]], haut niveau"
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
 
-## OOP
+# OOP
 voir : [[paradygme programmation orientée objet|OOP]]
 
 
@@ -21,13 +21,10 @@ voir : [[paradygme programmation orientée objet|OOP]]
 
 
 
-### Méthodes
+## Méthodes
 
 
-### Héritage
-
-
-
+## Héritage
 
 
 
@@ -37,7 +34,10 @@ voir : [[paradygme programmation orientée objet|OOP]]
 
 
 
-### Polymorphisme
+
+
+
+## Polymorphisme
 
 > _polymorphisme_, vient du grec
 > signifie "_peut prendre plusieurs formes_"

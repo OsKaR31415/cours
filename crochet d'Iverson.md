@@ -13,13 +13,13 @@ $$
 $$
 
 
-## Exemples
+# Exemples
 
 La notation est utile pour les sommes ou intégrales sans conditions de bornes. Par exemple :
 $\displaystyle\sum_{1\leq i\leq 10}i^2 = \sum_i i^2[1\leq i\leq 10]$
 
 
-### Cas particuliers
+## Cas particuliers
 
  - Le [[symbole de kronecker]] : $\delta_{ij} = [i = j]$
  - La [[fonction indicatrice]] : $I_A(x) = [x\in A]$

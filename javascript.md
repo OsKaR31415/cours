@@ -5,11 +5,11 @@ title::"le langage du web... :fas_poo:"
 ----
 
 
-## Exemples
+# Exemples
 
-### Manipuler les strings
+## Manipuler les strings
 
-#### Substrings
+### Substrings
 Pour obtenir des sous-strings :
 
 > [!definition]

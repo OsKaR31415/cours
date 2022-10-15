@@ -13,7 +13,7 @@ title::"compter le nombre de caractères, mots, lignes, d'un texte"
 >  - argument `-l` : compter les lignes
 
 
-## Example
+# Example
 
 ```bash
 $ who | wc -l  # affiche le nombre d'utilisateurs connectés

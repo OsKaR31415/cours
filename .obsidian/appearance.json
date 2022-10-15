@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "baseFontSize": 22,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "breadcrumbs",
     "custom_callouts",
@@ -14,6 +14,8 @@
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",
   "monospaceFontFamily": "FiraCode Nerd Font",
-  "accentColor": "#227b0a",
-  "baseFontSizeAction": true
+  "accentColor": "#1e780a",
+  "baseFontSizeAction": true,
+  "showViewHeader": true,
+  "translucency": false
 }
