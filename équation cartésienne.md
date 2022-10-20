@@ -1,6 +1,6 @@
 up::[[MOC analyse|analyse]]
 author::[[Descartes]]
-#maths
+#maths #no-review 
 
 ----
 

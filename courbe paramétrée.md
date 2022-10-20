@@ -19,7 +19,7 @@ f &: D\subset \mathbb{R} \rightarrow R^2\\
  - application qui, à un réel $t$ (le **paramètre**) associe un _point_ du plan
 
  - On peut aussi écrire que $t \mapsto \begin{pmatrix} x(t)\\y(t) \end{pmatrix}$
- - Si on identifie $\mathbb{R}^2$ à $\C$, on à $t\mapsto x(t)+i \cdot y(t)$
+ - Si on identifie $\mathbb{R}^2$ à $\mathbb{C}$, on à $t\mapsto x(t)+i \cdot y(t)$
      - On associe alors un nombre à un point du [[plan complexe]]
 
 **Note :** malgré le nom de _courbe_ paramétrée, c'est bien une [[application]]
@@ -35,7 +35,7 @@ y(t)=2t^{2}+1
 
 On écrit également :
 $z(t)=e^{it}, t\in D$
- - $z$ est une fonction de $D$ dans $\C$
+ - $z$ est une fonction de $D$ dans $\mathbb{C}$
 
 
 

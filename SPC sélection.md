@@ -1,13 +1,16 @@
 up::[[algèbre SPC]]
-#informatique 
+#informatique #review 
 
 ----
-
-Soient $j, k \in \mathbb{N}$ et $a \in \mathbf{dom}$, $I$ une instance de relation, tels que $\max(j, k) \leq \text{arité}(I)$
-
-$\sigma_{j=a}(I) = \{ t \in I \mid t(j) = a \}$
-
-$\sigma_{j=k}(I) = \{ t \in I \mid t(j) = t(k) \}$
+> [!definition] Sélection ([[algèbre SPC]])
+> 
+> Soient $j, k \in \mathbb{N}$ et $a \in \mathbf{dom}$, $I$ une instance de relation, tels que $\max(j, k) \leq \text{arité}(I)$
+> 
+> $\sigma_{j=a}(I) = \{ t \in I \mid t(j) = a \}$
+> 
+> $\sigma_{j=k}(I) = \{ t \in I \mid t(j) = t(k) \}$
+> 
+^definition
 
 
 # Sélection généralisée

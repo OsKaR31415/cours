@@ -1,6 +1,6 @@
-up::[[informatique]]
+up::[[MOC informatique]]
 title::
-#informatique 
+#informatique #no-review 
 
 ---
 

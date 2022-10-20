@@ -1,5 +1,5 @@
 up:: [[base d'un espace vectoriel]] 
-#maths/algèbre 
+#maths/algèbre #no-review 
 
 ---
 

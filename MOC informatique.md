@@ -14,3 +14,5 @@ alias: "informatique"
 > WHERE file.link != this.file.link
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
+
+

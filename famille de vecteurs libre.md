@@ -1,12 +1,9 @@
 ---
 alias: [ "libre", "famille libre" ]
-sr-due: 2022-09-12
-sr-interval: 22
-sr-ease: 276
 ---
 up::[[famille de vecteurs]]
 description::"la seule [[combinaison linéaire]] des [[vecteur|vecteurs]] qui s'annulle est celle où tous les coefficients sont nuls"
-#maths/algèbre #review 
+#maths/algèbre #no-review 
 
 ----
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$

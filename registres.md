@@ -1,6 +1,6 @@
 up::[[mémoire]]
-#informatique 
+#informatique #no-review 
 
 ----
 
-**seul mémoire dans laquelle des instructions.**
+Seule mémoire dans laquelle des **instructions sont exécutées**.

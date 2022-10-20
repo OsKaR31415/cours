@@ -3,4 +3,4 @@ up::[[architecture des ordinateurs]]
 
 ---
 
-![[informatique#informatique]]
+![[MOC informatique#informatique]]

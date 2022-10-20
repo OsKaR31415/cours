@@ -1,6 +1,6 @@
 up::[[famille de vecteurs]] 
 title::"vecteurs 2-à-2 [[vecteurs orthogonaux]]"
-#maths/algèbre 
+#maths/algèbre #review 
 
 ---
 > [!definition] Famille de vecteurs orthogonale

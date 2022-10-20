@@ -1,5 +1,5 @@
 up::[[calcul conjonctif]]
-#informatique 
+#informatique #no-review 
 
 ---
 

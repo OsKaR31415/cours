@@ -10,7 +10,7 @@ derivative::[[fonction sinus hyperbolique|-sh]]
 properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [1; +\infty[$", "$\dfrac{e^{x}+e^{-x}}{2}$"
 title::$\mathrm{ch}$
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie #no-review 
 
 ----
 Notée $\cosh$ ou $\text{ch}$.

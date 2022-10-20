@@ -1,5 +1,5 @@
 up::[[modèle OSI]]
-#informatique 
+#informatique #no-review 
 
 ---
 

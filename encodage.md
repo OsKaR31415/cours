@@ -1,5 +1,5 @@
 up::[[MOC informatique|informatique]]
-#informatique 
+#informatique #no-review 
 
 ----
 

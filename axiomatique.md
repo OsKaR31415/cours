@@ -1,4 +1,4 @@
-#maths #logique 
+#maths #logique #no-review 
 
 ---
 

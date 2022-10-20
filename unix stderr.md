@@ -3,6 +3,6 @@ alias: [ "stderr", "sortie d'erreurs" ]
 ---
 up:: [[unix]] 
 title::"sortie d'erreurs"
-#informatique 
+#informatique/unix #no-review  
 
 ----

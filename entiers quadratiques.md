@@ -1,9 +1,10 @@
 up::[[entiers relatifs]]
 title::"$\mathbb{Z}[\sqrt{ d }] = \{ m+\sqrt{ d }n\mid (m, n)\in \mathbb{Z}^{2} \}$ où $d$ n'est pas un carré"
+#maths/algèbre #no-review 
 
 ----
 
-Les _entiers quadratiques_ sont une **extension** des [[entiers relatifs]].
+Les *entiers quadratiques* sont une **extension** des [[entiers relatifs]].
 
 > [!definition] Entiers quadratiques
 > Soit $d$ un nombre qui n'est pas un carré (soit $\nexists k\in \mathbb{Z}, k^{2} = d$)

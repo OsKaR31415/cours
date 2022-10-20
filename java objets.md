@@ -1,5 +1,5 @@
 up::[[java]], [[paradygme programmation orientée objet|OOP]]
-#informatique 
+#informatique #no-review 
 
 ----
 

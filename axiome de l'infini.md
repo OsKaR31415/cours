@@ -1,5 +1,5 @@
 up::[[axiomes Zemerlo Frankel]]
-#maths 
+#maths #no-review 
 
 ---
 Il existe un [[classe héréditaire|ensemble héréditaire]] le plus petit (à l'intersection de tous les ensembles héréditaires).

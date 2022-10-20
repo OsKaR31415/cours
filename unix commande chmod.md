@@ -1,5 +1,5 @@
 up::[[unix commandes]]
-#informatique 
+#informatique #no-review 
 
 ----
 

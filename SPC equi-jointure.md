@@ -1,5 +1,5 @@
 up::[[algèbre SPC]]
-#informatique 
+#informatique #no-review 
 
 ----
 

@@ -1,5 +1,5 @@
 up::[[architecture des ordinateurs]]
 sibling::[[architecture CISC]]
-#informatique 
+#informatique #no-review #not-done 
 
 ---

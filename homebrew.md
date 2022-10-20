@@ -1,6 +1,6 @@
 up::[[installing things]]
 title::"macos package manager"
-#informatique 
+#informatique #no-review 
 
 ----
 

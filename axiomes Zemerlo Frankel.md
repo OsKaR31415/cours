@@ -2,7 +2,7 @@
 alias: ["axiomes ZF", "ZF"]
 ---
 up::[[axiomatique]]
-#maths
+#maths #no-review 
 
 ---
 

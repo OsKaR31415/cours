@@ -112,7 +112,7 @@
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "T"
     }
@@ -136,7 +136,7 @@
   "obsidian-tasks-plugin:toggle-done": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "Enter"
     }
@@ -461,5 +461,7 @@
       ],
       "key": "W"
     }
-  ]
+  ],
+  "obsidian-completr:completr-close-suggestion-popup": [],
+  "calendar:show-calendar-view": []
 }

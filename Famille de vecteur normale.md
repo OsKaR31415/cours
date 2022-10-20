@@ -1,6 +1,6 @@
 up::[[famille de vecteurs]]
 title::"vecteurs tous de [[norme]] 1"
-#maths/algèbre 
+#maths/algèbre #no-review 
 
 ---
 

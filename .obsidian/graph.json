@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-tag:#MOCs",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -125,11 +125,11 @@
   "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 1.080078125,
   "lineSizeMultiplier": 1.2806640625,
-  "collapse-forces": true,
-  "centerStrength": 0.488161670918367,
+  "collapse-forces": false,
+  "centerStrength": 0.487038550100275,
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 0.4154170994955875,
+  "scale": 0.11273466686136897,
   "close": true
 }

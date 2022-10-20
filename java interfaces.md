@@ -1,6 +1,6 @@
 up::[[java objets]] 
 sibling::[[java classe abstraite]]
-#informatique 
+#informatique #no-review 
 
 ----
 Une classe peut implémenter plusieurs interfaces (simule l'[[java héritage|héritage]] multiple).

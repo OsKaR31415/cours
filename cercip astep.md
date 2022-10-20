@@ -77,8 +77,8 @@ compétences:: 🤝 🧑‍🏫 🗣️ 💻
      - liberté (choisir ce que l'on désire programmer)
  - gérer un groupe
      - déplacement (partager son travail avec les autres)
-         - [u] valorisant
-         - [d] bruyant
+         - [p] valorisant
+         - [c] bruyant
      - discipline
 
  - pédagogie

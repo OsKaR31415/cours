@@ -1,5 +1,5 @@
 up::[[encodage]], [[architecture des ordinateurs]]
-#informatique 
+#informatique #no-review 
 
 ---
 

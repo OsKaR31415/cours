@@ -1,5 +1,5 @@
 up::[[Portes logiques]]
-#informatique 
+#informatique #no-review 
 
 ----
 

@@ -1,5 +1,5 @@
 up::[[carte mère]]
-#informatique 
+#informatique #review 
 
 ---
 

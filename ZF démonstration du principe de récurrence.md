@@ -1,6 +1,6 @@
 up::[[axiomes Zemerlo Frankel]]
 title::"preuve que $P(0) \wedge \forall n, P(n) \implies P(n+1)$"
-#maths #logique #demonstration 
+#maths #logique #demonstration #no-review 
 
 ----
 On cherche à montrer le [[principe de récurrence]] :

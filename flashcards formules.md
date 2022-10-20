@@ -15,6 +15,6 @@ Somme d'une [[suite arithmétique]] de raison $r$
 $\sum\limits_{k=0}^{n} k \times r = ?$
 ?
 $r \dfrac{n(n+1)}{2}$
-<!--SR:!2022-10-14,25,270-->
+<!--SR:!2022-12-25,69,270-->
 
 

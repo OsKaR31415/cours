@@ -4,7 +4,7 @@ name: "create branch"
 ---
 up::[[Git Branches]]
 title::"`git checkout -b <branch_name>` create and switch to", "`git branch <branch_nam>` create but don't switch"
-#informatique 
+#informatique #no-review 
 
 ----
 

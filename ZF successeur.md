@@ -3,7 +3,7 @@ alias: "successeur"
 ---
 up::[[axiomes Zemerlo Frankel]]
 title::"$s(x) = x \cup \{ x \}$"
-#maths
+#maths #no-review 
 
 ----
 Le *successeur* est la fonction $s$ définie comme :

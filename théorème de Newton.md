@@ -2,8 +2,9 @@
 alias: "algorithme de Newton"
 ---
 up::[[MOC analyse|analyse]]
-#maths/analyse 
 author::[[Isaac Newton]]
+#maths/analyse #review 
+
 
 ----
 

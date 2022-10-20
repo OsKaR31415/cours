@@ -19,7 +19,7 @@ description: |
   pprint(tree_to_dicts(example))
   ```
 ---
-up::[[python]]
+up::[[python tips]]
 link::https://gist.github.com/hrldcpr/2012250
 author::[[harold cooper]]
 title::"definir des [[arbre|arbres]] avec les defaultdicts du module [[python module collections]]"

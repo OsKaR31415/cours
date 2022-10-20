@@ -1,7 +1,7 @@
 up::[[famille de vecteurs]]
 sibling:: [[Famille de vecteur normale]], [[Famille de vecteurs Orthogonale]] 
 title::"vecteurs tous unitaires et deux à deux [[vecteurs orthogonaux|orthogonaux]]"
-#maths/algèbre 
+#maths/algèbre #review 
 
 ---
 

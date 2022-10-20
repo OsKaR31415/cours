@@ -1,5 +1,5 @@
 up::[[MOC géométrie]]
-#maths
+#maths #no-review 
 
 ----
 

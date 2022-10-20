@@ -1,5 +1,5 @@
 up::[[architecture des ordinateurs]]
-#informatique 
+#informatique #no-review 
 
 ----
 

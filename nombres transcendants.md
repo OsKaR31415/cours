@@ -1,7 +1,7 @@
 up::[[ensembles de nombres]]
 sibling::[[nombres algébriques]] 
 title::"[[nombre complexe]] qui n'est pas [[nombres algébriques|algébrique]]"
-#maths
+#maths #no-review 
 
 ----
 

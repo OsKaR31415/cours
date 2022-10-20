@@ -1,5 +1,5 @@
 up::[[diagramme UML]]
-#informatique 
+#informatique #no-review 
 
 ----
 

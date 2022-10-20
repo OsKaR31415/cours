@@ -1,6 +1,6 @@
 up::[[transformations]]
 down:: [[symétrie vectorielle orthogonale]]
-#maths
+#maths #no-review #not-done 
 
 ----
 

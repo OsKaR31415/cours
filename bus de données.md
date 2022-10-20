@@ -3,7 +3,7 @@ alias: "bus"
 ---
 up::[[architecture des ordinateurs]]
 title::"tous les composants échangent des données via des bus"
-#informatique 
+#informatique #no-review 
 
 ---
 

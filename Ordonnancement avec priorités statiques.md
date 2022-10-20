@@ -1,6 +1,6 @@
 up::[[Ordonnancement d'exécution des processus|ordonnancement]]
 title::"tâches divisées en files par priorité", "la tâche exécutée est celle de la file non vide la plus prioritaire"
-#informatique 
+#informatique #no-review 
 
 ----
 

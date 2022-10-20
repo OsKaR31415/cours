@@ -2,7 +2,7 @@
 alias: ["arctan", "arctangente"]
 ---
 up::[[fonction tangente]]
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #no-review 
 
 ----
 

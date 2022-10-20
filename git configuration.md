@@ -1,6 +1,6 @@
 up::[[git]]
 title::"configurations de git (username, email, editor...)"
-#informatique 
+#informatique #no-review 
 
 ----
 

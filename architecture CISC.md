@@ -1,6 +1,6 @@
 up::[[architecture des ordinateurs]]
 sibling::[[architecture RISC]]
-#informatique 
+#informatique #no-review #not-done 
 
 ---
 

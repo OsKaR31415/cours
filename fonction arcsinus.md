@@ -3,7 +3,7 @@ alias: ["arcsin", "arcsinus"]
 ---
 up::[[fonction sinus]]
 sibling:: [[fonction arccosinus]]
-#maths/analyse #maths/trigonométrie 
+#maths/analyse #maths/trigonométrie #no-review 
 
 ----
 La fonction arcsin est la [[fonction réciproque]] de la fonction [[fonction sinus]].

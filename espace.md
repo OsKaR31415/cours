@@ -1,5 +1,5 @@
 up::[[structure algébrique]]
 title::
-#maths/algèbre 
+#maths/algèbre #not-done 
 
 ----

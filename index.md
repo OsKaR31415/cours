@@ -1,7 +1,9 @@
+title::"List of every interesting notes"
+#MOC 
 
 ----
 
-> [!smallquery] Sous-notes de `=this.file.link`
+> [!smallquery] 200 notes les plus importantes
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours
@@ -14,8 +16,11 @@
 >  AND -"kanban"
 >  AND -"templates"
 >  AND -"USB"
+>  AND -"__sekund__"
+>  AND -#personne
 > WHERE file.link != this.file.link
+>   AND down
 > SORT up.up.up.up, up.up.up, up.up, up
-> LIMIT 100
+> LIMIT 200
 > ```
 

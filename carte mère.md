@@ -1,6 +1,6 @@
 up::[[architecture des ordinateurs]]
 title::"relie les composants entre eux et avec l'extérieur"
-#informatique 
+#informatique #no-review 
 
 ---
 

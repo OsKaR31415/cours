@@ -1,5 +1,5 @@
 up::[[couche physique]]
-#informatique 
+#informatique #no-review 
 
 ---
 

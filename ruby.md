@@ -1,5 +1,5 @@
 up::[[langage de programmation]]
-#informatique 
+#informatique #no-review 
 
 ----
 

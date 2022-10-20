@@ -2,7 +2,7 @@
 alias: ["ensemble héréditaire", "héréditaire"]
 ---
 up::[[axiomes Zemerlo Frankel]]
-#maths
+#maths #no-review 
 
 ---
 Un classe (un ensemble) est _héréditaire_ si elle comprend $\emptyset$ et le [[ZF successeur|successeur]] de chacun de ses éléments.

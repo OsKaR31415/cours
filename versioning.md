@@ -1,7 +1,7 @@
 up::[[outils de gestion de projet]]
 title::"contrôle des versions d'un ensemble de documents"
 down::[[git]]
-#PM
+#PM #no-review 
 
 ----
 
@@ -30,8 +30,8 @@ down::[[git]]
      - chaque personne peut se connecter poru modifier les contenus des dépôts
      - Systèmes très courants
      - CVCS : Centralised Version Control System
-     - [u] contrôle fin des permissions d'accès 
-     - [d] fragilité due à la centralisation : serveur en panne $\implies$ plus d'accès
+     - [p] contrôle fin des permissions d'accès 
+     - [c] fragilité due à la centralisation : serveur en panne $\implies$ plus d'accès
  - Gestion distribuée
      - chaque personne extrait la copie du dépôt, pas seulement les fichiers modifiés
      - En cas de crash du serveur, on peut continuer à travailler, et récupérer les données

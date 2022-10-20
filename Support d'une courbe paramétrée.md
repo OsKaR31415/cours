@@ -1,6 +1,6 @@
 ---
-sr-due: 2022-09-13
-sr-interval: 23
+sr-due: 2023-02-11
+sr-interval: 116
 sr-ease: 282
 ---
 
@@ -9,7 +9,7 @@ up::[[courbe paramétrée]]
 
 ----
 
-Soit $f : D\subset\R \rightarrow \R^2$ une courbe paramétrée telle que $f: t\mapsto M(t)$
+Soit $f : D\subset\mathbb{R} \rightarrow \mathbb{R}^2$ une courbe paramétrée telle que $f: t\mapsto M(t)$
 Le _support_ de $f$ est l'ensemble des points $M(t)$ quand $t$ décrit $D$
 
 Formellement, c'est l'ensemble $\{f(t) | t\in D\}$ ou simplement $f(D)$

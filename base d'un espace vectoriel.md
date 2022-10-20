@@ -1,12 +1,9 @@
 ---
 alias: [ "base" ]
-sr-due: 2022-09-14
-sr-interval: 24
-sr-ease: 277
 ---
 up::[[espace vectoriel]]
 title::"[[famille de vecteurs]] [[famille de vecteurs libre|libre]] et [[famille de vecteurs génératrice|génératrice]]"
-#maths/algèbre #review 
+#maths/algèbre #no-review 
 
 ---
 

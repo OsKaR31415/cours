@@ -20,9 +20,34 @@ title::notes à refactor (tags à ajouter, notes todo...)
 
 > [!question] notes without review state
 > ```dataview
-> LIST title
-> FROM -#excalidraw AND -#review AND -#no-review AND -#personne AND -#flashcards AND -#obsidian AND -#CV AND -#MOC AND -#exercice AND -#devoir AND -#devoir-fait AND -#cours AND -#fac AND -#PKM AND -#cuisine AND -#not-done
->  AND -"sources" AND -"daily" AND -"__sekund__" AND -"Excalidraw" AND -"images" AND -"kanban" AND -"templates" AND -"informatique" 
+> TABLE title
+> FROM -#excalidraw
+>  AND -#review
+>  AND -#no-review
+>  AND -#personne
+>  AND -#flashcards
+>  AND -#obsidian
+>  AND -#CV
+>  AND -#MOC
+>  AND -#exercice
+>  AND -#devoir
+>  AND -#devoir-fait
+>  AND -#cours
+>  AND -#fac
+>  AND -#demonstration
+>  AND -#PKM
+>  AND -#cuisine
+>  AND -#not-done
+>  AND -"sources"
+>  AND -"daily"
+>  AND -"__sekund__"
+>  AND -"Excalidraw"
+>  AND -"images"
+>  AND -"kanban"
+>  AND -"templates"
+>  AND -"informatique" 
+>  AND -"gists"
+> WHERE !mindmap-plugin
 > SORT contains(file.tags, "#not-done")
 > ```
 

@@ -5,7 +5,7 @@ sibling:: [[nombres transcendants]]
 
 up::[[ensembles de nombres]]
 title::"solutions d'[[équation polynomiale|équations polynômiales]] à coefficients [[nombres rationnels|rationnels]]"
-#maths
+#maths #no-review 
 
 ----
 > [!definition] nombre algébrique

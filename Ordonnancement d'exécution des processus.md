@@ -1,11 +1,8 @@
 ---
 alias: [ "ordonnancement" ]
 ---
-down:: [[Ordonnancement SJF]]
-
-
 up::[[système d'exploitation]]
-#informatique 
+#informatique #no-review 
 
 ----
 

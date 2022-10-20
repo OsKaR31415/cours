@@ -1,6 +1,6 @@
 up::[[Ordonnancement d'exécution des processus|ordonnancement]]
 title::
-#informatique 
+#informatique #no-review 
 
 ----
 

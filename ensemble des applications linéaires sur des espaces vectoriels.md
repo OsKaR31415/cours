@@ -1,7 +1,7 @@
 up::[[application linéaire]], [[espace vectoriel]]
 title::$\mathcal{L}(E, F) = \text{ensemble des applications linéaires de } E \to F$
 description::$\mathcal{L} = \{ f \in F^{E} \mid \forall (u, v)\in E, \forall \lambda \in \mathbf{K},  \}$
-#maths/algèbre 
+#maths/algèbre #review 
 
 ----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]

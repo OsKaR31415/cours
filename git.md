@@ -1,6 +1,6 @@
 up::[[versioning]], [[unix commandes]]
 title::"Système de [[versioning]]"
-#PM #informatique 
+#PM #informatique #no-review 
 
 ----
 

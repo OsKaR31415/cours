@@ -12,13 +12,13 @@ avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
 $\mathrm{DL}_n(0)(1+x)^\alpha = \ldots$
 ?
 $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(\alpha-n+1)x^n}{n!}+x^n\varepsilon(x)$
-<!--SR:!2022-10-03,2,151-->
+<!--SR:!2022-10-30,14,151-->
 
 **Développement limité**
 $\mathrm{DL}_n(0)\dfrac{1}{1-x} =\ldots$
 ?
 $1+x+x^2+x^3+\cdots+x^n+x^n\varepsilon(x)$
-<!--SR:!2022-10-08,14,130-->
+<!--SR:!2022-11-12,26,130-->
 
 
 **Développement limité**
@@ -36,7 +36,7 @@ $\mathrm{DL}_n(0)\ln(1+x) =\ldots$
 $x-\dfrac{x^2}{2}+\dfrac{x^3}{3}+\cdots+(-1)^{n-1}\dfrac{x^n}{n}+x^n\varepsilon(x)$
 Soit $\displaystyle\sum_1^n\left( (-1)^{k-1}\dfrac{x^k}{k} \right) + x^n\varepsilon(x)$ Attention : commence à $k=1$ car $\ln(1+0) = 0$
 `{-/(⍵*k)÷k←⍳N}x`
-<!--SR:!2022-10-19,17,130-->
+<!--SR:!2022-11-11,24,130-->
 
 
 **Développement limité**
@@ -68,7 +68,7 @@ $\displaystyle\sum\limits_{k=0}^{n} (-1)^{\frac{k-1}{2}}\frac{x^{k}}{k!}[2 \nmid
 _somme alternée des $\frac{x^{k}}{k!}$ quand $2$ ne divise pas $k$_
 Puissances **Impaires** car $\sin$ est une [[fonction impaire]].
 Les parties régulières à l'ordre $2n+1$ et $2n+2$ sont les mêmes.
-<!--SR:!2022-10-19,18,219-->
+<!--SR:!2022-12-14,57,239-->
 
 
 **Développement limité**
@@ -89,7 +89,7 @@ $\displaystyle\mathrm{ch}(x) = 1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots 
 _somme des $\frac{x^{k}}{k!}$_ quand $2$ divise $k$
 Puissances **paires** car $\mathrm{ch}$ est une [[fonction paire]]
 Mêmes termes que $\mathrm{DL}_{n}: e^{x}$
-<!--SR:!2022-10-06,29,217-->
+<!--SR:!2023-02-13,120,237-->
 
 
 

@@ -1,6 +1,6 @@
-up::[[informatique]]
+up::[[MOC informatique]]
 title::"historique de la création de l'informatique"
-#informatique 
+#informatique #no-review 
 
 ----
 

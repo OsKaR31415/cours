@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "breadcrumbs",
     "custom_callouts",
@@ -13,9 +13,10 @@
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font",
-  "accentColor": "#1e780a",
+  "monospaceFontFamily": "JetBrainsMonoMedium Nerd Font,FiraCode Nerd Font",
+  "accentColor": "#29a50d",
   "baseFontSizeAction": true,
   "showViewHeader": true,
-  "translucency": false
+  "translucency": false,
+  "nativeMenus": false
 }
