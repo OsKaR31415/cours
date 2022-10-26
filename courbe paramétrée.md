@@ -5,7 +5,7 @@ sr-ease: 305
 ---
 
 up::[[MOC analyse]]
-#maths/analyse #review 
+#maths/analyse #no-review 
 
 ---
 

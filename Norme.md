@@ -11,7 +11,7 @@ title::"$\mathcal{N}(x)=0 \implies x=0$", "$\forall (\lambda, x)\in \mathbf{K}\t
 >  - [[espace séparé|séparation]] : $\forall x \in \mathbf{E}, \quad \mathcal{N}(x) = 0 \implies x = O_{E}$
 >      - la [[réciproque]] est vraie aussi
 >  - absolue [[application homogène|homogénéité]] : $\forall (\lambda, x) \in K \times E, \quad \mathcal{N}(\lambda x) = |\lambda|\mathcal{N}(x)$
->  - [[inégalité triangulaire]] ([[sous-additivité]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
+>  - [[inégalité triangulaire]] ([[application sous-additive]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
 ^definition
 
 # Propriétés 

@@ -1,5 +1,5 @@
 up::[[base de données]]
-#informatique #review
+#informatique #no-review
 
 ----
 

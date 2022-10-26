@@ -1,0 +1,47 @@
+/* ╺┳┓┏━┓┏━┓╻┏ ┏┳┓┏━┓╺┳┓┏━╸ */
+/*  ┃┃┣━┫┣┳┛┣┻┓┃┃┃┃ ┃ ┃┃┣╸ */
+/* ╺┻┛╹ ╹╹┗╸╹ ╹╹ ╹┗━┛╺┻┛┗━╸ */
+/* for all sorts of ui elements : */
+/* pdfs, figures... */
+
+
+/* default obsidian pdf */
+.theme-dark .pdf-embed iframe,
+.theme-dark embed[type="application/pdf"],
+.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
+    /* filter: invert(0.7) brightness(0.9) contrast(1.8); */
+    filter: invert(0.7)
+            brightness(0.9)
+            contrast(1.8)
+            hue-rotate(180deg)
+            saturate(200%)
+            blur(0.5px)
+            ;
+}
+
+
+/* markmind pdf reader (and annotator) */
+.mm-pdf-container {
+    filter: invert(0.7)
+            brightness(0.9)
+            contrast(1.5)
+            hue-rotate(180deg)
+            saturate(200%)
+            ;
+}
+/* .mm-highlight { */
+/*     filter: invert(0.3); */
+/* } */
+
+
+/* argdown maps */
+.argdown-figure {
+    filter: invert(0.70)
+            brightness(0.9)
+            contrast(1.5)
+            hue-rotate(180deg)
+            saturate(200%)
+            ;
+}
+
+

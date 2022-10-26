@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "baseFontSize": 18,
+  "baseFontSize": 21,
   "enabledCssSnippets": [
     "breadcrumbs",
     "custom_callouts",
@@ -9,7 +9,9 @@
     "general_interface",
     "pdf_darkmode",
     "query_header_title",
-    "tasks"
+    "tasks",
+    "darkmode",
+    "tabs"
   ],
   "interfaceFontFamily": "FiraCode Nerd Font",
   "textFontFamily": "FiraCode Nerd Font",

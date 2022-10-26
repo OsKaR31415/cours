@@ -54,5 +54,7 @@
   "obsidian-quickshare",
   "obsidian-better-internal-link-inserter",
   "obsidian-argdown-plugin",
-  "obsidian-contextual-typography"
+  "obsidian-contextual-typography",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "improved-vimcursor"
 ]

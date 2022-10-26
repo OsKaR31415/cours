@@ -24,7 +24,7 @@ annotate-target: sources/cours/L2_maths_analyse_TD2.pdf
 
 >%%
 >```annotate-json
->{"id":"f1a5f4fc-1159-fbca","text":"{\"id\":\"f1a5f4fc-1159-fbca\",\"page\":0,\"rect\":[48.194354095458976,336.3670043945312],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1666181443317.png\",\"relateRect\":[{\"x\":0.07555555555555556,\"y\":0.7433333333333333,\"width\":0.06333333333333334,\"height\":0.051111111111111114}],\"pdfName\":\"sources/cours/L2_maths_analyse_TD2.pdf\",\"pageWidth\":900,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1666181443317.png?1666191624409\"}","type":"rect","page":0,"width":57,"height":46,"pdfName":"sources/cours/L2_maths_analyse_TD2.pdf"}
+>{"id":"f1a5f4fc-1159-fbca","text":"{\"id\":\"f1a5f4fc-1159-fbca\",\"page\":0,\"rect\":[48.194354095458976,336.3670043945312],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1666181443317.png\",\"relateRect\":[{\"x\":0.0752212389380531,\"y\":0.7426253687315634,\"width\":0.7595870206489675,\"height\":0.05383480825958702}],\"pdfName\":\"sources/cours/L2_maths_analyse_TD2.pdf\",\"pageWidth\":900,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1666181443317.png?1666564037071\"}","type":"rect","page":0,"width":1030,"height":73,"pdfName":"sources/cours/L2_maths_analyse_TD2.pdf"}
 >```
 >%%
 >![[attachments/markmind/1666181443317.png]]

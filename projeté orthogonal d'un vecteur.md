@@ -1,5 +1,5 @@
 up::[[vecteur]]
-title::
+title:: "$\displaystyle\mathrm{proj}_{u}(v) = \frac{\langle u, v \rangle}{\| u \| ^{2}}u$"
 #maths/algèbre 
 
 ---

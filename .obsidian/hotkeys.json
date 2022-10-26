@@ -463,5 +463,14 @@
     }
   ],
   "obsidian-completr:completr-close-suggestion-popup": [],
-  "calendar:show-calendar-view": []
+  "calendar:show-calendar-view": [],
+  "obsidian-latex-suite:latex-suite-box-equation": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }

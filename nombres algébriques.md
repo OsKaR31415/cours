@@ -1,9 +1,8 @@
 ---
 alias: [ "nombre algébrique", "algébrique" ]
 ---
-sibling:: [[nombres transcendants]]
-
 up::[[ensembles de nombres]]
+sibling:: [[nombres transcendants]]
 title::"solutions d'[[équation polynomiale|équations polynômiales]] à coefficients [[nombres rationnels|rationnels]]"
 #maths #no-review 
 

@@ -54,7 +54,7 @@ annotate-target: sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf
 
 >%%
 >```annotate-json
->{"id":"1b02bb8f-60cd-e96b","text":"{\"id\":\"1b02bb8f-60cd-e96b\",\"page\":2,\"rect\":[37.78866457874785,773.3015203882162,35.37081080133112,632.098859787079],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1665832938396.png\",\"relateRect\":[{\"x\":0.06011372867587327,\"y\":0.34524776604386676,\"width\":0.8708367181153533,\"height\":0.15272136474411047}],\"pdfName\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1665832938396.png?1665832944990\"}","type":"rect","page":2,"width":1072,"height":188,"pdfName":"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf"}
+>{"id":"1b02bb8f-60cd-e96b","text":"{\"id\":\"1b02bb8f-60cd-e96b\",\"page\":2,\"rect\":[37.78866457874785,773.3015203882162,35.37081080133112,632.098859787079],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1665832938396.png\",\"relateRect\":[{\"x\":0.05955143078112916,\"y\":0.34493426140757927,\"width\":0.8863109048723898,\"height\":0.2737819025522042}],\"pdfName\":\"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1665832938396.png?1666335640593\"}","type":"rect","page":2,"width":1146,"height":354,"pdfName":"sources/cours/L2_maths_geometrie_TD1_2020-2021.pdf"}
 >```
 >%%
 >![[attachments/markmind/1665832938396.png]]

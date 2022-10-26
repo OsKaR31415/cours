@@ -1,6 +1,6 @@
 {
   "strategy": "default",
-  "matchStrategy": "prefix",
+  "matchStrategy": "partial",
   "maxNumberOfSuggestions": 10,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "obsidian": {
-      "obsidian": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663688213203
-        }
-      }
-    },
     "multiplication de matrices": {
       "multiplication de matrices": {
         "internalLink": {
@@ -64,174 +56,18 @@
       }
     },
     "dérivée": {
-      "dérivation": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663688076661
-        }
-      },
       "dérivée": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663688069160
-        },
         "internalLink": {
           "count": 4,
           "lastUpdated": 1665478843802
         }
       }
     },
-    "dérivées": {
-      "dérivées": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663688071525
-        }
-      }
-    },
-    "dérivation": {
-      "dérivation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663688143386
-        }
-      }
-    },
-    "dataview MOC query": {
-      "dataview MOC query": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663688220447
-        }
-      }
-    },
-    "obsidian plugin dataview": {
-      "obsidian plugin dataview": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663688237653
-        }
-      }
-    },
-    "chose": {
-      "chose": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663688343512
-        }
-      }
-    },
-    "gantt": {
-      "gantt": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663688657657
-        }
-      }
-    },
-    "obsidian gantt diagram": {
-      "obsidian gantt diagram": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663748415117
-        }
-      }
-    },
-    "obsidian syntaxe": {
-      "obsidian syntaxe": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663704605546
-        }
-      }
-    },
-    "\\mathbb{R}^{n}": {
-      "\\mathbb{R}^{n}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663707077959
-        }
-      }
-    },
-    "linéaires": {
-      "linéaires": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663707179070
-        }
-      }
-    },
-    "ensemble des applications linéaires sur des espaces vectoriels": {
-      "ensemble des applications linéaires sur des espaces vectoriels": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663707180222
-        }
-      }
-    },
     "application linéaire": {
       "application linéaire": {
         "internalLink": {
-          "count": 10,
-          "lastUpdated": 1665046126888
-        }
-      }
-    },
-    "associative": {
-      "associativité": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663744639086
-        }
-      },
-      "associative": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1663747647585
-        },
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1663951650866
-        }
-      }
-    },
-    "automorphisme": {
-      "automorphisme": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1663773056084
-        }
-      }
-    },
-    "plaisant@gmail": {
-      "plaisant@gmail": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663745790186
-        }
-      }
-    },
-    "stockage des données": {
-      "stockage des données": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663748286164
-        }
-      }
-    },
-    "registres": {
-      "registres": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1663935659450
-        }
-      }
-    },
-    "bases numériques": {
-      "bases numériques": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663749311268
+          "count": 11,
+          "lastUpdated": 1666439506920
         }
       }
     },
@@ -240,38 +76,6 @@
         "internalLink": {
           "count": 3,
           "lastUpdated": 1664194941491
-        }
-      }
-    },
-    "bus de données": {
-      "bus de données": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663749825865
-        }
-      }
-    },
-    "chipset": {
-      "chipset": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663750456763
-        }
-      }
-    },
-    "comment progresser en L2 (boris)": {
-      "comment progresser en L2 (boris)": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663750931939
-        }
-      }
-    },
-    "architecture des ordinateurs": {
-      "architecture des ordinateurs": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663751028290
         }
       }
     },
@@ -291,75 +95,11 @@
         }
       }
     },
-    "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw": {
-      "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663766121472
-        }
-      }
-    },
-    "groupe": {
-      "groupe": {
-        "internalLink": {
-          "count": 9,
-          "lastUpdated": 1663794097722
-        }
-      }
-    },
-    "répertoire profs fac": {
-      "répertoire profs fac": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663767956093
-        }
-      }
-    },
-    "accès aux données": {
-      "accès aux données": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663768194702
-        }
-      }
-    },
     "bijective": {
       "bijective": {
         "internalLink": {
           "count": 5,
           "lastUpdated": 1665046164396
-        }
-      }
-    },
-    "applications linéaires": {
-      "applications linéaires": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1663774283041
-        }
-      }
-    },
-    "surjective": {
-      "surjective": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663772640846
-        }
-      }
-    },
-    "endomorphisme linéaire": {
-      "endomorphisme linéaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663772924972
-        }
-      }
-    },
-    "isomorphisme": {
-      "isomorphisme": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1663773451551
         }
       }
     },
@@ -379,35 +119,11 @@
         }
       }
     },
-    "automorphisme linéaire": {
-      "automorphisme linéaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663773728735
-        }
-      }
-    },
     "espace vectoriel": {
       "espace vectoriel": {
         "internalLink": {
-          "count": 13,
-          "lastUpdated": 1666191789503
-        }
-      }
-    },
-    "morphisme": {
-      "morphisme": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1663952099384
-        }
-      }
-    },
-    "bijectives": {
-      "bijectives": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1663774293343
+          "count": 15,
+          "lastUpdated": 1666440533574
         }
       }
     },
@@ -419,75 +135,11 @@
         }
       }
     },
-    "structure algébrique": {
-      "structure algébrique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663774053121
-        }
-      }
-    },
-    "centre": {
-      "centre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663777043615
-        }
-      }
-    },
-    "notation": {
-      "notation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663777027608
-        }
-      }
-    },
-    "MOC informatique": {
-      "MOC informatique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663779320651
-        }
-      }
-    },
     "groupe abélien": {
       "groupe abélien": {
         "internalLink": {
           "count": 3,
           "lastUpdated": 1664658873600
-        }
-      }
-    },
-    "APL thinking examples.pdf": {
-      "APL thinking examples.pdf": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663795875383
-        }
-      }
-    },
-    "système d'exploitation": {
-      "système d'exploitation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663932771619
-        }
-      }
-    },
-    "architecture de Von Neumann": {
-      "architecture de Von Neumann": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663935037832
-        }
-      }
-    },
-    "binaire": {
-      "binaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663935718335
         }
       }
     },
@@ -507,35 +159,11 @@
         }
       }
     },
-    "lci": {
-      "lci": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1663951648463
-        }
-      }
-    },
     "élément neutre": {
       "élément neutre": {
         "internalLink": {
           "count": 7,
           "lastUpdated": 1664780887087
-        }
-      }
-    },
-    "éléments symétrisables": {
-      "éléments symétrisables": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951043391
-        }
-      }
-    },
-    "symétrisable": {
-      "symétrisable": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663951700692
         }
       }
     },
@@ -547,43 +175,11 @@
         }
       }
     },
-    "distributivité": {
-      "distributivité": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951318899
-        }
-      }
-    },
     "combinaisons linéaires": {
       "combinaisons linéaires": {
         "internalLink": {
           "count": 2,
           "lastUpdated": 1665391596040
-        }
-      }
-    },
-    "libre": {
-      "libre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663952213187
-        }
-      }
-    },
-    "génératrice": {
-      "génératrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951574521
-        }
-      }
-    },
-    "commutatif": {
-      "commutatif": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663951655322
         }
       }
     },
@@ -616,62 +212,6 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1664387734715
-        }
-      }
-    },
-    "somme d'espaces vectoriels": {
-      "somme d'espaces vectoriels": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663952457345
-        }
-      }
-    },
-    "supplémentaires": {
-      "supplémentaires": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663952471337
-        }
-      }
-    },
-    "sev": {
-      "sev": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1663952604613
-        }
-      }
-    },
-    "parallélépipède": {
-      "parallélépipède": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663952715169
-        }
-      }
-    },
-    "classe héréditaire": {
-      "classe héréditaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663969876131
-        }
-      }
-    },
-    "axiome de l'infini": {
-      "axiome de l'infini": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663972051365
-        }
-      }
-    },
-    "ensemble héréditaire": {
-      "ensemble héréditaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663972127405
         }
       }
     },
@@ -750,8 +290,8 @@
     "corps": {
       "corps": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1664182564449
+          "count": 3,
+          "lastUpdated": 1666335988714
         }
       }
     },
@@ -782,8 +322,8 @@
     "équation polynomiale": {
       "équation polynomiale": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1664182851589
+          "count": 5,
+          "lastUpdated": 1666430681095
         }
       }
     },
@@ -798,8 +338,8 @@
     "coefficients de Bézout": {
       "coefficients de Bézout": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1664182552401
+          "count": 2,
+          "lastUpdated": 1666430466092
         }
       }
     },
@@ -998,8 +538,8 @@
     "rotation": {
       "rotation": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1664388375715
+          "count": 4,
+          "lastUpdated": 1666439963139
         }
       }
     },
@@ -1270,16 +810,16 @@
     "norme": {
       "norme": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1665829544232
+          "count": 4,
+          "lastUpdated": 1666439639603
         }
       }
     },
     "produit scalaire": {
       "produit scalaire": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1666193918041
+          "count": 5,
+          "lastUpdated": 1666439635579
         }
       }
     },
@@ -1342,8 +882,144 @@
     "continue": {
       "continue": {
         "internalLink": {
+          "count": 6,
+          "lastUpdated": 1666626219987
+        }
+      }
+    },
+    "inégalité triangulaire": {
+      "inégalité triangulaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666335830738
+        }
+      }
+    },
+    "application additive": {
+      "application additive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666336775040
+        }
+      }
+    },
+    "Application sous-additive": {
+      "Application sous-additive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666336837779
+        }
+      }
+    },
+    "sous-additive": {
+      "sous-additive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666337088516
+        }
+      }
+    },
+    "additivité": {
+      "additivité": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666337534938
+        }
+      }
+    },
+    "injective": {
+      "injective": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666337752162
+        }
+      }
+    },
+    "algorithme d'euclide": {
+      "algorithme d'euclide": {
+        "internalLink": {
           "count": 3,
-          "lastUpdated": 1666204167312
+          "lastUpdated": 1666431962930
+        }
+      }
+    },
+    "MOC arithmétique": {
+      "MOC arithmétique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666430636774
+        }
+      }
+    },
+    "équation diophantienne": {
+      "équation diophantienne": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666430666304
+        }
+      }
+    },
+    "pgcd": {
+      "pgcd": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666430854399
+        }
+      }
+    },
+    "algorithme d'Euclide inverse": {
+      "algorithme d'Euclide inverse": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666430968895
+        }
+      }
+    },
+    "matrice associée à une application linéaire": {
+      "matrice associée à une application linéaire": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1666440299753
+        }
+      }
+    },
+    "espace euclidien": {
+      "espace euclidien": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666439692046
+        }
+      }
+    },
+    "vecteurs orthogonaux": {
+      "vecteurs orthogonaux": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666440060271
+        }
+      }
+    },
+    "symétrie vectorielle orthogonale": {
+      "symétrie vectorielle orthogonale": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1666440447806
+        }
+      }
+    },
+    "symétrie orthogonale par rapport à u droite vectorielle": {
+      "symétrie orthogonale par rapport à u droite vectorielle": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1666440496126
+        }
+      }
+    },
+    "fonction uniformément continue": {
+      "fonction uniformément continue": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1666626216881
         }
       }
     }

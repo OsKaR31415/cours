@@ -1,10 +1,15 @@
-up::[[système linéaire]]
+up::[[équation diophantienne]]
+title::"$ax+by=c \qquad (a, b, c)\in\mathbb{Z}^{3}$"
 #maths/arithmétique #no-review 
 
 ----
-Equations de la forme
-$$(E) : ax+by = c$$
-où $(a, b, c)\in\mathbb{Z}^3$
+
+
+> [!definition] Equation linéaire à 2 variables entières
+> Ue équation linéaire à deux variables entières est une équation de la forme :
+> $(E) : ax+by = c$
+> où $(a, b, c)\in\mathbb{Z}^3$
+^definition
 
 # Propriétés
  - L'équation $(E)$ possède des solutions $(x, y)\in\mathbb{Z}^2$ **si et seulement si $\mathrm{pgcd}(a,b)|c$**
@@ -15,5 +20,5 @@ où $(a, b, c)\in\mathbb{Z}^3$
 
 # Trouver des solutions
 
-On utilise l'[[algorithme d'euclide#Algorithme inverse|algorithme d'euclide inverse]] pour trouver des [[coefficients de Bézout]]
+On utilise l'[[algorithme d'Euclide inverse]] pour trouver des [[coefficients de Bézout]]
 

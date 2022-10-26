@@ -16,6 +16,7 @@ $\begin{align*} \mathrm{th} : & \mathbb{R} \to [-1; 1]\\ & x \mapsto \frac{\cosh
 ou bien, sous une autre forme :
 $\displaystyle\mathrm{th}(x) = \frac{e^{x}-e^{-x}}{e^{x} + e^{-x}}$
 
+$\sin x + \cos x - \arccos \arg \mathrm{th} $
 
 ```desmos-graph
     top=2.5

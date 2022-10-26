@@ -14,6 +14,14 @@ Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces ve
 $f: E \mapsto F$ est _linéaire_ ssi :
 $\forall(u,v)\in E^{2}, \forall\lambda\in\mathbb{R},\;\;\; f(u+v) = f(u) + f(v) \;\;\wedge\;\; f(\lambda u) = \lambda f(u)$
 
+> [!definition] Application linéaire
+> Soient $E$ et $F$ deux $\mathbf{K}$-[[espace vectoriel|espaces vectoriels]]
+> Soit $f: E \to F$ une [[application]]
+> $f$ est *linéaire* ssi :
+>  - $\forall (u, v) \in E^{2}, \forall \lambda \in \mathbf{K}, \quad f(u+v) = f(u) + f(v)\quad$ ([[application additive|additivité]])
+>  - $\forall (u, v) \in E^{2}, \forall \lambda \in \mathbf{K}, \quad f(\lambda u) = \lambda f(u) \quad$ ([[application homogène|homogénéité]]) 
+^definition
+
 
 # Autres définitions
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,

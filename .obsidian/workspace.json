@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a0336884a30f64e",
+            "id": "ff6b3f2a25b80eee",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,164 +16,82 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "projeté orthogonal d'un vecteur",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"projeté orthogonal d'un vecteur.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":3.5017047797011283}"
-                },
-                {
-                  "title": "algorithme de gram schmidt",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"algorithme de gram schmidt.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":130},\"to\":{\"line\":10,\"ch\":130}},\"scroll\":1.7863877302978546}"
-                },
-                {
-                  "title": "Orthonormaliser une famille de vecteurs",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Orthonormaliser une famille de vecteurs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":43},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":4.904005482708587}"
-                }
-              ]
-            },
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sources/cours/L2_maths_algebre_lineaire_TD2.pdf"
-              }
-            }
-          },
-          {
-            "id": "c04e4f6219431ee1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2022-10-20",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-10-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
-                },
-                {
-                  "title": "2022-10-20",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-10-22",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
-                },
-                {
-                  "title": "2022-10-20",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "2022-10-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.5971582060085744}"
-                },
-                {
-                  "title": "2022-10-20",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "2022-10-22",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":4.793454437991793}"
-                },
-                {
-                  "title": "2022-10-20",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-10-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "ensemble des polynômes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des polynômes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0.9421931505796511}"
-                },
-                {
-                  "title": "polynôme",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"polynôme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "ensemble des fonctions continues par morceaux",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des fonctions continues par morceaux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "ensemble des fonctions continues",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ensemble des fonctions continues.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":42},\"to\":{\"line\":2,\"ch\":42}},\"scroll\":0}"
-                },
-                {
-                  "title": "2022-10-22",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.2536699284272483}"
-                },
-                {
-                  "title": "2022-10-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-19.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"scroll\":16.85512318004261}"
-                },
-                {
-                  "title": "produit scalaire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"produit scalaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":9.074606535467689}"
-                },
-                {
-                  "title": "projection d'un vecteur sur une droite vectorielle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"projection d'un vecteur sur une droite vectorielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":11.170200149064538}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2022-10-22.md",
+                "file": "flashcards algèbre.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fbe14af61e71c1b3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idées pour la refonte de la maquette enseignement.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c5d18ec7e584f5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "sources/annotations/L2_maths_analyse_TD2-annotate.md"
+              }
+            }
+          },
+          {
+            "id": "c5080221b1ada2f5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2022-10-25",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-10-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022-10-26.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -181,7 +99,7 @@
             }
           },
           {
-            "id": "73c22c7bff671ffe",
+            "id": "3217cc2210cd209e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -198,9 +116,135 @@
                 "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md"
               }
             }
+          },
+          {
+            "id": "f5859407c6de5694",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 2,
+              "stack": [
+                {
+                  "title": "groupe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"groupe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":2.2222222222222223}"
+                },
+                {
+                  "title": "groupe abélien",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"groupe abélien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5876777251184834}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "droite vectorielle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"droite vectorielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0.7914691943127962}"
+                },
+                {
+                  "title": "projection d'un vecteur sur une droite vectorielle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"projection d'un vecteur sur une droite vectorielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "produit scalaire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"produit scalaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":13.576884920634921}"
+                },
+                {
+                  "title": "Famille de vecteurs orthonormale",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Famille de vecteurs orthonormale.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8341232227488151}"
+                },
+                {
+                  "title": "Orthonormaliser une famille de vecteurs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Orthonormaliser une famille de vecteurs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.1895734597156398}"
+                },
+                {
+                  "title": "multiplication de matrices",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"multiplication de matrices.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.911210317460317}"
+                },
+                {
+                  "title": "produit scalaire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"produit scalaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6350710900473934}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "espace vectoriel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3a38e5d78a507ae",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idées pour la refonte de la maquette enseignement.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "903b462a3f3db7c9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "fac L2 délégué",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fac L2 délégué.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Retours élèves.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -325,7 +369,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md",
+                "file": "espace vectoriel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +390,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md",
+                "file": "espace vectoriel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -361,7 +405,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.5039024353027
+    "width": 560.5,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -370,7 +415,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 59.811122770199376,
+        "dimension": 53.45622119815668,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -387,7 +432,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md"
+                "file": "espace vectoriel.md"
               }
             }
           },
@@ -457,7 +502,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md",
+                "file": "espace vectoriel.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -614,7 +659,7 @@
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 40.18887722980063,
+        "dimension": 46.54377880184332,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -668,26 +713,26 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
+    "width": 343.5,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "73c22c7bff671ffe",
+  "active": "f5859407c6de5694",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "sources/cours/EVGeneralites.pdf",
-    "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md",
-    "daily/2022-10-22.md",
-    "flashcards dérivation.md",
-    "fonction tangente.md",
-    "sous-système de gestion de mémoire.md",
-    "Sous-système de gestion de processus.md",
-    "daily/2022-10-20.md",
-    "daily/2022-09-21.md",
-    "Système \"Buddy\".md"
+    "Idées pour la refonte de la maquette enseignement.md",
+    "Retours élèves.md",
+    "fac L2 délégué.md",
+    "espace vectoriel.md",
+    "groupe abélien.md",
+    "groupe.md",
+    "éléments symétrisables.md",
+    "élément neutre.md",
+    "associativité.md",
+    "droite vectorielle.md"
   ]
 }

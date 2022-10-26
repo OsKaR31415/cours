@@ -8,10 +8,11 @@
   "alwaysUpdateLinks": true,
   "foldHeading": true,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 75
+    "margin": "1",
+    "downscalePercent": 74
   },
   "defaultViewMode": "source",
   "autoPairMarkdown": false,

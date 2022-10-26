@@ -1,7 +1,9 @@
 
 
 
+/* checkbox items */
 .task-list-item-checkbox {
-    transform: scale(1.2);
+    /* bigger checkbox items */
+    transform: scale(1.2) translateX(4pt);
 }
 

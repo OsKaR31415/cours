@@ -1,3 +1,6 @@
+---
+alias: [ "application linéaire associée à une matrice", "matrice associée", "application linéaire associée" ]
+---
 up::[[application linéaire]], [[matrice]]
 #maths/algèbre #review 
 

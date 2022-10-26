@@ -1,5 +1,5 @@
 up::[[langage de programmation]]
-title::"[[paradygme programmation orientée objet|OO]], haut niveau"
+title::"[[paradygme programmation orientée objet|OOP]], haut niveau"
 #informatique #no-review 
 
 ----

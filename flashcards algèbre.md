@@ -65,4 +65,10 @@ $\forall  (u, v) \in E^{2}, \quad f((u;v)) = f((v;u))$
 <!--SR:!2022-10-23,4,283!2022-10-22,3,263-->
 
 
+## Matrices 
+
+
+Matrice de rotation en 2D (angle $\theta$) ::: $\large\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$
+
+
 - [ ] #todo: pour l'algèbre linéaire

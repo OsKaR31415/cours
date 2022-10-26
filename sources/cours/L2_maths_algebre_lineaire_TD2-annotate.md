@@ -4,7 +4,7 @@ annotate-target: sources/cours/L2_maths_algebre_lineaire_TD2.pdf
 
 >%%
 >```annotate-json
->{"id":"3c042e2c-7901-6360","text":"{\"id\":\"3c042e2c-7901-6360\",\"page\":0,\"rect\":[17.979960575196255,719.6854112467946],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1666199481081.png\",\"relateRect\":[{\"x\":0.03330625507717303,\"y\":0.20958570268074736,\"width\":0.8651502843216897,\"height\":0.06255077173030058}],\"pdfName\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\",\"pageWidth\":1031,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1666199481081.png?1666247911310\"}","type":"rect","page":0,"width":1065,"height":77,"pdfName":"sources/cours/L2_maths_algebre_lineaire_TD2.pdf"}
+>{"id":"3c042e2c-7901-6360","text":"{\"id\":\"3c042e2c-7901-6360\",\"page\":0,\"rect\":[17.979960575196255,719.6854112467946],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1666199481081.png\",\"relateRect\":[{\"x\":0.03330625507717303,\"y\":0.20958570268074736,\"width\":0.7871649065800163,\"height\":0.24857839155158407}],\"pdfName\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\",\"pageWidth\":1031,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1666199481081.png?1666251282247\"}","type":"rect","page":0,"width":969,"height":306,"pdfName":"sources/cours/L2_maths_algebre_lineaire_TD2.pdf"}
 >```
 >%%
 >![[attachments/markmind/1666199481081.png]]
@@ -41,4 +41,14 @@ annotate-target: sources/cours/L2_maths_algebre_lineaire_TD2.pdf
 >[[#^8e30a4e8-f244-d569|Show annotate]]
 >
 ^8e30a4e8-f244-d569
+
+>%%
+>```annotate-json
+>{"id":"fd2ebf56-e184-ecb4","text":"{\"id\":\"fd2ebf56-e184-ecb4\",\"page\":1,\"rect\":[20.19372861356932,704.9238407079647],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1666561080771.png\",\"relateRect\":[{\"x\":0.032448377581120944,\"y\":0.22861356932153393,\"width\":0.9255162241887905,\"height\":0.13274336283185842}],\"pdfName\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\",\"pageWidth\":1356,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1666561080771.png?1666561080846\"}","type":"rect","page":1,"width":1255,"height":180,"pdfName":"sources/cours/L2_maths_algebre_lineaire_TD2.pdf"}
+>```
+>%%
+>![[attachments/markmind/1666561080771.png]]
+>[[#^fd2ebf56-e184-ecb4|Show annotate]]
+>
+^fd2ebf56-e184-ecb4
 

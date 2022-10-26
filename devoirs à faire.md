@@ -1,6 +1,3 @@
-
-----
-
 > [!smallquery] devoirs
 > ```dataview
 > TABLE due, difficulty as "", title as "description"

@@ -24,6 +24,8 @@ Ces deux opérations vérifient :
      - [[distributivité]] de $\cdot$ par rapport à $+$ sur $E$ : $\forall\lambda\in K, \forall(\vec v, \vec u)\in E^{2},\quad\lambda\cdot(\vec u+\vec v) = \lambda\cdot\vec u + \lambda\cdot\vec v$ 
      - [[distributivité]] de $\cdot$ par rapport à $+$ sur $\mathbb R$ : $\forall(\lambda,\mu)\in K, \quad \forall\vec u\in E, (\lambda + \mu)\cdot\vec u = \lambda\cdot\vec u + \mu\cdot\vec u$
 
+$\forall \vec{u} \in E, \forall (\lambda, \mu) \in \mathbf{K}^{2}, \begin{cases}1 \cdot \vec{u} = \vec{u}\\ \text{ et }\\ \lambda \cdot (\mu \cdot u) = (\lambda \mu) \cdot u\end{cases}$
+
 # Vocabulaire
 On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ (la multiplication externe)
 

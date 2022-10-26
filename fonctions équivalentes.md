@@ -10,9 +10,11 @@ title::"$f \sim_{x_{0}} g \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)} = 1$
 #maths/analyse #no-review 
 
 ----
-Soient deux [[fonction|fonctions]] $f$ et $g$, on dit qu'elles sont _équivalentes en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x)\sim_{x_0}g(x)$.
 
-$\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
+> [!definition] Fonctions équivalentes
+> Soient deux [[fonction|fonctions]] $f$ et $g$, on dit qu'elles sont _équivalentes en $x_0\in\overline{\mathbb{R}}$_, et on note $f(x)\sim_{x_0}g(x)$ quand :
+> $\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
+^definition
 
 > [!attention]
 > On n'écrit pas $0 \sim_{x_{0}} f$ car c'est évidemment toujours faux
@@ -24,6 +26,11 @@ $\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
 >  - $f = hg$
 > Dans cette définition, on peut avoir $f \sim_{x_{0}} 0$
 > Si $x_{0} = \pm \infty$, on peut définir $h$ seulement après $b \geq x_{0}$
+> > [!attention] équivalence à $0$
+> > Pour qu'une fonction $f$ soit équivalente à $0$ en $x_{0}$, il faut qu'elle soit égale à $0$ sur tout le voisinage (aussi proche que l'on veut) de $0$.
+> > **Exemple : ** $\frac{1}{x} \not\sim_{+\infty} 0$ car on ne peut pas trouver de fonction $h$ pour laquelle $\frac{1}{x} = 0\times h(x)$ pour tout $x$ suffisament grand (l'égalité est vraie seulement à la limite)
+> > **Exemple : ** $\sin x-x \sim_{0} 1$ (car $\frac{\sin x}{x} \sim_{0} 1$)
+> > 
 
 
 # Propriétés
@@ -37,7 +44,7 @@ $\boxed{f(x)\sim_{x_0}g(x) \iff \lim_{x\rightarrow x_0} \dfrac{f(x)}{g(x)} = 1}$
              - $f \sim g \implies \ln(f) \sim \ln(g)$
 
 
- - Si $\disp\lim_{x \to x_{0}} f(x) = a \mid_{a \in \mathbb{R}^{*}}$ on a : $f \sim_{x_{0}} a$
+ - Si $\displaystyle\lim_{x \to x_{0}} f(x) = a \mid_{a \in \mathbb{R}^{*}}$ on a : $f \sim_{x_{0}} a$
      - Si $a = 0$ ou $a = \pm\infty$ alors $f \nsim_{x_{0}} a$
 
  - $f \sim_{x_{0}} g \iff \alpha f \sim_{x_{0}} \alpha g \Big|_{\text{si } \alpha \neq 0}$
