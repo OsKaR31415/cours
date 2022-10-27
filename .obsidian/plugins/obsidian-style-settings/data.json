@@ -12,5 +12,8 @@
   "minimal-style@@checkbox-shape": "checkbox-square",
   "quick-explorer@@qe-hide-breadcrumbs": false,
   "minimal-style@@base@@light": "#1E780A",
-  "minimal-style@@h1-color@@light": "#1E780A"
+  "minimal-style@@h1-color@@light": "#1E780A",
+  "minimal-style@@bold-weight": 900,
+  "minimal-style@@bold-color@@light": "#000000",
+  "minimal-style@@bold-color@@dark": "#EEEEEE"
 }

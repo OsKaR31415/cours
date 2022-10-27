@@ -34,14 +34,14 @@
 /* } */
 
 
-/* argdown maps */
-.argdown-figure {
-    filter: invert(0.70)
-            brightness(0.9)
-            contrast(1.5)
-            hue-rotate(180deg)
-            saturate(200%)
-            ;
-}
+/* /1* argdown maps *1/ */
+/* .argdown-figure { */
+/*     filter: invert(0.70) */
+/*             brightness(0.9) */
+/*             contrast(1.5) */
+/*             hue-rotate(180deg) */
+/*             saturate(200%) */
+/*             ; */
+/* } */
 
 
