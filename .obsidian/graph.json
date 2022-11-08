@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#MOCs vect",
+  "search": "-tag:#MOCs",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -130,6 +130,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 1.1761208090897908,
+  "scale": 0.20254859650200227,
   "close": true
 }

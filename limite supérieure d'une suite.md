@@ -41,3 +41,10 @@ On note : $\lim\sup\limits_{n \rightarrow \infty} (x_{n}) = L$
 > 
 
 
+# Propriétés
+Soit $(u_{n})_{n}$ une suite réelle.
+ - $\lim \inf u_{n} \leq \lim \sup u_{n}$
+ - $(u_{n})_{n}$ tend vers $l \in \overline{\mathbb{R}}$ ssi $\lim \inf u_{n} = \lim \sup u_{n} = l$
+ - $\lim \sup (\lambda u_{n}) = \lambda \lim \sup u_{n}$ (la limite supérieure est homogène)
+
+

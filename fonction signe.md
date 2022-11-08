@@ -2,19 +2,23 @@ up::[[MOC fonctions]]
 #maths/analyse #no-review 
 
 ----
-La _fonction signe_, notée $\sgn$ ou $\sg$, est une [[fonction]] qui extrait le signe d'un nombre réel.
 
-$$\sgn(x) = \left\{\begin{array}{lr}
--1 & \text{si } x < 0\\
-0  & \text{si } x = 0\\
-1  & \text{si } x > 0
-\end{array}\right.$$
+La _fonction signe_, notée $\mathrm{sgn}$ ou $\mathrm{sg}$ (parfois $\mathrm{sign}$), est une [[fonction]] qui extrait le signe d'un nombre réel.
+
+> [!definition] Fonction Signe
+> $$\mathrm{sgn}(x) = \left\{\begin{array}{lr}
+> -1 & \text{si } x < 0\\
+> 0  & \text{si } x = 0\\
+> 1  & \text{si } x > 0
+> \end{array}\right.$$
+^definition
 
 ```desmos-graph
 y = -1 | x < 0 | blue
 (0, 0) | blue
 y = 1  | x > 0 | blue
 ```
+^graphe
 
 # Autres définitions
 $$\sgn(x) = \left\{\begin{array}{ll}

@@ -1,4 +1,5 @@
-up::[[vim]]
+up:: [[vim plugins]] 
+title::"wikipedia (disponible uniquement sur nixos)"
 #informatique/vim #no-review 
 
 ----

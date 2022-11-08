@@ -448,3 +448,23 @@ On obtient :
 $\boxed{\int h_{2}(s) \, dx = x^{4}-6x^{3}+13x^{2}-12x+4+\text{cste.}}$
 
 
+
+## Exercice 5
+> Déterminer à l'aide de la définition la nature des intégrales suivantes et calculer celles qui convergent.
+
+### b)
+
+$\displaystyle \int_{-\infty}^{+\infty} \frac{dt}{1+t^{2}}$ 
+$$
+\begin{align}
+\displaystyle \int_{-\infty}^{+\infty} \frac{dt}{1+t^{2}} &= \int_{-\infty}^{0} \frac{1}{1+t^{2}} \, dt + \int_{0}^{+\infty} \frac{1}{1+t^{2}} \, dt  \\
+&= \lim\limits_{ x \to -\infty } \int_{x}^{0} \frac{1}{1+t^{2}} \, dt + \lim\limits_{ x \to +\infty } \int_{0}^{+\infty} \frac{1}{1+t^{2}} \,dt \\
+&= \lim\limits_{ x \to -\infty } \left[ \arctan(t) \right]_{x}^{0} + \lim\limits_{ x \to +\infty } \left[ \arctan(t) \right]_{0}^{x} \\
+&= \lim\limits_{ x \to -\infty } \left( 0-\arctan(x) \right) + \lim\limits_{ x \to +\infty } \left( \arctan(t)-0 \right)  \\
+&= -\left( - \frac{\pi}{2} \right) + \frac{\pi}{2} \\
+&= \pi
+\end{align}
+$$ 
+> [!info] Rappel
+> ![[fonction arctangente]]
+

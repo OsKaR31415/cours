@@ -15,7 +15,7 @@ $$\begin{align*}
 &= \frac{\tan a + \tan b}{1 - \tan a \tan b}
 \end{align*}$$
 
-# Alignement **avec des commentaires**
+# Alignement avec des commentaires
 
 en utilisant une colonne supplémentaire
 $$\begin{align*}

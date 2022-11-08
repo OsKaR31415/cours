@@ -21,3 +21,7 @@ On dit que $f$ est de classe $C^\infty$ ssi :
 On note:
  - $C^n(I)$ l'ensemble des fonctions de classe $C^n$ sur $I$
  - $\displaystyle C^\infty(I) = \cap_{n\in\mathbb N}C^n(I)$  l'ensemble des fonctions dérivables une infinité de fois
+
+## Remarque
+
+On peut utiliser $C^{0}$ pour désigner les fonctions continues.

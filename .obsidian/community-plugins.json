@@ -41,7 +41,6 @@
   "url-into-selection",
   "obsidian-latex-suite",
   "breadcrumbs",
-  "ob-table-enhancer",
   "obsidian-pocket",
   "obsidian-languagetool-plugin",
   "obsidian-markmind",
@@ -55,7 +54,8 @@
   "obsidian-better-internal-link-inserter",
   "obsidian-argdown-plugin",
   "obsidian-contextual-typography",
-  "obsidian-markdown-formatting-assistant-plugin",
   "improved-vimcursor",
-  "obsidian-charts"
+  "obsidian-charts",
+  "ob-table-enhancer",
+  "obsidian-markdown-formatting-assistant-plugin"
 ]

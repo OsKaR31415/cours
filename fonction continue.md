@@ -20,3 +20,4 @@ up::[[fonction]]
 
 Autrement dit, $f$ est continue en $a$ si la [[limite]] de $f$ en $a$ existe
 
+

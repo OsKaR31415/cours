@@ -2,7 +2,7 @@
 title::"TD1 d'analyse"
 
 ----
-sujet : [[L2 maths analyse TD1-annotate]]
+sujet : [[L2_maths_analyse_TD1-annotate]]
 
 # Exercice 1
 Pour chacune des suites dont le terme général est donné ci-dessous, déterminer son éventuelle limite.

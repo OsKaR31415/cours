@@ -12,7 +12,7 @@ avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
 $\mathrm{DL}_n(0)(1+x)^\alpha = \ldots$
 ?
 $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(\alpha-n+1)x^n}{n!}+x^n\varepsilon(x)$
-<!--SR:!2022-10-30,14,151-->
+<!--SR:!2022-11-06,3,131-->
 
 **Développement limité**
 $\mathrm{DL}_n(0)\dfrac{1}{1-x} =\ldots$
@@ -56,7 +56,7 @@ $=\sum\limits_{k=0}^{n} (-1)^{\frac{k}{2}}\frac{x^{k}}{k!}[2\mid k]$
 _somme alternée des $\frac{x^{k}}{k!}$ quand $2$ divise $k$_
 Puissances **Paires** car $\cos$ est une [[fonction paire]].
 Les parties régulières à l'ordre $2n$ et $2n+1$ sont les mêmes.
-<!--SR:!2022-10-24,23,200-->
+<!--SR:!2022-12-16,49,200-->
 
 
 **Développement limité**
@@ -79,7 +79,7 @@ $\displaystyle\mathrm{sh}(x) = x + \frac{x^{3}}{3!} + \frac{x^{5}}{5!} + \cdots 
 _somme des $\frac{x^{k}}{k!}$ quand $2$ ne divise pas $k$_
 Puissances **impaires** car $\mathrm{sh}$ est une [[fonction impaire]]
 Mêmes termes que $\mathrm{DL}_{n}: e^{x}$
-<!--SR:!2022-10-28,39,198-->
+<!--SR:!2023-01-13,77,198-->
 
 **Développement limité**
 $\mathrm{DL}_{n}(0) :\mathrm{ch}(x) = \ldots$

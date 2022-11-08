@@ -4,9 +4,11 @@ title::"traîter le vault comme une base de donnée"
 
 ----
 
+
 ```dataview
-CALENDAR date
-FROM "sources"
+TABLE date(anniv)
+FROM #personne
+WHERE anniv
 ```
 
 

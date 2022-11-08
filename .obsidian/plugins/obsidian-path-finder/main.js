@@ -2696,7 +2696,7 @@ async function* getNextPath(source, target, length, graph) {
     if (q.isEmpty()) {
       return void 0;
     }
-    path2 = q.pop().path;
+    path2 = q.peek().path;
     if (path2.length > length) {
       return void 0;
     }

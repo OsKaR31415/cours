@@ -1,8 +1,9 @@
-up::[[morphisme]]
+up:: [[automorphisme]] 
 down::[[endomorphisme linéaire]] 
-title::"[[morphisme]] d'un objet dans lui-même"
+title:: "[[automorphisme]] d'[[espace vectoriel]]"
 #maths/algèbre #review 
 
 ----
-Un _endomorphisme_ est un [[morphisme]] d'un objet dans **lui même**
+Un _endomorphisme_ est un [[morphisme]] d'un [[espace vectoriel]] dans lui-même.
+C'est un [[automorphisme]] d'[[espace vectoriel]].
 

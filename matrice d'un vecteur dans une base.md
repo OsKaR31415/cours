@@ -1,4 +1,4 @@
-up::[[matrice]], [[espace vectoriel]]
+up::[[matrice]]
 #maths/algèbre #review 
 # matrice d'un vecteur dans une base
 Soit $E$ un [[espace vectoriel]] réel de [[dimension d'un espace vectoriel|dimension]] $n$,

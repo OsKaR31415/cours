@@ -1,3 +1,6 @@
+---
+alias: [ "réciproque" ]
+---
 up::[[fonction]]
 #maths/analyse #no-review 
 

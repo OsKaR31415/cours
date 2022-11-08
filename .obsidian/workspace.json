@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34b5826f0088a7f2",
+        "id": "1073eef8bb6b84e6",
         "type": "tabs",
         "children": [
           {
-            "id": "ff6b3f2a25b80eee",
+            "id": "6ae05a4220cae9ef",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -22,7 +22,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flashcards algèbre.md",
+                "file": "langage de programmation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -30,7 +30,7 @@
             }
           },
           {
-            "id": "903b462a3f3db7c9",
+            "id": "bc9d13df2ddf4205",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -40,37 +40,9 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "fac L2 délégué",
+                  "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fac L2 délégué.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Retours élèves.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dfae970d3c00c8a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "définition axiomatique de Z",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"définition axiomatique de Z.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
@@ -78,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "définition axiomatique de N.md",
+                "file": "Traditionnal Mathematical Notation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +58,7 @@
             }
           },
           {
-            "id": "6a9693d8a7f2163e",
+            "id": "e1ce837b7527446e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -100,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cercip astep.md",
+                "file": "définitions alternatives de la fonction signe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +80,7 @@
             }
           },
           {
-            "id": "b84c7766b1662d25",
+            "id": "fcfd09d0ae20ebff",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -116,35 +88,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "présentation cercip astep séance 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8b8c3a63ef6295c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "fonction signe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction signe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":2.533333333333333}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "présentation cercip astep séance 2.md",
+                "file": "maths pour l'ingénieur feuille d'exercice 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -152,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "groupe:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -277,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "présentation cercip astep séance 2.md",
+                "file": "maths pour l'ingénieur feuille d'exercice 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "présentation cercip astep séance 2.md",
+                "file": "maths pour l'ingénieur feuille d'exercice 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,12 +265,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 560.5,
+    "width": 525.5,
     "collapsed": true
   },
   "right": {
@@ -341,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "présentation cercip astep séance 2.md"
+                "file": "maths pour l'ingénieur feuille d'exercice 1.md"
               }
             }
           },
@@ -411,7 +366,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "présentation cercip astep séance 2.md",
+                "file": "maths pour l'ingénieur feuille d'exercice 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -505,44 +460,10 @@
                   "repelStrength": 8.50328679306785,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.41881836698471764,
+                  "scale": 0.6432635871960121,
                   "close": true
                 }
               }
-            }
-          },
-          {
-            "id": "6d9ce680b04d5e2a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "28d0934a6d784199",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
             }
           },
           {
@@ -561,9 +482,42 @@
               "type": "custom-frames-detexify",
               "state": {}
             }
+          },
+          {
+            "id": "bbb6a2e5983cb458",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "b633b3db710b1c5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "9b0b445260de35cb",
@@ -624,23 +578,20 @@
     "direction": "horizontal",
     "width": 343.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "a8b8c3a63ef6295c",
+  "active": "fcfd09d0ae20ebff",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "formules de trigonométrie.md",
-    "sinus hyperbolique d'une somme.md",
-    "démonstration sinus hyperbolique d'une somme.md",
-    "tangente hyperbolique d'une somme.md",
-    "tangente hyperbolique du double.md",
-    "cercip astep.md",
-    "présentation cercip astep séance 1.md",
-    "présentation cercip astep séance 2.md",
-    "définition axiomatique de N.md",
-    "daily/2022-11-07.md"
+    "fonction signe.md",
+    "sources/cours/L2_maths_geometrie_TD4_2020-2021-annotate.md",
+    "algorithme d'Euclide inverse.md",
+    "sources/cours/L2_maths_TP_Introductio_a_python.pdf",
+    "sources/cours/L2_maths_programmation_TP1_plots.pdf",
+    "sources/cours/L2_maths_geometrie_TD5_2020-2021.pdf",
+    "sources/cours/L2_maths_geometrie_TD4_2020-2021.pdf",
+    "sources/cours/L2_maths_geometrie_TD3_2020-2021.pdf",
+    "sources/cours/L2_maths_geometrie_TD2_2020-2021-annotate.md",
+    "sources/cours/L2_maths_geometrie_TD1_2020-2021-annotate.md"
   ]
 }

@@ -10,7 +10,7 @@ up:: [[cercip astep]]
 ## Partie en classe complète 
 
 ---
-
+$
 ### Code césar
  - Enjeu : coder des messages 
  - fonctionnement 

@@ -1,3 +1,6 @@
+---
+alias: [ "uniformément continue" ]
+---
 up::[[fonction continue]]
 title::
 #maths/analyse 

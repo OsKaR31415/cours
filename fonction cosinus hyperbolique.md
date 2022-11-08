@@ -7,6 +7,7 @@ sr-ease: 302
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus hyperbolique|sh]]
 derivative::[[fonction sinus hyperbolique|-sh]]
+primitive::
 properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [1; +\infty[$", "$\dfrac{e^{x}+e^{-x}}{2}$"
 title::$\mathrm{ch}$

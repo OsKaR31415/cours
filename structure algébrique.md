@@ -8,7 +8,7 @@ up::[[MOC algèbre]]
 Une structure algébrique est un [[ensemble]] _muni_ d'une ou plusieurs [[loi de composition|lois de composition]].
 
 
-> [!query] Sous-notes de `=this.file.link`
+> [!query]- Sous-notes de `=this.file.link`
 > ```dataview
 > LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
@@ -24,7 +24,7 @@ Une structure algébrique est un [[ensemble]] _muni_ d'une ou plusieurs [[loi de
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
 > WHERE file.link != this.file.link
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT up.up.up.up.up, up.up.up.up, up.up.up, up.up, up
 > ```
 
 

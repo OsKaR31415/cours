@@ -29,7 +29,7 @@ On note $\mathcal{L}(\mathbb{R}^{n}, \mathbb{R}^{n})$ l'ensemble des application
      - donc $((f \circ g)\circ h) = (f \circ (g \circ h))$
      - donc $\circ$ est associative 
  - On sait que toutes les applications de $G$ sont [[bijection|bijectives]] 
-     - alors elles ont toutes une [[réciproque]] 
+     - alors elles ont toutes une [[fonction réciproque]] 
      - donc tous les éléments de $G$ sont symétrisables
 
 Puisque $\circ$ est interne, associative et que tous les éléments de $G$ sont symétrisables par $\circ$, alors $(G, \circ)$ est un [[groupe]] 

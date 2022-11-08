@@ -8,6 +8,7 @@ up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction cosinus hyperbolique|ch]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]
+primitive::""
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \dfrac{e^{x}-e^{-x}}{2}$"
 title::$\mathrm{sh}$
 #maths/analyse #maths/trigonométrie #no-review 

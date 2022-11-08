@@ -61,6 +61,25 @@ var __async = (__this, __arguments, generator) => {
   });
 };
 
+// node_modules/obsidian-dataview/lib/index.js
+var require_lib = __commonJS({
+  "node_modules/obsidian-dataview/lib/index.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    require("obsidian");
+    var getAPI3 = (app2) => {
+      var _a;
+      if (app2)
+        return (_a = app2.plugins.plugins.dataview) === null || _a === void 0 ? void 0 : _a.api;
+      else
+        return window.DataviewAPI;
+    };
+    var isPluginEnabled = (app2) => app2.plugins.enabledPlugins.has("dataview");
+    exports.getAPI = getAPI3;
+    exports.isPluginEnabled = isPluginEnabled;
+  }
+});
+
 // node_modules/before-after-hook/lib/register.js
 var require_register = __commonJS({
   "node_modules/before-after-hook/lib/register.js"(exports, module2) {
@@ -302,25 +321,6 @@ var require_once = __commonJS({
   }
 });
 
-// node_modules/obsidian-dataview/lib/index.js
-var require_lib = __commonJS({
-  "node_modules/obsidian-dataview/lib/index.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    require("obsidian");
-    var getAPI3 = (app2) => {
-      var _a;
-      if (app2)
-        return (_a = app2.plugins.plugins.dataview) === null || _a === void 0 ? void 0 : _a.api;
-      else
-        return window.DataviewAPI;
-    };
-    var isPluginEnabled = (app2) => app2.plugins.enabledPlugins.has("dataview");
-    exports.getAPI = getAPI3;
-    exports.isPluginEnabled = isPluginEnabled;
-  }
-});
-
 // plugin/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -337,6 +337,7 @@ var DEFAULT_SETTINGS = {
   githubRepo: "",
   githubName: "",
   GhToken: "",
+  githubBranch: "main",
   shareKey: "share",
   ExcludedFolder: "",
   fileMenu: false,
@@ -471,6 +472,8 @@ var en_us_default = {
   ghTokenDesc: "A github token with repository permission. You can generate it ",
   here: "here.",
   githubToken: "Github Token",
+  githubBranchHeading: "Main branch",
+  githubBranchDesc: 'If you use a different main branch than "main", you can specify it here.',
   uploadConfig: "Upload configuration",
   pathSetting: "Path settings",
   folderBehavior: "Folder behavior",
@@ -514,6 +517,8 @@ var en_us_default = {
   censorToolTipRemove: "Delete this text replacer",
   censorPlaceHolder: "Regex or text to replace",
   censorValuePlaceHolder: "Replacement value",
+  censorBefore: "Run it before the other plugin conversion (link, dataview, etc.)",
+  censorAfter: "Run it after the other plugin conversion (link, dataview, etc.)",
   inlineTagsHeader: "Inline tags",
   inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
   dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
@@ -590,6 +595,8 @@ var zh_cn_default = {
   ghTokenDesc: "github\u4ED3\u5E93\u7684\u64CD\u4F5C\u9700\u8981github token\u7ED9\u4E88\u6743\u9650\uFF0C\u4F60\u53EF\u4EE5\u5728",
   here: "\u8FD9\u91CC\u751F\u6210",
   githubToken: "Github Token",
+  githubBranchHeading: "Main branch",
+  githubBranchDesc: 'If you use a different main branch than "main", you can specify it here.',
   uploadConfig: "\u4E0A\u4F20\u8BBE\u7F6E",
   pathSetting: "\u8DEF\u5F84\u8BBE\u7F6E",
   folderBehavior: "\u6587\u4EF6\u5939\u64CD\u4F5C",
@@ -631,6 +638,8 @@ var zh_cn_default = {
   censorToolTipRemove: "Delete this text replacer",
   censorPlaceHolder: "Regex or text to replace",
   censorValuePlaceHolder: "Replacement value",
+  censorBefore: "Run it before the other plugin conversion (link, dataview, etc.)",
+  censorAfter: "Run it after the other plugin conversion (link, dataview, etc.)",
   inlineTagsHeader: "Inline tags",
   inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
   dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
@@ -709,6 +718,8 @@ var fr_fr_default = {
   ghTokenDesc: "Un token GitHub avec autorisation de d\xE9p\xF4t. Vous pouvez le g\xE9n\xE9rer ",
   here: "ici.",
   githubToken: "Token GitHub",
+  githubBranchHeading: "Branche principale",
+  githubBranchDesc: "Si vous utilisez une branche principale diff\xE9rente de main, vous pouvez la sp\xE9cifier ici.",
   uploadConfig: "Configuration d'upload",
   pathSetting: "Param\xE8tres du chemin d'acc\xE8s",
   folderBehavior: "Comportement du dossier",
@@ -752,6 +763,8 @@ var fr_fr_default = {
   censorToolTipRemove: "Supprimer ce remplacement",
   censorPlaceHolder: "Regex ou text \xE0 remplacer",
   censorValuePlaceHolder: "Remplacement",
+  censorBefore: "Ex\xE9cut\xE9 avant les autres conversions (liens, dataview, etc.)",
+  censorAfter: "Ex\xE9cut\xE9 apr\xE8s les autres conversions (liens, dataview, etc.)",
   inlineTagsHeader: "Inlines tags",
   inlineTagsDesc: 'Ajoute vos tags inline dans votre bloc de m\xE9tadonn\xE9e et convertit les tags imbriqu\xE9s en rempla\xE7ant "/" par "_".',
   dataviewFieldHeader: "Conversion des champs du frontmatter/dataview en tags",
@@ -828,6 +841,8 @@ var ru_default = {
   ghTokenDesc: "Github token \u0441 \u043F\u0440\u0430\u0432\u0430\u043C\u0438 \u043D\u0430 \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u0440\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u044E. \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0435\u0433\u043E ",
   here: "\u0437\u0434\u0435\u0441\u044C.",
   githubToken: "Github Token",
+  githubBranchHeading: "Main branch",
+  githubBranchDesc: 'If you use a different main branch than "main", you can specify it here.',
   uploadConfig: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438",
   pathSetting: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043F\u0443\u0442\u0435\u0439",
   folderBehavior: "\u041F\u043E\u0432\u0435\u0434\u0435\u043D\u0438\u0435 \u043F\u0440\u0438 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043F\u0430\u043F\u043E\u043A",
@@ -869,6 +884,8 @@ var ru_default = {
   censorToolTipRemove: "Delete this text replacer",
   censorPlaceHolder: "Regex or text to replace",
   censorValuePlaceHolder: "Replacement value",
+  censorBefore: "Run it before the other plugin conversion (link, dataview, etc.)",
+  censorAfter: "Run it after the other plugin conversion (link, dataview, etc.)",
   inlineTagsHeader: "Inline tags",
   inlineTagsDesc: 'Add your inline tags in your frontmatter tags field and converting nested tags with replacing "/" with "_"',
   dataviewFieldHeader: "Convert frontmatter/dataview field to tags",
@@ -972,6 +989,10 @@ var GithubPublisherSettings = class extends import_obsidian2.PluginSettingTab {
       this.plugin.settings.GhToken = value.trim();
       yield this.plugin.saveSettings();
     })));
+    new import_obsidian2.Setting(containerEl).setName(t("githubBranchHeading")).setDesc(t("githubBranchDesc")).addText((text) => text.setPlaceholder("main").setValue(this.plugin.settings.githubBranch).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.githubBranch = value.trim();
+      yield this.plugin.saveSettings();
+    })));
     containerEl.createEl("h2", { text: t("uploadConfig") });
     containerEl.createEl("h3", { text: t("pathSetting") });
     new import_obsidian2.Setting(this.containerEl).setName(t("folderBehavior")).setDesc(t("folderBehaviorDesc")).addDropdown((dropDown) => {
@@ -1057,33 +1078,43 @@ var GithubPublisherSettings = class extends import_obsidian2.PluginSettingTab {
     details.createEl("summary", { text: t("censorTextHeader") });
     new import_obsidian2.Setting(details).setClass("obs-git-publisher-censor-desc").setDesc(censorTextDesc).addButton((btn) => {
       btn.setIcon("plus").setTooltip(t("censorToolTipAdd")).onClick(() => __async(this, null, function* () {
-        const censorText2 = {
+        const censorText = {
           entry: "",
-          replace: ""
+          replace: "",
+          after: false
         };
-        this.plugin.settings.censorText.push(censorText2);
+        this.plugin.settings.censorText.push(censorText);
         yield this.plugin.saveSettings();
         this.display();
-        openDetails("Replacement de texte", true);
+        openDetails(t("censorTextHeader"), true);
       }));
     });
-    for (const censorText2 of this.plugin.settings.censorText) {
+    for (const censorText of this.plugin.settings.censorText) {
+      const afterIcon = censorText.after ? "double-down-arrow-glyph" : "double-up-arrow-glyph";
+      const afterDesc = censorText.after ? t("censorAfter") : t("censorBefore");
       new import_obsidian2.Setting(details).setClass("obs-git-publisher-censor-entry").addText((text) => {
-        text.setPlaceholder(t("censorPlaceHolder")).setValue(censorText2.entry).onChange((value) => __async(this, null, function* () {
-          censorText2.entry = value;
+        text.setPlaceholder(t("censorPlaceHolder")).setValue(censorText.entry).onChange((value) => __async(this, null, function* () {
+          censorText.entry = value;
           yield this.plugin.saveSettings();
         }));
       }).addText((text) => {
-        text.setPlaceholder(t("censorValuePlaceHolder")).setValue(censorText2.replace).onChange((value) => __async(this, null, function* () {
-          censorText2.replace = value;
+        text.setPlaceholder(t("censorValuePlaceHolder")).setValue(censorText.replace).onChange((value) => __async(this, null, function* () {
+          censorText.replace = value;
           yield this.plugin.saveSettings();
         }));
       }).addExtraButton((btn) => {
         btn.setIcon("trash").setTooltip(t("censorToolTipRemove")).onClick(() => __async(this, null, function* () {
-          this.plugin.settings.censorText.splice(this.plugin.settings.censorText.indexOf(censorText2), 1);
+          this.plugin.settings.censorText.splice(this.plugin.settings.censorText.indexOf(censorText), 1);
           yield this.plugin.saveSettings();
           this.display();
-          openDetails("Replacement de texte", true);
+          openDetails(t("censorTextHeader"), true);
+        }));
+      }).addExtraButton((btn) => {
+        btn.setIcon(afterIcon).setTooltip(afterDesc).onClick(() => __async(this, null, function* () {
+          censorText.after = !censorText.after;
+          yield this.plugin.saveSettings();
+          this.display();
+          openDetails(t("censorTextHeader"), true);
         }));
       });
     }
@@ -1268,8 +1299,15 @@ function createRelativePath(sourceFile, targetFile, metadata, settings, vault, f
   const targetPath = targetFile.linked.extension === "md" ? getReceiptFolder(targetFile.linked, settings, metadata, vault) : getImageLinkOptions(targetFile.linked, settings, getFrontmatterCondition(frontmatter, settings));
   const sourceList = sourcePath.split("/");
   const targetList = targetPath.split("/");
-  const diffSourcePath = sourceList.filter((x) => !targetList.includes(x));
-  const diffTargetPath = targetList.filter((x) => !sourceList.includes(x));
+  const excludeUtilDiff = (sourceList2, targetList2) => {
+    let i = 0;
+    while (sourceList2[i] === targetList2[i]) {
+      i++;
+    }
+    return sourceList2.slice(i);
+  };
+  const diffSourcePath = excludeUtilDiff(sourceList, targetList);
+  const diffTargetPath = excludeUtilDiff(targetList, sourceList);
   const diffTarget = function(folderPath) {
     const relativePath2 = [];
     for (const folder of folderPath) {
@@ -1344,7 +1382,7 @@ function getReceiptFolder(file, settings, metadataCache, vault) {
   if (file.extension === "md") {
     const frontmatter = (_a = metadataCache.getCache(file.path)) == null ? void 0 : _a.frontmatter;
     const fileName = getTitleField(frontmatter, file, settings);
-    if (!frontmatter[settings.shareKey]) {
+    if (!frontmatter || frontmatter[settings.shareKey] === void 0 || !frontmatter[settings.shareKey]) {
       return fileName;
     }
     let path = settings.folderDefaultName.length > 0 ? settings.folderDefaultName + "/" + fileName : fileName;
@@ -1425,18 +1463,18 @@ function createLink(file, settings, metadataCache, vault) {
     return;
   });
 }
-function noticeMessage(PublisherManager, file, settings) {
+function noticeMessage(PublisherManager, file, settings, repo) {
   return __async(this, null, function* () {
     const noticeValue = file instanceof import_obsidian4.TFile ? '"' + file.basename + '"' : file;
     if (settings.workflowName.length > 0) {
-      new import_obsidian4.Notice(t("sendMessage")([noticeValue, settings.githubRepo, `.
+      new import_obsidian4.Notice(t("sendMessage")([noticeValue, repo.owner + ":" + repo.repo, `.
 ${t("waitingWorkflow")}`]));
-      const successWorkflow = yield PublisherManager.workflowGestion();
+      const successWorkflow = yield PublisherManager.workflowGestion(repo);
       if (successWorkflow) {
-        new import_obsidian4.Notice(t("successfullPublish")([noticeValue, settings.githubRepo]));
+        new import_obsidian4.Notice(t("successfullPublish")([noticeValue, repo.owner + ":" + repo.repo]));
       }
     } else {
-      new import_obsidian4.Notice(t("successfullPublish")([noticeValue, settings.githubRepo]));
+      new import_obsidian4.Notice(t("successfullPublish")([noticeValue, repo.owner + ":" + repo.repo]));
     }
   });
 }
@@ -1522,6 +1560,1150 @@ function getFrontmatterCondition(frontmatter, settings) {
   }
   return settingsConversion;
 }
+function getRepoFrontmatter(settings, frontmatter) {
+  const repoFrontmatter = {
+    branch: settings.githubBranch,
+    repo: settings.githubRepo,
+    owner: settings.githubName,
+    autoclean: settings.autoCleanUp
+  };
+  if (!frontmatter) {
+    return repoFrontmatter;
+  }
+  if (frontmatter.repo !== void 0) {
+    if (typeof frontmatter.repo === "object") {
+      if (frontmatter.repo.branch !== void 0) {
+        repoFrontmatter.branch = frontmatter.repo.branch;
+      }
+      if (frontmatter.repo.repo !== void 0) {
+        repoFrontmatter.repo = frontmatter.repo.repo;
+      }
+      if (frontmatter.repo.owner !== void 0) {
+        repoFrontmatter.owner = frontmatter.repo.owner;
+      }
+    } else {
+      const repo = frontmatter.repo.split("/");
+      if (repo.length === 3) {
+        repoFrontmatter.branch = repo[2];
+        repoFrontmatter.repo = repo[1];
+        repoFrontmatter.owner = repo[0];
+      } else if (repo.length === 2) {
+        repoFrontmatter.repo = repo[1];
+        repoFrontmatter.owner = repo[0];
+      } else if (repo.length === 1) {
+        repoFrontmatter.repo = repo[0];
+      }
+    }
+  }
+  if (frontmatter.autoclean !== void 0) {
+    repoFrontmatter.autoclean = frontmatter.autoclean;
+  }
+  return repoFrontmatter;
+}
+
+// plugin/publishing/filesManagement.ts
+var import_obsidian8 = require("obsidian");
+
+// plugin/publishing/upload.ts
+var import_obsidian7 = require("obsidian");
+
+// node_modules/js-base64/base64.mjs
+var version = "3.7.2";
+var VERSION = version;
+var _hasatob = typeof atob === "function";
+var _hasbtoa = typeof btoa === "function";
+var _hasBuffer = typeof Buffer === "function";
+var _TD = typeof TextDecoder === "function" ? new TextDecoder() : void 0;
+var _TE = typeof TextEncoder === "function" ? new TextEncoder() : void 0;
+var b64ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+var b64chs = Array.prototype.slice.call(b64ch);
+var b64tab = ((a) => {
+  let tab = {};
+  a.forEach((c, i) => tab[c] = i);
+  return tab;
+})(b64chs);
+var b64re = /^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;
+var _fromCC = String.fromCharCode.bind(String);
+var _U8Afrom = typeof Uint8Array.from === "function" ? Uint8Array.from.bind(Uint8Array) : (it, fn = (x) => x) => new Uint8Array(Array.prototype.slice.call(it, 0).map(fn));
+var _mkUriSafe = (src) => src.replace(/=/g, "").replace(/[+\/]/g, (m0) => m0 == "+" ? "-" : "_");
+var _tidyB64 = (s) => s.replace(/[^A-Za-z0-9\+\/]/g, "");
+var btoaPolyfill = (bin) => {
+  let u32, c0, c1, c2, asc = "";
+  const pad = bin.length % 3;
+  for (let i = 0; i < bin.length; ) {
+    if ((c0 = bin.charCodeAt(i++)) > 255 || (c1 = bin.charCodeAt(i++)) > 255 || (c2 = bin.charCodeAt(i++)) > 255)
+      throw new TypeError("invalid character found");
+    u32 = c0 << 16 | c1 << 8 | c2;
+    asc += b64chs[u32 >> 18 & 63] + b64chs[u32 >> 12 & 63] + b64chs[u32 >> 6 & 63] + b64chs[u32 & 63];
+  }
+  return pad ? asc.slice(0, pad - 3) + "===".substring(pad) : asc;
+};
+var _btoa = _hasbtoa ? (bin) => btoa(bin) : _hasBuffer ? (bin) => Buffer.from(bin, "binary").toString("base64") : btoaPolyfill;
+var _fromUint8Array = _hasBuffer ? (u8a) => Buffer.from(u8a).toString("base64") : (u8a) => {
+  const maxargs = 4096;
+  let strs = [];
+  for (let i = 0, l = u8a.length; i < l; i += maxargs) {
+    strs.push(_fromCC.apply(null, u8a.subarray(i, i + maxargs)));
+  }
+  return _btoa(strs.join(""));
+};
+var fromUint8Array = (u8a, urlsafe = false) => urlsafe ? _mkUriSafe(_fromUint8Array(u8a)) : _fromUint8Array(u8a);
+var cb_utob = (c) => {
+  if (c.length < 2) {
+    var cc = c.charCodeAt(0);
+    return cc < 128 ? c : cc < 2048 ? _fromCC(192 | cc >>> 6) + _fromCC(128 | cc & 63) : _fromCC(224 | cc >>> 12 & 15) + _fromCC(128 | cc >>> 6 & 63) + _fromCC(128 | cc & 63);
+  } else {
+    var cc = 65536 + (c.charCodeAt(0) - 55296) * 1024 + (c.charCodeAt(1) - 56320);
+    return _fromCC(240 | cc >>> 18 & 7) + _fromCC(128 | cc >>> 12 & 63) + _fromCC(128 | cc >>> 6 & 63) + _fromCC(128 | cc & 63);
+  }
+};
+var re_utob = /[\uD800-\uDBFF][\uDC00-\uDFFFF]|[^\x00-\x7F]/g;
+var utob = (u) => u.replace(re_utob, cb_utob);
+var _encode = _hasBuffer ? (s) => Buffer.from(s, "utf8").toString("base64") : _TE ? (s) => _fromUint8Array(_TE.encode(s)) : (s) => _btoa(utob(s));
+var encode = (src, urlsafe = false) => urlsafe ? _mkUriSafe(_encode(src)) : _encode(src);
+var encodeURI2 = (src) => encode(src, true);
+var re_btou = /[\xC0-\xDF][\x80-\xBF]|[\xE0-\xEF][\x80-\xBF]{2}|[\xF0-\xF7][\x80-\xBF]{3}/g;
+var cb_btou = (cccc) => {
+  switch (cccc.length) {
+    case 4:
+      var cp = (7 & cccc.charCodeAt(0)) << 18 | (63 & cccc.charCodeAt(1)) << 12 | (63 & cccc.charCodeAt(2)) << 6 | 63 & cccc.charCodeAt(3), offset = cp - 65536;
+      return _fromCC((offset >>> 10) + 55296) + _fromCC((offset & 1023) + 56320);
+    case 3:
+      return _fromCC((15 & cccc.charCodeAt(0)) << 12 | (63 & cccc.charCodeAt(1)) << 6 | 63 & cccc.charCodeAt(2));
+    default:
+      return _fromCC((31 & cccc.charCodeAt(0)) << 6 | 63 & cccc.charCodeAt(1));
+  }
+};
+var btou = (b) => b.replace(re_btou, cb_btou);
+var atobPolyfill = (asc) => {
+  asc = asc.replace(/\s+/g, "");
+  if (!b64re.test(asc))
+    throw new TypeError("malformed base64.");
+  asc += "==".slice(2 - (asc.length & 3));
+  let u24, bin = "", r1, r2;
+  for (let i = 0; i < asc.length; ) {
+    u24 = b64tab[asc.charAt(i++)] << 18 | b64tab[asc.charAt(i++)] << 12 | (r1 = b64tab[asc.charAt(i++)]) << 6 | (r2 = b64tab[asc.charAt(i++)]);
+    bin += r1 === 64 ? _fromCC(u24 >> 16 & 255) : r2 === 64 ? _fromCC(u24 >> 16 & 255, u24 >> 8 & 255) : _fromCC(u24 >> 16 & 255, u24 >> 8 & 255, u24 & 255);
+  }
+  return bin;
+};
+var _atob = _hasatob ? (asc) => atob(_tidyB64(asc)) : _hasBuffer ? (asc) => Buffer.from(asc, "base64").toString("binary") : atobPolyfill;
+var _toUint8Array = _hasBuffer ? (a) => _U8Afrom(Buffer.from(a, "base64")) : (a) => _U8Afrom(_atob(a), (c) => c.charCodeAt(0));
+var toUint8Array = (a) => _toUint8Array(_unURI(a));
+var _decode = _hasBuffer ? (a) => Buffer.from(a, "base64").toString("utf8") : _TD ? (a) => _TD.decode(_toUint8Array(a)) : (a) => btou(_atob(a));
+var _unURI = (a) => _tidyB64(a.replace(/[-_]/g, (m0) => m0 == "-" ? "+" : "/"));
+var decode = (src) => _decode(_unURI(src));
+var isValid = (src) => {
+  if (typeof src !== "string")
+    return false;
+  const s = src.replace(/\s+/g, "").replace(/={0,2}$/, "");
+  return !/[^\s0-9a-zA-Z\+/]/.test(s) || !/[^\s0-9a-zA-Z\-_]/.test(s);
+};
+var _noEnum = (v) => {
+  return {
+    value: v,
+    enumerable: false,
+    writable: true,
+    configurable: true
+  };
+};
+var extendString = function() {
+  const _add = (name, body) => Object.defineProperty(String.prototype, name, _noEnum(body));
+  _add("fromBase64", function() {
+    return decode(this);
+  });
+  _add("toBase64", function(urlsafe) {
+    return encode(this, urlsafe);
+  });
+  _add("toBase64URI", function() {
+    return encode(this, true);
+  });
+  _add("toBase64URL", function() {
+    return encode(this, true);
+  });
+  _add("toUint8Array", function() {
+    return toUint8Array(this);
+  });
+};
+var extendUint8Array = function() {
+  const _add = (name, body) => Object.defineProperty(Uint8Array.prototype, name, _noEnum(body));
+  _add("toBase64", function(urlsafe) {
+    return fromUint8Array(this, urlsafe);
+  });
+  _add("toBase64URI", function() {
+    return fromUint8Array(this, true);
+  });
+  _add("toBase64URL", function() {
+    return fromUint8Array(this, true);
+  });
+};
+var extendBuiltins = () => {
+  extendString();
+  extendUint8Array();
+};
+var gBase64 = {
+  version,
+  VERSION,
+  atob: _atob,
+  atobPolyfill,
+  btoa: _btoa,
+  btoaPolyfill,
+  fromBase64: decode,
+  toBase64: encode,
+  encode,
+  encodeURI: encodeURI2,
+  encodeURL: encodeURI2,
+  utob,
+  btou,
+  decode,
+  isValid,
+  fromUint8Array,
+  toUint8Array,
+  extendString,
+  extendUint8Array,
+  extendBuiltins
+};
+
+// plugin/publishing/delete.ts
+var import_obsidian5 = require("obsidian");
+function deleteFromGithub(silent = false, settings, octokit, branchName = "main", filesManagement, repo) {
+  return __async(this, null, function* () {
+    const getAllFile = yield filesManagement.getAllFileFromRepo(branchName, octokit, settings, repo);
+    const filesInRepo = yield filterGithubFile(getAllFile, settings);
+    if (!filesInRepo) {
+      let errorMsg = "";
+      if (settings.folderDefaultName.length > 0) {
+        if (settings.folderDefaultName.length > 0) {
+          errorMsg = t("errorDeleteDefaultFolder");
+        } else if (settings.downloadedFolder === "yaml" /* yaml */ && settings.rootFolder.length === 0) {
+          errorMsg = t("errorDeleteRootFolder");
+        }
+        if (!silent) {
+          new import_obsidian5.Notice("Error : " + errorMsg);
+        }
+      }
+      return false;
+    }
+    const allSharedFiles = filesManagement.getAllFileWithPath();
+    const allSharedConverted = allSharedFiles.map((file) => {
+      return { converted: file.converted, repo: file.repoFrontmatter };
+    });
+    let deletedSuccess = 0;
+    let deletedFailed = 0;
+    for (const file of filesInRepo) {
+      const isInObsidian = allSharedConverted.some((f) => f.converted === file.file);
+      const isMarkdownForAnotherRepo = file.file.trim().endsWith(".md") ? !allSharedConverted.some((f) => f.converted === file.file && JSON.stringify(f.repo) == JSON.stringify(repo)) : false;
+      const isNeedToBeDeleted = isInObsidian ? isMarkdownForAnotherRepo : true;
+      if (isNeedToBeDeleted) {
+        const checkingIndex = file.file.contains("index") ? yield checkIndexFiles(octokit, settings, file.file, repo) : false;
+        try {
+          if (!checkingIndex) {
+            noticeLog(`trying to delete file : ${file.file} from ${repo.owner}/${repo.repo}`, settings);
+            const reponse = yield octokit.request("DELETE /repos/{owner}/{repo}/contents/{path}", {
+              owner: repo.owner,
+              repo: repo.repo,
+              path: file.file,
+              message: "Delete file",
+              sha: file.sha,
+              branch: branchName
+            });
+            if (reponse.status === 200) {
+              deletedSuccess++;
+            } else {
+              deletedFailed++;
+            }
+          }
+        } catch (e) {
+          if (!(e instanceof DOMException))
+            noticeLog(e, settings);
+        }
+      }
+    }
+    let successMsg = t("noFileDeleted");
+    let failedMsg = "";
+    if (deletedSuccess > 0) {
+      successMsg = t("successDeleting")(deletedSuccess.toString());
+    }
+    if (deletedFailed > 0) {
+      failedMsg = t("failedDeleting")(deletedFailed.toString());
+    }
+    if (!silent) {
+      new import_obsidian5.Notice(successMsg + failedMsg);
+    }
+    return true;
+  });
+}
+function excludedFileFromDelete(file, settings) {
+  const autoCleanExcluded = settings.autoCleanUpExcluded.split(",");
+  if (autoCleanExcluded.length > 0) {
+    for (const excludedFile of autoCleanExcluded) {
+      if (file.trim().includes(excludedFile.trim()) && excludedFile.length > 0) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+function filterGithubFile(fileInRepo, settings) {
+  return __async(this, null, function* () {
+    const sharedFilesInRepo = [];
+    for (const file of fileInRepo) {
+      if (settings.downloadedFolder === "yaml" /* yaml */ && settings.rootFolder.length === 0 || settings.folderDefaultName.length === 0) {
+        return null;
+      }
+      if ((file.file.includes(settings.folderDefaultName) || settings.downloadedFolder === "yaml" /* yaml */ && file.file.includes(settings.rootFolder) || settings.defaultImageFolder.length > 0 && file.file.includes(settings.defaultImageFolder)) && !excludedFileFromDelete(file.file, settings) && (isAttachment(file.file) || file.file.match("md$"))) {
+        sharedFilesInRepo.push(file);
+      }
+    }
+    return sharedFilesInRepo;
+  });
+}
+function parseYamlFrontmatter(contents) {
+  const yamlFrontmatter = contents.split("---")[1];
+  const yamlFrontmatterParsed = (0, import_obsidian5.parseYaml)(yamlFrontmatter);
+  return trimObject(yamlFrontmatterParsed);
+}
+function checkIndexFiles(octokit, settings, path, repoFrontmatter) {
+  return __async(this, null, function* () {
+    try {
+      const fileRequest = yield octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
+        owner: repoFrontmatter.owner,
+        repo: repoFrontmatter.repo,
+        path
+      });
+      if (fileRequest.status === 200) {
+        const fileContent = gBase64.decode(fileRequest.data.content);
+        const fileFrontmatter = parseYamlFrontmatter(fileContent);
+        return fileFrontmatter.index === "true" || fileFrontmatter.autoclean === "false" || !fileFrontmatter.share;
+      }
+    } catch (e) {
+      if (!(e instanceof DOMException)) {
+        noticeLog(e, settings);
+        return false;
+      }
+    }
+  });
+}
+
+// plugin/src/status_bar.ts
+var ShareStatusBar = class {
+  constructor(statusBarItem, numberOfNotesToPublish, attachment = false) {
+    this.attachment = false;
+    this.statusBarItem = statusBarItem;
+    this.counter = 0;
+    this.numberOfNotesToPublish = numberOfNotesToPublish;
+    this.attachment = attachment;
+    this.statusBarItem.createEl("span", { text: "" });
+    let msg = `${this.numberOfNotesToPublish} files marked for sharing`;
+    if (this.attachment) {
+      msg = `${this.numberOfNotesToPublish} attachments linked`;
+    }
+    this.status = this.statusBarItem.createEl("span", { text: `${msg}` });
+  }
+  increment() {
+    let msg = `\u231BSharing files`;
+    if (this.attachment) {
+      msg = `\u231BSharing attachments`;
+    }
+    this.status.setText(`${msg}: ${++this.counter}/${this.numberOfNotesToPublish}`);
+  }
+  finish(displayDurationMillisec) {
+    let msg = `\u2705 Published files`;
+    if (this.attachment) {
+      msg = `\u2705 Shared attachments`;
+    }
+    this.status.setText(`${msg}: ${this.counter}/${this.numberOfNotesToPublish}`);
+    setTimeout(() => {
+      this.statusBarItem.remove();
+    }, displayDurationMillisec);
+  }
+  error() {
+    this.statusBarItem.remove();
+  }
+};
+
+// plugin/contents_conversion/convertText.ts
+var import_obsidian6 = require("obsidian");
+var import_obsidian_dataview = __toESM(require_lib());
+
+// plugin/contents_conversion/convertLinks.ts
+function convertWikilinks(fileContent, conditionConvert, settings, linkedFiles) {
+  const convertWikilink = conditionConvert.convertWiki;
+  const imageSettings = conditionConvert.attachment;
+  const embedSettings = conditionConvert.embed;
+  const convertLinks = conditionConvert.links;
+  if (!convertWikilink && convertLinks && imageSettings && embedSettings && !conditionConvert.removeEmbed) {
+    return fileContent;
+  }
+  const wikiRegex = /!?\[\[.*?\]\]/g;
+  const wikiMatches = fileContent.match(wikiRegex);
+  if (wikiMatches) {
+    const fileRegex = /(\[\[).*?([\]|])/;
+    for (const wikiMatch of wikiMatches) {
+      const fileMatch = wikiMatch.match(fileRegex);
+      const isEmbed = wikiMatch.startsWith("!") ? "!" : "";
+      const isEmbedBool = wikiMatch.startsWith("!");
+      if (fileMatch) {
+        let linkCreator = wikiMatch;
+        const fileName = fileMatch[0].replaceAll("[", "").replaceAll("|", "").replaceAll("]", "").replaceAll("\\", "");
+        const StrictFileName = fileMatch[0].replaceAll("[", "").replaceAll("|", "").replaceAll("]", "").replaceAll("\\", "").replaceAll("../", "").replaceAll("./", "");
+        const linkedFile = linkedFiles.find((item) => item.linkFrom === StrictFileName);
+        if (linkedFile) {
+          const altText = linkedFile.altText.length > 0 ? linkedFile.altText : linkedFile.linked.extension === "md" ? linkedFile.linked.basename : "";
+          const removeEmbed = conditionConvert.removeEmbed && isEmbedBool && linkedFile.linked.extension === "md";
+          if (convertWikilink) {
+            let linkDestination = linkedFile.linkFrom;
+            if (linkedFile.destinationFilePath) {
+              linkDestination = linkedFile.destinationFilePath;
+            }
+            linkCreator = `${isEmbed}[${altText}](${encodeURI(linkDestination)})`;
+          }
+          if (linkedFile.linked.extension === "md" && !convertLinks && !isEmbedBool) {
+            linkCreator = altText;
+          }
+          if (!imageSettings && isAttachment(linkedFile.linked.extension) || removeEmbed) {
+            linkCreator = "";
+          }
+          fileContent = fileContent.replace(wikiMatch, linkCreator);
+        } else if (!fileName.startsWith("http")) {
+          const altMatch = wikiMatch.match(/(\|).*(]])/);
+          const altCreator = fileName.split("/");
+          const altLink = creatorAltLink(altMatch, altCreator, fileName.split(".").at(-1), fileName);
+          const removeEmbed = !isAttachment(fileName.trim()) && conditionConvert.removeEmbed && isEmbedBool;
+          if (convertWikilink) {
+            linkCreator = `${isEmbed}[${altLink}](${encodeURI(fileName.trim()) + ".md"})`;
+          }
+          if (!isAttachment(fileName.trim()) && !convertLinks && !isEmbedBool) {
+            linkCreator = altLink;
+          }
+          if (!imageSettings && isAttachment(fileName.trim()) || removeEmbed) {
+            linkCreator = "";
+          }
+          fileContent = fileContent.replace(wikiMatch, linkCreator);
+        }
+      }
+    }
+  }
+  return fileContent;
+}
+function addAltText(link, linkedFile) {
+  if (!link.match(/(\|).*(]])/)) {
+    return link.replace("|", "").replace("]]", `|${linkedFile.altText}]]`);
+  }
+  return link;
+}
+function convertLinkCitation(fileContent, settings, linkedFiles, metadataCache, sourceFile, vault, frontmatter) {
+  if (!settings.convertForGithub) {
+    return fileContent;
+  }
+  for (const linkedFile of linkedFiles) {
+    let pathInGithub = createRelativePath(sourceFile, linkedFile, metadataCache, settings, vault, frontmatter).replace(".md", "");
+    const regexToReplace = new RegExp(`(\\[{2}${linkedFile.linkFrom}(\\\\?\\|.*)?\\]{2})|(\\[.*\\]\\(${linkedFile.linkFrom}\\))`, "g");
+    const matchedLink = fileContent.match(regexToReplace);
+    if (matchedLink) {
+      for (const link of matchedLink) {
+        const regToReplace = new RegExp(`${linkedFile.linkFrom}`);
+        const block_link = linkedFile.linkFrom.match(/#.*/);
+        if (block_link) {
+          pathInGithub += block_link[0];
+        }
+        let newLink = link.replace(regToReplace, pathInGithub);
+        newLink = addAltText(newLink, linkedFile);
+        fileContent = fileContent.replace(link, newLink);
+      }
+    }
+  }
+  return fileContent;
+}
+function creatorAltLink(altMatch, altCreator, fileExtension, match) {
+  if (altMatch) {
+    return altMatch[0].replace("]]", "").replace("|", "");
+  }
+  if (fileExtension === "md") {
+    return altCreator.length > 1 ? altCreator[altCreator.length - 1] : altCreator[0];
+  }
+  return match.split("/").at(-1);
+}
+
+// plugin/contents_conversion/findAndReplaceText.ts
+function findAndReplaceText(text, settings, after) {
+  if (!settings.censorText) {
+    return text;
+  }
+  let censoring = settings.censorText.filter((censor) => !censor.after);
+  if (after) {
+    censoring = settings.censorText.filter((censor) => censor.after);
+  }
+  for (const censor of censoring) {
+    const regex = new RegExp(censor.entry, "ig");
+    text = text.replaceAll(regex, censor.replace);
+  }
+  return text;
+}
+
+// plugin/contents_conversion/convertText.ts
+function addHardLineBreak(text, settings, frontmatter) {
+  try {
+    text = text.replace(/^\s*\\\s*$/gmi, "<br/>");
+    if (frontmatter.hardbreak) {
+      text = text.replace(/\n/gm, "  \n");
+    }
+    return text;
+  } catch (e) {
+    noticeLog(e, settings);
+    return text;
+  }
+}
+function addTagsToYAML(text, toAdd) {
+  return __async(this, null, function* () {
+    const yaml = text.split("---")[1];
+    const yamlObject = (0, import_obsidian6.parseYaml)(yaml);
+    if (yamlObject.tag) {
+      toAdd = [.../* @__PURE__ */ new Set([...toAdd, ...yamlObject.tag.map((tag) => tag.replaceAll("/", "_"))])];
+      delete yamlObject.tag;
+    }
+    if (yamlObject.tags) {
+      yamlObject.tags = [.../* @__PURE__ */ new Set([...yamlObject.tags.map((tag) => tag.replaceAll("/", "_")), ...toAdd])];
+    } else {
+      yamlObject.tags = toAdd;
+    }
+    const returnToYaml = (0, import_obsidian6.stringifyYaml)(yamlObject);
+    const fileContentsOnly = text.split("---").slice(2).join("---");
+    return `---
+${returnToYaml}---
+${fileContentsOnly}`;
+  });
+}
+function addInlineTags(settings, file, metadataCache, app2, frontmatter, text) {
+  return __async(this, null, function* () {
+    var _a;
+    if (!settings.inlineTags) {
+      return text;
+    }
+    const inlineTags = (_a = metadataCache.getFileCache(file)) == null ? void 0 : _a.tags;
+    const inlineTagsInText = inlineTags ? inlineTags.map((t2) => t2.tag.replace("#", "").replaceAll("/", "_")) : [];
+    const frontmatterTags = (0, import_obsidian6.parseFrontMatterTags)(frontmatter);
+    const yamlTags = frontmatterTags ? frontmatterTags.map((t2) => t2.replace("#", "").replaceAll("/", "_")) : [];
+    const toAdd = [.../* @__PURE__ */ new Set([...inlineTagsInText, ...yamlTags])];
+    if (toAdd.length > 0) {
+      return yield addTagsToYAML(text, toAdd);
+    }
+    return text;
+  });
+}
+function dataviewExtract(fieldValue, settings) {
+  const basename = (name) => /([^/\\.]*)(\..*)?$/.exec(name)[1];
+  const filename = basename(fieldValue.path).toString();
+  const display = fieldValue.display ? fieldValue.display.toString() : filename;
+  if (!settings.excludeDataviewValue.includes(display) && !settings.excludeDataviewValue.includes(filename)) {
+    return display;
+  }
+  return null;
+}
+function convertInlineDataview(text, settings, sourceFile, app2) {
+  return __async(this, null, function* () {
+    if (settings.dataviewFields.length === 0 || !app2.plugins.enabledPlugins.has("dataview")) {
+      return text;
+    }
+    const dvApi = (0, import_obsidian_dataview.getAPI)();
+    const dataviewLinks = yield dvApi.page(sourceFile.path);
+    const valueToAdd = [];
+    for (const field of settings.dataviewFields) {
+      const fieldValue = dataviewLinks[field];
+      if (fieldValue) {
+        if (fieldValue.constructor.name === "Link") {
+          const stringifyField = dataviewExtract(fieldValue, settings);
+          valueToAdd.push(stringifyField);
+        } else if (fieldValue.constructor.name === "Array") {
+          for (const item of fieldValue) {
+            let stringifyField = item;
+            if (item.constructor.name === "Link") {
+              stringifyField = dataviewExtract(item, settings);
+              valueToAdd.push(stringifyField);
+            } else if (!settings.excludeDataviewValue.includes(stringifyField.toString())) {
+              valueToAdd.push(stringifyField.toString());
+            }
+          }
+        } else if (!settings.excludeDataviewValue.includes(fieldValue.toString())) {
+          valueToAdd.push(fieldValue.toString());
+        }
+      }
+    }
+    if (valueToAdd.length > 0) {
+      return yield addTagsToYAML(text, valueToAdd.filter(Boolean));
+    }
+    return text;
+  });
+}
+function convertDataviewQueries(text, path, settings, app2, metadataCache, frontmatterSettings, frontmatter, sourceFile) {
+  return __async(this, null, function* () {
+    if (!app2.plugins.enabledPlugins.has("dataview")) {
+      return text;
+    }
+    const vault = app2.vault;
+    let replacedText = text;
+    const dataviewRegex = new RegExp("```dataview(.+?)```", "gsm");
+    const dvApi = (0, import_obsidian_dataview.getAPI)();
+    const matches = text.matchAll(dataviewRegex);
+    if (!matches)
+      return;
+    const settingsDataview = frontmatterSettings.dataview;
+    for (const queryBlock of matches) {
+      try {
+        const block = queryBlock[0];
+        const query = queryBlock[1];
+        let md = settingsDataview ? yield dvApi.tryQueryMarkdown(query, path) : "";
+        const dataviewPath = getDataviewPath(md, settings, vault);
+        md = convertLinkCitation(md, settings, dataviewPath, metadataCache, sourceFile, vault, frontmatter);
+        md = convertWikilinks(md, frontmatterSettings, settings, dataviewPath);
+        replacedText = replacedText.replace(block, md);
+      } catch (e) {
+        noticeLog(e, settings);
+        new import_obsidian6.Notice("Unable to render dataview query. Please update the dataview plugin to the last version.");
+        return queryBlock[0];
+      }
+    }
+    return replacedText;
+  });
+}
+function mainConverting(text, settings, frontmatterSettings, file, app2, metadataCache, frontmatter, linkedFiles, plugin, vault) {
+  return __async(this, null, function* () {
+    text = findAndReplaceText(text, settings, false);
+    text = yield addInlineTags(settings, file, metadataCache, plugin.app, frontmatter, text);
+    text = yield convertDataviewQueries(text, file.path, settings, plugin.app, metadataCache, frontmatterSettings, frontmatter, file);
+    text = yield convertInlineDataview(text, settings, file, plugin.app);
+    text = addHardLineBreak(text, settings, frontmatterSettings);
+    text = convertLinkCitation(text, settings, linkedFiles, metadataCache, file, vault, frontmatter);
+    text = convertWikilinks(text, frontmatterSettings, settings, linkedFiles);
+    text = findAndReplaceText(text, settings, true);
+    return text;
+  });
+}
+
+// plugin/publishing/upload.ts
+var Publisher = class {
+  constructor(vault, metadataCache, settings, octokit, plugin) {
+    this.vault = vault;
+    this.metadataCache = metadataCache;
+    this.settings = settings;
+    this.octokit = octokit;
+    this.plugin = plugin;
+  }
+  statusBarForEmbed(linkedFiles, fileHistory, ref = "main", deepScan, sourceFrontmatter, repoFrontmatter) {
+    return __async(this, null, function* () {
+      if (linkedFiles.length > 0) {
+        if (linkedFiles.length > 1) {
+          const statusBarItems = this.plugin.addStatusBarItem();
+          const statusBar = new ShareStatusBar(statusBarItems, linkedFiles.length, true);
+          for (const image of linkedFiles) {
+            if (!fileHistory.includes(image)) {
+              if (image.extension === "md" && deepScan) {
+                yield this.publish(image, false, ref, repoFrontmatter, fileHistory, true);
+              } else if (isAttachment(image.extension) && sourceFrontmatter.attachment) {
+                yield this.uploadImage(image, ref, sourceFrontmatter, repoFrontmatter);
+                fileHistory.push(image);
+              }
+            }
+            statusBar.increment();
+          }
+          statusBar.finish(8e3);
+        } else {
+          const embed = linkedFiles[0];
+          if (!fileHistory.includes(embed)) {
+            if (embed.extension === "md" && deepScan) {
+              yield this.publish(embed, false, ref, repoFrontmatter, fileHistory, true);
+            } else if (isAttachment(embed.extension) && sourceFrontmatter.attachment) {
+              yield this.uploadImage(embed, ref, sourceFrontmatter, repoFrontmatter);
+              fileHistory.push(embed);
+            }
+          }
+        }
+      }
+      return fileHistory;
+    });
+  }
+  publish(_0) {
+    return __async(this, arguments, function* (file, autoclean = false, ref = "main", repoFrontmatter, fileHistory = [], deepScan = false) {
+      const shareFiles = new FilesManagement(this.vault, this.metadataCache, this.settings, this.octokit, this.plugin);
+      const sharedKey = this.settings.shareKey;
+      const frontmatter = this.metadataCache.getFileCache(file).frontmatter;
+      if (!frontmatter || !frontmatter[sharedKey] || shareFiles.checkExcludedFolder(file) || file.extension !== "md" || fileHistory.includes(file) || JSON.stringify(getRepoFrontmatter(this.settings, frontmatter)) !== JSON.stringify(repoFrontmatter)) {
+        return false;
+      }
+      try {
+        fileHistory.push(file);
+        const frontmatterSettings = getFrontmatterCondition(frontmatter, this.settings);
+        let embedFiles = shareFiles.getSharedEmbed(file, frontmatterSettings);
+        embedFiles = yield shareFiles.getMetadataLinks(file, embedFiles, frontmatter, frontmatterSettings);
+        const linkedFiles = shareFiles.getLinkedByEmbedding(file);
+        let text = yield app.vault.cachedRead(file);
+        text = yield mainConverting(text, this.settings, frontmatterSettings, file, app, this.metadataCache, frontmatter, linkedFiles, this.plugin, this.vault);
+        const path = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
+        noticeLog(`Upload ${file.name}:${path} on ${repoFrontmatter.owner}/${repoFrontmatter.repo}:${ref}`, this.settings);
+        yield this.uploadText(file.path, text, path, file.name, ref, repoFrontmatter);
+        yield this.statusBarForEmbed(embedFiles, fileHistory, ref, deepScan, frontmatterSettings, repoFrontmatter);
+        if (autoclean && repoFrontmatter.autoclean) {
+          yield deleteFromGithub(true, this.settings, this.octokit, ref, shareFiles, repoFrontmatter);
+        }
+        return true;
+      } catch (e) {
+        noticeLog(e, this.settings);
+        return false;
+      }
+    });
+  }
+  upload(filePath, content, path, title = "", ref = "main", repoFrontmatter) {
+    return __async(this, null, function* () {
+      if (!repoFrontmatter.repo) {
+        new import_obsidian7.Notice("Config error : You need to define a github repo in the plugin settings");
+        throw {};
+      }
+      if (!repoFrontmatter.owner) {
+        new import_obsidian7.Notice("Config error : You need to define your github username in the plugin settings");
+        throw {};
+      }
+      const octokit = this.octokit;
+      let msg = `PUSH NOTE : ${title}`;
+      if (isAttachment(path)) {
+        title = path.split("/")[path.split("/").length - 1];
+        msg = `PUSH ATTACHMENT : ${title}`;
+      }
+      const payload = {
+        owner: repoFrontmatter.owner,
+        repo: repoFrontmatter.repo,
+        path,
+        message: `Adding ${title}`,
+        content,
+        sha: "",
+        branch: ref
+      };
+      try {
+        const response = yield octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          path,
+          ref
+        });
+        if (response.status === 200 && response.data.type === "file") {
+          payload.sha = response.data.sha;
+        }
+      } catch (e) {
+        noticeLog("The 404 error is normal ! It means that the file does not exist yet. Don't worry \u2764\uFE0F.", this.settings);
+      }
+      payload.message = msg;
+      yield octokit.request("PUT /repos/{owner}/{repo}/contents/{path}", payload);
+    });
+  }
+  uploadImage(imageFile, ref = "main", sourcefrontmatter, repoFrontmatter) {
+    return __async(this, null, function* () {
+      const imageBin = yield this.vault.readBinary(imageFile);
+      const image64 = (0, import_obsidian7.arrayBufferToBase64)(imageBin);
+      const path = getImageLinkOptions(imageFile, this.settings, sourcefrontmatter);
+      yield this.upload(imageFile.path, image64, path, "", ref, repoFrontmatter);
+    });
+  }
+  uploadText(filePath, text, path, title = "", ref = "main", repoFrontmatter) {
+    return __async(this, null, function* () {
+      try {
+        const contentBase64 = gBase64.encode(text).toString();
+        yield this.upload(filePath, contentBase64, path, title, ref, repoFrontmatter);
+      } catch (e) {
+        console.error(e);
+      }
+    });
+  }
+  workflowGestion(repoFrontmatter) {
+    return __async(this, null, function* () {
+      let finished = false;
+      if (this.settings.workflowName.length === 0) {
+        return false;
+      } else {
+        const octokit = this.octokit;
+        yield octokit.request("POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          workflow_id: this.settings.workflowName,
+          ref: "main"
+        });
+        while (!finished) {
+          yield sleep(1e4);
+          const workflowGet = yield octokit.request("GET /repos/{owner}/{repo}/actions/runs", {
+            owner: repoFrontmatter.owner,
+            repo: repoFrontmatter.repo
+          });
+          if (workflowGet.data.workflow_runs.length > 0) {
+            const build = workflowGet.data.workflow_runs.find((run) => run.name === this.settings.workflowName.replace(".yml", ""));
+            if (build.status === "completed") {
+              finished = true;
+              return true;
+            }
+          }
+        }
+      }
+    });
+  }
+};
+
+// plugin/publishing/filesManagement.ts
+var import_obsidian_dataview2 = __toESM(require_lib());
+var FilesManagement = class extends Publisher {
+  constructor(vault, metadataCache, settings, octokit, plugin) {
+    super(vault, metadataCache, settings, octokit, plugin);
+    this.vault = vault;
+    this.metadataCache = metadataCache;
+    this.settings = settings;
+    this.octokit = octokit;
+    this.plugin = plugin;
+  }
+  getSharedFiles() {
+    const files = this.vault.getMarkdownFiles();
+    const shared_File = [];
+    const sharedkey = this.settings.shareKey;
+    for (const file of files) {
+      try {
+        const frontMatter = this.metadataCache.getCache(file.path).frontmatter;
+        if (frontMatter && frontMatter[sharedkey] === true) {
+          shared_File.push(file);
+        }
+      } catch (e) {
+      }
+    }
+    return shared_File;
+  }
+  getAllFileWithPath() {
+    const files = this.vault.getFiles();
+    const allFileWithPath = [];
+    const shareKey = this.settings.shareKey;
+    for (const file of files) {
+      if (isAttachment(file.extension)) {
+        const filepath = getImageLinkOptions(file, this.settings, null);
+        allFileWithPath.push({
+          converted: filepath,
+          real: file.path
+        });
+      } else if (file.extension == "md") {
+        const frontMatter = this.metadataCache.getCache(file.path).frontmatter;
+        if (frontMatter && frontMatter[shareKey] === true) {
+          const filepath = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
+          allFileWithPath.push({
+            converted: filepath,
+            real: file.path,
+            repoFrontmatter: getRepoFrontmatter(this.settings, frontMatter)
+          });
+        }
+      }
+    }
+    return allFileWithPath;
+  }
+  getLinkedByEmbedding(file) {
+    const linkedFiles = this.getLinkedFiles(file);
+    const imageEmbedded = this.metadataCache.getFileCache(file).embeds;
+    if (imageEmbedded != void 0) {
+      for (const image of imageEmbedded) {
+        try {
+          const imageLink = this.metadataCache.getFirstLinkpathDest(image.link.replace(/#.*/, ""), file.path);
+          if (imageLink !== null) {
+            if (imageLink.extension === "md") {
+              const checkFrontmatter = this.metadataCache.getCache(imageLink.path).frontmatter;
+              if (checkFrontmatter && checkFrontmatter[this.settings.shareKey] === true) {
+                linkedFiles.push({
+                  linked: imageLink,
+                  linkFrom: image.link,
+                  altText: image.displayText
+                });
+              }
+            } else {
+              linkedFiles.push({
+                linked: imageLink,
+                linkFrom: image.link,
+                altText: image.displayText
+              });
+            }
+          }
+        } catch (e) {
+        }
+      }
+    }
+    return [...new Set(linkedFiles)];
+  }
+  getLinkedFiles(file) {
+    const embedCaches = this.metadataCache.getCache(file.path).links;
+    const embedList = [];
+    if (embedCaches != void 0) {
+      for (const embedCache of embedCaches) {
+        try {
+          const linkedFile = this.metadataCache.getFirstLinkpathDest(embedCache.link, file.path);
+          if (linkedFile) {
+            const frontmatter = this.metadataCache.getCache(linkedFile.path).frontmatter;
+            let frontmatterDestinationFilePath;
+            if (frontmatter) {
+              frontmatterDestinationFilePath = frontmatter.filename;
+            }
+            embedList.push({
+              linked: linkedFile,
+              linkFrom: embedCache.link,
+              altText: embedCache.displayText,
+              destinationFilePath: frontmatterDestinationFilePath
+            });
+          }
+        } catch (e) {
+          noticeLog(e, this.settings);
+          noticeLog("Error with this links : " + embedCache.link, this.settings);
+        }
+      }
+      return [...new Set(embedList)];
+    }
+    return [];
+  }
+  getSharedEmbed(file, frontmatterSourceFile) {
+    const embedCaches = this.metadataCache.getCache(file.path).embeds;
+    const imageList = [];
+    if (embedCaches != void 0) {
+      for (const embed of embedCaches) {
+        try {
+          const imageLink = this.metadataCache.getFirstLinkpathDest(embed.link.replace(/#(.*)/, ""), file.path);
+          imageList.push(this.imageSharedOrNote(imageLink, frontmatterSourceFile));
+        } catch (e) {
+          noticeLog(e, this.settings);
+          noticeLog("Error with this file : " + embed.displayText, this.settings);
+        }
+      }
+      return [...new Set(imageList)].filter((x) => x !== null);
+    }
+    return [];
+  }
+  checkExcludedFolder(file) {
+    const excludedFolder = this.settings.ExcludedFolder.split(",").filter((x) => x != "");
+    if (excludedFolder.length > 0) {
+      for (let i = 0; i < excludedFolder.length; i++) {
+        if (file.path.contains(excludedFolder[i].trim())) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+  getLastEditedTimeRepo(octokit, githubRepo, settings) {
+    return __async(this, null, function* () {
+      const commits = yield octokit.request("GET /repos/{owner}/{repo}/commits", {
+        owner: settings.githubName,
+        repo: settings.githubRepo,
+        path: githubRepo.file
+      });
+      const lastCommittedFile = commits.data[0];
+      return new Date(lastCommittedFile.commit.committer.date);
+    });
+  }
+  getAllFileFromRepo(ref = "main", octokit, settings, repo) {
+    return __async(this, null, function* () {
+      const filesInRepo = [];
+      try {
+        const repoContents = yield octokit.request("GET /repos/{owner}/{repo}/git/trees/{tree_sha}", {
+          owner: repo.owner,
+          repo: repo.repo,
+          tree_sha: ref,
+          recursive: "true"
+        });
+        if (repoContents.status === 200) {
+          const files = repoContents.data.tree;
+          for (const file of files) {
+            const basename = (name) => /([^/\\.]*)(\..*)?$/.exec(name)[1];
+            if (file.type === "blob" && basename(file.path).length > 0) {
+              filesInRepo.push({
+                file: file.path,
+                sha: file.sha
+              });
+            }
+          }
+        }
+      } catch (e) {
+        noticeLog(e, settings);
+      }
+      return filesInRepo;
+    });
+  }
+  getNewFiles(allFileWithPath, githubSharedFiles, vault) {
+    const newFiles = [];
+    for (const file of allFileWithPath) {
+      if (!githubSharedFiles.some((x) => x.file === file.converted.trim())) {
+        const fileInVault = vault.getAbstractFileByPath(file.real.trim());
+        if (fileInVault && fileInVault instanceof import_obsidian8.TFile && fileInVault.extension === "md") {
+          newFiles.push(fileInVault);
+        }
+      }
+    }
+    return newFiles;
+  }
+  getImageByPath(path, field, frontmatterSourceFile) {
+    if (field.constructor.name === "Link") {
+      field = field.path;
+    }
+    if (path.constructor.name === "Link") {
+      path = path.path;
+    }
+    const imageLink = this.metadataCache.getFirstLinkpathDest(field, path);
+    if (imageLink !== null) {
+      return this.imageSharedOrNote(imageLink, frontmatterSourceFile);
+    }
+    return null;
+  }
+  imageSharedOrNote(file, settingsConversion) {
+    const transferImage = settingsConversion.attachment;
+    const transferEmbeds = settingsConversion.embed;
+    if (isAttachment(file.extension) && transferImage || transferEmbeds && file.extension === "md") {
+      return file;
+    }
+    return null;
+  }
+  getMetadataLinks(file, embedFiles, frontmatterSourceFile, frontmatterSettings) {
+    return __async(this, null, function* () {
+      for (const field of this.settings.metadataFileFields) {
+        if (frontmatterSourceFile[field] != void 0) {
+          const imageLink = this.metadataCache.getFirstLinkpathDest(frontmatterSourceFile[field], file.path);
+          if (imageLink !== null) {
+            embedFiles.push(this.imageSharedOrNote(file, frontmatterSettings));
+          }
+        }
+      }
+      if (this.plugin.app.plugins.enabledPlugins.has("dataview")) {
+        const dvApi = (0, import_obsidian_dataview2.getAPI)();
+        const dataviewMetadata = yield dvApi.page(file.path);
+        for (const field of this.settings.metadataFileFields) {
+          const fieldValue = dataviewMetadata[field];
+          if (fieldValue != void 0) {
+            if (fieldValue.constructor.name === "Array") {
+              for (const value of fieldValue) {
+                embedFiles.push(this.getImageByPath(value, fieldValue, frontmatterSettings));
+              }
+            } else {
+              embedFiles.push(this.getImageByPath(fieldValue, fieldValue, frontmatterSettings));
+            }
+          }
+        }
+      }
+      return [...new Set(embedFiles)].filter((x) => x != null);
+    });
+  }
+  getEditedFiles(allFileWithPath, githubSharedFiles, vault, newFiles) {
+    return __async(this, null, function* () {
+      for (const file of allFileWithPath) {
+        if (githubSharedFiles.some((x) => x.file === file.converted.trim())) {
+          const githubSharedFile = githubSharedFiles.find((x) => x.file === file.converted.trim());
+          const repoEditedTime = yield this.getLastEditedTimeRepo(this.octokit, githubSharedFile, this.settings);
+          const fileInVault = vault.getAbstractFileByPath(file.real.trim());
+          if (fileInVault && fileInVault instanceof import_obsidian8.TFile && fileInVault.extension === "md") {
+            const vaultEditedTime = new Date(fileInVault.stat.mtime);
+            if (vaultEditedTime > repoEditedTime) {
+              noticeLog(`edited file : ${fileInVault.path} / ${vaultEditedTime} vs ${repoEditedTime}`, this.settings);
+              newFiles.push(fileInVault);
+            }
+          }
+        }
+      }
+      return newFiles;
+    });
+  }
+};
+
+// plugin/publishing/branch.ts
+var import_obsidian9 = require("obsidian");
+var GithubBranch = class extends FilesManagement {
+  constructor(settings, octokit, vault, metadataCache, plugin) {
+    super(vault, metadataCache, settings, octokit, plugin);
+    this.settings = settings;
+    this.octokit = octokit;
+    this.plugin = plugin;
+  }
+  newBranch(branchName, repoFrontmatter) {
+    return __async(this, null, function* () {
+      const allBranch = yield this.octokit.request("GET /repos/{owner}/{repo}/branches", {
+        owner: repoFrontmatter.owner,
+        repo: repoFrontmatter.repo
+      });
+      const mainBranch = allBranch.data.find((branch) => branch.name === repoFrontmatter.branch);
+      const shaMainBranch = mainBranch.commit.sha;
+      try {
+        const branch = yield this.octokit.request("POST /repos/{owner}/{repo}/git/refs", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          ref: "refs/heads/" + branchName,
+          sha: shaMainBranch
+        });
+        return branch.status === 201;
+      } catch (e) {
+        const allBranch2 = yield this.octokit.request("GET /repos/{owner}/{repo}/branches", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo
+        });
+        const mainBranch2 = allBranch2.data.find((branch) => branch.name === branchName);
+        return !!mainBranch2;
+      }
+    });
+  }
+  pullRequest(branchName, repoFrontmatter) {
+    return __async(this, null, function* () {
+      try {
+        const PR = yield this.octokit.request("POST /repos/{owner}/{repo}/pulls", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          title: `PullRequest ${branchName} from Obsidian`,
+          body: "",
+          head: branchName,
+          base: repoFrontmatter.branch
+        });
+        return PR.data.number;
+      } catch (e) {
+        const PR = yield this.octokit.request("GET /repos/{owner}/{repo}/pulls", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          state: "open"
+        });
+        return PR.data[0].number;
+      }
+    });
+  }
+  deleteBranch(branchName, repoFrontmatter) {
+    return __async(this, null, function* () {
+      try {
+        const branch = yield this.octokit.request("DELETE /repos/{owner}/{repo}/git/refs/heads/" + branchName, {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo
+        });
+        return branch.status === 200;
+      } catch (e) {
+        return false;
+      }
+    });
+  }
+  mergePullRequest(branchName, silent = false, pullRequestNumber, repoFrontmatter) {
+    return __async(this, null, function* () {
+      try {
+        const branch = yield this.octokit.request("PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge", {
+          owner: repoFrontmatter.owner,
+          repo: repoFrontmatter.repo,
+          pull_number: pullRequestNumber,
+          commit_title: `[PUBLISHER] Merge #${pullRequestNumber}`,
+          merge_method: "squash"
+        });
+        return branch.status === 200;
+      } catch (e) {
+        new import_obsidian9.Notice(t("mergeconflic"));
+        return false;
+      }
+    });
+  }
+  updateRepository(branchName, repoFrontmatter) {
+    return __async(this, null, function* () {
+      const pullRequest = yield this.pullRequest(branchName, repoFrontmatter);
+      const PRSuccess = yield this.mergePullRequest(branchName, true, pullRequest, repoFrontmatter);
+      if (PRSuccess) {
+        yield this.deleteBranch(branchName, repoFrontmatter);
+        return true;
+      }
+      return false;
+    });
+  }
+};
 
 // node_modules/universal-user-agent/dist-web/index.js
 function getUserAgent() {
@@ -1821,8 +3003,8 @@ function withDefaults(oldDefaults, newDefaults) {
     parse
   });
 }
-var VERSION = "6.0.12";
-var userAgent = `octokit-endpoint.js/${VERSION} ${getUserAgent()}`;
+var VERSION2 = "6.0.12";
+var userAgent = `octokit-endpoint.js/${VERSION2} ${getUserAgent()}`;
 var DEFAULTS = {
   method: "GET",
   baseUrl: "https://api.github.com",
@@ -1895,7 +3077,7 @@ var RequestError = class extends Error {
 };
 
 // node_modules/@octokit/request/dist-web/index.js
-var VERSION2 = "5.6.3";
+var VERSION3 = "5.6.3";
 function getBufferResponse(response) {
   return response.arrayBuffer();
 }
@@ -2027,12 +3209,12 @@ function withDefaults2(oldEndpoint, newDefaults) {
 }
 var request = withDefaults2(endpoint, {
   headers: {
-    "user-agent": `octokit-request.js/${VERSION2} ${getUserAgent()}`
+    "user-agent": `octokit-request.js/${VERSION3} ${getUserAgent()}`
   }
 });
 
 // node_modules/@octokit/graphql/dist-web/index.js
-var VERSION3 = "4.8.0";
+var VERSION4 = "4.8.0";
 function _buildMessageForResponseErrors(data) {
   return `Request failed due to following response errors:
 ` + data.errors.map((e) => ` - ${e.message}`).join("\n");
@@ -2112,7 +3294,7 @@ function withDefaults3(request$1, newDefaults) {
 }
 var graphql$1 = withDefaults3(request, {
   headers: {
-    "user-agent": `octokit-graphql.js/${VERSION3} ${getUserAgent()}`
+    "user-agent": `octokit-graphql.js/${VERSION4} ${getUserAgent()}`
   },
   method: "POST",
   url: "/graphql"
@@ -2168,7 +3350,7 @@ var createTokenAuth = function createTokenAuth2(token) {
 };
 
 // node_modules/@octokit/core/dist-web/index.js
-var VERSION4 = "3.6.0";
+var VERSION5 = "3.6.0";
 var Octokit = class {
   constructor(options = {}) {
     const hook2 = new import_before_after_hook.Collection();
@@ -2185,7 +3367,7 @@ var Octokit = class {
     };
     requestDefaults.headers["user-agent"] = [
       options.userAgent,
-      `octokit-core.js/${VERSION4} ${getUserAgent()}`
+      `octokit-core.js/${VERSION5} ${getUserAgent()}`
     ].filter(Boolean).join(" ");
     if (options.baseUrl) {
       requestDefaults.baseUrl = options.baseUrl;
@@ -2258,1102 +3440,12 @@ var Octokit = class {
     return NewOctokit;
   }
 };
-Octokit.VERSION = VERSION4;
+Octokit.VERSION = VERSION5;
 Octokit.plugins = [];
-
-// plugin/publishing/filesManagement.ts
-var import_obsidian8 = require("obsidian");
-
-// plugin/publishing/upload.ts
-var import_obsidian7 = require("obsidian");
-
-// node_modules/js-base64/base64.mjs
-var version = "3.7.2";
-var VERSION5 = version;
-var _hasatob = typeof atob === "function";
-var _hasbtoa = typeof btoa === "function";
-var _hasBuffer = typeof Buffer === "function";
-var _TD = typeof TextDecoder === "function" ? new TextDecoder() : void 0;
-var _TE = typeof TextEncoder === "function" ? new TextEncoder() : void 0;
-var b64ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-var b64chs = Array.prototype.slice.call(b64ch);
-var b64tab = ((a) => {
-  let tab = {};
-  a.forEach((c, i) => tab[c] = i);
-  return tab;
-})(b64chs);
-var b64re = /^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;
-var _fromCC = String.fromCharCode.bind(String);
-var _U8Afrom = typeof Uint8Array.from === "function" ? Uint8Array.from.bind(Uint8Array) : (it, fn = (x) => x) => new Uint8Array(Array.prototype.slice.call(it, 0).map(fn));
-var _mkUriSafe = (src) => src.replace(/=/g, "").replace(/[+\/]/g, (m0) => m0 == "+" ? "-" : "_");
-var _tidyB64 = (s) => s.replace(/[^A-Za-z0-9\+\/]/g, "");
-var btoaPolyfill = (bin) => {
-  let u32, c0, c1, c2, asc = "";
-  const pad = bin.length % 3;
-  for (let i = 0; i < bin.length; ) {
-    if ((c0 = bin.charCodeAt(i++)) > 255 || (c1 = bin.charCodeAt(i++)) > 255 || (c2 = bin.charCodeAt(i++)) > 255)
-      throw new TypeError("invalid character found");
-    u32 = c0 << 16 | c1 << 8 | c2;
-    asc += b64chs[u32 >> 18 & 63] + b64chs[u32 >> 12 & 63] + b64chs[u32 >> 6 & 63] + b64chs[u32 & 63];
-  }
-  return pad ? asc.slice(0, pad - 3) + "===".substring(pad) : asc;
-};
-var _btoa = _hasbtoa ? (bin) => btoa(bin) : _hasBuffer ? (bin) => Buffer.from(bin, "binary").toString("base64") : btoaPolyfill;
-var _fromUint8Array = _hasBuffer ? (u8a) => Buffer.from(u8a).toString("base64") : (u8a) => {
-  const maxargs = 4096;
-  let strs = [];
-  for (let i = 0, l = u8a.length; i < l; i += maxargs) {
-    strs.push(_fromCC.apply(null, u8a.subarray(i, i + maxargs)));
-  }
-  return _btoa(strs.join(""));
-};
-var fromUint8Array = (u8a, urlsafe = false) => urlsafe ? _mkUriSafe(_fromUint8Array(u8a)) : _fromUint8Array(u8a);
-var cb_utob = (c) => {
-  if (c.length < 2) {
-    var cc = c.charCodeAt(0);
-    return cc < 128 ? c : cc < 2048 ? _fromCC(192 | cc >>> 6) + _fromCC(128 | cc & 63) : _fromCC(224 | cc >>> 12 & 15) + _fromCC(128 | cc >>> 6 & 63) + _fromCC(128 | cc & 63);
-  } else {
-    var cc = 65536 + (c.charCodeAt(0) - 55296) * 1024 + (c.charCodeAt(1) - 56320);
-    return _fromCC(240 | cc >>> 18 & 7) + _fromCC(128 | cc >>> 12 & 63) + _fromCC(128 | cc >>> 6 & 63) + _fromCC(128 | cc & 63);
-  }
-};
-var re_utob = /[\uD800-\uDBFF][\uDC00-\uDFFFF]|[^\x00-\x7F]/g;
-var utob = (u) => u.replace(re_utob, cb_utob);
-var _encode = _hasBuffer ? (s) => Buffer.from(s, "utf8").toString("base64") : _TE ? (s) => _fromUint8Array(_TE.encode(s)) : (s) => _btoa(utob(s));
-var encode = (src, urlsafe = false) => urlsafe ? _mkUriSafe(_encode(src)) : _encode(src);
-var encodeURI2 = (src) => encode(src, true);
-var re_btou = /[\xC0-\xDF][\x80-\xBF]|[\xE0-\xEF][\x80-\xBF]{2}|[\xF0-\xF7][\x80-\xBF]{3}/g;
-var cb_btou = (cccc) => {
-  switch (cccc.length) {
-    case 4:
-      var cp = (7 & cccc.charCodeAt(0)) << 18 | (63 & cccc.charCodeAt(1)) << 12 | (63 & cccc.charCodeAt(2)) << 6 | 63 & cccc.charCodeAt(3), offset = cp - 65536;
-      return _fromCC((offset >>> 10) + 55296) + _fromCC((offset & 1023) + 56320);
-    case 3:
-      return _fromCC((15 & cccc.charCodeAt(0)) << 12 | (63 & cccc.charCodeAt(1)) << 6 | 63 & cccc.charCodeAt(2));
-    default:
-      return _fromCC((31 & cccc.charCodeAt(0)) << 6 | 63 & cccc.charCodeAt(1));
-  }
-};
-var btou = (b) => b.replace(re_btou, cb_btou);
-var atobPolyfill = (asc) => {
-  asc = asc.replace(/\s+/g, "");
-  if (!b64re.test(asc))
-    throw new TypeError("malformed base64.");
-  asc += "==".slice(2 - (asc.length & 3));
-  let u24, bin = "", r1, r2;
-  for (let i = 0; i < asc.length; ) {
-    u24 = b64tab[asc.charAt(i++)] << 18 | b64tab[asc.charAt(i++)] << 12 | (r1 = b64tab[asc.charAt(i++)]) << 6 | (r2 = b64tab[asc.charAt(i++)]);
-    bin += r1 === 64 ? _fromCC(u24 >> 16 & 255) : r2 === 64 ? _fromCC(u24 >> 16 & 255, u24 >> 8 & 255) : _fromCC(u24 >> 16 & 255, u24 >> 8 & 255, u24 & 255);
-  }
-  return bin;
-};
-var _atob = _hasatob ? (asc) => atob(_tidyB64(asc)) : _hasBuffer ? (asc) => Buffer.from(asc, "base64").toString("binary") : atobPolyfill;
-var _toUint8Array = _hasBuffer ? (a) => _U8Afrom(Buffer.from(a, "base64")) : (a) => _U8Afrom(_atob(a), (c) => c.charCodeAt(0));
-var toUint8Array = (a) => _toUint8Array(_unURI(a));
-var _decode = _hasBuffer ? (a) => Buffer.from(a, "base64").toString("utf8") : _TD ? (a) => _TD.decode(_toUint8Array(a)) : (a) => btou(_atob(a));
-var _unURI = (a) => _tidyB64(a.replace(/[-_]/g, (m0) => m0 == "-" ? "+" : "/"));
-var decode = (src) => _decode(_unURI(src));
-var isValid = (src) => {
-  if (typeof src !== "string")
-    return false;
-  const s = src.replace(/\s+/g, "").replace(/={0,2}$/, "");
-  return !/[^\s0-9a-zA-Z\+/]/.test(s) || !/[^\s0-9a-zA-Z\-_]/.test(s);
-};
-var _noEnum = (v) => {
-  return {
-    value: v,
-    enumerable: false,
-    writable: true,
-    configurable: true
-  };
-};
-var extendString = function() {
-  const _add = (name, body) => Object.defineProperty(String.prototype, name, _noEnum(body));
-  _add("fromBase64", function() {
-    return decode(this);
-  });
-  _add("toBase64", function(urlsafe) {
-    return encode(this, urlsafe);
-  });
-  _add("toBase64URI", function() {
-    return encode(this, true);
-  });
-  _add("toBase64URL", function() {
-    return encode(this, true);
-  });
-  _add("toUint8Array", function() {
-    return toUint8Array(this);
-  });
-};
-var extendUint8Array = function() {
-  const _add = (name, body) => Object.defineProperty(Uint8Array.prototype, name, _noEnum(body));
-  _add("toBase64", function(urlsafe) {
-    return fromUint8Array(this, urlsafe);
-  });
-  _add("toBase64URI", function() {
-    return fromUint8Array(this, true);
-  });
-  _add("toBase64URL", function() {
-    return fromUint8Array(this, true);
-  });
-};
-var extendBuiltins = () => {
-  extendString();
-  extendUint8Array();
-};
-var gBase64 = {
-  version,
-  VERSION: VERSION5,
-  atob: _atob,
-  atobPolyfill,
-  btoa: _btoa,
-  btoaPolyfill,
-  fromBase64: decode,
-  toBase64: encode,
-  encode,
-  encodeURI: encodeURI2,
-  encodeURL: encodeURI2,
-  utob,
-  btou,
-  decode,
-  isValid,
-  fromUint8Array,
-  toUint8Array,
-  extendString,
-  extendUint8Array,
-  extendBuiltins
-};
-
-// plugin/publishing/delete.ts
-var import_obsidian5 = require("obsidian");
-function deleteFromGithub(silent = false, settings, octokit, branchName = "main", filesManagement) {
-  return __async(this, null, function* () {
-    const getAllFile = yield filesManagement.getAllFileFromRepo(branchName, octokit, settings);
-    const filesInRepo = yield filterGithubFile(getAllFile, settings);
-    if (!filesInRepo) {
-      let errorMsg = "";
-      if (settings.folderDefaultName.length > 0) {
-        if (settings.folderDefaultName.length > 0) {
-          errorMsg = t("errorDeleteDefaultFolder");
-        } else if (settings.downloadedFolder === "yaml" /* yaml */ && settings.rootFolder.length === 0) {
-          errorMsg = t("errorDeleteRootFolder");
-        }
-        if (!silent) {
-          new import_obsidian5.Notice("Error : " + errorMsg);
-        }
-      }
-      return false;
-    }
-    const allSharedFiles = filesManagement.getAllFileWithPath();
-    const allSharedConverted = allSharedFiles.map((file) => {
-      return file.converted;
-    });
-    let deletedSuccess = 0;
-    let deletedFailed = 0;
-    for (const file of filesInRepo) {
-      if (!allSharedConverted.includes(file.file.trim())) {
-        const checkingIndex = file.file.contains("index") ? yield checkIndexFiles(octokit, settings, file.file) : false;
-        try {
-          if (!checkingIndex) {
-            noticeLog("trying to delete file : " + file.file, settings);
-            const reponse = yield octokit.request("DELETE /repos/{owner}/{repo}/contents/{path}", {
-              owner: settings.githubName,
-              repo: settings.githubRepo,
-              path: file.file,
-              message: "Delete file",
-              sha: file.sha,
-              branch: branchName
-            });
-            if (reponse.status === 200) {
-              deletedSuccess++;
-            } else {
-              deletedFailed++;
-            }
-          }
-        } catch (e) {
-          if (!(e instanceof DOMException))
-            noticeLog(e, settings);
-        }
-      }
-    }
-    let successMsg = t("noFileDeleted");
-    let failedMsg = "";
-    if (deletedSuccess > 0) {
-      successMsg = t("successDeleting")(deletedSuccess.toString());
-    }
-    if (deletedFailed > 0) {
-      failedMsg = t("failedDeleting")(deletedFailed.toString());
-    }
-    if (!silent) {
-      new import_obsidian5.Notice(successMsg + failedMsg);
-    }
-    return true;
-  });
-}
-function excludedFileFromDelete(file, settings) {
-  const autoCleanExcluded = settings.autoCleanUpExcluded.split(",");
-  if (autoCleanExcluded.length > 0) {
-    for (const excludedFile of autoCleanExcluded) {
-      if (file.trim().includes(excludedFile.trim()) && excludedFile.length > 0) {
-        return true;
-      }
-    }
-  }
-  return false;
-}
-function filterGithubFile(fileInRepo, settings) {
-  return __async(this, null, function* () {
-    const sharedFilesInRepo = [];
-    for (const file of fileInRepo) {
-      if (settings.downloadedFolder === "yaml" /* yaml */ && settings.rootFolder.length === 0 || settings.folderDefaultName.length === 0) {
-        return null;
-      }
-      if ((file.file.includes(settings.folderDefaultName) || settings.downloadedFolder === "yaml" /* yaml */ && file.file.includes(settings.rootFolder) || settings.defaultImageFolder.length > 0 && file.file.includes(settings.defaultImageFolder)) && !excludedFileFromDelete(file.file, settings) && (isAttachment(file.file) || file.file.match("md$"))) {
-        sharedFilesInRepo.push(file);
-      }
-    }
-    return sharedFilesInRepo;
-  });
-}
-function parseYamlFrontmatter(contents) {
-  const yamlFrontmatter = contents.split("---")[1];
-  const yamlFrontmatterParsed = (0, import_obsidian5.parseYaml)(yamlFrontmatter);
-  return trimObject(yamlFrontmatterParsed);
-}
-function checkIndexFiles(octokit, settings, path) {
-  return __async(this, null, function* () {
-    try {
-      const fileRequest = yield octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
-        owner: settings.githubName,
-        repo: settings.githubRepo,
-        path
-      });
-      if (fileRequest.status === 200) {
-        const fileContent = gBase64.decode(fileRequest.data.content);
-        const fileFrontmatter = parseYamlFrontmatter(fileContent);
-        return fileFrontmatter.index === "true" || fileFrontmatter.autoclean === "false" || !fileFrontmatter.share;
-      }
-    } catch (e) {
-      if (!(e instanceof DOMException)) {
-        noticeLog(e, settings);
-        return false;
-      }
-    }
-  });
-}
-
-// plugin/contents_conversion/convertLinks.ts
-function convertWikilinks(fileContent, conditionConvert, settings, linkedFiles) {
-  const convertWikilink = conditionConvert.convertWiki;
-  const imageSettings = conditionConvert.attachment;
-  const embedSettings = conditionConvert.embed;
-  const convertLinks = conditionConvert.links;
-  if (!convertWikilink && convertLinks && imageSettings && embedSettings && !conditionConvert.removeEmbed) {
-    return fileContent;
-  }
-  const wikiRegex = /!?\[\[.*?\]\]/g;
-  const wikiMatches = fileContent.match(wikiRegex);
-  if (wikiMatches) {
-    const fileRegex = /(\[\[).*?([\]|])/;
-    for (const wikiMatch of wikiMatches) {
-      const fileMatch = wikiMatch.match(fileRegex);
-      const isEmbed = wikiMatch.startsWith("!") ? "!" : "";
-      const isEmbedBool = wikiMatch.startsWith("!");
-      if (fileMatch) {
-        let linkCreator = wikiMatch;
-        const fileName = fileMatch[0].replaceAll("[", "").replaceAll("|", "").replaceAll("]", "").replaceAll("\\", "");
-        const linkedFile = linkedFiles.find((item) => item.linkFrom === fileName);
-        if (linkedFile) {
-          const altText = linkedFile.altText.length > 0 ? linkedFile.altText : linkedFile.linked.extension === "md" ? linkedFile.linked.basename : "";
-          const removeEmbed = conditionConvert.removeEmbed && isEmbedBool && linkedFile.linked.extension === "md";
-          if (convertWikilink) {
-            linkCreator = `${isEmbed}[${altText}](${encodeURI(linkedFile.linkFrom)})`;
-          }
-          if (linkedFile.linked.extension === "md" && !convertLinks && !isEmbedBool) {
-            linkCreator = altText;
-          }
-          if (!imageSettings && isAttachment(linkedFile.linked.extension) || removeEmbed) {
-            linkCreator = "";
-          }
-          fileContent = fileContent.replace(wikiMatch, linkCreator);
-        } else if (!fileName.startsWith("http")) {
-          const altMatch = wikiMatch.match(/(\|).*(]])/);
-          const altCreator = fileName.split("/");
-          const altLink = creatorAltLink(altMatch, altCreator, fileName.split(".").at(-1), fileName);
-          const removeEmbed = !isAttachment(fileName.trim()) && conditionConvert.removeEmbed && isEmbedBool;
-          if (convertWikilink) {
-            linkCreator = `${isEmbed}[${altLink}](${encodeURI(fileName.trim())})`;
-          }
-          if (!isAttachment(fileName.trim()) && !convertLinks && !isEmbedBool) {
-            linkCreator = altLink;
-          }
-          if (!imageSettings && isAttachment(fileName.trim()) || removeEmbed) {
-            linkCreator = "";
-          }
-          fileContent = fileContent.replace(wikiMatch, linkCreator);
-        }
-      }
-    }
-  }
-  return fileContent;
-}
-function addAltText(link, linkedFile) {
-  if (!link.match(/(\|).*(]])/)) {
-    return link.replace("|", "").replace("]]", `|${linkedFile.altText}]]`);
-  }
-  return link;
-}
-function convertLinkCitation(fileContent, settings, linkedFiles, metadataCache, sourceFile, vault, frontmatter) {
-  if (!settings.convertForGithub) {
-    return fileContent;
-  }
-  for (const linkedFile of linkedFiles) {
-    let pathInGithub = createRelativePath(sourceFile, linkedFile, metadataCache, settings, vault, frontmatter).replace(".md", "");
-    const regexToReplace = new RegExp(`(\\[{2}${linkedFile.linkFrom}(\\\\?\\|.*)?\\]{2})|(\\[.*\\]\\(${linkedFile.linkFrom}\\))`, "g");
-    const matchedLink = fileContent.match(regexToReplace);
-    if (matchedLink) {
-      for (const link of matchedLink) {
-        const regToReplace = new RegExp(`${linkedFile.linkFrom}`);
-        const block_link = linkedFile.linkFrom.match(/#.*/);
-        if (block_link) {
-          pathInGithub += block_link[0];
-        }
-        let newLink = link.replace(regToReplace, pathInGithub);
-        newLink = addAltText(newLink, linkedFile);
-        fileContent = fileContent.replace(link, newLink);
-      }
-    }
-  }
-  return fileContent;
-}
-function creatorAltLink(altMatch, altCreator, fileExtension, match) {
-  if (altMatch) {
-    return altMatch[0].replace("]]", "").replace("|", "");
-  }
-  if (fileExtension === "md") {
-    return altCreator.length > 1 ? altCreator[altCreator.length - 1] : altCreator[0];
-  }
-  return match.split("/").at(-1);
-}
-
-// plugin/contents_conversion/convertText.ts
-var import_obsidian6 = require("obsidian");
-var import_obsidian_dataview = __toESM(require_lib());
-function addHardLineBreak(text, settings, frontmatter) {
-  try {
-    text = text.replace(/^\s*\\\s*$/gmi, "<br/>");
-    if (frontmatter.hardbreak) {
-      text = text.replace(/\n/gm, "  \n");
-    }
-    return text;
-  } catch (e) {
-    noticeLog(e, settings);
-    return text;
-  }
-}
-function addTagsToYAML(text, toAdd) {
-  return __async(this, null, function* () {
-    const yaml = text.split("---")[1];
-    const yamlObject = (0, import_obsidian6.parseYaml)(yaml);
-    if (yamlObject.tag) {
-      toAdd = [.../* @__PURE__ */ new Set([...toAdd, ...yamlObject.tag.map((tag) => tag.replaceAll("/", "_"))])];
-      delete yamlObject.tag;
-    }
-    if (yamlObject.tags) {
-      yamlObject.tags = [.../* @__PURE__ */ new Set([...yamlObject.tags.map((tag) => tag.replaceAll("/", "_")), ...toAdd])];
-    } else {
-      yamlObject.tags = toAdd;
-    }
-    const returnToYaml = (0, import_obsidian6.stringifyYaml)(yamlObject);
-    const fileContentsOnly = text.split("---").slice(2).join("---");
-    return `---
-${returnToYaml}---
-${fileContentsOnly}`;
-  });
-}
-function addInlineTags(settings, file, metadataCache, app2, frontmatter) {
-  return __async(this, null, function* () {
-    var _a;
-    const text = yield app2.vault.cachedRead(file);
-    if (!settings.inlineTags) {
-      return text;
-    }
-    const inlineTags = (_a = metadataCache.getFileCache(file)) == null ? void 0 : _a.tags;
-    const inlineTagsInText = inlineTags ? inlineTags.map((t2) => t2.tag.replace("#", "").replaceAll("/", "_")) : [];
-    const frontmatterTags = (0, import_obsidian6.parseFrontMatterTags)(frontmatter);
-    const yamlTags = frontmatterTags ? frontmatterTags.map((t2) => t2.replace("#", "").replaceAll("/", "_")) : [];
-    const toAdd = [.../* @__PURE__ */ new Set([...inlineTagsInText, ...yamlTags])];
-    if (toAdd.length > 0) {
-      return yield addTagsToYAML(text, toAdd);
-    }
-    return text;
-  });
-}
-function censorText(text, settings) {
-  if (!settings.censorText) {
-    return text;
-  }
-  for (const censor of settings.censorText) {
-    const regex = new RegExp(censor.entry, "ig");
-    text = text.replaceAll(regex, censor.replace);
-  }
-  return text;
-}
-function dataviewExtract(fieldValue, settings) {
-  const basename = (name) => /([^/\\.]*)(\..*)?$/.exec(name)[1];
-  const filename = basename(fieldValue.path).toString();
-  const display = fieldValue.display ? fieldValue.display.toString() : filename;
-  if (!settings.excludeDataviewValue.includes(display) && !settings.excludeDataviewValue.includes(filename)) {
-    return display;
-  }
-  return null;
-}
-function convertInlineDataview(text, settings, sourceFile, app2) {
-  return __async(this, null, function* () {
-    if (settings.dataviewFields.length === 0 || !app2.plugins.enabledPlugins.has("dataview")) {
-      return text;
-    }
-    const dvApi = (0, import_obsidian_dataview.getAPI)();
-    const dataviewLinks = yield dvApi.page(sourceFile.path);
-    const valueToAdd = [];
-    for (const field of settings.dataviewFields) {
-      const fieldValue = dataviewLinks[field];
-      if (fieldValue) {
-        if (fieldValue.constructor.name === "Link") {
-          const stringifyField = dataviewExtract(fieldValue, settings);
-          valueToAdd.push(stringifyField);
-        } else if (fieldValue.constructor.name === "Array") {
-          for (const item of fieldValue) {
-            let stringifyField = item;
-            if (item.constructor.name === "Link") {
-              stringifyField = dataviewExtract(item, settings);
-              valueToAdd.push(stringifyField);
-            } else if (!settings.excludeDataviewValue.includes(stringifyField.toString())) {
-              valueToAdd.push(stringifyField.toString());
-            }
-          }
-        } else if (!settings.excludeDataviewValue.includes(fieldValue.toString())) {
-          valueToAdd.push(fieldValue.toString());
-        }
-      }
-    }
-    if (valueToAdd.length > 0) {
-      return yield addTagsToYAML(text, valueToAdd.filter(Boolean));
-    }
-    return text;
-  });
-}
-function convertDataviewQueries(text, path, settings, app2, metadataCache, frontmatterSettings, frontmatter, sourceFile) {
-  return __async(this, null, function* () {
-    if (!app2.plugins.enabledPlugins.has("dataview")) {
-      return text;
-    }
-    const vault = app2.vault;
-    let replacedText = text;
-    const dataviewRegex = new RegExp("```dataview(.+?)```", "gsm");
-    const dvApi = (0, import_obsidian_dataview.getAPI)();
-    const matches = text.matchAll(dataviewRegex);
-    if (!matches)
-      return;
-    const settingsDataview = frontmatterSettings.dataview;
-    for (const queryBlock of matches) {
-      try {
-        const block = queryBlock[0];
-        const query = queryBlock[1];
-        let md = settingsDataview ? yield dvApi.tryQueryMarkdown(query, path) : "";
-        const dataviewPath = getDataviewPath(md, settings, vault);
-        md = convertLinkCitation(md, settings, dataviewPath, metadataCache, sourceFile, vault, frontmatter);
-        md = convertWikilinks(md, frontmatterSettings, settings, dataviewPath);
-        replacedText = replacedText.replace(block, md);
-      } catch (e) {
-        noticeLog(e, settings);
-        new import_obsidian6.Notice("Unable to render dataview query. Please update the dataview plugin to the last version.");
-        return queryBlock[0];
-      }
-    }
-    return replacedText;
-  });
-}
-
-// plugin/src/status_bar.ts
-var ShareStatusBar = class {
-  constructor(statusBarItem, numberOfNotesToPublish, attachment = false) {
-    this.attachment = false;
-    this.statusBarItem = statusBarItem;
-    this.counter = 0;
-    this.numberOfNotesToPublish = numberOfNotesToPublish;
-    this.attachment = attachment;
-    this.statusBarItem.createEl("span", { text: "" });
-    let msg = `${this.numberOfNotesToPublish} files marked for sharing`;
-    if (this.attachment) {
-      msg = `${this.numberOfNotesToPublish} attachments linked`;
-    }
-    this.status = this.statusBarItem.createEl("span", { text: `${msg}` });
-  }
-  increment() {
-    let msg = `\u231BSharing files`;
-    if (this.attachment) {
-      msg = `\u231BSharing attachments`;
-    }
-    this.status.setText(`${msg}: ${++this.counter}/${this.numberOfNotesToPublish}`);
-  }
-  finish(displayDurationMillisec) {
-    let msg = `\u2705 Published files`;
-    if (this.attachment) {
-      msg = `\u2705 Shared attachments`;
-    }
-    this.status.setText(`${msg}: ${this.counter}/${this.numberOfNotesToPublish}`);
-    setTimeout(() => {
-      this.statusBarItem.remove();
-    }, displayDurationMillisec);
-  }
-  error() {
-    this.statusBarItem.remove();
-  }
-};
-
-// plugin/publishing/upload.ts
-var Publisher = class {
-  constructor(vault, metadataCache, settings, octokit, plugin) {
-    this.vault = vault;
-    this.metadataCache = metadataCache;
-    this.settings = settings;
-    this.octokit = octokit;
-    this.plugin = plugin;
-  }
-  statusBarForEmbed(linkedFiles, fileHistory, ref = "main", deepScan, sourceFrontmatter) {
-    return __async(this, null, function* () {
-      if (linkedFiles.length > 0) {
-        if (linkedFiles.length > 1) {
-          const statusBarItems = this.plugin.addStatusBarItem();
-          const statusBar = new ShareStatusBar(statusBarItems, linkedFiles.length, true);
-          for (const image of linkedFiles) {
-            if (!fileHistory.includes(image)) {
-              if (image.extension === "md" && deepScan) {
-                yield this.publish(image, false, ref, fileHistory, true);
-              } else if (isAttachment(image.extension) && sourceFrontmatter.attachment) {
-                yield this.uploadImage(image, ref, sourceFrontmatter);
-                fileHistory.push(image);
-              }
-            }
-            statusBar.increment();
-          }
-          statusBar.finish(8e3);
-        } else {
-          const embed = linkedFiles[0];
-          if (!fileHistory.includes(embed)) {
-            if (embed.extension === "md" && deepScan) {
-              yield this.publish(embed, false, ref, fileHistory, true);
-            } else if (isAttachment(embed.extension) && sourceFrontmatter.attachment) {
-              yield this.uploadImage(embed, ref, sourceFrontmatter);
-              fileHistory.push(embed);
-            }
-          }
-        }
-      }
-      return fileHistory;
-    });
-  }
-  publish(_0) {
-    return __async(this, arguments, function* (file, autoclean = false, ref = "main", fileHistory = [], deepScan = false) {
-      const shareFiles = new FilesManagement(this.vault, this.metadataCache, this.settings, this.octokit, this.plugin);
-      const sharedKey = this.settings.shareKey;
-      const frontmatter = this.metadataCache.getFileCache(file).frontmatter;
-      if (!frontmatter || !frontmatter[sharedKey] || shareFiles.checkExcludedFolder(file) || file.extension !== "md" || fileHistory.includes(file)) {
-        return false;
-      }
-      try {
-        fileHistory.push(file);
-        const frontmatterSettings = getFrontmatterCondition(frontmatter, this.settings);
-        let embedFiles = shareFiles.getSharedEmbed(file, frontmatterSettings);
-        embedFiles = yield shareFiles.getMetadataLinks(file, embedFiles, frontmatter, frontmatterSettings);
-        const linkedFiles = shareFiles.getLinkedByEmbedding(file);
-        let text = yield addInlineTags(this.settings, file, this.metadataCache, this.plugin.app, frontmatter);
-        text = yield convertDataviewQueries(text, file.path, this.settings, this.plugin.app, this.metadataCache, frontmatterSettings, frontmatter, file);
-        text = yield convertInlineDataview(text, this.settings, file, this.plugin.app);
-        text = addHardLineBreak(text, this.settings, frontmatterSettings);
-        text = convertLinkCitation(text, this.settings, linkedFiles, this.metadataCache, file, this.vault, frontmatter);
-        text = convertWikilinks(text, frontmatterSettings, this.settings, linkedFiles);
-        text = censorText(text, this.settings);
-        const path = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
-        noticeLog(`Upload ${file.name}:${path} on ${this.settings.githubName}/${this.settings.githubRepo}:${ref}`, this.settings);
-        yield this.uploadText(file.path, text, path, file.name, ref);
-        yield this.statusBarForEmbed(embedFiles, fileHistory, ref, deepScan, frontmatterSettings);
-        if (autoclean && this.settings.autoCleanUp) {
-          yield deleteFromGithub(true, this.settings, this.octokit, ref, shareFiles);
-        }
-        return true;
-      } catch (e) {
-        noticeLog(e, this.settings);
-        return false;
-      }
-    });
-  }
-  upload(filePath, content, path, title = "", ref = "main") {
-    return __async(this, null, function* () {
-      if (!this.settings.githubRepo) {
-        new import_obsidian7.Notice("Config error : You need to define a github repo in the plugin settings");
-        throw {};
-      }
-      if (!this.settings.githubName) {
-        new import_obsidian7.Notice("Config error : You need to define your github username in the plugin settings");
-        throw {};
-      }
-      const octokit = this.octokit;
-      let msg = `PUSH NOTE : ${title}`;
-      if (isAttachment(path)) {
-        title = path.split("/")[path.split("/").length - 1];
-        msg = `PUSH ATTACHMENT : ${title}`;
-      }
-      const payload = {
-        owner: this.settings.githubName,
-        repo: this.settings.githubRepo,
-        path,
-        message: `Adding ${title}`,
-        content,
-        sha: "",
-        branch: ref
-      };
-      try {
-        const response = yield octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          path,
-          ref
-        });
-        if (response.status === 200 && response.data.type === "file") {
-          payload.sha = response.data.sha;
-        }
-      } catch (e) {
-        noticeLog("The 404 error is normal ! It means that the file does not exist yet. Don't worry \u2764\uFE0F.", this.settings);
-      }
-      payload.message = msg;
-      yield octokit.request("PUT /repos/{owner}/{repo}/contents/{path}", payload);
-    });
-  }
-  uploadImage(imageFile, ref = "main", sourcefrontmatter) {
-    return __async(this, null, function* () {
-      const imageBin = yield this.vault.readBinary(imageFile);
-      const image64 = (0, import_obsidian7.arrayBufferToBase64)(imageBin);
-      const path = getImageLinkOptions(imageFile, this.settings, sourcefrontmatter);
-      yield this.upload(imageFile.path, image64, path, "", ref);
-    });
-  }
-  uploadText(filePath, text, path, title = "", ref = "main") {
-    return __async(this, null, function* () {
-      try {
-        const contentBase64 = gBase64.encode(text).toString();
-        yield this.upload(filePath, contentBase64, path, title, ref);
-      } catch (e) {
-        console.error(e);
-      }
-    });
-  }
-  workflowGestion() {
-    return __async(this, null, function* () {
-      let finished = false;
-      if (this.settings.workflowName.length === 0) {
-        return false;
-      } else {
-        const octokit = this.octokit;
-        yield octokit.request("POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          workflow_id: this.settings.workflowName,
-          ref: "main"
-        });
-        while (!finished) {
-          yield sleep(1e4);
-          const workflowGet = yield octokit.request("GET /repos/{owner}/{repo}/actions/runs", {
-            owner: this.settings.githubName,
-            repo: this.settings.githubRepo
-          });
-          if (workflowGet.data.workflow_runs.length > 0) {
-            const build = workflowGet.data.workflow_runs.find((run) => run.name === this.settings.workflowName.replace(".yml", ""));
-            if (build.status === "completed") {
-              finished = true;
-              return true;
-            }
-          }
-        }
-      }
-    });
-  }
-};
-
-// plugin/publishing/filesManagement.ts
-var import_obsidian_dataview2 = __toESM(require_lib());
-var FilesManagement = class extends Publisher {
-  constructor(vault, metadataCache, settings, octokit, plugin) {
-    super(vault, metadataCache, settings, octokit, plugin);
-    this.vault = vault;
-    this.metadataCache = metadataCache;
-    this.settings = settings;
-    this.octokit = octokit;
-    this.plugin = plugin;
-  }
-  getSharedFiles() {
-    const files = this.vault.getMarkdownFiles();
-    const shared_File = [];
-    const sharedkey = this.settings.shareKey;
-    for (const file of files) {
-      try {
-        const frontMatter = this.metadataCache.getCache(file.path).frontmatter;
-        if (frontMatter && frontMatter[sharedkey] === true) {
-          shared_File.push(file);
-        }
-      } catch (e) {
-      }
-    }
-    return shared_File;
-  }
-  getAllFileWithPath() {
-    const files = this.vault.getFiles();
-    const allFileWithPath = [];
-    const shareKey = this.settings.shareKey;
-    for (const file of files) {
-      if (isAttachment(file.extension)) {
-        const filepath = getImageLinkOptions(file, this.settings, null);
-        allFileWithPath.push({
-          converted: filepath,
-          real: file.path
-        });
-      } else if (file.extension == "md") {
-        const frontMatter = this.metadataCache.getCache(file.path).frontmatter;
-        if (frontMatter && frontMatter[shareKey] === true) {
-          const filepath = getReceiptFolder(file, this.settings, this.metadataCache, this.vault);
-          allFileWithPath.push({
-            converted: filepath,
-            real: file.path
-          });
-        }
-      }
-    }
-    return allFileWithPath;
-  }
-  getLinkedByEmbedding(file) {
-    const linkedFiles = this.getLinkedFiles(file);
-    const imageEmbedded = this.metadataCache.getFileCache(file).embeds;
-    if (imageEmbedded != void 0) {
-      for (const image of imageEmbedded) {
-        try {
-          const imageLink = this.metadataCache.getFirstLinkpathDest(image.link.replace(/#.*/, ""), file.path);
-          if (imageLink !== null) {
-            if (imageLink.extension === "md") {
-              const checkFrontmatter = this.metadataCache.getCache(imageLink.path).frontmatter;
-              if (checkFrontmatter && checkFrontmatter[this.settings.shareKey] === true) {
-                linkedFiles.push({
-                  linked: imageLink,
-                  linkFrom: image.link,
-                  altText: image.displayText
-                });
-              }
-            } else {
-              linkedFiles.push({
-                linked: imageLink,
-                linkFrom: image.link,
-                altText: image.displayText
-              });
-            }
-          }
-        } catch (e) {
-        }
-      }
-    }
-    return [...new Set(linkedFiles)];
-  }
-  getLinkedFiles(file) {
-    const embedCaches = this.metadataCache.getCache(file.path).links;
-    const embedList = [];
-    if (embedCaches != void 0) {
-      for (const embedCache of embedCaches) {
-        try {
-          const linkedFile = this.metadataCache.getFirstLinkpathDest(embedCache.link, file.path);
-          if (linkedFile) {
-            embedList.push({
-              linked: linkedFile,
-              linkFrom: embedCache.link,
-              altText: embedCache.displayText
-            });
-          }
-        } catch (e) {
-          noticeLog(e, this.settings);
-          noticeLog("Error with this links : " + embedCache.link, this.settings);
-        }
-      }
-      return [...new Set(embedList)];
-    }
-    return [];
-  }
-  getSharedEmbed(file, frontmatterSourceFile) {
-    const embedCaches = this.metadataCache.getCache(file.path).embeds;
-    const imageList = [];
-    if (embedCaches != void 0) {
-      for (const embed of embedCaches) {
-        try {
-          const imageLink = this.metadataCache.getFirstLinkpathDest(embed.link.replace(/#(.*)/, ""), file.path);
-          imageList.push(this.imageSharedOrNote(imageLink, frontmatterSourceFile));
-        } catch (e) {
-          noticeLog(e, this.settings);
-          noticeLog("Error with this file : " + embed.displayText, this.settings);
-        }
-      }
-      return [...new Set(imageList)].filter((x) => x !== null);
-    }
-    return [];
-  }
-  checkExcludedFolder(file) {
-    const excludedFolder = this.settings.ExcludedFolder.split(",").filter((x) => x != "");
-    if (excludedFolder.length > 0) {
-      for (let i = 0; i < excludedFolder.length; i++) {
-        if (file.path.contains(excludedFolder[i].trim())) {
-          return true;
-        }
-      }
-    }
-    return false;
-  }
-  getLastEditedTimeRepo(octokit, githubRepo, settings) {
-    return __async(this, null, function* () {
-      const commits = yield octokit.request("GET /repos/{owner}/{repo}/commits", {
-        owner: settings.githubName,
-        repo: settings.githubRepo,
-        path: githubRepo.file
-      });
-      const lastCommittedFile = commits.data[0];
-      return new Date(lastCommittedFile.commit.committer.date);
-    });
-  }
-  getAllFileFromRepo(ref = "main", octokit, settings) {
-    return __async(this, null, function* () {
-      const filesInRepo = [];
-      try {
-        const repoContents = yield octokit.request("GET /repos/{owner}/{repo}/git/trees/{tree_sha}", {
-          owner: settings.githubName,
-          repo: settings.githubRepo,
-          tree_sha: ref,
-          recursive: "true"
-        });
-        if (repoContents.status === 200) {
-          const files = repoContents.data.tree;
-          for (const file of files) {
-            const basename = (name) => /([^/\\.]*)(\..*)?$/.exec(name)[1];
-            if (file.type === "blob" && basename(file.path).length > 0 && basename(file.path) != "vault_published") {
-              filesInRepo.push({
-                file: file.path,
-                sha: file.sha
-              });
-            }
-          }
-        }
-      } catch (e) {
-        noticeLog(e, settings);
-      }
-      return filesInRepo;
-    });
-  }
-  getNewFiles(allFileWithPath, githubSharedFiles, vault) {
-    const newFiles = [];
-    for (const file of allFileWithPath) {
-      if (!githubSharedFiles.some((x) => x.file === file.converted.trim())) {
-        const fileInVault = vault.getAbstractFileByPath(file.real.trim());
-        if (fileInVault && fileInVault instanceof import_obsidian8.TFile && fileInVault.extension === "md") {
-          newFiles.push(fileInVault);
-        }
-      }
-    }
-    return newFiles;
-  }
-  getImageByPath(path, field, frontmatterSourceFile) {
-    if (field.constructor.name === "Link") {
-      field = field.path;
-    }
-    if (path.constructor.name === "Link") {
-      path = path.path;
-    }
-    const imageLink = this.metadataCache.getFirstLinkpathDest(field, path);
-    if (imageLink !== null) {
-      return this.imageSharedOrNote(imageLink, frontmatterSourceFile);
-    }
-    return null;
-  }
-  imageSharedOrNote(file, settingsConversion) {
-    const transferImage = settingsConversion.attachment;
-    const transferEmbeds = settingsConversion.embed;
-    if (isAttachment(file.extension) && transferImage || transferEmbeds && file.extension === "md") {
-      return file;
-    }
-    return null;
-  }
-  getMetadataLinks(file, embedFiles, frontmatterSourceFile, frontmatterSettings) {
-    return __async(this, null, function* () {
-      for (const field of this.settings.metadataFileFields) {
-        if (frontmatterSourceFile[field] != void 0) {
-          const imageLink = this.metadataCache.getFirstLinkpathDest(frontmatterSourceFile[field], file.path);
-          if (imageLink !== null) {
-            embedFiles.push(this.imageSharedOrNote(file, frontmatterSettings));
-          }
-        }
-      }
-      if (this.plugin.app.plugins.enabledPlugins.has("dataview")) {
-        const dvApi = (0, import_obsidian_dataview2.getAPI)();
-        const dataviewMetadata = yield dvApi.page(file.path);
-        for (const field of this.settings.metadataFileFields) {
-          const fieldValue = dataviewMetadata[field];
-          if (fieldValue != void 0) {
-            if (fieldValue.constructor.name === "Array") {
-              for (const value of fieldValue) {
-                embedFiles.push(this.getImageByPath(value, fieldValue, frontmatterSettings));
-              }
-            } else {
-              embedFiles.push(this.getImageByPath(fieldValue, fieldValue, frontmatterSettings));
-            }
-          }
-        }
-      }
-      return [...new Set(embedFiles)].filter((x) => x != null);
-    });
-  }
-  getEditedFiles(allFileWithPath, githubSharedFiles, vault, newFiles) {
-    return __async(this, null, function* () {
-      for (const file of allFileWithPath) {
-        if (githubSharedFiles.some((x) => x.file === file.converted.trim())) {
-          const githubSharedFile = githubSharedFiles.find((x) => x.file === file.converted.trim());
-          const repoEditedTime = yield this.getLastEditedTimeRepo(this.octokit, githubSharedFile, this.settings);
-          const fileInVault = vault.getAbstractFileByPath(file.real.trim());
-          if (fileInVault && fileInVault instanceof import_obsidian8.TFile && fileInVault.extension === "md") {
-            const vaultEditedTime = new Date(fileInVault.stat.mtime);
-            if (vaultEditedTime > repoEditedTime) {
-              noticeLog(`edited file : ${fileInVault.path} / ${vaultEditedTime} vs ${repoEditedTime}`, this.settings);
-              newFiles.push(fileInVault);
-            }
-          }
-        }
-      }
-      return newFiles;
-    });
-  }
-};
-
-// plugin/publishing/branch.ts
-var import_obsidian9 = require("obsidian");
-var GithubBranch = class extends FilesManagement {
-  constructor(settings, octokit, vault, metadataCache, plugin) {
-    super(vault, metadataCache, settings, octokit, plugin);
-    this.settings = settings;
-    this.octokit = octokit;
-    this.plugin = plugin;
-  }
-  getMasterBranch() {
-    return __async(this, null, function* () {
-      const allBranch = yield this.octokit.request("GET /repos/{owner}/{repo}/branches", {
-        owner: this.settings.githubName,
-        repo: this.settings.githubRepo
-      });
-      const mainBranch = allBranch.data.find((branch) => branch.name === "main" || branch.name === "master");
-      return mainBranch.name;
-    });
-  }
-  newBranch(branchName) {
-    return __async(this, null, function* () {
-      const allBranch = yield this.octokit.request("GET /repos/{owner}/{repo}/branches", {
-        owner: this.settings.githubName,
-        repo: this.settings.githubRepo
-      });
-      const mainBranch = allBranch.data.find((branch) => branch.name === "main" || branch.name === "master");
-      const shaMainBranch = mainBranch.commit.sha;
-      try {
-        const branch = yield this.octokit.request("POST /repos/{owner}/{repo}/git/refs", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          ref: "refs/heads/" + branchName,
-          sha: shaMainBranch
-        });
-        return branch.status === 201;
-      } catch (e) {
-        const allBranch2 = yield this.octokit.request("GET /repos/{owner}/{repo}/branches", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo
-        });
-        const mainBranch2 = allBranch2.data.find((branch) => branch.name === branchName);
-        return !!mainBranch2;
-      }
-    });
-  }
-  pullRequest(branchName) {
-    return __async(this, null, function* () {
-      try {
-        const PR = yield this.octokit.request("POST /repos/{owner}/{repo}/pulls", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          title: `PullRequest ${branchName} from Obsidian`,
-          body: "",
-          head: branchName,
-          base: "main"
-        });
-        return PR.data.number;
-      } catch (e) {
-        const PR = yield this.octokit.request("GET /repos/{owner}/{repo}/pulls", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          state: "open"
-        });
-        return PR.data[0].number;
-      }
-    });
-  }
-  deleteBranch(branchName) {
-    return __async(this, null, function* () {
-      const octokit = new Octokit({
-        auth: this.settings.GhToken
-      });
-      try {
-        const branch = yield octokit.request("DELETE /repos/{owner}/{repo}/git/refs/heads/" + branchName, {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo
-        });
-        return branch.status === 200;
-      } catch (e) {
-        return false;
-      }
-    });
-  }
-  mergePullRequest(branchName, silent = false, pullRequestNumber) {
-    return __async(this, null, function* () {
-      const octokit = new Octokit({
-        auth: this.settings.GhToken
-      });
-      try {
-        const branch = yield octokit.request("PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge", {
-          owner: this.settings.githubName,
-          repo: this.settings.githubRepo,
-          pull_number: pullRequestNumber,
-          commit_title: `[PUBLISHER] Merge #${pullRequestNumber}`,
-          merge_method: "squash"
-        });
-        return branch.status === 200;
-      } catch (e) {
-        new import_obsidian9.Notice(t("mergeconflic"));
-        return false;
-      }
-    });
-  }
-  updateRepository(branchName) {
-    return __async(this, null, function* () {
-      const pullRequest = yield this.pullRequest(branchName);
-      const PRSuccess = yield this.mergePullRequest(branchName, true, pullRequest);
-      if (PRSuccess) {
-        yield this.deleteBranch(branchName);
-        return true;
-      }
-      return false;
-    });
-  }
-};
 
 // plugin/commands.ts
 var import_obsidian10 = require("obsidian");
-function shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarItems, branchName, sharedFiles, createGithubBranch = true) {
+function shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarItems, branchName, repoFrontmatter, sharedFiles, createGithubBranch = true) {
   return __async(this, null, function* () {
     try {
       const statusBar = new ShareStatusBar(statusBarItems, sharedFiles.length);
@@ -3361,13 +3453,13 @@ function shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarItems
       if (sharedFiles.length > 0) {
         const publishedFiles = sharedFiles.map((file) => file.name);
         if (createGithubBranch) {
-          yield PublisherManager.newBranch(branchName);
+          yield PublisherManager.newBranch(branchName, repoFrontmatter);
         }
         for (let files = 0; files < sharedFiles.length; files++) {
           try {
             const file = sharedFiles[files];
             statusBar.increment();
-            yield PublisherManager.publish(file, false, branchName);
+            yield PublisherManager.publish(file, false, branchName, repoFrontmatter);
           } catch (e) {
             errorCount++;
             new import_obsidian10.Notice(t("unablePublishNote")(sharedFiles[files].name));
@@ -3375,10 +3467,10 @@ function shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarItems
         }
         statusBar.finish(8e3);
         const noticeValue = `${publishedFiles.length - errorCount} notes`;
-        yield deleteFromGithub(true, settings, octokit, branchName, PublisherManager);
-        const update = yield PublisherManager.updateRepository(branchName);
+        yield deleteFromGithub(true, settings, octokit, branchName, PublisherManager, repoFrontmatter);
+        const update = yield PublisherManager.updateRepository(branchName, repoFrontmatter);
         if (update) {
-          yield noticeMessage(PublisherManager, noticeValue, settings);
+          yield noticeMessage(PublisherManager, noticeValue, settings, repoFrontmatter);
         } else {
           new import_obsidian10.Notice(t("errorPublish")(settings.githubRepo));
         }
@@ -3389,13 +3481,13 @@ function shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarItems
     }
   });
 }
-function deleteUnsharedDeletedNotes(PublisherManager, settings, octokit, branchName) {
+function deleteUnsharedDeletedNotes(PublisherManager, settings, octokit, branchName, repoFrontmatter) {
   return __async(this, null, function* () {
     try {
       new import_obsidian10.Notice(t("startingClean")(settings.githubRepo));
-      yield PublisherManager.newBranch(branchName);
-      yield deleteFromGithub(false, settings, octokit, branchName, PublisherManager);
-      yield PublisherManager.updateRepository(branchName);
+      yield PublisherManager.newBranch(branchName, repoFrontmatter);
+      yield deleteFromGithub(false, settings, octokit, branchName, PublisherManager, repoFrontmatter);
+      yield PublisherManager.updateRepository(branchName, repoFrontmatter);
     } catch (e) {
       console.error(e);
     }
@@ -3404,12 +3496,14 @@ function deleteUnsharedDeletedNotes(PublisherManager, settings, octokit, branchN
 function shareOneNote(branchName, PublisherManager, settings, file, metadataCache, vault) {
   return __async(this, null, function* () {
     try {
-      yield PublisherManager.newBranch(branchName);
-      const publishSuccess = yield PublisherManager.publish(file, true, branchName, [], true);
+      const frontmatter = metadataCache.getFileCache(file).frontmatter;
+      const repoFrontmatter = getRepoFrontmatter(settings, frontmatter);
+      yield PublisherManager.newBranch(branchName, repoFrontmatter);
+      const publishSuccess = yield PublisherManager.publish(file, true, branchName, repoFrontmatter, [], true);
       if (publishSuccess) {
-        const update = yield PublisherManager.updateRepository(branchName);
+        const update = yield PublisherManager.updateRepository(branchName, repoFrontmatter);
         if (update) {
-          yield noticeMessage(PublisherManager, file, settings);
+          yield noticeMessage(PublisherManager, file, settings, repoFrontmatter);
           yield createLink(file, settings, metadataCache, vault);
         } else {
           new import_obsidian10.Notice(t("errorPublish")(settings.githubRepo));
@@ -3423,57 +3517,57 @@ function shareOneNote(branchName, PublisherManager, settings, file, metadataCach
     }
   });
 }
-function shareNewNote(PublisherManager, octokit, branchName, vault, plugin) {
+function shareNewNote(PublisherManager, octokit, branchName, vault, plugin, repoFrontmatter) {
   return __async(this, null, function* () {
     const settings = plugin.settings;
     new import_obsidian10.Notice(t("scanningRepo"));
-    const branchMaster = yield PublisherManager.getMasterBranch();
+    const branchMaster = settings.githubBranch;
     const sharedFilesWithPaths = PublisherManager.getAllFileWithPath();
-    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings);
+    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings, repoFrontmatter);
     const newlySharedNotes = PublisherManager.getNewFiles(sharedFilesWithPaths, githubSharedNotes, vault);
     if (newlySharedNotes.length > 0) {
       new import_obsidian10.Notice(t("foundNoteToSend")(`${newlySharedNotes.length}`));
       const statusBarElement = plugin.addStatusBarItem();
-      yield PublisherManager.newBranch(branchName);
-      yield shareAllMarkedNotes(PublisherManager, plugin.settings, octokit, statusBarElement, branchName, newlySharedNotes);
+      yield PublisherManager.newBranch(branchName, repoFrontmatter);
+      yield shareAllMarkedNotes(PublisherManager, plugin.settings, octokit, statusBarElement, branchName, repoFrontmatter, newlySharedNotes);
     } else {
       new import_obsidian10.Notice(t("noNewNote"));
     }
   });
 }
-function shareAllEditedNotes(PublisherManager, octokit, branchName, vault, plugin) {
+function shareAllEditedNotes(PublisherManager, octokit, branchName, vault, plugin, repoFrontmatter) {
   return __async(this, null, function* () {
     const settings = plugin.settings;
     new import_obsidian10.Notice(t("scanningRepo"));
-    const branchMaster = yield PublisherManager.getMasterBranch();
+    const branchMaster = settings.githubBranch;
     const sharedFilesWithPaths = PublisherManager.getAllFileWithPath();
-    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings);
+    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings, repoFrontmatter);
     const newSharedFiles = PublisherManager.getNewFiles(sharedFilesWithPaths, githubSharedNotes, vault);
     const newlySharedNotes = yield PublisherManager.getEditedFiles(sharedFilesWithPaths, githubSharedNotes, vault, newSharedFiles);
     if (newlySharedNotes.length > 0) {
       new import_obsidian10.Notice(t("foundNoteToSend")(`${newlySharedNotes.length}`));
       const statusBarElement = plugin.addStatusBarItem();
-      yield PublisherManager.newBranch(branchName);
-      yield shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarElement, branchName, newlySharedNotes);
+      yield PublisherManager.newBranch(branchName, repoFrontmatter);
+      yield shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarElement, branchName, repoFrontmatter, newlySharedNotes);
     } else {
       new import_obsidian10.Notice(t("noNewNote"));
     }
   });
 }
-function shareOnlyEdited(PublisherManager, octokit, branchName, vault, plugin) {
+function shareOnlyEdited(PublisherManager, octokit, branchName, vault, plugin, repoFrontmatter) {
   return __async(this, null, function* () {
     const settings = plugin.settings;
     new import_obsidian10.Notice(t("scanningRepo"));
-    const branchMaster = yield PublisherManager.getMasterBranch();
+    const branchMaster = settings.githubBranch;
     const sharedFilesWithPaths = PublisherManager.getAllFileWithPath();
-    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings);
+    const githubSharedNotes = yield PublisherManager.getAllFileFromRepo(branchMaster, octokit, settings, repoFrontmatter);
     const newSharedFiles = [];
     const newlySharedNotes = yield PublisherManager.getEditedFiles(sharedFilesWithPaths, githubSharedNotes, vault, newSharedFiles);
     if (newlySharedNotes.length > 0) {
       new import_obsidian10.Notice(t("foundNoteToSend")(`${newlySharedNotes.length}`));
       const statusBarElement = plugin.addStatusBarItem();
-      yield PublisherManager.newBranch(branchName);
-      yield shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarElement, branchName, newlySharedNotes);
+      yield PublisherManager.newBranch(branchName, repoFrontmatter);
+      yield shareAllMarkedNotes(PublisherManager, settings, octokit, statusBarElement, branchName, repoFrontmatter, newlySharedNotes);
     } else {
       new import_obsidian10.Notice(t("noNewNote"));
     }
@@ -3490,6 +3584,7 @@ var GithubPublisher = class extends import_obsidian11.Plugin {
       const octokit = new Octokit({ auth: this.settings.GhToken });
       const PublisherManager = new GithubBranch(this.settings, octokit, this.app.vault, this.app.metadataCache, this);
       const branchName = app.vault.getName().replaceAll(" ", "-") + "-" + new Date().toLocaleDateString("en-US").replace(/\//g, "-");
+      const repo = getRepoFrontmatter(this.settings);
       this.registerEvent(this.app.workspace.on("file-menu", (menu, file) => {
         if (disablePublish(this.app, this.settings, file) && this.settings.fileMenu) {
           menu.addItem((item) => {
@@ -3543,7 +3638,7 @@ var GithubPublisher = class extends import_obsidian11.Plugin {
         checkCallback: (checking) => {
           if (this.settings.autoCleanUp) {
             if (!checking) {
-              deleteUnsharedDeletedNotes(PublisherManager, this.settings, octokit, branchName);
+              deleteUnsharedDeletedNotes(PublisherManager, this.settings, octokit, branchName, repo);
             }
             return true;
           }
@@ -3556,28 +3651,28 @@ var GithubPublisher = class extends import_obsidian11.Plugin {
         callback: () => __async(this, null, function* () {
           const sharedFiles = PublisherManager.getSharedFiles();
           const statusBarItems = this.addStatusBarItem();
-          yield shareAllMarkedNotes(PublisherManager, this.settings, octokit, statusBarItems, branchName, sharedFiles, true);
+          yield shareAllMarkedNotes(PublisherManager, this.settings, octokit, statusBarItems, branchName, repo, sharedFiles, true);
         })
       });
       this.addCommand({
         id: "publisher-upload-new",
         name: t("uploadNewNotes"),
         callback: () => __async(this, null, function* () {
-          yield shareNewNote(PublisherManager, octokit, branchName, this.app.vault, this);
+          yield shareNewNote(PublisherManager, octokit, branchName, this.app.vault, this, repo);
         })
       });
       this.addCommand({
         id: "publisher-upload-all-edited-new",
         name: t("uploadAllNewEditedNote"),
         callback: () => __async(this, null, function* () {
-          yield shareAllEditedNotes(PublisherManager, octokit, branchName, this.app.vault, this);
+          yield shareAllEditedNotes(PublisherManager, octokit, branchName, this.app.vault, this, repo);
         })
       });
       this.addCommand({
         id: "publisher-upload-edited",
         name: t("uploadAllEditedNote"),
         callback: () => __async(this, null, function* () {
-          yield shareOnlyEdited(PublisherManager, octokit, branchName, this.app.vault, this);
+          yield shareOnlyEdited(PublisherManager, octokit, branchName, this.app.vault, this, repo);
         })
       });
     });

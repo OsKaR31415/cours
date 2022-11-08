@@ -7,6 +7,6 @@ sibling::[[ensemble des fonctions continues par morceaux]]
 
 > [!definition] Ensemble des fonctions continues
 > Soient $E$ et $F$ des intervalles de $\mathbb{R}$
->  - On note $\mathcal{C}(E)$ l'ensebmle des fonctions [[fonction continue|continues]] sur $E$
->  - On note $\mathcal{C}(E; F)$ l'ensemble des fonctions [[fonction continue|continues]] de $F^{E}$ (sur $E \to F$)
+>  - On note $\mathcal{C}(E)$ ou $C^{0}(E)$ l'ensebmle des fonctions [[fonction continue|continues]] sur $E$
+>  - On note $\mathcal{C}(E; F)$ ou $C^{0}(E; F)$ l'ensemble des fonctions [[fonction continue|continues]] de $F^{E}$ (sur $E \to F$)
 ^definition

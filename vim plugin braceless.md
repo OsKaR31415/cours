@@ -1,5 +1,6 @@
-up::[[vim]]
+up::[[vim plugins]]
 link::https://github.com/tweekmonster/braceless.vim
+title::"pour les langages à indentation sémantique"
 #informatique/vim #no-review 
 
 ----

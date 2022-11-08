@@ -12,10 +12,10 @@
     /* filter: invert(0.7) brightness(0.9) contrast(1.8); */
     filter: invert(0.7)
             brightness(0.9)
-            contrast(1.8)
+            contrast(1.5)
             hue-rotate(180deg)
             saturate(200%)
-            blur(0.5px)
+            blur(0.5px) /* blur makes the white text less agressive */
             ;
 }
 
@@ -27,6 +27,7 @@
             contrast(1.5)
             hue-rotate(180deg)
             saturate(200%)
+            blur(0.5px) /* blur makes the white text less agressive */
             ;
 }
 /* .mm-highlight { */

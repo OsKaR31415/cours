@@ -5,12 +5,13 @@ up::[[fonction sinus hyperbolique]]
 sibling::[[fonction arg cosinus hyperbolique|argch]]
 properties::[[bijection|bijective]]
 derivative::$\dfrac{1}{\sqrt{1+x^{2}}}$
+primitive::""
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \ln\left(x+ \sqrt{1+x^{2}}\right)$"
 title::$\arg \mathrm{sh}$
 #maths/analyse #maths/trigonométrie #review 
 
 ----
-fonction [[réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]
+[[fonction réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]
 
 $\begin{align*} \arg\mathrm{sh} : \quad & \mathbb{R} \rightarrow \mathbb{R} \\ & y \mapsto x \text{ tel que } y = \mathrm{sh}(x) \\ & x \mapsto \ln\left(x+\sqrt{1+x^{2}}\right)\end{align*}$
 

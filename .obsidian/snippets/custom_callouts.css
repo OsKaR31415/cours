@@ -49,14 +49,14 @@
 .callout[data-callout="idea"] {
     /* ideas for future things (improvements...) */
     --callout-color: 252, 213, 0;
-    --callout-icon: Lightbulb;
+    --callout-icon: lightbulb;
 }
 
 
 .callout[data-callout="definition"], .callout[data-callout="définition"]{
     /* definitions (expecially in maths) */
     --callout-color: 77, 149, 247;
-    --callout-icon: Feather;
+    --callout-icon: feather;
 }
 
 

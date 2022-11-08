@@ -52,3 +52,23 @@ annotate-target: sources/cours/L2_maths_algebre_lineaire_TD2.pdf
 >
 ^fd2ebf56-e184-ecb4
 
+>%%
+>```annotate-json
+>{"id":"8b6313fd-7db0-23a5","text":"{\"id\":\"8b6313fd-7db0-23a5\",\"page\":1,\"rect\":[322.64547611202636,301.8592740252609,23.863343218012076,477.7288445908842],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1667388081648.png\",\"relateRect\":[{\"x\":0.038348082595870206,\"y\":0.6106194690265486,\"width\":0.9277286135693216,\"height\":0.2308259587020649}],\"pdfName\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\",\"pageWidth\":1821,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1667388081648.png?1667407135916\"}","type":"rect","page":1,"width":1258,"height":313,"pdfName":"sources/cours/L2_maths_algebre_lineaire_TD2.pdf"}
+>```
+>%%
+>![[attachments/markmind/1667388081648.png]]
+>[[#^8b6313fd-7db0-23a5|Show annotate]]
+>
+^8b6313fd-7db0-23a5
+
+>%%
+>```annotate-json
+>{"id":"1ecacf3f-e692-2f2f","text":"{\"id\":\"1ecacf3f-e692-2f2f\",\"page\":1,\"rect\":[448.2129764011799,496.8406371681416,17.998758112094396,621.5149616519175],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1667407142545.png\",\"relateRect\":[{\"x\":0.028761061946902654,\"y\":0.3687315634218289,\"width\":0.9410029498525073,\"height\":0.23008849557522124}],\"pdfName\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\",\"pageWidth\":1356,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1667407142545.png?1667407142574\"}","type":"rect","page":1,"width":1276,"height":312,"pdfName":"sources/cours/L2_maths_algebre_lineaire_TD2.pdf"}
+>```
+>%%
+>![[attachments/markmind/1667407142545.png]]
+>[[#^1ecacf3f-e692-2f2f|Show annotate]]
+>
+^1ecacf3f-e692-2f2f
+

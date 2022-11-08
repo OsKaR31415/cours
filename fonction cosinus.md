@@ -4,6 +4,7 @@ alias: ["cos", "cosinus"]
 up::[[MOC trigonométrie]], [[MOC fonctions]]
 sibling::[[fonction sinus|sin]]
 derivative::[[fonction sinus|-sin]]
+primitive::[[fonction sinus|sin]]
 properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [-1;1]$", "$\dfrac{e^{ix}+e^{-ix}}{2}$"
 title::$\cos$
