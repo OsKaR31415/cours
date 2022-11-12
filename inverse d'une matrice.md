@@ -30,9 +30,11 @@ Soit $A=\begin{pmatrix}a&b\\c&d\end{pmatrix}$, $\det(A) = ad-bc$, et on a : $A^{
 
 
 # Propriétés
-- Pour qu'une matrice soit _inversible_, elle doit être carrée
-    - Soit $M$ et $M^{-1}$, la propriété est que $M\times M^{-1}=M^{-1}\times M=Id$, ont doit pouvoir multiplier $M$ et $M^{-1}$ dans les deux sens, elles doivent donc être carrées
-- Pour qu'une matrice soit _inversible_, il faut que sont [[déterminant d'une matrice|déterminant]] soit non nul
+ - Pour qu'une matrice soit _inversible_, elle doit être carrée
+     - Soit $M$ et $M^{-1}$, la propriété est que $M\times M^{-1}=M^{-1}\times M=Id$, ont doit pouvoir multiplier $M$ et $M^{-1}$ dans les deux sens, elles doivent donc être carrées
+ - Pour qu'une matrice soit _inversible_, il faut et suffit que sont [[déterminant d'une matrice|déterminant]] soit non nul
+ - $(AB)^{-1} = B^{-1}A^{-1}$
+     - ![[inverse d'une matrice 2022-11-09 20.33.24.excalidraw]]
 
 # Exemple
 $A = \begin{pmatrix}1&2\\0&3\end{pmatrix}$

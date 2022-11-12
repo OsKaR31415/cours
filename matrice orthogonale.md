@@ -1,5 +1,5 @@
 up:: [[matrice]]
-title:: "composée de vecteurs unitaires", "$^T\!M =$"
+title:: "composée de vecteurs unitaires", "implique que $^T\!M = M^{-1}$"
 #maths/algèbre 
 
 ---
@@ -8,6 +8,7 @@ title:: "composée de vecteurs unitaires", "$^T\!M =$"
 > Soit $\mathbf{K}$ un corps
 > Soit $M \in \mathcal{M}_{n}(\mathbf{K})$ la [[matrice associée à une application linéaire]]
 > $M$ est *orthogonale* ssi $^T\!M = M^{-1}$
+> On montre que les matrices orthogonales sont les matrices composées de vecteurs unitaires.
 ^definition
 
 # Propriétés
@@ -26,4 +27,4 @@ Soient $u$ et $v$ des vecteurs
 # Types de matrices orthogonales
 ## En dimension 2
  - [[matrices de rotation]]
- - [[matrices de symétrie]]
+ - [[matrice de symétrie]]

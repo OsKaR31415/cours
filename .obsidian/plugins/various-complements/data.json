@@ -130,16 +130,8 @@
     "dimension": {
       "dimension": {
         "internalLink": {
-          "count": 8,
-          "lastUpdated": 1666191805251
-        }
-      }
-    },
-    "combinaison linéaire": {
-      "combinaison linéaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665162600750
+          "count": 10,
+          "lastUpdated": 1668023387289
         }
       }
     },
@@ -178,8 +170,8 @@
     "rotation": {
       "rotation": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1666439963139
+          "count": 8,
+          "lastUpdated": 1668023641365
         }
       }
     },
@@ -207,14 +199,6 @@
         }
       }
     },
-    "base canonique": {
-      "base canonique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1664987596442
-        }
-      }
-    },
     "vecteur propre": {
       "vecteur propre": {
         "internalLink": {
@@ -228,30 +212,6 @@
         "internalLink": {
           "count": 3,
           "lastUpdated": 1667490644201
-        }
-      }
-    },
-    "marc soret": {
-      "marc soret": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665076777521
-        }
-      }
-    },
-    "vincent perrollaz": {
-      "vincent perrollaz": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665076795834
-        }
-      }
-    },
-    "romain gicquaud": {
-      "romain gicquaud": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665076798283
         }
       }
     },
@@ -562,8 +522,8 @@
     "matrice associée à une application linéaire": {
       "matrice associée à une application linéaire": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1666440299753
+          "count": 5,
+          "lastUpdated": 1668213204003
         }
       }
     },
@@ -794,8 +754,8 @@
     "groupe": {
       "groupe": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667578882214
+          "count": 3,
+          "lastUpdated": 1668023376518
         }
       }
     },
@@ -924,6 +884,86 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1667753674349
+        }
+      }
+    },
+    "intégration par parties": {
+      "intégration par parties": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1667917119159
+        }
+      }
+    },
+    "xⁿ - 1": {
+      "xⁿ - 1": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1667917482530
+        }
+      }
+    },
+    "polynôme irréductible": {
+      "polynôme irréductible": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1667918483099
+        }
+      }
+    },
+    "système d'exploitation": {
+      "système d'exploitation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1667942248168
+        }
+      }
+    },
+    "déterminant d'une matrice": {
+      "déterminant d'une matrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668023612617
+        }
+      }
+    },
+    "isométrie": {
+      "isométrie": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1668026973386
+        }
+      }
+    },
+    "transformations": {
+      "transformations": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668026955844
+        }
+      }
+    },
+    "homotétie": {
+      "homotétie": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668026982741
+        }
+      }
+    },
+    "automate": {
+      "automate": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668213187611
+        }
+      }
+    },
+    "langage à base de règles": {
+      "langage à base de règles": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668213194201
         }
       }
     }

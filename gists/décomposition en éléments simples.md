@@ -3,7 +3,7 @@ gists:
   - id: cd5c909adde51bbeeb31dc01e4b1fe8a
     url: 'https://gist.github.com/cd5c909adde51bbeeb31dc01e4b1fe8a'
     createdAt: '2022-10-15T17:25:21Z'
-    updatedAt: '2022-10-15T17:25:21Z'
+    updatedAt: '2022-11-08T14:49:37Z'
     filename: décomposition en éléments simples.md
     isPublic: false
 ---
@@ -66,13 +66,24 @@ $$ \frac{ax+b}{x^{2}+1} + \frac{d}{x+2} $$
 On remarque que, puisque $x^{2} + 1$ est de degré 2, on doit mettre un polynôme de degré 1 au dessus.
 
 La forme générale des décompositions est en fait :
-$$
-\text{partie entière} +
-\frac{\text{constante}}{\text{polynôme de degré 1}} + 
-\frac{\text{constante}}{\text{polynôme de degré 1}} + \cdots 
-+ \frac{\text{polynôme de degré 1}}{\text{polynôme de degré 2}}
-+ \frac{\text{polynôme de degré 1}}{\text{polynôme de degré 2}} + \cdots
-$$
+$\displaystyle\text{partie entière} + \frac{\text{constante}}{\text{polynôme de degré 1}} +  \frac{\text{constante}}{\text{polynôme de degré 1}} + \cdots  + \frac{\text{polynôme de degré 1}}{\text{polynôme de degré 2}} + \frac{\text{polynôme de degré 1}}{\text{polynôme de degré 2}} + \cdots$
+Où chaque polynôme dans les fraction est un [[polynôme irréductible]] (non factorisable).
+
+### cas des polynômes répétés
+
+Parfois, le dénominateur avant la décomposition possède plusieurs fois le même polynôme au dénominateur (ou bien un polynôme a une certaine puissance).
+Par exemple, dans $\frac{x^{2}+1}{(x-1)^{3}(x+3)}$
+
+Dans ce cas, il faut mettre chaque puissance inférieure dans un dénominateur.
+Exemple : si $(x-1)^{3}(x+3)$ est au dénominateur, les dénominateurs de la décomposition seront : 
+ - $(x+3)$ cas de base bu précédemment
+ - $(x-1)$ également évident
+ - $(x-1)^{2}$ ⚠️ il faut bien penser à mettres les puissances plus grandes
+ - $(x-1)^{3}$ 
+
+Le cas fonctionne aussi si c'est un polynôme de degré $2$ qui est au carré :
+$\displaystyle\frac{x+2}{(x^{2}+1)^{4}(x+3)} = \frac{a}{x+3} + \frac{b}{x^{2}+1} + \frac{c}{(x^{2}+1)^{2}} + \frac{d}{(x^{2}+1)^{3}}+\frac{e}{(x^{2}+1)^{4}}$
+
 
 ### Trouver la valeur des constantes 
 

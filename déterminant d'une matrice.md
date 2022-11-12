@@ -2,6 +2,7 @@
 sr-due: 2022-09-21
 sr-interval: 29
 sr-ease: 291
+alias: [ "déterminant" ]
 ---
 
 up::[[matrice]]

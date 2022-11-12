@@ -1,11 +1,10 @@
 ---
 annotate-target: sources/formulaire maths.pdf
 ---
-# formulaire maths-annotate
 
 >%%
 >```annotate-json
->{"id":"37e07eca-7b03-5231","text":"{\"id\":\"37e07eca-7b03-5231\",\"page\":0,\"rect\":[176.0805663380282,686.2025323541247,33.53915549295775,724.9322714352783],\"contents\":\"identités remarquables du premier degré\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1663245877314.png\",\"relateRect\":[{\"x\":0.057663125948406675,\"y\":0.18968133535660092,\"width\":0.2473444613050076,\"height\":0.09559939301972686}],\"pdfName\":\"sources/formulaire maths.pdf\",\"pageWidth\":1491,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663245877314.png?1664283338851\",\"commentTime\":1664283398382}","type":"rect","page":0,"width":163,"height":63,"pdfName":"sources/formulaire maths.pdf"}
+>{"id":"37e07eca-7b03-5231","text":"{\"id\":\"37e07eca-7b03-5231\",\"page\":0,\"rect\":[176.0805663380282,686.2025323541247,33.53915549295775,724.9322714352783],\"contents\":\"identités remarquables du premier degré\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1663245877314.png\",\"relateRect\":[{\"x\":0.05676328502415459,\"y\":0.18961352657004832,\"width\":0.24758454106280192,\"height\":0.09541062801932366}],\"pdfName\":\"sources/formulaire maths.pdf\",\"pageWidth\":1491,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1663245877314.png?1668213456430\",\"commentTime\":1664283398382}","type":"rect","page":0,"width":205,"height":79,"pdfName":"sources/formulaire maths.pdf"}
 >```
 >%%
 >![[attachments/markmind/1663245877314.png]]
@@ -25,7 +24,7 @@ annotate-target: sources/formulaire maths.pdf
 
 >%%
 >```annotate-json
->{"id":"b5cab0c5-ab41-39cb","text":"{\"id\":\"b5cab0c5-ab41-39cb\",\"page\":2,\"rect\":[321.4093141925569,69.8146404330636],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1664555687810.png\",\"relateRect\":[{\"x\":0.5508241758241759,\"y\":1.2994505494505495,\"width\":0.33791208791208793,\"height\":0.06318681318681318}],\"pdfName\":\"sources/formulaire maths.pdf\",\"pageWidth\":728,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664555687810.png?1664555697138\"}","type":"rect","page":2,"width":246,"height":46,"pdfName":"sources/formulaire maths.pdf"}
+>{"id":"b5cab0c5-ab41-39cb","text":"{\"id\":\"b5cab0c5-ab41-39cb\",\"page\":2,\"rect\":[321.4093141925569,69.8146404330636],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1664555687810.png\",\"relateRect\":[{\"x\":0.5508241758241759,\"y\":1.2994505494505495,\"width\":0.33791208791208793,\"height\":0.06318681318681318}],\"pdfName\":\"sources/formulaire maths.pdf\",\"pageWidth\":728,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664555687810.png?1664555697138\",\"commentTime\":1668213420306}","type":"rect","page":2,"width":246,"height":46,"pdfName":"sources/formulaire maths.pdf"}
 >```
 >%%
 >![[attachments/markmind/1664555687810.png]]

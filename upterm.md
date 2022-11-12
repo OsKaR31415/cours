@@ -7,6 +7,9 @@ usage::"`upterm (host|...)`"
 
 When starting the host (with `upterm host`) you get the url for web connexion, and the command for ssh connexion.
 
+# Connecting to a session
+ssh does not support rsa by default now 
+
 # Advanced Usage
 
 ## command at startup

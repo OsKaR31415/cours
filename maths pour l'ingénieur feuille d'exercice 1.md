@@ -465,6 +465,58 @@ $$
 &= \pi
 \end{align}
 $$ 
-> [!info] Rappel
+> [!info]- Rappel - Fonction artangente
 > ![[fonction arctangente]]
 
+### c)
+$\displaystyle \int_{0}^{+\infty} \frac{e^{\arctan(t)}}{1+t^{2}} \, dt$
+
+$$
+\begin{align}
+\int_{0}^{+\infty} \frac{e^{\arctan(t)}}{1+t^{2}} \, dt &= \lim\limits_{ x \to +\infty } \int_{0}^{x} \frac{e^{\arctan(t)}}{1+t^{2}} \, dt \\
+&= \lim\limits_{ x \to +\infty } \int_{0}^{+\infty} \frac{1}{1+t^{2}}\times e^{\arctan(t)} \, dt   \\
+\end{align}
+$$
+
+On sait que : $\big( v(u(x)) \big)' = u'(x)\times v'(u(x))$ (autrement dit : $(v \circ u)' = u' \times v'\circ u$) (dérivée d'une composée)
+
+Alors : 
+$\displaystyle \int_{a}^{b} u'(t)\times v'(u(t)) \, dt = \big[ v(u(t)) \big]_{a}^{b} = \left[ u(t) \right]_{u(a)}^{u(b)}$
+
+Donc :
+
+$$
+\begin{align}
+\int_{0}^{+\infty} \frac{e^{\arctan(t)}}{1+t^{2}} \, dt &= \lim\limits_{ x \to +\infty } \left[ e^{\arctan(t)} \right]_{0}^{x} \\
+&= \lim\limits_{ x \to +\infty } \left( e^{ac\tan(x)} - e^{\arctan(0)} \right)  \\
+&= \lim\limits_{ x \to +\infty } \left( e^{\arctan(t)} - 1 \right)  \\
+&= e^{\frac{\pi}{2}} - 1
+\end{align}
+$$
+
+### d)
+$\displaystyle \int_{1}^{+\infty} \frac{dt}{t^{2}}$
+
+
+$$
+\begin{align}
+\int_{1}^{+\infty} \frac{dt}{t^{2}} &= \lim\limits_{ x \to +\infty } \int_{1}^{x} \frac{1}{t^{2}} \, dt \\
+&= \lim\limits_{ x \to +\infty } \left[ -\frac{1}{t} \right] _{2}^{x} \\
+&= \lim\limits_{ x \to +\infty } \left( -\frac{1}{x} + 1 \right)   \\
+&= 1
+\end{align}
+$$
+
+### e)
+$\displaystyle \int_{0}^{+\infty} t e^{ -t^{2} }  \, dt$
+
+$$
+\begin{align}
+\int_{0}^{+\infty} t e^{ -t^{2} }  \, dt &= \lim\limits_{ x \to +\infty } \int_{0}^{x} \text{e-tsr} \, dt \\
+&= \lim\limits_{ x \to +\infty } \int_{0}^{x} -\frac{1}{2}\times(-2)t e^{ -t^{2} } \, dt \\
+&= \lim\limits_{ x \to +\infty } -\frac{1}{2}\int_{0}^{x} -2t e^{ -t^{2} } \, dt \\
+&= \lim\limits_{ x \to +\infty } \left( -\frac{1}{2} \times \left[ e^{ -t^{2} } \right]_{0}^{x} \right) \\
+&= \lim\limits_{ x \to +\infty } \left( -\frac{1}{2} \left( e^{-x^{2}} - 1 \right)  \right)  \\
+
+\end{align}
+$$

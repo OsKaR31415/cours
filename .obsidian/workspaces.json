@@ -2324,11 +2324,31 @@
         "type": "split",
         "children": [
           {
-            "id": "1073eef8bb6b84e6",
+            "id": "af2b2419256cd90e",
             "type": "tabs",
+            "dimension": 52.9317697228145,
             "children": [
               {
-                "id": "6ae05a4220cae9ef",
+                "id": "c7da407fe2d6bfc9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Basile Progression.md"
+                  }
+                }
+              },
+              {
+                "id": "b68391cd2e11e788",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2342,7 +2362,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "langage de programmation.md",
+                    "file": "Untitled.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2350,7 +2370,48 @@
                 }
               },
               {
-                "id": "bc9d13df2ddf4205",
+                "id": "e106e38beec7fc62",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "automate-pile.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4842e29a5cc1700d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/o-tomat 2022-11-11 22.12.23.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "e60c388d39a8f370",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2360,17 +2421,17 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "Untitled",
+                      "title": "upterm",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"upterm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":40},\"to\":{\"line\":10,\"ch\":40}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Traditionnal Mathematical Notation.md",
+                    "file": "unix commandes.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2378,29 +2439,7 @@
                 }
               },
               {
-                "id": "e1ce837b7527446e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "définitions alternatives de la fonction signe.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "fcfd09d0ae20ebff",
+                "id": "38a1364ebcc4e3f3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2410,25 +2449,66 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "fonction signe",
+                      "title": "obsidian plugin markmind",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction signe.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":2.533333333333333}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugin markmind.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.9761904761904763}"
+                    },
+                    {
+                      "title": "obsidian plugins",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugins.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.518042062008941}"
+                    },
+                    {
+                      "title": "obsidian plugin various complements",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugin various complements.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "obsidian plugins",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugins.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":9.876064713959755}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "markdown",
+                  "type": "mindmapview",
                   "state": {
-                    "file": "maths pour l'ingénieur feuille d'exercice 1.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "obsidian plugin markmind demo.md"
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
+          },
+          {
+            "id": "d774be6d7a3bb6b2",
+            "type": "tabs",
+            "dimension": 47.0682302771855,
+            "children": [
+              {
+                "id": "96d38cde12430a26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/annotations/formulaire maths-annotate.md"
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -2553,7 +2633,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "maths pour l'ingénieur feuille d'exercice 1.md",
+                    "file": "obsidian plugin markmind demo.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2574,7 +2654,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "maths pour l'ingénieur feuille d'exercice 1.md",
+                    "file": "obsidian plugin markmind demo.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2616,7 +2696,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "maths pour l'ingénieur feuille d'exercice 1.md"
+                    "file": "obsidian plugin markmind demo.md"
                   }
                 }
               },
@@ -2686,7 +2766,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "maths pour l'ingénieur feuille d'exercice 1.md",
+                    "file": "obsidian plugin markmind demo.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2896,9 +2976,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 343.5
+        "width": 343.5,
+        "collapsed": true
       },
-      "active": "fcfd09d0ae20ebff",
+      "active": "38a1364ebcc4e3f3",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
