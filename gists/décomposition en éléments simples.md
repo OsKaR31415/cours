@@ -14,7 +14,7 @@ La décomposition en élément simple sert à exprimer de façon plus pratique d
 $$f(x) = \frac{4x^{3}+9x - 3}{4x^{2}+7}$$
 
 ## But de la décomposition en éléments simples
-La décomposition en éléments simples permet d'exprimer ces fonctions sous la forme d'une somme d'un polynômes et de fractions simples (les éléments simples) contenant une constante (ou éventuellement un polynôme de degré 1) divisée par un polynôme (de degré 2 au plus).
+La décomposition en éléments simples permet d'exprimer ces fonctions sous la forme d'une somme d'un polynôme et de fractions simples (les éléments simples) contenant une constante (ou éventuellement un polynôme de degré 1) divisée par un polynôme (de degré 2 au plus).
 Pour reprendre l'exemple de la fonction $f$, sa décomposition en éléments simples est :
 $$f = x + \frac{2x}{4x^{2}+7} - \frac{3}{4x^{2}+7}$$
 C'est donc une autre forme pour _la même fonction_, qui est plus pratique, notammen pour intégrer la fonction ou pour d'autres manipulations algébriques.
