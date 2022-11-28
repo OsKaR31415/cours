@@ -3,7 +3,7 @@ gists:
   - id: 88e29cabd85f710168ad836523fde914
     url: 'https://gist.github.com/88e29cabd85f710168ad836523fde914'
     createdAt: '2022-09-28T08:37:00Z'
-    updatedAt: '2022-09-28T08:37:00Z'
+    updatedAt: '2022-11-28T09:57:09Z'
     filename: how i see the unix command line.md
     isPublic: true
 ---
