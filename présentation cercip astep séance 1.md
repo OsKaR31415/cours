@@ -41,3 +41,10 @@ up:: [[cercip astep]]
  - faire encodage-décodage (se faire passer un message)
  - trouver sans avoir la clef ?
 
+
+---
+## Le binaire 
+
+ - cartes binaires (format A4) (au tableau) pour encoder-décoder des nombres avec eux
+ - passage en mode activité ensuite
+     - sorte de code secret : se faire passer un nombre (l'un encode, l'autre décode)

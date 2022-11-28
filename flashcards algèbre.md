@@ -19,7 +19,7 @@ propriétés d'un monoïde
 une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
-<!--SR:!2022-12-09,81,212!2022-11-10,24,272-->
+<!--SR:!2022-12-09,81,212!2023-01-31,75,272-->
 
 l'**ordre d'un groupe** est...
 ??
@@ -29,7 +29,7 @@ le _nombre d'éléments_ de son ensemble sous-jacent
 l'**ordre** d'un **élément** $a$ d'un groupe est...
 ??
 le plus petit nombre $n$ tel que $a^{*n}=a$
-<!--SR:!2022-12-17,133,292!2022-11-10,25,272-->
+<!--SR:!2022-12-17,133,292!2023-03-16,119,292-->
 
 propriétés d'un [[espace vectoriel]] 
 ??
@@ -40,7 +40,7 @@ $(E, +, \cdot)$ tel que :
      - un [[élément neutre]] 
      - tous les éléments sont [[éléments symétrisables|symétrisables]] 
  - $\cdot$ est [[distributivité|distributive]] sur $+$
-<!--SR:!2022-11-05,21,252!2022-12-10,55,292-->
+<!--SR:!2023-03-14,117,272!2022-12-10,55,292-->
 
 
 
@@ -56,7 +56,7 @@ application bilinéaire
 Application $f: E^{2} \to \mathbf{K}$ telle que :
  - $f(( \textcolor{green}{a_{1}}\textcolor{royalblue}{u_{1}} + \textcolor{orange}{a_{2}}\textcolor{royalblue}{u_{2}}; v )) = \textcolor{green}{a_{1}}f((\textcolor{royalblue}{u_{1}}; v)) + \textcolor{orange}{a_{2}}f((\textcolor{royalblue}{u_{2}}; v))$
  - $f(( u; \textcolor{green}{a_{1}}\textcolor{royalblue}{v_{1}} + \textcolor{orange}{a_{2}}\textcolor{royalblue}{v_{2}} )) = \textcolor{green}{a_{1}}f((u;\textcolor{royalblue}{v_{1}})) + \textcolor{orange}{a_{2}}f((u;\textcolor{royalblue}{v_{2}}))$
-<!--SR:!2022-11-10,10,263-->
+<!--SR:!2023-01-18,62,283-->
 
 application symétrique 
 ??
@@ -69,7 +69,10 @@ $\forall  (u, v) \in E^{2}, \quad f((u;v)) = f((v;u))$
 
 
 Matrice de rotation en 2D (angle $\theta$) ::: $\large\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$
-<!--SR:!2022-11-05,5,244!2022-11-09,9,284-->
+<!--SR:!2022-11-30,3,224!2023-01-06,43,284-->
+
+Matrice de symétrie en 2D (angle $\theta$) ::: $\large \begin{pmatrix}\cos \theta & \sin \theta \\ \sin \theta & -\cos \theta\end{pmatrix}$
+<!--SR:!2022-11-26,1,250!2022-11-28,3,270-->
 
 
 - [ ] #todo: pour l'algèbre linéaire

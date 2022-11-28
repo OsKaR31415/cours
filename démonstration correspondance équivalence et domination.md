@@ -1,5 +1,5 @@
 up::[[fonctions équivalentes|équivalence]], [[domination en un point|domination]]
-#maths/analyse #demonstration #no-review 
+#maths/analyse #démonstration #no-review 
 
 ---
 

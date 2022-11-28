@@ -1,6 +1,6 @@
 up::[[structure algébrique]], [[anneau]] 
 title:: "$(K, +, \times)$ où :", "$(K, +)$ est un [[groupe abélien]] d'élément neutre $0$", "$(K^{*}, \times)$ est un [[groupe]]"
-#maths/algèbre #not-done 
+#maths/algèbre 
 
 ---
 

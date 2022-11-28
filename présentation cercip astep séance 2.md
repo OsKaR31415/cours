@@ -5,13 +5,13 @@ up:: [[cercip astep]]
 
 # L'informatique 
 
----
+## Introduction débranchée
+ - faire le jeu du robot avec un élève
+ - [!] Max 15 minutes :luc_timer:
 
-## Le binaire 
+## lightbox et tuxbot
 
- - cartes binaires (format A4) (au tableau) pour encoder-décoder des nombres avec eux
- - passage en mode activité ensuite
-     - sorte de code secret : se faire passer un nombre (l'un encode, l'autre décode)
+ - [?]  démo au tableau avant ?
+ - laisser le choix individuellement aux élèves
 
----
 

@@ -9,7 +9,7 @@ Ex: $sorte(R) = \{titre, réalisateur, année\}$
 En BDD, l'_arité_ d'une relation est
 ?
 le nombre d'attributs. C'est le cardinal de la _sorte_.
-<!--SR:!2022-11-18,167,290-->
+<!--SR:!2023-11-24,365,310-->
 
 En BDD, le _shéma_ d'une relation est
 ?
@@ -37,5 +37,5 @@ La partie $R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$ est appelée le **corps** de la r�
 En BDD, une _valuation_ est ...
 ?
 Une fonction qui donne des valeurs à chaque attribut.
-<!--SR:!2022-11-09,114,296-->
+<!--SR:!2023-11-17,365,316-->
 

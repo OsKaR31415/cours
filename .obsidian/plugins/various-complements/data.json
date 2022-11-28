@@ -47,27 +47,11 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "dérivée": {
-      "dérivée": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1665478843802
-        }
-      }
-    },
     "application linéaire": {
       "application linéaire": {
         "internalLink": {
           "count": 14,
           "lastUpdated": 1667574753503
-        }
-      }
-    },
-    "processus": {
-      "processus": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1666185862846
         }
       }
     },
@@ -79,51 +63,11 @@
         }
       }
     },
-    "linéaire": {
-      "linéaire": {
-        "internalLink": {
-          "count": 8,
-          "lastUpdated": 1666135978534
-        }
-      }
-    },
-    "application": {
-      "application": {
-        "internalLink": {
-          "count": 12,
-          "lastUpdated": 1665597590939
-        }
-      }
-    },
     "espace vectoriel": {
       "espace vectoriel": {
         "internalLink": {
           "count": 18,
           "lastUpdated": 1667570684244
-        }
-      }
-    },
-    "réciproque": {
-      "réciproque": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1665599433890
-        }
-      }
-    },
-    "famille de vecteurs": {
-      "famille de vecteurs": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1666191770131
-        }
-      }
-    },
-    "combinaisons linéaires": {
-      "combinaisons linéaires": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665391596040
         }
       }
     },
@@ -135,67 +79,11 @@
         }
       }
     },
-    "projection": {
-      "projection": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1666192897026
-        }
-      }
-    },
-    "corps": {
-      "corps": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1666335988714
-        }
-      }
-    },
-    "équation polynomiale": {
-      "équation polynomiale": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1666430681095
-        }
-      }
-    },
-    "coefficients de Bézout": {
-      "coefficients de Bézout": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1666430466092
-        }
-      }
-    },
     "rotation": {
       "rotation": {
         "internalLink": {
           "count": 8,
           "lastUpdated": 1668023641365
-        }
-      }
-    },
-    "primitive": {
-      "primitive": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1665391958409
-        }
-      }
-    },
-    "FCFS": {
-      "FCFS": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665579022428
-        }
-      }
-    },
-    "base d'un espace vectoriel": {
-      "base d'un espace vectoriel": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1665596775259
         }
       }
     },
@@ -215,94 +103,6 @@
         }
       }
     },
-    "arctan": {
-      "arctan": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665391075583
-        }
-      }
-    },
-    "arccosinus": {
-      "arccosinus": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665391420531
-        }
-      }
-    },
-    "sous espace vectoriel": {
-      "sous espace vectoriel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665391619403
-        }
-      }
-    },
-    "argth": {
-      "argth": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665391971319
-        }
-      }
-    },
-    "Ordonnancement par Tourniquet": {
-      "Ordonnancement par Tourniquet": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665580024033
-        }
-      }
-    },
-    "Ordonnancement avec priorités dynamiques": {
-      "Ordonnancement avec priorités dynamiques": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665581198124
-        }
-      }
-    },
-    "corps commutatif": {
-      "corps commutatif": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665595380813
-        }
-      }
-    },
-    "valeur absolue": {
-      "valeur absolue": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665595415669
-        }
-      }
-    },
-    "symétrie": {
-      "symétrie": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665596185709
-        }
-      }
-    },
-    "symétrique": {
-      "symétrique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665596201421
-        }
-      }
-    },
-    "forme bilinéaire": {
-      "forme bilinéaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665596435627
-        }
-      }
-    },
     "polynôme": {
       "polynôme": {
         "internalLink": {
@@ -319,243 +119,11 @@
         }
       }
     },
-    "polynôme homogène": {
-      "polynôme homogène": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665597186414
-        }
-      }
-    },
-    "forme quadratique": {
-      "forme quadratique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665597509575
-        }
-      }
-    },
-    "fonction": {
-      "fonction": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665730572108
-        }
-      }
-    },
-    "Norme": {
-      "Norme": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665829087680
-        }
-      }
-    },
-    "norme": {
-      "norme": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1666439639603
-        }
-      }
-    },
-    "produit scalaire": {
-      "produit scalaire": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1666439635579
-        }
-      }
-    },
-    "Famille de vecteur normale": {
-      "Famille de vecteur normale": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665829612831
-        }
-      }
-    },
-    "Famille de vecteurs Orthogonale": {
-      "Famille de vecteurs Orthogonale": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665829501478
-        }
-      }
-    },
-    "orthogonaux": {
-      "orthogonaux": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665829512954
-        }
-      }
-    },
-    "algèbre SPC": {
-      "algèbre SPC": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1666134886759
-        }
-      }
-    },
-    "Orthonormaliser une famille de vecteurs": {
-      "Orthonormaliser une famille de vecteurs": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1666192678737
-        }
-      }
-    },
-    "Famille de vecteurs orthonormale": {
-      "Famille de vecteurs orthonormale": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666192508962
-        }
-      }
-    },
-    "projeté orthogonal d'un vecteur": {
-      "projeté orthogonal d'un vecteur": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666194057845
-        }
-      }
-    },
-    "continue": {
-      "continue": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1666626219987
-        }
-      }
-    },
-    "inégalité triangulaire": {
-      "inégalité triangulaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666335830738
-        }
-      }
-    },
-    "application additive": {
-      "application additive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666336775040
-        }
-      }
-    },
-    "Application sous-additive": {
-      "Application sous-additive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666336837779
-        }
-      }
-    },
-    "sous-additive": {
-      "sous-additive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666337088516
-        }
-      }
-    },
-    "additivité": {
-      "additivité": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666337534938
-        }
-      }
-    },
-    "injective": {
-      "injective": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666337752162
-        }
-      }
-    },
-    "algorithme d'euclide": {
-      "algorithme d'euclide": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1666431962930
-        }
-      }
-    },
-    "MOC arithmétique": {
-      "MOC arithmétique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666430636774
-        }
-      }
-    },
-    "équation diophantienne": {
-      "équation diophantienne": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666430666304
-        }
-      }
-    },
-    "pgcd": {
-      "pgcd": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666430854399
-        }
-      }
-    },
-    "algorithme d'Euclide inverse": {
-      "algorithme d'Euclide inverse": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666430968895
-        }
-      }
-    },
     "matrice associée à une application linéaire": {
       "matrice associée à une application linéaire": {
         "internalLink": {
           "count": 5,
           "lastUpdated": 1668213204003
-        }
-      }
-    },
-    "espace euclidien": {
-      "espace euclidien": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666439692046
-        }
-      }
-    },
-    "vecteurs orthogonaux": {
-      "vecteurs orthogonaux": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666440060271
-        }
-      }
-    },
-    "symétrie vectorielle orthogonale": {
-      "symétrie vectorielle orthogonale": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1666440447806
-        }
-      }
-    },
-    "symétrie orthogonale par rapport à u droite vectorielle": {
-      "symétrie orthogonale par rapport à u droite vectorielle": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666440496126
         }
       }
     },
@@ -778,8 +346,8 @@
     "commutative": {
       "commutative": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667579220160
+          "count": 4,
+          "lastUpdated": 1668372125675
         }
       }
     },
@@ -964,6 +532,182 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1668213194201
+        }
+      }
+    },
+    "suite géométrique": {
+      "suite géométrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668251622945
+        }
+      }
+    },
+    "cycle en Y 2022-09-12 14.15.53.excalidraw": {
+      "cycle en Y 2022-09-12 14.15.53.excalidraw": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1668372139251
+        }
+      }
+    },
+    "Electronique": {
+      "Electronique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668718990470
+        }
+      }
+    },
+    "Logique séquentielle": {
+      "Logique séquentielle": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1668725020288
+        }
+      }
+    },
+    "distribution de Dirac": {
+      "distribution de Dirac": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1668725027902
+        }
+      }
+    },
+    "SE - page": {
+      "SE - page": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1668779982290
+        }
+      }
+    },
+    "algorithme de remplacement de page": {
+      "algorithme de remplacement de page": {
+        "internalLink": {
+          "count": 6,
+          "lastUpdated": 1668783686670
+        }
+      }
+    },
+    "SE - Défaut de page": {
+      "SE - Défaut de page": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668780250347
+        }
+      }
+    },
+    "défaut de page": {
+      "défaut de page": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1668780409928
+        }
+      }
+    },
+    "intégrale impropre": {
+      "intégrale impropre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1668849097159
+        }
+      }
+    },
+    "intégration": {
+      "intégration": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668849211558
+        }
+      }
+    },
+    "intégrale généralisée": {
+      "intégrale généralisée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1668849738278
+        }
+      }
+    },
+    "intégration généralisée": {
+      "intégration généralisée": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1669406080956
+        }
+      }
+    },
+    "fonction continue par morceaux": {
+      "fonction continue par morceaux": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669072973885
+        }
+      }
+    },
+    "absolument convergente": {
+      "absolument convergente": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669074803476
+        }
+      }
+    },
+    "intégrale absolument convergente": {
+      "intégrale absolument convergente": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669073990723
+        }
+      }
+    },
+    "convergence d'intégrales de fonctions comparées": {
+      "convergence d'intégrales de fonctions comparées": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669284155180
+        }
+      }
+    },
+    "algèbre relationelle": {
+      "algèbre relationelle": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669109844289
+        }
+      }
+    },
+    "youtube my obsidian workflow": {
+      "youtube my obsidian workflow": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669331425507
+        }
+      }
+    },
+    "obsidian workflow": {
+      "obsidian workflow": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669331427613
+        }
+      }
+    },
+    "obsidian plugin dataview": {
+      "obsidian plugin dataview": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669331444260
+        }
+      }
+    },
+    "règle d'Abel": {
+      "règle d'Abel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669406353355
         }
       }
     }

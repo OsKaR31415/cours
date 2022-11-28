@@ -1,3 +1,6 @@
+---
+alias: [ "continue par morceaux" ]
+---
 up::[[fonction]]
 sibling::[[fonction continue]]
 title::

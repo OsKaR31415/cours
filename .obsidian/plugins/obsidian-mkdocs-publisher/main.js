@@ -1971,7 +1971,8 @@ function convertWikilinks(fileContent, conditionConvert, settings, linkedFiles) 
           const altLink = creatorAltLink(altMatch, altCreator, fileName.split(".").at(-1), fileName);
           const removeEmbed = !isAttachment(fileName.trim()) && conditionConvert.removeEmbed && isEmbedBool;
           if (convertWikilink) {
-            linkCreator = `${isEmbed}[${altLink}](${encodeURI(fileName.trim()) + ".md"})`;
+            const markdownName = !isAttachment(fileName.trim()) ? fileName.trim() + ".md" : fileName.trim();
+            linkCreator = `${isEmbed}[${altLink}](${encodeURI(markdownName)})`;
           }
           if (!isAttachment(fileName.trim()) && !convertLinks && !isEmbedBool) {
             linkCreator = altLink;

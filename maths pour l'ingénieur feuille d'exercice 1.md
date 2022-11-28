@@ -448,6 +448,115 @@ On obtient :
 $\boxed{\int h_{2}(s) \, dx = x^{4}-6x^{3}+13x^{2}-12x+4+\text{cste.}}$
 
 
+## Exercice 2
+
+### f)
+> $\displaystyle\int_{2}^{+\infty} \frac{1}{t^{2}-1} \, dt$
+
+**Décomposition en éléments simples :**
+$\displaystyle \frac{1}{t^{2}-1} = \frac{1}{(t-1)(t+1)} = \frac{A}{t-1} + \frac{B}{t+1}$
+On cherche $A$ et $B$ :
+$$
+\begin{align}
+\frac{1}{t^{2}-1} &= \frac{A}{t-1} + \frac{B}{t+1} \\ \\
+&= \frac{A(t+1)+B(T-1)}{(t-1)(t+1)} \\
+&= \frac{At+A+Bt-B}{t^{2}-1} \\
+&= \frac{(A+B)t+A-B}{t^{2}-1} \\
+\text{donc :} \\
+1 &= (A+B)t + A-B \\
+\text{soit :} \\
+\begin{cases}
+A+B = 0 \\
+A-B = 1
+\end{cases} \\
+&\iff \begin{cases}
+A = -B \\
+2A = 1
+\end{cases} \\
+&\iff \begin{cases}
+A = -B \\
+A = \frac{1}{2}
+\end{cases} \\
+&\iff \begin{cases}
+A = \frac{1}{2} \\
+B = -\frac{1}{2}
+\end{cases}
+\end{align}
+$$
+Donc, on a :
+$\displaystyle \frac{1}{t^{2}-1} = \frac{1}{2(t-1)} - \frac{1}{2(t+1)}$
+
+$$ \begin{align}
+\int_{2}^{+\infty} \frac{dt}{t^{2}-1} &= \int_{2}^{+\infty} \frac{1}{2(t-1)} - \frac{1}{2(t+1)} \, dt  \\
+&= \lim\limits_{ x \to +\infty } \int_{2}^{x} \frac{1}{2(t-1)} - \frac{1}{2(t+1)} \, dt \\
+&= \lim\limits_{ x \to +\infty } \frac{1}{2}\left(  \left[  \ln(|t-1|) - \ln(|t+1|) \right]_{2}^{x}  \right)  \\
+&= \lim\limits_{ x \to +\infty }  \frac{1}{2} \left( \ln(x-1) - \ln(x+1) - \ln(1) + \ln(3) \right)  \\
+&= \lim\limits_{ x \to +\infty } \frac{1}{2}\left( \ln\left( \frac{x-1}{x+1} \right) + \ln(3) \right)  \\
+\text{or :} & \lim\limits_{ x \to +\infty } \frac{x-1}{x+1} = 1 \\
+\text{donc :} \\
+\int_{2}^{+\infty} \frac{1}{t^{2}-1} \, dt &= \frac{\ln(3)}{2}
+\end{align} $$
+
+
+### g)
+> $\displaystyle \int_{0}^{1} \frac{1}{\sqrt{ t }} \, dt$
+
+$$
+\begin{align}
+\int_{0}^{1} \frac{dt}{\sqrt{ t }} &= \lim\limits_{ x \to 0 } \int_{x}^{1} t^{-\frac{1}{2}} \, dt \\
+&= \lim\limits_{ x \to 0 } \left[ \frac{1}{\frac{1}{2}} t^{\frac{1}{2}} \right]_{x}^{1} \\
+&= \lim\limits_{ x \to 0 } \left[ 2\sqrt{ t } \right]_{x}^{1} \\
+&= \lim\limits_{ x \to 0 } 2\sqrt{ 1 } - 2\sqrt{ x } \\
+&= 2
+\end{align}
+$$
+Donc $\displaystyle \int_{0}^{1} \frac{dt}{\sqrt{ t }}$ est convergente et vaut $2$.
+
+
+### h)
+> $\displaystyle \int_{0}^{+\infty} t e^{ -t } \, dt$
+
+On utilise une intégration par parties :
+$t e^{-t} = u(t) \times v'(t)$ où :
+$\displaystyle \begin{cases} u(t) = t\\ v'(t) = e^{-t} \end{cases} \implies \begin{cases} u'(t) = 1\\ v(t) = -e^{-t} \end{cases}$
+Alors :
+$$
+\begin{align}
+\int_{a}^{b} t e^{ -t } \, dt &= \int_{a}^{b} u(t)v'(t) \, dt \\
+&= \left[ u(t)\times v(t) \right]_{a}^{b} - \int_{a}^{b} u'(t)\times v(t) \, dt \\
+&= \left[ -t e^{ -t } \right]_{a}^{b} - \int_{a}^{b} - e^{ -t } \, dt  \\
+&= \left[ -t e^{ -t } \right]_{a}^{b} - \left[ e^{ -t } \right]_{a}^{b} \\
+\text{donc :} \\
+\int_{0}^{+\infty} t e^{ -t } \, dt &= \lim\limits_{ x \to +\infty } \left[ -t e^{ -t } \right]_{0}^{x} - \left[ e^{-t} \right]_{0}^{x} \\
+&= \lim\limits_{ x \to +\infty } -x e^{ -x } - 0 - e^{ -x } - (-1) \\
+&= \lim\limits_{ x \to +\infty } \underbrace{ -x e^{ -x } }_{ \to 0 } - \underbrace{ e^{ -x } }_{ \to 0 } + 1 \\
+&= 1
+\end{align}
+$$
+Donc, l'intégrale $\displaystyle\int_{0}^{+\infty} t e^{ -t } \, dt$ converge et vaut $1$
+
+### i)
+> $\displaystyle\int_{0}^{\frac{\pi}{4}} \frac{\cos(t)}{\sqrt{ \sin (t) }} \, dt$
+
+$\displaystyle \int_{0}^{\frac{\pi}{4}} \frac{\cos(t)}{\sqrt{ \sin (t) }} \, dt = \lim\limits_{ x \to 0 } \int_{x}^{\frac{\pi}{4}} \frac{\cos(t)}{\sqrt{ \sin(t) }} \, dt$
+
+On sait que $(\sin x)' = \cos x$
+Donc, on a :
+$$
+\begin{align}
+\lim\limits_{ x \to 0 } \int_{x}^{\frac{\pi}{4}} \frac{\cos(t)}{\sqrt{ \sin(t) }} \, dt &= \lim\limits_{ x \to 0 } \int_{x}^{\frac{\pi}{4}} \frac{(\sin t)'}{\sqrt{ \sin(t) }} \, dt  \\
+&= \lim\limits_{ x \to 0 } 2 \int_{x}^{\frac{\pi}{4}} \frac{(\sin t)'}{2\sqrt{ \sin t }} \, dt \\
+&= \lim\limits_{ x \to 0 } 2 \left[ \sqrt{ \sin(t) } \right]_{x}^{\frac{\pi}{4}} && \text{car } \left(\sqrt{ u }\right)' = \frac{u'}{2\sqrt{ u }} \\
+&= \lim\limits_{ x \to 0 } 2\left( \sqrt{ \sin \left( \frac{\pi}{4} \right) } - \sqrt{ \sin(x) } \right)  \\
+&= 2 \sqrt{ \frac{\sqrt{ 2 }}{2} } \qquad \text{ car } \lim\limits_{ x \to 0 } \sqrt{ \sin(x) } = 0 \\
+&= 2 \sqrt{ \frac{1}{\sqrt{ 2 }} } \\
+&= 2 \times \frac{1}{2^{\frac{1}{4}}} \\
+&= 2 ^{1-\frac{1}{4}} \\
+&= 2^{\frac{3}{4}}
+\end{align}
+$$
+Donc, $\displaystyle \int_{0}^{\frac{\pi}{4}} \frac{\cos(t)}{\sqrt{ \sin(t) }} \, dt$ est convergente et vaut $2^{\frac{3}{4}}$
+
 
 ## Exercice 5
 > Déterminer à l'aide de la définition la nature des intégrales suivantes et calculer celles qui convergent.
@@ -520,3 +629,187 @@ $$
 
 \end{align}
 $$
+
+
+## Exercice 6
+
+### a)
+> $\displaystyle \int_{1}^{+\infty} \frac{1-\cos(t)}{t^{2}} \, dt$
+
+
+ - $\displaystyle\frac{1-\cos(t)}{t^{2}}$ est continue sur $[0; +\infty[$
+ - on a : $\displaystyle \lim\limits_{ x \to +\infty } \frac{1-\cos(t)}{t^{2}} = 0$, donc on a pas une divergence grossière
+ - $\displaystyle \forall t \in [1, +\infty[, 0 \leq \frac{1-\cos(t)}{t^{2}} \leq \frac{2}{t^{2}}$
+     - Or, $\displaystyle \int_{1}^{+\infty} \frac{2}{t^{2}} \, dt = 2\int_{1}^{+\infty} \frac{1}{t^{2}} \, dx$, qui est une intégrale de Riemann. D'après le critère de Riemann, $\displaystyle \int_{1}^{+\infty} \frac{2}{t^{2}} \, dx$ converge donc.
+     - aussi, $\displaystyle\int_{1}^{+\infty} 0 \, dx = 0$
+     - Alors, par encadrement, $\displaystyle \int_{1}^{+\infty} \frac{1-\cos t}{t^{2}} \, dt$ converge
+
+### b)
+> $\displaystyle \int_{0}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}} + 1} \, dt$
+
+ - la singularité est en $+\infty$
+
+ - $\displaystyle \lim\limits_{ t \to +\infty } \frac{t^{2}}{t^{\frac{17}{5}}+ 1} = 0$ par croissance comparée
+     - Donc on a pas une divergence grossière
+
+$\displaystyle\frac{t^{2}}{t^{\frac{17}{5}}+1} \sim _{+\infty} \frac{1}{t^{\frac{7}{5}}}$
+
+Alors $\displaystyle \int_{0}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}} + 1} \, dt$ et $\displaystyle\int_{0}^{+\infty} \frac{1}{t^{\frac{7}{5}}} \, dt$ ont la même convergence
+
+Or, par critère de Riemann, on sait que $\displaystyle\int_{1}^{+\infty} \frac{1}{t^{\frac{7}{5}}} \, dt$ est convergente, donc $\displaystyle\int_{1}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dx$ converge aussi.
+ - [!] on intègre sur $[1;+\infty[$ pour que le critère de Riemann puisse s'appliquer
+De l'autre côté, $\displaystyle\int_{0}^{1} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dx$ est une intégration classique, donc finie.
+
+Alors, puisque $\displaystyle\int_{0}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dt = \int_{0}^{1} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dt + \int_{1}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dt$
+On sait que l'intégrale :
+$\displaystyle\int_{0}^{+\infty} \frac{t^{2}}{t^{\frac{17}{5}}+1} \, dt$ converge
+
+ 
+### c)
+> $\displaystyle\int_{0}^{1} \frac{e^{ t }}{t} \, dt$
+
+
+Soit $t \in ]0; 1]$ on a : $\displaystyle 0 \leq \frac{1}{t} \leq \frac{e^{ t }}{t}$
+
+De plus, on sait que $\displaystyle\int_{0}^{1} \frac{1}{t} \, dt$ est divergente (critère de Riemann)
+
+Donc, $\displaystyle\int_{0}^{1} \frac{1}{t} \, dt$ est 
+
+### d)
+> $\displaystyle\int_{0}^{1} \frac{\cos(t)}{\sqrt{ t }} \, dt$
+
+Soit $t \in ]0; 1]$, on a :
+$0 \leq \cos t \leq 1$
+$\displaystyle0 \leq \frac{\cos(t)}{\sqrt{ t }} \leq \frac{1}{\sqrt{ t }}$
+
+De plus, on sait que $\displaystyle \int_{0}^{1} \frac{1}{\sqrt{ t }} \, dt$ converge (critère de Riemann)
+alors, $\displaystyle\int_{0}^{1} \frac{\cos(t)}{\sqrt{ t }} \, dt$ converge
+
+
+### e)
+> $\displaystyle\int_{0}^{1} \frac{t^{2}+1}{t} \, dt$
+Note: on peux simplement effectuer le calcul de l'intégrale $\displaystyle\int_{x}^{1} \frac{t^{2}+1}{t} \, dt$, et voir que par passage à la limite, elle diverge.
+
+$\displaystyle\frac{t^{2}+1}{t}$ est une fonction positive sur $]0;1]$
+de plus, on a : $\displaystyle \frac{t^{2}+1}{t} \sim_{0} \frac{1}{t}$
+Alors $\displaystyle \int_{0}^{1} \frac{t^{2}+1}{t} \, dt$ a la même nature que $\displaystyle \int_{0}^{1} \frac{1}{t} \, dt$ qui diverge (critère de Riemann)
+Ainsi, $\displaystyle \int_{0}^{1} \frac{t^{2}+1}{t} \, dt$ diverge
+
+
+### f)
+> $F = \displaystyle \int_{-\infty}^{1} \frac{e^{ \cos t }}{t} \, dt$
+
+$\displaystyle \frac{e^{ \cos t }}{t}$ est continue par morceaux sur $]-\infty; 0[ \cup ]0; 1]$  (on note $\frac{e^{ \cos t }}{t} \in \mathcal{CM}(]-\infty;0[\cup]0;1])$)
+
+Donc :
+$$
+\begin{align}
+F &= \int_{-\infty}^{0} \frac{e^{ \cos t }}{t} \, dt + \int_{0}^{1} \frac{e^{ \cos t }}{t} \, dt \\
+&= \int_{-\infty}^{-1} \frac{e^{ \cos t }}{t} \, dt + \int_{-1}^{0} \frac{e^{ \cos t }}{t} \, dt + \int_{0}^{1} \frac{e^{ \cos t }}{t} \, dt  
+\end{align}
+$$
+On est obligé de diviser en 3 intégrales, car on a des singularités en $-\infty$ et en $0$, et que l'on veut intégrer jusqu'a $1$. On cherche donc à obtenir des intégrales avec chacune une seule singularité.
+Le choix de $-1$ est arbitraire (et ne change pas le résultat).
+
+On veut montrer que $\displaystyle\int_{0}^{1} \frac{e^{ \cos t }}{t} \, dt$ diverge
+
+Soit $t \in ]0;1]$ on a:
+$0 \leq \cos t$
+$\displaystyle 1 \leq e^{ \cos t }$ (car l'exponentielle est une fonction croissante)
+$\displaystyle 0 \leq \frac{1}{t} \leq \frac{e^{ \cos t }}{t}$ (car $t > 0$)
+
+Or, $\displaystyle\int_{0}^{1} \frac{1}{t} \, dt$ diverge (critère de Riemann).
+On en déduit que $\displaystyle\int_{0}^{1} \frac{e^{ \cos t }}{t} \, dt$ diverge
+
+### g)
+> $\displaystyle G = \int_{0}^{+\infty} \ln(t) \exp(-t) \, dt$
+
+$\displaystyle G = \int_{0}^{1} \ln(t)\exp(-t) \, dt + \int_{1}^{+\infty} \ln(t)\exp(-t) \, dx$
+
+> [!info] Rappels sur les logarithmes
+> Formules de base sur les logarithmes :
+>  - $\ln(a \times b) = \ln(a) + \ln(b)$
+>      - $\ln\left( \frac{a}{b} \right) = \ln(a) - \ln(b)$
+>      - $\ln\left( \frac{1}{x} \right) = -\ln(x)$
+>  - $\ln(a^{k}) = k\ln(a)$
+>      - on en déduit aussi : $\ln\left( \frac{1}{x} \right) = \ln(x^{-1}) = -\ln(x)$
+
+#### Convergence de $\displaystyle\int_{0}^{1} \ln(t)\exp(-t) \, dt$
+$\displaystyle \int_{0}^{1} \ln(t)\exp(-t) \, dt = \lim\limits_{ x \to +\infty }$
+
+On a : $\displaystyle\lim\limits_{ t \to 0 } t^{\frac{1}{2}} \ln(t) e^{ -t } = 0$ (on rappelle que $t^{\frac{1}{2}} = \sqrt{ t }$)
+Donc, d'après la proposition 7 du cours, on sait que $\displaystyle\int_{0}^{1} \ln(t)e^{ -t } \, dt$ est absolument convergente.
+
+#### Convergence de $\displaystyle\int_{1}^{+\infty} \ln(t)e^{ -t } \, dt$
+$\displaystyle\lim\limits_{ t \to +\infty } t^{2} \ln(t) e^{ -t } = \lim\limits_{ t \to +\infty } \frac{t^{2} \ln(t)}{e^{ t }}$
+
+Donc $\displaystyle\int_{1}^{+\infty} \ln(t)e^{ -t } \, dt$ est convergente
+
+#### Conclusion
+
+Puisque $\displaystyle\int_{0}^{1} \ln(t)e^{ -t } \, dt$ et $\displaystyle\int_{1}^{-\infty} \ln(t)e^{ -t } \, dt$ convergentent, on conclut que $\displaystyle\int_{0}^{+\infty} \ln(t)e^{ -t } \, dt$ converge.
+
+
+### h)
+> $H = \displaystyle\int_{0}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$
+
+$$\begin{align}
+H &= \displaystyle\int_{0}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt \\
+&= \int_{0}^{1} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt + \int_{1}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt  
+\end{align}$$
+
+On sait que :
+ - $\ln(1+t) \sim_{+\infty} \ln(t)$ (au voisinage de $+\infty$)
+ - $\ln(1+t) \sim_{o} t$ (au voisinage de $0$)
+
+#### Convergence de $\displaystyle\int_{0}^{1} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$
+
+On sait que :
+$\displaystyle \frac{\ln(1+t)}{t^{\frac{3}{2}}} \sim \frac{t}{\frac{3}{2}} = \frac{1}{t^{\frac{1}{2}}}$
+
+Or, par le critère de Riemann, on sait que $\displaystyle\int_{0}^{1} \frac{1}{t^{\frac{1}{2}}} \, dt$ converge car $\frac{1}{2} < 1$
+Donc, par équivalence, on sait que $\displaystyle \int_{0}^{1} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$ converge.
+
+#### Convergence de $\displaystyle\int_{1}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$
+
+
+on a : $\displaystyle\int_{1}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt = \int_{1}^{e} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt + \int_{e}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$
+
+$\displaystyle\int_{1}^{e} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$ est une intégrale classique, donc finie
+
+$\displaystyle\int_{e}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$ possède une singularité en $+\infty$
+On sait que :
+$\frac{\displaystyle\ln(1+t)}{t^{\frac{3}{2}}} \sim_{+\infty} \frac{\ln(t)}{t^{\frac{3}{2}}}$
+or, $\displaystyle\frac{\ln(t)}{t^{\frac{3}{2}}} = \frac{1}{t^{\frac{3}{2}}\times(\ln(t))^{-1}}$ (intégrale de Bertrand)
+On sait par le critère de Bertrand que $\displaystyle\int_{e}^{+\infty} \frac{1}{t^{\frac{3}{2}} \times (\ln(t))^{-1}} \, dt$ converge.
+Donc, par équivalence, on sait que $\displaystyle\int_{e}^{+\infty} \frac{\ln(1 + t)}{t^{\frac{3}{2}}} \, dt$ converge aussi
+
+Alors, $\displaystyle\int_{1}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$ converge.
+
+#### Conclusion
+
+Puisque toutes les parties de sa décomposition convergent, on sait que $\displaystyle\int_{0}^{+\infty} \frac{\ln(1+t)}{t^{\frac{3}{2}}} \, dt$ converge.
+
+
+### i)
+> $\displaystyle I = \int_{-\infty}^{+\infty} \frac{\ln(1 + t^{2})}{1+t^{2}} \, dt$
+
+$\displaystyle I = \int_{-\infty}^{0} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt + \int_{0}^{+\infty} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt$
+
+$\displaystyle t \mapsto \frac{\ln(1+t^{2})}{1+t^{2}}$ est une fonction paire, donc $\displaystyle\int_{-\infty}^{0} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt = - \int_{0}^{+\infty} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt$
+> [!info] Démonstration avec un changement de variable
+> On utilise la formule fondamentale du changement de variable :
+> $\boxed{\displaystyle\int_{a}^{b} g(f(t)) f'(t) \, dt = \int_{f(a)}^{f(b)} g(x) \, dx}$
+> Ici, on a : 
+
+Donc : $\displaystyle\int_{-\infty}^{+\infty} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt = 2 \int_{0}^{+\infty} \frac{\ln(1+t^{2})}{1+t^{2}} \, dt$
+
+Au voisinage de $+\infty$ : $\displaystyle\frac{\ln(1+t^{2})}{1+t^{2}} \sim_{+\infty} \frac{\ln(t^{2})}{t^{2}} = \frac{2\ln(t)}{t^{2}}$
+
+
+
+
+
+## Exercice 7
+
+### a)

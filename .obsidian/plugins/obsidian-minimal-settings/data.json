@@ -2,7 +2,7 @@
   "theme": "moonstone",
   "lightStyle": "minimal-light-tonal",
   "darkStyle": "minimal-dark",
-  "lightScheme": "minimal-solarized-light",
+  "lightScheme": "minimal-atom-light",
   "darkScheme": "minimal-default-dark",
   "editorFont": "\"Fira Code\"",
   "lineHeight": 1.5,

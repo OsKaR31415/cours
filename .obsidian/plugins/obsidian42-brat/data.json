@@ -6,7 +6,12 @@
     "SkepticMystic/nlp"
   ],
   "pluginSubListFrozenVersion": [],
-  "themesList": [],
+  "themesList": [
+    {
+      "repo": "AnubisNekhet/AnuPpuccin",
+      "lastUpdate": "2022-11-24T13:06:17Z"
+    }
+  ],
   "updateAtStartup": false,
   "updateThemesAtStartup": false,
   "ribbonIconEnabled": true,

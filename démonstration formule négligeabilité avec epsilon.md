@@ -1,5 +1,5 @@
 up::[[négligabilité]]
-#maths/analyse #demonstration #no-review 
+#maths/analyse #démonstration #no-review 
 
 ---
 Démonstration de $f = o_{+\infty}(g) \iff \forall \varepsilon > 0, \forall b \in \, \forall x \in X, x \geq b \implies |f(x)| \leq \varepsilon|g(x)|$

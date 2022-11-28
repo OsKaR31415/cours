@@ -11,8 +11,8 @@
     "includeName": true,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "1",
-    "downscalePercent": 74
+    "margin": "0",
+    "downscalePercent": 75
   },
   "defaultViewMode": "source",
   "autoPairMarkdown": false,

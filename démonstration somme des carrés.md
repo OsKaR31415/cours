@@ -1,6 +1,6 @@
 up::[[somme des carrés]] 
 title::"démonstration de $\sum\limits_{k=1}^{n}k^{2} = \frac{n(n+1)(2n+1)}{6}$"
-#maths #demonstration 
+#maths #démonstration 
 
 ---
 On utilise la formule du [[binôme de Newton]] pour chacun des cubes :

@@ -472,5 +472,15 @@
       ],
       "key": "B"
     }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout": [],
+  "obsidian-hover-editor:convert-active-pane-to-popover": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
   ]
 }

@@ -3,7 +3,7 @@ alias: ["argch", "arg cosinus hyperbolique"]
 ---
 up::[[fonction cosinus hyperbolique|ch]]
 sibling::[[fonction arg sinus hyperbolique|argsh]]
-derivative::$\dfrac{1}{\sqrt{x^{2}-1}}$
+derivative::$-\dfrac{1}{\sqrt{ x^{2} + 1 }} = \dfrac{1}{\sqrt{x^{2}-1}}$
 description::"$[1;+\infty[ \to \mathbb{R}^{+}$", "$x \mapsto \ln \left( x+\sqrt{x^{2}-1} \right)$"
 primitive::""
 title::$\arg \mathrm{ch}$
