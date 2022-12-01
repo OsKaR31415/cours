@@ -135,14 +135,6 @@
         }
       }
     },
-    "transformation x |-> pi/2 - x": {
-      "transformation x |-> pi/2 - x": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667051642252
-        }
-      }
-    },
     "fonction sinus": {
       "fonction sinus": {
         "internalLink": {
@@ -708,6 +700,110 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1669406353355
+        }
+      }
+    },
+    "sous-système de gestion de mémoire": {
+      "sous-système de gestion de mémoire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669810176940
+        }
+      }
+    },
+    "sous-système de gestion des fichiers": {
+      "sous-système de gestion des fichiers": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1669812214618
+        }
+      }
+    },
+    "allocation de fichiers": {
+      "allocation de fichiers": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1669811528379
+        }
+      }
+    },
+    "portions": {
+      "portions": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1669811040793
+        }
+      }
+    },
+    "table d'allo": {
+      "table d'allo": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669810917861
+        }
+      }
+    },
+    "allocation dynamique de fichiers": {
+      "allocation dynamique de fichiers": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669811162732
+        }
+      }
+    },
+    "pré-allocation de fichiers": {
+      "pré-allocation de fichiers": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669811331045
+        }
+      }
+    },
+    "allocation des portions de fichiers": {
+      "allocation des portions de fichiers": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669811368171
+        }
+      }
+    },
+    "portion": {
+      "portion": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669811563398
+        }
+      }
+    },
+    "méthodes d'allocation de fichiers": {
+      "méthodes d'allocation de fichiers": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669811789340
+        }
+      }
+    },
+    "table d'allocation": {
+      "table d'allocation": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1669812624074
+        }
+      }
+    },
+    "méthodes de gestion de l'espace libre pour les fichiers": {
+      "méthodes de gestion de l'espace libre pour les fichiers": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1669812966306
+        }
+      }
+    },
+    "méthode d'allocation indexée": {
+      "méthode d'allocation indexée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669812988324
         }
       }
     }

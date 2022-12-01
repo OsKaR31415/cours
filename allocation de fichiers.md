@@ -1,8 +1,16 @@
-up::[[système d'exploitation]]
-title::"fichiers, répertoires, espace libre"
-#informatique 
+up:: [[sous-système de gestion des fichiers]] 
+title:: 
+#informatique/unix 
 
 ---
+
+
+> [!query] sous-notes directes de `=this.file.link`
+> ```dataview
+> LIST title
+> FROM ""
+> WHERE econtains(up, this.file.link)
+> ```
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
@@ -12,5 +20,4 @@ title::"fichiers, répertoires, espace libre"
 > WHERE file != this.file
 > SORT up.up.up.up, up.up.up, up.up, up
 > ```
-
 

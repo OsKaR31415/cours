@@ -4,7 +4,7 @@
 
 > [!todo] Liste des devoirs
 > ```dataview
-> TABLE due, difficulty as "", title as "description"
+> TABLE due, "<progress value='"+difficulty+"' max='5'></progress>" as "difficulty", title as "description"
 > FROM #devoir AND -"templates"
 > SORT due, importance
 > ```
@@ -13,8 +13,10 @@
 
 > [!done] Devoirs faits
 > ```dataview
-> TABLE due, title as "description"
+> TABLE due, "<progress value="+difficulty+" max='5'></progress>" as "difficulty", title as "description"
 > FROM #devoir-fait
 > SORT due, description
 > ```
+
+
 

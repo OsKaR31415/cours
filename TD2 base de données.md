@@ -1,6 +1,6 @@
 due::2022-10-10
 title::"Exercices 6 TD2 bases de données"
-difficulty::🟩 🟧 🟥
+difficulty::1,2,3
 #devoir-fait
 
 ----

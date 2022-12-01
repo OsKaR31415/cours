@@ -1,6 +1,6 @@
 due::2022-09-20
 title::"créer un [[Work Breakdown Structure|WBS]]"
-difficulty::🟥
+difficulty::3
 #devoir-fait #PM 
 
 ---

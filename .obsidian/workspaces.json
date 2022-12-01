@@ -8,10 +8,9 @@
           {
             "id": "e1ff7c90cc798953",
             "type": "tabs",
-            "dimension": 48.98720682302772,
             "children": [
               {
-                "id": "a713383792fc9de9",
+                "id": "f4915e77130e78cb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -19,49 +18,13 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "Logique séquentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Logique séquentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.040817303663982}"
-                    },
-                    {
-                      "title": "SR latch",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SR latch.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Logique séquentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Logique séquentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.86555837503261}"
-                    },
-                    {
-                      "title": "D latch",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"D latch.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":56},\"to\":{\"line\":6,\"ch\":56}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Logique séquentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Logique séquentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":8.557263884530906}"
-                    },
-                    {
-                      "title": "SR latch",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SR latch.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":54},\"to\":{\"line\":8,\"ch\":12}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "D latch.md",
+                    "file": "Konami code (this is better than hadouken).md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -69,7 +32,7 @@
                 }
               },
               {
-                "id": "f32a07a9d44dfd9a",
+                "id": "efee5e6c7a41e433",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -83,29 +46,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "D latch.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3f6d9375e7ba0112",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "pulse detector (dirac on NRZ).md",
+                    "file": "Ubisoft.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -113,15 +54,14 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
-            "id": "7c17a043ba1ca709",
+            "id": "76476017f3dcc2ae",
             "type": "tabs",
-            "dimension": 51.01279317697228,
             "children": [
               {
-                "id": "dc30429201195d68",
+                "id": "cb09bdcd3714e4e0",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -129,13 +69,22 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "Untitled",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "excalidraw",
+                  "type": "markdown",
                   "state": {
-                    "file": "Excalidraw/Edge detector (dirac on NRZ) 2022-11-17 23.44.21.excalidraw.md"
+                    "file": "Nuit de l'informatique.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               }
@@ -264,7 +213,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "pulse detector (dirac on NRZ).md",
+                    "file": "Nuit de l'informatique.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -285,7 +234,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "pulse detector (dirac on NRZ).md",
+                    "file": "Nuit de l'informatique.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -328,7 +277,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "pulse detector (dirac on NRZ).md"
+                    "file": "Nuit de l'informatique.md"
                   }
                 }
               },
@@ -398,7 +347,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "pulse detector (dirac on NRZ).md",
+                    "file": "Nuit de l'informatique.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -612,7 +561,7 @@
         "width": 359.5,
         "collapsed": true
       },
-      "active": "3f6d9375e7ba0112",
+      "active": "cb09bdcd3714e4e0",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -1748,11 +1697,11 @@
         },
         "children": [
           {
-            "id": "92a676383d87606f",
+            "id": "864ff1bd246d6005",
             "type": "tabs",
             "children": [
               {
-                "id": "d5551454c0ee8dc5",
+                "id": "c3bd1f84f127966e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1760,44 +1709,13 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/L2_maths_analyse_ch3_integrales_impropres-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "e2545503ee661404",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "règle d'Abel",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"règle d'Abel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "démonstration règle d'Abel",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"démonstration règle d'Abel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "intégration généralisée.md",
+                    "file": "sources/This Video Will Make You Angry.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1805,134 +1723,7 @@
                 }
               },
               {
-                "id": "6c53847fb07fb0d9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-23",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2022-11-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2022-11-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "sommes de Riemann",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sommes de Riemann.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/L2_maths_analyse_TD3-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "bec513af76c4c928",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-23",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}},\"scroll\":0.30825271899246526}"
-                    },
-                    {
-                      "title": "2022-11-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2022-11-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "L2_maths_geometrie_TD3_2020-2021",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD3_2020-2021.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-23",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.681573929747198}"
-                    },
-                    {
-                      "title": "2022-11-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2022-11-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "règle d'Abel",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"règle d'Abel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":4.660150187103063}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sources/cours/L2_maths_geometrie_TD3_2020-2021.pdf"
-                  }
-                }
-              },
-              {
-                "id": "bdf4802fd0e15b0e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "c45102218b6456fd",
+                "id": "26ed378d5fa274b1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1946,7 +1737,51 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "gists/how i see the unix command line.md",
+                    "file": "méthodes de gestion de l'espace libre pour les fichiers.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c391edee7dfd0be8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "gestion de l'espace libre par bit table.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "49abb52d17d11fe1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "gestion de l'espace libre par partitions libres chaînées.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1954,7 +1789,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -2079,7 +1914,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "gists/how i see the unix command line.md",
+                    "file": "gestion de l'espace libre par partitions libres chaînées.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2100,7 +1935,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "gists/how i see the unix command line.md",
+                    "file": "gestion de l'espace libre par partitions libres chaînées.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2142,7 +1977,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "gists/how i see the unix command line.md"
+                    "file": "gestion de l'espace libre par partitions libres chaînées.md"
                   }
                 }
               },
@@ -2212,7 +2047,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "gists/how i see the unix command line.md",
+                    "file": "gestion de l'espace libre par partitions libres chaînées.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2381,7 +2216,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
@@ -2440,79 +2275,9 @@
           }
         ],
         "direction": "horizontal",
-        "width": 445.5,
-        "collapsed": true
+        "width": 445.5
       },
-      "floating": {
-        "id": "cce8d8fcd6891e1a",
-        "type": "floating",
-        "children": [
-          {
-            "id": "e2a2545b6b6b04c4",
-            "type": "window",
-            "children": [
-              {
-                "id": "401f8e3080c21a1e",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "951bdbb7d6c22b47",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Untitled.md",
-                        "mode": "preview",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "f54ad40d773db1a9",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "gists/décomposition en éléments simples.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical",
-            "x": 236,
-            "y": 864,
-            "width": 1440,
-            "height": 900,
-            "maximize": true,
-            "zoom": 0
-          }
-        ]
-      },
-      "active": "c45102218b6456fd",
+      "active": "49abb52d17d11fe1",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
@@ -2523,11 +2288,11 @@
         "type": "split",
         "children": [
           {
-            "id": "914cba98d94f88ca",
+            "id": "00e2fd8c06bf4746",
             "type": "tabs",
             "children": [
               {
-                "id": "9972464842d373af",
+                "id": "2f356f2842dd3c22",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2537,33 +2302,21 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "L2_maths_geometrie_TD2_2020-2021",
+                      "title": "L2_maths_analyse_TD3",
                       "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_geometrie_TD2_2020-2021.pdf\"}}",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD3.pdf\"}}",
                       "eState": "{}"
                     },
                     {
-                      "title": "L2_maths_algebre_lineaire_TD2",
+                      "title": "L2_maths_analyse_TD2-ex_supplementaires-annotate",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2-ex_supplementaires-annotate.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_TD2-ex_supplementaires_correction",
                       "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_algebre_lineaire_TD2.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD3-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD3-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-19",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-19.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_ch3_integrales_impropres-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_ch3_integrales_impropres-annotate.md\"}}",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2-ex_supplementaires_correction.pdf\"}}",
                       "eState": "{}"
                     }
                   ]
@@ -2571,12 +2324,12 @@
                 "state": {
                   "type": "mindmapview",
                   "state": {
-                    "file": "sources/cours/L2_maths_geometrie_TD2_2020-2021-annotate.md"
+                    "file": "sources/cours/L2_maths_analyse_TD3-annotate.md"
                   }
                 }
               },
               {
-                "id": "ab3be35bb0e38c03",
+                "id": "79685ff786a69d69",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2586,91 +2339,17 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "L2_maths_algebre_lineaire_TD3",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_algebre_lineaire_TD3.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD2-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/L2_maths_analyse_TD2-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-23",
+                      "title": "2022-11-30",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}},\"scroll\":4.01329552210029}"
-                    },
-                    {
-                      "title": "2022-11-19",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/L2_maths_algebre_lineaire_TD2-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "d5fa5c241baee606",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2022-11-23",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":17},\"to\":{\"line\":4,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "2022-11-22",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/L2_maths_analyse_ch3_integrales_impropres-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "6b2af61ddd129eb2",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "intégrale absolument convergente",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"intégrale absolument convergente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":81},\"to\":{\"line\":19,\"ch\":81}},\"scroll\":10.219232818327118}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-11-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "démonstration convergence sur a;+oo d'une intégrale absolument convergene.md",
+                    "file": "daily/2022-12-03.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2678,7 +2357,7 @@
                 }
               },
               {
-                "id": "47aa52b042a4df7b",
+                "id": "699e07fe1976d842",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2688,25 +2367,41 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "intégration généralisée",
+                      "title": "Projet BDD",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"intégration généralisée.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":9.984395898350424}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projet BDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.06796116504854369}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "intégrale absolument convergente.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "Excalidraw/Projet BDD 2022-11-28 13.22.29.excalidraw.md"
                   }
                 }
               },
               {
-                "id": "18acfcc3bdcb41ae",
+                "id": "662677f1031b940a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Carte mentale nuit de l'informatique 2022-12-01 17.31.18.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "3ccba999bc817198",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2720,7 +2415,73 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "convergence de l'intégrale d'une combinaison linéaire.md",
+                    "file": "nuit de l'informatique.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6cc9010996cf0d5f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Nuit de l'informatique Challenges.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "66c6127fa3c20147",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Top Secret Mission Im Possible.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ade8556a7b607ddc",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "création d'un bot discord.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2728,7 +2489,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -2853,7 +2614,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "convergence de l'intégrale d'une combinaison linéaire.md",
+                    "file": "création d'un bot discord.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2874,7 +2635,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "convergence de l'intégrale d'une combinaison linéaire.md",
+                    "file": "création d'un bot discord.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2885,12 +2646,11 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 636.5,
+        "width": 651.5,
         "collapsed": true
       },
       "right": {
@@ -2917,7 +2677,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "convergence de l'intégrale d'une combinaison linéaire.md"
+                    "file": "création d'un bot discord.md"
                   }
                 }
               },
@@ -2987,7 +2747,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "convergence de l'intégrale d'une combinaison linéaire.md",
+                    "file": "création d'un bot discord.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -3201,11 +2961,11 @@
         "width": 343.5,
         "collapsed": true
       },
-      "active": "18acfcc3bdcb41ae",
+      "active": "ade8556a7b607ddc",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
     }
   },
-  "active": "cours"
+  "active": "perso"
 }
