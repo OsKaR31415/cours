@@ -1,3 +1,6 @@
+---
+alias: [ "premiers entre eux" ]
+---
 up::[[MOC arithmétique]]
 #maths/arithmétique #no-review 
 

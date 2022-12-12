@@ -1,10 +1,24 @@
 up::[[cours analyse]]
-#cours
+#synthèse
 
 ---
+# Fonction négligeable en un point
 
-![[négligabilité#négligabilité]]
+![[fonction négligeable#^definition]]
 
-![[domination en un point#domination en un point]]
+![[fonction négligeable#Propriétés]]
 
-![[fonctions équivalentes#fonctions équivalentes]]
+---
+# Fonction dominée en un point
+
+![[fonction dominée en un point#^definition]]
+
+![[fonction dominée en un point#Propriétés]]
+
+---
+# Fonctions équivalentes
+
+![[fonctions équivalentes#^definition]]
+![[fonctions équivalentes#Propriétés]]
+
+

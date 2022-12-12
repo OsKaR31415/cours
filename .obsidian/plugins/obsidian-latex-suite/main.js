@@ -4924,7 +4924,8 @@ var operators = [
   "dim",
   "liminf",
   "min",
-  "max"
+  "max",
+  "inf"
 ];
 var fractions = {
   "{1}{2}": "\xBD",
@@ -5090,7 +5091,8 @@ var brackets = {
   "langle": "\u3008",
   "rangle": "\u3009",
   "lvert": "|",
-  "rvert": "|"
+  "rvert": "|",
+  "vert": "|"
 };
 var mathbb = {
   "0": "\u{1D7D8}",
@@ -7422,6 +7424,18 @@ var markerStateField = import_state6.StateField.define({
 // src/snippets/snippet_helper_functions.ts
 var import_json5 = __toModule(require_dist());
 function sortSnippets(snippets2) {
+  function compareTriggerLength(a, b) {
+    const aTriggerLength = a.trigger.length;
+    const bTriggerLength = b.trigger.length;
+    if (aTriggerLength < bTriggerLength) {
+      return 1;
+    }
+    if (aTriggerLength > bTriggerLength) {
+      return -1;
+    }
+    return 0;
+  }
+  snippets2.sort(compareTriggerLength);
   function compare(a, b) {
     const aPriority = a.priority === void 0 ? 0 : a.priority;
     const bPriority = b.priority === void 0 ? 0 : b.priority;

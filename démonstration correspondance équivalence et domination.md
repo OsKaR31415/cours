@@ -1,4 +1,4 @@
-up::[[fonctions équivalentes|équivalence]], [[domination en un point|domination]]
+up::[[fonctions équivalentes|équivalence]], [[fonction dominée en un point|domination]]
 #maths/analyse #démonstration #no-review 
 
 ---

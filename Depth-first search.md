@@ -1,7 +1,7 @@
 ---
 alias: "DFS"
 ---
-up::[[algorithmes]]
+up::[[MOC algorithmes]]
 #informatique/algorithmie #no-review 
 
 ---

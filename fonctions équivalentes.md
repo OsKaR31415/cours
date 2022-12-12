@@ -2,10 +2,10 @@
 sr-due: 2022-09-12
 sr-interval: 22
 sr-ease: 277
-alias: "équivalente"
+alias: ["équivalente"]
 ---
 up::[[fonction]]
-sibling::[[négligabilité]], [[domination en un point|domination]]
+sibling::[[fonction négligeable]], [[fonction dominée en un point|domination]]
 title::"$f \sim_{x_{0}} g \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)} = 1$"
 #maths/analyse #no-review 
 
@@ -31,7 +31,7 @@ title::"$f \sim_{x_{0}} g \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)} = 1$
 > > **Exemple : ** $\frac{1}{x} \not\sim_{+\infty} 0$ car on ne peut pas trouver de fonction $h$ pour laquelle $\frac{1}{x} = 0\times h(x)$ pour tout $x$ suffisament grand (l'égalité est vraie seulement à la limite)
 > > **Exemple : ** $\sin x-x \sim_{0} 1$ (car $\frac{\sin x}{x} \sim_{0} 1$)
 > > 
-
+^definition-alternative
 
 # Propriétés
  - L'équivalence est une [[relation d'équivalence]].

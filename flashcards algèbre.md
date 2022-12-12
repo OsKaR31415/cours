@@ -4,7 +4,7 @@ propriétés d'un semi groupe
 ??
 une loi de composition **interne**
 et **associative**
-<!--SR:!2023-01-17,92,192!2022-12-03,33,272-->
+<!--SR:!2023-01-17,92,192!2023-05-16,156,292-->
 
 propriétés d'un groupe
 ??
@@ -12,14 +12,14 @@ une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
 Tous les éléments ont un **symétrique**
-<!--SR:!2023-05-31,254,310!2022-12-10,54,292-->
+<!--SR:!2023-05-31,254,310!2023-07-22,223,312-->
 
 propriétés d'un monoïde
 ??
 une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
-<!--SR:!2022-12-09,81,212!2023-01-31,75,272-->
+<!--SR:!2022-12-22,11,192!2023-01-31,75,272-->
 
 l'**ordre d'un groupe** est...
 ??
@@ -40,7 +40,7 @@ $(E, +, \cdot)$ tel que :
      - un [[élément neutre]] 
      - tous les éléments sont [[éléments symétrisables|symétrisables]] 
  - $\cdot$ est [[distributivité|distributive]] sur $+$
-<!--SR:!2023-03-14,117,272!2022-12-10,55,292-->
+<!--SR:!2023-03-14,117,272!2023-05-22,162,292-->
 
 
 
@@ -62,7 +62,7 @@ application symétrique
 ??
 Application $f : E^{2} \to \mathbf{K}$ telle que 
 $\forall  (u, v) \in E^{2}, \quad f((u;v)) = f((v;u))$
-<!--SR:!2022-12-05,38,303!2022-12-01,34,283-->
+<!--SR:!2023-06-14,185,323!2022-12-01,34,283-->
 
 
 ## Matrices 
@@ -72,7 +72,7 @@ Matrice de rotation en 2D (angle $\theta$) ::: $\large\begin{pmatrix}\cos\theta 
 <!--SR:!2022-11-30,3,224!2023-01-06,43,284-->
 
 Matrice de symétrie en 2D (angle $\theta$) ::: $\large \begin{pmatrix}\cos \theta & \sin \theta \\ \sin \theta & -\cos \theta\end{pmatrix}$
-<!--SR:!2022-11-26,1,250!2022-11-28,3,270-->
+<!--SR:!2022-11-26,1,250!2023-01-05,25,270-->
 
 
 - [ ] #todo: pour l'algèbre linéaire

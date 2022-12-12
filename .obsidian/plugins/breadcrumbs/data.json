@@ -117,7 +117,7 @@
   "showWriteAllBCsCmd": true,
   "visGraph": "Force Directed Graph",
   "visRelation": "Parent",
-  "visClosed": "Real",
+  "visClosed": "Closed",
   "visAll": "All",
   "wikilinkIndex": true,
   "impliedRelations": {

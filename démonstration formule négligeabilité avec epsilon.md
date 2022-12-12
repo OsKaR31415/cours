@@ -1,4 +1,4 @@
-up::[[négligabilité]]
+up::[[fonction négligeable]]
 #maths/analyse #démonstration #no-review 
 
 ---

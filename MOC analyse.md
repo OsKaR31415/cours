@@ -40,8 +40,8 @@ Voir **[[MOC fonctions]]**
  - [[fonction convergente]]
 
  - [[fonctions équivalentes]] ($f \sim g$)
- - [[domination en un point]] (grand $O$)
- - [[négligabilité]] (petit $o$)
+ - [[fonction dominée en un point]] (grand $O$)
+ - [[fonction négligeable]] (petit $o$)
 
 
 # Opérations

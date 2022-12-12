@@ -55,3 +55,10 @@ Statistics :
 > LIMIT 20
 > ```
 
+
+```dataview
+TABLE title, up
+FROM #obsidian
+WHERE up=[[]]
+```
+

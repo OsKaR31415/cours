@@ -47,78 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "application linéaire": {
-      "application linéaire": {
-        "internalLink": {
-          "count": 14,
-          "lastUpdated": 1667574753503
-        }
-      }
-    },
-    "bijective": {
-      "bijective": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1667575330054
-        }
-      }
-    },
-    "espace vectoriel": {
-      "espace vectoriel": {
-        "internalLink": {
-          "count": 18,
-          "lastUpdated": 1667570684244
-        }
-      }
-    },
-    "dimension": {
-      "dimension": {
-        "internalLink": {
-          "count": 10,
-          "lastUpdated": 1668023387289
-        }
-      }
-    },
-    "rotation": {
-      "rotation": {
-        "internalLink": {
-          "count": 8,
-          "lastUpdated": 1668023641365
-        }
-      }
-    },
-    "vecteur propre": {
-      "vecteur propre": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1667490817128
-        }
-      }
-    },
-    "valeur propre": {
-      "valeur propre": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667490644201
-        }
-      }
-    },
-    "polynôme": {
-      "polynôme": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667490708761
-        }
-      }
-    },
-    "degré": {
-      "degré": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667490699066
-        }
-      }
-    },
     "matrice associée à une application linéaire": {
       "matrice associée à une application linéaire": {
         "internalLink": {
@@ -127,387 +55,11 @@
         }
       }
     },
-    "fonction uniformément continue": {
-      "fonction uniformément continue": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1667321605051
-        }
-      }
-    },
-    "fonction sinus": {
-      "fonction sinus": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667170490259
-        }
-      }
-    },
-    "program counter": {
-      "program counter": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667215782408
-        }
-      }
-    },
-    "Suite de Cauchy": {
-      "Suite de Cauchy": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667236978064
-        }
-      }
-    },
-    "suite convergente": {
-      "suite convergente": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667240552337
-        }
-      }
-    },
-    "bornée": {
-      "bornée": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667240796962
-        }
-      }
-    },
-    "Subdivision d'un intervalle": {
-      "Subdivision d'un intervalle": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667414372653
-        }
-      }
-    },
-    "suite extraite": {
-      "suite extraite": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667306425652
-        }
-      }
-    },
-    "fonction réciproque": {
-      "fonction réciproque": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667308679865
-        }
-      }
-    },
-    "MOC analyse": {
-      "MOC analyse": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667313214413
-        }
-      }
-    },
-    "Sprint 2 - API java, UI": {
-      "Sprint 2 - API java, UI": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667313305843
-        }
-      }
-    },
-    "division de polynômes": {
-      "division de polynômes": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667313323096
-        }
-      }
-    },
-    "fonction continue": {
-      "fonction continue": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667321540169
-        }
-      }
-    },
-    "aneeksha brigemohun": {
-      "aneeksha brigemohun": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667330216140
-        }
-      }
-    },
-    "subdivisi": {
-      "subdivisi": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667414437995
-        }
-      }
-    },
-    "subdivision": {
-      "subdivision": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667414448095
-        }
-      }
-    },
-    "matrice diagonale": {
-      "matrice diagonale": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667490305814
-        }
-      }
-    },
-    "application homogène": {
-      "application homogène": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667491080568
-        }
-      }
-    },
-    "automorphisme": {
-      "automorphisme": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1667570695858
-        }
-      }
-    },
-    "changement de base": {
-      "changement de base": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667573972544
-        }
-      }
-    },
-    "morphisme": {
-      "morphisme": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667575314668
-        }
-      }
-    },
-    "endomorphisme": {
-      "endomorphisme": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667575361259
-        }
-      }
-    },
-    "groupe abélien": {
-      "groupe abélien": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667578826973
-        }
-      }
-    },
-    "groupe": {
-      "groupe": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1668023376518
-        }
-      }
-    },
-    "anneau": {
-      "anneau": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667579164139
-        }
-      }
-    },
-    "associative": {
-      "associative": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667578912911
-        }
-      }
-    },
     "commutative": {
       "commutative": {
         "internalLink": {
           "count": 4,
           "lastUpdated": 1668372125675
-        }
-      }
-    },
-    "élément neutre": {
-      "élément neutre": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667578850134
-        }
-      }
-    },
-    "symétrisable": {
-      "symétrisable": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667578998373
-        }
-      }
-    },
-    "distributive": {
-      "distributive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667579098097
-        }
-      }
-    },
-    "Definition of Done": {
-      "Definition of Done": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667579264130
-        }
-      }
-    },
-    "langage de programmation": {
-      "langage de programmation": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667689145258
-        }
-      }
-    },
-    "regex": {
-      "regex": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667589064395
-        }
-      }
-    },
-    "vim": {
-      "vim": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667590789210
-        }
-      }
-    },
-    "vim plugins": {
-      "vim plugins": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667590841389
-        }
-      }
-    },
-    "fonction signe": {
-      "fonction signe": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667689552220
-        }
-      }
-    },
-    "Traditionnal Mathematical Notation": {
-      "Traditionnal Mathematical Notation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667689565551
-        }
-      }
-    },
-    "Notation Mathématique Traditionnelle": {
-      "Notation Mathématique Traditionnelle": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667738467388
-        }
-      }
-    },
-    "fonctions trigonométriques": {
-      "fonctions trigonométriques": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667748796326
-        }
-      }
-    },
-    "partie entière": {
-      "partie entière": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667753674349
-        }
-      }
-    },
-    "intégration par parties": {
-      "intégration par parties": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667917119159
-        }
-      }
-    },
-    "xⁿ - 1": {
-      "xⁿ - 1": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1667917482530
-        }
-      }
-    },
-    "polynôme irréductible": {
-      "polynôme irréductible": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667918483099
-        }
-      }
-    },
-    "système d'exploitation": {
-      "système d'exploitation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667942248168
-        }
-      }
-    },
-    "déterminant d'une matrice": {
-      "déterminant d'une matrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1668023612617
-        }
-      }
-    },
-    "isométrie": {
-      "isométrie": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1668026973386
-        }
-      }
-    },
-    "transformations": {
-      "transformations": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1668026955844
-        }
-      }
-    },
-    "homotétie": {
-      "homotétie": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1668026982741
         }
       }
     },
@@ -804,6 +356,158 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1669812988324
+        }
+      }
+    },
+    "cryptologie": {
+      "cryptologie": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1670178877516
+        }
+      }
+    },
+    "fonction à sens unique": {
+      "fonction à sens unique": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1670152667853
+        }
+      }
+    },
+    "checksum": {
+      "checksum": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670153397366
+        }
+      }
+    },
+    "preuve de travail": {
+      "preuve de travail": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670153747046
+        }
+      }
+    },
+    "unix commandes": {
+      "unix commandes": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670402526334
+        }
+      }
+    },
+    "série": {
+      "série": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670587908065
+        }
+      }
+    },
+    "MOC arithmétique": {
+      "MOC arithmétique": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1670866434244
+        }
+      }
+    },
+    "remplacement de page - algorithme FINUFO": {
+      "remplacement de page - algorithme FINUFO": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670698958090
+        }
+      }
+    },
+    "MOC informatique": {
+      "MOC informatique": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1670699797438
+        }
+      }
+    },
+    "MOC algorithmes": {
+      "MOC algorithmes": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670709969891
+        }
+      }
+    },
+    "nombre de régions avec n+1 cercles.excalidraw": {
+      "nombre de régions avec n+1 cercles.excalidraw": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670801500495
+        }
+      }
+    },
+    "arpanet": {
+      "arpanet": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670848795788
+        }
+      }
+    },
+    "processus 2022-10-05 15.05.33.excalidraw": {
+      "processus 2022-10-05 15.05.33.excalidraw": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1670848944823
+        }
+      }
+    },
+    "relation": {
+      "relation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670866482722
+        }
+      }
+    },
+    "relation d'équivalence": {
+      "relation d'équivalence": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670866580084
+        }
+      }
+    },
+    "nombres premiers entre eux": {
+      "nombres premiers entre eux": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670866917205
+        }
+      }
+    },
+    "congruence": {
+      "congruence": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670867009922
+        }
+      }
+    },
+    "nombre premier": {
+      "nombre premier": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670867467364
+        }
+      }
+    },
+    "groupe": {
+      "groupe": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1670867508465
         }
       }
     }

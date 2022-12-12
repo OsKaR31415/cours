@@ -3,14 +3,14 @@
 # Suites 
 
 Somme des termes d'une [[suite géométrique]] $\displaystyle \sum\limits_{k=0}^{n}q^{k}$ ::: $\dfrac{1-q^{n+1}}{1-q}$
-<!--SR:!2022-12-06,14,252!2022-12-19,25,272-->
+<!--SR:!2023-01-24,44,252!2022-12-19,25,272-->
 
 
 Suite de Cauchy
 ??
 Suite $(u_{n})_{n}$ telle que $\forall \varepsilon > 0, \quad \exists n \in \mathbb{N}, \quad \forall i>n, \forall j>n, \quad |u_{i}-u_{j}| < \varepsilon$
 (la différence entre deux termes tend vers $0$ en $+\infty$ : $\lim\limits_{ i,j \to +\infty } |u_{i}-u_{j}| = 0$)
-<!--SR:!2022-11-26,1,234!2022-11-28,3,254-->
+<!--SR:!2022-11-26,1,234!2023-01-04,24,254-->
 
 Suite convergente 
 ??

@@ -6,11 +6,112 @@
         "type": "split",
         "children": [
           {
-            "id": "e1ff7c90cc798953",
+            "id": "8208b9df67ebb699",
             "type": "tabs",
             "children": [
               {
-                "id": "f4915e77130e78cb",
+                "id": "2a977833f6c0120a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "L2_maths_arithmetique_TD4",
+                      "icon": "lucide-file-text",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD4.pdf\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2022-12-17",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-14",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-13",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-14",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-13",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2022-12-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "règle de d'alembert",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"règle de d'alembert.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2022-12-12.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d690083ef210feb3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/L2_maths_arithmetique_TD4-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "e0976bf5ac82206d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -24,7 +125,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Konami code (this is better than hadouken).md",
+                    "file": "congruence.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -32,7 +133,7 @@
                 }
               },
               {
-                "id": "efee5e6c7a41e433",
+                "id": "bc832bb9760cad25",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -46,49 +147,32 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Ubisoft.md",
+                    "file": "démonstration simplification de la congruence.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
+                }
+              },
+              {
+                "id": "e5d29e132a3c5835",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ],
-            "currentTab": 1
-          },
-          {
-            "id": "76476017f3dcc2ae",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cb09bdcd3714e4e0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Untitled",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Nuit de l'informatique.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -135,7 +219,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "ayma",
+                    "query": "tag:#maths",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -193,7 +277,7 @@
                 "state": {
                   "type": "tag",
                   "state": {
-                    "sortOrder": "frequency",
+                    "sortOrder": "alphabetical",
                     "useHierarchy": true
                   }
                 }
@@ -213,7 +297,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Nuit de l'informatique.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -234,7 +317,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Nuit de l'informatique.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -246,12 +328,11 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 381,
-        "collapsed": true
+        "width": 738.5110321044922
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -260,7 +341,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 82.75563258232236,
+            "dimension": 54.24973767051417,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -276,9 +357,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "Nuit de l'informatique.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -347,11 +426,10 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Nuit de l'informatique.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                      "localJumps": 1,
+                      "localJumps": 2,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": true,
@@ -441,7 +519,7 @@
                       "repelStrength": 15.6584243818286,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 1.015059814509067,
+                      "scale": 3.379836589515799,
                       "close": true
                     }
                   }
@@ -499,12 +577,12 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 17.24436741767764,
+            "dimension": 45.75026232948583,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -542,7 +620,6 @@
                     }
                   ]
                 },
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -550,18 +627,17 @@
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 359.5,
+        "width": 350.5,
         "collapsed": true
       },
-      "active": "cb09bdcd3714e4e0",
+      "active": "e5d29e132a3c5835",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }

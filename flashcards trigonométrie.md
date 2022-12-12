@@ -4,7 +4,7 @@ Ensemble d'arrivée de l'[[fonction arctangente|arctangente]] :: $\left[ - \frac
 <!--SR:!2023-02-23,93,285-->
 
 Ensemble d'arrivée de l'[[fonction arcsinus|arcsinus]] :: $\left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$
-<!--SR:!2022-11-29,32,285-->
+<!--SR:!2023-06-03,174,305-->
 
 Ensemble d'arrivée de l'[[fonction arccosinus|arccosinus]] :: $\left[ 0; \pi \right]$
 <!--SR:!2022-12-23,36,265-->
@@ -12,7 +12,7 @@ Ensemble d'arrivée de l'[[fonction arccosinus|arccosinus]] :: $\left[ 0; \pi \r
 Formule d'Euler pour $\cos(x)$
 ?
 $\cos(x) = \dfrac{e^{ix}+e^{-ix}}{2}$
-<!--SR:!2022-11-29,61,262-->
+<!--SR:!2023-06-05,176,262-->
 
 Formule d'Euler pour $\sin(x)$
 ?
@@ -56,7 +56,7 @@ Cosinus hyperbolique d'une somme $\mathrm{ch}(a+b) =?$ ::: $\mathrm{ch}(a)\mathr
 <!--SR:!2023-02-02,110,254!2022-11-30,33,285-->
 
 Sinus hyperbolique d'une somme $\mathrm{sh}(a+b) =?$ ::: $\mathrm{sh}(a)\mathrm{ch}(b) + \mathrm{ch}(a)\mathrm{sh}(b)$
-<!--SR:!2022-11-26,73,254!2022-12-16,22,245-->
+<!--SR:!2022-12-24,13,234!2022-12-16,22,245-->
 
 Tangente hyperbolique d'une somme $\mathrm{th}(a+b) =?$ ::: $\dfrac{\mathrm{th}(a)+\mathrm{th}(b)}{1+\mathrm{th}(a)\mathrm{th}(b)}$
 <!--SR:!2023-02-04,72,254!2023-01-09,53,265-->
