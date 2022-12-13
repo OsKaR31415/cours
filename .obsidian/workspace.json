@@ -4,156 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8208b9df67ebb699",
+        "id": "e3477c82654f30a5",
         "type": "tabs",
         "children": [
           {
-            "id": "2a977833f6c0120a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "L2_maths_arithmetique_TD4",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/L2_maths_arithmetique_TD4.pdf\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2022-12-17",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-14",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-12",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-13",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-12",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-14",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-13",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2022-12-12",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2022-12-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "règle de d'alembert",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"règle de d'alembert.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2022-12-12.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d690083ef210feb3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "sources/cours/L2_maths_arithmetique_TD4-annotate.md"
-              }
-            }
-          },
-          {
-            "id": "e0976bf5ac82206d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "congruence.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc832bb9760cad25",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "démonstration simplification de la congruence.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5d29e132a3c5835",
+            "id": "cb2f857192166b52",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -169,8 +24,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -325,12 +179,12 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 738.5110321044922
+    "width": 738.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -339,7 +193,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 54.24973767051417,
+        "dimension": 56.39412997903563,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -517,7 +371,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 3.379836589515799,
+                  "scale": 1.7906858316778498,
                   "close": true
                 }
               }
@@ -575,12 +429,12 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 45.75026232948583,
+        "dimension": 43.60587002096436,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -632,23 +486,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 407.5
   },
-  "active": "e5d29e132a3c5835",
+  "active": "cb2f857192166b52",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "ndli Informations.md",
-    "ndli konami code.md",
-    "démonstration simplification de la congruence.md",
-    "dataview tasks completed in current file.md",
-    "ndli easter egg.md",
-    "ndli Quizz.md",
-    "index ndli2022.md",
-    "Konami code (this is better than hadouken).md",
+    "daily/2022-12-12.md",
+    "sources/cours/L2_maths_arithmetique_CC2_2020.pdf.pdf",
+    "sources/cours/L2_maths_arithmetique_TD4-annotate.md",
     "congruence.md",
-    "nombre premier.md"
+    "démonstration simplification de la congruence.md",
+    "obsidian workflow.md",
+    "anneau Z.md",
+    "démonstration forme des sous groupes de Z.md",
+    "graphe.md",
+    "sous groupe.md"
   ]
 }
