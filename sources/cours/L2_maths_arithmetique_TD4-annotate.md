@@ -24,11 +24,21 @@ annotate-target: sources/cours/L2_maths_arithmetique_TD4.pdf
 
 >%%
 >```annotate-json
->{"id":"a2b835ee-a6c9-75f4","text":"{\"id\":\"a2b835ee-a6c9-75f4\",\"page\":0,\"rect\":[61.237513578203,290.7315811496311],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1670854512767.png\",\"relateRect\":[{\"x\":0.10079840319361277,\"y\":0.9246506986027944,\"width\":0.40119760479041916,\"height\":0.11776447105788423}],\"pdfName\":\"sources/cours/L2_maths_arithmetique_TD4.pdf\",\"pageWidth\":1493,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1670854512767.png?1670866220100\"}","type":"rect","page":0,"width":804,"height":236,"pdfName":"sources/cours/L2_maths_arithmetique_TD4.pdf"}
+>{"id":"a2b835ee-a6c9-75f4","text":"{\"id\":\"a2b835ee-a6c9-75f4\",\"page\":0,\"rect\":[61.237513578203,290.7315811496311],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1670854512767.png\",\"relateRect\":[{\"x\":0.10079840319361277,\"y\":0.9246506986027944,\"width\":0.6831337325349301,\"height\":0.14271457085828343}],\"pdfName\":\"sources/cours/L2_maths_arithmetique_TD4.pdf\",\"pageWidth\":1493,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1670854512767.png?1670871434685\"}","type":"rect","page":0,"width":1369,"height":286,"pdfName":"sources/cours/L2_maths_arithmetique_TD4.pdf"}
 >```
 >%%
 >![[attachments/markmind/1670854512767.png]]
 >[[#^a2b835ee-a6c9-75f4|Show annotate]]
 >
 ^a2b835ee-a6c9-75f4
+
+>%%
+>```annotate-json
+>{"id":"646edd94-1207-2493","text":"{\"id\":\"646edd94-1207-2493\",\"page\":0,\"rect\":[355.4392130453078,148.0618773672987,58.54419357451402,185.80528825097312],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1670872275867.png\",\"relateRect\":[{\"x\":0.0968063872255489,\"y\":1.1002994011976048,\"width\":0.8223552894211577,\"height\":0.2310379241516966}],\"pdfName\":\"sources/cours/L2_maths_arithmetique_TD4.pdf\",\"pageWidth\":2004,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1670872275867.png?1670872275923\"}","type":"rect","page":0,"width":1648,"height":463,"pdfName":"sources/cours/L2_maths_arithmetique_TD4.pdf"}
+>```
+>%%
+>![[attachments/markmind/1670872275867.png]]
+>[[#^646edd94-1207-2493|Show annotate]]
+>
+^646edd94-1207-2493
 

@@ -2,6 +2,7 @@
 sr-due: 2022-08-20
 sr-interval: 4
 sr-ease: 288
+alias: [ "sous groupes" ]
 ---
 
 up::[[groupe]], [[structure algébrique]]
