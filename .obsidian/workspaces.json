@@ -6,11 +6,33 @@
         "type": "split",
         "children": [
           {
-            "id": "e3477c82654f30a5",
+            "id": "e178b1f3d5d7db0a",
             "type": "tabs",
             "children": [
               {
-                "id": "cb2f857192166b52",
+                "id": "c267e6d28c395ab1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2022-12-17.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2dbdab432fc50942",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -25,8 +47,99 @@
                   "type": "empty",
                   "state": {}
                 }
+              },
+              {
+                "id": "40a922529655c8b0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "obsidian callouts.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f4f6d906f8c8ae22",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "somme des carrés",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"somme des carrés.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "MOC arithmétique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"MOC arithmétique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":7.408520046722895}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ea24023d6f403bd5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7a2a9cd598d3935a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "films à voir.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -73,7 +186,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#maths",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -151,6 +264,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "films à voir.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -171,6 +285,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "films à voir.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -181,11 +296,12 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 738.5110321044922,
+        "width": 414.5024719238281,
         "collapsed": true
       },
       "right": {
@@ -211,7 +327,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "films à voir.md"
+                  }
                 }
               },
               {
@@ -280,6 +398,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "films à voir.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -373,7 +492,7 @@
                       "repelStrength": 15.6584243818286,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 1.7906858316778498,
+                      "scale": 1.1698322110260106,
                       "close": true
                     }
                   }
@@ -431,7 +550,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
@@ -488,9 +607,34 @@
           }
         ],
         "direction": "horizontal",
-        "width": 407.5
+        "width": 295.5,
+        "collapsed": true
       },
-      "active": "cb2f857192166b52",
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "obsidian-custom-frames:Open Detexify": true,
+          "obsidian-custom-frames:Open compteur NDLI": true,
+          "sekund:Sekund Panes": true,
+          "obsidian42-brat:BRAT": true,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "3d-graph:3D Graph": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": true,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": true,
+          "markdown-importer:Open format converter": true,
+          "zk-prefixer:Create new unique note": false,
+          "random-note:Open random note": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": true,
+          "breadcrumbs:Breadcrumbs Visualisation": false
+        }
+      },
+      "active": "7a2a9cd598d3935a",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
