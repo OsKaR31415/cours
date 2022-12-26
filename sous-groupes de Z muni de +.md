@@ -27,5 +27,7 @@ title:: "$(n\mathbb{Z}, +)$ avec $n \in \mathbb{Z}$"
 > 
 > [[démonstration forme des sous groupes de Z|démonstration]]
 
+## Ordre des éléments
 
+Pour tout $g \in G$, l'application $\varphi _{G} : \mathbb{Z} \to G$ $\begin{align} \varphi _{G} : & \mathbb{Z} \to G \\  \end{align}$
 

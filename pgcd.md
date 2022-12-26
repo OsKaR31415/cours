@@ -16,6 +16,14 @@ Le Plus Grand Commun Diviseur de plusieurs nombres (souvent deux) est noté  $\t
 > Le $\text{pgcd}$ de $x_1, x_2, x_3,\ldots$ est le produit de l'intersection des [[ensemble avec répétitions]] des [[décomposition en facteurs premiers|décompositions en facteurs premiers]] de chacun des nombres $x_1,x_2,x_3,\ldots$
 ^definition
 
+> [!info] Notation
+> Le $\mathrm{pgcd}$ de $a$ et $b$ peut être noté :
+>  - $\mathrm{pgcd}(a;b)$ ou $\text{PGCD}(a;b)$
+>  - $a\wedge b$
+>  - `a ∨ b` en [[APL]]
+>      - plus cohérent quand on est sur $\{0; 1\}$
+>  - `a and b` en [[python]]
+
 # Propriétés
 Soient $a$ et $b$ deux entiers non nuls
  - $\mathrm{pgcd}(a,b)\times\mathrm{ppcm}(a,b)=|ab|$

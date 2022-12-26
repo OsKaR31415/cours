@@ -1,3 +1,4 @@
+up:: [[MOC zetetique]]
 author:: [[Socrate]]
 title:: "vérité", "bonté", "utilité"
 #science #zetetique

@@ -20,7 +20,7 @@ Un _arbre_ un [[graphe]] **acyclique** (qui ne possède aucun [[cycle (théorie 
 
 ## Avec des relations
 Un _arbre_ est la donnée d'un ensemble $E$ et d'une [[relation]] 
-[[symétrie d'une relation|symétrique]] $\mathscr R$ sur $E$ telle que deux points distincts quelconques $x$ et $y$ de $E$ soient reliés par un seul chemin injectif fini, c.a.d $n+1$ points $z_0,\ldots,z_n$ de $E$ vérifiant $z_0 = x$, $\forall i<n, z_i \mathscr R z_{i+1}$ et $z_n = y$.
+[[relation symétrique|symétrique]] $\mathscr R$ sur $E$ telle que deux points distincts quelconques $x$ et $y$ de $E$ soient reliés par un seul chemin injectif fini, c.a.d $n+1$ points $z_0,\ldots,z_n$ de $E$ vérifiant $z_0 = x$, $\forall i<n, z_i \mathscr R z_{i+1}$ et $z_n = y$.
 
 
 # Propriétés

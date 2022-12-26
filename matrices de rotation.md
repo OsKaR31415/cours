@@ -1,5 +1,5 @@
 up::[[matrice]], [[rotation]]
-title::"matrice correspondant à une rotation", "$\begin{pmatrix}a&b\\b&-a\end{pmatrix}$ avec $a^{2}+b^{2}=1$"
+title::"matrice correspondant à une rotation", "$\begin{pmatrix}a&b\\ b&-a\end{pmatrix}$ avec $a^{2}+b^{2}=1$"
 #maths/algèbre 
 
 ---

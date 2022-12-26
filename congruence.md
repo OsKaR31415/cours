@@ -6,7 +6,7 @@ title:: $a \equiv b [n] \iff n \mid a-b$
 
 > [!definition] Congruence
 > La congruence modulo $n$ est la [[relation]] qui est vraie si $n \mid a-b$
-> $a \equiv b[n] \iff n\mid a-b$
+> $\boxed{a \equiv b[n] \iff n\mid a-b}$
 ^definition
 
 

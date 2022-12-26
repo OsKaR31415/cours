@@ -39,7 +39,7 @@ c'est la notation du **grand O**
 
  - $\mathcal{O}(\mathcal{O}(f)) = \mathcal{O}(f)$
      - formellement si $f = \mathcal{O}(g)$ et $g = \mathcal{O}(h)$ alors $f = \mathcal{O}(h)$
-     - la domination est [[transitivité d'une relation|transitive]]
+     - la domination est [[relation transitive|transitive]]
 
 
 

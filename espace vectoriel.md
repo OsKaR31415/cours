@@ -49,3 +49,10 @@ On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ 
  - Le [[produit cartésien]] de deux [[espace vectoriel|espaces vectoriels]] est toujours un [[espace vectoriel]]
  - 
 
+
+> [!query] sous-notes directes de `=this.file.link`
+> ```dataview
+> LIST title
+> FROM ""
+> WHERE econtains(up, this.file.link)
+> ```

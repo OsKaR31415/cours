@@ -2,7 +2,7 @@
 alias: [ "intégrale généralisée", "intégrale impropre" ]
 ---
 up::[[intégration]]
-#maths
+#maths/analyse 
 
 ----
 Soit $]a; b]$ (resp. $[a; b[$) un intervalle de $\overline{\mathbb{R}}$

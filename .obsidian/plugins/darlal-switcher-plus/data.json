@@ -3,7 +3,7 @@
   "alwaysNewTabForSymbols": false,
   "useActiveTabForSymbolsOnMobile": false,
   "symbolsInLineOrder": true,
-  "editorListCommand": "edt ",
+  "editorListCommand": "go ",
   "symbolListCommand": "@",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
@@ -24,9 +24,17 @@
   "limit": 50,
   "includeSidePanelViewTypes": [
     "backlink",
+    "calendar",
+    "canvas",
     "image",
     "markdown",
-    "pdf"
+    "pdf",
+    "BC-matrix",
+    "BC-tree",
+    "sekund-main-view",
+    "custom-frames-detexify",
+    "localgraph",
+    "tags"
   ],
   "enabledSymbolTypes": {
     "1": true,

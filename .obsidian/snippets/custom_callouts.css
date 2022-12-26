@@ -8,6 +8,7 @@
 }
 
 
+/* Also create the small vertion of the todo (smalltodo) */
 .callout[data-callout="todo"], .callout[data-callout="smalltodo"]{
     /* orange is my color for todo
      * (especially since tags are orange, and tasks have the #task tag) */
@@ -18,6 +19,10 @@
     font-size: 80%;
     --table-font-size: 80%;
     --font-code: 80%;
+}
+
+.callout[data-callout="info"] {
+    --callout-color: 30, 180, 30;
 }
 
 

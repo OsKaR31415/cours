@@ -3,20 +3,16 @@ title::"$d = \mathrm{pgcd}(a;b) \implies \exists (u;v)\in \mathbb{Z}^{2}, au+bv=
 #maths/arithmétique #review 
 
 ----
-Soit $(a, b)\in(\mathbb N^*)^2$,
-Soit $d = \mathrm{pgcd}(a; b)$,
-$\exists(u, v)\in\mathbb Z^2, au+bv = d$
+> [!definition] Théorème de Bézout
+> Soit $(a, b)\in(\mathbb N^*)^2$,
+> Soit $d = \mathrm{pgcd}(a; b)$,
+> $\exists(u, v)\in\mathbb Z^2, au+bv = d$
+^definition
 
 C'est-à-dire que, soient deux nombres entiers naturels non nuls, il existe toujours une [[combinaison linéaire]] (a coefficients entiers relatifs) des deux nombre qui est égale au [[PGCD]] de ces deux nombres.
+
 Ces deux coefficients, $u$ et $v$, sont appelés [[coefficients de Bézout]]
 
-# Notation
-Le $\mathrm{pgcd}$ de $a$ et $b$ peut être noté :
- - $\mathrm{pgcd}(a;b)$ ou $\text{PGCD}(a;b)$
- - $a\wedge b$
- - `a ∨ b` en [[APL]]
-     - plus cohérent quand on est sur $\{0; 1\}$
- - `a and b` en [[python]]
 
 
 # Corollaires

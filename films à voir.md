@@ -9,7 +9,6 @@
  - kramer vs kramer
  - soylent green (soleil vert)
  - beetlejuice
- - scarface
  - les fugitifs
  - The elephant man
  - the fly (la mouche)
@@ -23,12 +22,17 @@
  - everything, everywhere, all at once
  - les sentiers de la gloire
  - lolita
+ - Kill Bill (6ème fois)
+ - Roma
+ - Lawrence d'arabie
 
 > [!done]- Vus
 > - marathon man
 > - l'emmerdeur
 > - roller ball
 > - un chien dans un jeu de quilles
+> - scarface
+
 # Séries
 
  - Kippo

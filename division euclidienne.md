@@ -2,8 +2,11 @@ up::[[MOC arithmétique]]
 #maths/arithmétique #no-review 
 
 ----
-Soient $a\in\mathbb{Z}$ et $b\in\mathbb{N}^*$, il existe des entiers $(q,r)\in\mathbb{Z}$ tels que $\fbox{a = bq+r}$ avec $0\leq r\leq b$ 
-On montre que le couple $(q, r)$ est [[division euclidienne#Unicité du quotient et du reste|unique]].
+
+> [!definition] Division euclidienne
+> Soient $a\in\mathbb{Z}$ et $b\in\mathbb{N}^*$, il existe des entiers $(q,r)\in\mathbb{Z}$ tels que $\fbox{a = bq+r}$ avec $0\leq r\leq b$ 
+> On montre que le couple $(q, r)$ est [[division euclidienne#Unicité du quotient et du reste|unique]].
+> On appelle $q$ le **quotient**, et $r$ le **reste**, de la division de $a$ par $b$
 
 # Propriétés
  - $b$ [[divisibilité|divise]] $a$ ssi. le reste de $a$ divisé par $b$ est nul ($r=0$)

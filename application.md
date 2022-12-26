@@ -1,3 +1,6 @@
+---
+alias: [ "applications" ]
+---
 up::[[fonction]]
 title::"$\forall x \in \mathscr{D}_f, \exists y \in f(\mathscr{D}_f), y=f(x)$"
 description::"au moins une image"

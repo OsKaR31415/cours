@@ -1,5 +1,5 @@
 ---
-alias: "réflexive"
+alias: [ "réflexive", "réflexivité" ]
 ---
 up::[[relation]]
 #maths/algèbre #no-review 
