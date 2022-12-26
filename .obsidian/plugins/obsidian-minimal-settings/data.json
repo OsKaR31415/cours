@@ -3,7 +3,7 @@
   "lightStyle": "minimal-light-tonal",
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-atom-light",
-  "darkScheme": "minimal-default-dark",
+  "darkScheme": "minimal-catppuccin-dark",
   "editorFont": "\"Fira Code\"",
   "lineHeight": 1.5,
   "lineWidth": 40,
