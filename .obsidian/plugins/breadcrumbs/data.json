@@ -54,7 +54,7 @@
   "showAllPathsIfNoneToIndexNote": false,
   "showAllAliases": true,
   "showBCs": true,
-  "showBCsInEditLPMode": false,
+  "showBCsInEditLPMode": true,
   "showRefreshNotice": false,
   "showImpliedRelations": true,
   "showTrail": true,
@@ -124,7 +124,7 @@
     "siblingIdentity": false,
     "sameParentIsSibling": true,
     "siblingsSiblingIsSibling": true,
-    "siblingsParentIsParent": false,
+    "siblingsParentIsParent": true,
     "parentsSiblingsIsParents": false,
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false

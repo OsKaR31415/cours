@@ -47,158 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "intégration généralisée": {
-      "intégration généralisée": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1669406080956
-        }
-      }
-    },
-    "convergence d'intégrales de fonctions comparées": {
-      "convergence d'intégrales de fonctions comparées": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669284155180
-        }
-      }
-    },
-    "youtube my obsidian workflow": {
-      "youtube my obsidian workflow": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669331425507
-        }
-      }
-    },
-    "obsidian workflow": {
-      "obsidian workflow": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669331427613
-        }
-      }
-    },
-    "obsidian plugin dataview": {
-      "obsidian plugin dataview": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669331444260
-        }
-      }
-    },
-    "règle d'Abel": {
-      "règle d'Abel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669406353355
-        }
-      }
-    },
-    "sous-système de gestion de mémoire": {
-      "sous-système de gestion de mémoire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669810176940
-        }
-      }
-    },
-    "sous-système de gestion des fichiers": {
-      "sous-système de gestion des fichiers": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1669812214618
-        }
-      }
-    },
-    "allocation de fichiers": {
-      "allocation de fichiers": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1669811528379
-        }
-      }
-    },
-    "portions": {
-      "portions": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1669811040793
-        }
-      }
-    },
-    "table d'allo": {
-      "table d'allo": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669810917861
-        }
-      }
-    },
-    "allocation dynamique de fichiers": {
-      "allocation dynamique de fichiers": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669811162732
-        }
-      }
-    },
-    "pré-allocation de fichiers": {
-      "pré-allocation de fichiers": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669811331045
-        }
-      }
-    },
-    "allocation des portions de fichiers": {
-      "allocation des portions de fichiers": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669811368171
-        }
-      }
-    },
-    "portion": {
-      "portion": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669811563398
-        }
-      }
-    },
-    "méthodes d'allocation de fichiers": {
-      "méthodes d'allocation de fichiers": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669811789340
-        }
-      }
-    },
-    "table d'allocation": {
-      "table d'allocation": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1669812624074
-        }
-      }
-    },
-    "méthodes de gestion de l'espace libre pour les fichiers": {
-      "méthodes de gestion de l'espace libre pour les fichiers": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1669812966306
-        }
-      }
-    },
-    "méthode d'allocation indexée": {
-      "méthode d'allocation indexée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1669812988324
-        }
-      }
-    },
     "cryptologie": {
       "cryptologie": {
         "internalLink": {
@@ -514,8 +362,8 @@
     "espace vectoriel": {
       "espace vectoriel": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671275766322
+          "count": 8,
+          "lastUpdated": 1672447106153
         }
       }
     },
@@ -530,8 +378,8 @@
     "MOC géométrie": {
       "MOC géométrie": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671280980637
+          "count": 3,
+          "lastUpdated": 1672417024751
         }
       }
     },
@@ -580,6 +428,414 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1671732113350
+        }
+      }
+    },
+    "réflexion": {
+      "réflexion": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672138813041
+        }
+      }
+    },
+    "translation": {
+      "translation": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1672143812770
+        }
+      }
+    },
+    "espace affine": {
+      "espace affine": {
+        "internalLink": {
+          "count": 19,
+          "lastUpdated": 1672447115034
+        }
+      }
+    },
+    "injection": {
+      "injection": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672447963929
+        }
+      }
+    },
+    "base": {
+      "base": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1672445421169
+        }
+      }
+    },
+    "sous espace vectoriel": {
+      "sous espace vectoriel": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672449081814
+        }
+      }
+    },
+    "sous espace affine": {
+      "sous espace affine": {
+        "internalLink": {
+          "count": 11,
+          "lastUpdated": 1672192070026
+        }
+      }
+    },
+    "direction": {
+      "direction": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1672244349423
+        }
+      }
+    },
+    "dimension": {
+      "dimension": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1672485473486
+        }
+      }
+    },
+    "sous espaces affines": {
+      "sous espaces affines": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672188940278
+        }
+      }
+    },
+    "espace vectoriel engendré": {
+      "espace vectoriel engendré": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1672485859081
+        }
+      }
+    },
+    "corps": {
+      "corps": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1672420334916
+        }
+      }
+    },
+    "combinaisons linéaires": {
+      "combinaisons linéaires": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672190421421
+        }
+      }
+    },
+    "combinaison linéaire": {
+      "combinaison linéaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672190456655
+        }
+      }
+    },
+    "relation de chasles": {
+      "relation de chasles": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672190552324
+        }
+      }
+    },
+    "fonction de Leibniz": {
+      "fonction de Leibniz": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672191487841
+        }
+      }
+    },
+    "barycentre": {
+      "barycentre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672334852817
+        }
+      }
+    },
+    "permutation": {
+      "permutation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672232411012
+        }
+      }
+    },
+    "courbe paramétrée": {
+      "courbe paramétrée": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672335499602
+        }
+      }
+    },
+    "équation cartésienne d'une droite": {
+      "équation cartésienne d'une droite": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672245822735
+        }
+      }
+    },
+    "vecteur directeur": {
+      "vecteur directeur": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1672339716647
+        }
+      }
+    },
+    "direction d'un espace affine": {
+      "direction d'un espace affine": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672279550363
+        }
+      }
+    },
+    "distance entre deux droites dans l'espace": {
+      "distance entre deux droites dans l'espace": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672331094607
+        }
+      }
+    },
+    "produit vectoriel": {
+      "produit vectoriel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672331229007
+        }
+      }
+    },
+    "projeté orthogonal d'un vecteur": {
+      "projeté orthogonal d'un vecteur": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672331613608
+        }
+      }
+    },
+    "produit scalaire": {
+      "produit scalaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672331623858
+        }
+      }
+    },
+    "MOC trigonométrie": {
+      "MOC trigonométrie": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672410327343
+        }
+      }
+    },
+    "bissectrice": {
+      "bissectrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672416315550
+        }
+      }
+    },
+    "cercle circonscrit à un triangle": {
+      "cercle circonscrit à un triangle": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672417134371
+        }
+      }
+    },
+    "bissectrices d'un triangle": {
+      "bissectrices d'un triangle": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672417159308
+        }
+      }
+    },
+    "diagonaliser une matrice": {
+      "diagonaliser une matrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672419261016
+        }
+      }
+    },
+    "valeur propre d'une matrice": {
+      "valeur propre d'une matrice": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1672420426027
+        }
+      }
+    },
+    "valeur propre d'une application linéaire": {
+      "valeur propre d'une application linéaire": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672420233098
+        }
+      }
+    },
+    "matrice": {
+      "matrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672420110460
+        }
+      }
+    },
+    "vecteur propre d'une application linéaire": {
+      "vecteur propre d'une application linéaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672420214235
+        }
+      }
+    },
+    "endomorphisme linéaire": {
+      "endomorphisme linéaire": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672420399588
+        }
+      }
+    },
+    "vecteur propre": {
+      "vecteur propre": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672420449597
+        }
+      }
+    },
+    "vecteur propre d'une matrice": {
+      "vecteur propre d'une matrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672420452841
+        }
+      }
+    },
+    "sev": {
+      "sev": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1672445350507
+        }
+      }
+    },
+    "sous espace propre": {
+      "sous espace propre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672477570471
+        }
+      }
+    },
+    "valeur propre": {
+      "valeur propre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672445327190
+        }
+      }
+    },
+    "matrice orthogonale": {
+      "matrice orthogonale": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672446288342
+        }
+      }
+    },
+    "matrice symétrique": {
+      "matrice symétrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672446347857
+        }
+      }
+    },
+    "matrice antisymétrique": {
+      "matrice antisymétrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672446481763
+        }
+      }
+    },
+    "matrice diagonale": {
+      "matrice diagonale": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672477490929
+        }
+      }
+    },
+    "surjection": {
+      "surjection": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672447946760
+        }
+      }
+    },
+    "théorème du rang": {
+      "théorème du rang": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672448969804
+        }
+      }
+    },
+    "famille libre": {
+      "famille libre": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672486197225
+        }
+      }
+    },
+    "valeurs propres": {
+      "valeurs propres": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672477507331
+        }
+      }
+    },
+    "rang d'une application linéaire": {
+      "rang d'une application linéaire": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1672485890417
+        }
+      }
+    },
+    "libre": {
+      "libre": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1672486216005
         }
       }
     }
