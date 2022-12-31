@@ -2,6 +2,7 @@
 *.swo
 *.swn
 *.ocr.json
+__sekund__/*
 daily/*
 identités.md
 daily
