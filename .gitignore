@@ -1,13 +1,14 @@
 *.swp
-identités.md
+*.swo
+*.swn
+*.ocr.json
 daily/*
+identités.md
 daily
 antonin benoit.md
 m.Tremulot.md
 phrases.md
-*.swo
 a lire.md
-*.swn
 Patrick marcel.md
 notes rentrée Blois 2022-09-02.md
 notes 2022-09-01.md
