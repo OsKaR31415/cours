@@ -1,4 +1,4 @@
-#maths/trigonométrie #flashcards 
+#maths/trigonométrie #flashcards/maths/calculus
 
 Ensemble d'arrivée de l'[[fonction arctangente|arctangente]] :: $\left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$
 <!--SR:!2023-02-23,93,285-->

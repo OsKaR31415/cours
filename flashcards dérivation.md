@@ -1,4 +1,4 @@
-#flashcards #maths
+#flashcards/maths/analyse/dérivation #maths
 
 # Dérivation
 

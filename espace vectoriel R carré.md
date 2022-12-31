@@ -1,7 +1,8 @@
 ---
-alias: ["l'espace vectoriel R²", "espace vectoriel R²", "R²"]
+alias: ["l'espace vectoriel R²", "espace vectoriel R²", "espace vectoriel ℝ²", "R²", "ℝ²"]
 ---
 up::[[espace vectoriel]]
+sibling:: [[espace affine R carré]]
 title::"$(\mathbb{R}^{2}, +, \cdot)$"
 #maths/algèbre #no-review 
 

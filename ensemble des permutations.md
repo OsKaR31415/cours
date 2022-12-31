@@ -1,4 +1,5 @@
 up::[[permutation]]
+title:: "$\mathfrak{S}_{n}$ permutations à $n$ éléments"
 #maths/algèbre #review 
 
 ----

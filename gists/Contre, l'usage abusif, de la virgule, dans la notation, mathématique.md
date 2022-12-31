@@ -59,7 +59,9 @@ On voit pafois aussi $\lbrace x \in E : \mathscr{P}(x) \rbrace$.
 
 Bien sûr, la propriété $\mathscr{P}$ peut contenir des quantificateurs. Par exemple, on peut noter $\lbrace x \in \mathbb{R} \mid \not \exists y \in \mathbb{Q}, x \cdot y \in \mathbb{Z} \rbrace$
 
-Ici, on note que le "tel que" est noté avec un $\mid$. L'utilisation de la virgule dans ce contexte est très rare. En effet, les expressions sont alors beaucoup moins lisibles : $\lbrace x \in \mathbb{R}, \forall y \in \mathbb{N}, x\cdot y \notin \mathbb{N} \rbrace$
+Ici, on note que le "tel que" est noté avec un $\mid$. L'utilisation de la virgule dans ce contexte est assez rare. En effet, les expressions sont alors beaucoup moins lisibles : $\lbrace x \in \mathbb{R}, \forall y \in \mathbb{N}, x\cdot y \notin \mathbb{N} \rbrace$
+J'ai pourtant déjà lù cette expression : $\{ \overrightarrow{MN}, M, N \in F\}$.
+
 
 Dans le contexte de la définition d'ensembles, il arrive également que l'on utilise la virgule comme "et" logique : $\left\lbrace  \frac{a}{b} \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}  \right\rbrace$ ou même $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$.
 
@@ -100,10 +102,11 @@ Il semble donc que, dans certains cas, c'est au contrainre l'utilisation de nota
 ### Exemples
 Voici quelques exemples d'expressions écrite en utilisant plus ou moins de virgules
 
-| maximum de virgules                                                                      | intermédiaire                                                                                                    | minimum de virgules                                                                                                                     |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| $\forall x, y \in \mathbb{R}, \exists a, b \in \mathbb{R}, x+y = a+b, x\neq a, y \neq b$ | $\forall (x, y) \in \mathbb{R}^{2}, \exists (a, b) \in \mathbb{R}^{2}, x+y = a+b \wedge x\neq a \wedge y \neq b$ | $\forall (x;y)\in\mathbb{R}^{2}, \exists (a;b)\in\mathbb{R}^{2}, x+y=a+b \wedge x\neq a \wedge y \neq b$                                |
-| $\left\lbrace q,a,b\in\mathbb{Z}, b \neq 0, q=\frac{a}{b} \right\rbrace$                          | $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$                      | $\left\lbrace q \mid (a; b) \in \mathbb{Z}^{2} \wedge b \neq 0 \wedge q = \frac{a}{b} \right\rbrace$ ou bien $\left\lbrace q \mid (a; b) \in \mathbb{Z} \times \mathbb{Z}^{\ast} \wedge q = \frac{a}{b} \right\rbrace$ |
+| maximum de virgules                                                                      | intermédiaire                                                                                                    | minimum de virgules                                                                                                                                                                                                    |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\forall x, y \in \mathbb{R}, \exists a, b \in \mathbb{R}, x+y = a+b, x\neq a, y \neq b$ | $\forall (x, y) \in \mathbb{R}^{2}, \exists (a, b) \in \mathbb{R}^{2}, x+y = a+b \wedge x\neq a \wedge y \neq b$ | $\forall (x;y)\in\mathbb{R}^{2}, \exists (a;b)\in\mathbb{R}^{2}, x+y=a+b \wedge x\neq a \wedge y \neq b$                                                                                                               |
+| $\left\lbrace q,a,b\in\mathbb{Z}, b \neq 0, q=\frac{a}{b} \right\rbrace$                 | $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$                   | $\left\lbrace q \mid (a; b) \in \mathbb{Z}^{2} \wedge b \neq 0 \wedge q = \frac{a}{b} \right\rbrace$ ou bien $\left\lbrace q \mid (a; b) \in \mathbb{Z} \times \mathbb{Z}^{\ast} \wedge q = \frac{a}{b} \right\rbrace$ |
+| $\{ \overrightarrow{MN},M,N \in F \}$                                                    | $\{ \overrightarrow{MN} \mid M, N \in F \}$                                                                      |  $\{ \overrightarrow{MN} \mid (M, N) \in F^{2} \}$                                                                                                                                                                                                                      |
 
 _(des exemples supplémentaire dans les commentaires sont les bienvenus)_
 
@@ -113,7 +116,7 @@ Nous avons vu que, dans certains cas, la virgule est plus lisible car elle abrè
 
 Mon avis personnel est donc :
 
- - Dans un contexte où il est nécessaire d'être précis (articles, cours, énoncés...), utiliser des symboles adaptés pour chaque signification
+ - Dans un contexte où il est nécessaire d'être précis (articles, cours, énoncés, définitions...), utiliser des symboles adaptés pour chaque signification
      - notamment, le fait de ne pas utiliser de raccourcis de notation apporte un formalisme supplémentaire 
  - Dans un contexte où le but est simplement de faire comprendre (solution ou correction d'un exercice, cours et énoncés simples de choses connues ou évidentes), utiliser des virgules (et autres abbréviations) peut être avantageux
      - cela allège la rédaction et rend donc la lecture et la compréhension plus rapides
@@ -122,7 +125,7 @@ J'ajouterai que, avant d'utiliser des notations raccourcies, il est nécessaire 
 Il vaut mieux s'habituer d'abord à une utilisation stricte, puis ensuite utiliser des raccourcis quand c'est justifié (ceci ne se limite pas aux raccourcis de notation traités ici, mais est valable pour toutes les abbréviations, comme $2\mathbb{N}$ pour $\{ 2n \mid n \in \mathbb{N} \}$, ou bien $\sum\limits_{i}v_{i}$ pour $\sum\limits_{i=0}^n v_{i} \text{ où } n \text{ est la dimension du vecteur } v$)
 
 ## Conclusion
-L'utilisation de la virgule dans la notation mathématique peut parfois conduire, sinon à des ambiguïtés, à des erreurs de lectures ou d'interprétation.
+L'utilisation de la virgule dans la notation mathématique peut parfois conduire, sinon à des ambiguïtés, à des erreurs de lectures ou d'interprétation. Elle vont aussi rendre la compréhension de certaines expression plus difficile.
 
 Les alternatives disponibles sont meilleures, car elles facilitent la compréhension et l'écriture des mathématiques.
 

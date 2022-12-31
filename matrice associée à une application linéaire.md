@@ -1,5 +1,5 @@
 ---
-alias: [ "application linéaire associée à une matrice", "matrice associée", "application linéaire associée" ]
+alias: [ "application linéaire associée à une matrice", "matrice associée", "application linéaire associée", "matrice d'un application linéaire" ]
 ---
 up::[[application linéaire]], [[matrice]]
 #maths/algèbre #review 
@@ -46,6 +46,7 @@ Soient $f$ et $h$ des applications linéaires de $E$ dans $F$
 Soit $g$ une application linéaire de $F$ dans $G$
 On a :
  - $[f+h]_{\cal F\leftarrow E} = [f]_{\cal F\leftarrow E} + [h]_{\cal F\leftarrow E}$
+     - $(f : E \to F) \wedge (h : E \to F) \implies ((f+h) : E \to F)$
  - $[\lambda f]_{\cal F\leftarrow E} = \lambda[f]_{\cal F\leftarrow E}$ pour tout $\lambda\in\mathbb{R}$
  - $\boxed{[g\circ f]_{\cal G\leftarrow E} = [g]_{\cal G\leftarrow F}\cdot[f]_{\cal F\leftarrow E}}$ 
      -  la composition d'[[application linéaire|applications linéaires]] est équivalente à la [[multiplication de matrices|multiplication des matrices]] associées

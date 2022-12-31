@@ -1,3 +1,6 @@
+---
+alias: [ "multiplicité" ]
+---
 up::[[racine]]
 #maths/analyse #no-review 
 

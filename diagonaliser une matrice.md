@@ -10,6 +10,10 @@ $P D P ^{-1}$ est donc : `[changement de base] -> application conservant les dir
 Toutes les matrices ne sont pas diagonalisables, donc toutes 
 # Méthode simple 
  - Calculer les valeurs de $\lambda$ telles que $\mathrm{\det} \left( A - \lambda I_{n} \right) = 0$ ([[polynôme]] de [[degré d'un polynôme|degré]] $n$)
+     - Si on a $n$ [[valeur propre d'une matrice|valeurs propres]] distinctes, il suffit de les mettres comme coefficients d'une [[matrice diagonale]] pour diagonaliser $A$
+     - [!] si on a certaines [[valeur propre d'une matrice|valeurs propres]] de [[valeur propre d'une matrice#Multiplicité|multiplicité]] $\geq 2$
+         - il faut vérrifier que la dimension du [[sous espace propre]] associé à ces valeurs prores est égale à leur multiplicité
+         - sinon, on ne pourra pas créer la matrice de changement de base
  - Chercher pour chaque valeur de $\lambda$ les vecteurs $u \neq 0_{E}$ tels que $A \cdot u = \lambda u$
  - On trouve $n$ vecteurs propres ($n$ est le degré du [[polynôme]] associé à $\det(A - \lambda I_{n})$)
  - Les vecteurs propres forment une base 

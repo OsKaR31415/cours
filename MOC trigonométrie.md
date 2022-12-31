@@ -1,6 +1,7 @@
 ---
 alias: "trigonométrie"
 ---
+up:: [[MOC géométrie]]
 #MOC 
 
 ----

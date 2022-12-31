@@ -1,4 +1,4 @@
-#flashcards 
+#flashcards/maths/analyse 
 
 ----
 
@@ -6,7 +6,7 @@ $z+\overline{z}$ :: $= 2\text{Re}(z)$
 <!--SR:!2023-04-29,139,190-->
 
 $z-\overline{z}$ :: $= 2i \text{Im}(z)$
-<!--SR:!2022-12-26,71,170-->
+<!--SR:!2023-05-05,125,170-->
 
 Propriété de $z$ quand $z = \overline{z}$
 ?

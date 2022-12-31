@@ -1,3 +1,6 @@
+---
+alias: [ "somme" ]
+---
 up::[[espace vectoriel]]
 title::"$E_{1}+E_{2} = \{ u_{1}+u_{2} \mid u_{1}\in E_{1} \wedge u_{2} \in E_{2} \}$"
 #maths/algèbre #no-review 
@@ -11,3 +14,9 @@ $\boxed{E_{1}+E_{2} = \big\{ u_{1} + u_{2} \mid u_{1}\in E_{1} \wedge u_{2} \in 
 Cette somme est un [[sous espace vectoriel]] de $E$
 
 # Propriétés
+
+ - $\dim (F+G) = \dim(F) + \dim(G) - \dim(F \cap G)$
+     - on retire $\dim(F\cap G)$ pour ne pas compter deux fois l'intersection
+
+
+

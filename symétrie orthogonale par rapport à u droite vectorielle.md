@@ -3,7 +3,7 @@ title::"$p_{1}$ et $p_{2}$ les [[projection d'un vecteur sur une droite vectorie
 #maths/algèbre #no-review 
 
 ----
-Dans un [[espace vectoriel othonormé]]
+Dans un [[espace vectoriel orthonormé]]
 Une *symétrie* est une [[application]] qui fait la [[réflexion]] d'un vecteur par rapport à une [[droite vectorielle]].
 
 
@@ -28,6 +28,7 @@ Soient $s_{1}$ et $s_{2}$ des symétries
  - la [[composition de fonctions|composée]] de deux symétries est une [[rotation vectorielle]]
  - $s_{1} \circ s_{1} = \mathrm{id}$
      - Donc : $s_{1}^{-1} = s_{1}$
+     - Mnémo : le déterminant de $s_1$ est $-1$, et $(-1) \times (-1) = 1$ donc $\text{symétrie}\times \text{symétrie} =\text{rotation}$
 
 
  - En [[dimension d'un espace vectoriel|dimension]] 2 :

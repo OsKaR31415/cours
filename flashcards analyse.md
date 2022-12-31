@@ -1,4 +1,5 @@
-#flashcards #maths/analyse 
+#flashcards/maths/analyse #maths/analyse 
+
 
 # Suites 
 

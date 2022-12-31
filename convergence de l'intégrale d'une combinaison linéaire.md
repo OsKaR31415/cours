@@ -6,10 +6,11 @@ title:: "$\int_{a}^{+\infty} f(x) \, dx \text{ CV.} \quad \wedge \quad \int_{a}^
 
 > [!definition] Convergence de l'intégrale d'une combinaison linéaire de fonctions dont l'intégrale converge
 > Soient $f$ et $g$ deux fonctions de $C^0_{pm}([a; +\infty[)$
-> Si $\displaystyle\int_{a}^{+\infty} f(x) \, dx$ et $\displaystyle\int_{a}^{+\infty} f(x) \, dx$ sont convergentes
+> Si $\displaystyle\int_{a}^{+\infty} f(x) \, dx$ et $\displaystyle\int_{a}^{+\infty} g(x) \, dx$ sont convergentes
 > Alors on sait que $\displaystyle\int_{a}^{+\infty} \lambda f(x)+g(x) \, dx$ converge, et on a :
 > $\displaystyle \lambda\int_{a}^{+\infty} f(x) \, dx + \int_{a}^{+\infty} g(x) \, dx = \int_{a}^{+\infty} \lambda f(x)+g(x) \, dx$
 ^definition
+
 
 # Démonstration
 

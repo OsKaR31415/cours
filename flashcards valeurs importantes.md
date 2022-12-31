@@ -1,4 +1,4 @@
-#flashcards 
+#flashcards/maths/calculus
 
 ----
 

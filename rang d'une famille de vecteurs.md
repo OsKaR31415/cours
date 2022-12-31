@@ -1,4 +1,6 @@
 up::[[famille de vecteurs]]
+sibling:: [[rang d'une matrice]]
+title:: "[[dimension d'un espace vectoriel|dimension]] de leur [[espace vectoriel engendré par une famille de vecteurs|ev engendré]] "
 #maths/algèbre #review 
 
 ----

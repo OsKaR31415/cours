@@ -2,6 +2,7 @@
 sr-due: 2023-02-14
 sr-interval: 192
 sr-ease: 295
+alias: [ "permuter" ]
 ---
 up::[[MOC algèbre]]
 #maths/algèbre #review 
@@ -49,3 +50,15 @@ $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdo
 - Permutation réciproque : $\sigma^{-1}$
     - $\forall n, \sigma(\sigma^{-1}(n)) = \sigma^{-1}(\sigma(n)) = n$
     - comme une généralisation de $\sigma^n$
+
+
+
+> [!query] Sous-notes de `=this.file.link`
+> ```dataview
+> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up.up.up.up, up.up.up, up.up, up
+> ```
+

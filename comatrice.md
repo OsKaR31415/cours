@@ -18,9 +18,9 @@ On définit $E_{i,j}$ la matrice $A$ **sans la ligne $i$ ni la colonne $j$**.
 On définit $D_{i,j} = \det(E_{i,j})$ le [[déterminant d'une matrice|déterminant]] de $E_{i,j}$
 Alors : 
 $$\text{comat}(A) = \begin{pmatrix}
-D_{1,1}&D_{1,2}&D_{1,3}&\cdots&D_{1,n}\\
-D_{2,1}&D_{2,2}&D_{2,3}&\cdots&D_{2,n}\\
+D_{1,1}& - D_{1,2}&D_{1,3}&\cdots&-D_{1,n}\\
+-D_{2,1}&D_{2,2}&-D_{2,3}&\cdots&D_{2,n}\\
 \vdots&\vdots&\vdots&&\vdots\\
-D_{n,1}&D_{n,2}&D_{n,3}&\cdots&D_{n,n}\\
+-D_{n,1}&D_{n,2}&-D_{n,3}&\cdots&D_{n,n}\\
 \end{pmatrix}$$
-
+Les signes forment un damier (le signe change dès qu'on change vers une case voisine)

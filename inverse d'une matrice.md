@@ -9,6 +9,7 @@ title::"$M^{-1}$ telle que $M^{-1}\times M=  M \times M^{-1} = \mathrm{Id}$"
 Soit $M$ une [[matrice]]. On note $M^{-1}$ la matrice _inverse_ de $M$, si elle existe, la matrice telle que $M\times M^{-1} = M^{-1}\times M = Id$ la [[matrice identité]]
 
 
+
 # Matrice inversible
 Soit $A$ une matrice, elle est dite _inversible_ si $\exists B, AB=BA=Id$
 
@@ -35,6 +36,9 @@ Soit $A=\begin{pmatrix}a&b\\c&d\end{pmatrix}$, $\det(A) = ad-bc$, et on a : $A^{
  - Pour qu'une matrice soit _inversible_, il faut et suffit que sont [[déterminant d'une matrice|déterminant]] soit non nul
  - $(AB)^{-1} = B^{-1}A^{-1}$
      - ![[inverse d'une matrice 2022-11-09 20.33.24.excalidraw]]
+
+ - $\displaystyle\det(A^{-1}) = \det(A)^{-1} = \frac{1}{\det(A)}$
+     - évident car $\det(A) \times \det(A^{-1}) = \det(A \times A^{-1}) = \det(Id) = 1$
 
 # Exemple
 $A = \begin{pmatrix}1&2\\0&3\end{pmatrix}$

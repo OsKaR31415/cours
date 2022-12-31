@@ -14,6 +14,7 @@ $\overrightarrow{u} \wedge \overrightarrow{v}$
 
 $\displaystyle \begin{pmatrix}x\\y\\z\end{pmatrix} \wedge \begin{pmatrix} x'\\y'\\z'\end{pmatrix} = \begin{pmatrix} yz' - y'z\\zx'-z'x\\xy'-x'y \end{pmatrix}$
 
+![[produit vectoriel 2022-12-28 18.55.05.excalidraw|100%]]
 
 # Propriétés 
  - $\vec{u} \wedge \vec{v} = \|\vec{u}\| \times \|\vec{v}\| \times \sin\left( \widehat{\vec{u}, \vec{v}} \right)$

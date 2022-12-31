@@ -1,5 +1,5 @@
 
-#flashcards #maths/analyse 
+#flashcards/maths/analyse #flashcards/maths/calculus  #maths/analyse 
 
 Formule de _Taylor-Young_ pour les **développements limités**
 ?

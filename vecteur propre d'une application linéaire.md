@@ -3,6 +3,7 @@ alias: "vecteur propre"
 ---
 up::[[endomorphisme linéaire]]
 sibling::[[valeur propre d'une application linéaire|valeur propre]]
+name:: "vecteur propre"
 #maths/algèbre #review 
 
 ----

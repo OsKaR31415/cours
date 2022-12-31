@@ -1,9 +1,11 @@
 ---
-alias: "valeur propre"
+alias: [ "valeur propre", "valeur propre d'un endomorphisme linéaire" ]
 ---
+up:: [[endomorphisme linéaire]]
 sibling:: [[vecteur propre d'une application linéaire]]
-
-up::[[endomorphisme linéaire]]
+sibling:: [[valeur propre d'une matrice]] 
+name:: "vecteur propre"
+title:: "$\lambda$ tel que $\exists u \neq \vec{0}, \phi(u) = \lambda u$"
 #maths/algèbre #review 
 
 ----

@@ -10,6 +10,21 @@ Une droite dans le plan peut être vue comme l'ensemble des points satisfaisant 
 > Equation de la forme $ax + by + c = 0$ avec $(a, b, c) \in \mathbb{R}^{2}$ et $(a, b) \neq (0, 0)$
 ^definition
 
+> [!definition] Equation cartésienne d'une droite passant par deux points
+> Soient $A = (x_{A}, y_{A})$ et $B = (x_{B}, y_{B})$ et $A \neq B$
+> L'équation de la droite $(AB)$ est :
+> $\begin{vmatrix} x-x_{A}  &  x_{B}-x_{A} \\ y-y_{A}  &  y_{B}-y_{A}\end{vmatrix}  = 0$
+> 
+> > [!info] Justification
+> > Soit $M = (x; y)$ un point
+> > 
+> > $$\begin{align}
+> > M \in (AB) &\iff \overrightarrow{AM} \text{ et } \overrightarrow{AB} \text{ sont colinéaires}\\
+> > &\iff \det(\overrightarrow{AM}, \overrightarrow{AB}) = 0\\
+> > &\iff \begin{vmatrix} x-x_{A}  &  x_{B}-x_{A} \\
+> >                     y-y_{A}  &  y_{B}-y_{A}\end{vmatrix}  = 0\\
+> > \end{align}$$
+
 # Propriétés
 Soit $D : ax+by+c=0$
 
