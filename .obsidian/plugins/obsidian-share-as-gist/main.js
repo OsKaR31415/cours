@@ -56,7 +56,10 @@ var __copyProps = (to, from2, except, desc) => {
   }
   return to;
 };
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var __async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
@@ -349,7 +352,13 @@ function base64fromByteArray(uint8) {
   var parts = [];
   var maxChunkLength = 16383;
   for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
-    parts.push(encodeChunk(uint8, i, i + maxChunkLength > len2 ? len2 : i + maxChunkLength));
+    parts.push(
+      encodeChunk(
+        uint8,
+        i,
+        i + maxChunkLength > len2 ? len2 : i + maxChunkLength
+      )
+    );
   }
   if (extraBytes === 1) {
     tmp = uint8[len - 1];
@@ -390,7 +399,9 @@ function Buffer(arg, encodingOrOffset, length) {
   }
   if (typeof arg === "number") {
     if (typeof encodingOrOffset === "string") {
-      throw new Error("If encoding is specified then the first argument must be a string");
+      throw new Error(
+        "If encoding is specified then the first argument must be a string"
+      );
     }
     return allocUnsafe(this, arg);
   }
@@ -502,11 +513,15 @@ function fromObject(that, obj) {
       return fromArrayLike(that, obj.data);
     }
   }
-  throw new TypeError("First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.");
+  throw new TypeError(
+    "First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object."
+  );
 }
 function checked(length) {
   if (length >= kMaxLength()) {
-    throw new RangeError("Attempt to allocate Buffer larger than maximum size: 0x" + kMaxLength().toString(16) + " bytes");
+    throw new RangeError(
+      "Attempt to allocate Buffer larger than maximum size: 0x" + kMaxLength().toString(16) + " bytes"
+    );
   }
   return length | 0;
 }
@@ -647,9 +662,17 @@ function bidirectionalIndexOf(buffer, val, byteOffset, encoding, dir) {
     val = val & 255;
     if (Buffer.TYPED_ARRAY_SUPPORT && typeof Uint8Array.prototype.indexOf === "function") {
       if (dir) {
-        return Uint8Array.prototype.indexOf.call(buffer, val, byteOffset);
+        return Uint8Array.prototype.indexOf.call(
+          buffer,
+          val,
+          byteOffset
+        );
       } else {
-        return Uint8Array.prototype.lastIndexOf.call(buffer, val, byteOffset);
+        return Uint8Array.prototype.lastIndexOf.call(
+          buffer,
+          val,
+          byteOffset
+        );
       }
     }
     return arrayIndexOf(buffer, [val], byteOffset, encoding, dir);
@@ -737,7 +760,12 @@ function hexWrite(buf, string, offset, length) {
   return i;
 }
 function utf8Write(buf, string, offset, length) {
-  return blitBuffer(utf8ToBytes(string, buf.length - offset), buf, offset, length);
+  return blitBuffer(
+    utf8ToBytes(string, buf.length - offset),
+    buf,
+    offset,
+    length
+  );
 }
 function asciiWrite(buf, string, offset, length) {
   return blitBuffer(asciiToBytes(string), buf, offset, length);
@@ -749,7 +777,12 @@ function base64Write(buf, string, offset, length) {
   return blitBuffer(base64ToBytes(string), buf, offset, length);
 }
 function ucs2Write(buf, string, offset, length) {
-  return blitBuffer(utf16leToBytes(string, buf.length - offset), buf, offset, length);
+  return blitBuffer(
+    utf16leToBytes(string, buf.length - offset),
+    buf,
+    offset,
+    length
+  );
 }
 function base64Slice(buf, start, end) {
   if (start === 0 && end === buf.length) {
@@ -826,7 +859,10 @@ function decodeCodePointsArray(codePoints) {
   var res = "";
   var i = 0;
   while (i < len) {
-    res += String.fromCharCode.apply(String, codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH));
+    res += String.fromCharCode.apply(
+      String,
+      codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH)
+    );
   }
   return res;
 }
@@ -902,14 +938,28 @@ function checkIEEE754(buf, value, offset, ext, max, min) {
 }
 function writeFloat(buf, value, offset, littleEndian, noAssert) {
   if (!noAssert) {
-    checkIEEE754(buf, value, offset, 4, 34028234663852886e22, -34028234663852886e22);
+    checkIEEE754(
+      buf,
+      value,
+      offset,
+      4,
+      34028234663852886e22,
+      -34028234663852886e22
+    );
   }
   ieee754write(buf, value, offset, littleEndian, 23, 4);
   return offset + 4;
 }
 function writeDouble(buf, value, offset, littleEndian, noAssert) {
   if (!noAssert) {
-    checkIEEE754(buf, value, offset, 8, 17976931348623157e292, -17976931348623157e292);
+    checkIEEE754(
+      buf,
+      value,
+      offset,
+      8,
+      17976931348623157e292,
+      -17976931348623157e292
+    );
   }
   ieee754write(buf, value, offset, littleEndian, 52, 8);
   return offset + 8;
@@ -978,11 +1028,20 @@ function utf8ToBytes(string, units) {
     } else if (codePoint < 65536) {
       if ((units -= 3) < 0)
         break;
-      bytes.push(codePoint >> 12 | 224, codePoint >> 6 & 63 | 128, codePoint & 63 | 128);
+      bytes.push(
+        codePoint >> 12 | 224,
+        codePoint >> 6 & 63 | 128,
+        codePoint & 63 | 128
+      );
     } else if (codePoint < 1114112) {
       if ((units -= 4) < 0)
         break;
-      bytes.push(codePoint >> 18 | 240, codePoint >> 12 & 63 | 128, codePoint >> 6 & 63 | 128, codePoint & 63 | 128);
+      bytes.push(
+        codePoint >> 18 | 240,
+        codePoint >> 12 & 63 | 128,
+        codePoint >> 6 & 63 | 128,
+        codePoint & 63 | 128
+      );
     } else {
       throw new Error("Invalid code point");
     }
@@ -1342,7 +1401,9 @@ var init_Buffer = __esm({
           length = void 0;
         }
       } else {
-        throw new Error("Buffer.write(string, encoding, offset[, length]) is no longer supported");
+        throw new Error(
+          "Buffer.write(string, encoding, offset[, length]) is no longer supported"
+        );
       }
       var remaining = this.length - offset;
       if (length === void 0 || length > remaining)
@@ -1808,7 +1869,11 @@ var init_Buffer = __esm({
           target[i + targetStart] = this[i + start];
         }
       } else {
-        Uint8Array.prototype.set.call(target, this.subarray(start, start + len), targetStart);
+        Uint8Array.prototype.set.call(
+          target,
+          this.subarray(start, start + len),
+          targetStart
+        );
       }
       return len;
     };
@@ -2760,7 +2825,9 @@ var require_float = __commonJS({
     init_buffer();
     var common = require_common();
     var Type = require_type();
-    var YAML_FLOAT_PATTERN = new RegExp("^(?:[-+]?(?:0|[1-9][0-9_]*)(?:\\.[0-9_]*)?(?:[eE][-+]?[0-9]+)?|\\.[0-9_]+(?:[eE][-+]?[0-9]+)?|[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+\\.[0-9_]*|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$");
+    var YAML_FLOAT_PATTERN = new RegExp(
+      "^(?:[-+]?(?:0|[1-9][0-9_]*)(?:\\.[0-9_]*)?(?:[eE][-+]?[0-9]+)?|\\.[0-9_]+(?:[eE][-+]?[0-9]+)?|[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+\\.[0-9_]*|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$"
+    );
     function resolveYamlFloat(data) {
       if (data === null)
         return false;
@@ -2888,8 +2955,12 @@ var require_timestamp = __commonJS({
     init_virtual_process_polyfill();
     init_buffer();
     var Type = require_type();
-    var YAML_DATE_REGEXP = new RegExp("^([0-9][0-9][0-9][0-9])-([0-9][0-9])-([0-9][0-9])$");
-    var YAML_TIMESTAMP_REGEXP = new RegExp("^([0-9][0-9][0-9][0-9])-([0-9][0-9]?)-([0-9][0-9]?)(?:[Tt]|[ \\t]+)([0-9][0-9]?):([0-9][0-9]):([0-9][0-9])(?:\\.([0-9]*))?(?:[ \\t]*(Z|([-+])([0-9][0-9]?)(?::([0-9][0-9]))?))?$");
+    var YAML_DATE_REGEXP = new RegExp(
+      "^([0-9][0-9][0-9][0-9])-([0-9][0-9])-([0-9][0-9])$"
+    );
+    var YAML_TIMESTAMP_REGEXP = new RegExp(
+      "^([0-9][0-9][0-9][0-9])-([0-9][0-9]?)-([0-9][0-9]?)(?:[Tt]|[ \\t]+)([0-9][0-9]?):([0-9][0-9]):([0-9][0-9])(?:\\.([0-9]*))?(?:[ \\t]*(Z|([-+])([0-9][0-9]?)(?::([0-9][0-9]))?))?$"
+    );
     function resolveYamlTimestamp(data) {
       if (data === null)
         return false;
@@ -3446,7 +3517,10 @@ var require_loader = __commonJS({
       if (c <= 65535) {
         return String.fromCharCode(c);
       }
-      return String.fromCharCode((c - 65536 >> 10) + 55296, (c - 65536 & 1023) + 56320);
+      return String.fromCharCode(
+        (c - 65536 >> 10) + 55296,
+        (c - 65536 & 1023) + 56320
+      );
     }
     var simpleEscapeCheck = new Array(256);
     var simpleEscapeMap = new Array(256);
@@ -3473,7 +3547,10 @@ var require_loader = __commonJS({
       this.documents = [];
     }
     function generateError(state, message) {
-      return new YAMLException(message, new Mark(state.filename, state.input, state.position, state.line, state.position - state.lineStart));
+      return new YAMLException(
+        message,
+        new Mark(state.filename, state.input, state.position, state.line, state.position - state.lineStart)
+      );
     }
     function throwError(state, message) {
       throw generateError(state, message);
@@ -6182,12 +6259,15 @@ function fetchWrapper(requestOptions) {
   let status;
   let url;
   const fetch = requestOptions.request && requestOptions.request.fetch || import_node_fetch.default;
-  return fetch(requestOptions.url, Object.assign({
-    method: requestOptions.method,
-    body: requestOptions.body,
-    headers: requestOptions.headers,
-    redirect: requestOptions.redirect
-  }, requestOptions.request)).then((response) => __async(this, null, function* () {
+  return fetch(requestOptions.url, Object.assign(
+    {
+      method: requestOptions.method,
+      body: requestOptions.body,
+      headers: requestOptions.headers,
+      redirect: requestOptions.redirect
+    },
+    requestOptions.request
+  )).then((response) => __async(this, null, function* () {
     url = response.url;
     status = response.status;
     for (const keyAndValue of response.headers) {
@@ -6446,7 +6526,7 @@ var createTokenAuth = function createTokenAuth2(token) {
 };
 
 // node_modules/@octokit/core/dist-web/index.js
-var VERSION4 = "4.0.4";
+var VERSION4 = "4.1.0";
 var Octokit = class {
   constructor(options2 = {}) {
     const hook2 = new import_before_after_hook.Collection();
@@ -6563,7 +6643,7 @@ requestLog.VERSION = VERSION5;
 // node_modules/@octokit/plugin-paginate-rest/dist-web/index.js
 init_virtual_process_polyfill();
 init_buffer();
-var VERSION6 = "3.0.0";
+var VERSION6 = "5.0.1";
 function normalizePaginatedListResponse(response) {
   if (!response.data) {
     return __spreadProps(__spreadValues({}, response), {
@@ -7092,9 +7172,15 @@ var Endpoints = {
     getAnalysis: [
       "GET /repos/{owner}/{repo}/code-scanning/analyses/{analysis_id}"
     ],
+    getCodeqlDatabase: [
+      "GET /repos/{owner}/{repo}/code-scanning/codeql/databases/{language}"
+    ],
     getSarif: ["GET /repos/{owner}/{repo}/code-scanning/sarifs/{sarif_id}"],
     listAlertInstances: [
       "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/instances"
+    ],
+    listAlertsForEnterprise: [
+      "GET /enterprises/{enterprise}/code-scanning/alerts"
     ],
     listAlertsForOrg: ["GET /orgs/{org}/code-scanning/alerts"],
     listAlertsForRepo: ["GET /repos/{owner}/{repo}/code-scanning/alerts"],
@@ -7102,6 +7188,9 @@ var Endpoints = {
       "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/instances",
       {},
       { renamed: ["codeScanning", "listAlertInstances"] }
+    ],
+    listCodeqlDatabases: [
+      "GET /repos/{owner}/{repo}/code-scanning/codeql/databases"
     ],
     listRecentAnalyses: ["GET /repos/{owner}/{repo}/code-scanning/analyses"],
     updateAlert: [
@@ -7117,10 +7206,16 @@ var Endpoints = {
     addRepositoryForSecretForAuthenticatedUser: [
       "PUT /user/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
+    addSelectedRepoToOrgSecret: [
+      "PUT /organizations/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
+    ],
     codespaceMachinesForAuthenticatedUser: [
       "GET /user/codespaces/{codespace_name}/machines"
     ],
     createForAuthenticatedUser: ["POST /user/codespaces"],
+    createOrUpdateOrgSecret: [
+      "PUT /organizations/{org}/codespaces/secrets/{secret_name}"
+    ],
     createOrUpdateRepoSecret: [
       "PUT /repos/{owner}/{repo}/codespaces/secrets/{secret_name}"
     ],
@@ -7137,6 +7232,9 @@ var Endpoints = {
     deleteFromOrganization: [
       "DELETE /orgs/{org}/members/{username}/codespaces/{codespace_name}"
     ],
+    deleteOrgSecret: [
+      "DELETE /organizations/{org}/codespaces/secrets/{secret_name}"
+    ],
     deleteRepoSecret: [
       "DELETE /repos/{owner}/{repo}/codespaces/secrets/{secret_name}"
     ],
@@ -7150,6 +7248,8 @@ var Endpoints = {
       "GET /user/codespaces/{codespace_name}/exports/{export_id}"
     ],
     getForAuthenticatedUser: ["GET /user/codespaces/{codespace_name}"],
+    getOrgPublicKey: ["GET /organizations/{org}/codespaces/secrets/public-key"],
+    getOrgSecret: ["GET /organizations/{org}/codespaces/secrets/{secret_name}"],
     getPublicKeyForAuthenticatedUser: [
       "GET /user/codespaces/secrets/public-key"
     ],
@@ -7174,19 +7274,32 @@ var Endpoints = {
     listInRepositoryForAuthenticatedUser: [
       "GET /repos/{owner}/{repo}/codespaces"
     ],
+    listOrgSecrets: ["GET /organizations/{org}/codespaces/secrets"],
     listRepoSecrets: ["GET /repos/{owner}/{repo}/codespaces/secrets"],
     listRepositoriesForSecretForAuthenticatedUser: [
       "GET /user/codespaces/secrets/{secret_name}/repositories"
     ],
     listSecretsForAuthenticatedUser: ["GET /user/codespaces/secrets"],
+    listSelectedReposForOrgSecret: [
+      "GET /organizations/{org}/codespaces/secrets/{secret_name}/repositories"
+    ],
+    preFlightWithRepoForAuthenticatedUser: [
+      "GET /repos/{owner}/{repo}/codespaces/new"
+    ],
     removeRepositoryForSecretForAuthenticatedUser: [
       "DELETE /user/codespaces/secrets/{secret_name}/repositories/{repository_id}"
+    ],
+    removeSelectedRepoFromOrgSecret: [
+      "DELETE /organizations/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
     repoMachinesForAuthenticatedUser: [
       "GET /repos/{owner}/{repo}/codespaces/machines"
     ],
     setRepositoriesForSecretForAuthenticatedUser: [
       "PUT /user/codespaces/secrets/{secret_name}/repositories"
+    ],
+    setSelectedReposForOrgSecret: [
+      "PUT /organizations/{org}/codespaces/secrets/{secret_name}/repositories"
     ],
     startForAuthenticatedUser: ["POST /user/codespaces/{codespace_name}/start"],
     stopForAuthenticatedUser: ["POST /user/codespaces/{codespace_name}/stop"],
@@ -7209,6 +7322,7 @@ var Endpoints = {
     deleteRepoSecret: [
       "DELETE /repos/{owner}/{repo}/dependabot/secrets/{secret_name}"
     ],
+    getAlert: ["GET /repos/{owner}/{repo}/dependabot/alerts/{alert_number}"],
     getOrgPublicKey: ["GET /orgs/{org}/dependabot/secrets/public-key"],
     getOrgSecret: ["GET /orgs/{org}/dependabot/secrets/{secret_name}"],
     getRepoPublicKey: [
@@ -7217,6 +7331,7 @@ var Endpoints = {
     getRepoSecret: [
       "GET /repos/{owner}/{repo}/dependabot/secrets/{secret_name}"
     ],
+    listAlertsForRepo: ["GET /repos/{owner}/{repo}/dependabot/alerts"],
     listOrgSecrets: ["GET /orgs/{org}/dependabot/secrets"],
     listRepoSecrets: ["GET /repos/{owner}/{repo}/dependabot/secrets"],
     listSelectedReposForOrgSecret: [
@@ -7227,6 +7342,9 @@ var Endpoints = {
     ],
     setSelectedReposForOrgSecret: [
       "PUT /orgs/{org}/dependabot/secrets/{secret_name}/repositories"
+    ],
+    updateAlert: [
+      "PATCH /repos/{owner}/{repo}/dependabot/alerts/{alert_number}"
     ]
   },
   dependencyGraph: {
@@ -7476,6 +7594,9 @@ var Endpoints = {
     updateImport: ["PATCH /repos/{owner}/{repo}/import"]
   },
   orgs: {
+    addSecurityManagerTeam: [
+      "PUT /orgs/{org}/security-managers/teams/{team_slug}"
+    ],
     blockUser: ["PUT /orgs/{org}/blocks/{username}"],
     cancelInvitation: ["DELETE /orgs/{org}/invitations/{invitation_id}"],
     checkBlockedUser: ["GET /orgs/{org}/blocks/{username}"],
@@ -7484,9 +7605,14 @@ var Endpoints = {
     convertMemberToOutsideCollaborator: [
       "PUT /orgs/{org}/outside_collaborators/{username}"
     ],
+    createCustomRole: ["POST /orgs/{org}/custom_roles"],
     createInvitation: ["POST /orgs/{org}/invitations"],
     createWebhook: ["POST /orgs/{org}/hooks"],
+    deleteCustomRole: ["DELETE /orgs/{org}/custom_roles/{role_id}"],
     deleteWebhook: ["DELETE /orgs/{org}/hooks/{hook_id}"],
+    enableOrDisableSecurityProductOnAllOrgRepos: [
+      "POST /orgs/{org}/{security_product}/{enablement}"
+    ],
     get: ["GET /orgs/{org}"],
     getMembershipForAuthenticatedUser: ["GET /user/memberships/orgs/{org}"],
     getMembershipForUser: ["GET /orgs/{org}/memberships/{username}"],
@@ -7500,6 +7626,7 @@ var Endpoints = {
     listBlockedUsers: ["GET /orgs/{org}/blocks"],
     listCustomRoles: ["GET /organizations/{organization_id}/custom_roles"],
     listFailedInvitations: ["GET /orgs/{org}/failed_invitations"],
+    listFineGrainedPermissions: ["GET /orgs/{org}/fine_grained_permissions"],
     listForAuthenticatedUser: ["GET /user/orgs"],
     listForUser: ["GET /users/{username}/orgs"],
     listInvitationTeams: ["GET /orgs/{org}/invitations/{invitation_id}/teams"],
@@ -7508,6 +7635,7 @@ var Endpoints = {
     listOutsideCollaborators: ["GET /orgs/{org}/outside_collaborators"],
     listPendingInvitations: ["GET /orgs/{org}/invitations"],
     listPublicMembers: ["GET /orgs/{org}/public_members"],
+    listSecurityManagerTeams: ["GET /orgs/{org}/security-managers"],
     listWebhookDeliveries: ["GET /orgs/{org}/hooks/{hook_id}/deliveries"],
     listWebhooks: ["GET /orgs/{org}/hooks"],
     pingWebhook: ["POST /orgs/{org}/hooks/{hook_id}/pings"],
@@ -7522,12 +7650,16 @@ var Endpoints = {
     removePublicMembershipForAuthenticatedUser: [
       "DELETE /orgs/{org}/public_members/{username}"
     ],
+    removeSecurityManagerTeam: [
+      "DELETE /orgs/{org}/security-managers/teams/{team_slug}"
+    ],
     setMembershipForUser: ["PUT /orgs/{org}/memberships/{username}"],
     setPublicMembershipForAuthenticatedUser: [
       "PUT /orgs/{org}/public_members/{username}"
     ],
     unblockUser: ["DELETE /orgs/{org}/blocks/{username}"],
     update: ["PATCH /orgs/{org}"],
+    updateCustomRole: ["PATCH /orgs/{org}/custom_roles/{role_id}"],
     updateMembershipForAuthenticatedUser: [
       "PATCH /user/memberships/orgs/{org}"
     ],
@@ -7820,6 +7952,9 @@ var Endpoints = {
     createCommitStatus: ["POST /repos/{owner}/{repo}/statuses/{sha}"],
     createDeployKey: ["POST /repos/{owner}/{repo}/keys"],
     createDeployment: ["POST /repos/{owner}/{repo}/deployments"],
+    createDeploymentBranchPolicy: [
+      "POST /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies"
+    ],
     createDeploymentStatus: [
       "POST /repos/{owner}/{repo}/deployments/{deployment_id}/statuses"
     ],
@@ -7831,6 +7966,7 @@ var Endpoints = {
       "PUT /repos/{owner}/{repo}/environments/{environment_name}"
     ],
     createOrUpdateFileContents: ["PUT /repos/{owner}/{repo}/contents/{path}"],
+    createPagesDeployment: ["POST /repos/{owner}/{repo}/pages/deployment"],
     createPagesSite: ["POST /repos/{owner}/{repo}/pages"],
     createRelease: ["POST /repos/{owner}/{repo}/releases"],
     createTagProtection: ["POST /repos/{owner}/{repo}/tags/protection"],
@@ -7867,6 +8003,9 @@ var Endpoints = {
     deleteDeployKey: ["DELETE /repos/{owner}/{repo}/keys/{key_id}"],
     deleteDeployment: [
       "DELETE /repos/{owner}/{repo}/deployments/{deployment_id}"
+    ],
+    deleteDeploymentBranchPolicy: [
+      "DELETE /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}"
     ],
     deleteFile: ["DELETE /repos/{owner}/{repo}/contents/{path}"],
     deleteInvitation: [
@@ -7945,6 +8084,9 @@ var Endpoints = {
     getContributorsStats: ["GET /repos/{owner}/{repo}/stats/contributors"],
     getDeployKey: ["GET /repos/{owner}/{repo}/keys/{key_id}"],
     getDeployment: ["GET /repos/{owner}/{repo}/deployments/{deployment_id}"],
+    getDeploymentBranchPolicy: [
+      "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}"
+    ],
     getDeploymentStatus: [
       "GET /repos/{owner}/{repo}/deployments/{deployment_id}/statuses/{status_id}"
     ],
@@ -8001,6 +8143,9 @@ var Endpoints = {
     listCommits: ["GET /repos/{owner}/{repo}/commits"],
     listContributors: ["GET /repos/{owner}/{repo}/contributors"],
     listDeployKeys: ["GET /repos/{owner}/{repo}/keys"],
+    listDeploymentBranchPolicies: [
+      "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies"
+    ],
     listDeploymentStatuses: [
       "GET /repos/{owner}/{repo}/deployments/{deployment_id}/statuses"
     ],
@@ -8093,6 +8238,9 @@ var Endpoints = {
       "PUT /repos/{owner}/{repo}/branches/{branch}/protection"
     ],
     updateCommitComment: ["PATCH /repos/{owner}/{repo}/comments/{comment_id}"],
+    updateDeploymentBranchPolicy: [
+      "PUT /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}"
+    ],
     updateInformationAboutPagesSite: ["PUT /repos/{owner}/{repo}/pages"],
     updateInvitation: [
       "PATCH /repos/{owner}/{repo}/invitations/{invitation_id}"
@@ -8237,6 +8385,7 @@ var Endpoints = {
       { renamed: ["users", "createPublicSshKeyForAuthenticatedUser"] }
     ],
     createPublicSshKeyForAuthenticatedUser: ["POST /user/keys"],
+    createSshSigningKeyForAuthenticatedUser: ["POST /user/ssh_signing_keys"],
     deleteEmailForAuthenticated: [
       "DELETE /user/emails",
       {},
@@ -8255,6 +8404,9 @@ var Endpoints = {
       { renamed: ["users", "deletePublicSshKeyForAuthenticatedUser"] }
     ],
     deletePublicSshKeyForAuthenticatedUser: ["DELETE /user/keys/{key_id}"],
+    deleteSshSigningKeyForAuthenticatedUser: [
+      "DELETE /user/ssh_signing_keys/{ssh_signing_key_id}"
+    ],
     follow: ["PUT /user/following/{username}"],
     getAuthenticated: ["GET /user"],
     getByUsername: ["GET /users/{username}"],
@@ -8271,6 +8423,9 @@ var Endpoints = {
       { renamed: ["users", "getPublicSshKeyForAuthenticatedUser"] }
     ],
     getPublicSshKeyForAuthenticatedUser: ["GET /user/keys/{key_id}"],
+    getSshSigningKeyForAuthenticatedUser: [
+      "GET /user/ssh_signing_keys/{ssh_signing_key_id}"
+    ],
     list: ["GET /users"],
     listBlockedByAuthenticated: [
       "GET /user/blocks",
@@ -8313,6 +8468,8 @@ var Endpoints = {
       { renamed: ["users", "listPublicSshKeysForAuthenticatedUser"] }
     ],
     listPublicSshKeysForAuthenticatedUser: ["GET /user/keys"],
+    listSshSigningKeysForAuthenticatedUser: ["GET /user/ssh_signing_keys"],
+    listSshSigningKeysForUser: ["GET /users/{username}/ssh_signing_keys"],
     setPrimaryEmailVisibilityForAuthenticated: [
       "PATCH /user/email/visibility",
       {},
@@ -8326,7 +8483,7 @@ var Endpoints = {
     updateAuthenticated: ["PATCH /user"]
   }
 };
-var VERSION7 = "6.0.0";
+var VERSION7 = "6.7.0";
 function endpointsToMethods(octokit, endpointsMap) {
   const newMethods = {};
   for (const [scope, endpoints] of Object.entries(endpointsMap)) {
@@ -8398,7 +8555,7 @@ function legacyRestEndpointMethods(octokit) {
 legacyRestEndpointMethods.VERSION = VERSION7;
 
 // node_modules/@octokit/rest/dist-web/index.js
-var VERSION8 = "19.0.3";
+var VERSION8 = "19.0.5";
 var Octokit2 = Octokit.plugin(requestLog, legacyRestEndpointMethods, paginateRest).defaults({
   userAgent: `octokit-rest.js/${VERSION8}`
 });
@@ -8482,9 +8639,13 @@ var getSharedGistsForFile = (fileContents) => {
 var upsertSharedGistForFile = (sharedGist, fileContents) => {
   const { data, content } = (0, import_gray_matter.default)(fileContents);
   const existingSharedGists = data.gists || [];
-  const matchingGist = existingSharedGists.find((existingSharedGist) => existingSharedGist.id === sharedGist.id);
+  const matchingGist = existingSharedGists.find(
+    (existingSharedGist) => existingSharedGist.id === sharedGist.id
+  );
   if (matchingGist) {
-    const otherGists = existingSharedGists.filter((existingSharedGist) => existingSharedGist !== matchingGist);
+    const otherGists = existingSharedGists.filter(
+      (existingSharedGist) => existingSharedGist !== matchingGist
+    );
     const gists = [...otherGists, sharedGist];
     const updatedData = __spreadProps(__spreadValues({}, data), { gists });
     return import_gray_matter.default.stringify(content, updatedData);
@@ -8505,39 +8666,57 @@ var getLatestSettings = (plugin) => __async(void 0, null, function* () {
   return plugin.settings;
 });
 var stripFrontMatter = (content) => (0, import_gray_matter2.default)(content).content;
-var shareGistEditorCallback = (opts) => (editor, view) => __async(void 0, null, function* () {
+var shareGistEditorCallback = (opts) => () => __async(void 0, null, function* () {
   const { isPublic, app, plugin } = opts;
   const accessToken = getAccessToken();
   const { enableUpdatingGistsAfterCreation, includeFrontMatter } = yield getLatestSettings(plugin);
   if (!accessToken) {
-    return new import_obsidian.Notice("You need to add your GitHub personal access token in Settings.");
+    return new import_obsidian.Notice(
+      "You need to add your GitHub personal access token in Settings."
+    );
   }
+  const view = app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+  if (!view) {
+    return new import_obsidian.Notice("No active file");
+  }
+  const editor = view.editor;
   const rawContent = editor.getValue();
   const filename = view.file.name;
-  const existingSharedGists = getSharedGistsForFile(rawContent).filter((sharedGist) => sharedGist.isPublic === isPublic);
+  const existingSharedGists = getSharedGistsForFile(rawContent).filter(
+    (sharedGist) => sharedGist.isPublic === isPublic
+  );
   const content = includeFrontMatter ? rawContent : stripFrontMatter(rawContent);
   if (enableUpdatingGistsAfterCreation && existingSharedGists.length) {
-    new ShareAsGistSelectExistingGistModal(app, existingSharedGists, (sharedGist) => __async(void 0, null, function* () {
-      let result;
-      if (sharedGist) {
-        result = yield updateGist({ sharedGist, accessToken, content });
-      } else {
-        result = yield createGist({
-          filename,
-          content,
-          accessToken,
-          isPublic
-        });
-      }
-      if (result.status === "succeeded" /* Succeeded */) {
-        navigator.clipboard.writeText(result.sharedGist.url);
-        new import_obsidian.Notice(`Copied ${isPublic ? "public" : "private"} gist URL to clipboard`);
-        const updatedContent = upsertSharedGistForFile(result.sharedGist, rawContent);
-        editor.setValue(updatedContent);
-      } else {
-        new import_obsidian.Notice(`GitHub API error: ${result.errorMessage}`);
-      }
-    })).open();
+    new ShareAsGistSelectExistingGistModal(
+      app,
+      existingSharedGists,
+      (sharedGist) => __async(void 0, null, function* () {
+        let result;
+        if (sharedGist) {
+          result = yield updateGist({ sharedGist, accessToken, content });
+        } else {
+          result = yield createGist({
+            filename,
+            content,
+            accessToken,
+            isPublic
+          });
+        }
+        if (result.status === "succeeded" /* Succeeded */) {
+          navigator.clipboard.writeText(result.sharedGist.url);
+          new import_obsidian.Notice(
+            `Copied ${isPublic ? "public" : "private"} gist URL to clipboard`
+          );
+          const updatedContent = upsertSharedGistForFile(
+            result.sharedGist,
+            rawContent
+          );
+          editor.setValue(updatedContent);
+        } else {
+          new import_obsidian.Notice(`GitHub API error: ${result.errorMessage}`);
+        }
+      })
+    ).open();
   } else {
     const result = yield createGist({
       filename,
@@ -8547,12 +8726,19 @@ var shareGistEditorCallback = (opts) => (editor, view) => __async(void 0, null, 
     });
     if (result.status === "succeeded" /* Succeeded */) {
       navigator.clipboard.writeText(result.sharedGist.url);
-      new import_obsidian.Notice(`Copied ${isPublic ? "public" : "private"} gist URL to clipboard`);
+      new import_obsidian.Notice(
+        `Copied ${isPublic ? "public" : "private"} gist URL to clipboard`
+      );
       if (enableUpdatingGistsAfterCreation) {
-        const updatedContent = upsertSharedGistForFile(result.sharedGist, content);
-        editor.setValue(updatedContent);
+        const updatedContent = upsertSharedGistForFile(
+          result.sharedGist,
+          content
+        );
+        app.vault.modify(view.file, updatedContent);
+        editor.refresh();
       } else {
-        editor.setValue(content);
+        app.vault.modify(view.file, content);
+        editor.refresh();
       }
     } else {
       new import_obsidian.Notice(`GitHub API error: ${result.errorMessage}`);
@@ -8575,7 +8761,7 @@ var ShareAsGistPlugin = class extends import_obsidian.Plugin {
       this.addCommand({
         id: "share-as-private-dotcom-gist",
         name: "Share as private gist on GitHub.com",
-        editorCallback: shareGistEditorCallback({
+        callback: shareGistEditorCallback({
           plugin: this,
           app: this.app,
           isPublic: false
@@ -8628,38 +8814,26 @@ var ShareAsGistSettingTab = class extends import_obsidian.PluginSettingTab {
     const accessToken = getAccessToken();
     containerEl.empty();
     containerEl.createEl("h2", { text: "Share as Gist" });
-    new import_obsidian.Setting(containerEl).setName("GitHub.com personal access token").setDesc('An access token for GitHub.com with permission to write gists. You can create one from "Settings" in your GitHub account.').addText((text) => text.setPlaceholder("Your personal access token").setValue(accessToken).onChange(setAccessToken));
-    new import_obsidian.Setting(containerEl).setName("Enable updating gists after creation").setDesc("Whether gists should be updateable through this plugin after creation. If this is turned on, when you create a gist, you will be able to choose to update an existing gist (if one exists) or create a brand new one. To make this possible, front matter will be added to your notes to track gists that you have created. If this is turned off, a brand new gist will always be created.").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableUpdatingGistsAfterCreation).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.enableUpdatingGistsAfterCreation = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian.Setting(containerEl).setName("Include front matter in gists").setDesc("Whether the front matter should be included or stripped away when a note is shared as a gist").addToggle((toggle) => toggle.setValue(this.plugin.settings.includeFrontMatter).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.includeFrontMatter = value;
-      yield this.plugin.saveSettings();
-    })));
+    new import_obsidian.Setting(containerEl).setName("GitHub.com personal access token").setDesc(
+      'An access token for GitHub.com with permission to write gists. You can create one from "Settings" in your GitHub account.'
+    ).addText(
+      (text) => text.setPlaceholder("Your personal access token").setValue(accessToken).onChange(setAccessToken)
+    );
+    new import_obsidian.Setting(containerEl).setName("Enable updating gists after creation").setDesc(
+      "Whether gists should be updateable through this plugin after creation. If this is turned on, when you create a gist, you will be able to choose to update an existing gist (if one exists) or create a brand new one. To make this possible, front matter will be added to your notes to track gists that you have created. If this is turned off, a brand new gist will always be created."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.enableUpdatingGistsAfterCreation).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.enableUpdatingGistsAfterCreation = value;
+        yield this.plugin.saveSettings();
+      }))
+    );
+    new import_obsidian.Setting(containerEl).setName("Include front matter in gists").setDesc(
+      "Whether the front matter should be included or stripped away when a note is shared as a gist"
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.includeFrontMatter).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.includeFrontMatter = value;
+        yield this.plugin.saveSettings();
+      }))
+    );
   }
 };
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
- * @license  MIT
- */
-/*!
- * is-extendable <https://github.com/jonschlinkert/is-extendable>
- *
- * Copyright (c) 2015, Jon Schlinkert.
- * Licensed under the MIT License.
- */
-/*!
- * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-/*!
- * strip-bom-string <https://github.com/jonschlinkert/strip-bom-string>
- *
- * Copyright (c) 2015, 2017, Jon Schlinkert.
- * Released under the MIT License.
- */

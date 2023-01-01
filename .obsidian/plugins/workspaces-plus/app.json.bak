@@ -1,0 +1,39 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "readableLineLength": false,
+  "foldIndent": true,
+  "useTab": false,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "defaultViewMode": "source",
+  "autoPairMarkdown": false,
+  "promptDelete": false,
+  "showFrontmatter": true,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "attachmentFolderPath": "attachments",
+  "userIgnoreFilters": [
+    "daily/",
+    "__sekund__/",
+    "informatique/",
+    "Excalidraw/",
+    "images/",
+    "kanban/",
+    "templates/"
+  ],
+  "communityPluginSortOrder": "download",
+  "newLinkFormat": "shortest",
+  "autoPairBrackets": true,
+  "showInlineTitle": true
+}

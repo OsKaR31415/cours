@@ -1,13 +1,26 @@
 
+/* BreadCrumbs top trail view */
+/* view at the top of each file */
 .BC-trail {
     font-size: 20px;
     width:10%;
+    /* make the height limited, but the content still visible with scrolling */
+    max-height: 15vh;
+    overflow: scroll;
 }
 
 .BC-trail::after {
     content: "\a";
 }
 
+/* BreadCrumbs down pane (nested list of subconcepts) */
+.BC-downs {
+    font-size: calc(max(55%, 0.8vw));
+}
+
+
 .BC-Matrix {
     font-size: 70% !important;
 }
+
+

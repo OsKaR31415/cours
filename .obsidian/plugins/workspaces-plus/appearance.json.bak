@@ -1,0 +1,24 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "baseFontSize": 21,
+  "enabledCssSnippets": [
+    "breadcrumbs",
+    "custom_callouts",
+    "fira_code",
+    "general_interface",
+    "pdf_darkmode",
+    "query_header_title",
+    "tasks",
+    "darkmode",
+    "tabs"
+  ],
+  "interfaceFontFamily": "FiraCode Nerd Font",
+  "textFontFamily": "FiraCode Nerd Font",
+  "monospaceFontFamily": "JetBrainsMonoMedium Nerd Font,FiraCode Nerd Font",
+  "accentColor": "#1b9419",
+  "baseFontSizeAction": true,
+  "showViewHeader": true,
+  "translucency": false,
+  "nativeMenus": false
+}
