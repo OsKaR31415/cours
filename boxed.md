@@ -1,6 +1,6 @@
 up::[[unix redirection de flux]]
 title::"entourer du texte avec différents types de boîtes ([[unix redirection de flux]])"
-#informatique #no-review 
+#informatique
 
 ---
 Utilitaire [[ligne de commande]]

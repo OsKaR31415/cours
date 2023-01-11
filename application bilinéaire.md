@@ -4,7 +4,7 @@ alias: [ "forme bilinéaire", "bilinéaire" ]
 up::[[application linéaire]]
 sibling:: [[forme linéaire]] 
 title::"$f: E^{2} \to \mathbf{K}$ linéaire par rapport à ses deux paramètres"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]

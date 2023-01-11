@@ -4,7 +4,7 @@ alias: "tange en fonction de tan(x/2)"
 up::[[formules de trigonométrie]]
 type::$t = \tan\left(\frac{x}{2}\right)$
 title::$\tan(x) = \dfrac{2t}{1-t^{2}}$
-#maths/trigonométrie #no-review 
+#maths/trigonométrie
 
 ----
 

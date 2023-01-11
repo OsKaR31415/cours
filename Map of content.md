@@ -4,7 +4,7 @@ title:
  - "you reach a [[mental squezze point]]"
  - "you have a preconcieved idea"
 ---
-#PKM #not-done #no-review 
+#PKM #not-done
 
 ----
 

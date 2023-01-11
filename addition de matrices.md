@@ -1,6 +1,6 @@
 next:: [[next of addition de matrices]]
 up::[[matrice]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 

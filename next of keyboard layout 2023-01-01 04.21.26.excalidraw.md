@@ -1,0 +1,1 @@
+prev:: [[keyboard layout key combos ideas.excalidraw]]

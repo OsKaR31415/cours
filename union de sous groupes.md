@@ -1,5 +1,5 @@
 up::[[sous groupe]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $G$ un [[groupe]]

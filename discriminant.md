@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

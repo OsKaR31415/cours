@@ -2,7 +2,7 @@
 alias: [ "subdivision" ]
 ---
 up::[[MOC analyse]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 On appelle _subdivision de l'intervalle $[a; b]$_  toute famille finie $s = (x_i)_{0\leq i\leq n}$ telle que $a = x_0 < x_1 < \cdots < x_{n-1} < x_n = b, n\in \mathbb{N}^*$

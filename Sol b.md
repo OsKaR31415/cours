@@ -1,7 +1,7 @@
 ---
 alias: "Fa #"
 ---
-#no-review 
+
 up::[[Fa]]
 down::[[Sol]]
 

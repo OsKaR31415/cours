@@ -8,7 +8,7 @@ primitive::[[fonction sinus|sin]]
 properties::[[fonction paire|paire]]
 description::"$\mathbb{R} \to [-1;1]$", "$\dfrac{e^{ix}+e^{-ix}}{2}$"
 title::$\cos$
-#maths/analyse #maths/trigonométrie #no-review 
+#maths/analyse #maths/trigonométrie
 
 ----
 

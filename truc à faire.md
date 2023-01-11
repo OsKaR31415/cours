@@ -1,8 +1,13 @@
+---
+difficulty: 4
+---
 due::2022-08-30, 2022-09-03
 title::"projet imporant"
-difficulty::2
 #devoir-fait 
 
 ----
 
- - 
+
+```meta-bind
+INPUT[slider(minValue(0), maxValue(10)):difficulty]
+```

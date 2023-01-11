@@ -1,3 +1,3 @@
-#maths/algèbre #not-done #no-review 
+#maths/algèbre #not-done
 
 ----

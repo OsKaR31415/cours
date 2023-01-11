@@ -1,5 +1,5 @@
 up::[[application]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 

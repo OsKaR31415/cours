@@ -1,5 +1,5 @@
 up::[[MOC analyse]], [[MOC arithmétique]]
-#maths/analyse #maths/arithmétique #no-review 
+#maths/analyse #maths/arithmétique
 
 ----
 La _partie entière_ de $x\in\R$ est l'unique entier $n\in\Z$ tel que $n \leq x < n+1$.

@@ -1,6 +1,6 @@
 up:: [[vim plugins]] 
 title::"wikipedia (disponible uniquement sur nixos)"
-#informatique/vim #no-review 
+#informatique/vim
 
 ----
 Pour naviguer sur [[wikipedia]] directement dans vim

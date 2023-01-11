@@ -8,7 +8,7 @@ description::"$[-1;1] \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$", "$x \
 derivative::"$- \dfrac{1}{\sqrt{1-x^{2}}}$"
 primitive::"$x \arccos (x) - \sqrt{ 1 - x^{2} } + \text{cste.}$"
 title::$\arccos$
-#maths/analyse #maths/trigonométrie #no-review 
+#maths/analyse #maths/trigonométrie
 
 ----
 

@@ -1,4 +1,4 @@
 up::[[fonction lipschitzienne]]
-#maths/analyse #no-review #not-done 
+#maths/analyse#not-done 
 
 ----

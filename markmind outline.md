@@ -2,7 +2,7 @@
 
 mindmap-plugin: basic
 display-mode: outline
-tags: [ "#obsidian", "#no-review"]
+tags: [ "#obsidian", ""]
 
 ---
 

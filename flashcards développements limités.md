@@ -12,7 +12,7 @@ avec $\displaystyle\lim_{x\rightarrow x_0} \varepsilon(x) = 0$
 $\mathrm{DL}_n(0)(1+x)^\alpha = \ldots$
 ?
 $1+\alpha x+\dfrac{\alpha(\alpha-1)x^2}{2!}+\cdots+\dfrac{\alpha(\alpha-1)\cdot(\alpha-n+1)x^n}{n!}+x^n\varepsilon(x)$
-<!--SR:!2022-11-28,11,131-->
+<!--SR:!2023-01-06,3,130-->
 
 **Développement limité**
 $\mathrm{DL}_n(0)\dfrac{1}{1-x} =\ldots$

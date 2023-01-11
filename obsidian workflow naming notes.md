@@ -19,7 +19,7 @@ To make notes easy to **find**, we have to keep a structure for every note
 > [!definition] Structure of notes titles
 >  - For concepts with well-defined name, be precise in the name
 >      - Example: `[[fonction arg sinus hyperbolique]]`, not `[[argsh]]`
->      - **But:** use [[obsidian aliases]] to these shorter names
+>      - **But:** use [[obsidian aliases]] for these shorter names
 >  - For sources (citations, attachments...), be precise
 >      - makes them easier to find back
 >  - For _hierarchical_ names, put the main theme at the beginning of the name

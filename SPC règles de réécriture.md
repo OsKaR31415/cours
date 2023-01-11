@@ -1,5 +1,5 @@
 up::[[algèbre SPC]]
-#informatique #no-review 
+#informatique
 
 ----
 Transformations qui préserve l'équivalence des requêtes

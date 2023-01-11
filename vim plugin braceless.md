@@ -1,7 +1,7 @@
 up::[[vim plugins]]
 link::https://github.com/tweekmonster/braceless.vim
 title::"pour les langages à indentation sémantique"
-#informatique/vim #no-review 
+#informatique/vim
 
 ----
 Plugin pour mieux gérer les langages où l'indentation est sémantique (python...)

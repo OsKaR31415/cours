@@ -6,14 +6,18 @@
     "groups": [
       {
         "query": "",
-        "color": "#1e9e1a"
+        "color": "#31941a"
+      },
+      {
+        "query": "obsidian",
+        "color": "#47379a"
       }
     ]
   },
   "display": {
-    "nodeSize": 3,
-    "linkThickness": 5,
-    "particleSize": 6,
-    "particleCount": 4
+    "nodeSize": 2,
+    "linkThickness": 3,
+    "particleSize": 3,
+    "particleCount": 6
   }
 }

@@ -1,5 +1,8 @@
+---
+alias: [ "client terminal pour les podcasts" ]
+---
 up::[[unix commandes]] 
-title:: "lire des potcast depuis des feed RSS"
+title:: "lire des podcast depuis des feed RSS"
 #informatique
 
 ---

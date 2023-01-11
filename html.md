@@ -1,5 +1,5 @@
 up::[[internet]]
-#informatique #no-review 
+#informatique
 
 ----
 Langage pour décrire des pages web avec des lien (hypertexte).

@@ -2,7 +2,7 @@ sibling:: [[unix commande w]]
 up::[[unix commandes d'identification]]
 usage::"who [-abdHlmpqrsTtu] [file]", "who am i"
 title::"affiche la liste des utilisateurs connectés"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
  - affiche la liste des utilisateurs connectés

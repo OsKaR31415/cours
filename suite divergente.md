@@ -1,6 +1,6 @@
 up::[[suite]]
 sibling::[[fonction convergente|converge]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Une _suite divergente_ est une [[suite]] qui ne [[suite convergente|converge]] pas.

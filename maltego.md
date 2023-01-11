@@ -1,5 +1,5 @@
 title::"organize your thoughts - see ideas linked visually"
-#PKM #no-review 
+#PKM
 
 ----
 

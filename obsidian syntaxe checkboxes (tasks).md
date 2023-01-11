@@ -26,4 +26,6 @@ les types de checkboxes
  - [w] win
  - [u] up
  - [d] down
+ - ["] quote 
 
+ 

@@ -4,6 +4,8 @@ title:: "$u \neq \vec{0}$ tel que $\exists \lambda \in \mathbf{K}, Mu = \lambda 
 
 ---
 
+
+
 > [!definition] Vecteur propre d'une matrice
 > Soit $\mathbf{K}$ un [[corps]] 
 > Soit $M \in \mathcal{M}_{n}(\mathbf{K})$ une [[matrice]] 

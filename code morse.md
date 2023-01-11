@@ -1,4 +1,4 @@
-#informatique #no-review 
+#informatique
 
 ---
 Le _code Morse international_, l'_alphabet Morse international_ :

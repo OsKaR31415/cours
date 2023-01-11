@@ -3,7 +3,7 @@ alias: "rst"
 ---
 up::[[langage de programmation]]
 title::"langage de markup"
-#informatique #no-review 
+#informatique
 
 ----
  - utilisé pour la documentation de python

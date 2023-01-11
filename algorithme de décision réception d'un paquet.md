@@ -1,5 +1,5 @@
 up::[[routeur réseau]]
-#informatique #no-review 
+#informatique
 
 ---
 

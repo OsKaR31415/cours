@@ -1,6 +1,6 @@
 up::[[langage de programmation]]
 title::"[[paradygme programmation orientée objet|OOP]], haut niveau"
-#informatique #no-review 
+#informatique
 
 ----
 > [!query] Sous-notes de `=this.file.link`

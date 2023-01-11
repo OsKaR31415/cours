@@ -2,7 +2,7 @@
 alias: [ "réflexive", "réflexivité" ]
 ---
 up::[[relation]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $\mathscr R$ une [[relation]] sur $E$.

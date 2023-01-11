@@ -1,5 +1,5 @@
 up::[[internet]]
-#informatique #no-review 
+#informatique
 
 ----
 world wide web, ou web, ou toile, ou net, ou internet...

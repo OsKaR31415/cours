@@ -1,7 +1,7 @@
 up::[[unix commandes]]
 title::"command line live sessions (multiple users on the same command line)"
 usage::"`upterm (host|...)`"
-#informatique/unix #no-review 
+#informatique/unix
 
 ---
 

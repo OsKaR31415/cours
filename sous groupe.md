@@ -6,7 +6,7 @@ alias: [ "sous groupes" ]
 ---
 
 up::[[groupe]], [[structure algébrique]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $H$ un **sous-ensemble** non vide d'un groupe $G$ muni d'une loi $*$.

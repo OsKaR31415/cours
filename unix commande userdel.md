@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 sibling::[[unix commande useradd]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
  - supprimer un utilisateur

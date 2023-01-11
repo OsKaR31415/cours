@@ -9,7 +9,7 @@ sibling:: [[limite inférieure d'une suite]]
 up::[[suite]]
 sibling::[[limite inférieure d'une suite]]
 title::"$\sup\big\{u_{n} \mid n>k\big\}$ quand $k \to +\infty$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $(x_{n})$ une suite réelle

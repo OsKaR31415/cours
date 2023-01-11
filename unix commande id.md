@@ -1,7 +1,7 @@
 up::[[unix commandes d'identification]]
 usage::"id ( | -A | -F | -G | -P | -g | -p | -u ) [user]"
 title::"affiche les informations sur un utilisateur"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

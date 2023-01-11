@@ -2,7 +2,7 @@
 alias: ["orienté objet", "programmation orientée objet", "OOP"]
 ---
 up::[[paradygme de programmation]]
-#informatique #no-review 
+#informatique
 
 ----
 

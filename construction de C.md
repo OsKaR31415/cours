@@ -1,5 +1,5 @@
 up::[[nombre complexe]]
-#maths/analyse/complexes #no-review 
+#maths/analyse/complexes
 
 ---
 On utilise des [[matrice]] pour définir les nombres complexes.

@@ -4,6 +4,8 @@
 *.ocr.json
 __sekund__/*
 daily/*
+blog/*
+quarto/*
 identités.md
 daily
 antonin benoit.md

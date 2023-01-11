@@ -1,6 +1,6 @@
 up::[[note taking]]
 title::"what and how to capture ideas"
-#PKM #no-review 
+#PKM
 
 ---
 

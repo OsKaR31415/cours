@@ -1,7 +1,7 @@
 up::[[unix commandes d'identification]]
 usage::"finger [-46gklmpsho] [user ...] [user@host ...]"
 title::"affiche les informations GECOS des utilisateurs connectés"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 affiche les informations [[unix GECOS|GECOS]] des utilisateurs connectés

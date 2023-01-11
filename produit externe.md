@@ -1,4 +1,4 @@
-#informatique #no-review  #not-done
+#informatique #not-done
 
 ----
 Le produit externe est un opérateur de degré supérieur.

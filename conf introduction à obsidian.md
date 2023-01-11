@@ -1,4 +1,4 @@
-#obsidian #conférence #no-review 
+#obsidian #conférence
 
 ---
 

@@ -1,6 +1,6 @@
 up::[[réseau informatique]]
 title::"évolution du fonctionnement des réseaux au cours du temps"
-#informatique #no-review 
+#informatique
 
 ----
 

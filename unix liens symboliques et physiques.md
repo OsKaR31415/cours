@@ -3,7 +3,7 @@ alias: [ "symlink", "lien physique", "lien symbolique", "liens physiques", "lien
 ---
 up::[[unix]]
 sibling::[[unix liens symboliques]], [[unix lien physiques]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

@@ -1,5 +1,5 @@
 up::[[mémoire]]
-#informatique #no-review 
+#informatique
 
 ----
 

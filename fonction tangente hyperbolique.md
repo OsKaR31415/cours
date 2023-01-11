@@ -6,7 +6,7 @@ properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::$\dfrac{1}{\mathrm{ch}^{2}(x)}$
 description::"$\mathbb{R} \to [-1; 1]$", "$x \mapsto \dfrac{\mathrm{sh}(x)}{\mathrm{ch}(x)} = \dfrac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$"
 title::$\mathrm{th}$
-#maths/trigonométrie #maths/analyse #no-review 
+#maths/trigonométrie #maths/analyse
 
 ----
 La *tangente hyperbolique* est la [[fonction]] suivante :

@@ -1,9 +1,9 @@
 ---
 alias: "regex"
 ---
-up:: [[langage de programmation]] 
+up:: [[langage de programmation]] , [[édition de texte]] 
 title::"langage pour décrire des ensembles des chaînes de caractères"
-#informatique #no-review 
+#informatique
 
 ----
 

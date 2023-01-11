@@ -1,4 +1,4 @@
-#informatique #no-review 
+#informatique
 
 ----
 Fédération de réseaux conNectés entre eux à travers des passerelLes intelligentes

@@ -1,6 +1,6 @@
 up::[[internet]]
 sibling::[[http]]
-#informatique #no-review 
+#informatique
 
 ----
 protocole de transfer d'hyper texte sécurisé.

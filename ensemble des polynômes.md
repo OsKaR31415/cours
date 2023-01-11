@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/algèbre #maths/analyse #no-review 
+#maths/algèbre #maths/analyse
 
 ----
 Soit $\mathbf{K}$ un [[corps]]

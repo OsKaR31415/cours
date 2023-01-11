@@ -1,6 +1,6 @@
 up::[[outils de gestion de projet]]
 title::"comment construire un planning efficacement"
-#PM #no-review 
+#PM
 
 ---
 

@@ -1,6 +1,6 @@
 down:: [[symétrie glissée]]
 up::[[MOC géométrie]]
-#maths #no-review 
+#maths
 
 ----
 

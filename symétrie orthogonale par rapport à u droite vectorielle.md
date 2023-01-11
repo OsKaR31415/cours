@@ -1,6 +1,6 @@
 up::[[réflexion]], [[droite vectorielle]]
 title::"$p_{1}$ et $p_{2}$ les [[projection d'un vecteur sur une droite vectorielle|projections]] sur les [[droite vectorielle|droites]] $D_{1}$ et $D_{2}$", "$s_{1}(u) = p_{1}(u)-p_{2}(u)$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Dans un [[espace vectoriel orthonormé]]

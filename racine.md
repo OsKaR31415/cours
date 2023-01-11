@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $f$ une fonction de $E$ dans $F$.

@@ -1,5 +1,5 @@
 up::[[MOC dénombrement]]
-#maths/dénombrement #maths/arithmétique #no-review 
+#maths/dénombrement #maths/arithmétique
 
 ----
 Soit $u$ une [[suite]]

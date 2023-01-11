@@ -3,7 +3,7 @@ alias: ["transitivité", "transitive"]
 ---
 up::[[relation]]
 title:: "$x\mathscr Ry \vee y\mathscr Rz \implies x\mathscr Rz$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 

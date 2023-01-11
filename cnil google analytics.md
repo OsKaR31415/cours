@@ -1,4 +1,4 @@
-#conférence #informatique #no-review 
+#conférence #informatique
 
 ---
  - Présenté par Frank Bataille

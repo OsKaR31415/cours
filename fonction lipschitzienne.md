@@ -1,6 +1,6 @@
 up::[[fonction]]
 title::"$\big|f(x)-f(y)\big| \leq k|x-y|$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $I \subset \mathbb{R}$ in [[intervalle]]

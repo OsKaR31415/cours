@@ -1,6 +1,6 @@
 up::[[structure algébrique]]
 title::"$e$ tel que $\forall x \in E, x*e = e*x = x$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Un élément $e\in E$ est appelé _élément neutre_ de $E$ pour la loi $*$ ssi : $\forall a\in E, a*e=e*a=a$

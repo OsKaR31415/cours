@@ -1,6 +1,6 @@
 up::[[internet]]
 sibling::[[https]]
-#informatique #no-review 
+#informatique
 
 ----
 Voir : [[https]] : version sécurisée du protocole

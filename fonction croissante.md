@@ -1,6 +1,6 @@
 up::[[fonction]]
 title::"$x \geq x' \implies f(x) \geq f(x')$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $f$ une fonction définie sur un intervalle $I$.

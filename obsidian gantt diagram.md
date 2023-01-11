@@ -1,5 +1,5 @@
 up::[[gantt diagram]], [[obsidian syntaxe]] 
-#informatique #no-review 
+#informatique
 
 ----
 

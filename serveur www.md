@@ -1,5 +1,5 @@
 up::[[world wide web]]
-#informatique #no-review 
+#informatique
 
 ----
 # Une machine + un logiciel

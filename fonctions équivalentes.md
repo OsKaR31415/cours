@@ -7,7 +7,7 @@ alias: ["équivalente"]
 up::[[fonction]]
 sibling::[[fonction négligeable]], [[fonction dominée en un point|domination]]
 title::"$f \sim_{x_{0}} g \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)} = 1$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

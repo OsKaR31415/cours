@@ -1,5 +1,5 @@
 up::[[arbre binaire]]
-#informatique/algorithmie #no-review 
+#informatique/algorithmie
 
 ---
 Opération d'inversion d'un [[arbre binaire]].

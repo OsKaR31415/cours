@@ -4,7 +4,7 @@ name: "stdin"
 ---
 up::[[unix]]
 title::"entrée standard"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

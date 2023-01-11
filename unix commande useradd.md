@@ -5,7 +5,7 @@ sibling:: [[unix commande userdel]]
 
 up::[[unix commandes]]
 title::"commande pour ajouter un nouvel utilisater"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

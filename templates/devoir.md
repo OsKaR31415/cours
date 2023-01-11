@@ -1,7 +1,22 @@
-due::
+---
+difficulty: 5
+due: 2023-01-10
+---
 title::
-difficulty::🟩 🟧 🟥
 #devoir
 
 ---
 
+
+
+# Réglages
+
+A rendre pour le
+```meta-bind
+INPUT[date:due]
+```
+
+Difficulté :
+```meta-bind
+INPUT[slider(minValue(0), maxValue(10)):difficulty]
+```

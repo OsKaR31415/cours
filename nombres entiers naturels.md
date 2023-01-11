@@ -2,7 +2,7 @@
 alias: [ "entiers naturels", "entier naturel", "naturels", "naturel" ]
 ---
 up::[[ensembles de nombres]]
-#maths #no-review 
+#maths
 
 ----
 

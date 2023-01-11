@@ -1,5 +1,5 @@
 up::[[MOC fonctions]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 La fonction de _Heaviside_ Est la [[fonction indicatrice]] de $\mathbb{R}^+$ dans $\mathbb{R}$.

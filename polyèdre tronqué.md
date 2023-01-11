@@ -1,5 +1,5 @@
 up::[[polyèdre]]
-#maths/géométrie/polyèdre/transformation #no-review 
+#maths/géométrie/polyèdre/transformation
 
 ----
 

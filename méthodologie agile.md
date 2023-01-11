@@ -1,6 +1,6 @@
 up::[[outils de gestion de projet]]
 link::https://www.agilemanifesto.org
-#PM #no-review 
+#PM
 
 ----
 

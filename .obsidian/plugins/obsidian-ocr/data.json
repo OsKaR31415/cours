@@ -7,7 +7,7 @@
   },
   "fuzzySearch": true,
   "caseSensitive": false,
-  "ocrImage": true,
+  "ocrImage": false,
   "ocrPDF": true,
   "concurrentIndexingProcesses": 1,
   "concurrentCachingProcesses": 4,

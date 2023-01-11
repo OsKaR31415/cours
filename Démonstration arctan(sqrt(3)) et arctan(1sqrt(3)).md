@@ -1,6 +1,6 @@
 up::[[fonction arctangente|arctan]]
 title::"$\arctan(\sqrt{ 3 }) = \dfrac{\pi}{3}$", "$\arctan\left( \dfrac{1}{\sqrt{ 3 }} \right) = \dfrac{\pi}{6}$"
-#maths/trigonométrie #démonstration  #no-review 
+#maths/trigonométrie #démonstration 
 
 ---
 

@@ -2,7 +2,7 @@
 alias: [ "droits", "permissions" ]
 ---
 up::[[unix]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

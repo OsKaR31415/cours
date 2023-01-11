@@ -1,5 +1,5 @@
 up::[[nombre complexe]]
-#maths/analyse/complexes #no-review 
+#maths/analyse/complexes
 
 ----
 Soit $z = a+ib$ (un [[nombre complexe]]).

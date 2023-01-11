@@ -1,6 +1,6 @@
 up::[[polynôme]]
 title::"tous les termes sont de même degré (notamment intéressant avec plusieurs variables)"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Quand tous les termes sont du même degré.

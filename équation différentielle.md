@@ -1,5 +1,5 @@
 up::[[équation fonctionnelle]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 

@@ -1,7 +1,7 @@
 up::[[obsidian plugins]]
 link::https://github.com/Nigecat/obsidian-desmos
 title::"tracer des fonctions mathématiques"
-#obsidian #no-review 
+#obsidian
 
 ----
 

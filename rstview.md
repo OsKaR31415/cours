@@ -1,6 +1,6 @@
 up::[[unix commandes]]
 title::"lecteur de [[ReStructuredText]] (rst)"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 Utilitaire pour afficher (dans un navigateur) un fichier [[ReStructuredText]] (.rst)

@@ -1,6 +1,6 @@
 up:: [[rotation]]
 title::"[[dimension d'un espace vectoriel|2D]] : $r_{\theta} \;\widehat{=}  \begin{pmatrix}\cos\theta & -\sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}$"
-#maths #no-review 
+#maths
 
 ----
 

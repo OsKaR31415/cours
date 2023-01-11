@@ -2,7 +2,7 @@
 alias: "analyse fonctionnelle"
 ---
 up::[[outils de gestion de projet]]
-#informatique #no-review 
+#informatique
 
 ---
 

@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 title::"commande pour changer le shell par défaut (login shell)"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

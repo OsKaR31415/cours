@@ -1,7 +1,7 @@
 up::[[propriétés des requêtes conjonctives]]
 title::"$I \subseteq J \implies q(I) \subseteq q(J)$ avec $I, J$ des instances et $q$ une [[requête]]"
 description::"ajouter des données dans l'instance ajoute au minimum 0 données dans le résultat d'une requête"
-#informatique #no-review 
+#informatique
 
 ----
 

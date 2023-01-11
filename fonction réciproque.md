@@ -2,7 +2,7 @@
 alias: [ "réciproque" ]
 ---
 up::[[fonction]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

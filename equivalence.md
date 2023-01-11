@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ----
 Soient $A$ et $B$ deux [[proposition|propositions logiques]]

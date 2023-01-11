@@ -1,5 +1,5 @@
 up::[[axiomatique]]
-#maths #no-review 
+#maths
 
 ---
 

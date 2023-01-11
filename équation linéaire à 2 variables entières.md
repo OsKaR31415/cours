@@ -1,6 +1,6 @@
 up::[[équation diophantienne]]
 title::"$ax+by=c \qquad (a, b, c)\in\mathbb{Z}^{3}$"
-#maths/arithmétique #no-review 
+#maths/arithmétique
 
 ----
 

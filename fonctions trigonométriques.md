@@ -1,15 +1,16 @@
 up::[[MOC trigonométrie]]
-#maths/trigonométrie #no-review 
+#maths/trigonométrie
 
 ----
 
 
 
 
+
 > [!smallquery] Sous-notes de [[MOC trigonométrie]]
 > ```dataview
-> TABLE title as "nom", description, derivative, primitive, properties, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> TABLE title as "nom", description, derivative, primitive, properties
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC AND -#démonstration
 > WHERE contains(up,          [[MOC trigonométrie]]) 
 >    or contains(up.up,       [[MOC trigonométrie]])
 >    or contains(up.up.up,    [[MOC trigonométrie]])

@@ -1,5 +1,5 @@
 up::[[structure de donnés]]
-#informatique/algorithmie #no-review 
+#informatique/algorithmie
 
 ---
 Un _arbre binaire_ est un [[arbre]] dont le **degré** de tous les noeuds est inférieur ou égal à 2.

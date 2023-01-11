@@ -1,5 +1,5 @@
 up::[[structure de données]]
-#informatique/algorithmie #no-review 
+#informatique/algorithmie
 
 ---
 Un _arbre binaire de recherche_ est un [[arbre binaire]] particulier.

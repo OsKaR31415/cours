@@ -1,6 +1,6 @@
 up::[[réseau informatique]]
 title::"différents types de réseau"
-#informatique #no-review 
+#informatique
 
 ---
 

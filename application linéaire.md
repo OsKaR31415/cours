@@ -7,7 +7,7 @@ alias: ["applications linéaires", "linéaire", "linéaires"]
 up::[[application]]
 sibling::[[combinaison linéaire]]
 title::"$f(\lambda u+v) = \lambda f(u) + f(v)$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 Soient $f$ une [[application]], et $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels,

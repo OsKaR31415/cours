@@ -1,6 +1,6 @@
 up::[[représentation des nombres en binaire]]
 title::"partie entière et partie décimale"
-#informatique #no-review 
+#informatique
 
 ---
 

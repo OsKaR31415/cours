@@ -1,7 +1,7 @@
 ---
 alias: "BDD"
 ---
-#informatique #no-review 
+#informatique
 
 ---
 > [!query]- Sous-notes de `=this.file.link`

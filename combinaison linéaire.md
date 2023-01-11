@@ -3,7 +3,7 @@ alias: "combinaisons linéaires"
 ---
 up::[[MOC algèbre]]
 sibling:: [[application linéaire]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 Une _combinaison linéaire_ est une expression construite à partir d'un ensemble de termes en multipliant chaque terme par une constante et en sommant le tout.

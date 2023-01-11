@@ -1,5 +1,5 @@
 up::[[MOC algèbre]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 
@@ -18,7 +18,7 @@ Une _famille_ $(x_i)_{i\in I}$ d'un ensemble $E$ indexée par un ensemble $I$ ([
 Un _élément d'une famille_ est un élément de l'ensemble d'arrivée de l'[[application]] associée ($\card(E)$).
 
 ### cardinalité
-La _[[cardinal|cardinalité]] d'une famille_ est la [[cardinal|cardinalité]] de l'ensemble de ses indices ($\card(I)$).
+La _[[cardinal d'un ensemble|cardinalité]] d'une famille_ est la [[cardinal d'un ensemble|cardinalité]] de l'ensemble de ses indices ($\card(I)$).
 De façon équivalente, c'est la cardinalité du [[graphe d'une fonction|graphe]] de l'[[application]] associée.
 
 

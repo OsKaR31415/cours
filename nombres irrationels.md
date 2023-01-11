@@ -4,7 +4,7 @@ alias: "nombre irrationnel"
 up::[[ensembles de nombres]] 
 sibling::[[nombres rationnels]] 
 title::"$q$ tel que $\not \exists (a, b) \in \mathbb{Z}^{2}, \dfrac{a}{b}=q$"
-#maths #no-review 
+#maths
 
 ----
 

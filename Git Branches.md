@@ -1,6 +1,6 @@
 down:: [[git create branch]]
 up:: [[git]]
-#informatique #no-review 
+#informatique
 
 ----
 

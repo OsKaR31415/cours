@@ -2,7 +2,7 @@
 alias: [ "valeur propre", "valeur propre d'un endomorphisme linéaire" ]
 ---
 up:: [[endomorphisme linéaire]]
-sibling:: [[vecteur propre d'une application linéaire]]
+sibling:: [[`]]
 sibling:: [[valeur propre d'une matrice]] 
 name:: "vecteur propre"
 title:: "$\lambda$ tel que $\exists u \neq \vec{0}, \phi(u) = \lambda u$"
@@ -21,5 +21,5 @@ Un réel $\lambda$ est une _valeur propre_ de $\varphi$ ssi il existe un vecteur
 
 > [!definition] vecteur propre associé à une valeur propre
 > Si $\varphi(u) = \lambda u$ avec $u \neq 0_{E}$
-> on dit que le [[vecteur propre d'une application linéaire|vecteur propre]] $u$ est _associé_ à la valeur propre $\lambda$
+> on dit que le [[`|vecteur propre]] $u$ est _associé_ à la valeur propre $\lambda$
 

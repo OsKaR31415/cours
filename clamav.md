@@ -1,5 +1,5 @@
 up::[[unix redirection de flux]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ---
 utilitaire [[unix redirection de flux]]

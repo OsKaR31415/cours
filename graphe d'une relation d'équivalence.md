@@ -1,5 +1,5 @@
 up::[[relation d'équivalence]]
-#maths/algèbre #maths/graphes #no-review 
+#maths/algèbre #maths/graphes
 
 ----
 

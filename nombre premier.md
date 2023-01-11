@@ -3,7 +3,7 @@ alias: [ "premier" ]
 ---
 up::[[MOC arithmétique]]
 title::"$p$ tel que les seuls diviseurs de $p$ sont $1$ et $p$ et que $p \neq 1$"
-#maths/arithmétique #no-review 
+#maths/arithmétique
 
 ----
 

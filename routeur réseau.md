@@ -1,5 +1,5 @@
 up::[[couche réseau]], [[matériel réseau informatique]]
-#informatique #no-review #not-done 
+#informatique#not-done 
 
 ----
 

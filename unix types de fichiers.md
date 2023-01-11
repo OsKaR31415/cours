@@ -1,7 +1,6 @@
-#informatique/unix #no-review #not-done 
+#informatique/unix#not-done 
 
 ----
 
  - fichiers réguliers
  - 
- - [ ] #todo compléter les types de fichiers

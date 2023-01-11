@@ -1,5 +1,5 @@
 up::[[SQL]]
-#informatique #no-review 
+#informatique
 
 ----
 

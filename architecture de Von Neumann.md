@@ -1,6 +1,6 @@
 up::[[architecture des ordinateurs]]
 author::[[John Von Neumann]]
-#informatique #no-review 
+#informatique
 
 ---
 

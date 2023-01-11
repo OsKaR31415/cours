@@ -1,5 +1,5 @@
 up::[[MOC analyse|analyse]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $\mathscr{C}_f$ la courbe représentative de la fonction $f$.

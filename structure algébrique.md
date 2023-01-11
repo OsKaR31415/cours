@@ -2,7 +2,7 @@
 alias: "structures algébriques"
 ---
 up::[[MOC algèbre]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Une structure algébrique est un [[ensemble]] _muni_ d'une ou plusieurs [[loi de composition|lois de composition]].

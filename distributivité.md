@@ -3,7 +3,7 @@ alias: "distributive"
 ---
 up::[[structure algébrique]]
 title::"$*$ _distributive sur_ $\bot$ ssi :", " - $a*(b \bot c) = (a*b)\bot (a*c)$ (distributivité à droite)", " - $(b \bot c)*a = (b*a) \bot (c*a)$ (distributivité à gauche)"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $E$ un ensemble muni de deux [[loi de composition interne]] : $*$ et $\bot$ :

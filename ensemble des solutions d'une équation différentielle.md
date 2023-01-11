@@ -1,5 +1,5 @@
 up::[[équation différentielle]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 

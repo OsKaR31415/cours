@@ -54,6 +54,28 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ""
+    },
+    {
+      "url": "hhtps://www.flaticon.com",
+      "displayName": "flaticons",
+      "icon": "triangle",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 0.98,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "",
+      "displayName": "hand drawn latex mahts",
+      "icon": "https://webdemo.myscript.com/views/math/index.html",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
     }
   ],
   "padding": 5

@@ -23,6 +23,5 @@ title:: "$\lambda$ tel que $\exists u \neq \vec{0}, Mu = \lambda u$"
 Lorsqu'on résout $\det(M - \lambda Id_{n}) = 0$, on obtient une équation polynôme de degré $n$.
 Alors, on appelle **multiplicité de la valeur propre $\lambda$** la [[multiplicité d'une racine|multiplicité]] de la racine $\lambda$ de ce polynôme
 
- - [ ] #todo ajouter flashcard
 
 

@@ -5,7 +5,7 @@ up::[[fonction tangente]]
 description::"$\mathbb{R} \to \left[ - \frac{\pi}{2}; \frac{\pi}{2} \right]$", "$x \mapsto \arctan(x)$"
 derivative::"$\dfrac{1}{x^{2} + 1}$"
 integral::"$\displaystyle x \arctan(x) - \frac{1}{2} \ln \left( 1+x^{2} \right)$"
-#maths/analyse #maths/trigonométrie #no-review 
+#maths/analyse #maths/trigonométrie
 
 ----
 

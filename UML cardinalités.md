@@ -2,7 +2,7 @@
 alias: "cardinalités d'UML"
 ---
 up::[[diagramme UML]]
-#informatique #no-review 
+#informatique
 
 ----
 

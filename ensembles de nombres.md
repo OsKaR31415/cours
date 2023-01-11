@@ -1,5 +1,5 @@
 up::[[MOC algèbre|algèbre]]
-#maths #no-review 
+#maths
 
 ----
 

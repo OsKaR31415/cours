@@ -277,6 +277,12 @@
         "Shift"
       ],
       "key": "="
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
     }
   ],
   "obsidian-spaced-repetition:srs-note-review-open-note": [
@@ -305,6 +311,20 @@
         "Shift"
       ],
       "key": "6"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
     }
   ],
   "pane-relief:go-6th": [],
@@ -483,5 +503,45 @@
       "key": "H"
     }
   ],
-  "various-complements:add-word-custom-dictionary": []
+  "various-complements:add-word-custom-dictionary": [],
+  "mrj-jump-to-link:activate-jump-to-link": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "'"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "4"
+    }
+  ],
+  "mrj-jump-to-link:activate-lightspeed-jump": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "canvas-presentation:next-slide": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "canvas-presentation:previous-slide": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "ArrowLeft"
+    }
+  ]
 }

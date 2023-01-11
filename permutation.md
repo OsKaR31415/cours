@@ -12,7 +12,7 @@ Une _permutation_ représente le réarrangement d'objets.
 
 # Définition
 Une permutation est une [[bijection]] d'un ensemble dans lui-même.
-Notamment, une permutation de $n\in\mathbb N$ éléments est une [[bijection]] d'un ensemble fini de [[cardinal]] n sur lui-même.
+Notamment, une permutation de $n\in\mathbb N$ éléments est une [[bijection]] d'un ensemble fini de [[cardinal d'un ensemble]] n sur lui-même.
 
 On parle généralement des permutations sur un intervalle $[\![1;n]\!]$.
 

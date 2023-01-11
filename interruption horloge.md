@@ -1,5 +1,5 @@
 up:: [[Commutation de Processus]]
-#informatique #no-review 
+#informatique
 
 ----
 

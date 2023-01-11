@@ -1,5 +1,5 @@
 source::[[Livre - Jeux finis et infinis]]
-#maths/théorie-des-jeux #no-review 
+#maths/théorie-des-jeux
 
 ----
 

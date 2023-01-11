@@ -5,7 +5,7 @@ derivative::$1+\tan^{2(x)} = \frac{1}{\cos^{2}(x)}$
 description::"$\mathbb{R} \setminus \frac{\pi}{2}\mathbb{Z} \to \mathbb{R}$", "$x \mapsto \dfrac{\sin(x)}{\cos(x)}$"
 primitive::"$- \ln \left| \cos x \right| + \text{cste.}$"
 title::$\tan$
-#maths/analyse #maths/trigonométrie #no-review 
+#maths/analyse #maths/trigonométrie
 
 ----
 Notée $\tan$. Fonction trigonométrique (fonction circulaire).

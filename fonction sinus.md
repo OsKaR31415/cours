@@ -8,7 +8,7 @@ properties::[[fonction impaire|impaire]]
 derivative::[[fonction cosinus|cos]]
 description::"$\mathbb{R} \to [-1;1]$", "$x \mapsto \dfrac{e^{ix}-e^{-ix}}{2i}$"
 title::$\sin$
-#maths/analyse #maths/trigonométrie #no-review 
+#maths/analyse #maths/trigonométrie
 
 ----
 Notée $\sin$.

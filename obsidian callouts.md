@@ -1,6 +1,6 @@
 up::[[obsidian syntaxe]]
 title::"sytaxe, types de callouts, callouts persos"
-#obsidian #no-review 
+#obsidian
 
 ----
 

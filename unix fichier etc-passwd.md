@@ -4,7 +4,7 @@ alias: "/etc/passwd"
 up::[[unix]]
 title::"le fichier `/etc/passwd`, contient les mdp et infos des utilisateurs"
 sibling::[[unix fichier etc-shadow|/etc/shadow]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 Fichier de configuration [[unix]]

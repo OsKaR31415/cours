@@ -13,7 +13,7 @@ $\displaystyle\lim\limits_{ \xi \to a }\int_{\xi}^{b}f(x) \, dx$
  
 > [!smallquery] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, description
+> TABLE title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC AND -#demonstration
 > WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
 > WHERE file != this.file

@@ -1,10 +1,10 @@
-up:: [[règle d'Abel]] 
+up:: [[règle d'Abel pour les intégrales]] 
 title::
 #maths/analyse #démonstration 
 
 ---
 
-![[règle d'Abel#^definition]]
+![[règle d'Abel pour les intégrales#^definition]]
 
 On cherche à démontrer la règle d'Abel pour l'intégrale $\displaystyle\int_{a}^{+\infty} f(t)g(t) \, dt$
 

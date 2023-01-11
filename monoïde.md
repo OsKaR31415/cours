@@ -5,7 +5,7 @@ sr-ease: 296
 ---
 up::[[structure algébrique]]
 title::"ensemble muni d'une [[loi de composition interne|lci]] [[associativité|associative]] qui possède un [[élément neutre]]"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Un ensemble $E$ muni d'une [[loi de composition interne]] $*$ est un _monoïde_ ssi :

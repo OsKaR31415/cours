@@ -1,5 +1,5 @@
 up::[[algèbre relationelle]]
-#informatique #no-review 
+#informatique
 
 ---
 c'est une [[approche non nomée]] : les attributs sont différenciés par leur position (index) et pas par leur nom.

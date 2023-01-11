@@ -1,5 +1,5 @@
 up::[[ensemble]]
-#maths/ensembles #no-review 
+#maths/ensembles
 
 ----
 Un ensemble est dit _dénombrable_, ou _infini dénombrable_ lorque ses éléments peut être listés **sans omission ni répétition** dans une suite indexée par les entiers.
@@ -11,4 +11,4 @@ Certains ensembles contiennent "trop" d'éléments pour être parcourus complèt
 
 Un ensemble $E$ est dit _dénombrable_ quand il existe une [[bijection]] entre l'ensemble $\mathbb N$ et $E$ (on dit qu'il est [[ensemble équipotent|équipotent]] à $\mathbb N$).
 
-Une autre définition dit que $E$ est _dénombrable_ quand il existe une [[bijection]] entre $E$ et $\mathscr P(\mathbb N)$ l'[[ensemble des parties d'un ensemble|ensemble des parties]] de $\mathbb N$. Cette définition inclut donc aussi tous les ensembles de [[cardinal]] fini.
+Une autre définition dit que $E$ est _dénombrable_ quand il existe une [[bijection]] entre $E$ et $\mathscr P(\mathbb N)$ l'[[ensemble des parties d'un ensemble|ensemble des parties]] de $\mathbb N$. Cette définition inclut donc aussi tous les ensembles de [[cardinal d'un ensemble]] fini.

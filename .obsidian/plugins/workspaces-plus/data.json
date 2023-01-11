@@ -2,5 +2,14 @@
   "showInstructions": true,
   "showDeletePrompt": true,
   "saveOnSwitch": false,
-  "saveOnChange": true
+  "saveOnChange": true,
+  "workspaceSettings": false,
+  "systemDarkMode": false,
+  "globalSettings": {},
+  "activeWorkspaceDesktop": "blog",
+  "activeWorkspaceMobile": "",
+  "reloadLivePreview": false,
+  "workspaceSwitcherRibbon": false,
+  "modeSwitcherRibbon": false,
+  "replaceNativeRibbon": false
 }

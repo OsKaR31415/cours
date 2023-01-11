@@ -1,5 +1,5 @@
 up::[[polyèdre]]
-#maths/géométrie/polyèdre #no-review 
+#maths/géométrie/polyèdre
 
 ----
 symbole de shläfli : $\{3, 4\}$

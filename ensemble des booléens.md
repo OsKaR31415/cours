@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ----
 L'ensemble des boooléens est l'ensemble qui contient _Vrai_ et _Faux_, parfois noté $\mathbb B$.

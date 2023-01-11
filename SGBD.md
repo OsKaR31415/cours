@@ -1,5 +1,5 @@
 up::[[base de données]], [[serveur www]]
-#informatique #no-review 
+#informatique
 
 ----
 

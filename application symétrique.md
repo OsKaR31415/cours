@@ -1,6 +1,6 @@
 up::[[application]] 
 title::"$f: E^{2} \to \mathbf{K}$ telle que $\forall (u, v)\in E^{2}, \quad f((u,v)) = f((v, u))$"
-#maths #no-review 
+#maths
 
 ---
 

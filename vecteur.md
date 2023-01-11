@@ -3,7 +3,7 @@ alias: "vecteurs"
 ---
 up::[[espace vectoriel]]
 title::"élément d'un [[espace vectoriel]]"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Un vecteur est un élément d'un [[espace vectoriel]]

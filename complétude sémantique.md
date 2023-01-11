@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ---
 Ou _complétude faible_

@@ -1,6 +1,6 @@
 up::[[représentations en binaire]]
 down:: [[codage binaire des nombres réels en virgule flottante]], [[codage binaire des nombres réels en virgule fixe]]
-#informatique #no-review 
+#informatique
 
 ----
 

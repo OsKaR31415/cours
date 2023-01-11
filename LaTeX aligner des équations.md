@@ -1,6 +1,6 @@
 up::[[LaTeX]]
 title::"comment aligner correctement une suite d'équations"
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,6 +1,6 @@
 up::[[MOC géométrie]]
 source::https://mathcurve.com/polyedres/parallelepipede/pallelepipede.shtml
-#maths/géométrie #no-review 
+#maths/géométrie
 
 ----
 

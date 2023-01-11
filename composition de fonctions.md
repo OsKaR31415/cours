@@ -2,7 +2,7 @@
 alias: [ "composée", "composition" ]
 ---
 up::[[fonction]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ---
 

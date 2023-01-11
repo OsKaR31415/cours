@@ -6,7 +6,7 @@ sibling:: [[unix fichier etc-passwd]]
 up::[[unix]]
 title::"fichier contenant les mots de passe. Personne n'a aucun droit dessus."
 sibling::[[unix fichier etc-passwd]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

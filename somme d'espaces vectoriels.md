@@ -3,7 +3,7 @@ alias: [ "somme" ]
 ---
 up::[[espace vectoriel]]
 title::"$E_{1}+E_{2} = \{ u_{1}+u_{2} \mid u_{1}\in E_{1} \wedge u_{2} \in E_{2} \}$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soient $E_{1}$ et $E_{2}$ deux [[sous espace vectoriel|sous espaces vectoriels]] d'un [[espace vectoriel]] $E$

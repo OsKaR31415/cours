@@ -1,6 +1,6 @@
 down:: [[interruption horloge]]
 up::[[système d'exploitation]]
-#informatique #no-review 
+#informatique
 
 ---
 

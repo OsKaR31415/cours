@@ -3,7 +3,7 @@ alias: "STP"
 ---
 up::[[routage]]
 title::"élire un meilleur chemin quand le réseau possède des cycles"
-#informatique #no-review 
+#informatique
 
 ----
 

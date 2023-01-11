@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ---
 [[proposition|Proposition]] primitive considérée comme non démontrable et admise a priori.

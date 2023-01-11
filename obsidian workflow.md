@@ -4,7 +4,7 @@ title::"how i work in obsidian"
 
 ----
 
-> [!bigquery] Sous-notes de `=this.file.name`
+> [!query] Sous-notes de `=this.file.name`
 > ```dataview
 > TABLE title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

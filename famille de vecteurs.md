@@ -1,5 +1,5 @@
 up::[[espace vectoriel]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Une [[famille]] de [[vecteur|vecteurs]]

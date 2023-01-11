@@ -1,7 +1,7 @@
 up::[[obsidian plugin dataview]] 
 
 
-#dataview-test #obsidian #no-review 
+#dataview-test #obsidian
 
 ---
 test de [[obsidian plugin dataview|dataview]]

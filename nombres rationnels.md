@@ -5,7 +5,7 @@ sibling:: [[nombres irrationels]]
 
 up::[[ensembles de nombres]]
 title::"$\mathbb{Q} := \left\{  \frac{a}{b} \mid (a, b) \in \mathbb{Z} \times \mathbb{Z}^{*}  \right\}$"
-#maths #no-review 
+#maths
 
 ----
 

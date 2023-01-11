@@ -1,5 +1,5 @@
 up::[[MOC trigonométrie]]
-#maths/trigonométrie #démonstration  #no-review 
+#maths/trigonométrie #démonstration 
 
 ----
 

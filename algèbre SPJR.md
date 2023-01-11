@@ -1,5 +1,5 @@
 up::[[algèbre relationelle]]
-#informatique #no-review 
+#informatique
 
 ---
 

@@ -1,4 +1,4 @@
-#science #no-review 
+#science
 
 ----
 Ensemble de **3 arts** qui concernent le "pouvoir de la langue" (expression, raisonnement, persuasion et séduction)

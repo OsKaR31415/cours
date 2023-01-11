@@ -30,7 +30,8 @@
     "Excalidraw/",
     "images/",
     "kanban/",
-    "templates/"
+    "templates/",
+    "blog/"
   ],
   "communityPluginSortOrder": "download",
   "newLinkFormat": "shortest",

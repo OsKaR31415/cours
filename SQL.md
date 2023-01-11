@@ -1,6 +1,6 @@
 up::[[langage de programmation]]
 title::"langage de requête (et création) de [[base de données]]"
-#informatique #no-review 
+#informatique
 
 ----
 

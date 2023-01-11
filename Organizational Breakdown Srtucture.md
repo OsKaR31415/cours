@@ -2,7 +2,7 @@
 alias: "OBS"
 ---
 up::[[outils de gestion de projet]]
-#PM #no-review 
+#PM
 
 ----
 

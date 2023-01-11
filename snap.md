@@ -1,6 +1,6 @@
 title::"alternative à scratch"
 link::https://snap.berkeley/edu
-#informatique #pedagogie #no-review 
+#informatique #pedagogie
 
 ----
 

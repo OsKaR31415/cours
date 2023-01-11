@@ -1,5 +1,5 @@
 up::[[MOC analyse]], [[fonction]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 La fonction _indicatrice_ (ou caractéristique) est une [[fonction]] définie sur un ensemble $E$ qui explicite l'appartenance ou non à un sous ensemble $F$ de $E$ de tout élément de $E$.

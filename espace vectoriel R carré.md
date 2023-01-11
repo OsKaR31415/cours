@@ -4,7 +4,7 @@ alias: ["l'espace vectoriel R²", "espace vectoriel R²", "espace vectoriel ℝ�
 up::[[espace vectoriel]]
 sibling:: [[espace affine R carré]]
 title::"$(\mathbb{R}^{2}, +, \cdot)$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 $\mathbb{R}^{2}$ forme un [[espace vectoriel]] avec $+$ et $\cdot$

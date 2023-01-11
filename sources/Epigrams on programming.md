@@ -1,6 +1,6 @@
 @uthor::[[Alan Perlis]]
 title::"dictons sur la programmation"
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,6 +1,6 @@
 up::[[ensembles de nombres]]
 title::"$\mathbb{C} := \{ a + ib \mid (a, b) \in \mathbb{R} \}$ où $i^{2} = -1$"
-#maths/analyse/complexes #no-review 
+#maths/analyse/complexes
 
 ----
 On a créé un objet noté $i$ tel que $i^2 = -1$

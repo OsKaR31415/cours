@@ -1,5 +1,5 @@
 up::[[système d'exploitation]]
-#informatique #no-review 
+#informatique
 
 ----
 Corrdonne tous les besoins nécessaires à la gestion des processus

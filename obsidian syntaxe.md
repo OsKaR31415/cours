@@ -1,6 +1,6 @@
 up:: [[obsidian]]
 title::"syntaxe de base de obsidian"
-#obsidian #no-review 
+#obsidian
 
 ----
 
@@ -20,11 +20,11 @@ Note: il faut mettre un espace après le #
 
 donne :
 # Titre
-# Sous-titre
-## Sous-sous-titre
-### Sous-sous-sous-titre
-#### Sous-sous-sous-sous-titre
-##### Sous-sous-sous-sous-sous-titre
+## Sous-titre
+### Sous-sous-titre
+#### Sous-sous-sous-titre
+##### Sous-sous-sous-sous-titre
+###### Sous-sous-sous-sous-sous-titre
 
 
 # Listes
@@ -74,4 +74,8 @@ donne :
 > les callouts permettent faire des boîtes pour grouper visuellement du contenu.
 > Il est aussi possible de faire des boîtes pliables
 > Voir : [[obsidian callouts]]
+
+> [!example]- Liste des callouts possibles
+> ![[obsidian callouts#Types de callouts]]
+
 

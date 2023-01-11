@@ -1,7 +1,7 @@
 down:: [[down of représentations en binaire]]
 up::[[binaire]]
 down::[[représentation des nombres en binaire]]
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -4,7 +4,7 @@ alias: [ "nombre algébrique", "algébrique" ]
 up::[[ensembles de nombres]]
 sibling:: [[nombres transcendants]]
 title::"solutions d'[[équation polynomiale|équations polynômiales]] à coefficients [[nombres rationnels|rationnels]]"
-#maths #no-review 
+#maths
 
 ----
 > [!definition] nombre algébrique

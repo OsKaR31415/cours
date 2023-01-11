@@ -1,5 +1,5 @@
 up::[[java classe abstraite]], [[java interfaces]]
-#informatique #no-review 
+#informatique
 
 ----
 

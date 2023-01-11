@@ -1,6 +1,6 @@
 up::[[LaTeX]]
 title::"comment changer le style des sections en latex"
-#informatique #no-review 
+#informatique
 
 
 

@@ -1,6 +1,6 @@
 up::[[matrice]]
 title::"$M^{T}_{i,j}=M_{j,i}$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 

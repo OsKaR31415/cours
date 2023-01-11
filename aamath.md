@@ -1,5 +1,5 @@
 up::[[unix commandes]]
-#informatique #no-review 
+#informatique
 
 ---
 outil en [[ligne de commande]].

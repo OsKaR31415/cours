@@ -1,6 +1,6 @@
 up::[[fonction]]
 title::"$x \geq x' \implies f(x) \leq f(x')$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

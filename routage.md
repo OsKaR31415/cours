@@ -1,6 +1,6 @@
 up::[[réseau informatique]]
 sibling::[[routeur réseau]]
-#informatique #no-review 
+#informatique
 
 ----
 

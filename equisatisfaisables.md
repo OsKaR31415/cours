@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ----
 Deux formules sont dites _equisatisfaisables_ ssi :

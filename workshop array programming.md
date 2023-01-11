@@ -1,6 +1,6 @@
 up::[[APL]]
 title::"workshop sur la programmation array ([[APL]])"
-#informatique #no-review 
+#informatique
 
 ----
 

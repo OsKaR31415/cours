@@ -5,7 +5,7 @@ name: "create branch from commit"
 up::[[Git Branches]]
 title::"`git checkout -b <branch_name> <commit_sha>`"
 title::"`git branch <branch_name> <commit_sha>`"
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,5 +1,5 @@
 up::[[MOC fonctions]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

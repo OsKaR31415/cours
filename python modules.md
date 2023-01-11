@@ -1,6 +1,6 @@
 up::[[python]]
 title::"liste de modules python"
-#informatique/python #no-review 
+#informatique/python
 
 ----
 

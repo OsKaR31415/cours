@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Des transformations du plan représentées comme fonction à composer à une [[courbe paramétrée]].

@@ -1,4 +1,4 @@
-#PKM #no-review 
+#PKM
 
 ---
 
@@ -13,7 +13,7 @@
 
 > [!done] Devoirs faits
 > ```dataview
-> TABLE due, "<progress value="+difficulty+" max='5'></progress>" as "difficulty", title as "description"
+> TABLE due, "<progress value="+difficulty+" max='10'></progress>" as "difficulty", title as "description"
 > FROM #devoir-fait
 > SORT due, description
 > ```

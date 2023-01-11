@@ -2,7 +2,7 @@
 alias: "composition"
 ---
 up::[[permutation]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 Soient $\sigma$ et $\sigma'$ deux [[permutation|permutations]].

@@ -1,6 +1,6 @@
 up::[[réseau informatique]]
 title::"hardware pour la mise en place d'un réseau"
-#informatique #no-review 
+#informatique
 
 ----
 

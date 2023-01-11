@@ -6,9 +6,7 @@
   "obsidian-spaced-repetition",
   "obsidian-completr",
   "obsidian-kanban",
-  "obsidian-annotator",
   "calendar",
-  "drawio-obsidian",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "dataview",
@@ -50,8 +48,15 @@
   "improved-vimcursor",
   "ob-table-enhancer",
   "obsidian-markdown-formatting-assistant-plugin",
-  "3d-graph",
   "obsidian-hider",
   "obsidian-pandoc",
-  "obsidian-vault-statistics-plugin"
+  "obsidian-vault-statistics-plugin",
+  "qmd-as-md-obsidian",
+  "mrj-jump-to-link",
+  "canvas-presentation",
+  "supercharged-links-obsidian",
+  "garble-text",
+  "mathlinks",
+  "obsidian-meta-bind-plugin",
+  "tag-word-cloud"
 ]

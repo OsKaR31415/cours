@@ -1,5 +1,5 @@
 up::[[modèle logique]], [[modèle entité association]]
-#informatique #no-review 
+#informatique
 
 ---
 Méthode de conversion du [[modèle entité association]] vers le [[modèle logique]].

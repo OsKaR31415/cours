@@ -1,6 +1,6 @@
 up::[[java]]
 title::"gestion des erreurs"
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,7 +1,7 @@
 up::[[équation polynomiale]]
 title::"$ax^{2} + bx + c = 0$"
 description::"[[équation polynomiale]] de degré 2"
-#maths #no-review 
+#maths
 
 ----
 

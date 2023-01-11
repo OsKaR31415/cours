@@ -2,7 +2,7 @@
 alias: [ "arg" ]
 ---
 up::[[opérateur fonctionnel]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 $\arg$ est un [[opérateur fonctionnel]] qui, à une [[application]] associe sa [[fonction réciproque|réciproque]]

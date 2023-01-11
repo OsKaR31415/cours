@@ -1,5 +1,5 @@
 up::[[MOC polynômes]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 

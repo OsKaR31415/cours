@@ -1,7 +1,7 @@
 up::[[outils de gestion de projet]]
 title::"contrôle des versions d'un ensemble de documents"
 down::[[git]]
-#PM #no-review 
+#PM
 
 ----
 

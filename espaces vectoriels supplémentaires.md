@@ -3,7 +3,7 @@ alias: "supplémentaires"
 ---
 up::[[somme d'espaces vectoriels]]
 sibling::[[somme directe d'espaces vectoriels]]
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soient $F$ et $G$ deux [[sous espace vectoriel|sous espaces vectoriels]] de $E$

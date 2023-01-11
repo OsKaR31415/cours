@@ -1,5 +1,5 @@
 link::https://www.gepalm.org/
-#maths #no-review 
+#maths
 
 ----
 Organisme de formation GEPALM bilan rééducation logico-math cognition mathématique dyscalculie

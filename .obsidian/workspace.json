@@ -2,13 +2,18 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
+    "ophidian:layout-settings": {
+      "pane-relief:sliding-panes": {
+        "active": false
+      }
+    },
     "children": [
       {
-        "id": "e178b1f3d5d7db0a",
+        "id": "228c46261926d122",
         "type": "tabs",
         "children": [
           {
-            "id": "f88466dbba640c9c",
+            "id": "19f4ac9b213d052d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,155 +23,29 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "flahcards complexes",
+                  "title": "maths_divisibilité",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flahcards complexes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":26},\"to\":{\"line\":0,\"ch\":26}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":1},\"to\":{\"line\":25,\"ch\":1}},\"scroll\":0.38642297650130547}"
                 },
                 {
-                  "title": "flashcards BDD",
+                  "title": "maths_congruence",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards BDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":25.844241577114587}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":47.963323097918796}"
                 },
                 {
-                  "title": "flashcards trigonométrie",
+                  "title": "maths_divisibilité",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards trigonométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
-                },
-                {
-                  "title": "flashcards développements limités",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards développements limités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "flashcards formules",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards formules.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":26},\"to\":{\"line\":0,\"ch\":26}}}"
-                },
-                {
-                  "title": "flashcards valeurs importantes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards valeurs importantes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}}}"
-                },
-                {
-                  "title": "flashcards trigonométrie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards trigonométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":40},\"to\":{\"line\":0,\"ch\":40}}}"
-                },
-                {
-                  "title": "flashcards valeurs importantes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards valeurs importantes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":45},\"to\":{\"line\":0,\"ch\":45}}}"
-                },
-                {
-                  "title": "flashcards trigonométrie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards trigonométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":54},\"to\":{\"line\":0,\"ch\":54}}}"
-                },
-                {
-                  "title": "flashcards informatique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards informatique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":23},\"to\":{\"line\":0,\"ch\":23}}}"
-                },
-                {
-                  "title": "flashcards géométrie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards géométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "title": "flashcards développements limités",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards développements limités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "flashcards analyse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards analyse.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "title": "flashcards algèbre",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}}}"
-                },
-                {
-                  "title": "flahcards complexes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flahcards complexes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":28},\"to\":{\"line\":0,\"ch\":28}}}"
-                },
-                {
-                  "title": "flashcards dérivation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards dérivation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                },
-                {
-                  "title": "flashcards formules",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards formules.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":26},\"to\":{\"line\":0,\"ch\":26}}}"
-                },
-                {
-                  "title": "flashcards BDD",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards BDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
-                },
-                {
-                  "title": "flashcards analyse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards analyse.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":36},\"to\":{\"line\":0,\"ch\":36}}}"
-                },
-                {
-                  "title": "flashcards algèbre",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":40},\"to\":{\"line\":0,\"ch\":40}},\"scroll\":82.78720077318044}"
-                },
-                {
-                  "title": "flashcards géométrie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards géométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":31},\"to\":{\"line\":7,\"ch\":31}},\"scroll\":0}"
-                },
-                {
-                  "title": "flashcards algèbre",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "flashcards géométrie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards géométrie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":20.46361931842451}"
-                },
-                {
-                  "title": "flashcards algèbre",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flashcards algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":0},\"to\":{\"line\":64,\"ch\":0}},\"scroll\":94.91517175159838}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":10.291158536585366}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flashcards dérivation.md",
+                "file": "blog/posts/maths/maths_congruence.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -174,7 +53,7 @@
             }
           },
           {
-            "id": "696d13c333de7d92",
+            "id": "6f955144d9ee0da5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -182,13 +61,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "_notions_de_mathématiques",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/_notions_de_mathématiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "maths_congruence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":128},\"to\":{\"line\":98,\"ch\":128}},\"scroll\":82.00431910569105}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOC algèbre.md",
+                "file": "blog/posts/maths/mathematiques.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -196,73 +87,7 @@
             }
           },
           {
-            "id": "596c5cc3811279df",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "théorème de la base incomplète.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1711e0dac439e79",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "valeur propre d'une matrice.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5331bcb164fa98bf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sous espace propre.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4261d9b75b39a8c",
+            "id": "97cc598057f838bc",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -272,477 +97,9 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "loi des sinus 2022-12-30 15.26.13.excalidraw",
+                  "title": "droite_des_entiers_relatifs",
                   "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/loi des sinus 2022-12-30 15.26.13.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "java collections 2022-10-24 08.45.06.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Program Evaluation Review Technique 2022-09-13 17.42.07.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Program Evaluation Review Technique 2022-09-13 17.42.07.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Program Evaluation Review Technique 2022-09-13 17.40.48.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Program Evaluation Review Technique 2022-09-13 17.40.48.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "produit vectoriel 2022-12-28 18.55.05.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/produit vectoriel 2022-12-28 18.55.05.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "processus 2022-10-05 15.05.33.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/processus 2022-10-05 15.05.33.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "polygone 2022-07-26 16.40.43.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/polygone 2022-07-26 16.40.43.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plan rentrée L2 maths tours.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/plan rentrée L2 maths tours.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PKM méthode inbox ressources permanent 2022-09-30 19.50.33.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/PKM méthode inbox ressources permanent 2022-09-30 19.50.33.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "pizza hawaienne.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/pizza hawaienne.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PERT exemple dessiner les précédences 2022-09-13 18.15.11.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/PERT exemple dessiner les précédences 2022-09-13 18.15.11.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Orthonormaliser une famille de vecteurs 2022-10-15 12.29.40.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Orthonormaliser une famille de vecteurs 2022-10-15 12.29.40.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Ordonnancement d'exécution des processus 2022-10-05 15.15.34.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Ordonnancement d'exécution des processus 2022-10-05 15.15.34.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "o-tomat 2022-11-11 22.12.23.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/o-tomat 2022-11-11 22.12.23.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Ordonnancement d'exécution des processus 2022-10-05 15.15.34.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Ordonnancement d'exécution des processus 2022-10-05 15.15.34.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "o-tomat 2022-11-11 22.12.23.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/o-tomat 2022-11-11 22.12.23.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "notes sur un dodécaèdre.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/notes sur un dodécaèdre.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "nombre de régions avec n+1 cercles.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/nombre de régions avec n+1 cercles.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "new APL symbols.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/new APL symbols.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "modèle OSI 2022-09-27 13.25.56.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/modèle OSI 2022-09-27 13.25.56.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "modèle OSI 2022-09-13 13.48.43.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/modèle OSI 2022-09-13 13.48.43.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "modèle en cascade 2022-09-12 13.09.45.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/modèle en cascade 2022-09-12 13.09.45.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "méthodologie scrum 2022-09-20 08.33.02.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/méthodologie scrum 2022-09-20 08.33.02.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "mémoire 2022-09-21 10.21.29.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/mémoire 2022-09-21 10.21.29.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "matrice de symétrie 2022-11-09 18.14.44.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/matrice de symétrie 2022-11-09 18.14.44.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "loi des sinus 2022-12-30 15.26.13.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/loi des sinus 2022-12-30 15.26.13.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "inverse d'une matrice 2022-11-09 20.33.24.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/inverse d'une matrice 2022-11-09 20.33.24.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "exemple graphe topologie hiérarchique.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/exemple graphe topologie hiérarchique.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "exemple diagramme entité-association.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/exemple diagramme entité-association.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "équation paramétrique affine d'une droite 2022-12-29 18.53.00.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/équation paramétrique affine d'une droite 2022-12-29 18.53.00.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "arbres ternaires.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/arbres ternaires.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "APL combinateur atop.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/APL combinateur atop.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "algorithme de décision réception d'un paquet 2022-10-04 13.18.14.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/algorithme de décision réception d'un paquet 2022-10-04 13.18.14.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "java collections 2022-10-24 08.45.06.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "inverse d'une matrice 2022-11-09 20.33.24.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/inverse d'une matrice 2022-11-09 20.33.24.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "intégrales de Bertrand 2022-11-23 16.18.37.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/intégrales de Bertrand 2022-11-23 16.18.37.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "graphe_topologie_homogène.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/graphe_topologie_homogène.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "formule_euler_sin.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/formule_euler_sin.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "graphe_topologie_homogène.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/graphe_topologie_homogène.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "formule_euler_sin.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/formule_euler_sin.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "formule_euler_cos.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/formule_euler_cos.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fichiers etc-passwd 2022-09-07 15.16.34.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/fichiers etc-passwd 2022-09-07 15.16.34.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Exercices evelyne 2022-10-26 2022-10-29 18.17.44.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Exercices evelyne 2022-10-26 2022-10-29 18.17.44.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "exemple graphe topologie hiérarchique.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/exemple graphe topologie hiérarchique.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "exemple diagramme entité-association.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/exemple diagramme entité-association.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "équation paramétrique affine d'une droite 2022-12-29 18.53.00.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/équation paramétrique affine d'une droite 2022-12-29 18.53.00.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "équation paramétrique affine d'une droite 2022-12-29 18.44.11.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/équation paramétrique affine d'une droite 2022-12-29 18.44.11.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "équation de la tangente 2022-08-23 17.28.26.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/équation de la tangente 2022-08-23 17.28.26.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Edge detector (dirac on NRZ) 2022-11-17 23.44.21.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Edge detector (dirac on NRZ) 2022-11-17 23.44.21.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2022-10-21 08.46.07.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2022-10-21 08.46.07.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2022-09-27 13.55.16.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2022-09-27 13.55.16.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "diagramme de classe - classes 2022-10-04 08.55.49.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/diagramme de classe - classes 2022-10-04 08.55.49.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "diagramme de cas d'utilisation 2022-10-04 08.32.29.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/diagramme de cas d'utilisation 2022-10-04 08.32.29.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "devoir gestion de projet 2022-09-20 16.15.47.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/devoir gestion de projet 2022-09-20 16.15.47.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "déterminant d'une matrice - méthode de Sarrus.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/déterminant d'une matrice - méthode de Sarrus.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Démonstration arctan(1sqrt(3)).excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Démonstration arctan(1sqrt(3)).excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Démonstration arctan(1÷sqrt(3)).excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Démonstration arctan(1÷sqrt(3)).excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "D latch 2022-11-17 22.33.04.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/D latch 2022-11-17 22.33.04.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "D latch 2022-11-17 22.30.40.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/D latch 2022-11-17 22.30.40.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cycle en Y 2022-09-12 14.15.53.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/cycle en Y 2022-09-12 14.15.53.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cycle en V 2022-09-12 13.27.21.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/cycle en V 2022-09-12 13.27.21.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cycle en spirale 2022-09-12 14.16.42.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Cycle en spirale 2022-09-12 14.16.42.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "couche physique 2022-09-20 13.16.26.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/couche physique 2022-09-20 13.16.26.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "courbe paramétrée - point d'allure ordinaire - parité.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/courbe paramétrée - point d'allure ordinaire - parité.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "codage binaire des nombres réels en virgule flottante 2022-09-28 10.25.53.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/codage binaire des nombres réels en virgule flottante 2022-09-28 10.25.53.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chipset 2022-09-21 10.52.16.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/chipset 2022-09-21 10.52.16.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "changement de base 2022-11-04 15.41.02.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/changement de base 2022-11-04 15.41.02.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bus de données 2022-09-21 10.44.36.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/bus de données 2022-09-21 10.44.36.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carré d'une somme 2022-09-17 16.14.42.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/carré d'une somme 2022-09-17 16.14.42.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Carte mentale nuit de l'informatique 2022-12-01 17.31.18.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Carte mentale nuit de l'informatique 2022-12-01 17.31.18.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "better APL notation 2022-11-01 23.24.16.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/better APL notation 2022-11-01 23.24.16.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "architecture de Von Neumann 2022-09-14 11.13.27.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/architecture de Von Neumann 2022-09-14 11.13.27.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "architecture de Von Neumann 2022-09-14 10.56.32.excalidraw",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Excalidraw/architecture de Von Neumann 2022-09-14 10.56.32.excalidraw.png\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "architecture de Von Neumann 2022-09-14 10.56.32.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/architecture de Von Neumann 2022-09-14 10.56.32.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "arbres ternaires.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/arbres ternaires.excalidraw.md\"}}",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"blog/posts/maths/_images/droite_des_entiers_relatifs.md\"}}",
                   "eState": "{}"
                 }
               ]
@@ -750,12 +107,11 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md"
+                "file": "blog/posts/maths/_images/spirale_des_entiers_mod_8.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -767,9 +123,10 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
+        "dimension": 67.9245283018868,
         "children": [
           {
-            "id": "407c81c708328992",
+            "id": "8e6cf92b1e047f14",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -802,30 +159,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards",
+                "query": "file:espace vectoriel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "609ff408cfbae38d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
             }
           },
           {
@@ -843,9 +183,26 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "bd1d7503d0848342",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
             }
           },
           {
@@ -863,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md",
+                "file": "blog/posts/maths/maths_congruence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -884,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md",
+                "file": "blog/posts/maths/maths_congruence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -896,10 +253,38 @@
             }
           }
         ]
+      },
+      {
+        "id": "32864954bdcadbf2",
+        "type": "tabs",
+        "dimension": 32.075471698113205,
+        "children": [
+          {
+            "id": "5d26e3a4bff64748",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "blog/posts/_>>kanban_posts<<_.md"
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 482.5
+    "width": 407.5
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -908,7 +293,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 58.206106870229014,
+        "dimension": 54.56674473067916,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -925,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md"
+                "file": "blog/posts/maths/maths_congruence.md"
               }
             }
           },
@@ -978,10 +363,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md",
+                "file": "blog/posts/maths/maths_congruence.md",
                 "options": {
                   "collapse-filter": false,
-                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                  "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
@@ -992,73 +377,115 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
-                      "query": "tag:#todo",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711680
-                      }
-                    },
-                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 2829614
+                        "rgb": 8882055
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 6356992
+                        "rgb": 14771732
                       }
                     },
                     {
-                      "query": "tag:#flashcards",
+                      "query": "tag:#excalidraw",
                       "color": {
                         "a": 1,
-                        "rgb": 16427551
-                      }
-                    },
-                    {
-                      "query": "tag:#maths",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2520842
-                      }
-                    },
-                    {
-                      "query": "tag:#logique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2902193
-                      }
-                    },
-                    {
-                      "query": "tag:#informatique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 32882
-                      }
-                    },
-                    {
-                      "query": "tag:#personne",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10710150
-                      }
-                    },
-                    {
-                      "query": "path:annotation",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12844865
+                        "rgb": 8019199
                       }
                     },
                     {
                       "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 4667545
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#flashcards",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#gists",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6827411
+                      }
+                    },
+                    {
+                      "query": "tag:#CV",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11010185
+                      }
+                    },
+                    {
+                      "query": "tag:#maths",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2792960
+                      }
+                    },
+                    {
+                      "query": "tag:#logique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13050
+                      }
+                    },
+                    {
+                      "query": "tag:#informatique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1346167
+                      }
+                    },
+                    {
+                      "query": "tag:#personne",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13470121
+                      }
+                    },
+                    {
+                      "query": "path:sources",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3770873
+                      }
+                    },
+                    {
+                      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15646813
+                      }
+                    },
+                    {
+                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16759552
+                      }
+                    },
+                    {
+                      "query": "tag:#devoir OR tag:#devoir-fait",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711914
+                      }
+                    },
+                    {
+                      "query": "tag:#PM",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12091263
                       }
                     }
                   ],
@@ -1072,14 +499,14 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7289325700370481,
+                  "scale": 0.4619352526034159,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "a05eecb7dce21915",
+            "id": "bf9c467678aa05e4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1096,7 +523,7 @@
             }
           },
           {
-            "id": "7ab5b0693ed3805a",
+            "id": "843072ab0d510e3d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1113,7 +540,7 @@
             }
           },
           {
-            "id": "309f8009b1cc52b3",
+            "id": "837d069be727ad7e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1130,28 +557,45 @@
             }
           },
           {
-            "id": "e06d5d9179b4acb3",
+            "id": "5a395aba28ae12aa",
             "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "2c78bc8186d3e556",
-            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
+          },
+          {
+            "id": "371c374f83e4e7de",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 41.79389312977099,
+        "dimension": 45.433255269320846,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -1178,7 +622,7 @@
             }
           },
           {
-            "id": "8d8d223c8b48a4c7",
+            "id": "523cd7a78782d297",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1189,6 +633,7 @@
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -1196,27 +641,25 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
+    "width": 334.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "obsidian-custom-frames:Open Detexify": true,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-custom-frames:Open compteur NDLI": true,
       "obsidian42-brat:BRAT": true,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "3d-graph:3D Graph": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
@@ -1228,23 +671,25 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "b4261d9b75b39a8c",
+  "active": "19f4ac9b213d052d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Excalidraw/loi des sinus 2022-12-30 15.26.13.excalidraw.md",
-    "Excalidraw/java collections 2022-10-24 08.45.06.excalidraw.md",
-    "Excalidraw/java classe abstraite vs interface 2022-09-26 08.53.36.excalidraw.md",
-    "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.46.14.excalidraw.md",
-    "Excalidraw/notes sur un dodécaèdre.excalidraw.md",
-    "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.42.07.excalidraw.md",
-    "Excalidraw/Program Evaluation Review Technique 2022-09-13 17.40.48.excalidraw.md",
-    "Excalidraw/produit vectoriel 2022-12-28 18.55.05.excalidraw.md",
-    "Excalidraw/processus 2022-10-05 15.05.33.excalidraw.md",
-    "Excalidraw/polygone 2022-07-26 16.40.43.excalidraw.md"
+    "blog/posts/maths/maths_divisibilité.md",
+    "blog/posts/maths/mathematiques.md",
+    "blog/posts/maths/maths_congruence.md",
+    "blog/posts/maths/_notions_de_mathématiques.md",
+    "blog/posts/maths/_images/spirale_des_entiers_mod_8.md",
+    "blog/posts/maths/_images/droite_des_entiers_relatifs.md",
+    "divisibilité.md",
+    "blog/posts/_>>kanban_posts<<_.md",
+    "_vim_tips_exécuter_du_code.md",
+    "blog/posts/maths/Contre, l'usage, abusif, de la virgule, dans la notation, mathématique.qmd"
   ]
 }

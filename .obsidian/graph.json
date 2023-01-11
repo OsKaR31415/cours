@@ -18,7 +18,7 @@
       "query": "tag:#MOC",
       "color": {
         "a": 1,
-        "rgb": 11730944
+        "rgb": 14771732
       }
     },
     {
@@ -130,6 +130,6 @@
   "repelStrength": 8.77869897959184,
   "linkStrength": 0.893694196428571,
   "linkDistance": 30,
-  "scale": 1.5383070627525481,
+  "scale": 0.19191455095722681,
   "close": true
 }

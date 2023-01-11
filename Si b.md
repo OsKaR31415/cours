@@ -1,7 +1,7 @@
 ---
 alias: "La #"
 ---
-#no-review 
+
 up::[[La]]
 down::[[Si]]
 

@@ -3,7 +3,7 @@ alias: ["symétrique", "symétrisable", "symétrisables"]
 ---
 up::[[structure algébrique]]
 title::"$x$ est symétrisable si $\exists x' \in E, x*x' = x'*x = e$ l'[[élément neutre]]"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $E$ in ensemble muni d'une [[loi de composition interne]] $*$, et contenant un [[élément neutre|élément neutre]] $e$.

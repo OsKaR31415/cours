@@ -3,7 +3,7 @@ alias: "inode"
 ---
 up::[[unix]]
 title::![[unix structure inode 2022-09-21 16.01.38.excalidraw|400]]
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 Tous les [[unix fichier|fichiers]] sont gérés par le [[système d'exploitation|SE]] au moyen des _inodes_.
@@ -37,4 +37,3 @@ l'inode contient 16 bits
 
  - link count : number of directory references to this inode
 
- - [ ] #todo compléter le contenu de l'inode

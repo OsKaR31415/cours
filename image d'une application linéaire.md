@@ -1,6 +1,6 @@
 up::[[application linéaire]]
 title::"$f : E \to F$", "$\mathrm{Im} f = \big\{ v \in F \mid \exists u \in E, f(u) = v \big\}$"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] réels, et $f$ une [[application linéaire]] de $E$ dans $F$,

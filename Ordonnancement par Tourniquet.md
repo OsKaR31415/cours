@@ -3,7 +3,7 @@ alias: [ "RR", "Round Robin" ]
 ---
 up::[[Ordonnancement d'exécution des processus|ordonnancement]]
 title:: "[[Ordonnancement FCFS|FCFS]] avec préemption"
-#informatique #no-review 
+#informatique
 
 ----
 

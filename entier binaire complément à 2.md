@@ -1,6 +1,6 @@
 up::[[représentation des nombres en binaire]]
 title::"opposé = "
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,7 +1,7 @@
 ---
 source:https://github.com/Jam3/math-as-code/blob/master/PYTHON-README.md
 ---
-#informatique #maths #no-review 
+#informatique #maths
 
 ----
 

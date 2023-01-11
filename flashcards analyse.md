@@ -16,7 +16,7 @@ Suite $(u_{n})_{n}$ telle que $\forall \varepsilon > 0, \quad \exists n \in \mat
 Suite convergente 
 ??
 Suite $(u_{n})_{n}$ telle que $\exists \mathscr{l} \in \mathbb{R}, \quad \forall \varepsilon>0, \quad \exists L>0, \quad \forall n \geq L, \quad |u_{n} - \mathscr{l}| \leq \varepsilon$
-<!--SR:!2022-12-20,26,272!2022-12-03,8,232-->
+<!--SR:!2023-04-03,90,272!2023-01-05,2,212-->
 
 
 # Limites

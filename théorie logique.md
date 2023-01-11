@@ -1,4 +1,4 @@
-#logique #no-review 
+#logique
 
 ----
 Tout cadre de raisonnement spécifique construit sur un langage donné.

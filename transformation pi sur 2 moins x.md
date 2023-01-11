@@ -2,7 +2,7 @@
 alias: "transformation x |-> pi/2 - x"
 ---
 title::"transformation $x \mapsto \frac{\pi}{2}-x$", "symétrie $Ox$ et déphasage de $\frac{\pi}{2}$"
-#maths/trigonométrie #maths/analyse #no-review 
+#maths/trigonométrie #maths/analyse
 
 ----
 

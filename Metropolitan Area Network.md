@@ -2,7 +2,7 @@
 alias: "MAN"
 ---
 up::[[classes de réseau]]
-#informatique #no-review 
+#informatique
 
 ----
 

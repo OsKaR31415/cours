@@ -3,7 +3,7 @@ alias: "adresse IP"
 ---
 up::[[réseau informatique]]
 title::""
-#informatique #no-review 
+#informatique
 
 ---
 

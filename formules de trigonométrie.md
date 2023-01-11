@@ -2,7 +2,7 @@
 alias: "formule de trigonométrie"
 ---
 up::[[MOC trigonométrie]]
-#maths/trigonométrie #no-review 
+#maths/trigonométrie
 
 ----
 

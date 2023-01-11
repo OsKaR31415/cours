@@ -1,6 +1,6 @@
 up::[[système d'exploitation]]
 title:::dev_unix_original:
-#informatique #no-review 
+#informatique
 
 ----
 

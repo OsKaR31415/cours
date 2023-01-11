@@ -1,5 +1,5 @@
 up::[[graphe]]
-#maths/graphes #no-review 
+#maths/graphes
 
 ---
 Soit $G$ un [[graphe]]
@@ -10,4 +10,4 @@ $\mathrm{card} \big\{\{d, x\}\in G\big\}$
 
 
 
-Voir : [[cardinal]]
+Voir : [[cardinal d'un ensemble]]

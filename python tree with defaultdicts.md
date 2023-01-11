@@ -24,7 +24,7 @@ link::https://gist.github.com/hrldcpr/2012250
 author::[[harold cooper]]
 title::"definir des [[arbre|arbres]] avec les defaultdicts du module [[python module collections]]"
 
-#informatique/python #no-review 
+#informatique/python
 
 ----
 Permet de définir la structure d'[[arbre]] de manière simple, grace aux `defaultdicts` (module collections)

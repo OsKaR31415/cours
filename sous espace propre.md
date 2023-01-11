@@ -1,7 +1,7 @@
 ---
 alias: [ "sous espace propre", "sous espaces propres", "sous espace vectoriel des vecteurs propres associés à une valeur propre" ]
 ---
-up:: [[vecteur propre d'une application linéaire]], [[vecteur propre d'une matrice]], [[valeur propre d'une application linéaire]], [[valeur propre d'une matrice]] 
+up:: [[`]], [[vecteur propre d'une matrice]], [[valeur propre d'une application linéaire]], [[valeur propre d'une matrice]] 
 title:: "Les [[vecteur propre d'une matrice|vecteurs propres]] d'une [[valeur propre d'une matrice|valeur propre]] avec $\vec{0}$"
 #maths/algèbre 
 

@@ -1,6 +1,6 @@
 up::[[unix commandes d'identification]]
 title::"comamdne pour modifier des mots de passe"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 Sans argument : change le mot de passe de l'utilisateur actuel

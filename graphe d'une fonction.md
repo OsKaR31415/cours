@@ -1,6 +1,6 @@
 up::[[fonction]]
 title::"$\big\{ (x;f(x)) \mid x \in \mathscr{D}_{f} \big\}$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Le graphe d'une fonction est l'ensemble des couples (valeur, image).

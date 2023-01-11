@@ -2,7 +2,7 @@
 alias: [ "ordonnancement" ]
 ---
 up::[[système d'exploitation]]
-#informatique #no-review 
+#informatique
 
 ----
 

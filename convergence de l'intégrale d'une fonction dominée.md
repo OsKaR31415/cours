@@ -1,4 +1,4 @@
-up:: [[intégration généralisée]] 
+up:: [[intégration généralisée]], [[fonction dominée en un point|domination]] 
 title:: "$f = O_{+\infty}(g) \implies \int_{a}^{+\infty} f(x) \, dx \text{ et } \int_{a}^{+\infty} g(x) \, dx \text{ ont la même convergence}$"
 #maths/analyse 
 

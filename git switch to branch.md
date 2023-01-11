@@ -4,7 +4,7 @@ name: "switch to branch"
 ---
 up::[[Git Branches]]
 title::"`git checkout <branch_name>`"
-#informatique #no-review 
+#informatique
 
 ----
 

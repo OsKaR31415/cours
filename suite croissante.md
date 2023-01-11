@@ -1,5 +1,5 @@
 up::[[suite]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $u$ une [[suite]]

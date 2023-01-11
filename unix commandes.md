@@ -1,6 +1,6 @@
 p::[[unix commandes]]
 title::"commandes du shell unix"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

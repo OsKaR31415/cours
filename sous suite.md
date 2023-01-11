@@ -2,7 +2,7 @@
 alias: "suite extraite"
 ---
 up::[[suite]]
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Soit $(u_{n})$ une suite

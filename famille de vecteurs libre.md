@@ -3,7 +3,7 @@ alias: [ "libre", "famille libre" ]
 ---
 up::[[famille de vecteurs]]
 description::"la seule [[combinaison linéaire]] des [[vecteur|vecteurs]] qui s'annulle est celle où tous les coefficients sont nuls"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ----
 Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$

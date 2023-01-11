@@ -5,7 +5,7 @@ up::[[fonction]]
 sibling::[[fonction impaire]]
 title::"$f(x) = -f(x)$"
 description::"$\forall x \in \mathscr{D}_{f}, f(x) = -f(x)$"
-#maths/analyse #no-review 
+#maths/analyse
 
 ----
 Une fonction $f$ est paire si et seulement si:

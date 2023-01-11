@@ -2,7 +2,7 @@
 alias: "héritage"
 ---
 up::[[java]], [[paradygme programmation orientée objet|OOP]]
-#informatique #no-review 
+#informatique
 
 ----
 

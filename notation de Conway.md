@@ -1,5 +1,5 @@
 up::[[polyèdre]]
-#maths/géométrie/polyèdre #no-review 
+#maths/géométrie/polyèdre
 
 ----
 Notation pour décrire des polyèdres

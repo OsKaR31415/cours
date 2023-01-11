@@ -3,7 +3,7 @@ alias: [ "base" ]
 ---
 up::[[espace vectoriel]]
 title::"[[famille de vecteurs]] [[famille de vecteurs libre|libre]] et [[famille de vecteurs génératrice|génératrice]]"
-#maths/algèbre #no-review 
+#maths/algèbre
 
 ---
 

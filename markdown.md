@@ -1,6 +1,6 @@
 up::[[langage de programmation]]
 title::"langage de balisage léger (formattage de texte)"
-#informatique #no-review 
+#informatique
 
 ----
 

@@ -1,3 +1,8 @@
+up:: [[musique]]
+title:: 
+#autres 
+
+---
 
  - rippington
  - domi

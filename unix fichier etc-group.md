@@ -3,7 +3,7 @@ alias: "/etc/group"
 ---
 up::[[unix]]
 title::"fichier de configuration contenant les informations sur les groupes"
-#informatique/unix #no-review 
+#informatique/unix
 
 ----
 

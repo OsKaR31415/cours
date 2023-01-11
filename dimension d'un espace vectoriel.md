@@ -5,13 +5,13 @@ sr-interval: 21
 sr-ease: 278
 ---
 up::[[espace vectoriel]]
-title::"[[cardinal]] des [[base d'un espace vectoriel|bases]] de d'un [[espace vectoriel|ev]]"
-#maths/algèbre #no-review 
+title::"[[cardinal d'un ensemble]] des [[base d'un espace vectoriel|bases]] de d'un [[espace vectoriel|ev]]"
+#maths/algèbre
 
 ----
 Soit $E$ un [[espace vectoriel]].
 On sait que $E$ admet une [[base d'un espace vectoriel|base]].
-**Toutes les bases de $E$ on le même [[cardinal]]**.
+**Toutes les bases de $E$ on le même [[cardinal d'un ensemble]]**.
 Ce cardinal commun est appelé _dimension_ de $E$.
 
 # Propriétés
