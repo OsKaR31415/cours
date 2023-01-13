@@ -1,4 +1,4 @@
-up::[[MOC informatique|informatique]]
+up:: [[programmation]]
 #informatique
 
 ----

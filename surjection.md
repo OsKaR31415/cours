@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-09-16
-sr-interval: 26
-sr-ease: 319
+sr-due: 2024-01-11
+sr-interval: 365
+sr-ease: 339
 alias: ["surjective", "surjectives"]
 ---
 sibling:: [[injection]]

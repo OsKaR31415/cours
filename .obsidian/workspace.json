@@ -9,11 +9,11 @@
     },
     "children": [
       {
-        "id": "228c46261926d122",
+        "id": "32beae912b741ffb",
         "type": "tabs",
         "children": [
           {
-            "id": "19f4ac9b213d052d",
+            "id": "0b23ae3c8c213181",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -21,31 +21,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "maths_divisibilité",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":1},\"to\":{\"line\":25,\"ch\":1}},\"scroll\":0.38642297650130547}"
-                },
-                {
-                  "title": "maths_congruence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":47.963323097918796}"
-                },
-                {
-                  "title": "maths_divisibilité",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":10.291158536585366}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/posts/maths/maths_congruence.md",
+                "file": "conception des bases de données.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -53,7 +35,7 @@
             }
           },
           {
-            "id": "6f955144d9ee0da5",
+            "id": "44025a818790621c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -61,25 +43,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "_notions_de_mathématiques",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/_notions_de_mathématiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "maths_congruence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":128},\"to\":{\"line\":98,\"ch\":128}},\"scroll\":82.00431910569105}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/posts/maths/mathematiques.md",
+                "file": "conserver la sémantique des attributs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +57,51 @@
             }
           },
           {
-            "id": "97cc598057f838bc",
+            "id": "fa9d218f63ab32be",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "faire des fonctions unitaire.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d77db9a0f85e5396",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programmation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e7cbd506fc25a72",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -97,21 +111,72 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "droite_des_entiers_relatifs",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"blog/posts/maths/_images/droite_des_entiers_relatifs.md\"}}",
+                  "title": "endomorphisme",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"endomorphisme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "paradygme de programmation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"paradygme de programmation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "endomorphisme linéaire.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5562bd4215289f57",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "blog/posts/maths/_images/spirale_des_entiers_mod_8.md"
+                "file": "projet M.chanson.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e959a8ff39b7769f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kanban projet m.chanson.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -123,7 +188,6 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
-        "dimension": 67.9245283018868,
         "children": [
           {
             "id": "8e6cf92b1e047f14",
@@ -159,7 +223,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:espace vectoriel",
+                "query": "tag:#demonstration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,9 +247,26 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "325e33879123bbe0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
             }
           },
           {
@@ -220,7 +301,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/posts/maths/maths_congruence.md",
+                "file": "kanban projet m.chanson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/posts/maths/maths_congruence.md",
+                "file": "kanban projet m.chanson.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,38 +334,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "32864954bdcadbf2",
-        "type": "tabs",
-        "dimension": 32.075471698113205,
-        "children": [
-          {
-            "id": "5d26e3a4bff64748",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "blog/posts/_>>kanban_posts<<_.md"
-              },
-              "pinned": true
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 635.5041885375977,
+    "collapsed": true
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -293,7 +347,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 54.56674473067916,
+        "dimension": 62.371134020618555,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -310,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/posts/maths/maths_congruence.md"
+                "file": "kanban projet m.chanson.md"
               }
             }
           },
@@ -349,6 +403,23 @@
             }
           },
           {
+            "id": "bf6c068c22a39e9f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -363,10 +434,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "blog/posts/maths/maths_congruence.md",
+                "file": "kanban projet m.chanson.md",
                 "options": {
                   "collapse-filter": false,
-                  "search": "",
+                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
@@ -377,115 +448,73 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
+                      "query": "tag:#todo",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 8882055
+                        "rgb": 2829614
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 14771732
-                      }
-                    },
-                    {
-                      "query": "tag:#excalidraw",
-                      "color": {
-                        "a": 1,
-                        "rgb": 8019199
-                      }
-                    },
-                    {
-                      "query": "tag:#PKM OR tag:#obsidian",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4863904
+                        "rgb": 6356992
                       }
                     },
                     {
                       "query": "tag:#flashcards",
                       "color": {
                         "a": 1,
-                        "rgb": 4863904
-                      }
-                    },
-                    {
-                      "query": "tag:#gists",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6827411
-                      }
-                    },
-                    {
-                      "query": "tag:#CV",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11010185
+                        "rgb": 16427551
                       }
                     },
                     {
                       "query": "tag:#maths",
                       "color": {
                         "a": 1,
-                        "rgb": 2792960
+                        "rgb": 2520842
                       }
                     },
                     {
                       "query": "tag:#logique",
                       "color": {
                         "a": 1,
-                        "rgb": 13050
+                        "rgb": 2902193
                       }
                     },
                     {
                       "query": "tag:#informatique",
                       "color": {
                         "a": 1,
-                        "rgb": 1346167
+                        "rgb": 32882
                       }
                     },
                     {
                       "query": "tag:#personne",
                       "color": {
                         "a": 1,
-                        "rgb": 13470121
+                        "rgb": 10710150
                       }
                     },
                     {
-                      "query": "path:sources",
+                      "query": "path:annotation",
                       "color": {
                         "a": 1,
-                        "rgb": 3770873
+                        "rgb": 12844865
                       }
                     },
                     {
-                      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+                      "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 15646813
-                      }
-                    },
-                    {
-                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16759552
-                      }
-                    },
-                    {
-                      "query": "tag:#devoir OR tag:#devoir-fait",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711914
-                      }
-                    },
-                    {
-                      "query": "tag:#PM",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12091263
+                        "rgb": 4667545
                       }
                     }
                   ],
@@ -499,7 +528,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4619352526034159,
+                  "scale": 0.35014834638722986,
                   "close": true
                 }
               }
@@ -540,7 +569,7 @@
             }
           },
           {
-            "id": "837d069be727ad7e",
+            "id": "b8c37155de2a1a40",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -557,7 +586,24 @@
             }
           },
           {
-            "id": "5a395aba28ae12aa",
+            "id": "6743c195e139f4e0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "44385b94eaa7ee43",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -572,30 +618,14 @@
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
-          },
-          {
-            "id": "371c374f83e4e7de",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 45.433255269320846,
+        "dimension": 37.628865979381445,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -649,11 +679,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
+    "width": 445.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "obsidian-custom-frames:Open Detexify": true,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
@@ -671,25 +703,23 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": true,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "19f4ac9b213d052d",
+  "active": "e959a8ff39b7769f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "blog/posts/maths/maths_divisibilité.md",
-    "blog/posts/maths/mathematiques.md",
-    "blog/posts/maths/maths_congruence.md",
-    "blog/posts/maths/_notions_de_mathématiques.md",
-    "blog/posts/maths/_images/spirale_des_entiers_mod_8.md",
-    "blog/posts/maths/_images/droite_des_entiers_relatifs.md",
-    "divisibilité.md",
-    "blog/posts/_>>kanban_posts<<_.md",
-    "_vim_tips_exécuter_du_code.md",
-    "blog/posts/maths/Contre, l'usage, abusif, de la virgule, dans la notation, mathématique.qmd"
+    "projet M.chanson.md",
+    "kanban projet m.chanson.md",
+    "kanban proj.md",
+    "endomorphisme linéaire.md",
+    "endomorphisme.md",
+    "paradygme de programmation.md",
+    "programmation.md",
+    "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
+    "blog/posts/informatique/cours/algo_avancee_listes_chainees.qmd",
+    "blog/posts/informatique/_images/listes_chainees.md"
   ]
 }

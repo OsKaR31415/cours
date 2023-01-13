@@ -1,3 +1,9 @@
+* {
+    /* dataview */
+    --table-background: inherit;
+    --table-row-alt-background: #1A1A1A;
+}
+
 
 /* for every pane content */
 .markdown-source-view.mod-cm6:not(.is-readable-line-width) .cm-contentContainer {
@@ -10,6 +16,7 @@
 .collapse-indicator {
     transform: scale(2);
 }
+
 
 
 

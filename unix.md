@@ -4,6 +4,9 @@ title:::dev_unix_original:
 
 ----
 
+
+![[unix 2023-01-11 10.11.50.excalidraw]]
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, up as "Up", up.up as "2-Up"

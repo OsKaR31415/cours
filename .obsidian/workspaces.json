@@ -1056,11 +1056,11 @@
         },
         "children": [
           {
-            "id": "ed683b51cea9e867",
+            "id": "32beae912b741ffb",
             "type": "tabs",
             "children": [
               {
-                "id": "04bf0884afb39005",
+                "id": "0b23ae3c8c213181",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1074,7 +1074,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "permutations avec répétitions.md",
+                    "file": "conception des bases de données.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1082,7 +1082,7 @@
                 }
               },
               {
-                "id": "006bb1105d9a150d",
+                "id": "44025a818790621c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1096,15 +1096,134 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "combinaisons avec répétitions.md",
+                    "file": "conserver la sémantique des attributs.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "fa9d218f63ab32be",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "faire des fonctions unitaire.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d77db9a0f85e5396",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "programmation.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8e7cbd506fc25a72",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "endomorphisme",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"endomorphisme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "paradygme de programmation",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"paradygme de programmation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "endomorphisme linéaire.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5562bd4215289f57",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "projet M.chanson.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e959a8ff39b7769f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "kanban projet m.chanson.md"
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1229,7 +1348,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "combinaisons avec répétitions.md",
+                    "file": "kanban projet m.chanson.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1250,7 +1369,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "combinaisons avec répétitions.md",
+                    "file": "kanban projet m.chanson.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1292,7 +1411,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "combinaisons avec répétitions.md"
+                    "file": "kanban projet m.chanson.md"
                   }
                 }
               },
@@ -1362,7 +1481,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "combinaisons avec répétitions.md",
+                    "file": "kanban projet m.chanson.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1529,9 +1648,26 @@
                   "type": "side-panel-control-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "44385b94eaa7ee43",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "QUICKSHARE_SIDE_VIEW",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           },
           {
             "id": "9b0b445260de35cb",
@@ -1595,7 +1731,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-ocr:Search OCR": false,
           "obsidian-spaced-repetition:Review flashcards": false,
           "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
           "obsidian-custom-frames:Open Detexify": true,
@@ -1604,7 +1739,6 @@
           "obsidian-custom-frames:Open compteur NDLI": true,
           "obsidian42-brat:BRAT": true,
           "darlal-switcher-plus:Open in Headings Mode": false,
-          "3d-graph:3D Graph": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": true,
           "canvas:Create new canvas": false,
@@ -1619,7 +1753,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "006bb1105d9a150d",
+      "active": "e959a8ff39b7769f",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2392,7 +2526,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "19f4ac9b213d052d",
+                "id": "4d7d809b60a158b6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2402,29 +2536,131 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "maths_divisibilité",
+                      "title": "algo_avancee_structures_dynamiques",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":1},\"to\":{\"line\":25,\"ch\":1}},\"scroll\":0.38642297650130547}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.2506527415143603}"
                     },
                     {
-                      "title": "maths_congruence",
+                      "title": "algo_avancee_listes_chainees",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":47.963323097918796}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_listes_chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0.06266318537859007}"
                     },
                     {
-                      "title": "maths_divisibilité",
+                      "title": "algo_avancee_structures_dynamiques",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_divisibilité.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":10.291158536585366}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_recursives",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_tableau",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_TD1",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_TD1.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "algo_avancee_tableau",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_TD1",
+                      "icon": "lucide-file-text",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_TD1.pdf\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "algo_avancee_tableau",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_recursives",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_dynamiques",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo_avancee_listes_chainees",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_listes_chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.7728459530026109}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_dynamiques",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":54},\"to\":{\"line\":13,\"ch\":54}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_recursives",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":53},\"to\":{\"line\":17,\"ch\":53}},\"scroll\":9.201978846809963}"
+                    },
+                    {
+                      "title": "algo_avancee_tableau",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":43},\"to\":{\"line\":17,\"ch\":43}},\"scroll\":14.436691312384474}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_dynamiques",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "vim_tips_autocorriger_les_erreurs",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim_tips_autocorriger_les_erreurs.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.2402088772845953}"
+                    },
+                    {
+                      "title": "algo_avancee_structures_dynamiques",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/cours/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "_mob_programming",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/_mob_programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":7},\"to\":{\"line\":20,\"ch\":7}},\"scroll\":3.2195121951219514}"
+                    },
+                    {
+                      "title": "livres prêtés",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"livres prêtés.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":43},\"to\":{\"line\":8,\"ch\":43}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "blog/posts/maths/maths_congruence.md",
+                    "file": "blog/posts/informatique/cours/algo_avancee_listes_chainees.qmd",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2432,7 +2668,7 @@
                 }
               },
               {
-                "id": "6f955144d9ee0da5",
+                "id": "c5037e1d3dcd41af",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2440,57 +2676,21 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "_notions_de_mathématiques",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/_notions_de_mathématiques.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "maths_congruence",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/maths_congruence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":128},\"to\":{\"line\":98,\"ch\":128}},\"scroll\":82.00431910569105}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "blog/posts/maths/mathematiques.md",
+                    "file": "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "97cc598057f838bc",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "droite_des_entiers_relatifs",
-                      "icon": "excalidraw-icon",
-                      "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"blog/posts/maths/_images/droite_des_entiers_relatifs.md\"}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "blog/posts/maths/_images/spirale_des_entiers_mod_8.md"
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2599,7 +2799,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "blog/posts/maths/maths_congruence.md",
+                    "file": "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2620,7 +2820,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "blog/posts/maths/maths_congruence.md",
+                    "file": "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2689,7 +2889,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "blog/posts/maths/maths_congruence.md"
+                    "file": "blog/posts/informatique/cours/algo_avancee_TD2.qmd"
                   }
                 }
               },
@@ -2742,7 +2942,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "blog/posts/maths/maths_congruence.md",
+                    "file": "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -2974,7 +3174,7 @@
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 45.433255269320846,
+            "dimension": 45.43325526932084,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -3028,8 +3228,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 334.5,
-        "collapsed": true
+        "width": 334.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -3055,7 +3254,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "19f4ac9b213d052d",
+      "active": "c5037e1d3dcd41af",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -3071,8 +3270,8 @@
           "quarto/test_files/libs",
           "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
-          "blog/posts/informatique/cours",
-          "quarto/test_files/libs/quarto-html"
+          "quarto/test_files/libs/quarto-html",
+          "blog/posts/informatique/cours"
         ]
       }
     },
@@ -3818,5 +4017,5 @@
       }
     }
   },
-  "active": "blog"
+  "active": "cours"
 }

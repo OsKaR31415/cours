@@ -71,30 +71,6 @@
         }
       }
     },
-    "nombre de régions avec n+1 cercles.excalidraw": {
-      "nombre de régions avec n+1 cercles.excalidraw": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670801500495
-        }
-      }
-    },
-    "arpanet": {
-      "arpanet": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670848795788
-        }
-      }
-    },
-    "processus 2022-10-05 15.05.33.excalidraw": {
-      "processus 2022-10-05 15.05.33.excalidraw": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1670848944823
-        }
-      }
-    },
     "relation": {
       "relation": {
         "internalLink": {
@@ -103,107 +79,11 @@
         }
       }
     },
-    "relation d'équivalence": {
-      "relation d'équivalence": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670866580084
-        }
-      }
-    },
     "nombres premiers entre eux": {
       "nombres premiers entre eux": {
         "internalLink": {
           "count": 2,
           "lastUpdated": 1671048266953
-        }
-      }
-    },
-    "congruence": {
-      "congruence": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670867009922
-        }
-      }
-    },
-    "nombre premier": {
-      "nombre premier": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670867467364
-        }
-      }
-    },
-    "groupe": {
-      "groupe": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670867508465
-        }
-      }
-    },
-    "anneau": {
-      "anneau": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670889592527
-        }
-      }
-    },
-    "valeur absolue": {
-      "valeur absolue": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670889840865
-        }
-      }
-    },
-    "division euclidienne": {
-      "division euclidienne": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1670891589098
-        }
-      }
-    },
-    "anneau Z": {
-      "anneau Z": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670890204607
-        }
-      }
-    },
-    "sous groupe": {
-      "sous groupe": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1670890536041
-        }
-      }
-    },
-    "sous-groupes de Z muni de +": {
-      "sous-groupes de Z muni de +": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670890931076
-        }
-      }
-    },
-    "démonstration forme des sous groupes de Z": {
-      "démonstration forme des sous groupes de Z": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670891354413
-        }
-      }
-    },
-    "sous groupes": {
-      "sous groupes": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1670891422741
         }
       }
     },
@@ -482,8 +362,8 @@
     "combinaison linéaire": {
       "combinaison linéaire": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673391457917
+          "count": 3,
+          "lastUpdated": 1673478481969
         }
       }
     },
@@ -1012,6 +892,30 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1673395733827
+        }
+      }
+    },
+    "xⁿ - 1": {
+      "xⁿ - 1": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673441719217
+        }
+      }
+    },
+    "Laurent Zeller": {
+      "Laurent Zeller": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673568712496
+        }
+      }
+    },
+    "algo_avancee_listes_chainees": {
+      "algo_avancee_listes_chainees": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673602462614
         }
       }
     }

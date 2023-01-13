@@ -30,7 +30,7 @@ worsen ::: aggravé
 <!--SR:!2023-04-23,105,289!2023-03-01,60,229-->
 
 to swindle ::: escroquer
-<!--SR:!2023-01-22,22,209!2023-01-09,1,169-->
+<!--SR:!2023-01-22,22,209!2023-01-14,3,169-->
 
 a swindle ::: une arnaque, une escroquerie
 <!--SR:!2023-02-14,45,229!2023-02-15,46,229-->
@@ -51,17 +51,19 @@ scarcity :: rareté
 <!--SR:!2023-01-27,27,229-->
 
 to streamline :: simplifier (rendre accessible), uniformiser
+<!--SR:!2023-01-12,1,224-->
 
 to impersonate ::: imiter
+<!--SR:!2023-01-12,1,224!2023-01-13,2,244-->
 
 whereabouts ::: localisation, endroit
-<!--SR:!2023-01-10,2,244!2023-01-10,2,244-->
+<!--SR:!2023-01-17,6,244!2023-01-23,12,264-->
 
 to be fined :: recevoir une amende
-<!--SR:!2023-01-09,1,224-->
+<!--SR:!2023-01-12,1,204-->
 
 to part with :: se séparer de
-<!--SR:!2023-01-09,1,224-->
+<!--SR:!2023-01-15,4,224-->
 
 # Idioms and expressions
 

@@ -79,7 +79,7 @@ direction d'un espace affine $\mathcal{E}$
 ??
 Soit $\mathcal{E}$ un espace affine
 l'ensemble $\{ \overrightarrow{AB} \mid (A, B) \in \mathcal{E}^{2} \}$
-<!--SR:!2023-01-07,4,293!2023-01-06,3,273-->
+<!--SR:!2023-01-07,4,293!2023-01-26,15,273-->
 
 [[théorème du rang]] 
 ??
@@ -109,7 +109,7 @@ Soit $E$ un [[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]
 Soit $\mathcal{F}$ une [[famille de vecteurs libre|famille libre]] de vecteurs de $E$.
 On peut toujours ajouter un nombre fini de vecteurs à $\mathcal{F}$ pour qu'elle devienne une base de $E$
 (Ces vecteurs ajoutés rendent $\mathcal{F}$ [[famille de vecteurs génératrice|génératrice]] )
-<!--SR:!2023-01-07,4,293!2023-01-06,3,273-->
+<!--SR:!2023-01-29,18,293!2023-01-25,14,273-->
 
 # Applications
 
@@ -168,7 +168,7 @@ vecteur propre d'une application linéaire $\varphi$
 Soit $\varphi$ une application linéaire
 un **vecteur $u \neq \vec{0}$ tel que** :
 il existe un scalaire $\lambda$ tel que $\varphi(u) = \lambda u$
-<!--SR:!2023-01-06,3,273!2023-01-07,4,293-->
+<!--SR:!2023-01-06,3,273!2023-02-09,29,313-->
 
 vecteur propre d'une matrice $M$
 ??
@@ -196,7 +196,7 @@ trace d'une matrice $M$ ($\mathrm{Tr}(M)$)
 soit M une matrice $n\times n$
 la somme des coefficients diagonaux de $M$
 $\displaystyle\sum\limits_{k=1}^{n} M_{k,k}$
-<!--SR:!2023-01-16,10,273!2023-01-04,1,253-->
+<!--SR:!2023-01-16,10,273!2023-01-24,13,253-->
 
 
 [[matrice orthogonale]] 
@@ -208,12 +208,12 @@ Matrice $M$ telle que $^TM = M^{-1}$
 [[matrice symétrique]] 
 ??
 Matrice $M$ telle que $M = \,^T M$
-<!--SR:!2023-01-05,4,292!2023-01-07,4,293-->
+<!--SR:!2023-02-22,42,312!2023-01-07,4,293-->
 
 [[matrice antisymétrique]] 
 ??
 Matrice $M$ telle que $\,^T M = -M$
-<!--SR:!2023-01-07,4,293!2023-01-17,11,273-->
+<!--SR:!2023-02-12,32,313!2023-01-17,11,273-->
 
 Formule pour l'inverse d'une matrice 
 ?
@@ -224,7 +224,7 @@ $M^{-1} = \dfrac{1}{\det M} \times \,^T \mathrm{comat}(M)$
 ??
 Matrice $M$ telle que $i \neq j \implies M_{i,j} = 0$
 Seules la diagonale est non-nulle
-<!--SR:!2023-01-20,14,292!2023-01-07,4,293-->
+<!--SR:!2023-01-20,14,292!2023-01-28,17,293-->
 
 
 

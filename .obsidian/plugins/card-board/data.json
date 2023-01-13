@@ -1,0 +1,38 @@
+{
+  "version": "0.7.0",
+  "data": {
+    "boardConfigs": [
+      {
+        "tag": "tagBoardConfig",
+        "data": {
+          "columns": [
+            {
+              "tag": "task",
+              "displayTitle": "Task"
+            }
+          ],
+          "showColumnTags": true,
+          "completedCount": 10,
+          "filters": [],
+          "filterPolarity": "Allow",
+          "showFilteredTags": true,
+          "includeOthers": false,
+          "includeUntagged": false,
+          "title": "test"
+        }
+      }
+    ],
+    "globalSettings": {
+      "taskCompletionFormat": "ObsidianCardBoard",
+      "columnNames": {
+        "today": "",
+        "tomorrow": "",
+        "future": "",
+        "undated": "",
+        "others": "",
+        "untagged": "",
+        "completed": ""
+      }
+    }
+  }
+}
