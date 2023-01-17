@@ -94,7 +94,7 @@ annotate-target: "sources/cours/L2_maths_analyse_TD2-fait.pdf"
 
 >%%
 >```annotate-json
->{"id":"9162ea4d-fde7-6004","text":"{\"id\":\"9162ea4d-fde7-6004\",\"page\":1,\"rect\":[47.919809850374065,651.2738617828066],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1664786304769.png\",\"relateRect\":[{\"x\":0.07481296758104738,\"y\":0.22693266832917705,\"width\":0.7905236907730673,\"height\":0.314214463840399}],\"pdfName\":\"sources/cours/L2_maths_analyse_TD2.pdf\",\"pageWidth\":802,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664786304769.png?1664786304801\"}","type":"rect","page":1,"width":634,"height":252,"pdfName":"sources/cours/L2_maths_analyse_TD2.pdf"}
+>{"id":"9162ea4d-fde7-6004","text":"{\"id\":\"9162ea4d-fde7-6004\",\"page\":1,\"rect\":[47.919809850374065,651.2738617828066],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1664786304769.png\",\"relateRect\":[{\"x\":0.07959743824336687,\"y\":0.21774931381518756,\"width\":0.7904849039341263,\"height\":0.3138151875571821}],\"pdfName\":\"sources/cours/L2_maths_analyse_TD2.pdf\",\"pageWidth\":802,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1664786304769.png?1673959101573\"}","type":"rect","page":1,"width":864,"height":343,"pdfName":"sources/cours/L2_maths_analyse_TD2.pdf"}
 >```
 >%%
 >![[attachments/markmind/1664786304769.png]]

@@ -46,5 +46,8 @@
   "supercharged-links@@7812-52e6-before": "📅 ",
   "customizable-page-header-buttons@@page-header-spacing-mobile": 12,
   "minimal-style@@trim-cols": false,
-  "minimal-style@@max-col-width": "50em"
+  "minimal-style@@max-col-width": "50em",
+  "minimal-style@@code-background@@dark": "#1E1E1E",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@code-normal@@dark": "#BEECA9"
 }

@@ -13,65 +13,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b23ae3c8c213181",
+            "id": "5b09ff9440cec7c0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "protocole TCP IP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"protocole TCP IP.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":1},\"to\":{\"line\":2,\"ch\":1}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "conserver la sémantique des attributs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conserver la sémantique des attributs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conception des bases de données.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44025a818790621c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conserver la sémantique des attributs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa9d218f63ab32be",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "faire des fonctions unitaire.md",
+                "file": "Spanning Tree Protocol.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -160,8 +128,14 @@
             "id": "e959a8ff39b7769f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "projet M.chanson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"projet M.chanson.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":7},\"to\":{\"line\":32,\"ch\":7}},\"scroll\":20.756469500924215}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -174,9 +148,82 @@
                 "file": "kanban projet m.chanson.md"
               }
             }
+          },
+          {
+            "id": "acbd7aafc53be839",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "BPDU",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BPDU.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spanning Tree Protocol.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0103706d42c71228",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "les premiers termes ne changent pas la convergence d'une série",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"les premiers termes ne changent pas la convergence d'une série.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chansons.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "933832494f633fb6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -337,8 +384,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 635.5041885375977,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -711,15 +757,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "projet M.chanson.md",
+    "chansons.md",
+    "Spanning Tree Protocol.md",
+    "sources/cours/L2_maths_analyse_TD2-annotate.md",
+    "sources/cours/L2_maths_analyse_TD2-ex_supplementaires-annotate.md",
+    "le codeur (parodie du chanteur).md",
+    "les premiers termes ne changent pas la convergence d'une série.md",
+    "BPDU.md",
     "kanban projet m.chanson.md",
-    "kanban proj.md",
-    "endomorphisme linéaire.md",
-    "endomorphisme.md",
-    "paradygme de programmation.md",
-    "programmation.md",
-    "blog/posts/informatique/cours/algo_avancee_TD2.qmd",
-    "blog/posts/informatique/cours/algo_avancee_listes_chainees.qmd",
-    "blog/posts/informatique/_images/listes_chainees.md"
+    "protocole TCP IP.md",
+    "conserver la sémantique des attributs.md"
   ]
 }

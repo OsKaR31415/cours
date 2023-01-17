@@ -25,3 +25,7 @@ $\displaystyle\lim_{x \rightarrow 0} \frac{\sin x}{x} =$ :: $= 1$ (Car $\mathrm{
 <!--SR:!2023-01-16,91,270-->
 
 
+$\lim\limits_{ n \to +\infty } \left( 1 + \dfrac{1}{n} \right)^{n}$ :: $e$ [[démonstration limite (1+1÷n)*n|démonstration]]
+
+$\displaystyle \lim\limits_{ n \to +\infty } \left( 1 + \frac{x}{n} \right)^{n}$ :: $e^{x}$ [[démonstration limite (1+1÷n)*n|démonstration]]
+

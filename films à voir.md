@@ -6,7 +6,6 @@
 
  - papillon (dustin hoffman)
  - barry lindon
- - kramer vs kramer
  - soylent green (soleil vert)
  - beetlejuice
  - les fugitifs
@@ -27,6 +26,7 @@
  - Lawrence d'arabie
 
 > [!done]- Vus
+> - kramer vs kramer
 > - marathon man
 > - l'emmerdeur
 > - roller ball

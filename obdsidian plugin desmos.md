@@ -5,7 +5,7 @@ title::"tracer des fonctions mathématiques"
 
 ----
 
-Syntaxe du plugin [obsidian desmos](https://github.com/Nigecat/obsidian-desmos#offline-usage)
+Plugin qui intègre les fonctions graphiques de [[desmos]] dans obsidian
 
 # Syntaxe de base
 ```desmos-graph
@@ -14,7 +14,7 @@ y = 2x
 
 On peut :
  - faire plusieurs courbes en même temps (plusieurs lignes)
- - utiliser la syntaxe $\LaTeX$
+ - utiliser la syntaxe [[LaTeX]]
 ```desmos-graph
 y = \sin(x)
 y = \frac{1}{x}
@@ -49,6 +49,7 @@ possibilités :
 ```desmos-graph
 y=4|dotted|#ddbb22
 x=2|green|dashed
+(2, 4)|red|cross
 ```
 
 
@@ -102,7 +103,7 @@ y=x^2 - 5
 
 On peut désactiver la grille
  - avec la propriété `grid`
- - `grid=true` ou `grid=false`
+     - `grid=true` ou `grid=false`
 ```desmos-graph
 grid=false;
 width=300;height=300;
