@@ -155,7 +155,7 @@
                 {
                   "title": "Drawing 2023-01-17 16.29.52.excalidraw",
                   "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md\"}}",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/presentation_dario.excalidraw.md\"}}",
                   "eState": "{}"
                 }
               ]
@@ -163,7 +163,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md"
+                "file": "Excalidraw/presentation_dario.excalidraw.md"
               }
             }
           }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md",
+                "file": "Excalidraw/presentation_dario.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md",
+                "file": "Excalidraw/presentation_dario.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -368,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md"
+                "file": "Excalidraw/presentation_dario.excalidraw.md"
               }
             }
           },
@@ -421,7 +421,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md",
+                "file": "Excalidraw/presentation_dario.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -741,7 +741,7 @@
   },
   "lastOpenFiles": [
     "attachments/Pasted Image 20230117165927_946.png",
-    "Excalidraw/Drawing 2023-01-17 16.29.52.excalidraw.md",
+    "Excalidraw/presentation_dario.excalidraw.md",
     "attachments/Pasted Image 20230117165845_424.png",
     "Excalidraw/Drawing 2023-01-04 21.30.19.excalidraw.md",
     "blog/posts/informatique/algo_avancee_structures_recursives.qmd",
