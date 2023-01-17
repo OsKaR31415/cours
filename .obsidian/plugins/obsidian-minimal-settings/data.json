@@ -1,7 +1,7 @@
 {
   "theme": "moonstone",
   "lightStyle": "minimal-light-tonal",
-  "darkStyle": "minimal-dark",
+  "darkStyle": "minimal-dark-black",
   "lightScheme": "minimal-atom-light",
   "darkScheme": "minimal-catppuccin-dark",
   "editorFont": "\"Fira Code\"",

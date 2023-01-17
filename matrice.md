@@ -20,7 +20,7 @@ $A_{2,3} = 6$
 
  - [[addition de matrices]]
  - [[multiplication de matrices]]
-
+ 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, description
