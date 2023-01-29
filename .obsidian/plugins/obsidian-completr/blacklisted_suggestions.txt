@@ -51,3 +51,5 @@ test
 thinks to do
 arrangements
 front-matter
+transposition
+test de slides patat

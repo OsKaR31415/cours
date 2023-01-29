@@ -6,7 +6,7 @@ title:
   - perservim/vimux
   - christoomey/vim-tmux-navigator
 ---
-link:: [[vim_tips_tmux]]
+link:: [[vim tips tmux]]
 
 #blog/vim-tips 
 

@@ -21,5 +21,4 @@ $<u, v> = u +.\times v = u^T \times v$ ([[multiplication de matrices]], avec $u$
 
 # Propriétés
 
- - le _produit scalaire_ est une [[application bilinéaire]]
- - le _produit scalaire_ est une [[application symétrique]] 
+ - le _produit scalaire_ est une [[forme bilinéaire symétrique]]

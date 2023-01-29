@@ -3,7 +3,7 @@
   "matchStrategy": "partial",
   "maxNumberOfSuggestions": 10,
   "maxNumberOfWordsAsPhrase": 3,
-  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfCharactersTriggered": 2,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
@@ -50,8 +50,8 @@
     "unix commandes": {
       "unix commandes": {
         "internalLink": {
-          "count": 6,
-          "lastUpdated": 1672617534658
+          "count": 7,
+          "lastUpdated": 1674054230909
         }
       }
     },
@@ -71,115 +71,11 @@
         }
       }
     },
-    "relation": {
-      "relation": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1671045500328
-        }
-      }
-    },
-    "nombres premiers entre eux": {
-      "nombres premiers entre eux": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1671048266953
-        }
-      }
-    },
-    "OsKaR31415": {
-      "OsKaR31415": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1671013102230
-        }
-      }
-    },
-    "polygone 2022-07-26 16.40.43.excalidraw": {
-      "polygone 2022-07-26 16.40.43.excalidraw": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1671013124245
-        }
-      }
-    },
-    "réflexive": {
-      "réflexive": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1671045725377
-        }
-      }
-    },
-    "transitivité d'une relation": {
-      "transitivité d'une relation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671045205035
-        }
-      }
-    },
-    "réflexivité d'une relation": {
-      "réflexivité d'une relation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671045309270
-        }
-      }
-    },
-    "transitivité": {
-      "transitivité": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671045393917
-        }
-      }
-    },
-    "MOC algèbre": {
-      "MOC algèbre": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671269426247
-        }
-      }
-    },
-    "produit cartésien": {
-      "produit cartésien": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1671270024724
-        }
-      }
-    },
-    "application": {
-      "application": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671269516390
-        }
-      }
-    },
-    "famille": {
-      "famille": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671269900914
-        }
-      }
-    },
     "MOC ensembles": {
       "MOC ensembles": {
         "internalLink": {
           "count": 3,
           "lastUpdated": 1672835654100
-        }
-      }
-    },
-    "forme linéaire": {
-      "forme linéaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671275677237
         }
       }
     },
@@ -191,67 +87,11 @@
         }
       }
     },
-    "plan vectoriel": {
-      "plan vectoriel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671275915923
-        }
-      }
-    },
     "MOC géométrie": {
       "MOC géométrie": {
         "internalLink": {
           "count": 3,
           "lastUpdated": 1672417024751
-        }
-      }
-    },
-    "équation cartésienne": {
-      "équation cartésienne": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671281066784
-        }
-      }
-    },
-    "suite géométrique": {
-      "suite géométrique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671369706039
-        }
-      }
-    },
-    "MOC science": {
-      "MOC science": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671383668641
-        }
-      }
-    },
-    "MOC zetetique": {
-      "MOC zetetique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671383716004
-        }
-      }
-    },
-    "combinateur": {
-      "combinateur": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671732110002
-        }
-      }
-    },
-    "entier naturel": {
-      "entier naturel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671732113350
         }
       }
     },
@@ -290,16 +130,16 @@
     "base": {
       "base": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1672445421169
+          "count": 6,
+          "lastUpdated": 1674829003324
         }
       }
     },
     "sous espace vectoriel": {
       "sous espace vectoriel": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672449081814
+          "count": 3,
+          "lastUpdated": 1674060012936
         }
       }
     },
@@ -322,8 +162,8 @@
     "dimension": {
       "dimension": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1672595026987
+          "count": 15,
+          "lastUpdated": 1674903182815
         }
       }
     },
@@ -346,16 +186,16 @@
     "corps": {
       "corps": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1672420334916
+          "count": 5,
+          "lastUpdated": 1674059585747
         }
       }
     },
     "combinaisons linéaires": {
       "combinaisons linéaires": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672190421421
+          "count": 2,
+          "lastUpdated": 1674292387398
         }
       }
     },
@@ -562,8 +402,8 @@
     "sev": {
       "sev": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1672534244531
+          "count": 9,
+          "lastUpdated": 1674292568492
         }
       }
     },
@@ -594,16 +434,16 @@
     "matrice symétrique": {
       "matrice symétrique": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672446347857
+          "count": 4,
+          "lastUpdated": 1674903315188
         }
       }
     },
     "matrice antisymétrique": {
       "matrice antisymétrique": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672446481763
+          "count": 2,
+          "lastUpdated": 1674502518247
         }
       }
     },
@@ -626,16 +466,16 @@
     "théorème du rang": {
       "théorème du rang": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672448969804
+          "count": 3,
+          "lastUpdated": 1674300123870
         }
       }
     },
     "famille libre": {
       "famille libre": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672595006773
+          "count": 4,
+          "lastUpdated": 1674066535047
         }
       }
     },
@@ -658,8 +498,8 @@
     "libre": {
       "libre": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672486216005
+          "count": 2,
+          "lastUpdated": 1674066821459
         }
       }
     },
@@ -996,6 +836,246 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1673954969464
+        }
+      }
+    },
+    "Exécution d'un code machine": {
+      "Exécution d'un code machine": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673974902257
+        }
+      }
+    },
+    "harold cooper": {
+      "harold cooper": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1673974923583
+        }
+      }
+    },
+    "forme linéaire": {
+      "forme linéaire": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1674499686546
+        }
+      }
+    },
+    "application linéaire": {
+      "application linéaire": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1674903765158
+        }
+      }
+    },
+    "ev": {
+      "ev": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674059907981
+        }
+      }
+    },
+    "famille de vecteurs échelonnée": {
+      "famille de vecteurs échelonnée": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1674066840990
+        }
+      }
+    },
+    "échelonnée": {
+      "échelonnée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674066842797
+        }
+      }
+    },
+    "méthode de gauss": {
+      "méthode de gauss": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674066901526
+        }
+      }
+    },
+    "fonction réciproque": {
+      "fonction réciproque": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674097700618
+        }
+      }
+    },
+    "langage de programmation": {
+      "langage de programmation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674157758480
+        }
+      }
+    },
+    "somme directe": {
+      "somme directe": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674292678711
+        }
+      }
+    },
+    "ensemble des applications linéaires": {
+      "ensemble des applications linéaires": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674299951912
+        }
+      }
+    },
+    "surjective": {
+      "surjective": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674300180090
+        }
+      }
+    },
+    "base canonique": {
+      "base canonique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674303238232
+        }
+      }
+    },
+    "base duale d'un espace vectoriel": {
+      "base duale d'un espace vectoriel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674304569043
+        }
+      }
+    },
+    "espace dual": {
+      "espace dual": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674304607967
+        }
+      }
+    },
+    "bijection": {
+      "bijection": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674304848711
+        }
+      }
+    },
+    "python modules": {
+      "python modules": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674336930803
+        }
+      }
+    },
+    "manim": {
+      "manim": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1674409139943
+        }
+      }
+    },
+    "manim formes": {
+      "manim formes": {
+        "internalLink": {
+          "count": 5,
+          "lastUpdated": 1674413494855
+        }
+      }
+    },
+    "manim animations": {
+      "manim animations": {
+        "internalLink": {
+          "count": 7,
+          "lastUpdated": 1674415080798
+        }
+      }
+    },
+    "forme bilinéaire": {
+      "forme bilinéaire": {
+        "internalLink": {
+          "count": 9,
+          "lastUpdated": 1674503210659
+        }
+      }
+    },
+    "forme bilinéaire symétrique": {
+      "forme bilinéaire symétrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674499836755
+        }
+      }
+    },
+    "L2_info_algo_activite_1-annotate": {
+      "L2_info_algo_activite_1-annotate": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1674500076911
+        }
+      }
+    },
+    "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
+      "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674502521581
+        }
+      }
+    },
+    "partie symétrique": {
+      "partie symétrique": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1674503284987
+        }
+      }
+    },
+    "matrice associée": {
+      "matrice associée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674504468678
+        }
+      }
+    },
+    "manim openGL": {
+      "manim openGL": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1674516126388
+        }
+      }
+    },
+    "forme quadratique": {
+      "forme quadratique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674903576184
+        }
+      }
+    },
+    "homogénéité": {
+      "homogénéité": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1674903757167
         }
       }
     }

@@ -1,4 +1,4 @@
-up::[[groupe]], [[ensemble des applications linéaires sur des espaces vectoriels]]
+up::[[groupe]], [[ensemble des applications linéaires]]
 title::$\mathrm{GL}(E) =$ ensemble des [[automorphisme|automorphismes]] de $E$ munis de $\circ$
 #maths/algèbre
 

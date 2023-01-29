@@ -2,7 +2,7 @@
 sr-due: 2022-09-02
 sr-interval: 14
 sr-ease: 270
-alias: "sl"
+alias: [ "sl", "systèmes linéaires" ]
 ---
 up::[[MOC algèbre]]
 title::"système d'équations linéaires (combinaisons linéaires des variables)"

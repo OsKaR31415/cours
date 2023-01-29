@@ -1,3 +1,6 @@
+---
+alias: [ "symétrique" ]
+---
 up::[[matrice]]
 title::"telle que $M = M^{T}$ ([[transposée]])"
 #maths/algèbre #review 

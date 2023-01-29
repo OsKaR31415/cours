@@ -5,7 +5,7 @@ title:
   - <>k, <>j, <>m, ...
 ---
 up:: [[_vim_tips]]
-link:: [[vim_tips_leader]]
+link:: [[vim tips leader]]
 
 #blog/vim-tips 
 

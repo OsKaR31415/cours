@@ -1,3 +1,6 @@
+---
+alias: [ "antisymétrique" ]
+---
 up::[[matrice]]
 title::"$M^{T} = -M$ ([[transposée]])"
 #maths/algèbre #review 

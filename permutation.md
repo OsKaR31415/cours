@@ -12,9 +12,11 @@ Une _permutation_ représente le réarrangement d'objets.
 
 # Définition
 Une permutation est une [[bijection]] d'un ensemble dans lui-même.
-Notamment, une permutation de $n\in\mathbb N$ éléments est une [[bijection]] d'un ensemble fini de [[cardinal d'un ensemble]] n sur lui-même.
+Notamment, une permutation de $n\in\mathbb N$ éléments est une [[bijection]] d'un ensemble fini de [[cardinal d'un ensemble|cardinal]] $n$ sur lui-même.
 
 On parle généralement des permutations sur un intervalle $[\![1;n]\!]$.
+
+
 
 
 # Notation
@@ -50,15 +52,16 @@ $\begin{pmatrix}1&2&\cdots&i&\cdots&n\\\sigma(1)&\sigma(2)&\cdots&\sigma(i)&\cdo
 - Permutation réciproque : $\sigma^{-1}$
     - $\forall n, \sigma(\sigma^{-1}(n)) = \sigma^{-1}(\sigma(n)) = n$
     - comme une généralisation de $\sigma^n$
+    - parce que cela correspond à la [[fonction réciproque]] (notée $f^{-1}$ aussi)
 
 
+# Propriétés
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
 > WHERE file != this.file
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
 > ```
-

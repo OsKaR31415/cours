@@ -543,5 +543,13 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "G"
+    }
   ]
 }

@@ -10,5 +10,6 @@ $K_n^p = \binom{p+n-1}{p}$
 
 Autres notations :
  - $\Gamma _{n}^{p}$
- - $\left(\!\!\begin{pmatrix}n\\p\end{pmatrix}\!\!\right)$ (dans le même ordre que les com)
+ - $\left(\!\!\begin{pmatrix}n\\p\end{pmatrix}\!\!\right)$ (dans le même ordre que les combinaisons)
+     - cela vient des [[sac|sacs]]
 

@@ -1,3 +1,6 @@
+---
+alias: [ "share terminal via ssh", "live remote terminal sharing" ]
+---
 up::[[unix commandes]]
 title::"command line live sessions (multiple users on the same command line)"
 usage::"`upterm (host|...)`"
@@ -28,4 +31,13 @@ ssh does not support rsa by default now
 > ```
 
 
+# The problem with ssh and rsa
+ - ssh doesn't support rsa algorithm anymore
+ - that means upterm won't work
 
+Workaround :
+ - Add the public key of the person that wants to connect to the `.ssh/authorized_hosts`
+     - generate with `ssh-keygen`
+ - Use these arguments (to connect) :
+     - `ssh <the_hostname>@uptermd.upterm.dev -o "PubkeyAcceptedKeyTypes +ssh-rsa" -o "HostKeyAlgorithms +ssh-rsa"`
+         - `<the_hostname>` is given by `upterm host`

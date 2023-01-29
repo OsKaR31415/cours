@@ -13,3 +13,4 @@ $$\begin{aligned}
 &= \lim_{x\rightarrow x_0} \dfrac{\dfrac{f(x) - f(x_0)}{x-x_0}}{\dfrac{g(x)-g(x_0)}{x-x_0}}\\
 \end{aligned}$$
 
+

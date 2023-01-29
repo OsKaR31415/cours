@@ -50,9 +50,12 @@ On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ 
  - 
 
 
-> [!query] sous-notes directes de `=this.file.link`
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > LIST title
-> FROM ""
-> WHERE econtains(up, this.file.link)
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
 > ```
+

@@ -2,120 +2,13 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
-    "ophidian:layout-settings": {
-      "pane-relief:sliding-panes": {
-        "active": false
-      }
-    },
     "children": [
       {
-        "id": "4c671bba0dfd7445",
+        "id": "7ccbb7a3a9400dd5",
         "type": "tabs",
         "children": [
           {
-            "id": "a29bf0a187bd35be",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "algo_avancee_structures_dynamiques",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo_avancee_structures_dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": ">>informatique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":51},\"to\":{\"line\":21,\"ch\":51}},\"scroll\":12.634146341463415}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/posts/informatique/algo_avancee_structures_recursives.qmd",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e773e7410e669a9",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "2023-01-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-01-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0.21209984487378367}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Valentin Mottet.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34f203029b236834",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2023-01-17",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-01-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2023-01-19",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-01-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "Maximilien Poncet",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Maximilien Poncet.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2023-01-19.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdb4e3c3437cd114",
+            "id": "f359dc6a76c0ab3b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -129,7 +22,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "théorème de l'hopital.md",
+                "file": "forme quadratique.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -137,7 +30,7 @@
             }
           },
           {
-            "id": "2c089bd4602e791d",
+            "id": "3d54ce094212501c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -145,30 +38,21 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2023-01-04 21.30.19.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2023-01-04 21.30.19.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2023-01-17 16.29.52.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/presentation_dario.excalidraw.md\"}}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/presentation_dario.excalidraw.md"
+                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +64,9 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
-        "dimension": 75.60975609756098,
         "children": [
           {
-            "id": "8e6cf92b1e047f14",
+            "id": "84b1f06f81d5c515",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -216,13 +99,47 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:espace vectoriel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "dd8c7d2443958f22",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
             }
           },
           {
@@ -246,23 +163,6 @@
             }
           },
           {
-            "id": "bd1d7503d0848342",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -277,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/presentation_dario.excalidraw.md",
+                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/presentation_dario.excalidraw.md",
+                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,38 +210,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "32864954bdcadbf2",
-        "type": "tabs",
-        "dimension": 24.390243902439025,
-        "children": [
-          {
-            "id": "5d26e3a4bff64748",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "blog/posts/_>>kanban_posts<<_.md"
-              },
-              "pinned": true
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 407.5,
+    "width": 439.5,
     "collapsed": true
   },
   "right": {
@@ -351,7 +223,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 54.56674473067917,
+        "dimension": 53.45622119815668,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -368,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/presentation_dario.excalidraw.md"
+                "file": "forme bilinéaire symétrique associée à une forme quadratique.md"
               }
             }
           },
@@ -407,6 +279,23 @@
             }
           },
           {
+            "id": "bf6c068c22a39e9f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -421,10 +310,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/presentation_dario.excalidraw.md",
+                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
                 "options": {
                   "collapse-filter": false,
-                  "search": "",
+                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
@@ -435,170 +324,94 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
+                      "query": "tag:#todo",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 8882055
+                        "rgb": 2829614
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 14771732
-                      }
-                    },
-                    {
-                      "query": "tag:#excalidraw",
-                      "color": {
-                        "a": 1,
-                        "rgb": 8019199
-                      }
-                    },
-                    {
-                      "query": "tag:#PKM OR tag:#obsidian",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4863904
+                        "rgb": 6356992
                       }
                     },
                     {
                       "query": "tag:#flashcards",
                       "color": {
                         "a": 1,
-                        "rgb": 4863904
-                      }
-                    },
-                    {
-                      "query": "tag:#gists",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6827411
-                      }
-                    },
-                    {
-                      "query": "tag:#CV",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11010185
+                        "rgb": 16427551
                       }
                     },
                     {
                       "query": "tag:#maths",
                       "color": {
                         "a": 1,
-                        "rgb": 2792960
+                        "rgb": 2520842
                       }
                     },
                     {
                       "query": "tag:#logique",
                       "color": {
                         "a": 1,
-                        "rgb": 13050
+                        "rgb": 2902193
                       }
                     },
                     {
                       "query": "tag:#informatique",
                       "color": {
                         "a": 1,
-                        "rgb": 1346167
+                        "rgb": 32882
                       }
                     },
                     {
                       "query": "tag:#personne",
                       "color": {
                         "a": 1,
-                        "rgb": 13470121
+                        "rgb": 10710150
                       }
                     },
                     {
-                      "query": "path:sources",
+                      "query": "path:annotation",
                       "color": {
                         "a": 1,
-                        "rgb": 3770873
+                        "rgb": 12844865
                       }
                     },
                     {
-                      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+                      "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 15646813
-                      }
-                    },
-                    {
-                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16759552
-                      }
-                    },
-                    {
-                      "query": "tag:#devoir OR tag:#devoir-fait",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711914
-                      }
-                    },
-                    {
-                      "query": "tag:#PM",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12091263
+                        "rgb": 4667545
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": true,
-                  "centerStrength": 0.791642706536324,
-                  "repelStrength": 15.6584243818286,
+                  "collapse-forces": false,
+                  "centerStrength": 0.469875590807845,
+                  "repelStrength": 8.50328679306785,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4619352526034159,
+                  "scale": 0.6432635871960121,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "bf9c467678aa05e4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "843072ab0d510e3d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "837d069be727ad7e",
+            "id": "6eef7a6fea7d0a57",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -615,7 +428,41 @@
             }
           },
           {
-            "id": "5a395aba28ae12aa",
+            "id": "bbb6a2e5983cb458",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "b633b3db710b1c5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "31631cc465104a08",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -630,31 +477,14 @@
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
-          },
-          {
-            "id": "371c374f83e4e7de",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 45.43325526932083,
+        "dimension": 46.54377880184332,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -681,7 +511,7 @@
             }
           },
           {
-            "id": "523cd7a78782d297",
+            "id": "e06c83cab06fb399",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -697,7 +527,7 @@
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -708,17 +538,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
+    "width": 486.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-custom-frames:Open Detexify": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-custom-frames:Open compteur NDLI": true,
       "obsidian42-brat:BRAT": true,
-      "darlal-switcher-plus:Open in Headings Mode": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
@@ -730,25 +559,26 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": true,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2c089bd4602e791d",
+  "active": "3d54ce094212501c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "attachments/Pasted Image 20230117165927_946.png",
-    "Excalidraw/presentation_dario.excalidraw.md",
-    "attachments/Pasted Image 20230117165845_424.png",
-    "Excalidraw/Drawing 2023-01-04 21.30.19.excalidraw.md",
-    "blog/posts/informatique/algo_avancee_structures_recursives.qmd",
-    "blog/posts/informatique/algo_avancee_structures_de_donnees.md",
-    "Morgan Montigny.md",
-    "Valentin Mottet.md",
-    "daily/2023-01-19.md",
-    "théorème de l'hopital.md"
+    "actions.excalidraw.md",
+    "attachments/Pasted Image 20220820124654_970.png",
+    "Open.excalidraw.md",
+    "CV.md",
+    "daily/2023-01-29.md",
+    "forme bilinéaire symétrique associée à une forme quadratique.md",
+    "Untitled.md",
+    "échange nouvelle zéllande.md",
+    "forme quadratique.md",
+    "daily/2023-01-28.md"
   ]
 }

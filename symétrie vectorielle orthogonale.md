@@ -1,4 +1,4 @@
-up::[[symétrie orthogonale par rapport à u droite vectorielle]]
+up::[[symétrie orthogonale par rapport à une droite vectorielle]]
 title:: "symétrie orthogonale par rapport à $\mathrm{Vect(u)}$"
 #maths/algèbre 
 
@@ -8,6 +8,6 @@ title:: "symétrie orthogonale par rapport à $\mathrm{Vect(u)}$"
 > Soit $\mathbf{K}$ un corps
 > Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] 
 > Soit $v\in E$ un vecteur
-> la symétrie par rapport au vecteur $v$ est la [[symétrie orthogonale par rapport à u droite vectorielle|symétrie orthogonale par rapport à la droite vectorielle]] $\mathrm{Vect}(v)$ dirigée par $v$
+> la symétrie par rapport au vecteur $v$ est la [[symétrie orthogonale par rapport à une droite vectorielle|symétrie orthogonale par rapport à la droite vectorielle]] $\mathrm{Vect}(v)$ dirigée par $v$
 ^definition
 

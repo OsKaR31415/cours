@@ -14,3 +14,10 @@ title::"création/manipulation des tables markdown"
  - formules basiques (avec un langage nul)
 
 
+| test   | truc   | chose |
+| ------ | ------ | ----- |
+| machin | bidule | cool  |
+| bidule | bidule | cool  |
+| machin | cool   | cool  |
+^tableau
+

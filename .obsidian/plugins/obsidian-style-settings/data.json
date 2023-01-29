@@ -49,5 +49,7 @@
   "minimal-style@@max-col-width": "50em",
   "minimal-style@@code-background@@dark": "#1E1E1E",
   "minimal-style@@window-title-off": false,
-  "minimal-style@@code-normal@@dark": "#BEECA9"
+  "minimal-style@@code-normal@@dark": "#BCBCBC",
+  "minimal-style@@image-muted": 0.7,
+  "minimal-style@@zoom-off": false
 }

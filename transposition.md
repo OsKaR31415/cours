@@ -16,9 +16,13 @@ $\sigma$ est une transposition ssi :
 $\sigma = \begin{pmatrix}1&2&3\\1&3&2\end{pmatrix}$ est une _transposition_
 
 
-# Inversion
-On dit qu'une transposition $s$ est une _inversion_ ssi on a :
-$a>b \text{ et } s(a)<s(b)$, ou bien $a<b \text{ et } s(a)>s(b)$
-Autrement dit, c'est une transposition qui inverse l'ordre des éléments.
+# Propriétés
 
-Le nombre d'inversions dans la [[décomposition en produit de transpositions]] d'une permutation est égal
+> [!query] Sous-notes de `=this.file.link`
+> ```dataview
+> LIST title
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
+> ```
