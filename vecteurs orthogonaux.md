@@ -7,3 +7,4 @@ title::"$u \bot v \iff u.v = 0$ ([[produit scalaire]] nul)"
 
 ---
 
+Voir : [[produit scalaire#^Orthogonalité]]

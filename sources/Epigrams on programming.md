@@ -1,4 +1,4 @@
-@uthor::[[Alan Perlis]]
+author::[[Alan Perlis]]
 title::"dictons sur la programmation"
 #informatique
 

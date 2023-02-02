@@ -79,54 +79,6 @@
         }
       }
     },
-    "espace vectoriel": {
-      "espace vectoriel": {
-        "internalLink": {
-          "count": 8,
-          "lastUpdated": 1672447106153
-        }
-      }
-    },
-    "MOC géométrie": {
-      "MOC géométrie": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672417024751
-        }
-      }
-    },
-    "réflexion": {
-      "réflexion": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672138813041
-        }
-      }
-    },
-    "translation": {
-      "translation": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672143812770
-        }
-      }
-    },
-    "espace affine": {
-      "espace affine": {
-        "internalLink": {
-          "count": 19,
-          "lastUpdated": 1672447115034
-        }
-      }
-    },
-    "injection": {
-      "injection": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672447963929
-        }
-      }
-    },
     "base": {
       "base": {
         "internalLink": {
@@ -151,43 +103,19 @@
         }
       }
     },
-    "direction": {
-      "direction": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1672244349423
-        }
-      }
-    },
     "dimension": {
       "dimension": {
         "internalLink": {
-          "count": 15,
-          "lastUpdated": 1674903182815
-        }
-      }
-    },
-    "sous espaces affines": {
-      "sous espaces affines": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672188940278
-        }
-      }
-    },
-    "espace vectoriel engendré": {
-      "espace vectoriel engendré": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672485859081
+          "count": 17,
+          "lastUpdated": 1675097638342
         }
       }
     },
     "corps": {
       "corps": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1674059585747
+          "count": 6,
+          "lastUpdated": 1675093301443
         }
       }
     },
@@ -207,195 +135,11 @@
         }
       }
     },
-    "relation de chasles": {
-      "relation de chasles": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672190552324
-        }
-      }
-    },
-    "fonction de Leibniz": {
-      "fonction de Leibniz": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672191487841
-        }
-      }
-    },
-    "barycentre": {
-      "barycentre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672334852817
-        }
-      }
-    },
-    "permutation": {
-      "permutation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672232411012
-        }
-      }
-    },
-    "courbe paramétrée": {
-      "courbe paramétrée": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672335499602
-        }
-      }
-    },
-    "équation cartésienne d'une droite": {
-      "équation cartésienne d'une droite": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672245822735
-        }
-      }
-    },
-    "vecteur directeur": {
-      "vecteur directeur": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672339716647
-        }
-      }
-    },
-    "direction d'un espace affine": {
-      "direction d'un espace affine": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672279550363
-        }
-      }
-    },
-    "distance entre deux droites dans l'espace": {
-      "distance entre deux droites dans l'espace": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672331094607
-        }
-      }
-    },
-    "produit vectoriel": {
-      "produit vectoriel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672331229007
-        }
-      }
-    },
-    "projeté orthogonal d'un vecteur": {
-      "projeté orthogonal d'un vecteur": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672331613608
-        }
-      }
-    },
     "produit scalaire": {
       "produit scalaire": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672331623858
-        }
-      }
-    },
-    "MOC trigonométrie": {
-      "MOC trigonométrie": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672410327343
-        }
-      }
-    },
-    "bissectrice": {
-      "bissectrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672416315550
-        }
-      }
-    },
-    "cercle circonscrit à un triangle": {
-      "cercle circonscrit à un triangle": {
-        "internalLink": {
           "count": 2,
-          "lastUpdated": 1672417134371
-        }
-      }
-    },
-    "bissectrices d'un triangle": {
-      "bissectrices d'un triangle": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672417159308
-        }
-      }
-    },
-    "diagonaliser une matrice": {
-      "diagonaliser une matrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672419261016
-        }
-      }
-    },
-    "valeur propre d'une matrice": {
-      "valeur propre d'une matrice": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1672420426027
-        }
-      }
-    },
-    "valeur propre d'une application linéaire": {
-      "valeur propre d'une application linéaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672420233098
-        }
-      }
-    },
-    "matrice": {
-      "matrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672420110460
-        }
-      }
-    },
-    "vecteur propre d'une application linéaire": {
-      "vecteur propre d'une application linéaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672420214235
-        }
-      }
-    },
-    "endomorphisme linéaire": {
-      "endomorphisme linéaire": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672420399588
-        }
-      }
-    },
-    "vecteur propre": {
-      "vecteur propre": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672420449597
-        }
-      }
-    },
-    "vecteur propre d'une matrice": {
-      "vecteur propre d'une matrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672420452841
+          "lastUpdated": 1675092471468
         }
       }
     },
@@ -404,30 +148,6 @@
         "internalLink": {
           "count": 9,
           "lastUpdated": 1674292568492
-        }
-      }
-    },
-    "sous espace propre": {
-      "sous espace propre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672477570471
-        }
-      }
-    },
-    "valeur propre": {
-      "valeur propre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672445327190
-        }
-      }
-    },
-    "matrice orthogonale": {
-      "matrice orthogonale": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672446288342
         }
       }
     },
@@ -447,27 +167,11 @@
         }
       }
     },
-    "matrice diagonale": {
-      "matrice diagonale": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672477490929
-        }
-      }
-    },
-    "surjection": {
-      "surjection": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672447946760
-        }
-      }
-    },
     "théorème du rang": {
       "théorème du rang": {
         "internalLink": {
-          "count": 3,
-          "lastUpdated": 1674300123870
+          "count": 4,
+          "lastUpdated": 1675097569500
         }
       }
     },
@@ -476,22 +180,6 @@
         "internalLink": {
           "count": 4,
           "lastUpdated": 1674066535047
-        }
-      }
-    },
-    "valeurs propres": {
-      "valeurs propres": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672477507331
-        }
-      }
-    },
-    "rang d'une application linéaire": {
-      "rang d'une application linéaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672485890417
         }
       }
     },
@@ -858,8 +546,8 @@
     "forme linéaire": {
       "forme linéaire": {
         "internalLink": {
-          "count": 5,
-          "lastUpdated": 1674499686546
+          "count": 6,
+          "lastUpdated": 1675097435426
         }
       }
     },
@@ -1010,8 +698,8 @@
     "forme bilinéaire": {
       "forme bilinéaire": {
         "internalLink": {
-          "count": 9,
-          "lastUpdated": 1674503210659
+          "count": 10,
+          "lastUpdated": 1675098835139
         }
       }
     },
@@ -1066,8 +754,8 @@
     "forme quadratique": {
       "forme quadratique": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674903576184
+          "count": 3,
+          "lastUpdated": 1675098277147
         }
       }
     },
@@ -1076,6 +764,54 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1674903757167
+        }
+      }
+    },
+    "cos((pi/2)-x)": {
+      "cos((pi/2)-x)": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675033940284
+        }
+      }
+    },
+    "norme": {
+      "norme": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675092473725
+        }
+      }
+    },
+    "relation d'ordre totale": {
+      "relation d'ordre totale": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675093307940
+        }
+      }
+    },
+    "positive": {
+      "positive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675093681506
+        }
+      }
+    },
+    "orthogonaux": {
+      "orthogonaux": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675096444028
+        }
+      }
+    },
+    "inégalité de cauchy schwartz": {
+      "inégalité de cauchy schwartz": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675101471228
         }
       }
     }

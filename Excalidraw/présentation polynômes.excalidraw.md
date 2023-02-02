@@ -28,6 +28,12 @@ i ^732rraGT
 
 Polynômes de degré 1 ^WuQbpnxX
 
+droites ^RxXDnjtB
+
+racines ^hfnaKFO8
+
+écriture en  ^Ax935Le5
+
 
 # Embedded files
 6fde57a1c82e2e675f194e2d5e577ef506ba72d2: $$1\times 10^{2} + 2\times 10^1 + 3\times 10^0$$
@@ -63,7 +69,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 442,
-			"height": 46,
+			"height": 45,
 			"seed": 1127291609,
 			"groupIds": [],
 			"roundness": null,
@@ -141,7 +147,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -186,7 +192,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -231,7 +237,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -276,7 +282,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -321,7 +327,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -366,7 +372,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -411,7 +417,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -456,7 +462,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -501,7 +507,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -546,7 +552,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -591,7 +597,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -636,7 +642,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -681,7 +687,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -726,7 +732,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -771,7 +777,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -816,7 +822,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -861,7 +867,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -906,7 +912,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -951,7 +957,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -996,7 +1002,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -1041,7 +1047,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414234,
 			"link": null,
 			"locked": false,
@@ -1086,7 +1092,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1131,7 +1137,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1176,7 +1182,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1221,7 +1227,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1266,7 +1272,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1311,7 +1317,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1356,7 +1362,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1401,7 +1407,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1446,7 +1452,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1491,7 +1497,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1536,7 +1542,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1581,7 +1587,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1626,7 +1632,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1671,7 +1677,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1716,7 +1722,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1761,7 +1767,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1806,7 +1812,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1851,7 +1857,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1896,7 +1902,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1941,7 +1947,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -1986,7 +1992,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2031,7 +2037,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2076,7 +2082,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2121,7 +2127,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2166,7 +2172,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2211,7 +2217,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2256,7 +2262,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2301,7 +2307,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2346,7 +2352,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2391,7 +2397,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2436,7 +2442,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2481,7 +2487,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2526,7 +2532,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2571,7 +2577,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2616,7 +2622,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2661,7 +2667,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2706,7 +2712,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2751,7 +2757,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2796,7 +2802,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2841,7 +2847,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2886,7 +2892,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2931,7 +2937,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -2976,7 +2982,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3021,7 +3027,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3066,7 +3072,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3111,7 +3117,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3156,7 +3162,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3201,7 +3207,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3246,7 +3252,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3291,7 +3297,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3336,7 +3342,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3381,7 +3387,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3426,7 +3432,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414235,
 			"link": null,
 			"locked": false,
@@ -3471,7 +3477,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3516,7 +3522,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3561,7 +3567,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3606,7 +3612,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3651,7 +3657,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3696,7 +3702,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3741,7 +3747,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3786,7 +3792,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3831,7 +3837,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3876,7 +3882,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3921,7 +3927,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -3966,7 +3972,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4011,7 +4017,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4056,7 +4062,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4101,7 +4107,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4146,7 +4152,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4191,7 +4197,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4236,7 +4242,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4281,7 +4287,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4326,7 +4332,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4371,7 +4377,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4416,7 +4422,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4461,7 +4467,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4506,7 +4512,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4551,7 +4557,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4596,7 +4602,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4641,7 +4647,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4686,7 +4692,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4731,7 +4737,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4776,7 +4782,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4821,7 +4827,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4866,7 +4872,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4911,7 +4917,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -4956,7 +4962,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5001,7 +5007,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5046,7 +5052,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5091,7 +5097,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5136,7 +5142,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5181,7 +5187,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5226,7 +5232,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5271,7 +5277,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5316,7 +5322,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5361,7 +5367,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5406,7 +5412,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5451,7 +5457,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5496,7 +5502,7 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783414236,
 			"link": null,
 			"locked": false,
@@ -5976,8 +5982,8 @@ Polynômes de degré 1 ^WuQbpnxX
 		},
 		{
 			"type": "ellipse",
-			"version": 591,
-			"versionNonce": 541266873,
+			"version": 592,
+			"versionNonce": 602838516,
 			"isDeleted": false,
 			"id": "D41-Zrkm8JaqCL0A2WJDL",
 			"fillStyle": "hachure",
@@ -5986,12 +5992,12 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -334.31156435774943,
-			"y": 209.1014570907643,
+			"x": -334.4082051946337,
+			"y": 209.00481625388005,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
-			"width": 29.806718326231465,
-			"height": 29.806718326231465,
+			"width": 30,
+			"height": 30,
 			"seed": 2105358231,
 			"groupIds": [
 				"PYBW7pfIWH9nxmoILiYNc",
@@ -6006,7 +6012,7 @@ Polynômes de degré 1 ^WuQbpnxX
 					"id": "732rraGT"
 				}
 			],
-			"updated": 1674783785941,
+			"updated": 1675037198729,
 			"link": null,
 			"locked": false
 		},
@@ -6034,7 +6040,7 @@ Polynômes de degré 1 ^WuQbpnxX
 				"5BHLzx2srpNn3Z9UtD5bT"
 			],
 			"roundness": null,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783785941,
 			"link": null,
 			"locked": false,
@@ -6074,497 +6080,150 @@ Polynômes de degré 1 ^WuQbpnxX
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1674783785941,
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "WuQbpnxX",
 			"type": "text",
-			"x": 518.4621496887396,
-			"y": -247.65274891776838,
-			"width": 370,
-			"height": 46,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 104,
+			"versionNonce": 683970676,
+			"isDeleted": false,
+			"id": "WuQbpnxX",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": 526.0833781370155,
+			"y": -244.4765635729408,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 370,
+			"height": 45,
+			"seed": 891724377,
 			"groupIds": [],
 			"roundness": null,
-			"seed": 891724377,
-			"version": 91,
-			"versionNonce": 925021783,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1674783816868,
+			"boundElements": [],
+			"updated": 1675037204650,
 			"link": null,
 			"locked": false,
-			"text": "Polynômes de degré 1",
-			"rawText": "Polynômes de degré 1",
 			"fontSize": 36,
 			"fontFamily": 1,
+			"text": "Polynômes de degré 1",
+			"rawText": "Polynômes de degré 1",
+			"baseline": 32,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 32,
 			"containerId": null,
 			"originalText": "Polynômes de degré 1"
 		},
 		{
-			"id": "XA8Ng1xJVOFxjIZOylb2h",
-			"type": "rectangle",
-			"x": -401.864023581583,
-			"y": 204.51312199608952,
-			"width": 392.5745935348489,
-			"height": 28.142391923375158,
+			"id": "RxXDnjtB",
+			"type": "text",
+			"x": 551.157343354812,
+			"y": -153.12043589756883,
+			"width": 70,
+			"height": 25,
 			"angle": 0,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": {
-				"type": 3
-			},
-			"seed": 1278915897,
-			"version": 177,
-			"versionNonce": 1607886969,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783763392,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "_E-xqpoSP3CqGuoUV1m1q",
-			"type": "ellipse",
-			"x": -418.958113890275,
-			"y": 100.4036333603485,
-			"width": 29.806718326231465,
-			"height": 29.806718326231465,
-			"angle": 0,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"seed": 394962905,
-			"version": 462,
-			"versionNonce": 49341017,
-			"isDeleted": true,
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "CfbfDd3a"
-				}
-			],
-			"updated": 1674783723463,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "CfbfDd3a",
-			"type": "text",
-			"x": -409.05475472715926,
-			"y": 105.80699252346423,
-			"width": 10,
-			"height": 19,
-			"angle": 0,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": null,
-			"seed": 2020854551,
-			"version": 753,
-			"versionNonce": 180865975,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783723464,
-			"link": null,
-			"locked": false,
-			"text": "i",
-			"rawText": "i",
-			"fontSize": 15.49020665904242,
-			"fontFamily": 3,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"baseline": 15,
-			"containerId": "_E-xqpoSP3CqGuoUV1m1q",
-			"originalText": "i"
-		},
-		{
-			"type": "ellipse",
-			"version": 462,
-			"versionNonce": 500684759,
-			"isDeleted": true,
-			"id": "IDkuO14pCpp1L0qz04Qhl",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -537.380365250598,
-			"y": 152.96206101414103,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"width": 29.806718326231465,
-			"height": 29.806718326231465,
-			"seed": 262944887,
-			"groupIds": [
-				"QgKP7Kl2US1hIElIQefDF"
-			],
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "U4sHGKGk"
-				}
-			],
-			"updated": 1674783528472,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "text",
-			"version": 752,
-			"versionNonce": 773027097,
-			"isDeleted": true,
-			"id": "U4sHGKGk",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -527.4770060874822,
-			"y": 158.36542017725677,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"width": 10,
-			"height": 19,
-			"seed": 984280697,
-			"groupIds": [
-				"QgKP7Kl2US1hIElIQefDF"
-			],
-			"roundness": null,
-			"boundElements": null,
-			"updated": 1674783528472,
-			"link": null,
-			"locked": false,
-			"fontSize": 15.49020665904242,
-			"fontFamily": 3,
-			"text": "i",
-			"rawText": "i",
-			"baseline": 15,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "IDkuO14pCpp1L0qz04Qhl",
-			"originalText": "i"
-		},
-		{
-			"type": "rectangle",
-			"version": 130,
-			"versionNonce": 115131639,
-			"isDeleted": true,
-			"id": "tyF6S8vyxPvT0advaLcox",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -545.0595497888503,
-			"y": 145.11784206712676,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"width": 323.4271888783802,
-			"height": 45.495156220260014,
-			"seed": 1285296535,
-			"groupIds": [
-				"QgKP7Kl2US1hIElIQefDF"
-			],
-			"roundness": {
-				"type": 3
-			},
-			"boundElements": null,
-			"updated": 1674783528472,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "nrRdV3gmpYOgHQptPKgd6",
-			"type": "line",
-			"x": -359.5588617258048,
-			"y": 31.72612125192836,
-			"width": 59.285863501069514,
-			"height": 52.998087224879725,
-			"angle": 0,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"roundness": null,
-			"seed": 101561431,
-			"version": 161,
-			"versionNonce": 1535798871,
-			"isDeleted": true,
+			"seed": 2064253812,
+			"version": 108,
+			"versionNonce": 1496321228,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1674783540880,
+			"updated": 1675037215682,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					28.687403575249903,
-					-49.68804052956583
-				],
-				[
-					59.285863501069514,
-					3.3100466953138934
-				],
-				[
-					0,
-					0
-				]
-			],
-			"lastCommittedPoint": [
-				-1.2780103605337558,
-				3.3100466953138934
-			],
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": null
-		},
-		{
-			"id": "t9fZQMEotMngr6e31StiB",
-			"type": "line",
-			"x": -396.44002685459327,
-			"y": 44.57465375845966,
-			"width": 34.37682613778196,
-			"height": 59.54240947359998,
-			"angle": 0,
-			"strokeColor": "#1864ab",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": null,
-			"seed": 1264289433,
-			"version": 150,
-			"versionNonce": 1914813111,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783551261,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					34.37682613778196,
-					-59.54240947359998
-				]
-			],
-			"lastCommittedPoint": [
-				34.37682613778196,
-				-59.54240947359998
-			],
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": null
-		},
-		{
-			"id": "4CMPvvjn",
-			"type": "text",
-			"x": -335.6188093816334,
-			"y": 20.79127053706388,
-			"width": 22,
-			"height": 44,
-			"angle": 0,
-			"strokeColor": "#f70",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": null,
-			"seed": 112370519,
-			"version": 56,
-			"versionNonce": 677558263,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783683558,
-			"link": null,
-			"locked": false,
-			"text": "!",
-			"rawText": "!",
-			"fontSize": 36,
-			"fontFamily": 3,
+			"text": "droites",
+			"rawText": "droites",
+			"fontSize": 20,
+			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 35,
+			"baseline": 18,
 			"containerId": null,
-			"originalText": "!"
+			"originalText": "droites"
 		},
 		{
-			"id": "PpULTcIXV2LP9VP_Zl7tq",
-			"type": "rectangle",
-			"x": -426.6372984285274,
-			"y": 92.55941441333422,
-			"width": 323.4271888783802,
-			"height": 45.495156220260014,
-			"angle": 0,
-			"strokeColor": "#f70",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [
-				"qF0R6oCKtYR_vuykWAK1u"
-			],
-			"roundness": {
-				"type": 3
-			},
-			"seed": 453248887,
-			"version": 135,
-			"versionNonce": 2114250553,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783759394,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "53BZYWSJvzKMSxGjOvVMe",
-			"type": "line",
-			"x": -420.057468807347,
-			"y": 128.78247620266652,
-			"width": 34.25485299081985,
-			"height": 29.90256555429744,
-			"angle": 0,
-			"strokeColor": "#f70",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [
-				"q04Cf1HB5oyWMI603XOBu",
-				"qF0R6oCKtYR_vuykWAK1u"
-			],
-			"roundness": null,
-			"seed": 99987513,
-			"version": 606,
-			"versionNonce": 2123039959,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1674783759394,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					17.26425427223406,
-					-29.90256555429744
-				],
-				[
-					34.25485299081985,
-					-0.4739853226922065
-				],
-				[
-					0,
-					0
-				]
-			],
-			"lastCommittedPoint": [
-				0.4830275378395754,
-				-0.9451378951926017
-			],
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": null
-		},
-		{
-			"id": "BxGd57HX",
+			"id": "hfnaKFO8",
 			"type": "text",
-			"x": -408.4465268123832,
-			"y": 106.71653820088197,
-			"width": 11.032969000892273,
-			"height": 22.065938001784545,
+			"x": 777.0382700789501,
+			"y": -146.35750486308604,
+			"width": 69,
+			"height": 25,
 			"angle": 0,
-			"strokeColor": "#f70",
+			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
 			"opacity": 100,
-			"groupIds": [
-				"q04Cf1HB5oyWMI603XOBu",
-				"qF0R6oCKtYR_vuykWAK1u"
-			],
+			"groupIds": [],
 			"roundness": null,
-			"seed": 1947827385,
-			"version": 332,
-			"versionNonce": 1194694681,
-			"isDeleted": true,
+			"seed": 1368528756,
+			"version": 19,
+			"versionNonce": 976737524,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1674783759394,
+			"updated": 1675037220128,
 			"link": null,
 			"locked": false,
-			"text": "!",
-			"rawText": "!",
-			"fontSize": 18.053949274187357,
-			"fontFamily": 3,
+			"text": "racines",
+			"rawText": "racines",
+			"fontSize": 20,
+			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 18.065938001784545,
+			"baseline": 18,
 			"containerId": null,
-			"originalText": "!"
+			"originalText": "racines"
+		},
+		{
+			"id": "Ax935Le5",
+			"type": "text",
+			"x": 616.3486149065362,
+			"y": -41.529918656189494,
+			"width": 119,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"roundness": null,
+			"seed": 1791015628,
+			"version": 16,
+			"versionNonce": 1027891828,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1675037224843,
+			"link": null,
+			"locked": false,
+			"text": "écriture en ",
+			"rawText": "écriture en ",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "écriture en "
 		}
 	],
 	"appState": {
@@ -6578,18 +6237,19 @@ Polynômes de degré 1 ^WuQbpnxX
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 1,
-		"currentItemFontSize": 36,
+		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 265.82675089153975,
-		"scrollY": 474.94652131896413,
+		"scrollX": -9.796890768605273,
+		"scrollY": 282.5191427941205,
 		"zoom": {
-			"value": 0.9933660773786874
+			"value": 1.4500000000000002
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"previousGridSize": null
 	},
 	"files": {}
 }

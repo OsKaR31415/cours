@@ -1,6 +1,6 @@
 
 # Todo
- - [ ] #task trouver dates disponibles
+ - [x] #task trouver dates disponibles ✅ 2023-01-30
     - 7 semaines ? (selon posibilités avec la famille)
      - [ ] #task demander date des rattrappages
          - Voir si ils sont avant fin mai

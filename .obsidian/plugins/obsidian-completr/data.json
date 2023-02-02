@@ -1,6 +1,8 @@
 {
   "characterRegex": "a-zA-ZâêîôûàéèùöäüÖÄÜß",
   "maxLookBackDistance": 50,
+  "autoFocus": true,
+  "autoTrigger": true,
   "minWordLength": 4,
   "minWordTriggerLength": 4,
   "wordInsertionMode": "Ignore-Case & Append",
@@ -8,11 +10,13 @@
   "latexProviderEnabled": true,
   "latexTriggerInCodeBlocks": true,
   "latexMinWordTriggerLength": 2,
-  "latexIgnoreCase": false,
+  "latexIgnoreCase": true,
   "fileScannerProviderEnabled": false,
   "fileScannerScanCurrent": true,
   "wordListProviderEnabled": false,
   "frontMatterProviderEnabled": true,
   "frontMatterTagAppendSuffix": true,
+  "frontMatterIgnoreCase": true,
+  "calloutProviderEnabled": true,
   "insertionKey": "Enter"
 }

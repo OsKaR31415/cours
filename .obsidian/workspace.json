@@ -4,11 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "7ccbb7a3a9400dd5",
+        "id": "a0db906992341ce1",
         "type": "tabs",
         "children": [
           {
-            "id": "f359dc6a76c0ab3b",
+            "id": "71a6ba92265b465a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/présentation polynômes.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "194387baab6617ad",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -22,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "forme quadratique.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -30,7 +49,7 @@
             }
           },
           {
-            "id": "3d54ce094212501c",
+            "id": "88ba7928aa1190f8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -44,15 +63,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                "file": "DM maths matrices.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "283b7b3c5187da97",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -66,7 +104,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84b1f06f81d5c515",
+            "id": "407c81c708328992",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -109,23 +147,6 @@
             }
           },
           {
-            "id": "dd8c7d2443958f22",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
-            }
-          },
-          {
             "id": "609ff408cfbae38d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -157,7 +178,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -177,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5,
+    "width": 424.50390243530273,
     "collapsed": true
   },
   "right": {
@@ -223,7 +244,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 53.45622119815668,
+        "dimension": 58.206106870229014,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -240,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "forme bilinéaire symétrique associée à une forme quadratique.md"
+                "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
               }
             }
           },
@@ -279,23 +300,6 @@
             }
           },
           {
-            "id": "bf6c068c22a39e9f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -310,7 +314,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -394,41 +398,24 @@
                       }
                     }
                   ],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": false,
-                  "centerStrength": 0.469875590807845,
-                  "repelStrength": 8.50328679306785,
+                  "collapse-forces": true,
+                  "centerStrength": 0.791642706536324,
+                  "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6432635871960121,
+                  "scale": 0.7289325700370481,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "6eef7a6fea7d0a57",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "custom-frames-detexify",
-              "state": {}
-            }
-          },
-          {
-            "id": "bbb6a2e5983cb458",
+            "id": "a05eecb7dce21915",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -445,7 +432,7 @@
             }
           },
           {
-            "id": "b633b3db710b1c5b",
+            "id": "7ab5b0693ed3805a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -462,7 +449,24 @@
             }
           },
           {
-            "id": "31631cc465104a08",
+            "id": "309f8009b1cc52b3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c78bc8186d3e556",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -477,14 +481,31 @@
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
+          },
+          {
+            "id": "6761340fe64868fd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 46.54377880184332,
+        "dimension": 41.79389312977099,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -511,7 +532,7 @@
             }
           },
           {
-            "id": "e06c83cab06fb399",
+            "id": "8d8d223c8b48a4c7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -522,32 +543,33 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 486.5,
+    "width": 415.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-custom-frames:Open Detexify": true,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-custom-frames:Open compteur NDLI": true,
       "obsidian42-brat:BRAT": true,
+      "darlal-switcher-plus:Open in Headings Mode": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
@@ -559,26 +581,23 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": true,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3d54ce094212501c",
+  "active": "283b7b3c5187da97",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "actions.excalidraw.md",
-    "attachments/Pasted Image 20220820124654_970.png",
-    "Open.excalidraw.md",
-    "CV.md",
-    "daily/2023-01-29.md",
-    "forme bilinéaire symétrique associée à une forme quadratique.md",
-    "Untitled.md",
-    "échange nouvelle zéllande.md",
+    "unix primitives exec.md",
+    "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
+    "unix primitives.md",
+    "forme bilinéaire positive.md",
     "forme quadratique.md",
-    "daily/2023-01-28.md"
+    "liste.md",
+    "Untitled.md",
+    "changement de base.md",
+    "forme linéaire définie.md",
+    "castero.md"
   ]
 }

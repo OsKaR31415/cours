@@ -4,7 +4,6 @@
   "table-editor-obsidian",
   "obsidian-latex",
   "obsidian-spaced-repetition",
-  "obsidian-completr",
   "obsidian-kanban",
   "calendar",
   "obsidian-minimal-settings",
@@ -19,7 +18,6 @@
   "obsidian-desmos",
   "obsidian-functionplot",
   "obsidian-plugin-toc",
-  "obsidian-mind-map",
   "tag-wrangler",
   "quickadd",
   "obsidian-icon-shortcodes",
@@ -46,7 +44,6 @@
   "obsidian-better-internal-link-inserter",
   "obsidian-contextual-typography",
   "improved-vimcursor",
-  "ob-table-enhancer",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-hider",
   "obsidian-pandoc",
@@ -58,5 +55,6 @@
   "garble-text",
   "mathlinks",
   "obsidian-meta-bind-plugin",
-  "tag-word-cloud"
+  "obsidian-completr",
+  "obsidian42-strange-new-worlds"
 ]

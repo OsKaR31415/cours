@@ -27,8 +27,72 @@
                     "file": "Excalidraw/présentation polynômes.excalidraw.md"
                   }
                 }
+              },
+              {
+                "id": "194387baab6617ad",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Untitled.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "88ba7928aa1190f8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DM maths matrices.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "283b7b3c5187da97",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -136,7 +200,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
+                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -157,7 +221,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
+                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -172,7 +236,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 424.50390243530273
+        "width": 424.50390243530273,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -198,7 +263,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Excalidraw/présentation polynômes.excalidraw.md"
+                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
                   }
                 }
               },
@@ -251,7 +316,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
+                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -437,7 +502,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "9b0b445260de35cb",
@@ -494,13 +559,13 @@
           }
         ],
         "direction": "horizontal",
-        "width": 352.5,
+        "width": 415.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-spaced-repetition:Review flashcards": false,
-          "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
           "obsidian-custom-frames:Open Detexify": true,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
@@ -521,18 +586,20 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "71a6ba92265b465a",
+      "active": "283b7b3c5187da97",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "/",
+          "sources",
           "blog/posts",
           "sources/cours",
           "blog/posts/informatique",
           "blog/posts/maths",
           "quarto/test_files/libs",
+          "sources/cours/S4",
           "blog/posts/welcome/_images",
           "quarto/test_files/libs/quarto-html"
         ]
@@ -1738,11 +1805,179 @@
         "type": "split",
         "children": [
           {
-            "id": "7ccbb7a3a9400dd5",
+            "id": "16cd0982398c8961",
             "type": "tabs",
             "children": [
               {
-                "id": "f359dc6a76c0ab3b",
+                "id": "8eab7ac59f50be8a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_algebre_TD3-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "da1e38e1442677b6",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_algebre_ch1-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "672c057493e2f844",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "espace préhilbertien",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "espace préhilbertien réel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien réel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "espace préhilbertien",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":8}}}"
+                    },
+                    {
+                      "title": "espace préhilbertien réel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien réel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "espace vectoriel.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "36a93a6ca00763ba",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "produit scalaire",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"produit scalaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.0725694444444445}"
+                    },
+                    {
+                      "title": "inégalité de cauchy schwartz",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inégalité de cauchy schwartz.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":14.857986111111112}"
+                    },
+                    {
+                      "title": "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw",
+                      "icon": "excalidraw-icon",
+                      "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw.md\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "espace euclidien.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e6b023af15bc0b14",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "forme linéaire définie.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "88ea252d01d91f25",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "liste.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "199372aa408bbac1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1764,7 +1999,7 @@
                 }
               },
               {
-                "id": "3d54ce094212501c",
+                "id": "1228949f2eef71d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1778,7 +2013,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                    "file": "forme bilinéaire positive.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1786,7 +2021,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -1911,7 +2146,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                    "file": "forme bilinéaire positive.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1932,7 +2167,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                    "file": "forme bilinéaire positive.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1943,7 +2178,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 6
           }
         ],
         "direction": "horizontal",
@@ -1974,7 +2210,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "forme bilinéaire symétrique associée à une forme quadratique.md"
+                    "file": "forme bilinéaire positive.md"
                   }
                 }
               },
@@ -2044,7 +2280,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "forme bilinéaire symétrique associée à une forme quadratique.md",
+                    "file": "forme bilinéaire positive.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2138,7 +2374,7 @@
                       "repelStrength": 8.50328679306785,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.6432635871960121,
+                      "scale": 1.0014330635602462,
                       "close": true
                     }
                   }
@@ -2213,7 +2449,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 8
           },
           {
             "id": "9b0b445260de35cb",
@@ -2293,13 +2529,13 @@
           "random-note:Open random note": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": true,
-          "breadcrumbs:Breadcrumbs Visualisation": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "3d54ce094212501c",
+      "active": "1228949f2eef71d1",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2606,83 +2842,51 @@
                 }
               },
               {
-                "id": "4873d9f85f559099",
+                "id": "56d97bc9310a5592",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "application",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"application.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
                     },
                     {
-                      "title": "algo avancee listes chainees",
+                      "title": "MOC algèbre",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee listes chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":67},\"to\":{\"line\":32,\"ch\":67}},\"scroll\":25.338900862068964}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"MOC algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":0},\"to\":{\"line\":55,\"ch\":0}},\"scroll\":45.60578744007008}"
                     },
                     {
-                      "title": "algo avancee structures recursives",
+                      "title": "matrice",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}},\"scroll\":0.18691588785046728}"
                     },
                     {
-                      "title": "algo avancee listes chainees",
+                      "title": "trace d'une matrice",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee listes chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":86},\"to\":{\"line\":12,\"ch\":86}},\"scroll\":4.32183908045977}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"trace d'une matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.873665922065029}"
+                    },
+                    {
+                      "title": "matrice",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":21.531092171717173}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "blog/posts/informatique/>>informatique.qmd",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ac516cd7f3dbcd48",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "blog/posts/maths/p cycle.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c4174b92978bc76b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "blog/posts/maths/correction TD2 probabilites.md",
+                    "file": "rang d'une application linéaire.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2690,7 +2894,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -2799,7 +3003,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "blog/posts/maths/correction TD2 probabilites.md",
+                    "file": "rang d'une application linéaire.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2820,7 +3024,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "blog/posts/maths/correction TD2 probabilites.md",
+                    "file": "rang d'une application linéaire.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2831,7 +3035,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "32864954bdcadbf2",
@@ -2889,7 +3094,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "blog/posts/maths/correction TD2 probabilites.md"
+                    "file": "rang d'une application linéaire.md"
                   }
                 }
               },
@@ -2942,7 +3147,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "blog/posts/maths/correction TD2 probabilites.md",
+                    "file": "rang d'une application linéaire.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -3168,8 +3373,17 @@
                   "type": "review-queue-list-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "e869f5af98e9ec5f",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 9
           },
           {
             "id": "9b0b445260de35cb",
@@ -3233,6 +3447,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-custom-frames:Open Detexify": true,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
@@ -3251,11 +3466,10 @@
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": true,
           "obsidian-spaced-repetition:Review flashcards": false,
-          "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "c4174b92978bc76b",
+      "active": "56d97bc9310a5592",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -3862,5 +4076,5 @@
       }
     }
   },
-  "active": "maths evelyne"
+  "active": "perso"
 }
