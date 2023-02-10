@@ -1,9 +1,9 @@
 ---
 alias: "La #"
 ---
-
 up::[[La]]
 down::[[Si]]
+#art/musique 
 
 ----
 

@@ -1,7 +1,6 @@
-up:: [[Sol b]]
-
 up::[[Sol b]]
 down::[[La b]]
+#art/musique 
 
 ----
 

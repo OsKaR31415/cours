@@ -1,9 +1,9 @@
 ---
 alias: "Mi #"
 ---
-
 up::[[Mi]]
 down::[[Sol b]]
+#art/musique 
 
 ----
 

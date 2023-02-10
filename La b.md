@@ -1,11 +1,9 @@
 ---
 alias: "Sol #"
 ---
-up:: [[Sol]]
-
-
 up::[[Sol]]
 down::[[La]]
+#art/musique 
 
 ----
 

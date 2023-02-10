@@ -1,9 +1,9 @@
 ---
 alias: "Fa #"
 ---
-
 up::[[Fa]]
 down::[[Sol]]
+#art/musique 
 
 ----
 

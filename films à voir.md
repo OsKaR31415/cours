@@ -24,6 +24,8 @@
  - Kill Bill (6ème fois)
  - Roma
  - Lawrence d'arabie
+ - babylon A.D (SF)
+ - La cité des enfants perdus
 
 > [!done]- Vus
 > - kramer vs kramer

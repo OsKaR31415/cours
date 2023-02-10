@@ -20,13 +20,13 @@ $A_{2,3} = 6$
 
  - [[addition de matrices]]
  - [[multiplication de matrices]]
- 
+
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, description
+> LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE econtains(list(up, up.up, up.up.up, up.up.up.up), this.file.link)
-> WHERE file.link != this.file.link
-> SORT up.up.up.up, up.up.up, up.up, up
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
 > ```
- 

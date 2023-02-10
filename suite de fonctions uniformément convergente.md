@@ -2,7 +2,7 @@
 alias: [ "convergence uniforme", "uniformément convergente", "convergence uniforme d'une suite de fonctions" ]
 ---
 up:: [[suite de fonctions]]
-title::
+title:: ""
 #maths/analyse 
 
 ---
@@ -13,12 +13,14 @@ title::
 > $\boxed{\forall \varepsilon > 0, \quad \exists n_0 \in \mathbb{N}, \quad \forall x \in I, \quad \forall n \geq n_0, \quad |f_{n}(x)-f(x)| \leq \varepsilon}$
 ^definition
 
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title
+> LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
 > WHERE file != this.file
-> SORT up.up.up.up, up.up.up, up.up, up
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
 > ```
+
 

@@ -64,7 +64,7 @@ $\mathcal{E}$ est un [[espace affine]] ssi :
      - [[relation de chasles]]
  - $\forall O \in \mathcal{E}, \quad \forall v \in E, \quad \exists!A \in E, \quad \overrightarrow{OA} = \vec{v}$
      - pour toute translation, il existe une image unique pour chaque point
-<!--SR:!2023-01-04,1,253-->
+<!--SR:!2023-02-11,2,233-->
 
 
 espace affine engendré par La famille de points $(\mathcal{A}_{i})$
@@ -87,7 +87,7 @@ Soient $E$ et $F$ deux espaces vectoriels de dimension finie
 Soit $f : E \to F$
 on a :
 $\boxed{\dim(\mathrm{Im}(f)) + \dim(\ker(f)) = \dim(E)}$
-<!--SR:!2023-01-07,1,233!2023-01-19,13,293-->
+<!--SR:!2023-06-01,112,253!2023-01-19,13,293-->
 
 
 Montrer que $F$ est un [[sous espace vectoriel]] de $E$
@@ -208,7 +208,7 @@ Matrice $M$ telle que $^TM = M^{-1}$
 [[matrice symétrique]] 
 ??
 Matrice $M$ telle que $M = \,^T M$
-<!--SR:!2023-02-22,42,312!2023-01-07,4,293-->
+<!--SR:!2023-02-22,42,312!2023-07-10,151,313-->
 
 [[matrice antisymétrique]] 
 ??

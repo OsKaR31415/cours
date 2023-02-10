@@ -1,4 +1,8 @@
+up:: [[information]]
+title::
+#informatique 
 
+---
  - [[cryptographie]]
  - cryptanalyse
  - suites [[pseudo-aléatoires]] 

@@ -4,8 +4,6 @@ sr-interval: 28
 sr-ease: 272
 alias: ["négligeable", "négligeabilité", "fonction négligeable"]
 ---
-sibling:: [[fonctions équivalentes]]
-
 up::[[fonction]]
 sibling::[[fonction dominée en un point|domination]], [[fonctions équivalentes|équivalence]]
 title::"$f=o_{x_{0}}(g) \iff \lim\limits_{x \to x_{0}} \dfrac{f(x)}{g(x)}=0$"

@@ -1,7 +1,7 @@
 ---
 alias: [ "C variables d'environnement" ]
 ---
-up:: [[variables d'environnement]]
+up:: [[C]], [[variables d'environnement]]
 title:: "comment accéder aux variables d'environnement"
 #informatique/unix 
 

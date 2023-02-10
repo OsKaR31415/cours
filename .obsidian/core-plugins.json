@@ -1,7 +1,6 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
   "graph",
   "backlink",
   "canvas",
@@ -13,13 +12,8 @@
   "note-composer",
   "command-palette",
   "slash-command",
-  "markdown-importer",
-  "zk-prefixer",
-  "random-note",
   "outline",
-  "word-count",
   "slides",
-  "audio-recorder",
   "workspaces",
   "file-recovery"
 ]

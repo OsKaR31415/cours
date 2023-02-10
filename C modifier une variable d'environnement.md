@@ -1,5 +1,8 @@
-up:: [[C variable d'environnement]]
-title::
+---
+alias: [ "C primitive putenv", "putenv" ]
+---
+up:: [[primitives C]], [[C variable d'environnement]]
+title:: "`putenv` pour modifier la valeur d'une [[variables d'environnement|variable d'environnement]]"
 #informatique/unix 
 
 ---

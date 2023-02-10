@@ -1,11 +1,9 @@
 ---
 alias: "Do b"
 ---
-up:: [[Si b]]
-
-
 up::[[Si b]]
 down::[[Do]]
+#art/musique 
 
 ----
 

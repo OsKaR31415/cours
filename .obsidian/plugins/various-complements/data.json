@@ -71,14 +71,6 @@
         }
       }
     },
-    "MOC ensembles": {
-      "MOC ensembles": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672835654100
-        }
-      }
-    },
     "base": {
       "base": {
         "internalLink": {
@@ -114,8 +106,8 @@
     "corps": {
       "corps": {
         "internalLink": {
-          "count": 6,
-          "lastUpdated": 1675093301443
+          "count": 7,
+          "lastUpdated": 1675704918908
         }
       }
     },
@@ -191,147 +183,11 @@
         }
       }
     },
-    "génératrice": {
-      "génératrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672595082167
-        }
-      }
-    },
-    "MOC analyse": {
-      "MOC analyse": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672766507869
-        }
-      }
-    },
-    "série numérique": {
-      "série numérique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672766626233
-        }
-      }
-    },
-    "convergence d'une série numérique": {
-      "convergence d'une série numérique": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1673017985785
-        }
-      }
-    },
-    "somme partielle": {
-      "somme partielle": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1672778456460
-        }
-      }
-    },
     "sommes partielles": {
       "sommes partielles": {
         "internalLink": {
           "count": 6,
           "lastUpdated": 1673283322449
-        }
-      }
-    },
-    "Suite de Cauchy": {
-      "Suite de Cauchy": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672778485227
-        }
-      }
-    },
-    "utilisations personnelles - <>k, <>j, <>m, ...": {
-      "utilisations personnelles - <>k, <>j, <>m, ...": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1672780869254
-        }
-      }
-    },
-    "cardinal": {
-      "cardinal": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672835964530
-        }
-      }
-    },
-    "domination": {
-      "domination": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672851558483
-        }
-      }
-    },
-    "reste": {
-      "reste": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672851817122
-        }
-      }
-    },
-    "../../index.html#category=maths": {
-      "../../index.html#category=maths": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672866471095
-        }
-      }
-    },
-    "arrangements avec répétitions": {
-      "arrangements avec répétitions": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672874576355
-        }
-      }
-    },
-    "Sprint 11": {
-      "Sprint 11": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672911465705
-        }
-      }
-    },
-    "sacs": {
-      "sacs": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672965580594
-        }
-      }
-    },
-    "combinaisons avec répétitions": {
-      "combinaisons avec répétitions": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673006167291
-        }
-      }
-    },
-    "suite décroissante": {
-      "suite décroissante": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673018177631
-        }
-      }
-    },
-    "bornée": {
-      "bornée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673018207680
         }
       }
     },
@@ -812,6 +668,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1675101471228
+        }
+      }
+    },
+    "polygone 2022-07-26 16.40.43.excalidraw": {
+      "polygone 2022-07-26 16.40.43.excalidraw": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675636640186
+        }
+      }
+    },
+    "fonction continue": {
+      "fonction continue": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675702286410
         }
       }
     }

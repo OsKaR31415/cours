@@ -1,5 +1,5 @@
-up:: [[unix primitives]]
-title::
+up:: [[primitives C]]
+title:: "Informations sur un fichier (inode, type, propriétaire, dates...)"
 #informatique/unix 
 
 ---

@@ -1,5 +1,8 @@
-up::[[C variable d'environnement]]
-title::
+---
+alias: [ "C primitive getenv", "getenv" ]
+---
+up::[[primitives C]], [[C variable d'environnement]]
+title:: "`getenv` pour obtenir la valeur d'une [[variables d'environnement|variable d'environnement]]"
 #informatique/unix 
 
 ---

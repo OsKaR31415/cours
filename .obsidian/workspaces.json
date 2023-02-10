@@ -29,50 +29,6 @@
                 }
               },
               {
-                "id": "194387baab6617ad",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Untitled.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "88ba7928aa1190f8",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DM maths matrices.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "283b7b3c5187da97",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -90,9 +46,213 @@
                     "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
                   }
                 }
+              },
+              {
+                "id": "421cebc2393851a2",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LaTeX.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d2996d946ec5209f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LaTeX division de polynômes.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "89030107471c674e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LaTeX package polynom.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f8da5a0b245a3eeb",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "latex package polynom polyset (paramètres)",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"latex package polynom polyset (paramètres).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LaTeX package polynom.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4e374fd64f49f4c4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LaTeX package polynom polyfactorize.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1551970a9f64b2c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "diversifier les médias d'apprentissage.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1b0e1bb96c1a1e19",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "diversifier les points de vue pour apprendre.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c65220e2628e5859",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MOC apprentissage.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b2e1579ab2b94348",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "tags to add - notes to organize.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 10
           }
         ],
         "direction": "vertical"
@@ -200,7 +360,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
+                    "file": "tags to add - notes to organize.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -221,7 +381,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
+                    "file": "tags to add - notes to organize.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -236,8 +396,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 424.50390243530273,
-        "collapsed": true
+        "width": 424.50390243530273
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -263,7 +422,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md"
+                    "file": "tags to add - notes to organize.md"
                   }
                 }
               },
@@ -316,7 +475,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/cours/S4/L2_info_matrices_ex_0-annotate.md",
+                    "file": "tags to add - notes to organize.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -572,21 +731,16 @@
           "obsidian-custom-frames:Open compteur NDLI": true,
           "obsidian42-brat:BRAT": true,
           "darlal-switcher-plus:Open in Headings Mode": false,
-          "switcher:Open quick switcher": true,
           "graph:Open graph view": true,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": true,
           "templates:Insert template": false,
           "command-palette:Open command palette": true,
-          "markdown-importer:Open format converter": true,
-          "zk-prefixer:Create new unique note": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": true,
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "283b7b3c5187da97",
+      "active": "b2e1579ab2b94348",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -1115,7 +1269,8 @@
       "active": "9d4193874cd83fa8",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
-      }
+      },
+      "workspaces-plus:settings-v1": {}
     },
     "cours": {
       "main": {
@@ -1131,53 +1286,6 @@
             "id": "74ebe9e333cb2f49",
             "type": "tabs",
             "children": [
-              {
-                "id": "b0714649be458ddb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "unix.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d4e20cd597c54ef5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "unix verrous",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unix verrous.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sources/cours/S4/L2_info_probas_TD1.pdf"
-                  }
-                }
-              },
               {
                 "id": "97caf777834daa2d",
                 "type": "leaf",
@@ -1207,7 +1315,32 @@
                 }
               },
               {
-                "id": "5fcdcec6adc8c1f5",
+                "id": "1ac2094ec17d6fd8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2023-02-08",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-02-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.19443037974683544}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "4b9e601e9292c1fe",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1221,7 +1354,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "combinaisons avec répétitions.md",
+                    "file": "convergence d'une série de fonctions.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1229,7 +1362,35 @@
                 }
               },
               {
-                "id": "876a573e0648dbef",
+                "id": "6434b60dccc0365f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "série de fonctions convergence normale",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence normale.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "convergence d'une série de fonctions.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d692403d5644da50",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1243,7 +1404,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "base duale d'une famille de formes linéaires.md",
+                    "file": "série de fonctions types de convergence.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1251,7 +1412,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1298,7 +1459,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#informatique/unix",
+                    "query": "```C",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1376,7 +1537,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "base duale d'une famille de formes linéaires.md",
+                    "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1397,7 +1558,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "base duale d'une famille de formes linéaires.md",
+                    "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1412,7 +1573,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 433.5
+        "width": 433.5,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -1438,7 +1600,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "base duale d'une famille de formes linéaires.md"
+                    "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md"
                   }
                 }
               },
@@ -1508,7 +1670,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "base duale d'une famille de formes linéaires.md",
+                    "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1692,6 +1854,23 @@
                   "type": "QUICKSHARE_SIDE_VIEW",
                   "state": {}
                 }
+              },
+              {
+                "id": "f4fec2d9acb78e4b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 3
@@ -1758,29 +1937,24 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-spaced-repetition:Review flashcards": false,
-          "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
           "obsidian-custom-frames:Open Detexify": true,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
           "obsidian-custom-frames:Open compteur NDLI": true,
           "obsidian42-brat:BRAT": true,
           "darlal-switcher-plus:Open in Headings Mode": false,
-          "switcher:Open quick switcher": true,
           "graph:Open graph view": true,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": true,
           "templates:Insert template": false,
           "command-palette:Open command palette": true,
-          "markdown-importer:Open format converter": true,
-          "zk-prefixer:Create new unique note": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": true,
-          "breadcrumbs:Breadcrumbs Visualisation": false
+          "breadcrumbs:Breadcrumbs Visualisation": false,
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "876a573e0648dbef",
+      "active": "1ac2094ec17d6fd8",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -1805,11 +1979,39 @@
         "type": "split",
         "children": [
           {
-            "id": "16cd0982398c8961",
+            "id": "9d7d683a282cef13",
             "type": "tabs",
             "children": [
               {
-                "id": "8eab7ac59f50be8a",
+                "id": "dc6cac259283325a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "suite de fonctions uniformément convergente",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"suite de fonctions uniformément convergente.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":14.588541666666666}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "convergence uniforme d'une suite de fonctions par la différence avec la limite.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "90072e3dd771dfc2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1826,202 +2028,8 @@
                     "file": "sources/cours/S4/L2_maths_algebre_TD3-annotate.md"
                   }
                 }
-              },
-              {
-                "id": "da1e38e1442677b6",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_ch1-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "672c057493e2f844",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "espace préhilbertien",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "espace préhilbertien réel",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien réel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "espace préhilbertien",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "espace préhilbertien réel",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien réel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "espace vectoriel.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "36a93a6ca00763ba",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "produit scalaire",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"produit scalaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.0725694444444445}"
-                    },
-                    {
-                      "title": "inégalité de cauchy schwartz",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inégalité de cauchy schwartz.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":14.857986111111112}"
-                    },
-                    {
-                      "title": "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw",
-                      "icon": "excalidraw-icon",
-                      "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw.md\"}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "espace euclidien.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e6b023af15bc0b14",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "forme linéaire définie.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "88ea252d01d91f25",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "liste.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "199372aa408bbac1",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "forme quadratique.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1228949f2eef71d1",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "forme bilinéaire positive.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 7
+            ]
           }
         ],
         "direction": "vertical"
@@ -2146,7 +2154,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "forme bilinéaire positive.md",
+                    "file": "convergence uniforme d'une suite de fonctions par la différence avec la limite.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2167,7 +2175,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "forme bilinéaire positive.md",
+                    "file": "convergence uniforme d'une suite de fonctions par la différence avec la limite.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2210,7 +2218,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "forme bilinéaire positive.md"
+                    "file": "convergence uniforme d'une suite de fonctions par la différence avec la limite.md"
                   }
                 }
               },
@@ -2280,7 +2288,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "forme bilinéaire positive.md",
+                    "file": "convergence uniforme d'une suite de fonctions par la différence avec la limite.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2535,7 +2543,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "1228949f2eef71d1",
+      "active": "dc6cac259283325a",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2892,9 +2900,87 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d2fad3bf32c2ba20",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "quarto blog.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d6fc60591953dc5c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "homebrew désinstaller.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "75cdd34ae31ca532",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "permutation",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/permutation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":8},\"to\":{\"line\":4,\"ch\":8}},\"scroll\":0.08878504672897196}"
+                    },
+                    {
+                      "title": "p cycle",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/p cycle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "blog/posts/maths/p cycle.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -3003,7 +3089,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "rang d'une application linéaire.md",
+                    "file": "blog/posts/maths/p cycle.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -3024,7 +3110,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "rang d'une application linéaire.md",
+                    "file": "blog/posts/maths/p cycle.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -3035,8 +3121,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "32864954bdcadbf2",
@@ -3094,7 +3179,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "rang d'une application linéaire.md"
+                    "file": "blog/posts/maths/p cycle.md"
                   }
                 }
               },
@@ -3147,7 +3232,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "rang d'une application linéaire.md",
+                    "file": "blog/posts/maths/p cycle.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -3377,6 +3462,15 @@
               {
                 "id": "e869f5af98e9ec5f",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "Strange New Worlds",
                   "state": {}
@@ -3469,7 +3563,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "56d97bc9310a5592",
+      "active": "75cdd34ae31ca532",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -3480,10 +3574,8 @@
           "blog/posts",
           "blog/posts/maths",
           "quarto/test_files/libs",
-          "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
           "quarto/test_files/libs/quarto-html",
-          "blog/posts/maths/_images/permutations",
           "informatique/java/L1/cardinalites"
         ]
       }
@@ -3499,11 +3591,30 @@
         },
         "children": [
           {
-            "id": "93b1e7d6ecd35db3",
+            "id": "6e36d81c8a9c0243",
             "type": "tabs",
             "children": [
               {
-                "id": "33182d7f4816e0dd",
+                "id": "f6c4d33e22e47a9c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_analyse_ch1.pdf"
+                  }
+                }
+              },
+              {
+                "id": "dd778243e790e8e5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -3513,9 +3624,38 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "title": "fonction négligeable",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction négligeable.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "fonction dominée en un point.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "fc355a9e5d7b0120",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "904cc6888f92fb06",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
                       "eState": "{}"
                     }
                   ]
@@ -3523,7 +3663,51 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "chanson tous les cris les S.O.S.md",
+                    "file": "L2 maths analyse ch1.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f5480ddd9722f3af",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "obsidian callouts.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "95f20a4270bae596",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "obsidian syntaxe checkboxes (tasks).md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -3639,7 +3823,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "chanson tous les cris les S.O.S.md",
+                    "file": "L2 maths analyse ch1.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -3660,7 +3844,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "chanson tous les cris les S.O.S.md",
+                    "file": "L2 maths analyse ch1.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -3730,7 +3914,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "chanson tous les cris les S.O.S.md"
+                    "file": "L2 maths analyse ch1.md"
                   }
                 }
               },
@@ -3783,7 +3967,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "chanson tous les cris les S.O.S.md",
+                    "file": "L2 maths analyse ch1.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -4033,48 +4217,43 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-spaced-repetition:Review flashcards": false,
-          "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
           "obsidian-custom-frames:Open Detexify": true,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
           "obsidian-custom-frames:Open compteur NDLI": true,
           "obsidian42-brat:BRAT": true,
           "darlal-switcher-plus:Open in Headings Mode": false,
-          "switcher:Open quick switcher": true,
           "graph:Open graph view": true,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": true,
           "templates:Insert template": false,
           "command-palette:Open command palette": true,
-          "markdown-importer:Open format converter": true,
-          "zk-prefixer:Create new unique note": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": true,
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "33182d7f4816e0dd",
+      "active": "904cc6888f92fb06",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "/",
-          "blog",
-          "blog/posts",
+          "sources",
           "sources/cours",
           "blog/posts/informatique",
           "blog/posts/maths",
           "quarto/test_files/libs",
+          "sources/cours/S4",
+          "blog/posts/informatique/_images",
           "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
-          "blog/posts/informatique/_images",
           "quarto/test_files/libs/quarto-html"
         ]
       }
     }
   },
-  "active": "perso"
+  "active": "cours"
 }

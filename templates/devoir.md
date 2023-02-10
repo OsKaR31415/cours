@@ -2,6 +2,7 @@
 difficulty: 5
 due: 2023-01-10
 ---
+up::[[devoirs]]
 title::
 #devoir
 

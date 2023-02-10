@@ -1,4 +1,4 @@
-up:: [[unix primitives]]
+up:: [[primitives C]]
 title:: "exécuter un fichier binaire"
 #informatique/unix 
 

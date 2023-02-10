@@ -17,6 +17,10 @@
     transform: scale(2);
 }
 
+.task-list-item-checkbox {
+    transform: scale(2) !important;
+}
+
 
 
 

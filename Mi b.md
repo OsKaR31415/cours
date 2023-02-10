@@ -1,11 +1,9 @@
 ---
 alias: "Re #"
 ---
-up:: [[Re]]
-
-
 up::[[Re]]
 down::[[Mi]]
+#art/musique 
 
 ----
 

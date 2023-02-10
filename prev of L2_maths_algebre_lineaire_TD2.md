@@ -1,1 +1,0 @@
-next:: [[L2_maths_algebre_lineaire_TD2]]
