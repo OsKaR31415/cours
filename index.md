@@ -19,8 +19,8 @@ title::"List of every interesting notes"
 >  AND -"__sekund__"
 >  AND -#personne
 > WHERE file.link != this.file.link
->   AND down
 > SORT up.up.up.up, up.up.up, up.up, up
 > LIMIT 200
 > ```
+
 

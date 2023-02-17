@@ -9,23 +9,17 @@
     },
     "children": [
       {
-        "id": "74ebe9e333cb2f49",
+        "id": "d9737e2070cae0eb",
         "type": "tabs",
         "children": [
           {
-            "id": "97caf777834daa2d",
+            "id": "c26c8c8ae9c0954e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "kanban projet m.chanson",
-                  "icon": "lucide-trello",
-                  "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"kanban projet m.chanson.md\"}}",
                   "eState": "{}"
                 }
               ]
@@ -33,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projet M.chanson.md",
+                "file": "décomposition en produit de cycles disjoints.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -41,7 +35,7 @@
             }
           },
           {
-            "id": "1ac2094ec17d6fd8",
+            "id": "4f1cc9a2eb3b0b3c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -51,22 +45,297 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "2023-02-08",
+                  "title": ">>informatique",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-02-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.19443037974683544}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":17.47590953785644}"
+                },
+                {
+                  "title": "algo avancee structures de donnees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures de donnees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "algo avancee tableau",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":0},\"to\":{\"line\":33,\"ch\":0}},\"scroll\":5.647798742138365}"
+                },
+                {
+                  "title": "vim tips tmux",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips tmux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}},\"scroll\":0.8505263157894737}"
+                },
+                {
+                  "title": "vim tips leader",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips leader.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":11.959119496855346}"
+                },
+                {
+                  "title": "vim tips autocorriger les erreurs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips autocorriger les erreurs.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":56.11069537592658}"
+                },
+                {
+                  "title": "algo avancee tableau",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.540880503144654}"
+                },
+                {
+                  "title": "algo avancee structures recursives",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":54},\"to\":{\"line\":16,\"ch\":54}},\"scroll\":8.873032528856243}"
+                },
+                {
+                  "title": "algo avancee structures dynamiques",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":54},\"to\":{\"line\":12,\"ch\":54}},\"scroll\":0.9431578947368421}"
+                },
+                {
+                  "title": "algo avancee structures de donnees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures de donnees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":62},\"to\":{\"line\":7,\"ch\":62}},\"scroll\":0.35368421052631577}"
+                },
+                {
+                  "title": "algo avancee listes chainees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee listes chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":112},\"to\":{\"line\":59,\"ch\":112}},\"scroll\":50.68867924528302}"
+                },
+                {
+                  "title": "algo avancee activite 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 2.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":71.74494609164421}"
+                },
+                {
+                  "title": ">>informatique",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":44},\"to\":{\"line\":40,\"ch\":44}},\"scroll\":34.335691823899374}"
+                },
+                {
+                  "title": "vim tips tmux",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips tmux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "vim tips leader",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips leader.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "vim tips autocorriger les erreurs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/vim tips autocorriger les erreurs.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee tableau",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee tableau.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee structures recursives",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures recursives.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "algo avancee structures dynamiques",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0.9768421052631578}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "algo avancee structures de donnees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures de donnees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":31},\"to\":{\"line\":7,\"ch\":31}}}"
+                },
+                {
+                  "title": "algo avancee activite 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 2.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "algo avancee listes chainees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee listes chainees.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee structures dynamiques",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures dynamiques.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": ">>informatique",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":47},\"to\":{\"line\":32,\"ch\":47}},\"scroll\":24.49106504646176}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "algo avancee activite 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 1.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "permutation comme produit de cycles disjoints",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/permutation comme produit de cycles disjoints.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":100},\"to\":{\"line\":10,\"ch\":100}}}"
                 }
               ]
             },
             "state": {
-              "type": "mindmapview",
+              "type": "markdown",
               "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md"
+                "file": "blog/posts/informatique/algo avancee listes chainees.qmd",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
           {
-            "id": "4b9e601e9292c1fe",
+            "id": "879f04c1a3058795",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "groupe abélien",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"groupe abélien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.9140164899882215}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "langages de programmation preferes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/langages de programmation preferes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/posts/maths/permutation comme produit de cycles disjoints.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56d97bc9310a5592",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "application",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"application.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "MOC algèbre",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"MOC algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":0},\"to\":{\"line\":55,\"ch\":0}},\"scroll\":45.60578744007008}"
+                },
+                {
+                  "title": "matrice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}},\"scroll\":0.18691588785046728}"
+                },
+                {
+                  "title": "trace d'une matrice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"trace d'une matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.873665922065029}"
+                },
+                {
+                  "title": "matrice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":21.531092171717173}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rang d'une application linéaire.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2fad3bf32c2ba20",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -80,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "convergence d'une série de fonctions.md",
+                "file": "quarto blog.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -88,7 +357,7 @@
             }
           },
           {
-            "id": "6434b60dccc0365f",
+            "id": "d6fc60591953dc5c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -98,17 +367,17 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "série de fonctions convergence normale",
+                  "title": "homebrew désinstaller",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence normale.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"homebrew désinstaller.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "convergence d'une série de fonctions.md",
+                "file": "blog/posts/informatique/>>informatique.qmd",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -116,7 +385,7 @@
             }
           },
           {
-            "id": "d692403d5644da50",
+            "id": "75cdd34ae31ca532",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -124,13 +393,49 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": ">>informatique",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0.34854771784232363}"
+                },
+                {
+                  "title": "algo avancee structures de donnees",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures de donnees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": ">>informatique",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":64},\"to\":{\"line\":22,\"ch\":64}},\"scroll\":18.846064814814813}"
+                },
+                {
+                  "title": "p cycle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/p cycle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "permutation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/permutation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":8},\"to\":{\"line\":4,\"ch\":8}},\"scroll\":0.08878504672897196}"
+                },
+                {
+                  "title": "p cycle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/p cycle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "série de fonctions types de convergence.md",
+                "file": "blog/posts/informatique/algo avancee activite 3.qmd",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +443,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -150,6 +455,7 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
+        "dimension": 75.60975609756098,
         "children": [
           {
             "id": "8e6cf92b1e047f14",
@@ -185,7 +491,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "```C",
+                "query": "file:espace vectoriel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,26 +515,9 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
-            }
-          },
-          {
-            "id": "325e33879123bbe0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "sekund-main-view",
-              "state": {}
             }
           },
           {
@@ -263,7 +552,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
+                "file": "blog/posts/informatique/>>informatique.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +573,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
+                "file": "blog/posts/informatique/>>informatique.qmd",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,11 +585,38 @@
             }
           }
         ]
+      },
+      {
+        "id": "32864954bdcadbf2",
+        "type": "tabs",
+        "dimension": 24.390243902439025,
+        "children": [
+          {
+            "id": "5d26e3a4bff64748",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "blog/posts/_>>kanban_posts<<_.md"
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 341.5
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -309,7 +625,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 62.371134020618555,
+        "dimension": 54.56674473067917,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -326,7 +642,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md"
+                "file": "blog/posts/informatique/>>informatique.qmd"
               }
             }
           },
@@ -365,23 +681,6 @@
             }
           },
           {
-            "id": "bf6c068c22a39e9f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "32d6a52d872d783d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -396,11 +695,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
+                "file": "blog/posts/informatique/>>informatique.qmd",
                 "options": {
                   "collapse-filter": false,
-                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
-                  "localJumps": 1,
+                  "search": "",
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -410,73 +709,115 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
-                      "query": "tag:#todo",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711680
-                      }
-                    },
-                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 2829614
+                        "rgb": 8882055
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 6356992
+                        "rgb": 14771732
                       }
                     },
                     {
-                      "query": "tag:#flashcards",
+                      "query": "tag:#excalidraw",
                       "color": {
                         "a": 1,
-                        "rgb": 16427551
-                      }
-                    },
-                    {
-                      "query": "tag:#maths",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2520842
-                      }
-                    },
-                    {
-                      "query": "tag:#logique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2902193
-                      }
-                    },
-                    {
-                      "query": "tag:#informatique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 32882
-                      }
-                    },
-                    {
-                      "query": "tag:#personne",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10710150
-                      }
-                    },
-                    {
-                      "query": "path:annotation",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12844865
+                        "rgb": 8019199
                       }
                     },
                     {
                       "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 4667545
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#flashcards",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#gists",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6827411
+                      }
+                    },
+                    {
+                      "query": "tag:#CV",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11010185
+                      }
+                    },
+                    {
+                      "query": "tag:#maths",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2792960
+                      }
+                    },
+                    {
+                      "query": "tag:#logique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13050
+                      }
+                    },
+                    {
+                      "query": "tag:#informatique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1346167
+                      }
+                    },
+                    {
+                      "query": "tag:#personne",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13470121
+                      }
+                    },
+                    {
+                      "query": "path:sources",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3770873
+                      }
+                    },
+                    {
+                      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15646813
+                      }
+                    },
+                    {
+                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16759552
+                      }
+                    },
+                    {
+                      "query": "tag:#devoir OR tag:#devoir-fait",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711914
+                      }
+                    },
+                    {
+                      "query": "tag:#PM",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12091263
                       }
                     }
                   ],
@@ -490,7 +831,7 @@
                   "repelStrength": 15.6584243818286,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.35014834638722986,
+                  "scale": 1.197831046904222,
                   "close": true
                 }
               }
@@ -531,7 +872,7 @@
             }
           },
           {
-            "id": "b8c37155de2a1a40",
+            "id": "837d069be727ad7e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -548,24 +889,7 @@
             }
           },
           {
-            "id": "6743c195e139f4e0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "44385b94eaa7ee43",
+            "id": "5a395aba28ae12aa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -582,7 +906,24 @@
             }
           },
           {
-            "id": "f4fec2d9acb78e4b",
+            "id": "371c374f83e4e7de",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e869f5af98e9ec5f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -599,12 +940,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 37.628865979381445,
+        "dimension": 45.43325526932083,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -658,13 +999,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5,
+    "width": 342.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-custom-frames:Open Detexify": true,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
@@ -676,24 +1016,25 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "1ac2094ec17d6fd8",
+  "active": "d6fc60591953dc5c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "daily/2023-02-08.md",
-    "attachments/Pasted Image 20220820005004_384.png",
-    "convergence d'une série de fonctions.md",
-    "blog/posts/maths/p cycle.md",
-    "L2 maths analyse ch1.md",
-    "obsidian callouts.md",
-    "fonction dominée en un point.md",
-    "fonction négligeable.md",
-    "sources/cours/S4/L2_maths_analyse_ch1.pdf",
-    "obsidian syntaxe checkboxes (tasks).md"
+    "homebrew désinstaller.md",
+    "blog/posts/informatique/algo avancee activite 3.qmd",
+    "blog/posts/informatique/>>informatique.qmd",
+    "calculer les vecteurs propres d'une application.md",
+    "valeur propre d'une application linéaire.md",
+    "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
+    "Excalidraw/matrice de symétrie 2022-11-09 18.14.44.excalidraw.md",
+    "Excalidraw/matrice d'une forme bilinéaire 2023-01-23 19.58.05.excalidraw.md",
+    "Excalidraw/loi des sinus 2022-12-30 15.26.13.excalidraw.md",
+    "Excalidraw/keyboard layout key combos ideas.excalidraw.md"
   ]
 }

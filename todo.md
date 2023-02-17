@@ -1,9 +1,4 @@
----
-title: "thinks to do"
-tags: 
-  - #PKM 
-  -
----
+#pkm
 
 ----
 

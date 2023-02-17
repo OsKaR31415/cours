@@ -1,7 +1,7 @@
 ---
 alias: [ "convergence uniforme", "uniformément convergente", "convergence uniforme d'une suite de fonctions" ]
 ---
-up:: [[suite de fonctions]]
+up:: [[suite de fonctions convergente]]
 title:: ""
 #maths/analyse 
 

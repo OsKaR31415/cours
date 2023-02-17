@@ -1,11 +1,12 @@
 ---
-alias: [ "convergence", "convergente" ]
+alias: [ "paquet bind" ]
 ---
-up::[[série de fonctions]]
-title:: 
-#maths/analyse 
+up:: [[unix commandes]]
+title::
+#informatique 
 
 ---
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > LIST title
@@ -14,3 +15,4 @@ title::
 > WHERE file != this.file
 > SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
 > ```
+
