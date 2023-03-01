@@ -127,6 +127,18 @@ $\forall  (u, v) \in E^{2}, \quad f((u;v)) = f((v;u))$
 <!--SR:!2023-06-14,185,323!2023-09-14,256,303-->
 
 
+## Applications bilinéaires
+
+- [ ] #task rédiger flashcards
+ - Forme générale d'une application bilinéaire
+ - définition de [[produit scalaire]] 
+ - définition de [[norme]] 
+ - démonstration de l'[[inégalité triangulaire]] 
+ - [[inégalité de cauchy schwartz]] 
+     - cas d'égalité
+
+ - définition d'[[espace préhilbertien]] --> structures
+ - définition de [[orthogonal d'un sous espace vectoriel|sev orthogonal]] --> structures
 
 # Matrices 
 

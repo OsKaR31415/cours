@@ -1,4 +1,4 @@
-up:: [[unix commandes]] 
+up:: [[terminal commandes]] 
 title:: "comment lancer postgresql"
 usage:: "`psql postgresql`"
 #informatique 

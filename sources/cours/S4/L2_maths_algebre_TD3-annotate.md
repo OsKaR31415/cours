@@ -42,3 +42,23 @@ annotate-target: sources/cours/S4/L2_maths_algebre_TD3.pdf
 >
 ^3ad32409-4751-1675
 
+>%%
+>```annotate-json
+>{"id":"c37d5786-fd89-b287","text":"{\"id\":\"c37d5786-fd89-b287\",\"page\":0,\"rect\":[48.15045669291338,362.5159842519686],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1676921753278.png\",\"relateRect\":[{\"x\":0.07945597709377238,\"y\":0.80386542591267,\"width\":0.8911954187544738,\"height\":0.1309949892627058}],\"pdfName\":\"sources/cours/S4/L2_maths_algebre_TD3.pdf\",\"pageWidth\":1397,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1676921753278.png?1676921753324\"}","type":"rect","page":0,"width":1245,"height":183,"pdfName":"sources/cours/S4/L2_maths_algebre_TD3.pdf"}
+>```
+>%%
+>![[attachments/markmind/1676921753278.png]]
+>[[#^c37d5786-fd89-b287|Show annotate]]
+>
+^c37d5786-fd89-b287
+
+>%%
+>```annotate-json
+>{"id":"551851df-e6af-2a03","text":"{\"id\":\"551851df-e6af-2a03\",\"page\":0,\"rect\":[48.15045669291338,362.5159842519686,48.15045669291338,280.70281889763794],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1676922974406.png\",\"relateRect\":[{\"x\":0.07945597709377238,\"y\":0.9413027916964924,\"width\":0.9012168933428776,\"height\":0.3228346456692913}],\"pdfName\":\"sources/cours/S4/L2_maths_algebre_TD3.pdf\",\"pageWidth\":1397,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1676922974406.png?1676922974443\"}","type":"rect","page":0,"width":1259,"height":451,"pdfName":"sources/cours/S4/L2_maths_algebre_TD3.pdf"}
+>```
+>%%
+>![[attachments/markmind/1676922974406.png]]
+>[[#^551851df-e6af-2a03|Show annotate]]
+>
+^551851df-e6af-2a03
+

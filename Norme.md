@@ -23,4 +23,6 @@ title::"$\mathcal{N}(x)=0 \implies x=0$", "$\forall (\lambda, x)\in \mathbf{K}\t
 # Propriétés 
 
  - La norme est toujours positive 
- - 
+
+
+ - [[inégalité triangulaire]] :  $\|a+b\| \leq  \|a\|+\|b\|$

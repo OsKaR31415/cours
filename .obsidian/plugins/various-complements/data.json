@@ -3,7 +3,7 @@
   "matchStrategy": "partial",
   "maxNumberOfSuggestions": 10,
   "maxNumberOfWordsAsPhrase": 3,
-  "minNumberOfCharactersTriggered": 2,
+  "minNumberOfCharactersTriggered": 1,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "unix commandes": {
-      "unix commandes": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1674054230909
-        }
-      }
-    },
     "base": {
       "base": {
         "internalLink": {
@@ -63,67 +55,27 @@
         }
       }
     },
-    "sous espace vectoriel": {
-      "sous espace vectoriel": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1674060012936
-        }
-      }
-    },
-    "sous espace affine": {
-      "sous espace affine": {
-        "internalLink": {
-          "count": 12,
-          "lastUpdated": 1673742993611
-        }
-      }
-    },
     "dimension": {
       "dimension": {
         "internalLink": {
-          "count": 17,
-          "lastUpdated": 1675097638342
+          "count": 18,
+          "lastUpdated": 1676985231831
         }
       }
     },
     "corps": {
       "corps": {
         "internalLink": {
-          "count": 7,
-          "lastUpdated": 1675704918908
-        }
-      }
-    },
-    "combinaisons linéaires": {
-      "combinaisons linéaires": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674292387398
-        }
-      }
-    },
-    "combinaison linéaire": {
-      "combinaison linéaire": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1673478481969
+          "count": 8,
+          "lastUpdated": 1677176269266
         }
       }
     },
     "produit scalaire": {
       "produit scalaire": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1675092471468
-        }
-      }
-    },
-    "sev": {
-      "sev": {
-        "internalLink": {
-          "count": 9,
-          "lastUpdated": 1674292568492
+          "count": 4,
+          "lastUpdated": 1676989598245
         }
       }
     },
@@ -135,14 +87,6 @@
         }
       }
     },
-    "matrice antisymétrique": {
-      "matrice antisymétrique": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674502518247
-        }
-      }
-    },
     "théorème du rang": {
       "théorème du rang": {
         "internalLink": {
@@ -151,139 +95,11 @@
         }
       }
     },
-    "famille libre": {
-      "famille libre": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1674066535047
-        }
-      }
-    },
-    "libre": {
-      "libre": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674066821459
-        }
-      }
-    },
-    "morceau de musique": {
-      "morceau de musique": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673954957268
-        }
-      }
-    },
-    "Laurent Zeller": {
-      "Laurent Zeller": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673568712496
-        }
-      }
-    },
-    "algo_avancee_listes_chainees": {
-      "algo_avancee_listes_chainees": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673602462614
-        }
-      }
-    },
-    "convergente": {
-      "convergente": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673687183395
-        }
-      }
-    },
-    "suite de fonctions": {
-      "suite de fonctions": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1673688352092
-        }
-      }
-    },
-    "fonction bornée": {
-      "fonction bornée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673687821462
-        }
-      }
-    },
-    "suite de fonctions uniformément convergente": {
-      "suite de fonctions uniformément convergente": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1673688321352
-        }
-      }
-    },
     "uniformément convergente": {
       "uniformément convergente": {
         "internalLink": {
           "count": 6,
           "lastUpdated": 1676313952998
-        }
-      }
-    },
-    "structure de donnés": {
-      "structure de donnés": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673818822603
-        }
-      }
-    },
-    "LaTeX": {
-      "LaTeX": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1673880896471
-        }
-      }
-    },
-    "switchs": {
-      "switchs": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1673943399658
-        }
-      }
-    },
-    "STP": {
-      "STP": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673943404532
-        }
-      }
-    },
-    "chansons": {
-      "chansons": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673954969464
-        }
-      }
-    },
-    "Exécution d'un code machine": {
-      "Exécution d'un code machine": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673974902257
-        }
-      }
-    },
-    "harold cooper": {
-      "harold cooper": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673974923583
         }
       }
     },
@@ -303,142 +119,6 @@
         }
       }
     },
-    "ev": {
-      "ev": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674059907981
-        }
-      }
-    },
-    "famille de vecteurs échelonnée": {
-      "famille de vecteurs échelonnée": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1674066840990
-        }
-      }
-    },
-    "échelonnée": {
-      "échelonnée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674066842797
-        }
-      }
-    },
-    "méthode de gauss": {
-      "méthode de gauss": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674066901526
-        }
-      }
-    },
-    "fonction réciproque": {
-      "fonction réciproque": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674097700618
-        }
-      }
-    },
-    "langage de programmation": {
-      "langage de programmation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674157758480
-        }
-      }
-    },
-    "somme directe": {
-      "somme directe": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674292678711
-        }
-      }
-    },
-    "ensemble des applications linéaires": {
-      "ensemble des applications linéaires": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674299951912
-        }
-      }
-    },
-    "surjective": {
-      "surjective": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674300180090
-        }
-      }
-    },
-    "base canonique": {
-      "base canonique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674303238232
-        }
-      }
-    },
-    "base duale d'un espace vectoriel": {
-      "base duale d'un espace vectoriel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674304569043
-        }
-      }
-    },
-    "espace dual": {
-      "espace dual": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674304607967
-        }
-      }
-    },
-    "bijection": {
-      "bijection": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674304848711
-        }
-      }
-    },
-    "python modules": {
-      "python modules": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674336930803
-        }
-      }
-    },
-    "manim": {
-      "manim": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674409139943
-        }
-      }
-    },
-    "manim formes": {
-      "manim formes": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1674413494855
-        }
-      }
-    },
-    "manim animations": {
-      "manim animations": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1674415080798
-        }
-      }
-    },
     "forme bilinéaire": {
       "forme bilinéaire": {
         "internalLink": {
@@ -447,51 +127,11 @@
         }
       }
     },
-    "forme bilinéaire symétrique": {
-      "forme bilinéaire symétrique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674499836755
-        }
-      }
-    },
-    "L2_info_algo_activite_1-annotate": {
-      "L2_info_algo_activite_1-annotate": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674500076911
-        }
-      }
-    },
     "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
       "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676283675351
-        }
-      }
-    },
-    "partie symétrique": {
-      "partie symétrique": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674503284987
-        }
-      }
-    },
-    "matrice associée": {
-      "matrice associée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674504468678
-        }
-      }
-    },
-    "manim openGL": {
-      "manim openGL": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674516126388
+          "count": 4,
+          "lastUpdated": 1677490395946
         }
       }
     },
@@ -522,8 +162,8 @@
     "norme": {
       "norme": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675092473725
+          "count": 6,
+          "lastUpdated": 1676989603979
         }
       }
     },
@@ -554,16 +194,16 @@
     "inégalité de cauchy schwartz": {
       "inégalité de cauchy schwartz": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675101471228
+          "count": 2,
+          "lastUpdated": 1676989590179
         }
       }
     },
     "polygone 2022-07-26 16.40.43.excalidraw": {
       "polygone 2022-07-26 16.40.43.excalidraw": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675636640186
+          "count": 2,
+          "lastUpdated": 1676833382061
         }
       }
     },
@@ -610,16 +250,120 @@
     "rayon de convergence": {
       "rayon de convergence": {
         "internalLink": {
-          "count": 9,
-          "lastUpdated": 1676488360493
+          "count": 12,
+          "lastUpdated": 1676715376314
         }
       }
     },
     "série entière": {
       "série entière": {
         "internalLink": {
+          "count": 5,
+          "lastUpdated": 1676714966267
+        }
+      }
+    },
+    "système linéaire 2022-08-29 17.52.52.excalidraw": {
+      "système linéaire 2022-08-29 17.52.52.excalidraw": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1677489511158
+        }
+      }
+    },
+    "intégrale de 1/(x²+a²)": {
+      "intégrale de 1/(x²+a²)": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676912797573
+        }
+      }
+    },
+    "racine": {
+      "racine": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1676912890406
+        }
+      }
+    },
+    "classe": {
+      "classe": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676912863841
+        }
+      }
+    },
+    "vecteurs orthogonaux": {
+      "vecteurs orthogonaux": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676923203522
+        }
+      }
+    },
+    "sev": {
+      "sev": {
+        "internalLink": {
+          "count": 6,
+          "lastUpdated": 1676923604932
+        }
+      }
+    },
+    "espace préhilbertien": {
+      "espace préhilbertien": {
+        "internalLink": {
+          "count": 6,
+          "lastUpdated": 1676989615734
+        }
+      }
+    },
+    "bissectrice": {
+      "bissectrice": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676923414753
+        }
+      }
+    },
+    "inégalité triangulaire": {
+      "inégalité triangulaire": {
+        "internalLink": {
           "count": 4,
-          "lastUpdated": 1676488306086
+          "lastUpdated": 1676989771238
+        }
+      }
+    },
+    "distance": {
+      "distance": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676987554878
+        }
+      }
+    },
+    "séparation": {
+      "séparation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676988979642
+        }
+      }
+    },
+    "sev orthogonal": {
+      "sev orthogonal": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676989651000
+        }
+      }
+    },
+    "factorisation de xⁿ - 1": {
+      "factorisation de xⁿ - 1": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1677489586273
         }
       }
     }

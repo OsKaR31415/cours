@@ -1,5 +1,5 @@
-up::[[espace]]
-title::
+up::[[espace préhilbertien réel]]
+title::"[[espace]] de [[dimension d'un espace vectoriel|dimension]] finie muni d'un [[produit scalaire]] et d'une [[norme]]"
 #maths/algèbre #review 
 
 ----
@@ -14,8 +14,6 @@ title::
 ^definition
 
 
+
 # Propriétés
 
-## Produit scalaire
-Soit un $\mathbb{R}$-[[espace euclidien]] $E$, avec $Q$ la forme quadratique de $E$ 
-On appelle 

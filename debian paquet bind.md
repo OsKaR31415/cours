@@ -1,7 +1,7 @@
 ---
 alias: [ "paquet bind" ]
 ---
-up:: [[unix commandes]]
+up:: [[terminal commandes]]
 title::
 #informatique 
 

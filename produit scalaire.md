@@ -35,17 +35,18 @@ $<u, v> = u +.\times v = u^T \times v$ ([[multiplication de matrices]], avec $u$
 
 # Propriétés
 
-## Propriétés des produits scalaire
- - 
+## Propriétés des produits scalaires
+Soit $\langle \cdot,\cdot \rangle$ un produit scalaire quelconque
 
-## Propriétés du produit scalaire
-On considère le produit scalaire classique : $\langle u, v\rangle = \,^T\!u \times v$
+- Soit $A$ une matrice : $\boxed{\langle u, Av \rangle = \langle \,^T\!Au, v \rangle}$
+    - Démonstration :
 
- - le _produit scalaire_ est une [[forme bilinéaire symétrique]]
- - le _produit scalaire_ est une [[forme bilinéaire définie]]
-     - $\langle x, x\rangle = 0 \iff x = \vec{0}$
- - le _produit scalaire_ est une [[forme bilinéaire positive]]
-     - $\langle x, x\rangle \geq 0$
+$$\begin{align}
+\langle u, A v \rangle  &= \left(\,^T\!u \right) M \left(A v \right) && \text{soit } M \text{ la matrice du produit scalaire}\\
+&= \left( \,^T\!u M A \right) v && \text{par associativité} \\
+&= \,^T\!\left( \,^T\!A M u \right) \cdot v  && \text{car } M \text{ est symétrique}\\
+&= 
+\end{align}$$
 
 ## Orthogonalité
 On utilise le produit scalaire pour définir l'[[vecteurs orthogonaux|orthogonalité]].

@@ -1,7 +1,7 @@
 ---
 alias: [ "commande pour empêcher le système de se mettre en veille", "prevent system idle" ]
 ---
-up::[[unix commandes]] 
+up::[[terminal commandes]] 
 title:: "empêcher le système de se mettre en veille (Macos)"
 #informatique 
 

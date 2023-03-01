@@ -1,4 +1,4 @@
-up::[[versioning]], [[unix commandes]]
+up::[[versioning]], [[terminal commandes]]
 title::"Système de [[versioning]]"
 #PM #informatique
 

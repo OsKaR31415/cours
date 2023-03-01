@@ -1,7 +1,7 @@
 ---
 alias: [ "live remote terminal share", "online remote live terminal sharing", "share online terminal" ]
 ---
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"donner l'accès à un terminal ou à une commande via internet"
 link::https://tsl0922.github.io/ttyd/
 date::2022-12-22

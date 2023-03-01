@@ -3,7 +3,7 @@ alias: "useradd"
 ---
 sibling:: [[unix commande userdel]]
 
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"commande pour ajouter un nouvel utilisater"
 #informatique/unix
 

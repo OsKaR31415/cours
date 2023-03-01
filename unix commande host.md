@@ -1,4 +1,4 @@
-up:: [[unix commandes]]
+up:: [[terminal commandes]]
 title:: `host nom_de_machine 8.8.8.8`
 #informatique 
 

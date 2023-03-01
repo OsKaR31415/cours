@@ -1,7 +1,7 @@
 ---
 alias: [ "share terminal via ssh", "live remote terminal sharing" ]
 ---
-up::[[unix commandes]]
+up::[[terminal commandes]], [[ssh]]
 title::"command line live sessions (multiple users on the same command line)"
 usage::"`upterm (host|...)`"
 #informatique/unix

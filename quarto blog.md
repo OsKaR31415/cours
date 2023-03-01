@@ -1,4 +1,4 @@
-up:: [[unix commandes]] 
+up:: [[terminal commandes]] 
 title:: "producing documents from rmarkdown"
 link:: https://quarto.org/docs/get-started/hello/text-editor.html, https://quarto.org/docs/get-started/authoring/text-editor.html
 #informatique 

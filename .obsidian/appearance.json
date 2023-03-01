@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "baseFontSize": 27,
+  "baseFontSize": 23.5,
   "enabledCssSnippets": [
     "breadcrumbs",
     "custom_callouts",

@@ -1,4 +1,4 @@
-p::[[unix commandes]]
+p::[[terminal commandes]]
 title::"commandes du shell unix"
 #informatique/unix
 
@@ -6,7 +6,7 @@ title::"commandes du shell unix"
 
 
 
-> [!query] Sous-notes de [[unix commandes]]
+> [!query] Sous-notes de [[terminal commandes]]
 > ```dataview
 > TABLE title, usage, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC

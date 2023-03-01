@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"commandes pour avoir des informations sur l'identification des utilisateurs"
 #informatique/unix
 

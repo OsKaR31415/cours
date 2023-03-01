@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"symbole pour chaîner des commandes : `|`"
 #informatique/unix
 

@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"lecteur de [[ReStructuredText]] (rst)"
 #informatique/unix
 

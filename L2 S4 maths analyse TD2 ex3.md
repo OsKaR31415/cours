@@ -1,4 +1,4 @@
-# 3
+# Exercice 3
 On considère la suite de fonctions $(P_{n})_{n\in \mathbb{N}}$ définie sur $[0, 1]$ par :
 $$\begin{cases}
 P_0(x) = 0 \\
@@ -44,8 +44,12 @@ $\sqrt{ x } \leq \sqrt{ x } + P_{n}(x) \leq 2\sqrt{ x }$
 $\displaystyle 1 - \sqrt{ x } \leq 1 - \frac{\sqrt{ x } + P_{n}(x)}{2} \leq 1 - \frac{1}{2}\sqrt{ x }$
 Or, $0 \leq 1 - \sqrt{ x }$, et $1 - \frac{1}{2}\sqrt{ x } \leq 1$ car $x \in [0, 1]$
 Donc, on a bien $0 \leq \left( \sqrt{ x }-P_{n}(x) \right) \left( 1 - \dfrac{\sqrt{ x }+P_{n}(x)}{2} \right) \leq 1$
-Et donc, 
+Et donc, $\mathscr{F}_{n+1}$ est vraie.
 
 ### Conclusion
+
+Comme on a $\mathscr{F}_{0}$ vraie et $\forall n \in \mathbb{N}, \mathscr{F}_{n} \implies \mathscr{F}_{n+1}$, on sait par réccurence que $\forall n \in \mathbb{N}, \mathscr{F}_{n}$, c'est-à-dire que $0 \leq P_{n}(x) \leq \sqrt{ x }$ quel que soit $n \in \mathbb{N}$.
+
+
 
 

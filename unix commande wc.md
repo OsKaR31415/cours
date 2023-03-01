@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"compter le nombre de caractères, mots, lignes, d'un texte"
 #informatique/unix
 

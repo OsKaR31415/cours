@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"commande pour filtrer par des regex"
 #informatique/unix
 

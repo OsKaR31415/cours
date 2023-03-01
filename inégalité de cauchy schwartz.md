@@ -19,5 +19,5 @@ title:: "$|\langle u, v\rangle| \leq \|u\|\cdot\|v\|$"
 
 # Propriétés
 
- - Quand il y a égalité (quand $|\langle u, v\rangle | = \|u\|\cdot\|v\|$), les vecteurs $u$ et $v$ sont [[vecteurs colinéaires|colinéaires]]
+ - Quand il y a égalité (quand $|\langle u, v\rangle | = \|u\|\cdot\|v\|$), les vecteurs $u$ et $v$ sont **[[vecteurs colinéaires|colinéaires]] et de même direction**
 

@@ -1,4 +1,4 @@
-up::[[unix commandes]]
+up::[[terminal commandes]]
 title::"`ln target_file new_file` [[unix liens symboliques et physiques|lien physique]]", "`ln -s target_file new_symlink` [[unix liens symboliques et physiques|lien symbolique]]"
 #informatique/unix #review 
 

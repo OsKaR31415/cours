@@ -34,8 +34,8 @@
       "customCss": "body {\n    filter: invert(0.70) brightness(0.9) contrast(1.8) hue-rotate(180deg);\n}\n\n/* hide google adds */\n.adsbygoogle, iframe {\n\tdisplay: none !important\n}"
     },
     {
-      "url": "https://beta.sayhello.so",
-      "displayName": "say hello programming search engine",
+      "url": "https://phind.com",
+      "displayName": "phind programming search engine (say hello)",
       "icon": "search",
       "hideOnMobile": true,
       "addRibbonIcon": false,
@@ -67,9 +67,9 @@
       "customCss": ""
     },
     {
-      "url": "",
-      "displayName": "hand drawn latex mahts",
-      "icon": "https://webdemo.myscript.com/views/math/index.html",
+      "url": "https://webdemo.myscript.com/views/math/index.html",
+      "displayName": "hand drawn latex maths",
+      "icon": "",
       "hideOnMobile": true,
       "addRibbonIcon": false,
       "openInCenter": true,

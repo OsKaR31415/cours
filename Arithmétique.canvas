@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"b0635401d2625010","x":869,"y":-734,"width":853,"height":595,"type":"file","file":"pgcd.md"},
-		{"id":"6f9b58660762a230","x":1047,"y":236,"width":928,"height":1213,"type":"file","file":"théorème de Bézout.md"},
-		{"id":"520650be2fc22851","x":30,"y":-636,"width":561,"height":400,"type":"file","file":"divisibilité.md"},
-		{"id":"9bbd690cdb6e5478","x":-52,"y":-1565,"width":1369,"height":453,"type":"file","file":"congruence.md"},
-		{"id":"ef98dc17dc3145c5","x":-696,"y":-74,"width":805,"height":502,"type":"file","file":"division euclidienne.md"},
-		{"id":"9dc29f8c63d85e15","x":1526,"y":-1954,"width":1638,"height":579,"type":"text","text":"![[congruence#Propriétés]]"},
-		{"id":"1fcb32ac05d967c2","x":-1568,"y":-982,"width":940,"height":497,"type":"file","file":"nombre premier.md"},
-		{"id":"960a7a836e039ff5","x":-2892,"y":-1103,"width":896,"height":259,"type":"text","text":"![[nombre premier#Tous les nombres ont un divisibilité diviseur premier]]"},
-		{"id":"a1d3bc2c29212d51","x":-1426,"y":-2435,"width":1374,"height":698,"type":"file","file":"nombres premiers entre eux.md"},
-		{"id":"74e83a18d4e32465","x":2964,"y":-2435,"width":200,"height":200,"type":"text","text":"Slide:\n- 520650be2fc22851\n- ef98dc17dc3145c5\n- 9bbd690cdb6e5478\n- 9dc29f8c63d85e15\n- 1fcb32ac05d967c2\n- 960a7a836e039ff5\n- a1d3bc2c29212d51\n- b0635401d2625010\n- 6f9b58660762a230\n"}
+		{"type":"file","file":"pgcd.md","id":"b0635401d2625010","x":869,"y":-734,"width":853,"height":595},
+		{"type":"file","file":"théorème de Bézout.md","id":"6f9b58660762a230","x":1047,"y":236,"width":928,"height":1213},
+		{"type":"file","file":"divisibilité.md","id":"520650be2fc22851","x":30,"y":-636,"width":561,"height":400},
+		{"type":"file","file":"division euclidienne.md","id":"ef98dc17dc3145c5","x":-696,"y":-74,"width":805,"height":502},
+		{"type":"text","text":"![[congruence#Propriétés]]","id":"9dc29f8c63d85e15","x":1526,"y":-1954,"width":1638,"height":579},
+		{"type":"file","file":"nombre premier.md","id":"1fcb32ac05d967c2","x":-1568,"y":-982,"width":940,"height":497},
+		{"type":"text","text":"![[nombre premier#Tous les nombres ont un divisibilité diviseur premier]]","id":"960a7a836e039ff5","x":-2892,"y":-1103,"width":896,"height":259},
+		{"type":"file","file":"nombres premiers entre eux.md","id":"a1d3bc2c29212d51","x":-1426,"y":-2435,"width":1374,"height":698},
+		{"type":"text","text":"Slide:\n- 520650be2fc22851\n- ef98dc17dc3145c5\n- 9bbd690cdb6e5478\n- 9dc29f8c63d85e15\n- 1fcb32ac05d967c2\n- 960a7a836e039ff5\n- a1d3bc2c29212d51\n- b0635401d2625010\n- 6f9b58660762a230\n","id":"74e83a18d4e32465","x":2964,"y":-2435,"width":200,"height":200},
+		{"type":"file","file":"congruence.md","id":"9bbd690cdb6e5478","x":-73,"y":-1664,"width":1369,"height":453}
 	],
 	"edges":[
 		{"id":"5470ad82cfe3c6b3","fromNode":"6f9b58660762a230","fromSide":"top","toNode":"b0635401d2625010","toSide":"bottom"},

@@ -1,5 +1,5 @@
 ---
-alias: [ "base antéduale" ]
+alias: [ "base antéduale", "base préduale" ]
 ---
 up:: [[espace dual d'un espace vectoriel|espace dual]]
 sibling:: [[base duale d'une famille de formes linéaires|base duale]]

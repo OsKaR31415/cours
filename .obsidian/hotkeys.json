@@ -165,6 +165,12 @@
         "Mod"
       ],
       "key": "5"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
     }
   ],
   "workspace:toggle-pin": [
@@ -551,5 +557,6 @@
       ],
       "key": "G"
     }
-  ]
+  ],
+  "editor:insert-link": []
 }

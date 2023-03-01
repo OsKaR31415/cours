@@ -1,13 +1,13 @@
 ---
 alias: "analyse"
 ---
-#MOC#maths/analyse
+#MOC #maths/analyse
 
 ----
 L'analyse est l'étude des [[fonction|fonctions]]
 Voir **[[MOC fonctions]]**
 
-> [!smallquery] Sous-notes de `=this.file.link`
+> [!smallquery]- Sous-notes de `=this.file.link`
 > ```dataview
 > TABLE title, description, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
