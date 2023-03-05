@@ -2,6 +2,7 @@
 alias: [ "démonstration" ]
 ---
 up:: [[norme]] 
+sibling:: [[inégalité de Minkowski]]
 title:: "$d(a, c) \leq d(a, b) + d(b, c)$", "$\|a+b\| \leq \|a\| + \|b\|$"
 #maths/algèbre 
 
@@ -12,13 +13,14 @@ title:: "$d(a, c) \leq d(a, b) + d(b, c)$", "$\|a+b\| \leq \|a\| + \|b\|$"
 > Soit $d(x, y)$ la [[distance]] associée à cette norme
 > On a l'inégalité suivante :
 > $\boxed{\forall (a, b, c) \in E^{3},  \quad d(a, c) \leq d(a, b)+d(b, c)}$
-> Ou bien, de façon vectorielle :
+> Ou bien, de façon vectorielle ([[inégalité de Minkowski]]) :
 > $\|a+b\| \leq \|a\| + \|b\|$
 >  - [i]  on peut passer de l'une à l'autre avec un changement de variable $b-a\to a$ et $c - b \to a$
 ^definition
 
 # Démonstration
 ## $\|a+b\| \leq \|a\| + \|b\|$
+
 
 On commence par montrer l'inégalité sur les carrés :
 $\|a+b\|^{2} \leq (\|a\| + \|b\|)^{2}$

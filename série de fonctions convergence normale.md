@@ -1,7 +1,7 @@
 ---
 alias: [ "convergence normale d'une série de fonctions", "convergence normale" ]
 ---
-up:: [[convergence d'une série de fonctions]]
+up:: [[série de fonctions convergence]]
 title:: "$\sum f_{n}(x)$ sur $I$ CV si $\sum\limits_{n} \big(\|u_{n}\|_{\infty} \big) \leq +\infty$"
 #maths/analyse 
 

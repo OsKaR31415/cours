@@ -110,8 +110,13 @@
                   ]
                 },
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "upterm.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
                 }
               }
             ],
@@ -223,6 +228,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "upterm.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -243,6 +249,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "upterm.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -290,7 +297,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "upterm.md"
+                  }
                 }
               },
               {
@@ -342,6 +351,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "upterm.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -1768,92 +1778,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "0d43176c45f39bb0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_TD3-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD3-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD1-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD1-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD3",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD3.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD4",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD4.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD4_bis",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD4_bis.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD3",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD3.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_analyse_TD2-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_TD2-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_TD3-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD3-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_TD4",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD4.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_TD3-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD3-annotate.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_TD2-annotate",
-                      "icon": "blocks",
-                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD2-annotate.md\"}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_TD4.pdf"
-                  }
-                }
-              },
-              {
-                "id": "dd3096e6fea8c230",
+                "id": "fd1a5960f51f716a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1867,7 +1792,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "inégalité de cauchy schwartz.md",
+                    "file": "daily/2023-03-01.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1875,7 +1800,7 @@
                 }
               },
               {
-                "id": "a326dc26bb0e3e34",
+                "id": "c92fb01ae5ceb0bf",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1883,6 +1808,83 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "inégalité triangulaire.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e8f54ead4a8001fa",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2021_correction",
+                      "icon": "lucide-file-text",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021_correction.pdf\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "inégalité de Minkowski",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inégalité de Minkowski.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":133},\"to\":{\"line\":28,\"ch\":133}},\"scroll\":18.676301010857358}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_analyse_CC1_2019.pdf"
+                  }
+                }
+              },
+              {
+                "id": "2f3494c777891570",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_algebre_TD3-annotate",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD3-annotate.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "série de fonctions convergence uniforme",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence uniforme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "série de fonctions convergence",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":1.549645390070922}"
+                    },
+                    {
+                      "title": "série de fonctions types de convergence",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions types de convergence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
@@ -1894,35 +1896,7 @@
                 }
               },
               {
-                "id": "9ad027f0d2ce8956",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "espace préhilbertien",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"espace préhilbertien.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.7753086419753087}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "espace préhilbertien réel.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a4c3421052211953",
+                "id": "d987dd0a9ad35898",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1936,46 +1910,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "produit scalaire.md",
+                    "file": "Untitled.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "faa3cacec3af0ebb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_CC1_2020",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_CC1_2020.pdf\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "L2_maths_algebre_CC1_2020_correction",
-                      "icon": "lucide-file-text",
-                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_CC1_2020_correction.pdf\"}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md"
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -2100,7 +2043,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md",
+                    "file": "Untitled.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2121,7 +2064,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md",
+                    "file": "Untitled.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2130,6 +2073,23 @@
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": false
                   }
+                }
+              },
+              {
+                "id": "4a09e25bfc193912",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
                 }
               }
             ]
@@ -2162,7 +2122,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md"
+                    "file": "Untitled.md"
                   }
                 }
               },
@@ -2201,23 +2161,6 @@
                 }
               },
               {
-                "id": "bf6c068c22a39e9f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2232,7 +2175,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md",
+                    "file": "Untitled.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2399,6 +2342,31 @@
                   "type": "QUICKSHARE_SIDE_VIEW",
                   "state": {}
                 }
+              },
+              {
+                "id": "baf05012e25adfe7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {}
+                }
+              },
+              {
+                "id": "55e3bb7226eb441b",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
               }
             ]
           },
@@ -2464,7 +2432,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-spaced-repetition:Review flashcards": false,
           "obsidian-custom-frames:Open Detexify": true,
           "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
           "obsidian-custom-frames:Open compteur NDLI": true,
@@ -2477,12 +2444,14 @@
           "workspaces:Manage workspace layouts": true,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "zk-prefixer:Create new unique note": false,
           "breadcrumbs:Breadcrumbs Visualisation": false,
-          "zk-prefixer:Create new unique note": false
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "terminal:Open terminal": false
         }
       },
-      "active": "faa3cacec3af0ebb",
+      "active": "d987dd0a9ad35898",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2491,16 +2460,15 @@
           "/",
           "sources",
           "templates",
+          "Excalidraw/Scripts",
           "blog/posts",
           "sources/cours",
           "blog/posts/informatique",
           "blog/posts/maths",
-          "quarto/test_files/libs",
           "sources/cours/S4",
-          "blog/posts/informatique/_images",
-          "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
-          "quarto/test_files/libs/quarto-html"
+          "blog/posts/maths/_images",
+          "blog/posts/informatique/_images"
         ]
       }
     },
@@ -2647,6 +2615,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "algo avancee correction controle 1",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee correction controle 1.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "algo avancee fonctionnelles",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee fonctionnelles.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":10},\"to\":{\"line\":6,\"ch\":10}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -2661,26 +2641,7 @@
                 }
               },
               {
-                "id": "f94971a648f4230e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "http://localhost:3191/posts/informatique/algo%20avancee%20fonctionnelles.html"
-                  }
-                }
-              },
-              {
-                "id": "f7364a4a895918d0",
+                "id": "2d7964b14b056d17",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2694,34 +2655,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "quarto blog.md",
+                    "file": "blog/posts/informatique/algo avancee activite 3.qmd",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "87f35d48c4aad038",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://regex101.com/"
-                  }
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -2830,7 +2772,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                    "file": "blog/posts/informatique/algo avancee activite 3.qmd",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2851,7 +2793,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                    "file": "blog/posts/informatique/algo avancee activite 3.qmd",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2921,7 +2863,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd"
+                    "file": "blog/posts/informatique/algo avancee activite 3.qmd"
                   }
                 }
               },
@@ -2974,7 +2916,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                    "file": "blog/posts/informatique/algo avancee activite 3.qmd",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -3218,8 +3160,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 9
+            ]
           },
           {
             "id": "9b0b445260de35cb",
@@ -3283,6 +3224,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "terminal:Open terminal": false,
           "zk-prefixer:Create new unique note": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
@@ -3301,7 +3243,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "06c3a78ba987d6fb",
+      "active": "2d7964b14b056d17",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -3313,9 +3255,7 @@
           "blog/posts/autres",
           "blog/posts/informatique",
           "blog/posts/welcome",
-          "quarto/test_files/libs",
           "blog/posts/welcome/_images",
-          "quarto/test_files/libs/quarto-html",
           "informatique/java/L1/cardinalites"
         ]
       }
@@ -3995,5 +3935,5 @@
       }
     }
   },
-  "active": "blog"
+  "active": "maths evelyne"
 }

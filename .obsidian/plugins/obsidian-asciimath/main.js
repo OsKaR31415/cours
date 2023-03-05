@@ -26,7 +26,7 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 
-// main.ts
+// src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => AsciiMathPlugin
@@ -34,1174 +34,638 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian2 = require("obsidian");
 
-// node_modules/.pnpm/asciimath-parser@0.3.5/node_modules/asciimath-parser/dist/index.js
-var SYMBOLMAP = /* @__PURE__ */ new Map([
-  ["alpha", { type: "Const", tex: "\\alpha" }],
-  ["beta", { type: "Const", tex: "\\beta" }],
-  ["gamma", { type: "Const", tex: "\\gamma" }],
-  ["Gamma", { type: "Const", tex: "\\Gamma" }],
-  ["delta", { type: "Const", tex: "\\delta" }],
-  ["Delta", { type: "Const", tex: "\\Delta" }],
-  ["epsi", { type: "Const", tex: "\\varepsilon" }],
-  ["epsilon", { type: "Const", tex: "\\epsilon" }],
-  ["varepsilon", { type: "Const", tex: "\\varepsilon" }],
-  ["zeta", { type: "Const", tex: "\\zeta" }],
-  ["eta", { type: "Const", tex: "\\eta" }],
-  ["theta", { type: "Const", tex: "\\theta" }],
-  ["Theta", { type: "Const", tex: "\\Theta" }],
-  ["vartheta", { type: "Const", tex: "\\vartheta" }],
-  ["iota", { type: "Const", tex: "\\iota" }],
-  ["kappa", { type: "Const", tex: "\\kappa" }],
-  ["lambda", { type: "Const", tex: "\\lambda" }],
-  ["Lambda", { type: "Const", tex: "\\Lambda" }],
-  ["mu", { type: "Const", tex: "\\mu" }],
-  ["nu", { type: "Const", tex: "\\nu" }],
-  ["xi", { type: "Const", tex: "\\xi" }],
-  ["Xi", { type: "Const", tex: "\\Xi" }],
-  ["pi", { type: "Const", tex: "\\pi" }],
-  ["Pi", { type: "Const", tex: "\\Pi" }],
-  ["rho", { type: "Const", tex: "\\rho" }],
-  ["sigma", { type: "Const", tex: "\\sigma" }],
-  ["Sigma", { type: "Const", tex: "\\Sigma" }],
-  ["tau", { type: "Const", tex: "\\tau" }],
-  ["upsilon", { type: "Const", tex: "\\upsilon" }],
-  ["phi", { type: "Const", tex: "\\phi" }],
-  ["varphi", { type: "Const", tex: "\\varphi" }],
-  ["Phi", { type: "Const", tex: "\\Phi" }],
-  ["chi", { type: "Const", tex: "\\chi" }],
-  ["psi", { type: "Const", tex: "\\psi" }],
-  ["Psi", { type: "Const", tex: "\\Psi" }],
-  ["omega", { type: "Const", tex: "\\omega" }],
-  ["Omega", { type: "Const", tex: "\\Omega" }],
-  ["***", { type: "Const", tex: "\\star" }],
-  ["**", { type: "Const", tex: "\\ast" }],
-  ["*", { type: "Const", tex: "\\cdot" }],
-  ["//", { type: "Const", tex: "{/}" }],
-  ["\\\\", { type: "Const", tex: "\\backslash" }],
-  ["setminus", { type: "Const", tex: "\\setminus" }],
-  ["xx", { type: "Const", tex: "\\times" }],
-  ["|><", { type: "Const", tex: "\\ltimes" }],
-  ["><|", { type: "Const", tex: "\\rtimes" }],
-  ["|><|", { type: "Const", tex: "\\bowtie" }],
-  ["-:", { type: "Const", tex: "\\div" }],
-  ["@", { type: "Const", tex: "\\circ" }],
-  ["o+", { type: "Const", tex: "\\oplus" }],
-  ["ox", { type: "Const", tex: "\\otimes" }],
-  ["o.", { type: "Const", tex: "\\odot" }],
-  ["sum", { type: "Const", tex: "\\sum" }],
-  ["prod", { type: "Const", tex: "\\prod" }],
-  ["^^", { type: "Const", tex: "\\wedge" }],
-  ["^^^", { type: "Const", tex: "\\bigwedge" }],
-  ["vv", { type: "Const", tex: "\\vee" }],
-  ["vvv", { type: "Const", tex: "\\bigvee" }],
-  ["nn", { type: "Const", tex: "\\cap" }],
-  ["nnn", { type: "Const", tex: "\\bigcap" }],
-  ["uu", { type: "Const", tex: "\\cup" }],
-  ["uuu", { type: "Const", tex: "\\bigcup" }],
-  ["!=", { type: "Const", tex: "\\ne" }],
-  ["lt", { type: "Const", tex: "<" }],
-  ["<=", { type: "Const", tex: "\\leqslant" }],
-  ["le", { type: "Const", tex: "\\le" }],
-  ["gt", { type: "Const", tex: ">" }],
-  [">=", { type: "Const", tex: "\\geqslant" }],
-  ["ge", { type: "Const", tex: "\\ge" }],
-  ["-<", { type: "Const", tex: "\\prec" }],
-  [">-", { type: "Const", tex: "\\succ" }],
-  ["-<=", { type: "Const", tex: "\\preceq" }],
-  [">-=", { type: "Const", tex: "\\succeq" }],
-  ["in", { type: "Const", tex: "\\in" }],
-  ["!in", { type: "Const", tex: "\\notin" }],
-  ["sub", { type: "Const", tex: "\\subset" }],
-  ["sup", { type: "Const", tex: "\\supset" }],
-  ["sube", { type: "Const", tex: "\\subseteq" }],
-  ["supe", { type: "Const", tex: "\\supseteq" }],
-  ["-=", { type: "Const", tex: "\\equiv" }],
-  ["~=", { type: "Const", tex: "\\cong" }],
-  ["~", { type: "Const", tex: "\\sim" }],
-  ["~~", { type: "Const", tex: "\\approx" }],
-  ["prop", { type: "Const", tex: "\\propto" }],
-  ["complement", { type: "Const", tex: "\\complement" }],
-  ["if", { type: "Text", tex: "if\\quad" }],
-  ["otherwise", { type: "Text", tex: "otherwise\\quad" }],
-  ["and", { type: "Text", tex: " and " }],
-  ["or", { type: "Text", tex: " or " }],
-  ["not", { type: "Const", tex: "\\neg" }],
-  ["=>", { type: "Const", tex: "\\implies" }],
-  ["<=>", { type: "Const", tex: "\\iff" }],
-  ["iff", { type: "Const", tex: "\\iff" }],
-  ["AA", { type: "Const", tex: "\\forall" }],
-  ["EE", { type: "Const", tex: "\\exists" }],
-  ["_|_", { type: "Const", tex: "\\bot" }],
-  ["TT", { type: "Const", tex: "\\top" }],
-  ["|--", { type: "Const", tex: "\\vdash" }],
-  ["|==", { type: "Const", tex: "\\models" }],
-  ["int", { type: "Const", tex: "\\int" }],
-  ["oint", { type: "Const", tex: "\\oint" }],
-  ["del", { type: "Const", tex: "\\partial" }],
-  ["grad", { type: "Const", tex: "\\nabla" }],
-  ["+-", { type: "Const", tex: "\\pm" }],
-  ["O/", { type: "Const", tex: "\\varnothing" }],
-  ["oo", { type: "Const", tex: "\\infty" }],
-  ["aleph", { type: "Const", tex: "\\aleph" }],
-  ["...", { type: "Const", tex: "\\ldots" }],
-  [":.", { type: "Const", tex: "\\therefore" }],
-  [":'", { type: "Const", tex: "\\because" }],
-  ["/_", { type: "Const", tex: "\\angle" }],
-  ["/_\\", { type: "Const", tex: "\\triangle" }],
-  ["quad", { type: "Const", tex: "\\quad" }],
-  ["qquad", { type: "Const", tex: "\\qquad" }],
-  ["cdots", { type: "Const", tex: "\\cdots" }],
-  ["vdots", { type: "Const", tex: "\\vdots" }],
-  ["ddots", { type: "Const", tex: "\\ddots" }],
-  ["diamond", { type: "Const", tex: "\\diamond" }],
-  ["Lap", { type: "Const", tex: "\\mathscr{L}" }],
-  ["square", { type: "Const", tex: "\\square" }],
-  ["|__", { type: "LParen", tex: "\\lfloor" }],
-  ["__|", { type: "RParen", tex: "\\rfloor" }],
-  ["|~", { type: "LParen", tex: "\\lceil" }],
-  ["~|", { type: "RParen", tex: "\\rceil" }],
-  ["CC", { type: "Const", tex: "\\mathbb{C}" }],
-  ["NN", { type: "Const", tex: "\\mathbb{N}" }],
-  ["QQ", { type: "Const", tex: "\\mathbb{QQ}" }],
-  ["RR", { type: "Const", tex: "\\mathbb{R}" }],
-  ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }],
-  ["'", { type: "Const", tex: "^{\\prime}" }],
-  ["''", { type: "Const", tex: "^{\\prime\\prime}" }],
-  ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }],
-  ["lim", { type: "Const", tex: "\\lim" }],
-  ["sin", { type: "Const", tex: "\\sin" }],
-  ["cos", { type: "Const", tex: "\\cos" }],
-  ["tan", { type: "Const", tex: "\\tan" }],
-  ["sinh", { type: "Const", tex: "\\sinh" }],
-  ["cosh", { type: "Const", tex: "\\cosh" }],
-  ["tanh", { type: "Const", tex: "\\tanh" }],
-  ["cot", { type: "Const", tex: "\\cot" }],
-  ["sec", { type: "Const", tex: "\\sec" }],
-  ["csc", { type: "Const", tex: "\\csc" }],
-  ["arcsin", { type: "Const", tex: "\\arcsin" }],
-  ["arccos", { type: "Const", tex: "\\arccos" }],
-  ["arctan", { type: "Const", tex: "\\arctan" }],
-  ["coth", { type: "Const", tex: "\\coth" }],
-  ["sech", { type: "Const", tex: "\\sech" }],
-  ["csch", { type: "Const", tex: "\\csch" }],
-  ["exp", { type: "Const", tex: "\\exp" }],
-  ["log", { type: "Const", tex: "\\log" }],
-  ["ln", { type: "Const", tex: "\\ln" }],
-  ["det", { type: "Const", tex: "\\det" }],
-  ["dim", { type: "Const", tex: "\\dim" }],
-  ["gcd", { type: "Const", tex: "\\gcd" }],
-  ["lcm", { type: "Text", tex: "lcm" }],
-  ["min", { type: "Const", tex: "\\min" }],
-  ["max", { type: "Const", tex: "\\max" }],
-  ["Sup", { type: "Text", tex: "sup" }],
-  ["inf", { type: "Const", tex: "\\inf" }],
-  ["mod", { type: "Text", tex: "mod" }],
-  ["sgn", { type: "Text", tex: "sgn" }],
-  ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }],
-  ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }],
-  ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }],
-  ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }],
-  ["uarr", { type: "Const", tex: "\\uparrow" }],
-  ["uparrow", { type: "Const", tex: "\\uparrow" }],
-  ["darr", { type: "Const", tex: "\\downarrow" }],
-  ["downarrow", { type: "Const", tex: "\\downarrow" }],
-  ["rarr", { type: "Const", tex: "\\rightarrow" }],
-  ["rightarrow", { type: "Const", tex: "\\rightarrow" }],
-  ["to", { type: "Const", tex: "\\to" }],
-  ["->", { type: "Const", tex: "\\to" }],
-  [">->", { type: "Const", tex: "\\rightarrowtail" }],
-  ["->>", { type: "Const", tex: "\\twoheadrightarrow" }],
-  [">->>", { type: "Const", tex: "\\twoheadrightarrowtail" }],
-  ["|->", { type: "Const", tex: "\\mapsto" }],
-  ["larr", { type: "Const", tex: "\\leftarrow" }],
-  ["leftarrow", { type: "Const", tex: "\\leftarrow" }],
-  ["harr", { type: "Const", tex: "\\leftrightarrow" }],
-  ["rArr", { type: "Const", tex: "\\Rightarrow" }],
-  ["lArr", { type: "Const", tex: "\\Leftarrow" }],
-  ["hArr", { type: "Const", tex: "\\Leftrightarrow" }],
-  ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }],
-  ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }],
-  ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }],
-  ["circArrRt", { type: "Const", tex: "\\circlearrowright" }],
-  ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }],
-  ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }],
-  ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }],
-  ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }],
-  ["_", { type: "OperatorSup", tex: "_{ $1 }" }],
-  ["^", { type: "OperatorSup", tex: "^{ $1 }" }],
-  ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }],
-  ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }],
-  ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }],
-  ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }],
-  ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }],
-  ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }],
-  ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }],
-  ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }],
-  ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }],
-  ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }],
-  ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }],
-  ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }],
-  ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }],
-  ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }],
-  ["color", { type: "OperatorOAB", tex: "\\color{$1}{ $2 }" }],
-  ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }],
-  ["text", { type: "OperatorA", tex: "\\text{$1}" }],
-  ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }],
-  ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }" }],
-  ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }],
-  ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }],
-  ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }],
-  ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }],
-  ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }],
-  ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }],
-  ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }],
-  ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }],
-  ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }],
-  ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }],
-  ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }],
-  ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }],
-  ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }],
-  ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }],
-  ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }],
-  ["iint", { type: "Const", tex: "\\iint" }],
-  ["iiint", { type: "Const", tex: "\\iiint" }],
-  ["oiint", { type: "Const", tex: "\u222F" }],
-  ["oiiint", { type: "Const", tex: "\u2230" }],
-  ["laplace", { type: "Const", tex: "\\Delta" }],
-  ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }],
-  ["||", { type: "Const", tex: "\\Vert" }],
-  ["!||", { type: "Const", tex: "\u2226" }],
-  ["S=", { type: "Const", tex: "\u224C" }],
-  ["S~", { type: "Const", tex: "\u223D" }],
-  ["!-=", { type: "Const", tex: "\\not\\equiv" }],
-  ["!|", { type: "Const", tex: "\u2224" }],
-  ["!", { type: "OperatorAO", tex: "!" }],
-  ["!!", { type: "OperatorAO", tex: "!!" }],
-  ["!sube", { type: "Const", tex: "\\not\\sube" }],
-  ["!supe", { type: "Const", tex: "\\not\\supe" }],
-  ["subne", { type: "Const", tex: "\u228A" }],
-  ["supne", { type: "Const", tex: "\u228B" }],
-  ["lhd", { type: "Const", tex: "\\lhd" }],
-  ["rhd", { type: "Const", tex: "\\rhd" }],
-  ["normal", { type: "Const", tex: "\\unlhd" }],
-  ["rnormal", { type: "Const", tex: "\\unrhd" }],
-  ["(", { type: "LParen", tex: "(" }],
-  [")", { type: "RParen", tex: ")" }],
-  ["[", { type: "LParen", tex: "[" }],
-  ["]", { type: "RParen", tex: "]" }],
-  ["{", { type: "LParen", tex: "\\lbrace" }],
-  ["}", { type: "RParen", tex: "\\rbrace" }],
-  ["(:", { type: "LParen", tex: "\\langle" }],
-  [":)", { type: "RParen", tex: "\\rangle" }],
-  ["{:", { type: "LParen", tex: "." }],
-  [":}", { type: "RParen", tex: "." }],
-  ["|", { type: "Paren", tex: "|" }],
-  ["&", { type: "Align", tex: "&" }],
-  [",", { type: "Split", tex: "," }],
-  [";", { type: "Split", tex: ";" }]
-]);
-function createRootNode() {
-  return {
-    type: "Root",
-    body: []
-  };
+// node_modules/.pnpm/asciimath-parser@0.5.0/node_modules/asciimath-parser/dist/index.js
+var h = /* @__PURE__ */ new Map([["alpha", { type: "Const", tex: "\\alpha" }], ["beta", { type: "Const", tex: "\\beta" }], ["gamma", { type: "Const", tex: "\\gamma" }], ["Gamma", { type: "Const", tex: "\\Gamma" }], ["delta", { type: "Const", tex: "\\delta" }], ["Delta", { type: "Const", tex: "\\Delta" }], ["epsi", { type: "Const", tex: "\\varepsilon" }], ["epsilon", { type: "Const", tex: "\\epsilon" }], ["varepsilon", { type: "Const", tex: "\\varepsilon" }], ["zeta", { type: "Const", tex: "\\zeta" }], ["eta", { type: "Const", tex: "\\eta" }], ["theta", { type: "Const", tex: "\\theta" }], ["Theta", { type: "Const", tex: "\\Theta" }], ["vartheta", { type: "Const", tex: "\\vartheta" }], ["iota", { type: "Const", tex: "\\iota" }], ["kappa", { type: "Const", tex: "\\kappa" }], ["lambda", { type: "Const", tex: "\\lambda" }], ["Lambda", { type: "Const", tex: "\\Lambda" }], ["mu", { type: "Const", tex: "\\mu" }], ["nu", { type: "Const", tex: "\\nu" }], ["xi", { type: "Const", tex: "\\xi" }], ["Xi", { type: "Const", tex: "\\Xi" }], ["pi", { type: "Const", tex: "\\pi" }], ["Pi", { type: "Const", tex: "\\Pi" }], ["rho", { type: "Const", tex: "\\rho" }], ["sigma", { type: "Const", tex: "\\sigma" }], ["Sigma", { type: "Const", tex: "\\Sigma" }], ["tau", { type: "Const", tex: "\\tau" }], ["upsilon", { type: "Const", tex: "\\upsilon" }], ["phi", { type: "Const", tex: "\\phi" }], ["varphi", { type: "Const", tex: "\\varphi" }], ["Phi", { type: "Const", tex: "\\Phi" }], ["chi", { type: "Const", tex: "\\chi" }], ["psi", { type: "Const", tex: "\\psi" }], ["Psi", { type: "Const", tex: "\\Psi" }], ["omega", { type: "Const", tex: "\\omega" }], ["Omega", { type: "Const", tex: "\\Omega" }], ["***", { type: "Const", tex: "\\star" }], ["star", { type: "Const", tex: "\\star" }], ["**", { type: "Const", tex: "\\ast" }], ["ast", { type: "Const", tex: "\\ast" }], ["*", { type: "Const", tex: "\\cdot" }], ["cdot", { type: "Const", tex: "\\cdot" }], ["//", { type: "Const", tex: "{/}" }], ["\\\\", { type: "Const", tex: "\\backslash" }], ["setminus", { type: "Const", tex: "\\setminus" }], ["xx", { type: "Const", tex: "\\times" }], ["|><", { type: "Const", tex: "\\ltimes" }], ["><|", { type: "Const", tex: "\\rtimes" }], ["|><|", { type: "Const", tex: "\\bowtie" }], ["-:", { type: "Const", tex: "\\div" }], ["@", { type: "Const", tex: "\\circ" }], ["o+", { type: "Const", tex: "\\oplus" }], ["ox", { type: "Const", tex: "\\otimes" }], ["o.", { type: "Const", tex: "\\odot" }], ["sum", { type: "Const", tex: "\\sum" }], ["prod", { type: "Const", tex: "\\prod" }], ["^^", { type: "Const", tex: "\\wedge" }], ["^^^", { type: "Const", tex: "\\bigwedge" }], ["vv", { type: "Const", tex: "\\vee" }], ["vvv", { type: "Const", tex: "\\bigvee" }], ["nn", { type: "Const", tex: "\\cap" }], ["nnn", { type: "Const", tex: "\\bigcap" }], ["uu", { type: "Const", tex: "\\cup" }], ["uuu", { type: "Const", tex: "\\bigcup" }], ["!=", { type: "Const", tex: "\\ne" }], ["lt", { type: "Const", tex: "<" }], ["<=", { type: "Const", tex: "\\leqslant" }], ["le", { type: "Const", tex: "\\le" }], ["gt", { type: "Const", tex: ">" }], [">=", { type: "Const", tex: "\\geqslant" }], ["ge", { type: "Const", tex: "\\ge" }], ["-<", { type: "Const", tex: "\\prec" }], [">-", { type: "Const", tex: "\\succ" }], ["-<=", { type: "Const", tex: "\\preceq" }], [">-=", { type: "Const", tex: "\\succeq" }], ["in", { type: "Const", tex: "\\in" }], ["!in", { type: "Const", tex: "\\notin" }], ["sub", { type: "Const", tex: "\\subset" }], ["sup", { type: "Const", tex: "\\supset" }], ["sube", { type: "Const", tex: "\\subseteq" }], ["supe", { type: "Const", tex: "\\supseteq" }], ["-=", { type: "Const", tex: "\\equiv" }], ["~=", { type: "Const", tex: "\\cong" }], ["~", { type: "Const", tex: "\\sim" }], ["~~", { type: "Const", tex: "\\approx" }], ["\\#", { type: "Const", tex: "\\#" }], ["\\&", { type: "Const", tex: "\\&" }], ["\\@", { type: "Const", tex: "@" }], ["\\%", { type: "Const", tex: "\\%" }], ["%", { type: "Const", tex: "\\%" }], ["\\_", { type: "Const", tex: "\\_" }], ["\\^", { type: "Const", tex: "\\^" }], ["\\$", { type: "Const", tex: "\\$" }], ["\\ ", { type: "Const", tex: "\\ " }], ["\\,", { type: "Const", tex: "\\," }], ["\\;", { type: "Const", tex: "\\;" }], ["\\:", { type: "Const", tex: "\\:" }], ["\\!", { type: "Const", tex: "\\!" }], ["enspace", { type: "Const", tex: "\\enspace" }], ["hspace", { type: "OperatorA", tex: "\\hspace{$1}" }], ["prop", { type: "Const", tex: "\\propto" }], ["complement", { type: "Const", tex: "\\complement" }], ["if", { type: "Text", tex: "if\\quad" }], ["otherwise", { type: "Text", tex: "otherwise\\quad" }], ["and", { type: "Text", tex: " and " }], ["or", { type: "Text", tex: " or " }], ["not", { type: "Const", tex: "\\neg" }], ["=>", { type: "Const", tex: "\\implies" }], ["<=>", { type: "Const", tex: "\\iff" }], ["iff", { type: "Const", tex: "\\iff" }], ["AA", { type: "Const", tex: "\\forall" }], ["EE", { type: "Const", tex: "\\exists" }], ["_|_", { type: "Const", tex: "\\bot" }], ["TT", { type: "Const", tex: "\\top" }], ["|--", { type: "Const", tex: "\\vdash" }], ["|==", { type: "Const", tex: "\\models" }], ["int", { type: "Const", tex: "\\int" }], ["oint", { type: "Const", tex: "\\oint" }], ["del", { type: "Const", tex: "\\partial" }], ["grad", { type: "Const", tex: "\\nabla" }], ["+-", { type: "Const", tex: "\\pm" }], ["O/", { type: "Const", tex: "\\varnothing" }], ["oo", { type: "Const", tex: "\\infty" }], ["aleph", { type: "Const", tex: "\\aleph" }], ["...", { type: "Const", tex: "\\ldots" }], [":.", { type: "Const", tex: "\\therefore" }], [":'", { type: "Const", tex: "\\because" }], ["/_", { type: "Const", tex: "\\angle" }], ["/_\\", { type: "Const", tex: "\\triangle" }], ["quad", { type: "Const", tex: "\\quad" }], ["qquad", { type: "Const", tex: "\\qquad" }], ["cdots", { type: "Const", tex: "\\cdots" }], ["vdots", { type: "Const", tex: "\\vdots" }], ["ddots", { type: "Const", tex: "\\ddots" }], ["diamond", { type: "Const", tex: "\\diamond" }], ["Lap", { type: "Const", tex: "\\mathscr{L}" }], ["square", { type: "Const", tex: "\\square" }], ["|__", { type: "LParen", tex: "\\lfloor" }], ["__|", { type: "RParen", tex: "\\rfloor" }], ["|~", { type: "LParen", tex: "\\lceil" }], ["~|", { type: "RParen", tex: "\\rceil" }], ["CC", { type: "Const", tex: "\\mathbb{C}" }], ["NN", { type: "Const", tex: "\\mathbb{N}" }], ["QQ", { type: "Const", tex: "\\mathbb{Q}" }], ["RR", { type: "Const", tex: "\\mathbb{R}" }], ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }], ["'", { type: "Const", tex: "^{\\prime}" }], ["''", { type: "Const", tex: "^{\\prime\\prime}" }], ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }], ["lim", { type: "Const", tex: "\\lim" }], ["sin", { type: "Const", tex: "\\sin" }], ["cos", { type: "Const", tex: "\\cos" }], ["tan", { type: "Const", tex: "\\tan" }], ["sinh", { type: "Const", tex: "\\sinh" }], ["cosh", { type: "Const", tex: "\\cosh" }], ["tanh", { type: "Const", tex: "\\tanh" }], ["cot", { type: "Const", tex: "\\cot" }], ["sec", { type: "Const", tex: "\\sec" }], ["csc", { type: "Const", tex: "\\csc" }], ["arcsin", { type: "Const", tex: "\\arcsin" }], ["arccos", { type: "Const", tex: "\\arccos" }], ["arctan", { type: "Const", tex: "\\arctan" }], ["coth", { type: "Const", tex: "\\coth" }], ["sech", { type: "Const", tex: "\\sech" }], ["csch", { type: "Const", tex: "\\csch" }], ["exp", { type: "Const", tex: "\\exp" }], ["log", { type: "Const", tex: "\\log" }], ["ln", { type: "Const", tex: "\\ln" }], ["det", { type: "Const", tex: "\\det" }], ["dim", { type: "Const", tex: "\\dim" }], ["gcd", { type: "Const", tex: "\\gcd" }], ["lcm", { type: "Const", tex: "\\operatorname{lcm}" }], ["min", { type: "Const", tex: "\\min" }], ["max", { type: "Const", tex: "\\max" }], ["Sup", { type: "Const", tex: "\\sup" }], ["inf", { type: "Const", tex: "\\inf" }], ["mod", { type: "Const", tex: "\\operatorname{mod}" }], ["sgn", { type: "Const", tex: "\\operatorname{sgn}" }], ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }], ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }], ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }], ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }], ["uarr", { type: "Const", tex: "\\uparrow" }], ["uparrow", { type: "Const", tex: "\\uparrow" }], ["darr", { type: "Const", tex: "\\downarrow" }], ["downarrow", { type: "Const", tex: "\\downarrow" }], ["rarr", { type: "Const", tex: "\\rightarrow" }], ["rightarrow", { type: "Const", tex: "\\rightarrow" }], ["to", { type: "Const", tex: "\\to" }], ["->", { type: "Const", tex: "\\to" }], [">->", { type: "Const", tex: "\\rightarrowtail" }], ["->>", { type: "Const", tex: "\\twoheadrightarrow" }], [">->>", { type: "Const", tex: "\u2916" }], ["|->", { type: "Const", tex: "\\mapsto" }], ["larr", { type: "Const", tex: "\\leftarrow" }], ["leftarrow", { type: "Const", tex: "\\leftarrow" }], ["harr", { type: "Const", tex: "\\leftrightarrow" }], ["rArr", { type: "Const", tex: "\\Rightarrow" }], ["lArr", { type: "Const", tex: "\\Leftarrow" }], ["hArr", { type: "Const", tex: "\\Leftrightarrow" }], ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }], ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }], ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }], ["circArrRt", { type: "Const", tex: "\\circlearrowright" }], ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }], ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }], ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }], ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }], ["_", { type: "OperatorSup", tex: "_{ $1 }" }], ["^", { type: "OperatorSup", tex: "^{ $1 }" }], ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }], ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }], ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }], ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }], ["\\`", { type: "OperatorA", tex: "\\`{ $1 }" }], ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["Hat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["widetilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["ol", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["overline", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }], ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }], ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }], ["Vec", { type: "OperatorA", tex: "\\overrightarrow{ $1 }" }], ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }], ["Tilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }], ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }], ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underline", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["ubrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["obrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["color", { type: "OperatorOAB", tex: "{ \\color{$1} $2 }" }], ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }], ["text", { type: "OperatorA", tex: "\\text{$1}" }], ["tex", { type: "Const", tex: "" }], ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }], ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }" }], ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }], ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }], ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }], ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }], ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }], ["iint", { type: "Const", tex: "\\iint" }], ["iiint", { type: "Const", tex: "\\iiint" }], ["oiint", { type: "Const", tex: "\u222F" }], ["oiiint", { type: "Const", tex: "\u2230" }], ["laplace", { type: "Const", tex: "\\Delta" }], ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }], ["-->", { type: "OperatorOptionalTwoParams", tex: "\\xrightarrow[ $2 ]{ $1 }" }], ["||", { type: "Const", tex: "\\Vert" }], ["!||", { type: "Const", tex: "\u2226" }], ["S=", { type: "Const", tex: "\u224C" }], ["S~", { type: "Const", tex: "\u223D" }], ["!-=", { type: "Const", tex: "\\not\\equiv" }], ["!|", { type: "Const", tex: "\u2224" }], ["!", { type: "OperatorAO", tex: "{$1 !}" }], ["!!", { type: "OperatorAO", tex: "{$1 !!}" }], ["!sube", { type: "Const", tex: "\\not\\sube" }], ["!supe", { type: "Const", tex: "\\not\\supe" }], ["subne", { type: "Const", tex: "\u228A" }], ["supne", { type: "Const", tex: "\u228B" }], ["lhd", { type: "Const", tex: "\\lhd" }], ["rhd", { type: "Const", tex: "\\rhd" }], ["normal", { type: "Const", tex: "\\unlhd" }], ["rnormal", { type: "Const", tex: "\\unrhd" }], ["hline", { type: "Const", tex: "\\hline" }], ["(", { type: "LParen", tex: "(" }], [")", { type: "RParen", tex: ")" }], ["[", { type: "LParen", tex: "[" }], ["]", { type: "RParen", tex: "]" }], ["{", { type: "LParen", tex: "\\lbrace" }], ["}", { type: "RParen", tex: "\\rbrace" }], ["(:", { type: "LParen", tex: "\\langle" }], [":)", { type: "RParen", tex: "\\rangle" }], ["{:", { type: "LParen", tex: "." }], [":}", { type: "RParen", tex: "." }], ["|", { type: "Paren", tex: "|" }], ["&", { type: "Align", tex: "&" }], ["&&", { type: "Align", tex: "&&" }], [",", { type: "Split", tex: "," }], [";", { type: "Split", tex: ";" }], ["-", { type: "OperatorMinus", tex: "{-$1 }" }], ["+", { type: "OperatorMinus", tex: "{+$1 }" }], ["part", { type: "OperatorPartial", tex: "\\partial" }], ["pp", { type: "OperatorPartial", tex: "\\partial" }], ["dd", { type: "OperatorPartial", tex: "\\mathrm{d}" }]]);
+function _() {
+  return { type: "Root", body: [] };
 }
-function createConstNode(arg) {
-  if (typeof arg === "undefined") {
-    return {
-      type: "Const",
-      value: "",
-      tex: ""
-    };
-  }
-  if (typeof arg === "string") {
-    return {
-      type: "Const",
-      value: arg,
-      tex: arg
-    };
-  }
-  return {
-    type: "Const",
-    value: arg.value,
-    tex: arg.type === "Text" ? `\\text{${arg.tex}}` : arg.tex
-  };
+function y(n) {
+  if (typeof n > "u")
+    return { type: "Const", value: "", tex: "" };
+  if (typeof n == "string")
+    return { type: "Const", value: n, tex: n };
+  let e;
+  return n.type === "Text" ? e = n.tex.replace(/^(\\quad)?([^\\]+)(\\quad)?$/, (t, o, s, p) => `${o || ""}\\text{${s}}${p || ""}`) : e = n.tex, { type: "Const", value: n.value, tex: e };
 }
-function createFlatNode() {
-  return {
-    type: "Flat",
-    body: []
-  };
+function l(n) {
+  let e = [];
+  return n && (Array.isArray(n) ? e = n : e.push(n)), { type: "Flat", body: e };
 }
-function createMatrixNode() {
-  return {
-    type: "Matrix",
-    params: [],
-    lparen: ".",
-    rparen: ".",
-    alignment: "Center",
-    dividerIndices: []
-  };
+function O() {
+  return { type: "Matrix", params: [], lparen: ".", rparen: ".", alignment: "Center", dividerIndices: [] };
 }
-function createParamOneNode() {
-  return {
-    type: "ParamOne",
-    tex: "",
-    params: createFlatNode()
-  };
+function C() {
+  return { type: "ParamOne", tex: "", params: l() };
 }
-function createParamTwoNode() {
-  return {
-    type: "ParamTwo",
-    tex: "",
-    params: [createFlatNode(), createFlatNode()]
-  };
+function f() {
+  return { type: "ParamTwo", tex: "", params: [l(), l()] };
 }
-function createParenOfFlatNodeFrom(token, left) {
-  return { type: "Const", value: token.value, tex: `\\${left ? "left" : "right"}${token.tex}` };
+function N(n, e) {
+  return { type: "Const", value: n.value, tex: `\\${e ? "left" : "right"}${n.tex}` };
 }
-function readParenedExpression2(tokens, current) {
-  const { closingIndex, semiIndex } = findPairedClosingParen(current, tokens);
-  if (closingIndex === -1) {
-    return parenStartedNoClosingNode(tokens, current);
-  } else {
-    if (semiIndex === -1) {
-      return parenedArrayNode(tokens, current, closingIndex);
-    } else {
-      return generateMatrixNode(tokens, current, closingIndex);
-    }
-  }
+function F(n, e) {
+  let { closingIndex: t, semiIndex: o } = M(e, n);
+  return t === -1 ? V(n, e) : o === -1 || o > t ? L(n, e, t) : z(n, e, t);
 }
-function generateMatrixNode(tokens, current, end) {
-  let token = tokens[current];
-  const node = createMatrixNode();
-  const dividerIndices = /* @__PURE__ */ new Set();
-  node.lparen = `\\left${token.tex}`;
-  token = tokens[++current];
-  let tempArr = [];
-  let tempNode = null;
-  while (current < end) {
-    if (token.type === "Split") {
-      if (token.value === ",") {
-        if (tempNode) {
-          tempArr.push(tempNode);
-          tempNode = null;
-        } else {
-          tempArr.push(createConstNode());
-        }
-      } else if (token.value === ";") {
-        if (tempNode) {
-          tempArr.push(tempNode);
-          tempNode = null;
-        }
-        node.params.push(tempArr);
-        tempArr = [];
-      }
-      token = tokens[++current];
+function z(n, e, t) {
+  let o = n[e], s = O(), p = /* @__PURE__ */ new Set();
+  s.lparen = `\\left${o.tex}`, o = n[++e];
+  let a = [], r = null;
+  for (; e < t; ) {
+    if (o.type === "Split") {
+      o.value === "," ? r ? (a.push(r), r = null) : a.push(y()) : o.value === ";" && (r && (a.push(r), r = null), s.params.push(a), a = []), o = n[++e];
       continue;
-    } else if (token.type === "Paren") {
-      if (tempNode) {
-        tempArr.push(tempNode);
-        tempNode = null;
-      }
-      dividerIndices.add(tempArr.length);
-      token = tokens[++current];
+    } else if (o.type === "Paren") {
+      r && (a.push(r), r = null), p.add(a.length), o = n[++e];
       continue;
     }
-    tempNode = createFlatNode();
-    token = tokens[current];
-    while (current < end && token.type !== "Split" && token.type !== "Paren") {
-      const walkRes = walk(tokens, current);
-      current = walkRes.current;
-      tempNode.body.push(walkRes.node);
-      token = tokens[current];
+    for (r = l(), o = n[e]; e < t && o.type !== "Split" && o.type !== "Paren"; ) {
+      let i = T(n, e);
+      e = i.current, r.body.push(i.node), o = n[e];
     }
   }
-  if (tempNode) {
-    tempArr.push(tempNode);
-    tempNode = null;
-  }
-  if (tempArr.length > 0) {
-    node.params.push(tempArr);
-    tempArr = [];
-  }
-  node.dividerIndices = Array.from(dividerIndices).sort((a, b) => a - b);
-  token = tokens[current];
-  if (current < tokens.length) {
-    current++;
-    node.rparen = `\\right${token.tex}`;
-    if (token.value === ":}")
-      node.alignment = "Left";
-  } else {
-    node.rparen = "\\right.";
-  }
-  return { node, current };
+  return r && (a.push(r), r = null), a.length > 0 && (s.params.push(a), a = []), s.dividerIndices = Array.from(p).sort((i, u) => i - u), o = n[e], e < n.length ? (e++, s.rparen = `\\right${o.tex}`, o.value === ":}" && (s.alignment = "Left")) : s.rparen = "\\right.", { node: s, current: e };
 }
-var ParenError = class extends Error {
+var m = class extends Error {
 };
-function parenedArrayNode(tokens, current, closingIndex) {
-  let token = tokens[current];
-  const node = createFlatNode();
-  node.body.push(createParenOfFlatNodeFrom(token, true));
-  current = readTokensToFlatNode(current + 1, closingIndex, tokens, node);
-  if (current >= tokens.length)
-    throw new ParenError(`Read index out of range, index: ${current}`);
-  token = tokens[current];
-  current++;
-  node.body.push(createParenOfFlatNodeFrom(token, false));
-  if (node.body[0].value === "{:" && node.body[node.body.length - 1].value === ":}") {
-    node.body[0].tex = "{";
-    node.body[node.body.length - 1].tex = "}";
-  }
-  return { node, current };
+function L(n, e, t) {
+  let o = n[e], s = l();
+  if (s.body.push(N(o, true)), e = g(e + 1, t, n, s), e >= n.length)
+    throw new m(`Read index out of range, index: ${e}`);
+  return o = n[e], e++, s.body.push(N(o, false)), s.body[0].value === "{:" && s.body[s.body.length - 1].value === ":}" && (s.body[0].tex = "{", s.body[s.body.length - 1].tex = "}"), { node: s, current: e };
 }
-function parenStartedNoClosingNode(tokens, current) {
-  const token = tokens[current];
-  const node = createFlatNode();
-  node.body.push({ type: "Const", value: token.value, tex: `\\left${token.tex}` });
-  current = readTokensToFlatNode(current + 1, tokens.length, tokens, node);
-  node.body.push({ type: "Const", value: token.value, tex: "\\right." });
-  return { node, current };
+function V(n, e) {
+  let t = n[e], o = l();
+  return o.body.push({ type: "Const", value: t.value, tex: `\\left${t.tex}` }), e = g(e + 1, n.length, n, o), o.body.push({ type: "Const", value: t.value, tex: "\\right." }), { node: o, current: e };
 }
-function findPairedClosingParen(current, tokens) {
-  let semiIndex = -1;
-  let closingIndex = -1;
-  const stack = [];
-  for (let i = current + 1; i < tokens.length; i++) {
-    if (tokens[i].type === "LParen") {
-      stack.push("");
+function M(n, e) {
+  let t = -1, o = -1, s = [];
+  for (let p = n + 1; p < e.length; p++) {
+    if (e[p].type === "LParen") {
+      s.push("");
       continue;
     }
-    if (stack.length === 0) {
-      if (tokens[i].value === ";") {
-        if (semiIndex === -1)
-          semiIndex = i;
-      } else if (tokens[i].type === "RParen") {
-        if (closingIndex === -1)
-          closingIndex = i;
-      }
-      if (semiIndex !== -1 && closingIndex !== -1)
+    if (s.length === 0) {
+      if (e[p].value === ";" ? t === -1 && (t = p) : e[p].type === "RParen" && o === -1 && (o = p), t !== -1 && o !== -1)
         break;
-    } else {
-      if (tokens[i].type === "RParen")
-        stack.pop();
-    }
+    } else
+      e[p].type === "RParen" && s.pop();
   }
-  return { closingIndex, semiIndex };
+  return { closingIndex: o, semiIndex: t };
 }
-function findPairedBar(arr, start, end) {
-  let semiIndex = -1;
-  let barIndex = -1;
-  const stack = [];
-  for (let i = start; i < end; i++) {
-    if (arr[i].type === "LParen") {
-      stack.push("");
+function B(n, e, t) {
+  let o = -1, s = -1, p = [];
+  for (let a = e; a < t; a++) {
+    if (n[a].type === "LParen") {
+      p.push("");
       continue;
     }
-    if (stack.length > 0 && arr[i].type === "RParen") {
-      stack.pop();
+    if (p.length > 0 && n[a].type === "RParen") {
+      p.pop();
       continue;
     }
-    if (stack.length > 0)
-      continue;
-    if (arr[i].type === "RParen")
-      break;
-    if (arr[i].value === ";") {
-      if (semiIndex === -1)
-        semiIndex = i;
-    } else if (arr[i].value === "|") {
-      if (barIndex === -1)
-        barIndex = i;
-    }
-    if (semiIndex !== -1 && barIndex !== -1)
+    if (!(p.length > 0) && (n[a].type === "RParen" || (n[a].value === ";" ? o === -1 && (o = a) : n[a].value === "|" && s === -1 && (s = a), o !== -1 && s !== -1)))
       break;
   }
-  return { semiIndex, barIndex };
+  return { semiIndex: o, barIndex: s };
 }
-function readBarStartedExpressions(tokens, current) {
-  let token = tokens[current];
-  if (token.type === "Paren") {
-    const { semiIndex, barIndex } = findPairedBar(tokens, current + 1, tokens.length);
-    if (barIndex === -1)
-      return createSingleBarNode(current);
-    if (semiIndex === -1 || semiIndex > barIndex) {
-      const node2 = createFlatNode();
-      current++;
-      node2.body.push(createConstNode("\\left|"));
-      current = readTokensToFlatNode(current, barIndex, tokens, node2);
-      node2.body.push(createConstNode("\\right|"));
-      current = barIndex + 1;
-      return { current, node: node2 };
-    }
-    const node = createMatrixNode();
-    node.lparen = "\\left|";
-    node.rparen = "\\right|";
-    token = tokens[++current];
-    let tempArr = [];
-    let tempNode = null;
-    while (current < barIndex) {
-      if (token.type === "Split") {
-        switch (token.value) {
-          case ",": {
-            if (tempNode) {
-              tempArr.push(tempNode);
-              tempNode = null;
-            }
-            break;
-          }
-          case ";": {
-            if (tempNode) {
-              tempArr.push(tempNode);
-              tempNode = null;
-            }
-            node.params.push(tempArr);
-            tempArr = [];
-            break;
-          }
+function E(n, e) {
+  let t = n[e], { semiIndex: o, barIndex: s } = B(n, e + 1, n.length);
+  if (s === -1)
+    return q(e);
+  if (o === -1 || o > s) {
+    let i = l();
+    return e++, i.body.push(y("\\left|")), e = g(e, s, n, i), i.body.push(y("\\right|")), e = s + 1, { current: e, node: i };
+  }
+  let p = O();
+  p.lparen = "\\left|", p.rparen = "\\right|", t = n[++e];
+  let a = [], r = null;
+  for (; e < s; ) {
+    if (t.type === "Split") {
+      switch (t.value) {
+        case ",": {
+          r && (a.push(r), r = null);
+          break;
         }
-        token = tokens[++current];
-        continue;
+        case ";": {
+          r && (a.push(r), r = null), p.params.push(a), a = [];
+          break;
+        }
       }
-      tempNode = createFlatNode();
-      token = tokens[current];
-      while (current < barIndex && token.type !== "Split") {
-        const walkRes = walk(tokens, current);
-        current = walkRes.current;
-        tempNode.body.push(walkRes.node);
-        token = tokens[current];
-      }
+      t = n[++e];
+      continue;
     }
-    if (tempNode) {
-      tempArr.push(tempNode);
-      tempNode = null;
-    }
-    if (tempArr.length > 0) {
-      node.params.push(tempArr);
-      tempArr = [];
-    }
-    current = barIndex + 1;
-    return { node, current };
-  }
-  throw new Error(`Unmatched token in \`readBarStartedExpressions\`, ${token.value}`);
-}
-function readTokensToFlatNode(current, end, tokens, node) {
-  while (current < end) {
-    const walkRes = walk(tokens, current);
-    current = walkRes.current;
-    node.body.push(walkRes.node);
-  }
-  return current;
-}
-function createSingleBarNode(current) {
-  return {
-    current: current + 1,
-    node: {
-      type: "Const",
-      value: "|",
-      tex: "\\mid"
-    }
-  };
-}
-function removeParenOfFlatExpr(node) {
-  const first = node.body[0];
-  const last = node.body[node.body.length - 1];
-  if (first.type === "Const" && last.type === "Const" && first.value === "(" && last.value === ")") {
-    node.body.pop();
-    node.body.shift();
-  }
-  return node;
-}
-function lookForwardOperatorOptionalTwoParams(tokens, current, token) {
-  let nextToken = tokens[current];
-  let p1 = createConstNode();
-  let nextShouldBe = "";
-  let p1Status = "";
-  let p2Status = "";
-  if (nextToken.value === "^" || nextToken.value === "_") {
-    nextShouldBe = nextToken.value === "^" ? "_" : "^";
-    p1Status = nextToken.value;
-    current++;
-    const walkRes = walk(tokens, current, false);
-    if (walkRes.node.type === "Flat")
-      walkRes.node = removeParenOfFlatExpr(walkRes.node);
-    p1 = walkRes.node;
-    current = walkRes.current;
-  }
-  let p2 = createConstNode();
-  if (current < tokens.length) {
-    nextToken = tokens[current];
-    if (nextToken.value === nextShouldBe) {
-      p2Status = nextToken.value;
-      current++;
-      const walkRes = walk(tokens, current, false);
-      if (walkRes.node.type === "Flat")
-        walkRes.node = removeParenOfFlatExpr(walkRes.node);
-      p2 = walkRes.node;
-      current = walkRes.current;
+    for (r = l(), t = n[e]; e < s && t.type !== "Split"; ) {
+      let i = T(n, e);
+      e = i.current, r.body.push(i.node), t = n[e];
     }
   }
-  const node = createParamTwoNode();
-  node.tex = token.tex;
-  node.params[0] = (() => {
-    if (p1Status === "^")
-      return p1;
-    if (p2Status === "^")
-      return p2;
-    return createConstNode();
-  })();
-  node.params[1] = (() => {
-    if (p1Status === "_")
-      return p1;
-    if (p2Status === "_")
-      return p2;
-    return createConstNode();
-  })();
-  return { node, current };
+  return r && (a.push(r), r = null), a.length > 0 && (p.params.push(a), a = []), e = s + 1, { node: p, current: e };
 }
-function preProcessOperatorSup(node, operator, tokens, current) {
-  let newNode;
-  if (node.type === "Flat") {
-    newNode = node;
-  } else {
-    newNode = createFlatNode();
-    newNode.body.push(node);
+function g(n, e, t, o) {
+  for (; n < e; ) {
+    let s = T(t, n);
+    n = s.current, o.body.push(s.node);
   }
-  const supNode = createParamOneNode();
-  supNode.tex = operator.tex;
-  const walkRes = walk(tokens, current, false);
-  current = walkRes.current;
-  if (walkRes.node.type === "Flat")
-    walkRes.node = removeParenOfFlatExpr(walkRes.node);
-  supNode.params = walkRes.node;
-  newNode.body.push(supNode);
-  node = newNode;
-  return { node, current };
+  return n;
 }
-function preProcessOperatorAO(node, nextToken) {
-  const newNode = createFlatNode();
-  if (node.type === "Flat")
-    newNode.body.push(...node.body);
-  else
-    newNode.body.push(node);
-  newNode.body.push(createConstNode(nextToken));
-  node = newNode;
-  return node;
+function q(n) {
+  return { current: n + 1, node: { type: "Const", value: "|", tex: "\\mid" } };
 }
-function preProcessOperatorAOB(node, operator, tokens, current) {
-  const newNode = createParamTwoNode();
-  if (node.type === "Flat")
-    node = removeParenOfFlatExpr(node);
-  newNode.tex = operator.tex;
-  newNode.params[0] = node;
-  const walkRes = walk(tokens, current);
-  current = walkRes.current;
-  if (walkRes.node.type === "Flat")
-    walkRes.node = removeParenOfFlatExpr(walkRes.node);
-  newNode.params[1] = walkRes.node;
-  node = newNode;
-  return { node, current };
+function x(n) {
+  let e = n.body[0], t = n.body[n.body.length - 1];
+  return e.type === "Const" && t.type === "Const" && e.value === "(" && t.value === ")" && (n.body.pop(), n.body.shift()), n;
 }
-function walk(tokens, current, watchNext = true) {
-  if (current >= tokens.length)
-    return { node: createConstNode(), current };
-  const token = tokens[current];
-  let node;
-  switch (token.type) {
+function I(n, e, t) {
+  let o = n[e], s = y(), p = "", a = "", r = "";
+  if (o.value === "^" || o.value === "_") {
+    p = o.value === "^" ? "_" : "^", a = o.value, e++;
+    let d = T(n, e, false);
+    d.node.type === "Flat" && (d.node = x(d.node)), s = d.node, e = d.current;
+  }
+  let i = y();
+  if (e < n.length && (o = n[e], o.value === p)) {
+    r = o.value, e++;
+    let d = T(n, e, false);
+    d.node.type === "Flat" && (d.node = x(d.node)), i = d.node, e = d.current;
+  }
+  let u = f();
+  return u.tex = t.tex, u.params[0] = (() => a === "^" ? s : r === "^" ? i : y())(), u.params[1] = (() => a === "_" ? s : r === "_" ? i : y())(), { node: u, current: e };
+}
+function W(n, e, t, o) {
+  let s;
+  n.type === "Flat" ? s = n : (s = l(), s.body.push(n));
+  let p = C();
+  p.tex = e.tex;
+  let a = T(t, o, false);
+  return o = a.current, a.node.type === "Flat" && (a.node = x(a.node)), p.params = a.node, s.body.push(p), n = s, { node: n, current: o };
+}
+function D(n, e) {
+  let t = C();
+  return t.params = n, t.tex = e.tex, n = t, n;
+}
+function K(n, e, t, o) {
+  let s = f();
+  n.type === "Flat" && (n = x(n)), s.tex = e.tex, s.params[0] = n;
+  let p = T(t, o);
+  return o = p.current, p.node.type === "Flat" && (p.node = x(p.node)), s.params[1] = p.node, n = s, { node: n, current: o };
+}
+function v(n, e, t) {
+  let o = C(), s = n[e];
+  o.tex = s.tex, e++;
+  let p = T(n, e, t);
+  return e = p.current, p.node.type === "Flat" && (p.node = x(p.node)), o.params = p.node, { node: o, current: e };
+}
+function G(n, e) {
+  let t = n[e];
+  if (e > 0) {
+    let a = n[e - 1];
+    if (a.type !== "OperatorSup" && a.type !== "OperatorA" && a.type !== "OperatorOAB" && a.type !== "OperatorAOB")
+      return { node: y(t.value), current: e + 1 };
+  } else
+    return { node: y(t.value), current: e + 1 };
+  if (e++, e >= n.length)
+    return { node: y(t.value), current: e };
+  if (n[e].type === "RParen")
+    return { node: y(t.value), current: e };
+  let s = T(n, e, true);
+  e = s.current, s.node.type === "Flat" && (s.node = x(s.node));
+  let p = C();
+  return p.tex = t.tex, p.params = s.node, { node: p, current: e };
+}
+function Q(n, e, t) {
+  let o = l();
+  return o.body.push(y(n)), e && o.body.push(e), o.body.push(t), o;
+}
+function j(n, e) {
+  return l(n.body.map((t) => [y(e), t]).flat());
+}
+function U(n, e) {
+  let t = f(), o = n[e];
+  t.tex = "\\frac{ $1 }{ $2 }";
+  let s = o.tex, p = null;
+  if (e++, e >= n.length)
+    return { node: t, current: e };
+  if (o = n[e], o.type === "OperatorSup") {
+    let i = v(n, e, false);
+    e = i.current, p = i.node;
+  }
+  let a = T(n, e, true);
+  if (e = a.current, a.node.type === "Flat" && (a.node = x(a.node)), t.params[0] = Q(s, p, a.node), e >= n.length)
+    return { node: t, current: e };
+  let r = T(n, e);
+  return e = r.current, r.node.type === "Flat" ? (r.node = x(r.node), r.node = j(r.node, s)) : (r.node = l(r.node), r.node.body.unshift(y(s)), p && r.node.body.push(p)), t.params[1] = r.node, { node: t, current: e };
+}
+function T(n, e, t = true) {
+  if (e >= n.length)
+    return { node: y(), current: e };
+  let o = n[e], s;
+  switch (o.type) {
     case "Const":
     case "Text":
     case "NumberLiteral":
     case "StringLiteral": {
-      current++;
-      node = createConstNode(token);
+      e++, s = y(o);
       break;
     }
     case "LParen": {
-      ({ node, current } = readParenedExpression2(tokens, current));
+      ({ node: s, current: e } = F(n, e));
       break;
     }
     case "Paren": {
-      ({ node, current } = readBarStartedExpressions(tokens, current));
+      ({ node: s, current: e } = E(n, e));
       break;
     }
     case "OperatorSup":
     case "OperatorA": {
-      node = createParamOneNode();
-      node.tex = token.tex;
-      current++;
-      const walkRes = walk(tokens, current, false);
-      current = walkRes.current;
-      if (walkRes.node.type === "Flat")
-        walkRes.node = removeParenOfFlatExpr(walkRes.node);
-      node.params = walkRes.node;
+      ({ node: s, current: e } = v(n, e, false));
+      break;
+    }
+    case "OperatorMinus": {
+      ({ node: s, current: e } = G(n, e));
       break;
     }
     case "OperatorOAB": {
-      node = createParamTwoNode();
-      node.tex = token.tex;
-      current++;
-      const param0 = walk(tokens, current);
-      current = param0.current;
-      if (param0.node.type === "Flat")
-        param0.node = removeParenOfFlatExpr(param0.node);
-      node.params[0] = param0.node;
-      const param1 = walk(tokens, current);
-      current = param1.current;
-      if (param1.node.type === "Flat")
-        param1.node = removeParenOfFlatExpr(param1.node);
-      node.params[1] = param1.node;
+      s = f(), s.tex = o.tex, e++;
+      let p = T(n, e);
+      e = p.current, p.node.type === "Flat" && (p.node = x(p.node)), s.params[0] = p.node;
+      let a = T(n, e);
+      e = a.current, a.node.type === "Flat" && (a.node = x(a.node)), s.params[1] = a.node;
       break;
     }
     case "OperatorOptionalTwoParams": {
-      current++;
-      if (current >= tokens.length) {
-        node = createConstNode(`${token.tex.replace(/[\{\[] \$\d+ [\}\]]/g, "")}{}`);
+      if (e++, e >= n.length) {
+        s = y(`${o.tex.replace(/[\{\[] \$\d+ [\}\]]/g, "")}{}`);
         break;
       }
-      ({ node, current } = lookForwardOperatorOptionalTwoParams(tokens, current, token));
+      ({ node: s, current: e } = I(n, e, o));
+      break;
+    }
+    case "OperatorPartial": {
+      ({ node: s, current: e } = U(n, e));
       break;
     }
     case "Split":
     case "Align": {
-      current++;
-      node = createConstNode(token);
+      e++, s = y(o);
       break;
     }
     case "RParen": {
-      current++;
-      node = createConstNode(token);
+      e++, s = y(o);
       break;
     }
-    default: {
-      throw new Error(`Unmatched token in walk ${token.value}`);
-    }
+    default:
+      throw new Error(`Unmatched token in walk ${o.value}`);
   }
-  if (current < tokens.length && watchNext) {
-    let matched = true;
-    while (matched && current < tokens.length) {
-      const nextToken = tokens[current];
-      switch (nextToken.type) {
+  if (e < n.length && t) {
+    let p = true;
+    for (; p && e < n.length; ) {
+      let a = n[e];
+      switch (a.type) {
         case "OperatorAOB": {
-          ({ node, current } = preProcessOperatorAOB(node, nextToken, tokens, current + 1));
+          ({ node: s, current: e } = K(s, a, n, e + 1));
           break;
         }
         case "OperatorAO": {
-          node = preProcessOperatorAO(node, nextToken);
-          current++;
+          s = D(s, a), e++;
           break;
         }
         case "OperatorSup": {
-          ({ node, current } = preProcessOperatorSup(node, nextToken, tokens, current + 1));
+          ({ node: s, current: e } = W(s, a, n, e + 1));
           break;
         }
-        default: {
-          matched = false;
-        }
+        default:
+          p = false;
       }
     }
   }
-  return { node, current };
+  return { node: s, current: e };
 }
-function parser(tokens) {
-  const root = createRootNode();
-  let current = 0;
-  while (current < tokens.length) {
-    const walkRes = walk(tokens, current);
-    current = walkRes.current;
-    root.body.push(walkRes.node);
+function A(n) {
+  let e = _(), t = 0;
+  for (; t < n.length; ) {
+    let o = T(n, t);
+    t = o.current, e.body.push(o.node);
   }
-  return root;
+  return e;
 }
-function getMatrixBoundary(node) {
-  if (node.alignment === "Left")
-    return ["\\begin{matrix*}[l]", "\\end{matrix*}"];
-  return ["\\begin{matrix}", "\\end{matrix}"];
-}
-function getArrayBoundary(node) {
-  const div = node.dividerIndices;
-  if (div.length) {
-    const divMax = div[div.length - 1];
-    for (let i = div.length - 1; i >= 1; i--)
-      div[i] -= div[i - 1];
-    let beginArray = "\\begin{array}{";
-    for (let i = 0; i < div.length; i++)
-      beginArray += `${"".padEnd(div[i], "c")}|`;
-    const maxCol = Math.max(...node.params.map((i) => i.length));
-    beginArray += `${"".padEnd(maxCol - divMax, "c")}}`;
-    return [
-      beginArray,
-      "\\end{array}"
-    ];
+function Z(n) {
+  let e = n.dividerIndices, t = "\\begin{array}", o = "c";
+  if (n.alignment === "Left" && (o = "l"), e.length) {
+    let s = e[e.length - 1];
+    for (let a = e.length - 1; a >= 1; a--)
+      e[a] -= e[a - 1];
+    t += "{";
+    for (let a = 0; a < e.length; a++)
+      t += `${"".padEnd(e[a], o)}|`;
+    let p = Math.max(...n.params.map((a) => a.length));
+    t += `${"".padEnd(p - s, o)}}`;
+  } else {
+    let s = Math.max(...n.params.map((p) => p.length));
+    t += `{${"".padEnd(s, o)}}`;
   }
-  return ["", ""];
+  return [t, "\\end{array}"];
 }
-function codegen(node) {
-  switch (node.type) {
-    case "Const": {
-      return node.tex;
-    }
+function k(n) {
+  switch (n.type) {
+    case "Const":
+      return n.tex;
     case "Root": {
-      let res = node.body.map(codegen).join(" ");
-      if (node.body.find((n) => n.type === "Const" && n.value === "&"))
-        res = `\\begin{aligned}${res}\\end{aligned}`;
-      return res;
+      let e = n.body.map(k).join(" ");
+      return n.body.find((t) => t.type === "Const" && (t.value === "&" || t.tex === "\\\\")) && (e = `\\begin{aligned}${e}\\end{aligned}`), e;
     }
-    case "Flat": {
-      return node.body.map(codegen).join(" ");
-    }
+    case "Flat":
+      return n.body.map(k).join(" ");
     case "Matrix": {
-      const [beginMatrix, endMatrix] = getMatrixBoundary(node);
-      const [arrayBegin, arrayEnd] = getArrayBoundary(node);
-      return [
-        node.lparen,
-        beginMatrix,
-        arrayBegin,
-        node.params.map((i) => i.map(codegen).join("&")).join("\\\\"),
-        arrayEnd,
-        endMatrix,
-        node.rparen
-      ].join(" ");
+      let [e, t] = Z(n);
+      return [n.lparen, e, n.params.map((o) => o.map(k).join(" & ")).join("\\\\"), "\\\\", t, n.rparen].join(" ");
     }
-    case "ParamOne": {
-      return node.tex.replace("$1", codegen(node.params));
-    }
-    case "ParamTwo": {
-      return node.tex.replace("$1", codegen(node.params[0])).replace("$2", codegen(node.params[1]));
-    }
+    case "ParamOne":
+      return n.tex.replace("$1", k(n.params));
+    case "ParamTwo":
+      return n.tex.replace("$1", k(n.params[0])).replace("$2", k(n.params[1]));
   }
 }
-var NUMBERPATTERN = /[0-9]/;
-var STRINGPATTERN = /\S/;
-var Trie = class {
-  constructor(nodes) {
+var w = /[0-9]/;
+var X = /\S/;
+var Y = (n) => {
+  let { value: e = "", current: t } = n;
+  return { value: e, isKeyWord: false, current: t, tex: e, type: "Text" };
+};
+var P = (n) => {
+  let { value: e = "", current: t } = n;
+  return { value: e, isKeyWord: false, current: t, tex: e, type: "Const" };
+};
+var b = class {
+  constructor(e) {
     __publicField(this, "_root");
     __publicField(this, "_char_to_index", /* @__PURE__ */ new Map());
     __publicField(this, "_n");
-    if (nodes.length === 0)
+    if (e.length === 0)
       throw new Error("Cannot create Trie since the length of nodes is 0");
-    nodes.forEach((n) => {
-      if (n.length !== 1)
-        throw new Error(`Value \`${n}\` is invalid, the length of char must be 1`);
+    e.forEach((o) => {
+      if (o.length !== 1)
+        throw new Error(`Value \`${o}\` is invalid, the length of char must be 1`);
     });
-    const dedupped = Array.from(new Set(nodes));
-    this._n = dedupped.length;
-    this._root = new TrieNode(this._n);
-    dedupped.forEach((ch, i) => {
-      this._char_to_index.set(ch, i);
+    let t = Array.from(new Set(e));
+    this._n = t.length, this._root = new c(this._n), t.forEach((o, s) => {
+      this._char_to_index.set(o, s);
     });
   }
-  c2i(key) {
-    return this._char_to_index.get(key);
+  c2i(e) {
+    return this._char_to_index.get(e);
   }
-  insert(key) {
-    if (key.length === 0)
+  insert(e) {
+    if (e.length === 0)
       return;
-    let root = this._root;
-    [...key].forEach((ch, i) => {
-      const idx = this.c2i(ch);
-      if (typeof idx === "undefined")
-        throw new Error(`key \`${ch}\` not in key set`);
-      if (root._nextNode[idx] === null)
-        root._nextNode[idx] = new TrieNode(this._n);
-      root = root._nextNode[idx];
-      if (i === key.length - 1)
-        root._end = true;
+    let t = this._root;
+    [...e].forEach((o, s) => {
+      let p = this.c2i(o);
+      if (typeof p > "u")
+        throw new Error(`key \`${o}\` not in key set`);
+      t._nextNode[p] === null && (t._nextNode[p] = new c(this._n)), t = t._nextNode[p], s === e.length - 1 && (t._end = true);
     });
   }
-  search(word) {
-    if (!this._root._nextNode.find((i2) => i2 !== null) || word.length === 0)
+  search(e) {
+    if (!this._root._nextNode.find((s) => s !== null) || e.length === 0)
       return false;
-    let root = this._root;
-    let i = 0;
-    for (; i < word.length; i++) {
-      const ch = word[i];
-      const idx = this.c2i(ch);
-      if (typeof idx === "undefined")
-        throw new Error(`key \`${ch}\` not in key set`);
-      if (root._nextNode[idx] === null)
+    let t = this._root, o = 0;
+    for (; o < e.length; o++) {
+      let s = e[o], p = this.c2i(s);
+      if (typeof p > "u")
+        throw new Error(`key \`${s}\` not in key set`);
+      if (t._nextNode[p] === null)
         return false;
-      root = root._nextNode[idx];
+      t = t._nextNode[p];
     }
-    if (i === word.length)
-      return true;
-    return false;
+    return o === e.length;
   }
-  tryParsing(word, start = 0) {
-    let value = "";
-    let root = this._root;
-    let isKeyWord = false;
-    let current = start;
-    for (; current < word.length; current++) {
-      const ch = word[current];
-      const idx = this.c2i(ch);
-      if (typeof idx === "undefined")
+  tryParsing(e, t = 0) {
+    let o = "", s = this._root, p = false, a = t;
+    for (; a < e.length; a++) {
+      let i = e[a], u = this.c2i(i);
+      if (typeof u > "u" || s._nextNode[u] === null)
         break;
-      if (root._nextNode[idx] === null)
+      o += i, s = s._nextNode[u], p = s._end;
+    }
+    let r = (() => p ? h.get(o) : { tex: o, type: "StringLiteral" })();
+    return { value: o, isKeyWord: p, current: a, ...r };
+  }
+  tryParsingNumber(e, t) {
+    let o = e[t], s = "";
+    for (; w.test(o) && t < e.length; )
+      s += o, o = e[++t];
+    for (o === "." && (s += o, o = e[++t]); w.test(o) && t < e.length; )
+      s += o, o = e[++t];
+    return { value: s, isKeyWord: false, current: t, tex: s, type: "NumberLiteral" };
+  }
+  tryParsingString(e, t) {
+    let o = e[t], s = "";
+    for (; X.test(o) && t < e.length; ) {
+      let p = this.c2i(o);
+      if (typeof p < "u" && this._root._nextNode[p] !== null)
         break;
-      value += ch;
-      root = root._nextNode[idx];
-      isKeyWord = root._end;
+      s += o, o = e[++t];
     }
-    const ret = (() => {
-      if (isKeyWord)
-        return SYMBOLMAP.get(value);
-      return { tex: value, type: "StringLiteral" };
-    })();
-    return { value, isKeyWord, current, ...ret };
+    return { value: s, isKeyWord: false, current: t, tex: s, type: "StringLiteral" };
   }
-  tryParsingNumber(word, current) {
-    let ch = word[current];
-    let value = "";
-    while (NUMBERPATTERN.test(ch) && current < word.length) {
-      value += ch;
-      ch = word[++current];
+  tryParsingNewLines(e, t) {
+    let o = e[t], s = "";
+    for (; /\n/.test(o) && t < e.length; )
+      s += o, o = e[++t];
+    return s.length >= 2 ? { value: s, isKeyWord: true, current: t, tex: "\\\\", type: "Align" } : { value: "", isKeyWord: false, current: t, tex: "", type: "None" };
+  }
+  getPlainTextInDoubleQuote(e, t) {
+    let o = "", s = e[t];
+    if (s === '"') {
+      for (s = e[++t]; s !== '"' && t < e.length; )
+        o += s, s = e[++t];
+      if (s === '"')
+        return t++, { current: t, value: o };
     }
-    return { value, isKeyWord: false, current, tex: value, type: "NumberLiteral" };
+    return { value: o, current: t };
   }
-  tryParsingString(word, current) {
-    let ch = word[current];
-    let value = "";
-    while (STRINGPATTERN.test(ch) && current < word.length) {
-      const idx = this.c2i(ch);
-      if (typeof idx !== "undefined" && this._root._nextNode[idx] !== null)
+  tryParsingText(e, t) {
+    let { value: o, current: s } = this.getPlainTextInDoubleQuote(e, t);
+    return { value: o, isKeyWord: false, current: s, tex: o, type: "Text" };
+  }
+  getColorString(e, t) {
+    let o = "";
+    for (; t < e.length; ) {
+      let s = e[t];
+      if (!/[#\da-z]/i.test(s))
         break;
-      value += ch;
-      ch = word[++current];
+      o += s, t++;
     }
-    return { value, isKeyWord: false, current, tex: value, type: "StringLiteral" };
+    return { value: o, isKeyWord: false, current: t, tex: o, type: "Const" };
   }
-  tryParsingNewLines(word, current) {
-    let ch = word[current];
-    let value = "";
-    while (/\n/.test(ch) && current < word.length) {
-      value += ch;
-      ch = word[++current];
-    }
-    if (value.length >= 2)
-      return { value, isKeyWord: true, current, tex: "\\\\", type: "Align" };
-    else
-      return { value: "", isKeyWord: false, current, tex: "", type: "None" };
-  }
-  tryParsingText(word, current) {
-    let ch = word[current];
-    if (ch === '"') {
-      ch = word[++current];
-      let value = "";
-      while (ch !== '"' && current < word.length) {
-        value += ch;
-        ch = word[++current];
-      }
-      if (ch === '"') {
-        current++;
-        return { value, isKeyWord: false, current, tex: value, type: "Text" };
-      }
-    }
-    return { value: "", isKeyWord: false, current, tex: "", type: "None" };
-  }
-  getColorString(word, current) {
-    let color = "";
-    while (current < word.length) {
-      const ch = word[current];
-      if (!/[#\da-z]/i.test(ch))
+  skipSpaces(e, t) {
+    for (; t < e.length; ) {
+      let o = e[t];
+      if (!/\s/.test(o))
         break;
-      color += ch;
-      current++;
+      t++;
     }
-    return { value: color, isKeyWord: false, current, tex: color, type: "Const" };
+    return t;
   }
-  processColor(word, current) {
-    let gotColor = false;
-    let existParen = false;
-    let res = { value: "", isKeyWord: false, current, tex: "", type: "Const" };
-    while (current < word.length && !gotColor) {
-      const ch = word[current];
-      if (/\s/.test(ch)) {
-        current++;
-        continue;
-      }
-      if (/[\(\[\{]/.test(ch)) {
-        existParen = true;
-        current++;
-        continue;
-      }
-      res = this.getColorString(word, current);
-      current = res.current;
-      gotColor = true;
+  processColor(e, t) {
+    let o = false, s = { value: "", isKeyWord: false, current: t, tex: "", type: "Const" };
+    if (t = this.skipSpaces(e, t), t >= e.length)
+      return s;
+    {
+      let p = e[t];
+      /[\(\{\[]/.test(p) && (o = true, t++);
     }
-    if (!existParen)
-      return res;
-    while (current < word.length) {
-      const ch = word[current];
-      if (/\s/.test(ch)) {
-        current++;
-        continue;
-      }
-      if (/[\)\]\}]/.test(ch)) {
-        current++;
-        break;
-      }
+    if (t = this.skipSpaces(e, t), s = this.getColorString(e, t), t = s.current, t = this.skipSpaces(e, t), s.current = t, t >= e.length)
+      return s;
+    {
+      let p = e[t];
+      /[\)\}\]]/.test(p) && o && t++;
     }
-    res.current = current;
-    return res;
+    return s.current = t, s;
   }
-  tryParsingAll(word) {
-    let current = 0;
-    const tokens = [];
-    let counter = 0;
-    while (current < word.length) {
+  getPlainText(e, t, o) {
+    let s = false, p = e[t];
+    for (; /\s/.test(p); )
+      p = e[++t];
+    s = p === "(";
+    let a = "";
+    if (s) {
+      for (p = e[++t]; t < e.length && p !== ")"; )
+        a += p, p = e[++t];
+      return t++, o({ current: t, value: a });
+    }
+    for (; t < e.length && /\S/.test(p); )
+      a += p, p = e[++t];
+    return o({ current: t, value: a });
+  }
+  tryParsingAll(e) {
+    let t = 0, o = [], s = 0, p = [...e];
+    for (; t < p.length; ) {
       {
-        const t2 = this.tryParsingNewLines(word, current);
-        current = t2.current;
-        if (t2.value !== "") {
-          tokens.push(t2);
+        let r = this.tryParsingNewLines(p, t);
+        if (t = r.current, r.value !== "") {
+          o.push(r);
           continue;
         }
       }
-      if (/\s/.test(word[current])) {
-        current++;
+      if (/\s/.test(p[t])) {
+        t++;
         continue;
       }
-      const t = this.tryParsing(word, current);
-      current = t.current;
-      if (t.value !== "") {
-        tokens.push(t);
-        if (t.value !== "color")
-          continue;
-        const nt = this.processColor(word, current);
-        current = nt.current;
-        tokens.push(nt);
+      let a = this.tryParsing(p, t);
+      if (t = a.current, a.value !== "") {
+        switch (a.value) {
+          case "text": {
+            a = this.getPlainText(p, t, Y), t = a.current, o.push(a);
+            break;
+          }
+          case "tex": {
+            t = this.skipSpaces(p, t);
+            let { value: r, current: i } = this.getPlainTextInDoubleQuote(p, t);
+            t = i, a = P({ current: t, value: r }), o.push(a);
+            break;
+          }
+          case "hspace": {
+            o.push(a);
+            let r = this.getPlainText(p, t, P);
+            t = r.current, o.push(r);
+            break;
+          }
+          case "color": {
+            o.push(a);
+            let r = this.processColor(p, t);
+            t = r.current, o.push(r);
+            break;
+          }
+          default:
+            o.push(a);
+        }
         continue;
       }
       {
-        const t2 = this.tryParsingNumber(word, current);
-        current = t2.current;
-        if (t2.value !== "") {
-          tokens.push(t2);
+        let r = this.tryParsingNumber(p, t);
+        if (t = r.current, r.value !== "") {
+          o.push(r);
           continue;
         }
       }
       {
-        const t2 = this.tryParsingText(word, current);
-        current = t2.current;
-        if (t2.value !== "") {
-          tokens.push(t2);
+        let r = this.tryParsingText(p, t);
+        if (t = r.current, r.value !== "") {
+          o.push(r);
           continue;
         }
       }
       {
-        const t2 = this.tryParsingString(word, current);
-        current = t2.current;
-        if (t2.value !== "") {
-          tokens.push(t2);
+        let r = this.tryParsingString(p, t);
+        if (t = r.current, r.value !== "") {
+          o.push(r);
           continue;
         }
       }
-      counter++;
-      if (counter > word.length * 2)
+      if (s++, s > p.length * 2)
         throw new Error("Oops! There may be an infinity loop");
     }
-    return tokens;
+    return o;
   }
 };
-var TrieNode = class {
-  constructor(n) {
+var c = class {
+  constructor(e) {
     __publicField(this, "_nextNode", []);
     __publicField(this, "_end", false);
-    this._nextNode = Array.from({ length: n }, () => null);
+    this._nextNode = Array.from({ length: e }, () => null);
   }
 };
-function createTrie(config = {}) {
+function $(n = {}) {
   var _a;
-  const charset = /* @__PURE__ */ new Set([]);
-  (_a = config.extConst) == null ? void 0 : _a.forEach(([k, v]) => {
-    SYMBOLMAP.set(k, { type: "Const", tex: v });
+  let e = /* @__PURE__ */ new Set([]);
+  (_a = n.extConst) == null ? void 0 : _a.forEach(([s, p]) => {
+    h.set(s, { type: "Const", tex: p });
   });
-  for (const k of SYMBOLMAP.keys())
-    k.split("").forEach((i) => charset.add(i));
-  const chars = Array.from(charset);
-  chars.push(" ");
-  const trie = new Trie(chars);
-  for (const k of SYMBOLMAP.keys())
-    trie.insert(k);
-  return trie;
+  for (let s of h.keys())
+    [...s].forEach((p) => e.add(p));
+  let t = Array.from(e);
+  t.push(" ");
+  let o = new b(t);
+  for (let s of h.keys())
+    o.insert(s);
+  return o;
 }
-function resolveConfig(config) {
+function H(n) {
   var _a, _b;
-  const defaultConfig = {
-    display: true,
-    extConst: [
-      ["dx", "{\\text{d}x}"],
-      ["dy", "{\\text{d}y}"],
-      ["dz", "{\\text{d}z}"],
-      ["dt", "{\\text{d}t}"]
-    ],
-    replaceBeforeTokenizing: [
-      [/part(\^\S*)?\s+(\S+)\s+(\([^)]*\)|\S+)/g, (_match, $1, $2, $3) => {
-        if (!$1)
-          $1 = "";
-        if ($3[0] === "(")
-          $3 = $3.slice(1, -1).split(/\s+/).join(" del ");
-        return `(del${$1} ${$2})/(del ${$3})`;
-      }],
-      [
-        /&#(x?[0-9a-fA-F]+);/g,
-        (_match, $1) => String.fromCodePoint($1[0] === "x" ? `0${$1}` : $1)
-      ],
-      [/dd(\^\S*)?\s+(\S+)\s+(\([^)]*\)|\S+)/g, (_m, $1, $2, $3) => {
-        $1 = $1 || "";
-        if ($3[0] === "(")
-          $3 = $3.slice(1, -1).split(/\s+/).join(' "d" ');
-        return `("d" ${$1} ${$2})/("d"${$3})`;
-      }]
-    ]
-  };
-  if (typeof (config == null ? void 0 : config.display) !== "undefined")
-    defaultConfig.display = config == null ? void 0 : config.display;
-  if ((_a = config == null ? void 0 : config.extConst) == null ? void 0 : _a.length)
-    defaultConfig.extConst.push(...config.extConst);
-  if ((_b = config == null ? void 0 : config.replaceBeforeTokenizing) == null ? void 0 : _b.length)
-    defaultConfig.replaceBeforeTokenizing.push(...config.replaceBeforeTokenizing);
-  return defaultConfig;
+  let e = { display: true, extConst: [["dx", "{\\text{d}x}"], ["dy", "{\\text{d}y}"], ["dz", "{\\text{d}z}"], ["dt", "{\\text{d}t}"], ["#", "\\displaystyle"]], replaceBeforeTokenizing: [[/&#(x?[0-9a-fA-F]+);/g, (t, o) => String.fromCodePoint(o[0] === "x" ? `0${o}` : o)]] };
+  return typeof (n == null ? void 0 : n.display) < "u" && (e.display = n == null ? void 0 : n.display), ((_a = n == null ? void 0 : n.extConst) == null ? void 0 : _a.length) && e.extConst.push(...n.extConst), ((_b = n == null ? void 0 : n.replaceBeforeTokenizing) == null ? void 0 : _b.length) && e.replaceBeforeTokenizing.push(...n.replaceBeforeTokenizing), e;
 }
-var AsciiMath = class {
-  constructor(config) {
+var R = class {
+  constructor(e) {
     __publicField(this, "trie");
     __publicField(this, "display");
     __publicField(this, "replaceLaws");
-    const { display, extConst, replaceBeforeTokenizing: replaceBeforeParsing } = resolveConfig(config);
-    this.trie = createTrie({ extConst });
-    this.display = display;
-    this.replaceLaws = replaceBeforeParsing;
+    let { display: t, extConst: o, replaceBeforeTokenizing: s } = H(e);
+    this.trie = $({ extConst: o }), this.display = t, this.replaceLaws = s;
   }
-  toTex(code) {
+  toTex(e) {
     try {
-      code = this.replaceLaws.reduce((prev, curLaw) => {
-        if (typeof curLaw[1] === "function")
-          return prev.replace(curLaw[0], curLaw[1]);
-        else
-          return prev.replace(curLaw[0], curLaw[1]);
-      }, code);
-      let res = codegen(parser(this.trie.tryParsingAll(code)));
-      if (this.display)
-        res = `\\displaystyle{ ${res} }`;
-      return res;
-    } catch (e) {
-      return `\\text{${String(e)}}`;
+      e = this.replaceLaws.reduce((o, s) => (typeof s[1] == "function", o.replaceAll(s[0], s[1])), e);
+      let t = k(A(this.trie.tryParsingAll(e)));
+      return this.display && (t = `\\displaystyle{ ${t} }`), t;
+    } catch (t) {
+      return `\\text{${String(t)}}`;
     }
   }
 };
 
-// inline.ts
-var import_view = require("@codemirror/view");
-var import_language = require("@codemirror/language");
-var import_obsidian = require("obsidian");
-
-// utils.ts
+// src/utils.ts
 function normalizeEscape(escape) {
   return escape.replace(/([$^\\.()[\]{}*?|])/g, "\\$1");
 }
 
-// inline.ts
-var AM = new AsciiMath();
+// src/inline.ts
+var import_view = require("@codemirror/view");
+var import_language = require("@codemirror/language");
+var import_obsidian = require("obsidian");
+var AM = new R();
 function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
   for (const range of selection.ranges) {
     if (range.from <= rangeTo && range.to >= rangeFrom)
@@ -1257,7 +721,7 @@ var InlineWidget = class extends import_view.WidgetType {
       return true;
     return false;
   }
-  toDOM(view) {
+  toDOM(_view) {
     const tex = AM.toTex(this.rawQuery);
     const mathEl = (0, import_obsidian.renderMath)(tex, false);
     (0, import_obsidian.finishRenderMath)();
@@ -1279,16 +743,17 @@ function inlinePlugin(plugin) {
       if (update.docChanged || update.viewportChanged || update.selectionSet)
         this.decorations = (_a = inlineRender(update.view, plugin)) != null ? _a : import_view.Decoration.none;
     }
-  }, { decorations: (v) => v.decorations });
+  }, { decorations: (v2) => v2.decorations });
 }
 
-// main.ts
+// src/main.ts
 var DEFAULT_SETTINGS = {
   blockPrefix: ["asciimath", "am"],
   inline: {
     open: "`$",
     close: "$`"
-  }
+  },
+  customSymbols: []
 };
 function toTex(am, content) {
   const tex = am.toTex(content);
@@ -1297,12 +762,15 @@ function toTex(am, content) {
 var AsciiMathPlugin = class extends import_obsidian2.Plugin {
   constructor() {
     super(...arguments);
+    this.existPrefixes = [];
     this.postProcessors = /* @__PURE__ */ new Map();
   }
   async onload() {
     await this.loadSettings();
     await (0, import_obsidian2.loadMathJax)();
-    this.AM = new AsciiMath();
+    this.AM = new R({
+      extConst: this.settings.customSymbols
+    });
     if (!MathJax) {
       console.warn("MathJax was not defined despite loading it.");
       new import_obsidian2.Notice("Error: MathJax was not defined despite loading it!");
@@ -1312,6 +780,7 @@ var AsciiMathPlugin = class extends import_obsidian2.Plugin {
     this.app.workspace.onLayoutReady(async () => {
       this.settings.blockPrefix.forEach((prefix) => {
         this.registerAsciiMathBlock(prefix);
+        this.existPrefixes.push(prefix);
       });
     });
     this.registerEditorExtension([inlinePlugin(this)]);
@@ -1319,7 +788,7 @@ var AsciiMathPlugin = class extends import_obsidian2.Plugin {
     this.addCommand({
       id: "insert-asciimath-block",
       name: "Insert asciimath block",
-      editorCallback: (editor, view) => {
+      editorCallback: (editor, _view) => {
         editor.replaceSelection(`\`\`\`${this.settings.blockPrefix[0] || "asciimath"}
 ${editor.getDoc().getSelection()}
 \`\`\``);
@@ -1330,7 +799,7 @@ ${editor.getDoc().getSelection()}
     this.addCommand({
       id: "convert-am-block-into-mathjax-in-current-file",
       name: "Convert asciimath block into mathjax in current file",
-      editorCallback: (editor, view) => {
+      editorCallback: (editor, _view) => {
         this.editorTransactionConvertFormula(editor);
       }
     });
@@ -1392,7 +861,7 @@ $$`,
   registerAsciiMathBlock(prefix) {
     this.postProcessors.set(prefix, this.registerMarkdownCodeBlockProcessor(prefix, (src, el, ctx) => this.postProcessor(prefix, src, el, ctx)));
   }
-  async postProcessorInline(el, ctx) {
+  async postProcessorInline(el, _ctx) {
     const nodeList = el.querySelectorAll("code");
     if (!nodeList.length)
       return;
@@ -1413,7 +882,7 @@ $$`,
       node.replaceWith(mathEl);
     }
   }
-  postProcessor(_prefix, src, el, _) {
+  postProcessor(_prefix, src, el, _2) {
     const tex = this.AM.toTex(src);
     const mathEl = (0, import_obsidian2.renderMath)(tex, true);
     el.appendChild(mathEl);
@@ -1456,6 +925,13 @@ function validateSettings(settings) {
       message: "Invalid inline trailing escape!"
     };
   }
+  const { customSymbols } = settings;
+  if (customSymbols.find((pair) => pair.length !== 2)) {
+    return {
+      isValid: false,
+      message: "Custom rule should be two string split with a comma!"
+    };
+  }
   return {
     isValid: true,
     message: "OK"
@@ -1470,15 +946,21 @@ var AsciiMathSettingTab = class extends import_obsidian2.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for asciimath" });
-    new import_obsidian2.Setting(containerEl).setName("Code block prefix aliases").setDesc("Seperate different aliases with comma.").addText((text) => text.setPlaceholder("asciimath, am").setValue(this.plugin.settings.blockPrefix.join(", ")).onChange(async (value) => {
+    new import_obsidian2.Setting(containerEl).setName("Code block prefix aliases").setDesc("Seperate different aliases with comma.").addText((text) => text.setPlaceholder("asciimath, am").setValue(this.plugin.settings.blockPrefix.join(", ")).onChange((0, import_obsidian2.debounce)((value) => {
       this.plugin.settings.blockPrefix = value.split(",").map((s) => s.trim()).filter(Boolean);
-    }));
-    new import_obsidian2.Setting(containerEl).setName("Inline asciimath start").setDesc("The leading escape of the inline asciimath formula. It should starts with **only one backtick**.").addText((text) => text.setPlaceholder("`$").setValue(this.plugin.settings.inline.open).onChange(async (value) => {
+    }, 1e3)));
+    new import_obsidian2.Setting(containerEl).setName("Inline asciimath start").setDesc("The leading escape of the inline asciimath formula. It should starts with **only one backtick**.").addText((text) => text.setPlaceholder("`$").setValue(this.plugin.settings.inline.open).onChange((0, import_obsidian2.debounce)((value) => {
       this.plugin.settings.inline.open = value;
-    }));
-    new import_obsidian2.Setting(containerEl).setName("Inline asciimath end").setDesc("The trailing escape of the inline asciimath formula. It should ends with **only one backtick**.").addText((text) => text.setPlaceholder("$`").setValue(this.plugin.settings.inline.close).onChange(async (value) => {
+    }, 1e3)));
+    new import_obsidian2.Setting(containerEl).setName("Inline asciimath end").setDesc("The trailing escape of the inline asciimath formula. It should ends with **only one backtick**.").addText((text) => text.setPlaceholder("$`").setValue(this.plugin.settings.inline.close).onChange((0, import_obsidian2.debounce)((value) => {
       this.plugin.settings.inline.close = value;
-    }));
+    }, 1e3)));
+    new import_obsidian2.Setting(containerEl).setName("Custom symbols").setDesc("Transforms custom symbols into LaTeX symbols. One row for each rule.").addTextArea((text) => {
+      const el = text.setPlaceholder("symbol1, \\LaTeXSymbol1\nsymbol2, \\LaTeXSymbol2\n...").setValue(this.plugin.settings.customSymbols.map((r) => r.join(", ")).join("\n")).onChange((0, import_obsidian2.debounce)((value) => {
+        this.plugin.settings.customSymbols = value.split("\n").map((r) => r.split(",").map((s) => s.trim()).filter(Boolean)).filter((l2) => l2.length);
+      }, 1e3));
+      el.inputEl.addClass("__asciimath_settings_custom-symbols");
+    });
     new import_obsidian2.Setting(containerEl).setName("Don't forget to save and reload settings \u2192").addButton((btn) => btn.setButtonText("Save").onClick(async () => {
       const valid = validateSettings(this.plugin.settings);
       if (!valid.isValid) {
@@ -1487,6 +969,13 @@ var AsciiMathSettingTab = class extends import_obsidian2.PluginSettingTab {
       }
       await this.plugin.saveSettings();
       await this.plugin.loadSettings();
+      this.plugin.settings.blockPrefix.forEach((prefix) => {
+        if (!this.plugin.existPrefixes.includes(prefix))
+          this.plugin.registerAsciiMathBlock(prefix);
+      });
+      this.plugin.AM = new R({
+        extConst: this.plugin.settings.customSymbols
+      });
       new import_obsidian2.Notice("Asciimath settings reloaded successfully!");
     }));
   }

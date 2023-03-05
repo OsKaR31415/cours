@@ -1,3 +1,5 @@
+up:: [[MOC algèbre]]
+title::
 #maths/algèbre
 
 ----

@@ -16,6 +16,9 @@ title:: "$\varphi(x) = 0 \iff x = \vec 0$"
 
 # Propriétés
 
+ - Une forme quadratique **définie** est toujours [[forme quadratique positive|positive]] ou [[forme quadratique négative|négative]]
+ - Une forme quadratique **définie** est une [[forme quadratique non dégénérée]], [[forme quadratique positive|positive]] ou [[forme quadratique négative|négative]]
+
  - Les formes quadratiques définies sont les formes quadratiques dont le polynôme associé possède une seule racine, $\vec 0$.
      - Si on est sur $\mathbb{R}$, sa multiplicité est nécessairement de $2$ (par le [[théorème de d'Alembert]])
 

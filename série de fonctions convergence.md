@@ -1,11 +1,13 @@
 ---
-alias: [ "convergence", "convergente" ]
+alias: [ "convergence d'une série de fonctions", "convergence", "convergente" ]
 ---
 up::[[série de fonctions]]
 title:: 
 #maths/analyse 
 
 ---
+
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > LIST title

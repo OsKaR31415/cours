@@ -2,7 +2,7 @@
 alias: [ "convergence uniforme", "uniformément convergente", "convergence uniforme d'une suite de fonctions" ]
 ---
 up:: [[suite de fonctions convergente]]
-title:: ""
+title:: "$(f_{n})$ CVU ssi : $\lim\limits_{ n \to +\infty } \sup\limits_{x \in I} \left| f_{n}(x) - f(x) \right| = 0$ où $f = \lim\limits_{ n \to \infty }f_{n}$"
 #maths/analyse 
 
 ---

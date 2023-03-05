@@ -1,4 +1,4 @@
-up::[[convergence d'une série de fonctions]]
+up::[[série de fonctions convergence]]
 #maths/analyse 
 
 ---

@@ -2,6 +2,7 @@
 alias: [ "positive" ]
 ---
 up:: [[forme quadratique]]
+sibling::[[forme quadratique négative]]
 title:: "$\varphi(x) \geq 0$"
 #maths/algèbre 
 
@@ -13,6 +14,12 @@ title:: "$\varphi(x) \geq 0$"
 > $\varphi$ est une forme quadratique **positive** ssi 
 > $\boxed{\forall x \in E, \quad \varphi(x) \geq 0}$
 ^definition
+
+> [!definition] définition avec la signature
+> Soit $E$ un $\mathbf{K}$-[[espace vectoriel]]
+> Soit $\varphi$ une [[forme quadratique]] sur $E \to \mathbf{K}$
+> $\varphi$ est **positive** ssi sa signature est de la forme $(\dim E, 0)$
+
 
 # Propriétés
 Soit $\varphi$ une forme quadratique sur $E \to \mathbf{K}$

@@ -1,7 +1,7 @@
 ---
 alias: [ "critère de Cauchy pour une série de fonctions", "critère de Cauchy", "règle de Cauchy" ]
 ---
-up:: [[convergence d'une série de fonctions]]
+up:: [[série de fonctions convergence]]
 title:: "une série CV si son reste $R_{N} \leq \text{cste} \times \sum\limits_{n=N+1}^{+\infty} (q^{n})$"
 #maths/analyse 
 

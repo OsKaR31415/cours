@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "base": {
-      "base": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1674829003324
-        }
-      }
-    },
     "dimension": {
       "dimension": {
         "internalLink": {
@@ -74,24 +66,8 @@
     "produit scalaire": {
       "produit scalaire": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1676989598245
-        }
-      }
-    },
-    "matrice symétrique": {
-      "matrice symétrique": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1674903315188
-        }
-      }
-    },
-    "théorème du rang": {
-      "théorème du rang": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1675097569500
+          "count": 5,
+          "lastUpdated": 1677921483210
         }
       }
     },
@@ -100,22 +76,6 @@
         "internalLink": {
           "count": 6,
           "lastUpdated": 1676313952998
-        }
-      }
-    },
-    "forme linéaire": {
-      "forme linéaire": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1675097435426
-        }
-      }
-    },
-    "application linéaire": {
-      "application linéaire": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1674903765158
         }
       }
     },
@@ -135,22 +95,6 @@
         }
       }
     },
-    "forme quadratique": {
-      "forme quadratique": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1675098277147
-        }
-      }
-    },
-    "homogénéité": {
-      "homogénéité": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674903757167
-        }
-      }
-    },
     "cos((pi/2)-x)": {
       "cos((pi/2)-x)": {
         "internalLink": {
@@ -162,40 +106,16 @@
     "norme": {
       "norme": {
         "internalLink": {
-          "count": 6,
-          "lastUpdated": 1676989603979
-        }
-      }
-    },
-    "relation d'ordre totale": {
-      "relation d'ordre totale": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675093307940
-        }
-      }
-    },
-    "positive": {
-      "positive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675093681506
-        }
-      }
-    },
-    "orthogonaux": {
-      "orthogonaux": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675096444028
+          "count": 7,
+          "lastUpdated": 1677921538984
         }
       }
     },
     "inégalité de cauchy schwartz": {
       "inégalité de cauchy schwartz": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676989590179
+          "count": 3,
+          "lastUpdated": 1677922326947
         }
       }
     },
@@ -330,8 +250,8 @@
     "inégalité triangulaire": {
       "inégalité triangulaire": {
         "internalLink": {
-          "count": 4,
-          "lastUpdated": 1676989771238
+          "count": 6,
+          "lastUpdated": 1677921786149
         }
       }
     },
@@ -364,6 +284,86 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1677489586273
+        }
+      }
+    },
+    "réduction de gauss d'une forme quadratique": {
+      "réduction de gauss d'une forme quadratique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677691249011
+        }
+      }
+    },
+    "identités remarquables": {
+      "identités remarquables": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677692954592
+        }
+      }
+    },
+    "définie": {
+      "définie": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677694352020
+        }
+      }
+    },
+    "positive": {
+      "positive": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677694357513
+        }
+      }
+    },
+    "forme quadratique": {
+      "forme quadratique": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677694435932
+        }
+      }
+    },
+    "forme quadratique non dégénérée": {
+      "forme quadratique non dégénérée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677695739322
+        }
+      }
+    },
+    "inégalité de Minkowski": {
+      "inégalité de Minkowski": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677921734026
+        }
+      }
+    },
+    "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
+      "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1677922325194
+        }
+      }
+    },
+    "colinéaires": {
+      "colinéaires": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677922395501
+        }
+      }
+    },
+    "suite de fonctions": {
+      "suite de fonctions": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677929160963
         }
       }
     }

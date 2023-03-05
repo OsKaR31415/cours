@@ -41,3 +41,4 @@ Workaround :
  - Use these arguments (to connect) :
      - `ssh <the_hostname>@uptermd.upterm.dev -o "PubkeyAcceptedKeyTypes +ssh-rsa" -o "HostKeyAlgorithms +ssh-rsa"`
          - `<the_hostname>` is given by `upterm host`
+         

@@ -2,18 +2,57 @@
   "main": {
     "id": "239f495bbbd2d5df",
     "type": "split",
-    "ophidian:layout-settings": {
-      "pane-relief:sliding-panes": {
-        "active": false
-      }
-    },
     "children": [
       {
-        "id": "d9737e2070cae0eb",
+        "id": "d5c81b93d2a49560",
         "type": "tabs",
         "children": [
           {
-            "id": "75cdd34ae31ca532",
+            "id": "fd1a5960f51f716a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2023-03-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c92fb01ae5ceb0bf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "inégalité triangulaire.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8f54ead4a8001fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -23,73 +62,71 @@
                   "eState": "{}"
                 },
                 {
-                  "title": ">>informatique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":12},\"to\":{\"line\":37,\"ch\":12}},\"scroll\":32.87770061728395}"
+                  "title": "L2_maths_analyse_CC1_2021_correction",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021_correction.pdf\"}}",
+                  "eState": "{}"
                 },
                 {
-                  "title": "terminal btop",
+                  "title": "inégalité de Minkowski",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/terminal btop.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}},\"scroll\":0.7800829875518672}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inégalité de Minkowski.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":133},\"to\":{\"line\":28,\"ch\":133}},\"scroll\":18.676301010857358}"
+                }
+              ]
+            },
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sources/cours/S4/L2_maths_analyse_CC1_2019.pdf"
+              }
+            }
+          },
+          {
+            "id": "2f3494c777891570",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
-                  "title": "algo avancee activite 3",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee activite 3.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0.7717842323651453}"
+                  "title": "L2_maths_algebre_TD3-annotate",
+                  "icon": "blocks",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_algebre_TD3-annotate.md\"}}",
+                  "eState": "{}"
                 },
                 {
-                  "title": ">>informatique",
+                  "title": "série de fonctions convergence uniforme",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0.34854771784232363}"
-                },
-                {
-                  "title": "algo avancee structures de donnees",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/algo avancee structures de donnees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": ">>informatique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/informatique/>>informatique.qmd\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":64},\"to\":{\"line\":22,\"ch\":64}},\"scroll\":18.846064814814813}"
-                },
-                {
-                  "title": "p cycle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/p cycle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence uniforme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "permutation",
+                  "title": "série de fonctions convergence",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/permutation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":8},\"to\":{\"line\":4,\"ch\":8}},\"scroll\":0.08878504672897196}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions convergence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":1.549645390070922}"
                 },
                 {
-                  "title": "p cycle",
+                  "title": "série de fonctions types de convergence",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/maths/p cycle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de fonctions types de convergence.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "mindmapview",
               "state": {
-                "file": "blog/posts/informatique/vim tips autocorriger les erreurs.qmd",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "sources/cours/S4/L2_maths_algebre_TD4-annotate.md"
               }
             }
           },
           {
-            "id": "837f7b126cbc1564",
+            "id": "d987dd0a9ad35898",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -103,119 +140,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/posts/informatique/sauver une présentation avec la ligne de commande.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "7bf2c38c39fd88d3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2022-06-15.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06c3a78ba987d6fb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f94971a648f4230e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://localhost:3191/posts/informatique/algo%20avancee%20fonctionnelles.html"
-              }
-            }
-          },
-          {
-            "id": "f7364a4a895918d0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quarto blog.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87f35d48c4aad038",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://regex101.com/"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,10 +160,9 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
-        "dimension": 75.60975609756098,
         "children": [
           {
-            "id": "8e6cf92b1e047f14",
+            "id": "84b1f06f81d5c515",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -273,6 +205,40 @@
             }
           },
           {
+            "id": "dd8c7d2443958f22",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "609ff408cfbae38d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
             "id": "ccd1190664578ee9",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -293,23 +259,6 @@
             }
           },
           {
-            "id": "bd1d7503d0848342",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "c7afda8b81d643de",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -324,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,16 +304,9 @@
                 "unlinkedCollapsed": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "32864954bdcadbf2",
-        "type": "tabs",
-        "dimension": 24.390243902439025,
-        "children": [
+          },
           {
-            "id": "5d26e3a4bff64748",
+            "id": "4a09e25bfc193912",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -375,21 +317,16 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "blog/posts/_>>kanban_posts<<_.md"
-              },
-              "pinned": true
+              "type": "surfing-tab-tree",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
-    "collapsed": true
+    "width": 439.5
   },
   "right": {
     "id": "1102f19b896c7a16",
@@ -398,7 +335,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 54.56674473067917,
+        "dimension": 53.45622119815668,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -415,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd"
+                "file": "Untitled.md"
               }
             }
           },
@@ -468,11 +405,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "blog/posts/informatique/algo avancee fonctionnelles.qmd",
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
+                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -482,170 +419,94 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
+                      "query": "tag:#todo",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 8882055
+                        "rgb": 2829614
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 14771732
-                      }
-                    },
-                    {
-                      "query": "tag:#excalidraw",
-                      "color": {
-                        "a": 1,
-                        "rgb": 8019199
-                      }
-                    },
-                    {
-                      "query": "tag:#PKM OR tag:#obsidian",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4863904
+                        "rgb": 6356992
                       }
                     },
                     {
                       "query": "tag:#flashcards",
                       "color": {
                         "a": 1,
-                        "rgb": 4863904
-                      }
-                    },
-                    {
-                      "query": "tag:#gists",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6827411
-                      }
-                    },
-                    {
-                      "query": "tag:#CV",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11010185
+                        "rgb": 16427551
                       }
                     },
                     {
                       "query": "tag:#maths",
                       "color": {
                         "a": 1,
-                        "rgb": 2792960
+                        "rgb": 2520842
                       }
                     },
                     {
                       "query": "tag:#logique",
                       "color": {
                         "a": 1,
-                        "rgb": 13050
+                        "rgb": 2902193
                       }
                     },
                     {
                       "query": "tag:#informatique",
                       "color": {
                         "a": 1,
-                        "rgb": 1346167
+                        "rgb": 32882
                       }
                     },
                     {
                       "query": "tag:#personne",
                       "color": {
                         "a": 1,
-                        "rgb": 13470121
+                        "rgb": 10710150
                       }
                     },
                     {
-                      "query": "path:sources",
+                      "query": "path:annotation",
                       "color": {
                         "a": 1,
-                        "rgb": 3770873
+                        "rgb": 12844865
                       }
                     },
                     {
-                      "query": "tag:#science OR tag:#autres OR tag:#cuisine",
+                      "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 15646813
-                      }
-                    },
-                    {
-                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16759552
-                      }
-                    },
-                    {
-                      "query": "tag:#devoir OR tag:#devoir-fait",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711914
-                      }
-                    },
-                    {
-                      "query": "tag:#PM",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12091263
+                        "rgb": 4667545
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
                   "textFadeMultiplier": -1,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": true,
-                  "centerStrength": 0.791642706536324,
-                  "repelStrength": 15.6584243818286,
+                  "collapse-forces": false,
+                  "centerStrength": 0.469875590807845,
+                  "repelStrength": 8.50328679306785,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.197831046904222,
+                  "scale": 1.0014330635602462,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "bf9c467678aa05e4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "843072ab0d510e3d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "837d069be727ad7e",
+            "id": "6eef7a6fea7d0a57",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -662,7 +523,41 @@
             }
           },
           {
-            "id": "5a395aba28ae12aa",
+            "id": "bbb6a2e5983cb458",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "b633b3db710b1c5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "31631cc465104a08",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -679,24 +574,7 @@
             }
           },
           {
-            "id": "371c374f83e4e7de",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "e869f5af98e9ec5f",
+            "id": "baf05012e25adfe7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -711,14 +589,21 @@
               "type": "Strange New Worlds",
               "state": {}
             }
+          },
+          {
+            "id": "55e3bb7226eb441b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 9
+        ]
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 45.43325526932083,
+        "dimension": 46.54377880184332,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -745,7 +630,7 @@
             }
           },
           {
-            "id": "523cd7a78782d297",
+            "id": "e06c83cab06fb399",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -761,7 +646,7 @@
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -772,73 +657,81 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
+    "width": 517.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-custom-frames:Open Detexify": true,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-custom-frames:Open compteur NDLI": true,
       "obsidian42-brat:BRAT": true,
-      "darlal-switcher-plus:Open in Headings Mode": false,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": true,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "zk-prefixer:Create new unique note": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-custom-frames:Open Detexify": false,
-      "obsidian-custom-frames:Open compteur NDLI": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "06c3a78ba987d6fb",
+  "active": "d987dd0a9ad35898",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "blog/_site/index-listing.json",
-    "blog/_site/index.feed-full-staged",
-    "blog/index_files/mediabag",
-    "blog/site_libs/quarto-search/quarto-search.js",
-    "blog/site_libs/quarto-search/fuse.min.js",
-    "blog/site_libs/quarto-search/autocomplete.umd.js",
-    "blog/site_libs/quarto-nav/quarto-nav.js",
-    "blog/site_libs/quarto-nav/headroom.min.js",
-    "blog/site_libs/quarto-html/tippy.umd.min.js",
-    "blog/site_libs/quarto-html/tippy.css",
-    "blog/site_libs/quarto-html/quarto.js",
-    "quarto blog.md",
-    "informatique/python/cours/défi_python_turtle_énoncé.jpg",
-    "informatique/python/cours/Basile/défi_python_turtle_énoncé.jpg",
-    "informatique/python/cours/cours_programmation/défi_python_turtle_énoncé.jpg",
-    "ssh.md",
-    "terminal commandes.md",
-    "upterm.md",
-    "ssh keys.md",
-    "daily/2022-06-15.md",
-    "MOC analyse.md",
-    "MOC probabilités.md",
-    "loi de probabilités.md",
-    "sources/cours/S4/L2_maths_algebre_CC1_2020-annotate.md",
-    "Arithmétique.canvas",
-    "base antéduale d'une famille de formes linéaires.md",
-    "base duale d'une famille de formes linéaires.md",
     "sources/cours/S4/L2_maths_algebre_TD4-annotate.md",
-    "produit scalaire.md",
-    "espace préhilbertien réel.md",
-    "flashcards algèbre.md",
-    "Excalidraw/base duale d'une famille de formes linéaires 2023-01-23 17.35.35.excalidraw.md",
-    "Excalidraw/architecture de Von Neumann 2022-09-14 11.13.27.excalidraw.md",
-    "daily/2023-02-27.md",
-    "algorithme de gram schmidt.md",
-    "Famille de vecteurs orthonormale.md",
-    "sources/cours/S4/L2_maths_analyse_TD2-annotate.md",
-    "identités.md",
-    "MOC arithmétique.md",
-    "sources/ceux qui donnent des préceptes.md"
+    "Untitled 1.md",
+    "Untitled.md",
+    "sources/cours/S4/L2_maths_algebre_TD3-annotate.md",
+    "série de fonctions convergence uniforme.md",
+    "blog/posts/informatique/algo avancee activite 3.qmd",
+    "todo.md",
+    "blog/_site/posts/maths/>>mathematiques-listing.json",
+    "blog/_site/posts/informatique/>>informatique-listing.json",
+    "blog/about.html",
+    "blog/about_files/mediabag",
+    "blog/about_files",
+    "blog/index-listing.json",
+    "blog/index.feed-full-staged",
+    "blog/index.html",
+    "blog/index_files/mediabag",
+    "daily/2023-03-05.md",
+    "algo.md",
+    "Excalidraw/presentation_reseaux_dario.excalidraw.md",
+    "Excalidraw/présentation polynômes.excalidraw.md",
+    "Excalidraw/Drawing 2023-03-05 00.46.54.excalidraw.md",
+    "Excalidraw/Drawing 2023-02-16 13.25.25.excalidraw.md",
+    "Excalidraw/algorithme de décision réception d'un paquet 2022-10-04 13.18.14.excalidraw.md",
+    "Excalidraw/équation paramétrique affine d'une droite 2022-12-29 18.53.00.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.md",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Repeat Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Repeat Elements.md",
+    "série de fonctions convergence.md",
+    "série de fonctions types de convergence.md",
+    "série de fonctions covergence simple.md",
+    "Excalidraw/série de fonctions types de convergence 2023-02-08 20.30.37.excalidraw.md",
+    "attachments/markmind/1677702414155.png",
+    "attachments/markmind/1677702410025.png",
+    "Arithmétique.canvas"
   ]
 }
