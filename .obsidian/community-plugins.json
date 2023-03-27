@@ -13,7 +13,6 @@
   "obsidian-qrcode-plugin",
   "persistent-graph",
   "quick-explorer",
-  "obsidian-hover-editor",
   "obsidian-desmos",
   "obsidian-functionplot",
   "obsidian-plugin-toc",
@@ -57,5 +56,7 @@
   "obsidian-latex-suite",
   "various-complements",
   "surfing",
-  "calendar"
+  "calendar",
+  "canvas-presentation",
+  "obsidian-hover-editor"
 ]

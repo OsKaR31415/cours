@@ -4,6 +4,7 @@ title::
 
 ---
 
+
 > [!definition] suite de fonctions convergente
 > Soit $(f_{n})$ une suite de fonctions de $I \subset \mathbb{R} \to \mathbb{R}$
 > On dit que $f$ **converge (simplement) vers $f$ sur $I$** ssi :

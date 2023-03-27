@@ -16,14 +16,11 @@ title::"des types conteneurs alternatifs"
 
 ----
 
-> [!query] Sous-notes de this.file.link
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, description, author
+> LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE contains(up,          this.file.link)
->    or contains(up.up,       this.file.link)
->    or contains(up.up.up,    this.file.link)
->    or contains(up.up.up.up, this.file.link)
-> WHERE file.name != this.file.name
-> SORT up.up.up.up, up.up.up, up.up, up
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```

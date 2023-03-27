@@ -21,7 +21,6 @@ On pose un verrou sur les blocs d'un fichier pour éviter qu'un fichier soit lu 
              - même avec un verrou partagé
          - utiles pour l'**écriture**
 
-
  - le **mode opératoire**
      - verrous **consultatifs** (advisory)
          - seule la _pose d'un nouveau verrou_ peut être interdite

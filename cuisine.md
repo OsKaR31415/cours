@@ -1,3 +1,4 @@
+up:: [[MOC PKM|PKM]]
 #cuisine #PKM 
 
 ---

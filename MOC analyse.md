@@ -74,7 +74,7 @@ Voir **[[MOC fonctions]]**
 
  - [[équation différentielle]]
      - [[équation différentielle du premier ordre]]
-     - [[équation différentielle du second ordre]]
+     - [[équation différentielle du second ordre a coefficients constants]]
 
 
 

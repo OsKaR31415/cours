@@ -1,6 +1,5 @@
 up::[[suite]]
 title::"les $u_{n}$ pour $n$ grand sont _proches_ les uns des autres"
-description::
 #maths/analyse 
 
 ---
@@ -13,4 +12,8 @@ description::
 
 # Propriétés 
 
- - Toute [[suite convergente]] est de cauchy ()
+ - Sur $\mathbb{R}$, toute [[suite convergente]] est de cauchy
+ - Sur un [[ensemble complet]], toute suite de cauchy est convergente
+     - Exemple : $\mathbb{Q}$ n'est pas complet, et certaines suites de cauchy sur $\mathbb{Q}$ convergent vers un élément de $\mathbb{R}$ mais pas de $\mathbb{Q}$
+
+

@@ -24,7 +24,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.17",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -90,7 +90,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -124,7 +127,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -158,7 +164,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -300,7 +309,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -338,7 +350,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -372,7 +387,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -498,8 +516,8 @@ tags: [excalidraw]
 			"y": -610.6406966016161,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 15,
-			"height": 25,
+			"width": 13.6199951171875,
+			"height": 24,
 			"seed": 2113698560,
 			"groupIds": [
 				"gDZ4lXM0eUhkAmZQ2hmmi"
@@ -513,7 +531,6 @@ tags: [excalidraw]
 			"fontFamily": 1,
 			"text": "3",
 			"rawText": "3",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -587,7 +604,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -621,7 +641,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -655,7 +678,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -689,7 +715,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -893,7 +922,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -927,7 +959,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -961,7 +996,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -995,7 +1033,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -1191,7 +1232,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1229,7 +1273,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1267,7 +1314,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1301,7 +1351,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -1501,7 +1554,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1535,7 +1591,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1573,7 +1632,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1607,7 +1669,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545289879,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -1787,8 +1852,8 @@ tags: [excalidraw]
 			"y": -444.438007372284,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 14,
-			"height": 25,
+			"width": 12.79998779296875,
+			"height": 24,
 			"seed": 339531008,
 			"groupIds": [
 				"uVwfqeShtxnAqlcr1sR-v"
@@ -1802,7 +1867,6 @@ tags: [excalidraw]
 			"fontFamily": 1,
 			"text": "4",
 			"rawText": "4",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -1840,7 +1904,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1882,7 +1949,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1916,7 +1986,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1954,7 +2027,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -1988,7 +2064,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -2238,7 +2317,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2280,7 +2362,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2318,7 +2403,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2352,7 +2440,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2386,7 +2477,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -2636,7 +2730,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2678,7 +2775,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2712,7 +2812,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2750,7 +2853,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -2784,7 +2890,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -3034,7 +3143,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3080,7 +3192,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3114,7 +3229,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3148,7 +3266,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3182,7 +3303,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -3432,7 +3556,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3470,7 +3597,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3508,7 +3638,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3546,7 +3679,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3580,7 +3716,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -3830,7 +3969,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3868,7 +4010,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3906,7 +4051,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3948,7 +4096,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -3982,7 +4133,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -4232,7 +4386,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4270,7 +4427,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4312,7 +4472,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4354,7 +4517,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4388,7 +4554,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -4638,7 +4807,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4676,7 +4848,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4710,7 +4885,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4748,7 +4926,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -4786,7 +4967,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545293529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -5048,8 +5232,8 @@ tags: [excalidraw]
 			"y": -281.7516532201144,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 14,
-			"height": 25,
+			"width": 12.3599853515625,
+			"height": 24,
 			"seed": 1016132864,
 			"groupIds": [
 				"DXtuxnbRQSXovvoab2QBS"
@@ -5063,7 +5247,6 @@ tags: [excalidraw]
 			"fontFamily": 1,
 			"text": "5",
 			"rawText": "5",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -5129,7 +5312,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "ellipse",
@@ -5163,7 +5349,10 @@ tags: [excalidraw]
 			],
 			"updated": 1657545264786,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "arrow",
@@ -5235,8 +5424,8 @@ tags: [excalidraw]
 			"y": -610.6406966016161,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 15,
-			"height": 25,
+			"width": 14.239990234375,
+			"height": 24,
 			"seed": 538985207,
 			"groupIds": [
 				"4PFeAaTsBzHpoRoT0D7LZ"
@@ -5250,7 +5439,6 @@ tags: [excalidraw]
 			"fontFamily": 1,
 			"text": "2",
 			"rawText": "2",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -5329,8 +5517,8 @@ tags: [excalidraw]
 			"y": -613.7130639518765,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 7,
-			"height": 25,
+			"width": 5.4199981689453125,
+			"height": 24,
 			"seed": 889822457,
 			"groupIds": [
 				"qH5-_JATLWmgwzWGaKCh-"
@@ -5345,11 +5533,13 @@ tags: [excalidraw]
 			"updated": 1672541018027,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "1",
 			"rawText": "1",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -5357,8 +5547,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 785,
-			"versionNonce": 322175783,
+			"version": 788,
+			"versionNonce": 311280814,
 			"isDeleted": false,
 			"id": "wVn-ZvtKZ2MJNb67Wwd02",
 			"fillStyle": "hachure",
@@ -5369,7 +5559,7 @@ tags: [excalidraw]
 			"angle": 0,
 			"x": -255.68799665135478,
 			"y": -614.6363683748139,
-			"strokeColor": "#c92a2a",
+			"strokeColor": "transparent",
 			"backgroundColor": "transparent",
 			"width": 769.0234375000002,
 			"height": 512.7947443181836,
@@ -5377,9 +5567,19 @@ tags: [excalidraw]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1672541348875,
+			"updated": 1678400898385,
 			"link": null,
-			"locked": false,
+			"locked": true,
+			"customData": {
+				"slideshow": {
+					"originalProps": {
+						"strokeColor": "#c92a2a",
+						"backgroundColor": "transparent",
+						"locked": false
+					},
+					"hidden": true
+				}
+			},
 			"startBinding": {
 				"elementId": "hwoo05ld",
 				"focus": 0.4626863647944027,
@@ -5448,14 +5648,16 @@ tags: [excalidraw]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 534.5900054698138,
-		"scrollY": 834.9174641151554,
+		"scrollX": 257.5416898331729,
+		"scrollY": 436.02610978886673,
 		"zoom": {
-			"value": 0.7934246418248296
+			"value": 1.870327193452436
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"currentStrokeOptions": null,
+		"previousGridSize": null
 	},
 	"files": {}
 }

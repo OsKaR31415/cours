@@ -7,8 +7,10 @@ title::"[[famille de vecteurs]] [[famille de vecteurs libre|libre]] et [[famille
 
 ---
 
-Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$
-La famille $\{u_1,\ldots,u_k\}$ est une _base_ lorsqu'elle est simultanément [[famille de vecteurs génératrice|génératrice]] et [[famille de vecteurs libre|libre]].
+> [!definition] 
+> Soit $(E, +, \cdot)$ un [[espace vectoriel]] réel, et $\{u_1,\ldots,u_k\}$ une [[famille de vecteurs]] de $E$
+> La famille $\{u_1,\ldots,u_k\}$ est une _base_ lorsqu'elle est simultanément [[famille de vecteurs génératrice|génératrice]] et [[famille de vecteurs libre|libre]].
+^definition
 
 # Propriétés
 Soit $E$ un espace vectoriel
@@ -22,5 +24,15 @@ c'est-à-dire comme une [[combinaison linéaire]] des vecteurs de cette base.
 
 Soit $B=\{u_1,\ldots,u_n\}$ une famille de $n$ vecteurs de $\mathbb{R}^n$, On a l'équivalence suivante :
  - $B$ est une _base_ de $\mathbb{R}^n$ $\iff$ $\det(u_1;\ldots;u_n) \neq 0$ 
-C'est-à-dire qu'une famille de vecteurs est une _base_ ssi la matrice formée par ses vecteurs (colonne) à un [[déterminant d'une matrice|déterminant]] non nul.
+C'est-à-dire qu'une famille de vecteurs est une _base_ ssi la matrice formée par ses vecteurs (colonne ou ligne) à un [[déterminant d'une matrice|déterminant]] non nul.
+
+> [!query] Sous-notes de `=this.file.link`
+> ```dataview
+> LIST title
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
+> ```
+
 

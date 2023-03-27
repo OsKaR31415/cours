@@ -1,3 +1,5 @@
+up:: [[MOC PKM|PKM]]
+title:: "inbox: brouillons", "ressources: extraits, citations, notes sur un livre... avec métadonnées", "permanent: concepts [[notes atomiques|notes atomiques]] et [[notes reliées|notes reliées]]"
 #PKM
 
 ----

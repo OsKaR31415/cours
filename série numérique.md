@@ -1,4 +1,4 @@
-up::[[MOC analyse]] 
+up::[[série]]
 title:: $\sum\limits u_{n}$
 #maths/analyse 
 

@@ -1,3 +1,4 @@
+up::[[APL]], [[Traditionnal Mathematical Notation|TMN]]
 #informatique
 
 ---

@@ -1,5 +1,5 @@
 up:: [[conception des bases de données]]
-title:: ""
+title:: "shéma facile à expliquer", "ne pas mélanger plusieurs objets dans une même relation", "ne pas combiner plusieurs valeurs dans un seul attribut"
 #informatique 
 
 ---

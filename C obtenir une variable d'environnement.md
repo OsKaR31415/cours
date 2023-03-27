@@ -1,7 +1,7 @@
 ---
 alias: [ "C primitive getenv", "getenv" ]
 ---
-up::[[primitives C]], [[C variable d'environnement]]
+up::[[C primitives système]], [[C variable d'environnement]]
 title:: "`getenv` pour obtenir la valeur d'une [[variables d'environnement|variable d'environnement]]"
 #informatique/unix 
 
@@ -11,7 +11,7 @@ title:: "`getenv` pour obtenir la valeur d'une [[variables d'environnement|varia
 
  - fonction `getenv` de la librairie standard
  - permet d'obtenir directement la valeur de la variable donnée en argument
- - retourne `NULL` si la variable n'est pas définie
+ - retourne `NULL` si la variable n'est **pas définie**
 
 signature de la fonction :
 ```c

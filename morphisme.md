@@ -10,11 +10,14 @@ title::"$\begin{align}f :& (E, *) \to (F, \bot)\\ &x \mapsto f(x)\end{align}$", 
 
 ----
 
-Soient $(E, *)$ et $(R,\bot)$ deux ensembles, munis chacun d'une [[loi de composition interne]].
-Une application
-$\begin{aligned}f: &(E,*)\mapsto (F,\bot)\\ &x\mapsto f(x)\end{aligned}$
-est un morphisme de $(E,*)$ vers $(F,\bot)$ ssi :
-$\forall (x,y)\in E^2, f(x*y) = f(x)\bot f(y)$
+> [!definition] Morphisme
+> Soit $(E, *)$ et $(F, \bot)$ deux ensembles munis d'une [[loi de composition interne]]
+> Soit $f: (E, *) \to (F, \bot)$ une [[application]]
+> $f$ est un **morphisme** ssi :
+> $\forall (x, y) \in E^{2}, \quad  \boxed{f(x*y) = f(x) \bot f(y)}$
+^definition
+
+
 # Exemple
 $$\begin{aligned}
 \ln :& (\mathbb R, +) \mapsto (\mathbb R, \times)\\

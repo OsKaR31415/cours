@@ -1,4 +1,4 @@
-up:: [[primitives C]]
+up:: [[C primitives système]]
 title:: "Informations sur un fichier (inode, type, propriétaire, dates...)"
 #informatique/unix 
 

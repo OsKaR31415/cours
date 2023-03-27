@@ -3,7 +3,7 @@ gists:
   - id: 982f721e53dce3613d68cd2512a4b721
     url: 'https://gist.github.com/982f721e53dce3613d68cd2512a4b721'
     createdAt: '2022-09-24T23:15:29Z'
-    updatedAt: '2022-09-27T11:14:40Z'
+    updatedAt: '2023-03-11T11:54:39Z'
     filename: 'Contre, l''usage abusif, de la virgule, dans la notation, mathématique.md'
     isPublic: true
 ---
@@ -67,6 +67,18 @@ Dans le contexte de la définition d'ensembles, il arrive également que l'on ut
 
 On pourrait donc avoir cette formule : $\left\lbrace q, a, b \in \mathbb{Z}, b \neq 0, q = \frac{a}{b} \right\rbrace$, que l'on n'écrira bien sûr jamais, mais qui montre bien les nombreuses significations possibles de la virgule, et le travail d'interprétation que l'on doit faire à chaque fois pour deviner laquelle est la bonne.
 
+### Inégalités
+
+Lorsque l'on veut combiner des inégalités, on utilise parfois une virgule. Par exemple, si on veut dire que $i$ et $j$ sont toutes les deux comprises entre $1$ et $n$, ou pourrait écrire $1 \leq i \leq n \text{ et } 1 \leq j \leq n$, mais c'est assez long. On voit donc parfois $1 \leq i,j \leq n$. Le problème est que ceci est indifférenciable de $1 \leq i \text{ et } j \leq n$ : on ne sait pas faire la différence entre les deux sans contexte.
+
+Par exemple, pour des matrices, on pourrait noter $A + B = (A_{i,j} + B_{i,j})_{1 \leq i,j \leq n}$.
+
+Ou encore, pour des sommes : $\sum\limits_{1 \leq i,j \leq n} i\times j = \sum\limits_{1 \leq i \leq n} \left( \sum\limits_{1 \leq j \leq n} \Big( i \times j \Big) \right)$
+
+Aussi noté $\underset{1 \leq i,j \leq n}{\sum \sum} i \times j$, pour diminuer les ambiguités. 
+
+Cela reste plus difficile à lire que si l'on écrit $\sum\limits_{\substack{1 \leq i \leq n\\1 \leq j \leq n}} (i\times j)$ ou même $\sum\limits_{(i,j) \in [\hspace{-0.15em}[1, n]\hspace{-.15em}]} (i\times j)$
+
 ## Solutions possibles
 
 ### Solution de la logique formelle
@@ -106,7 +118,9 @@ Voici quelques exemples d'expressions écrite en utilisant plus ou moins de virg
 | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\forall x, y \in \mathbb{R}, \exists a, b \in \mathbb{R}, x+y = a+b, x\neq a, y \neq b$ | $\forall (x, y) \in \mathbb{R}^{2}, \exists (a, b) \in \mathbb{R}^{2}, x+y = a+b \wedge x\neq a \wedge y \neq b$ | $\forall (x;y)\in\mathbb{R}^{2}, \exists (a;b)\in\mathbb{R}^{2}, x+y=a+b \wedge x\neq a \wedge y \neq b$                                                                                                               |
 | $\left\lbrace q,a,b\in\mathbb{Z}, b \neq 0, q=\frac{a}{b} \right\rbrace$                 | $\left\lbrace q \mid a \in \mathbb{Z}, b \in \mathbb{Z}^{\ast}, q = \frac{a}{b} \right\rbrace$                   | $\left\lbrace q \mid (a; b) \in \mathbb{Z}^{2} \wedge b \neq 0 \wedge q = \frac{a}{b} \right\rbrace$ ou bien $\left\lbrace q \mid (a; b) \in \mathbb{Z} \times \mathbb{Z}^{\ast} \wedge q = \frac{a}{b} \right\rbrace$ |
-| $\{ \overrightarrow{MN},M,N \in F \}$                                                    | $\{ \overrightarrow{MN} \mid M, N \in F \}$                                                                      |  $\{ \overrightarrow{MN} \mid (M, N) \in F^{2} \}$                                                                                                                                                                                                                      |
+| $\{ \overrightarrow{MN},M,N \in F \}$                                                    | $\{ \overrightarrow{MN} \mid M, N \in F \}$                                                                      | $\{ \overrightarrow{MN} \mid (M, N) \in F^{2} \}$                                                                                                                                                                      |
+| $\sum\limits_{1\leq i,j \leq n} i\times j$                                               | $\underset{1 \leq i,j \leq n}{\sum\sum\limits}$                                                                  | $\sum\limits_{\substack{1 \leq i \leq n\\1 \leq j \leq n}} (i\times j)$                                                                                                                                                | 
+
 
 _(des exemples supplémentaire dans les commentaires sont les bienvenus)_
 

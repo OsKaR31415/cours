@@ -5,12 +5,17 @@ sr-ease: 270
 ---
 
 up::[[équation différentielle]]
+title:: "contient une fonction et sa [[dérivation|dérivée]]", "$a(x)y'(x) + b(x)y(x) = c(x)$"
 #maths/algèbre #review
 
 ----
 Des [[équation différentielle|équations différentielles]] dans lesquelles seule la [[dérivation|dérivée]] [[dérivées successives|première]] apparaît.
 
 # Forme
+
+> [!example] Exemples
+> - $y' + a(x)y = b(x)$ (forme classique)
+> - $y'\ln(y + y') = \cos y$
 
 ## Forme usuelle
 La forme la plus commune est : $y' + a(x)y = b(x)$
@@ -23,7 +28,7 @@ Elles sont de la forme $y' + a(x)y = 0$
 
 ## Equation vérifiant une condition initiale
 Soit une équation $y' +a(x)y = b(x)$, sur un intervalle $I$
-La donnée d'une _condition initiale_ pour cette équation est la donnée de $x_{0}\in I$ et de $y_{0}\in\R$
+La donnée d'une _condition initiale_ pour cette équation est la donnée de $x_{0}\in I$ et de $y_{0}\in\mathbb{R}$
 Une solution satisfaisant cette _condition initiale_ est une solution $y$ telle que $y(x_{0}) = y_{0}$
 
 ## Equations a variables séparées
@@ -51,7 +56,7 @@ $$\begin{align*}
 y' + a(x)y = 0 &\iff y' = -a(x)y\\
 \text{si } y \text{ ne s'annule pas : } & \iff \frac{y'}{y}= -a(x)\\
 & \iff \big(\ln(|y|)\big)' = -a(x)\\
-\text{si } A' = a :& \iff \ln|y| = -A(x) + \underbrace{C}_{C\in\R}\\
+\text{si } A' = a :& \iff \ln|y| = -A(x) + \underbrace{C}_{C\in\mathbb{R}}\\
 & \iff |y| = e^{-A(x)+C}\\
 & \iff \left\{ \begin{gathered}
     y = e^{-A(x)} e^{C}\\
@@ -75,11 +80,11 @@ Alors :
  - $y'(x) + a(x)y(x) = M'(x)e^{-A(x)}$
  - Si $y$ est solution, alors $M'(x)e^{-A(x)} = b(x)$
  - $M'(x) = \frac{b(x)}{e^{-A(x)}} = b(x)e^{A(x)}$
- - Donc : $\disp M = \int b\times e^{A}\d x$
+ - Donc : $\displaystyle M = \int b\times e^{A}\text{d} x$
  - Et $M(x)e^{-A(x)}$ est une solution de l'équation
 **Conclusion :**
 Les solutions s'écrivent :
-$\disp \underbrace{M(x)e^{-A(x)}}_{\text{solution particulière}} + \underbrace{Ke^{-A(x)}}_{\text{solution de l'équation sans second membre}}$
+$\displaystyle \underbrace{M(x)e^{-A(x)}}_{\text{solution particulière}} + \underbrace{Ke^{-A(x)}}_{\text{solution de l'équation sans second membre}}$
 
 Soit : 
 $e^{-A(x)} (M(x) + K)$

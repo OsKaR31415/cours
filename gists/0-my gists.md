@@ -1,5 +1,8 @@
+up:: [[MOC PKM|PKM]]
 title::"list of my gists"
 #PKM
+
+---
 # my gists
 
 ```dataview

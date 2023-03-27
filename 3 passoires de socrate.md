@@ -1,4 +1,4 @@
-up:: [[MOC zetetique]]
+up:: [[MOC zetetique]], [[MOC PKM]]
 author:: [[Socrate]]
 title:: "vérité", "bonté", "utilité"
 #science #zetetique

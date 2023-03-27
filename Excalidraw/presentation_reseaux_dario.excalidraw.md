@@ -72,8 +72,8 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 	"elements": [
 		{
 			"type": "arrow",
-			"version": 1308,
-			"versionNonce": 781880147,
+			"version": 1311,
+			"versionNonce": 502716109,
 			"isDeleted": false,
 			"id": "QZagrqTFDb3WpX_qmSKZ9",
 			"fillStyle": "solid",
@@ -92,19 +92,10 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1677974155133,
+			"updated": 1678036262809,
 			"link": null,
 			"locked": true,
-			"customData": {
-				"slideshow": {
-					"originalProps": {
-						"strokeColor": "#e67700",
-						"backgroundColor": "transparent",
-						"locked": false
-					},
-					"hidden": true
-				}
-			},
+			"customData": {},
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -2191,8 +2182,8 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 		},
 		{
 			"type": "arrow",
-			"version": 113,
-			"versionNonce": 129689999,
+			"version": 117,
+			"versionNonce": 331919535,
 			"isDeleted": false,
 			"id": "lPloLF3AfNx5DPyDwRdE2",
 			"fillStyle": "solid",
@@ -2201,11 +2192,11 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 413.3561558155841,
-			"y": 29.79469035590325,
+			"x": 413.1746545476168,
+			"y": 29.794690355903242,
 			"strokeColor": "#000000",
 			"backgroundColor": "black",
-			"width": 82.7343414141618,
+			"width": 82.58163596360765,
 			"height": 86.75745509475149,
 			"seed": 999645511,
 			"groupIds": [
@@ -2216,7 +2207,7 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1677974094034,
+			"updated": 1678402713237,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2238,15 +2229,15 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 					0
 				],
 				[
-					-82.7343414141618,
+					-82.58163596360765,
 					86.75745509475149
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 145,
-			"versionNonce": 384098223,
+			"version": 149,
+			"versionNonce": 1743569615,
 			"isDeleted": false,
 			"id": "BjX5f9fMRKT7DrDp1vVWN",
 			"fillStyle": "solid",
@@ -2255,11 +2246,11 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 478.3301821972305,
+			"x": 478.358486151997,
 			"y": 31.016522081258323,
 			"strokeColor": "#000000",
 			"backgroundColor": "black",
-			"width": 79.1961337603006,
+			"width": 79.17317794243127,
 			"height": 83.08235917836646,
 			"seed": 1225236583,
 			"groupIds": [
@@ -2270,7 +2261,7 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1677974094034,
+			"updated": 1678402713238,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2292,7 +2283,7 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 					0
 				],
 				[
-					79.1961337603006,
+					79.17317794243127,
 					83.08235917836646
 				]
 			]
@@ -3161,6 +3152,128 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 					9.748157127140985
 				]
 			]
+		},
+		{
+			"type": "arrow",
+			"version": 844,
+			"versionNonce": 40175127,
+			"isDeleted": false,
+			"id": "VmmQPE0kywf7InmH-jvOC",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -674.049859599113,
+			"y": -435.02859185308876,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"width": 2167.6627604166665,
+			"height": 817.5520833333333,
+			"seed": 622511823,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1678402854061,
+			"link": null,
+			"locked": false,
+			"customData": {},
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					2167.6627604166665,
+					817.5520833333333
+				],
+				[
+					237.96875,
+					103.33333333333326
+				],
+				[
+					1194.9479166666665,
+					190.86588541666663
+				],
+				[
+					332.74739583333326,
+					253.01432291666657
+				],
+				[
+					1088.7434895833333,
+					316.32161458333326
+				],
+				[
+					13.10546875,
+					347.00520833333326
+				],
+				[
+					578.3919270833333,
+					547.1093749999999
+				],
+				[
+					596.2825520833333,
+					349.44010416666663
+				],
+				[
+					824.1276041666665,
+					540.9960937499999
+				],
+				[
+					896.6861979166665,
+					340.5273437499999
+				],
+				[
+					1344.114583333333,
+					503.41145833333326
+				],
+				[
+					872.1679687499999,
+					541.1783854166665
+				],
+				[
+					1113.5351562499998,
+					702.8841145833331
+				],
+				[
+					1145.237809761491,
+					553.1347816507651
+				],
+				[
+					1384.808122261491,
+					785.0162920674318
+				],
+				[
+					892.6367187499999,
+					342.8710937499999
+				],
+				[
+					1380.091145833333,
+					788.5221354166665
+				],
+				[
+					1398.5807291666665,
+					125.26692708333326
+				],
+				[
+					2147.0768229166665,
+					191.84244791666663
+				],
+				[
+					1514.9674479166665,
+					196.94661458333326
+				],
+				[
+					2033.9127604166665,
+					425.8984374999999
+				]
+			]
 		}
 	],
 	"appState": {
@@ -3178,10 +3291,10 @@ c6747568ba82fc0feb2f94340144efca7f05194f: [[Pasted Image 20230117165927_946.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 663.556455565096,
-		"scrollY": 686.86784019749,
+		"scrollX": -222.6363383175535,
+		"scrollY": 144.93411356881944,
 		"zoom": {
-			"value": 0.7398228782566291
+			"value": 3.115582393597673
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,

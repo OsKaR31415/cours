@@ -1,7 +1,7 @@
 ---
 alias: "trigonométrie"
 ---
-up:: [[MOC géométrie]]
+up:: [[MOC géométrie]], [[MOC analyse]]
 #MOC 
 
 ----

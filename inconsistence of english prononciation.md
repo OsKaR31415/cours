@@ -1,3 +1,8 @@
+up:: [[MOC anglais]]
+title:: "incositences in the prononciation of english"
+#anglais 
+
+---
 
 # Examples 
 

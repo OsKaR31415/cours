@@ -1,3 +1,6 @@
+---
+alias: [ "routeur" ]
+---
 up::[[couche réseau]], [[matériel réseau informatique]]
 #informatique#not-done 
 

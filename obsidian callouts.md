@@ -54,8 +54,8 @@ here are the default types :
 > [!info]- info
 > lorem ipsum dolor sit amet
 
-> [!todo] todo
-> note the check mark instead of the i with `[!info]`
+> [!todo]- todo
+> lorem ipsum dolor sit amet
 
 > [!done]- done, success, check
 > lorem ipsum dolor sit amet

@@ -1,3 +1,6 @@
+---
+alias: [ "fermé", "fermée" ]
+---
 up:: [[ensemble]], [[point d'adhérence d'un ensemble|point d'adhérence]]
 title:: "contient tout ses [[point d'adhérence d'un ensemble|points d'adhérence]]"
 #maths/topologie

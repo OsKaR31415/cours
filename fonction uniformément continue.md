@@ -17,3 +17,4 @@ title::
 
 # Propriétés 
  - toute fonction uniformément continue est [[fonction continue|continue]] ([[théorème de heine]])
+ - 

@@ -1,7 +1,7 @@
 ---
 alias: [ "homebrew désinstaller avec les dépendances" ]
 ---
-up::
+up:: [[homebrew]]
 title:: "`brew uninstall <package> && brew autoremove`"
 #informatique 
 

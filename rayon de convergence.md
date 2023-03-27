@@ -2,7 +2,7 @@
 alias: [ "rayon de convergence d'une série entière", "rayon de convergence d'une série" ]
 ---
 up:: [[série entière]]
-title:: [[]]
+title:: "intervalle de convergence de la série"
 #maths/analyse 
 
 ---

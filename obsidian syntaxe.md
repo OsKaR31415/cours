@@ -46,7 +46,7 @@ donne :
  - _italique_ : `_italique_` ou bien `*italique*`
      - raccourci : sélectionner le texte, puis `contrôle+i` (comme _italique_)
  - ~~barré~~ : `~~barré~~`
- - ==surligné== : `==surligné==`
+ - ==surligné== : ` ==surligné== `
 
 
 # Liens

@@ -1,4 +1,4 @@
-up::[[note taking]]
+up:: [[note taking]]
 title::"what and how to capture ideas"
 #PKM
 

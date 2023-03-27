@@ -3,7 +3,7 @@ up::[[MOC obsidian]]
 
 ----
 
-Application de prise de notes liés ([[linked notes]])
+Application de prise de notes liés ([[notes reliées]])
 
  - [[obsidian syntaxe]]
  - [[obsidian plugins]]

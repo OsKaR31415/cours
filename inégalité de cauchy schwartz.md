@@ -1,4 +1,3 @@
-
 up:: [[produit scalaire]], [[norme]] 
 title:: "$|\langle u, v\rangle| \leq \|u\|\cdot\|v\|$"
 #maths/algèbre 

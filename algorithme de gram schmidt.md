@@ -1,4 +1,4 @@
-up::[[Orthonormaliser une famille de vecteurs]]
+up::[[Orthonormaliser une famille de vecteurs](Orthonormaliser-une-famille-de-vecteurs.md)]
 title:: "projeter chaque vecteur sur les vecteurs orthogonaux précédents"
 #maths/algèbre 
 

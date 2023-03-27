@@ -1,4 +1,4 @@
-up:: [[primitives C]]
+up:: [[C primitives système]]
 title:: "tuer un processus (envoyer un signal)"
 #informatique 
 

@@ -1,6 +1,7 @@
 ---
 annotate-target: sources/formulaire maths.pdf
 ---
+sibling:: [[gists/formulaire d'analyse]]
 
 >%%
 >```annotate-json

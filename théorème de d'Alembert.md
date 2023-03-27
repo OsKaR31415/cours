@@ -3,8 +3,8 @@ sr-due: 2022-10-25
 sr-interval: 3
 sr-ease: 250
 ---
-
 up::[[polynôme]]
+author::[[Jean le Rond d'Alembert]]
 #maths/analyse/complexes #review 
 
 ----

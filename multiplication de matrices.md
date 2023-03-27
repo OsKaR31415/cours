@@ -1,3 +1,8 @@
+up:: [[matrice]]
+#maths/algèbre 
+
+---
+
 # Multiplication de matrices
 
 La multiplication de matrices n'est **pas élément-par-élément**.

@@ -1,6 +1,8 @@
 {
   "strategy": "default",
+  "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "partial",
+  "fuzzyMatch": true,
   "maxNumberOfSuggestions": 10,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 1,
@@ -10,6 +12,11 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
   "showMatchStrategy": true,
   "showComplementAutomatically": true,
   "showIndexingStatus": true,
@@ -38,6 +45,12 @@
   "enableInternalLinkComplement": true,
   "suggestInternalLinkWithAlias": true,
   "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
@@ -76,14 +89,6 @@
         "internalLink": {
           "count": 6,
           "lastUpdated": 1676313952998
-        }
-      }
-    },
-    "forme bilinéaire": {
-      "forme bilinéaire": {
-        "internalLink": {
-          "count": 10,
-          "lastUpdated": 1675098835139
         }
       }
     },
@@ -127,14 +132,6 @@
         }
       }
     },
-    "fonction continue": {
-      "fonction continue": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675702286410
-        }
-      }
-    },
     "Sprint 7 - Itération sur l'UI": {
       "Sprint 7 - Itération sur l'UI": {
         "internalLink": {
@@ -170,8 +167,8 @@
     "rayon de convergence": {
       "rayon de convergence": {
         "internalLink": {
-          "count": 12,
-          "lastUpdated": 1676715376314
+          "count": 13,
+          "lastUpdated": 1678898669967
         }
       }
     },
@@ -346,8 +343,8 @@
     "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
       "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1677922325194
+          "count": 3,
+          "lastUpdated": 1678146484311
         }
       }
     },
@@ -364,6 +361,38 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1677929160963
+        }
+      }
+    },
+    "application linéaire": {
+      "application linéaire": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1678032763699
+        }
+      }
+    },
+    "matrice transconjuguée": {
+      "matrice transconjuguée": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1678032168729
+        }
+      }
+    },
+    "démonstration limite (1+1÷n)*n": {
+      "démonstration limite (1+1÷n)*n": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1678567348839
+        }
+      }
+    },
+    "_images/logo_markdown.png": {
+      "_images/logo_markdown.png": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1679577562212
         }
       }
     }

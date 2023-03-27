@@ -1,7 +1,7 @@
 ---
 alias: "adresse IP"
 ---
-up::[[réseau informatique]]
+up:: [[réseau adresses]]
 title::""
 #informatique
 
@@ -14,3 +14,4 @@ Constituée de **deux parties** : adresse du réseau (au début) et adresse de l
 
 # Adressage IPv6
 en théorie $3.4\cdot 10^{38}$ adresses possibles ($65536^8$)
+

@@ -53,3 +53,7 @@ arrangements
 front-matter
 transposition
 test de slides patat
+sl
+CBD
+CB
+BDD

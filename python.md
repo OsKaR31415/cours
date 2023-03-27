@@ -7,9 +7,9 @@ title::"langage de programmation interprété et dynamiquement typé"
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, description, author
+> TABLE title, description
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
 > WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
-> WHERE file.link != this.file.link
-> SORT up.up.up.up, up.up.up, up.up, up
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```

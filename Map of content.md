@@ -1,9 +1,8 @@
 ---
 alias: "Maps Of Content"
-title:
- - "you reach a [[mental squezze point]]"
- - "you have a preconcieved idea"
 ---
+up:: [[note taking]]
+title:: "List of concepts about a subject"
 #PKM #not-done
 
 ----
