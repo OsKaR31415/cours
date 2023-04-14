@@ -3,10 +3,6 @@ up::[[MOC trigonométrie]]
 
 ----
 
-
-
-
-
 > [!smallquery] Sous-notes de [[MOC trigonométrie]]
 > ```dataview
 > TABLE title as "nom", description, derivative, primitive, properties

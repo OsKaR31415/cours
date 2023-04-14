@@ -9,7 +9,7 @@ title:: "$(E, \varphi)$", "$E$ un [[espace vectoriel]]", "$\varphi$ une [[forme 
 > 
 > $(E, \varphi)$ est un **espace préhilbertien réel** ssi :
 >  - $E$ est un $\mathbb{R}$-[[espace vectoriel]]
->  - $\varphi$ est une [[forme bilinéaire]] [[forme bilinéaire symétrique]], [[forme bilinéaire définie|définie]] et [[forme bilinéaire positive|positive]]
+>  - $\varphi$ est une [[forme bilinéaire]] [[forme bilinéaire symétrique|]], [[forme bilinéaire définie|définie]] et [[forme bilinéaire positive|positive]]
 >      - [[forme bilinéaire|bilinéaire]]
 >      - [[forme bilinéaire symétrique|symétrique]] : $\varphi(x, y) = \varphi(y, x)$
 >      - [[forme bilinéaire définie|définie]] : $\varphi(x, x) = 0 \iff x = \vec{0}$

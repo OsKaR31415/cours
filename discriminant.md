@@ -11,7 +11,7 @@ Le discriminant $\Delta$ de $P$ est :
 $\Delta = b^2 - 4ac$
 
 On note que :
- - la valeur du discrimimant donne le nombre de [[racine d'une fonction|racines]] du polynôme
+ - la valeur du discrimimant donne le nombre de [[racine|racines]] du polynôme
      - $\Delta < 0$ : pas de racines (réelles)
          - Une [[équation du second degré]] à toujours 2 solutions : voir [[théorème de d'Alembert]]
      - $\Delta = 0$ : une racine (de [[multiplicité d'une racine|multiplicité]] 2)

@@ -3,7 +3,7 @@ title::"$\displaystyle f(x_{0}) = \sum_{k=0}^{n} \left( \frac{f^{(k)}(x_{0})}{k!
 #maths/analyse #review 
 
 ----
-Formules pour calculer des [[développement limité]].
+Formules pour calculer la décomposition en [[série entière]] d'une fonction, et son [[développement limité]].
 
 # Formule de Taylor pour les polynômes
 Soit $P$ un [[polynôme]], $a$ un réel, $n$ un entier tel que $n\geq deg(P)$

@@ -14,6 +14,13 @@ title:: "$\sum\limits_{n\geq 0} a_{n}x^{n}$, où $a_{n}$ ne dépend pas de $x$"
 >  - $k \in \mathbb{N}$ un coefficient devant la puissance de $x$
 ^definition
 
+> [!idea] Intuition
+> On peut voir les séries entières comme la généralisation des [[polynôme|polynômes]] pour un [[degré d'un polynôme|degré]] infini.
+> 
+> On peut aussi voir les séries entières comme la décomposition de fonction dans la base $x, x^{2}, x^{3}, x^{4}\dots$
+
+
+
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview
 > LIST title

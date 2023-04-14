@@ -11,3 +11,4 @@ Système de raccourcis (snippets) qui permet de taper du $\LaTeX$ aussi vite (ou
 Notamment utilisé par [[obsidian plugin LaTeX suite|LaTeX suite]].
 
 
+$\sum\limits_{n=1}^{n} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$

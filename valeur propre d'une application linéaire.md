@@ -20,5 +20,5 @@ Un réel $\lambda$ est une _valeur propre_ de $\varphi$ ssi il existe un vecteur
 
 > [!definition] vecteur propre associé à une valeur propre
 > Si $\varphi(u) = \lambda u$ avec $u \neq 0_{E}$
-> on dit que le [[`|vecteur propre]] $u$ est _associé_ à la valeur propre $\lambda$
+> on dit que le [[vecteur propre|vecteur propre]] $u$ est _associé_ à la valeur propre $\lambda$
 

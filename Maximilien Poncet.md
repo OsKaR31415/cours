@@ -1,4 +1,4 @@
-title:: "camarade de classe licence d'info"
+title:: "camarade de classe licence d'info (chef de guile de l'ABEI)"
 link::
 anniv:: 01-19
 #personne

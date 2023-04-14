@@ -2,6 +2,7 @@
 alias: [ "antisymétrique" ]
 ---
 up::[[matrice]]
+sibling:: [[matrice symétrique]]
 title::"$M^{T} = -M$ ([[transposée]])"
 #maths/algèbre #review 
 
@@ -15,3 +16,9 @@ Cela veut dire que :
 
 # Exemple
 $$M = \begin{pmatrix}0&-2&4\\ 2&0&7\\ -4&-7&0 \end{pmatrix}$$
+
+# Propriétés
+Pour toute matrice $A \in \mathcal{M}_{n}(\mathbb{R})$ **antisymétrique**
+
+ - l'[[endomorphisme]] associé à $A$ est [[endomorphisme normal|normal]]
+

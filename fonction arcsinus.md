@@ -3,6 +3,8 @@ alias: ["arcsin", "arcsinus"]
 ---
 up::[[fonction sinus]]
 sibling:: [[fonction arccosinus]]
+title:: $\arcsin$
+derivative:: $\frac{1}{\sqrt{ 1 - x^{2} }}$
 #maths/analyse #maths/trigonométrie
 
 ----

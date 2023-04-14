@@ -111,6 +111,13 @@ On peut toujours ajouter un nombre fini de vecteurs à $\mathcal{F}$ pour qu'ell
 (Ces vecteurs ajoutés rendent $\mathcal{F}$ [[famille de vecteurs génératrice|génératrice]] )
 <!--SR:!2023-01-29,18,293!2023-01-25,14,273-->
 
+Espace préhilbertien réel
+??
+Un $\mathbb{R}$-[[espace vectoriel]], muni d'une [[forme bilinéaire]] $\varphi$, où :
+ - [[forme bilinéaire symétrique|symétrique]] : $\varphi(x, y) = \varphi(y, x)$
+ - [[forme bilinéaire définie|définie]] : $\varphi(x, x) = 0 \iff x = \vec{0}$
+ - [[forme bilinéaire positive|positive]] : $\varphi(x, x) \geq 0$
+
 # Applications
 
 application bilinéaire 
@@ -129,16 +136,24 @@ $\forall  (u, v) \in E^{2}, \quad f((u;v)) = f((v;u))$
 
 ## Applications bilinéaires
 
+Définition d'une norme
+??
+Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] où $\mathbf{K}$ admet une [[valeur absolue]]
+ - [[espace séparé|séparation]] : $\forall x \in \mathbf{E}, \quad \mathcal{N}(x) = 0 \implies x = 0_{E}$
+     - la [[réciproque (logique)|réciproque]] est vraie aussi
+ - absolue [[application homogène|homogénéité]] : $\forall (\lambda, x) \in K \times E, \quad \mathcal{N}(\lambda x) = |\lambda|\mathcal{N}(x)$
+ - [[inégalité triangulaire]] ([[application sous-additive]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
+
 - [ ] #task rédiger flashcards
  - Forme générale d'une application bilinéaire
  - définition de [[produit scalaire]] 
- - définition de [[norme]] 
  - démonstration de l'[[inégalité triangulaire]] 
  - [[inégalité de cauchy schwartz]] 
      - cas d'égalité
-
  - définition d'[[espace préhilbertien]] --> structures
  - définition de [[orthogonal d'un sous espace vectoriel|sev orthogonal]] --> structures
+ - endomorphisme 
+     - adjacent et matrice adjacente
 
 # Matrices 
 

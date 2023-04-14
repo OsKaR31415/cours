@@ -6,152 +6,33 @@
         "type": "split",
         "children": [
           {
-            "id": "a0db906992341ce1",
-            "type": "tabs",
-            "dimension": 49.355300859598856,
-            "children": [
-              {
-                "id": "bebb13a769e0a1b6",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "unix tubes.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "31bb6f676afbe1af",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "unix tubes ordinaires.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b729508bf8647a8d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "C tube ordinaire.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "506c43868fbd624a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "algorithme de lecture dans un tube.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "785cbfe0a453b008",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "gists/python list to markdown table.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2a78b9322ad26316",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "blog/posts/informatique/python convertir une liste en table markdown.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 5
-          },
-          {
             "id": "b6f48f57d82803cf",
             "type": "tabs",
-            "dimension": 50.64469914040115,
             "children": [
               {
-                "id": "71a6ba92265b465a",
+                "id": "f13484236e790de8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sources/Epigrams on programming.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f6c6bfa554b42992",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -168,50 +49,9 @@
                     "file": "Excalidraw/présentation polynômes.excalidraw.md"
                   }
                 }
-              },
-              {
-                "id": "3fb7bb0295b42268",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Untitled.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "55985f89cd9c8a80",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/S4/L2_info_SE_ch5_tubes-annotate.md"
-                  }
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -319,7 +159,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "blog/posts/informatique/python convertir une liste en table markdown.md",
+                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -340,7 +180,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "blog/posts/informatique/python convertir une liste en table markdown.md",
+                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -399,7 +239,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "blog/posts/informatique/python convertir une liste en table markdown.md"
+                    "file": "Excalidraw/présentation polynômes.excalidraw.md"
                   }
                 }
               },
@@ -452,7 +292,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "blog/posts/informatique/python convertir une liste en table markdown.md",
+                    "file": "Excalidraw/présentation polynômes.excalidraw.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -655,7 +495,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "9b0b445260de35cb",
@@ -736,7 +576,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "2a78b9322ad26316",
+      "active": "f6c6bfa554b42992",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -1540,55 +1380,11 @@
         },
         "children": [
           {
-            "id": "e2b2f3894bfaee0d",
+            "id": "f9aa172a8173ed07",
             "type": "tabs",
             "children": [
               {
-                "id": "d7acd5798e454e72",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "loi de probabilités.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "82c4751aa8e0ac16",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "MOC analyse.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "28e78b5db6b71a94",
+                "id": "80117c987ec87327",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1598,35 +1394,35 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "conception des bases de données",
+                      "title": "intégration généralisée",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conception des bases de données.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"intégration généralisée.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":11.857390873015873}"
                     },
                     {
-                      "title": "conserver la sémantique des attributs",
+                      "title": "intégrales de Bertrand",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD conserver la sémantique des attributs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":88},\"to\":{\"line\":6,\"ch\":88}},\"scroll\":1.6839080459770115}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"intégrales de Bertrand.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.2231578947368421}"
                     },
                     {
-                      "title": "conception des bases de données",
+                      "title": "MOC algèbre",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conception des bases de données.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"MOC algèbre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":20.00856934281395}"
                     },
                     {
-                      "title": "base de données",
+                      "title": "obsidian plugin tag and wordcloud",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"base de données.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":2.1149425287356323}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"obsidian plugin tag and wordcloud.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.5236768802228412}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "base de données.md",
+                    "file": "convergence de l'intégrale d'une combinaison linéaire.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1634,7 +1430,7 @@
                 }
               },
               {
-                "id": "1c2e35be237f3dbd",
+                "id": "e043f98ed5e8b238",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1648,7 +1444,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "BDD attributs multivalués.md",
+                    "file": "generalized integration.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1656,7 +1452,52 @@
                 }
               },
               {
-                "id": "05cde47c0be0f3a7",
+                "id": "19bb91bbc8f3d8b7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "identités",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"identités.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":68,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "python.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "305a180bbf839e1a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "34e2014ef02078b3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1670,7 +1511,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "BDD redondance.md",
+                    "file": "Untitled.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1678,7 +1519,7 @@
                 }
               },
               {
-                "id": "f415cd4a61e90f14",
+                "id": "80bb1a14dc063b85",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1686,35 +1527,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "BDD dépendance multivaluée.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "37b5a9cb4f9928b3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
+                    },
                     {
-                      "state": "{}",
-                      "eState": "{}"
+                      "title": "upterm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"upterm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":114},\"to\":{\"line\":41,\"ch\":114}},\"scroll\":27.43472397566854}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "BDD 4NF.md",
+                    "file": "sources/ttyd - Partager un terminal sur internet.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1722,7 +1547,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -1830,7 +1655,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "BDD 4NF.md",
+                    "file": "sources/ttyd - Partager un terminal sur internet.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1851,7 +1676,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "BDD 4NF.md",
+                    "file": "sources/ttyd - Partager un terminal sur internet.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1910,7 +1735,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "BDD 4NF.md"
+                    "file": "sources/ttyd - Partager un terminal sur internet.md"
                   }
                 }
               },
@@ -1963,7 +1788,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "BDD 4NF.md",
+                    "file": "sources/ttyd - Partager un terminal sur internet.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2149,23 +1974,6 @@
                 }
               },
               {
-                "id": "f4fec2d9acb78e4b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "Strange New Worlds",
-                  "state": {}
-                }
-              },
-              {
                 "id": "5b7af6dad6fcdb0d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2183,7 +1991,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 8
           },
           {
             "id": "9b0b445260de35cb",
@@ -2242,7 +2050,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 529.5
+        "width": 529.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -2265,7 +2074,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "37b5a9cb4f9928b3",
+      "active": "80bb1a14dc063b85",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2292,7 +2101,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "fc0b596c3b983f71",
+                "id": "ff081a52b68074fe",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2314,7 +2123,7 @@
                 }
               },
               {
-                "id": "935747277b2fe095",
+                "id": "ffd5372fa9aec7c0",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2328,7 +2137,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Forme de raisonnement.md",
+                    "file": "suite de fonctions convergente.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2336,213 +2145,47 @@
                 }
               },
               {
-                "id": "bbac69198539eabc",
+                "id": "6eff2cace045253b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
                     {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "critère de cauchy pour la convergence d'une série",
+                      "title": "BDD 3NF",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"critère de cauchy pour la convergence d'une série.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":43},\"to\":{\"line\":3,\"ch\":43}},\"scroll\":1.2298850574712643}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "convergence d'une série numérique.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d6e6b9db1abf1d02",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "équation différentielle du premier ordre",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du premier ordre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "équation différentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":32.112953942906465}"
-                    },
-                    {
-                      "title": "équation différentielle du premier ordre",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du premier ordre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "équation différentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":31.508102268635216}"
-                    },
-                    {
-                      "title": "équation différentielle à coefficients constants",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle à coefficients constants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "équation différentielle du second ordre a coefficients constants",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du second ordre a coefficients constants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.050393700787401574}"
-                    },
-                    {
-                      "title": "équation différentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":34.85021551724138}"
-                    },
-                    {
-                      "title": "équation différentielle à coefficients constants",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle à coefficients constants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "équation différentielle du second ordre a coefficients constants",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du second ordre a coefficients constants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":15},\"to\":{\"line\":2,\"ch\":15}},\"scroll\":0.11023622047244094}"
-                    },
-                    {
-                      "title": "équation différentielle du second ordre",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du second ordre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.747126436781609}"
-                    },
-                    {
-                      "title": "équation différentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":34.74676724137931}"
-                    },
-                    {
-                      "title": "équation différentielle du second ordre",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du second ordre.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":14},\"to\":{\"line\":3,\"ch\":14}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "équation différentielle du second ordre a coefficients constants",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle du second ordre a coefficients constants.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0.2658959537572254}"
-                    },
-                    {
-                      "title": "équation différentielle",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"équation différentielle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":0},\"to\":{\"line\":47,\"ch\":0}},\"scroll\":30.575700431034484}"
-                    },
-                    {
-                      "title": "2023-03-15",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-03-15.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "équation différentielle.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "07d5de2801b1fbba",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "sources/cours/S4/L2_maths_analyse_TD4-annotate.md"
-                  }
-                }
-              },
-              {
-                "id": "59b15206c6a7791a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sources/liber abaci.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7f47ddf2113c269a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2023-03-22",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-03-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 3NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "BDD 4NF",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 4NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "BDD normalisation",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD normalisation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.825396825396825}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "mindmapview",
+                  "type": "markdown",
                   "state": {
-                    "file": "sources/cours/S4/L2_maths_algebre_TD5-annotate.md"
+                    "file": "BDD normalisation.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               },
               {
-                "id": "599924cf9bad3d2c",
+                "id": "8514a8b4fa7e218c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2550,13 +2193,25 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "changement de base",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"changement de base.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":27},\"to\":{\"line\":17,\"ch\":27}},\"scroll\":12.332129963898916}"
+                    },
+                    {
+                      "title": "inverse d'une matrice",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inverse d'une matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":27.44593253968254}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "daily/2023-03-27.md",
+                    "file": "comatrice.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2564,7 +2219,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -2611,7 +2266,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#personne -path:source",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2655,7 +2310,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "daily/2023-03-27.md",
+                    "file": "comatrice.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2676,7 +2331,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "daily/2023-03-27.md",
+                    "file": "comatrice.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2708,7 +2363,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 439.5
+        "width": 431.5,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -2734,7 +2390,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "daily/2023-03-27.md"
+                    "file": "comatrice.md"
                   }
                 }
               },
@@ -2787,7 +2443,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "daily/2023-03-27.md",
+                    "file": "comatrice.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2881,7 +2537,7 @@
                       "repelStrength": 8.50328679306785,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 1.0014330635602462,
+                      "scale": 2.1636913969271308,
                       "close": true
                     }
                   }
@@ -2990,7 +2646,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "9b0b445260de35cb",
@@ -3073,7 +2729,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "599924cf9bad3d2c",
+      "active": "8514a8b4fa7e218c",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -3088,8 +2744,8 @@
           "blog/posts/informatique",
           "blog/posts/maths",
           "sources/cours/S4",
-          "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
+          "blog/posts/maths/_images",
           "blog/posts/informatique/_images"
         ]
       }
@@ -3469,7 +3125,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 341.5
+        "width": 341.5,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -3905,11 +3562,11 @@
         },
         "children": [
           {
-            "id": "6e36d81c8a9c0243",
+            "id": "06f0b28668848911",
             "type": "tabs",
             "children": [
               {
-                "id": "f6c4d33e22e47a9c",
+                "id": "669e251b8318f07f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -3921,111 +3578,8 @@
                   ]
                 },
                 "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sources/cours/S4/L2_maths_analyse_ch1.pdf"
-                  }
-                }
-              },
-              {
-                "id": "dd778243e790e8e5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "fonction négligeable",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fonction négligeable.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "fonction dominée en un point.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "fc355a9e5d7b0120",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "904cc6888f92fb06",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "L2 maths analyse ch1.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f5480ddd9722f3af",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "obsidian callouts.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "95f20a4270bae596",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "obsidian syntaxe checkboxes (tasks).md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ]
@@ -4137,7 +3691,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "L2 maths analyse ch1.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -4158,7 +3711,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "L2 maths analyse ch1.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -4227,9 +3779,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "L2 maths analyse ch1.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -4281,7 +3831,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "L2 maths analyse ch1.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -4531,6 +4080,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "terminal:Open terminal": false,
+          "zk-prefixer:Create new unique note": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-spaced-repetition:Review flashcards": false,
           "obsidian-custom-frames:Open Detexify": true,
@@ -4548,7 +4099,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "904cc6888f92fb06",
+      "active": "669e251b8318f07f",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -4559,12 +4110,10 @@
           "sources/cours",
           "blog/posts/informatique",
           "blog/posts/maths",
-          "quarto/test_files/libs",
           "sources/cours/S4",
-          "blog/posts/informatique/_images",
           "blog/posts/maths/_images",
           "blog/posts/welcome/_images",
-          "quarto/test_files/libs/quarto-html"
+          "blog/posts/informatique/_images"
         ]
       }
     }

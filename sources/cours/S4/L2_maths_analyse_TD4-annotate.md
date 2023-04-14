@@ -82,3 +82,13 @@ annotate-target: sources/cours/S4/L2_maths_analyse_TD4.pdf
 >
 ^c63dcf43-7db0-a31a
 
+>%%
+>```annotate-json
+>{"id":"b222fa32-234d-ca6f","text":"{\"id\":\"b222fa32-234d-ca6f\",\"page\":1,\"rect\":[43.667027027027025,263.3643243243243],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1680939161483.png\",\"relateRect\":[{\"x\":0.06918918918918919,\"y\":0.8616216216216216,\"width\":0.6767567567567567,\"height\":0.1308108108108108}],\"pdfName\":\"sources/cours/S4/L2_maths_analyse_TD4.pdf\",\"pageWidth\":925,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1680939161483.png?1680939161502\"}","type":"rect","page":1,"width":626,"height":121,"pdfName":"sources/cours/S4/L2_maths_analyse_TD4.pdf"}
+>```
+>%%
+>![[attachments/markmind/1680939161483.png]]
+>[[#^b222fa32-234d-ca6f|Show annotate]]
+>
+^b222fa32-234d-ca6f
+

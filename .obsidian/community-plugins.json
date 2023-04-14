@@ -33,7 +33,6 @@
   "pane-relief",
   "text-snippets-obsidian",
   "obsidian-share-as-gist",
-  "customizable-page-header-buttons",
   "darlal-switcher-plus",
   "obsidian-quickshare",
   "obsidian-better-internal-link-inserter",
@@ -50,13 +49,12 @@
   "mathlinks",
   "obsidian-meta-bind-plugin",
   "obsidian-completr",
-  "obsidian42-strange-new-worlds",
   "obsidian-asciimath",
   "terminal",
   "obsidian-latex-suite",
   "various-complements",
   "surfing",
   "calendar",
-  "canvas-presentation",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "customizable-page-header-buttons"
 ]

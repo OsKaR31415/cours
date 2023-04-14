@@ -1,22 +1,9 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
-
-.ob-table-enhancer > thead > tr > th,
-.ob-table-enhancer > tbody > tr > td {
-	height: 2em !important;
-	transition: background-color 50ms ease-out;
-}
-
 .ob-table-enhancer-row-bar {
 	display: flex;
 	position: absolute;
 	width: fit-content;
+	max-width: 3em;
+	flex-wrap: wrap;
 	transition: opacity 200ms ease-in-out;
 }
 
@@ -34,12 +21,12 @@ If your plugin does not need CSS, delete this file.
 	height: fit-content;
 	padding: 0 2px;
 	margin: 0;
-	opacity: 0.5;
+	filter: brightness(0.5);
 	transition: all 200ms ease-in-out;
 }
 
 .ob-table-enhancer-row-bar-button:hover, .ob-table-enhancer-col-bar-button:hover {
-	opacity: 1.0;
+	filter: brightness(1);
 }
 
 .ob-table-enhancer-col-bar-button {
@@ -48,17 +35,54 @@ If your plugin does not need CSS, delete this file.
 	height: fit-content;
 	padding: 5px 2px 0 0;
 	margin: 0;
-	opacity: 0.5;
+	filter: brightness(0.5);
 	transition: all 200ms ease-in-out;
 }
 
-.is-editing {
-	filter: brightness(1.5);
-}
-.theme-dark .is-editing {
-	background-color: rgba(255, 255, 255, 0.1) !important;
+div.ob-table-enhancer.button-menu {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 180px;
 }
 
-.theme-light .is-editing {
-	background-color: rgba(0, 0, 0, 0.1) !important;
+div.ob-table-enhancer.button-menu > button {
+	width: 30px;
+	height: 26px;
+	padding: 0;
+}
+
+.table-generator-container {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 150px;
+	align-content: flex-start;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+.table-generator-grid {
+	width: 15px;
+	height: 15px;
+	background-color: var(--interactive-normal);
+	margin: 3px;
+	border-radius: 3px;
+}
+
+.table-generator-grid.select {
+	background-color: var(--interactive-accent);
+	opacity: 1;
+}
+
+.table-generator-counter {
+	display: block;
+	text-align: center;
+}
+
+.table-height-adjust th, .table-height-adjust tr {
+	/** 防止单元格太窄不方便点击 */
+	height: 1.5em !important;
+}
+
+body {
+	--layer-tooltip: 2000;
 }

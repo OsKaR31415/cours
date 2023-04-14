@@ -1,14 +1,22 @@
 up::[[matrice]], [[symétrie vectorielle orthogonale]]
+sibling:: [[matrice de rotation]]
 title::
 #maths/algèbre 
 
 ---
 
-> [!definition] 
+> [!definition] Matrice de rotation
+> Une **matrice de symétrie** est une [[matrice orthogonale]] de [[déterminant d'une matrice|déterminant]] $-1$
+> > [!idea]- Intuition
+> > Il semble logique que déplacer une [[base d'un espace vectoriel|base]] en conservant les [[norme]] et les [[produit scalaire|produits scalaires]] soit une [[matrice de rotation|rotation]] ou une [[matrice symétrique|symétrie]] (c'est démontrable).
+> > Le déterminant de $-1$ sert à ne prendre que les symétries.
+^definition
+
+
+> [!definition] Définition géométrique
 > Soit $\mathbf{K}$ un corps 
 > Soit $M \in \mathcal{M}_{n}(\mathbf{K})$ une matrice 
 > $M$ est une *matrice de symétrie* ssi l'[[matrice associée à une application linéaire|application linéaire associée]] à $M$ ($f$) est une [[symétrie vectorielle orthogonale]] 
-^definition
 
 # Propriétés 
 Soit $S$ la matrice de symétrie d'angle $\theta$

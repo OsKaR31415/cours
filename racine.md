@@ -13,3 +13,5 @@ L'ensemble des racines de $f$ est $\{ x \in E \;|\; f(x) = 0 \}$
 
 
 
+
+

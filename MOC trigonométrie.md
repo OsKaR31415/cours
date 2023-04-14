@@ -5,7 +5,9 @@ up:: [[MOC géométrie]], [[MOC analyse]]
 #MOC 
 
 ----
-[[formules de trigonométrie]]
+
+ - [[formules de trigonométrie]]
+ - [[fonctions trigonométriques]]
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

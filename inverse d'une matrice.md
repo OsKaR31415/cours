@@ -21,8 +21,8 @@ Une matrice est inversible ssi son [[déterminant d'une matrice|déterminant]] e
 En effet : $A^{-1} = \dfrac1{\det(A)}B$ où $B$ est une matrice avec les mêmes coefficients que $A$ (cf. Théorème suivant).
 
 ## Théorème
-Soit $A$ une matrice inversible, $A^{-1} = \dfrac1{\det(A)}\text{comat}(A)^T$
-Soit : $A^{-1}=\dfrac{\text{comat}(A)^T}{\det(A)}$
+Soit $A$ une matrice inversible, $A^{-1} = \dfrac1{\det(A)}\,^T\!\text{comat}(A)$
+Soit : $A^{-1}=\dfrac{\,^T\!\text{comat}(A)}{\det(A)}$
 Où $\text{comat}(A)$ est la [[comatrice]] de $A$
 > L'inverse d'une matrice est la transposée de sa comatrice, divisée par son déterminant.
 

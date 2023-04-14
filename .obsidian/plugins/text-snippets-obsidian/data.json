@@ -1,5 +1,5 @@
 {
-  "snippets_file": "def : > [!definition]\ndéf : > [!définition]\nddef : > [!definition] $end$\\n> \\n^definition\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \nwarning : > [!warning] \nattention : > [!attention] \ntldr : > [!tldr] \nexercice : > [!tldr] Exercice\n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: [ \"$end$\" ]\\n---\n\nev : [[espace vectoriel]]\nkev : $\\mathbf{K}$-[[espace vectoriel]]\n\nqdef : ::: {.callout-note icon=false}\\n## Définition\\n\\n$end$\\n:::\nqnote : ::: {.callout-note}\\n## $end$\\n\\n:::\nqtip : ::: {.callout-tip}\\n## $end$\\n\\n:::",
+  "snippets_file": "def : > [!definition]\ndéf : > [!définition]\nddef : > [!definition] $end$\\n> \\n^definition\nquery : > [!query]\nnote : > [!note]\nquestion : > [!question]\nimportant : > [!important]\nexemple : > [!example] Exemple \ninfo : > [!info] \ntodo : > [!todo] \ndone : > [!done] \nwarning : > [!warning] \nattention : > [!attention] \ntldr : > [!tldr] \nexercice : > [!tldr] Exercice\nidea : > [!idea] \n\nfm : ---\\n$end$\\n---\nalias : ---\\nalias: [ \"$end$\" ]\\n---\n\nev : [[espace vectoriel]]\nkev : $\\mathbf{K}$-[[espace vectoriel]]\n\nqdef : ::: {.callout-note icon=false}\\n## Définition\\n\\n$end$\\n:::\nqnote : ::: {.callout-note}\\n## $end$\\n\\n:::\nqtip : ::: {.callout-tip}\\n## $end$\\n\\n:::",
   "snippets": [
     "def : > [!definition]",
     "déf : > [!définition]",
@@ -16,6 +16,7 @@
     "attention : > [!attention] ",
     "tldr : > [!tldr] ",
     "exercice : > [!tldr] Exercice",
+    "idea : > [!idea] ",
     "fm : ---\\n$end$\\n---",
     "alias : ---\\nalias: [ \"$end$\" ]\\n---",
     "ev : [[espace vectoriel]]",

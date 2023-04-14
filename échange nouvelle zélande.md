@@ -10,4 +10,11 @@
      - transport jusqu'au lycée (distance avec thames)
  - [x] #task transmettre dates à Mme Henry / Wellebrouck ✅ 2023-01-28
 
+# Horaires
+
+départ Paris -> arrivée Auckland >-| |-> départ Auckland -> arrivée Paris
+30 juin 20:50 -> 2 juillet 08:35 >-| |-> 29 aout 20:15 -> 30 aout 11:15 
+1 juillet 21:55 -> 3 juillet 9:50 >-| |-> 30 aout 20:30 -> 31 aout 13h30
+
+
 

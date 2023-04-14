@@ -8,7 +8,7 @@ title::"$f = \mathcal{O}_{x_{0}}(g) \iff \dfrac{f}{g} \text{ est bornée au vois
 
 ----
 > [!definition] fonction dominée
-> Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\mathbb{R}$ (avec $a\in\overline{\mathbb{R}}$)
+> Soient deux fonction $f$ et $g$ de $I \setminus\{a\}$ à valeurs dans $\mathbb{R}$ (avec $a\in\overline{\mathbb{R}}$, [[ensemble des réels complété|ℝ barre]] )
 > $f$ est _dominée_ par $g$ en $a$, ssi **$\frac{f}{g}$ est bornée au voisinage de $a$**
 > 
 ^definition
@@ -42,7 +42,4 @@ c'est la notation du **grand O**
      - la domination est [[relation transitive|transitive]]
 
 
-
-> [!info] Voir
->  - [[ensemble des réels complété]] : $\overline{\mathbb{R}}$
  

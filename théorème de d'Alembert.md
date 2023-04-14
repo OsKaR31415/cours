@@ -18,5 +18,5 @@ Aussi appelé _Théorème fondamental de l'algèbre_, _Théorème de d'Alembert-
  - Les polynômes de $\mathbb{C}[X]$ sont tous [[polynôme scindé|scindés]]
  - Le [[corps]] $\mathbb C$ est [[corps algébriquement clos|algébriquement clos]]
  - Tout polynôme à coefficients complexes est [[polynôme scindé|scindé]]
-Tout [[polynôme]] non constant, à coefficients [[nombre complexe|complexes]], admet au moins une [[racine d'une fonction|racine]].
+Tout [[polynôme]] non constant, à coefficients [[nombre complexe|complexes]], admet au moins une [[racine|racine]].
 

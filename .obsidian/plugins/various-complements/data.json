@@ -60,283 +60,11 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "dimension": {
-      "dimension": {
-        "internalLink": {
-          "count": 18,
-          "lastUpdated": 1676985231831
-        }
-      }
-    },
-    "corps": {
-      "corps": {
-        "internalLink": {
-          "count": 8,
-          "lastUpdated": 1677176269266
-        }
-      }
-    },
-    "produit scalaire": {
-      "produit scalaire": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1677921483210
-        }
-      }
-    },
-    "uniformément convergente": {
-      "uniformément convergente": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1676313952998
-        }
-      }
-    },
-    "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
-      "décomposition en somme d'une matrice symétrique et d'une antisymétrique": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1677490395946
-        }
-      }
-    },
-    "cos((pi/2)-x)": {
-      "cos((pi/2)-x)": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676549154303
-        }
-      }
-    },
-    "norme": {
-      "norme": {
-        "internalLink": {
-          "count": 7,
-          "lastUpdated": 1677921538984
-        }
-      }
-    },
-    "inégalité de cauchy schwartz": {
-      "inégalité de cauchy schwartz": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1677922326947
-        }
-      }
-    },
-    "polygone 2022-07-26 16.40.43.excalidraw": {
-      "polygone 2022-07-26 16.40.43.excalidraw": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676833382061
-        }
-      }
-    },
-    "Sprint 7 - Itération sur l'UI": {
-      "Sprint 7 - Itération sur l'UI": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676283682884
-        }
-      }
-    },
-    "série de fonctions": {
-      "série de fonctions": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676309808516
-        }
-      }
-    },
-    "fonction décroissante": {
-      "fonction décroissante": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676309940728
-        }
-      }
-    },
-    "converge": {
-      "converge": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676309955223
-        }
-      }
-    },
     "rayon de convergence": {
       "rayon de convergence": {
         "internalLink": {
           "count": 13,
           "lastUpdated": 1678898669967
-        }
-      }
-    },
-    "série entière": {
-      "série entière": {
-        "internalLink": {
-          "count": 5,
-          "lastUpdated": 1676714966267
-        }
-      }
-    },
-    "système linéaire 2022-08-29 17.52.52.excalidraw": {
-      "système linéaire 2022-08-29 17.52.52.excalidraw": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1677489511158
-        }
-      }
-    },
-    "intégrale de 1/(x²+a²)": {
-      "intégrale de 1/(x²+a²)": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676912797573
-        }
-      }
-    },
-    "racine": {
-      "racine": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676912890406
-        }
-      }
-    },
-    "classe": {
-      "classe": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676912863841
-        }
-      }
-    },
-    "vecteurs orthogonaux": {
-      "vecteurs orthogonaux": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676923203522
-        }
-      }
-    },
-    "sev": {
-      "sev": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1676923604932
-        }
-      }
-    },
-    "espace préhilbertien": {
-      "espace préhilbertien": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1676989615734
-        }
-      }
-    },
-    "bissectrice": {
-      "bissectrice": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676923414753
-        }
-      }
-    },
-    "inégalité triangulaire": {
-      "inégalité triangulaire": {
-        "internalLink": {
-          "count": 6,
-          "lastUpdated": 1677921786149
-        }
-      }
-    },
-    "distance": {
-      "distance": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676987554878
-        }
-      }
-    },
-    "séparation": {
-      "séparation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676988979642
-        }
-      }
-    },
-    "sev orthogonal": {
-      "sev orthogonal": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676989651000
-        }
-      }
-    },
-    "factorisation de xⁿ - 1": {
-      "factorisation de xⁿ - 1": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1677489586273
-        }
-      }
-    },
-    "réduction de gauss d'une forme quadratique": {
-      "réduction de gauss d'une forme quadratique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677691249011
-        }
-      }
-    },
-    "identités remarquables": {
-      "identités remarquables": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677692954592
-        }
-      }
-    },
-    "définie": {
-      "définie": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677694352020
-        }
-      }
-    },
-    "positive": {
-      "positive": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677694357513
-        }
-      }
-    },
-    "forme quadratique": {
-      "forme quadratique": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677694435932
-        }
-      }
-    },
-    "forme quadratique non dégénérée": {
-      "forme quadratique non dégénérée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677695739322
-        }
-      }
-    },
-    "inégalité de Minkowski": {
-      "inégalité de Minkowski": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677921734026
         }
       }
     },
@@ -348,43 +76,11 @@
         }
       }
     },
-    "colinéaires": {
-      "colinéaires": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677922395501
-        }
-      }
-    },
-    "suite de fonctions": {
-      "suite de fonctions": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677929160963
-        }
-      }
-    },
-    "application linéaire": {
-      "application linéaire": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1678032763699
-        }
-      }
-    },
-    "matrice transconjuguée": {
-      "matrice transconjuguée": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1678032168729
-        }
-      }
-    },
     "démonstration limite (1+1÷n)*n": {
       "démonstration limite (1+1÷n)*n": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1678567348839
+          "count": 2,
+          "lastUpdated": 1680098518657
         }
       }
     },
@@ -393,6 +89,38 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1679577562212
+        }
+      }
+    },
+    "déterminant": {
+      "déterminant": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1680345260138
+        }
+      }
+    },
+    "application affine": {
+      "application affine": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1680464401115
+        }
+      }
+    },
+    "valeur propre": {
+      "valeur propre": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1680539895700
+        }
+      }
+    },
+    "OsKaR31415": {
+      "OsKaR31415": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1680792450015
         }
       }
     }

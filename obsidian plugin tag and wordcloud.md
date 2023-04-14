@@ -18,6 +18,10 @@ ellipticity: 0.2
 ## General Options
 The following options are supported for all clouds.
 
+
+How are you doing ?
+The verbs of my super cool sentence are highlighted in different colors than nouns or any other words like conjunctions and adjectives.
+
 | **Name**    | **Description**                                                                                                  | **Possible Values**                                                                                                         | **Default**                            |
 |-------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | shape       | What shape to draw                                                                                               | `circle`, `cardioid`, `diamond`, `square`, `triangle-forward`, `triangle`, `pentagon`, `star`                               | `circle`                               |

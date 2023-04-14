@@ -54,7 +54,7 @@ Voir **[[MOC fonctions]]**
      - [[intégration par parties]]
      - [[intégrale de Riemann]]
  
- - [[racine d'une fonction]]
+ - [[racine]]
 
  - [[asymptote]]
      - [[calculer une asymptote]]

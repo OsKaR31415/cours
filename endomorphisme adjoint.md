@@ -1,4 +1,5 @@
 up:: [[endomorphisme linéaire]]
+sibling:: [[matrice adjointe]]
 title:: "$f^{*}$ tel que $\langle f^{*}(u), v \rangle = \langle u, f(v) \rangle$"
 #maths/algèbre 
 

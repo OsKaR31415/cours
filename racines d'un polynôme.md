@@ -1,3 +1,6 @@
+---
+alias: [ "racine", "racines" ]
+---
 up::[[polynôme]]
 #maths/analyse
 
