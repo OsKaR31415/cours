@@ -1480,45 +1480,6 @@
                 }
               },
               {
-                "id": "305a180bbf839e1a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "34e2014ef02078b3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Untitled.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "80bb1a14dc063b85",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1540,6 +1501,53 @@
                   "type": "markdown",
                   "state": {
                     "file": "sources/ttyd - Partager un terminal sur internet.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2009eb01466d6397",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Open.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "0f756cc1fe41f318",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "workflow.excalidraw",
+                      "icon": "excalidraw-icon",
+                      "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/workflow.excalidraw.md\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wokisme.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1655,7 +1663,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sources/ttyd - Partager un terminal sur internet.md",
+                    "file": "wokisme.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1676,7 +1684,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sources/ttyd - Partager un terminal sur internet.md",
+                    "file": "wokisme.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1735,7 +1743,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sources/ttyd - Partager un terminal sur internet.md"
+                    "file": "wokisme.md"
                   }
                 }
               },
@@ -1788,7 +1796,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "sources/ttyd - Partager un terminal sur internet.md",
+                    "file": "wokisme.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2074,7 +2082,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "80bb1a14dc063b85",
+      "active": "0f756cc1fe41f318",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2085,8 +2093,8 @@
           "sources",
           "blog/posts",
           "sources/cours",
-          "blog/posts/informatique",
           "blog/posts/maths",
+          "blog/posts/informatique",
           "blog/posts/welcome/_images"
         ]
       }
@@ -2097,11 +2105,201 @@
         "type": "split",
         "children": [
           {
-            "id": "19fc381f3edc7060",
+            "id": "d6be32d2818437b1",
             "type": "tabs",
             "children": [
               {
-                "id": "ff081a52b68074fe",
+                "id": "d69f48488980f5c2",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2020-annotate",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2020-annotate.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2022-annotate",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022-annotate.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2022",
+                      "icon": "lucide-file-text",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022.pdf\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2021-annotate",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021-annotate.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "L2_maths_analyse_CC1_2021",
+                      "icon": "lucide-file-text",
+                      "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021.pdf\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_analyse_CC2_2021-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "9d91f9e26aa4dbe1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "série entière.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "16a69d73f72dd917",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "limite supérieure d'une suite.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ade12371ce821c6b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "série de Fourier",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de Fourier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":0},\"to\":{\"line\":48,\"ch\":0}},\"scroll\":37.443692088382036}"
+                    },
+                    {
+                      "title": "théorème de Dirichlet",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"théorème de Dirichlet.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0.14358974358974358}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "théorème de parseval.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3a278a0901020705",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "sources/cours/S4/L2_maths_analyse_ch4-annotate.md"
+                  }
+                }
+              },
+              {
+                "id": "d2f713f218b427ef",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "théorème de parseval.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5f41d3083532d9a7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "flashcards analyse.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cd98123b8610dede",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2123,7 +2321,7 @@
                 }
               },
               {
-                "id": "ffd5372fa9aec7c0",
+                "id": "40eafc69c9528863",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2137,7 +2335,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "suite de fonctions convergente.md",
+                    "file": "baptême.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2145,47 +2343,7 @@
                 }
               },
               {
-                "id": "6eff2cace045253b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "BDD 3NF",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 3NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "BDD 4NF",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 4NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "BDD normalisation",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD normalisation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.825396825396825}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "BDD normalisation.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8514a8b4fa7e218c",
+                "id": "63f7c2123fd596b5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2193,25 +2351,13 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "changement de base",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"changement de base.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":27},\"to\":{\"line\":17,\"ch\":27}},\"scroll\":12.332129963898916}"
-                    },
-                    {
-                      "title": "inverse d'une matrice",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inverse d'une matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":27.44593253968254}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "comatrice.md",
+                    "file": "anniversaire.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2219,7 +2365,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 9
           }
         ],
         "direction": "vertical"
@@ -2310,7 +2456,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "comatrice.md",
+                    "file": "anniversaire.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2331,7 +2477,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "comatrice.md",
+                    "file": "anniversaire.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2373,7 +2519,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 77.77777777777779,
+            "dimension": 46.6589861751152,
             "children": [
               {
                 "id": "5f0a6b2e995376e5",
@@ -2390,7 +2536,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "comatrice.md"
+                    "file": "anniversaire.md"
                   }
                 }
               },
@@ -2443,7 +2589,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "comatrice.md",
+                    "file": "anniversaire.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -2645,13 +2791,12 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           },
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 22.22222222222222,
+            "dimension": 53.3410138248848,
             "children": [
               {
                 "id": "cb9c41a428bebf8c",
@@ -2729,7 +2874,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "8514a8b4fa7e218c",
+      "active": "63f7c2123fd596b5",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2741,12 +2886,12 @@
           "Excalidraw/Scripts",
           "blog/posts",
           "sources/cours",
-          "blog/posts/informatique",
           "blog/posts/maths",
+          "blog/posts/informatique",
           "sources/cours/S4",
-          "blog/posts/welcome/_images",
           "blog/posts/maths/_images",
-          "blog/posts/informatique/_images"
+          "blog/posts/informatique/_images",
+          "blog/posts/welcome/_images"
         ]
       }
     },

@@ -4,11 +4,201 @@
     "type": "split",
     "children": [
       {
-        "id": "19fc381f3edc7060",
+        "id": "d6be32d2818437b1",
         "type": "tabs",
         "children": [
           {
-            "id": "ff081a52b68074fe",
+            "id": "d69f48488980f5c2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "L2_maths_analyse_CC1_2020-annotate",
+                  "icon": "blocks",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2020-annotate.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "L2_maths_analyse_CC1_2022-annotate",
+                  "icon": "blocks",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022-annotate.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "L2_maths_analyse_CC1_2022",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022.pdf\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "L2_maths_analyse_CC1_2021-annotate",
+                  "icon": "blocks",
+                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021-annotate.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "L2_maths_analyse_CC1_2021",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021.pdf\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "sources/cours/S4/L2_maths_analyse_CC2_2021-annotate.md"
+              }
+            }
+          },
+          {
+            "id": "9d91f9e26aa4dbe1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "série entière.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16a69d73f72dd917",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "limite supérieure d'une suite.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ade12371ce821c6b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "série de Fourier",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de Fourier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":0},\"to\":{\"line\":48,\"ch\":0}},\"scroll\":37.443692088382036}"
+                },
+                {
+                  "title": "théorème de Dirichlet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"théorème de Dirichlet.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0.14358974358974358}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "théorème de parseval.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a278a0901020705",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "sources/cours/S4/L2_maths_analyse_ch4-annotate.md"
+              }
+            }
+          },
+          {
+            "id": "d2f713f218b427ef",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "théorème de parseval.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f41d3083532d9a7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flashcards analyse.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd98123b8610dede",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -30,7 +220,7 @@
             }
           },
           {
-            "id": "ffd5372fa9aec7c0",
+            "id": "40eafc69c9528863",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -44,7 +234,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "suite de fonctions convergente.md",
+                "file": "baptême.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,47 +242,7 @@
             }
           },
           {
-            "id": "6eff2cace045253b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "BDD 3NF",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 3NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "BDD 4NF",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD 4NF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "BDD normalisation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"BDD normalisation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.825396825396825}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BDD normalisation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8514a8b4fa7e218c",
+            "id": "63f7c2123fd596b5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -100,25 +250,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "changement de base",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"changement de base.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":27},\"to\":{\"line\":17,\"ch\":27}},\"scroll\":12.332129963898916}"
-                },
-                {
-                  "title": "inverse d'une matrice",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"inverse d'une matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":27.44593253968254}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comatrice.md",
+                "file": "anniversaire.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -217,7 +355,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "comatrice.md",
+                "file": "anniversaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +376,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "comatrice.md",
+                "file": "anniversaire.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +418,7 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 77.77777777777779,
+        "dimension": 46.6589861751152,
         "children": [
           {
             "id": "5f0a6b2e995376e5",
@@ -297,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "comatrice.md"
+                "file": "anniversaire.md"
               }
             }
           },
@@ -350,7 +488,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "comatrice.md",
+                "file": "anniversaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
@@ -552,13 +690,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "9b0b445260de35cb",
         "type": "tabs",
-        "dimension": 22.22222222222222,
+        "dimension": 53.3410138248848,
         "children": [
           {
             "id": "cb9c41a428bebf8c",
@@ -636,57 +773,57 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "8514a8b4fa7e218c",
+  "active": "63f7c2123fd596b5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "changement de base.md",
-    "Excalidraw/changement de base 2022-11-04 15.41.02.excalidraw.md",
-    "python tree with defaultdicts.md",
-    "python.md",
+    "baptême.md",
+    "anniversaire.md",
+    "Untitled 2.md",
     "Untitled.md",
-    "inverse d'une matrice.md",
-    "déterminant d'une matrice.md",
-    "Excalidraw/inverse d'une matrice 2022-11-09 20.33.24.excalidraw.md",
-    "BDD normalisation.md",
-    "identités.md",
-    "informatique/python/algorithmie/arbre.py~",
-    "informatique/python/algorithmie/arbre.py",
-    "BDD 3NF.md",
-    "BDD 4NF.md",
-    "BDD dépendance multivaluée.md",
-    "suite de fonctions convergente.md",
-    "échange nouvelle zélande.md",
-    "sources/cours/S4/L2_maths_analyse_ch4-annotate.md",
     "théorème de parseval.md",
-    "sources/cours/S4/L2_maths_analyse_TD5-annotate.md",
-    "fonctions trigonométriques.md",
+    "sources/cours/S4/L2_maths_analyse_CC2_2021-annotate.md",
+    "informatique/python/L2/projet_algos_tri/node.py~",
+    "informatique/python/L2/projet_algos_tri/linked_list.py",
+    "informatique/python/L2/projet_algos_tri/node.py",
+    "informatique/python/L2/projet_algos_tri/sujet.pdf",
+    "informatique/python/L2/projet_algos_tri/README.md",
+    "blog/_site/index-listing.json",
+    "blog/_site/posts/maths/>>mathematiques-listing.json",
+    "blog/_site/posts/informatique/>>informatique-listing.json",
+    "blog/informatique.html",
+    "blog/informatique_files/mediabag",
+    "blog/informatique_files",
+    "flashcards analyse.md",
+    "films à voir.md",
+    "kanban/kanban projet m.chanson.md",
+    "projet M.chanson.md",
+    "règle d'Abel pour les séries.md",
+    "TD2 base de données.md",
+    "devoirs.md",
+    "todo.md",
+    "daily/2023-04-17.md",
+    "sources/cours/S4/L2_maths_analyse_ch4-annotate.md",
     "série de Fourier.md",
-    "sources/cours/S4/L2_maths_analyse_TD5.pdf",
-    "densité linéaire moyenne de probabilités.md",
-    "fonction de densité de probabilités.md",
-    "probabilités variable aléatoire fonction de répartition.md",
-    "espérance mathématique.md",
-    "produit vectoriel.md",
-    "sources/cours/S3/L2_maths_analyse_ch1_suites-annotate.md",
-    "sources/cours/S4/L2_maths_analyse_ch4.pdf",
+    "théorème de Dirichlet.md",
+    "règle d'Abel uniforme.md",
+    "fonction continue par morceaux.md",
+    "fonction dérivable par morceaux.md",
+    "ensemble infini dénombrable.md",
+    "suite de fonctions convergence uniforme.md",
+    "attachments/markmind/1681748902310.png",
+    "attachments/markmind/1681748896226.png",
+    "limite supérieure d'une suite.md",
+    "série entière.md",
     "attachments/markmind/1681142771734.png",
     "attachments/markmind/1681137843133.png",
     "attachments/markmind/1680947049514.png",
     "attachments/markmind/1680939161483.png",
-    "sources/cours/S4/L2_maths_analyse_CC1_2019.pdf",
     "attachments/markmind/1680939139682.png",
     "attachments/markmind/1680939096265.png",
     "attachments/markmind/1680939091635.png",
-    "informatique/cpp/cours/projet/agenda",
-    "informatique/cpp/cours/projet/heure",
-    "informatique/cpp/cours/projet/date",
-    "informatique/cpp/cours/projet/Makefile",
-    "informatique/cpp/cours/projet/agenda.cpp",
     "attachments/Pasted Image 20230404143837_736.png",
-    "attachments/markmind/1680549312217.png",
-    "attachments/markmind/1680546330399.png",
     "Arithmétique.canvas"
   ]
 }

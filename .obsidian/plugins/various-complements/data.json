@@ -60,22 +60,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "rayon de convergence": {
-      "rayon de convergence": {
-        "internalLink": {
-          "count": 13,
-          "lastUpdated": 1678898669967
-        }
-      }
-    },
-    "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
-      "inégalité de cauchy schwartz 2023-01-30 17.04.54.excalidraw": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1678146484311
-        }
-      }
-    },
     "démonstration limite (1+1÷n)*n": {
       "démonstration limite (1+1÷n)*n": {
         "internalLink": {
@@ -121,6 +105,14 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1680792450015
+        }
+      }
+    },
+    "série de Fourier": {
+      "série de Fourier": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1681755878193
         }
       }
     }
