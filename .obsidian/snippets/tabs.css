@@ -1,8 +1,48 @@
+body {
+    --tab-stacked-pane-width: 100%;
+}
+
 .workspace-tab-header-inner {
-    padding: 0;
+    padding-left: 0pt !important;
+    padding-right: 0pt !important;
     /* width: 15pt; */
 }
 
 .workspace-tab-header {
-    /* width: 15pt !important;  // sorry for the !important :( */
+    /* width: 15pt !important; */
 }
+
+/* /1* write the letters vertically *1/ */
+/* .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner-title{ */
+/*     text-orientation: upright; */
+/*     letter-spacing: -3px; */
+/*     text-transform: uppercase; */
+/* } */
+
+
+/* VERTICAL TABS PLUGIN */
+
+.koncham-workspace-root-panes>.nav-folder-children>.nav-file>.nav-file-title
+{
+    color: var(--text-normal);
+    padding-left: 5px;
+    padding-top: 2px; padding-bottom: 2px;
+    border: 1pt solid transparent;
+}
+
+.koncham-workspace-root-panes>.nav-folder-children>.nav-file>.nav-file-title.is-active
+{
+    color: var(--text-normal);
+    border-color: var(--text-normal);
+}
+
+
+.theme-dark {
+    /* active tab background color */
+    --nav-item-background-active: #006400;
+}
+
+
+
+
+

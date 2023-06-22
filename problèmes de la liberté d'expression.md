@@ -1,6 +1,6 @@
 up:: [[liberté d'expression]]
 title:: "les problèmes que pose la liberté d'expression"
-#zététique 
+#zetetique 
 
 ---
 

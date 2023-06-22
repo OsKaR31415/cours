@@ -1,6 +1,6 @@
 up::[[terminal commandes]], [[ssh]]
 title:: "`cd ~/.ssh`", "`ssh-keygen -o`", "`cat ~/.ssh/id_rsa.pub`"
-#informatique #review 
+#informatique 
 
 ---
 

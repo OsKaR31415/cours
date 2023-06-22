@@ -3,7 +3,7 @@ alias: [ "il faut diversifier les points de vue pour apprendre" ]
 ---
 up:: [[MOC apprentissage|apprentissage]]
 title:: "différents points de vue permettent une meilleure compréhension globale"
-#apprendre 
+#éducation 
 
 ---
 

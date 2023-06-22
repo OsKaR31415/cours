@@ -1,5 +1,5 @@
 up::[[permutation]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

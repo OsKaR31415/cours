@@ -2,7 +2,7 @@
 alias: "classe"
 ---
 up::[[dérivées successives]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 voir [[dérivées successives]].

@@ -1,6 +1,6 @@
 up::[[groupe]]
 title::"cardinal de son ensemble sous-jacent"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

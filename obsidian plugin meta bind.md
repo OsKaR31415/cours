@@ -1,5 +1,5 @@
 ---
-valeur: 17
+valeur: 21
 trucs_cools:
   - le nombre Septante-trois
   - les maths
@@ -88,7 +88,7 @@ heure :
 INPUT[time:time]
 ```
 
-popup_calendrier
+popup_calendrier :
 ```meta-bind
 INPUT[date_picker:date_test]
 ```

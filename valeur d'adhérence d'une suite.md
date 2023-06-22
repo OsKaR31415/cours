@@ -3,7 +3,7 @@ alias: "valeur d'adhérence"
 ---
 up::[[suite]], [[sous suite]]
 title::"on trouve une infinité de valeurs aussi proches que l'on veut d'une valeur d'adhérence", "$(x_{n})$ admet $x$ pour _valeur d'adhérence_ ssi :", "$\forall \varepsilon>0, \mathrm{card} \left\{ x_{n} \mid |x_{n} - x| < \varepsilon \right\} = +\infty$"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Une valeur d'adhérence est une valeur que l'on trouve une infinité de fois dans une suite.

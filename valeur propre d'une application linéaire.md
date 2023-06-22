@@ -5,7 +5,7 @@ up:: [[endomorphisme linéaire]]
 sibling:: [[valeur propre d'une matrice]]
 name:: "vecteur propre"
 title:: "$\lambda$ tel que $\exists u \neq \vec{0}, \phi(u) = \lambda u$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soit $\varphi  : E \to E$ un [[endomorphisme linéaire]]

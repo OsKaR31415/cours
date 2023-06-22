@@ -3,7 +3,7 @@ alias: [ "SJF", "Shortest Job First" ]
 ---
 up:: [[Ordonnancement d'exécution des processus]]
 title::"Shortest Job First"
-#informatique #review 
+#informatique 
 
 ----
 

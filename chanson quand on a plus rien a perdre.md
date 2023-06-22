@@ -1,7 +1,7 @@
 author:: [[michel berger]], [[daniel balavoine]]
 link:: https://www.youtube.com/watch?v=cGfsPsPpEZk
 date-seen:: 2023-01-20
-#citation #art/musique 
+#art/musique 
 
 ---
 

@@ -2,7 +2,7 @@
 alias: ["argth", "arg tangente hyperbolique"]
 ---
 up::[[fonction tangente hyperbolique]]
-#maths/trigonométrie #review 
+#maths/trigonométrie 
 
 ----
 La [[fonction réciproque]] de la [[fonction tangente hyperbolique]]

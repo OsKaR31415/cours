@@ -737,8 +737,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "text",
-			"version": 460,
-			"versionNonce": 1980083222,
+			"version": 461,
+			"versionNonce": 105835279,
 			"isDeleted": false,
 			"id": "WD6GgSQv",
 			"fillStyle": "hachure",
@@ -748,7 +748,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -155.15552536903954,
-			"y": -1.2769449338485686,
+			"y": -1.4994772144623596,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
 			"width": 222.85980224609375,
@@ -772,7 +772,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 					"type": "arrow"
 				}
 			],
-			"updated": 1680701347361,
+			"updated": 1681676410686,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -786,8 +786,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "image",
-			"version": 914,
-			"versionNonce": 395003978,
+			"version": 915,
+			"versionNonce": 1162654543,
 			"isDeleted": false,
 			"id": "KGXAtlCK",
 			"fillStyle": "hachure",
@@ -797,7 +797,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -156.29365795062887,
-			"y": 174.01967908871012,
+			"y": 173.79714680809633,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 28.092892993934566,
@@ -809,7 +809,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -821,8 +821,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "image",
-			"version": 985,
-			"versionNonce": 1877195094,
+			"version": 986,
+			"versionNonce": 159788321,
 			"isDeleted": false,
 			"id": "I9N1dq53jqHQOPviKBr6B",
 			"fillStyle": "hachure",
@@ -832,7 +832,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -207.7761850460987,
-			"y": 159.0749571575518,
+			"y": 158.85242487693802,
 			"strokeColor": "transparent",
 			"backgroundColor": "transparent",
 			"width": 31.474844460633886,
@@ -844,7 +844,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -856,8 +856,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "text",
-			"version": 851,
-			"versionNonce": 1011855114,
+			"version": 852,
+			"versionNonce": 1528263023,
 			"isDeleted": false,
 			"id": "j4Ccl6CV",
 			"fillStyle": "hachure",
@@ -867,7 +867,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -187.18555008536725,
-			"y": 117.8122961074649,
+			"y": 117.58976382685111,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 120.47990417480469,
@@ -884,7 +884,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 					"type": "arrow"
 				}
 			],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -898,8 +898,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "image",
-			"version": 954,
-			"versionNonce": 890117782,
+			"version": 955,
+			"versionNonce": 19229583,
 			"isDeleted": false,
 			"id": "zV1FVssI",
 			"fillStyle": "hachure",
@@ -909,7 +909,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -109.27977822009086,
-			"y": 145.69153336110986,
+			"y": 145.46900108049607,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 62.338484843327386,
@@ -921,7 +921,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -933,8 +933,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "arrow",
-			"version": 1293,
-			"versionNonce": 22625738,
+			"version": 1298,
+			"versionNonce": 700957167,
 			"isDeleted": false,
 			"id": "mWycZYHpdBlERLqxvcOLa",
 			"fillStyle": "hachure",
@@ -944,7 +944,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -47.37134900670742,
-			"y": 27.107887176067095,
+			"y": 26.885354895453304,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 32.608648255471365,
@@ -957,7 +957,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410759,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -990,8 +990,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "text",
-			"version": 331,
-			"versionNonce": 1245305814,
+			"version": 332,
+			"versionNonce": 1135550895,
 			"isDeleted": false,
 			"id": "SZM60wY6",
 			"fillStyle": "hachure",
@@ -1001,7 +1001,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": 2.237229446699189,
-			"y": 111.9017836830522,
+			"y": 111.67925140243841,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 136.0319061279297,
@@ -1017,7 +1017,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 					"type": "arrow"
 				}
 			],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1031,8 +1031,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "arrow",
-			"version": 973,
-			"versionNonce": 1942156426,
+			"version": 978,
+			"versionNonce": 645377039,
 			"isDeleted": false,
 			"id": "zgSdOheu8rZhuUa0SuqI7",
 			"fillStyle": "hachure",
@@ -1042,7 +1042,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"opacity": 100,
 			"angle": 0,
 			"x": -6.8771747691625364,
-			"y": 30.738980647454937,
+			"y": 30.516448366841146,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 27.185070622826785,
@@ -1055,7 +1055,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410760,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1088,8 +1088,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "arrow",
-			"version": 589,
-			"versionNonce": 1434186006,
+			"version": 590,
+			"versionNonce": 1103461697,
 			"isDeleted": false,
 			"id": "PHGFwKgbr3bPCBUNfVlc-",
 			"fillStyle": "hachure",
@@ -1102,15 +1102,15 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"y": -88.91845309730502,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
-			"width": 53.195461964467384,
-			"height": 82.54414818221342,
+			"width": 53.19234626486333,
+			"height": 82.32161590159963,
 			"seed": 2090674527,
 			"groupIds": [],
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680701347361,
+			"updated": 1681676410687,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1136,8 +1136,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 					8.850958019019131
 				],
 				[
-					53.195461964467384,
-					82.54414818221342
+					53.19234626486333,
+					82.32161590159963
 				]
 			]
 		},
@@ -2398,8 +2398,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		},
 		{
 			"type": "arrow",
-			"version": 3222,
-			"versionNonce": 814879731,
+			"version": 3840,
+			"versionNonce": 2137197153,
 			"isDeleted": false,
 			"id": "7fRiaA8RIaTFcrgJ86gkD",
 			"fillStyle": "hachure",
@@ -2408,8 +2408,8 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -403.9935723464525,
-			"y": -407.53589316408346,
+			"x": -391.91535420832855,
+			"y": -403.2860122232398,
 			"strokeColor": "#5f3dc4",
 			"backgroundColor": "transparent",
 			"width": 1536.1343321603654,
@@ -2418,7 +2418,7 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680776144138,
+			"updated": 1681676396737,
 			"link": null,
 			"locked": false,
 			"customData": {},
@@ -2509,6 +2509,111 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 					643.45703125
 				]
 			]
+		},
+		{
+			"type": "arrow",
+			"version": 1163,
+			"versionNonce": 1819233249,
+			"isDeleted": true,
+			"id": "F0jTDXDUolr6iMQUIHIW6",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -313.96551864599485,
+			"y": -345.89781821557676,
+			"strokeColor": "#5f3dc4",
+			"backgroundColor": "transparent",
+			"width": 1574.2724609375,
+			"height": 659.3017578125,
+			"seed": 734116417,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681676353512,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					704.6533203125,
+					182.4658203125
+				],
+				[
+					-426.8212890625,
+					-51.40625
+				],
+				[
+					1069.58984375,
+					601.416015625
+				],
+				[
+					-475.6005859375,
+					184.189453125
+				],
+				[
+					505.8203124999999,
+					581.9384765625
+				],
+				[
+					-470.6591796875001,
+					306.5966796875
+				],
+				[
+					34.677734374999886,
+					607.8955078125
+				],
+				[
+					81.57226562499989,
+					308.45703125
+				],
+				[
+					515.0146484374999,
+					578.7060546875
+				],
+				[
+					-474.6923828125001,
+					184.9072265625
+				],
+				[
+					513.8671874999999,
+					588.505859375
+				],
+				[
+					439.9316406249999,
+					200.0439453125
+				],
+				[
+					1091.025390625,
+					475.2099609375
+				],
+				[
+					669.8730468749999,
+					293.447265625
+				],
+				[
+					1098.671875,
+					486.923828125
+				],
+				[
+					-427.998046875,
+					-49.6142578125
+				],
+				[
+					1068.80859375,
+					602.8515625
+				]
+			]
 		}
 	],
 	"appState": {
@@ -2526,10 +2631,10 @@ d23c03ba6a889599dd212d7067926c5815c3d96f: https://cdn-icons-png.flaticon.com/512
 		"currentItemTextAlign": "center",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 780.2648122774267,
-		"scrollY": 563.5847168106886,
+		"scrollX": 1332.2208486268994,
+		"scrollY": 625.2476523909916,
 		"zoom": {
-			"value": 0.936342130770419
+			"value": 0.6143771574302542
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,

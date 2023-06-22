@@ -1,7 +1,7 @@
 up:: [[chansons]]
 author:: [[daniel balavoine]]
 title:: "Tous les cris les S.O.S"
-#informatique/python 
+#art/musique 
 
 ---
 

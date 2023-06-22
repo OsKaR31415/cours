@@ -1,0 +1,39 @@
+{
+  "year": 2023,
+  "colors": {
+    "default": [
+      "#c6e48b",
+      "#7bc96f",
+      "#49af5d",
+      "#2e8840",
+      "#196127"
+    ],
+    "dark_green": [
+      "#030",
+      "#040",
+      "#050",
+      "#060",
+      "#070",
+      "#080",
+      "#090",
+      "#0A0",
+      "#0B0",
+      "#0C0",
+      "#0D0",
+      "#0E0",
+      "#0F0"
+    ]
+  },
+  "entries": [
+    {
+      "date": "1900-01-01",
+      "color": "#7bc96f",
+      "intensity": 5,
+      "content": ""
+    }
+  ],
+  "showCurrentDayBorder": true,
+  "defaultEntryIntensity": 4,
+  "intensityScaleStart": 1,
+  "intensityScaleEnd": 5
+}

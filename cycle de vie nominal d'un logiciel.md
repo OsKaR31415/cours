@@ -1,5 +1,5 @@
 up::[[génie logiciel]]
-#informatique #review 
+#informatique 
 
 ---
 

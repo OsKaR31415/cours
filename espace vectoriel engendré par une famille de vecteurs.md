@@ -4,7 +4,7 @@ alias: ["engendré", "espace vectoriel engendré"]
 up::[[espace vectoriel]]
 title::"$\mathrm{Vect}(F)$"
 description::"ensemble des [[combinaison linéaire|combinaisons linéaires]] possibles des vecteurs de $F$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soit $(E, +, \cdot)$ un $\mathbb R$ [[espace vectoriel]], et $u_1, u_2, \ldots, u_k$ une famille finie de [[vecteur|vecteurs]] de $E$.

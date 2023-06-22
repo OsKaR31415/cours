@@ -12,20 +12,18 @@
  - The elephant man
  - the fly (la mouche)
  - platoon
- - rain man
  - whitness
  - 1984
  - five fingers of death
  - death rides a horse
- - laidy snowblood
- - everything, everywhere, all at once
  - les sentiers de la gloire
  - lolita
  - Kill Bill (6ème fois)
  - Roma
  - Lawrence d'arabie
- - babylon A.D (SF)
+ - babylon 5 (SF)
  - La cité des enfants perdus
+ - total recall
 
 > [!done]- Vus
 > - kramer vs kramer
@@ -34,6 +32,9 @@
 > - roller ball
 > - un chien dans un jeu de quilles
 > - scarface
+> - laidy snowblood
+> - rain man
+> - everything, everywhere, all at once
 
 # Séries
 

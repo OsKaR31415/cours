@@ -2,7 +2,7 @@
 alias: "PERT"
 ---
 up::[[outils de gestion de projet]]
-#PM #review 
+#PM 
 
 ----
 

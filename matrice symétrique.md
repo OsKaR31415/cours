@@ -4,7 +4,7 @@ alias: [ "symétrique" ]
 up::[[matrice]]
 sibling:: [[matrice antisymétrique]]
 title::"telle que $M = M^{T}$ ([[transposée]])"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

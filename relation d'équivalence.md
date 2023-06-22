@@ -3,9 +3,8 @@ sr-due: 2023-01-06
 sr-interval: 113
 sr-ease: 291
 ---
-
 up::[[relation]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soient $E$ un ensemble non vide, et $\mathscr R$ une [[relation]].

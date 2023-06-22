@@ -1,5 +1,5 @@
 ---
-alias: [ "convergence normale d'une série de fonctions", "convergence normale" ]
+alias: [ "convergence normale d'une série de fonctions", "convergence normale", "CVN", "converge normalement" ]
 ---
 up:: [[série de fonctions convergence]]
 title:: "$\sum f_{n}(x)$ sur $I$ CV si $\sum\limits_{n} \big(\|u_{n}\|_{\infty} \big) \leq +\infty$"

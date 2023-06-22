@@ -1,5 +1,5 @@
 up::[[polynôme]]
-#maths/analyse #maths/algèbre #review 
+#maths/analyse #maths/algèbre 
 
 ----
 Soit $P$ un [[polynôme]]

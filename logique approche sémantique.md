@@ -1,0 +1,11 @@
+---
+alias: [ "approche sémantique de la logique", "approche sémantique" ]
+---
+up::[[logique formelle]]
+#logique
+
+---
+
+Approche de la [[logique formelle]]
+Les raisonnements sont étudiés du point de vue de la **propagation de la fausseté/vérité** entre [[prémisses]] et [[conséquence]]
+

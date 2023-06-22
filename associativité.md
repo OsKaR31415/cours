@@ -5,7 +5,7 @@ sr-interval: 235
 sr-ease: 328
 ---
 up::[[loi de composition interne]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 Une [[loi de composition interne]] $*$ sur un ensemble $E$ est associative ssi : $\forall(a,b,c)\in E^3, a*(b*c) = (a*b)*c$

@@ -6,16 +6,13 @@ title::"commandes du shell unix"
 
 
 
-> [!query] Sous-notes de [[terminal commandes]]
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title, usage, up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
+> LIST title
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE contains(file.outlinks, [[unix commandes]])
->    or contains(up,          [[unix commandes]])
->    or contains(up.up,       [[unix commandes]])
->    or contains(up.up.up,    [[unix commandes]])
->    or contains(up.up.up.up, [[unix commandes]])
-> WHERE file.name != this.file.name
-> SORT up.up.up.up, up.up.up, up.up, up
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```
+
 

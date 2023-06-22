@@ -23,7 +23,7 @@
   "useCustomIcons": false,
   "useWebview": false,
   "useIconList": true,
-  "darkMode": true,
+  "darkMode": false,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "64c93d1b9a1a3277",
-      "parent": 0,
-      "droppable": true,
-      "text": "anniversaire - Recherche Google",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

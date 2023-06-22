@@ -1,5 +1,6 @@
 up:: [[représentation des nombres en binaire]]
 title::"IEEE 754 - $(-1)^{\text{signe}} + \text{mantisse}\times 2^{\text{exposant}}$"
+#informatique 
 
 ---
 

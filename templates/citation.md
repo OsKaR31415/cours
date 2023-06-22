@@ -1,8 +1,8 @@
 author::
 source::
 link::
-date-seen::{{DATE}}
-#citation #obsidian 
+date-seen::{{DATE:DD/MM/yyyy hh:mm}}
+#citation #
 
 ---
 

@@ -3,7 +3,7 @@ alias: [ "il faut diversifier les médias d'apprentissage" ]
 ---
 up::[[MOC apprentissage|apprentissage]]
 title:: "il faut apprendre depuis un maximum de sources différentes (livres, internet, youtube, discord...)"
-#apprendre 
+#éducation 
 
 ---
 

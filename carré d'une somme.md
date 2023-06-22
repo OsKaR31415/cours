@@ -1,6 +1,6 @@
 up::[[MOC arithmétique]]
 title::"$\left( \sum\limits_{k=0}^{n}a_{k} \right)^{2} = \sum\limits_{i=1}^{n}\left( \sum\limits_{j=1}^{n} a_{i}\times a_{j} \right)$"
-#maths/arithmétique #review 
+#maths/arithmétique 
 
 ---
 $\left( \sum\limits_{k=0}^{n}a_{k} \right)^{2} = \sum\limits_{i=1}^{n}\left( \sum\limits_{j=1}^{n} a_{i}\times a_{j} \right)$

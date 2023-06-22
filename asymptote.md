@@ -5,7 +5,7 @@ sr-interval: 79
 sr-ease: 277
 ---
 up::[[MOC analyse]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 Soit $f: x \mapsto f(x)$ une [[fonction]]

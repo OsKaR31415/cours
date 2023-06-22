@@ -4,7 +4,7 @@ En BDD, la _sorte_ d'une relation est
 ?
 l'ensemble des attributs
 Ex: $sorte(R) = \{titre, réalisateur, année\}$
-<!--SR:!2023-03-17,189,270-->
+<!--SR:!2024-05-04,365,290-->
 
 En BDD, l'_arité_ d'une relation est
 ?
@@ -15,24 +15,24 @@ En BDD, le _shéma_ d'une relation est
 ?
 Le la forme $R[U]$ où $R$ est le nom de la relation, et $U$ la _sorte_ de $R$
 Ex: $films[titre, réalisateur, année]$
-<!--SR:!2023-03-18,287,330-->
+<!--SR:!2024-05-04,365,330-->
 
 
 En _langage à base de règles_, la requête $ans(u)\leftarrow R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$ se lit ...
 ?
 Elle se lit "$ans$ est vrai si $R_1,R_2,\ldots,R_n$ sont vraies"
-<!--SR:!2023-03-23,292,336-->
+<!--SR:!2024-05-04,365,356-->
 
 En _langage à base de règles_, dans la requête $ans(u)\leftarrow R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$, comment s'appelle la partie $ans(u)$ ?
 ?
 La partie $ans(u)$ est appelée la **tête** de la règle.
-<!--SR:!2023-03-24,293,336-->
+<!--SR:!2024-05-04,365,336-->
 
 
 En _langage à base de règles_, dans la requête $ans(u)\leftarrow R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$, comment est appelée la partie $R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$ ?
 ?
 La partie $R_1(u_1),R_2(u_2),\ldots,R_n(u_n)$ est appelée le **corps** de la règle.
-<!--SR:!2023-03-31,300,316-->
+<!--SR:!2024-05-04,365,316-->
 
 En BDD, une _valuation_ est ...
 ?

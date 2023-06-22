@@ -5,7 +5,7 @@ sr-ease: 330
 alias: "lci"
 ---
 up::[[loi de composition]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

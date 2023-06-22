@@ -3,9 +3,8 @@ sr-due: 2022-10-04
 sr-interval: 4
 sr-ease: 274
 ---
-
 up::[[système linéaire]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

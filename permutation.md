@@ -5,7 +5,7 @@ sr-ease: 295
 alias: [ "permuter" ]
 ---
 up::[[MOC algèbre]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Une _permutation_ représente le réarrangement d'objets.

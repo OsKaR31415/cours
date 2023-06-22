@@ -1,5 +1,5 @@
 up::[[système linéaire]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

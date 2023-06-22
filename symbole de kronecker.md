@@ -2,7 +2,7 @@
 alias: [ "delta de kronecker" ]
 ---
 title::"$\displaystyle d_{ij}=d_{i}^{j}=d^{ij}=\begin{cases} 1 \text{ si } i = j,\quad\\ 0 \text{ si } i \neq j \end{cases}$"
-#maths/algèbre #review
+#maths/algèbre 
 
 ----
 

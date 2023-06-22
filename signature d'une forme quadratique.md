@@ -39,3 +39,6 @@ Soit $(a, b)$ la signature de $\psi$
  - $\psi$ est [[forme quadratique définie|définie]] **ssi** sa signature est $(n, 0)$ ou $(0, n)$ avec $n = \dim E$
      - une forme [[forme quadratique définie|définie]] est toujours [[forme quadratique positive|positive]] ou [[forme quadratique négative|négative]]
      - $n = \dim E$ veut dire qu'elle est [[forme quadratique non dégénérée]]
+
+
+

@@ -1,5 +1,5 @@
 up::[[transposition]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 Soit $\sigma$ une [[permutation]]

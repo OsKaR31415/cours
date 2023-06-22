@@ -2,10 +2,11 @@
 
 ----
 
-> [!query] MOCs
+> [!query] Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE up, up.up
-> FROM #MOC
-> SORT up, up.up
+> LIST title
+> FROM #MOC 
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```
+
 

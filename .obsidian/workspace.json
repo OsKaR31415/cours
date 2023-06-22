@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6be32d2818437b1",
+        "id": "b6ebd96d7bc6c1b5",
         "type": "tabs",
         "children": [
           {
-            "id": "d69f48488980f5c2",
+            "id": "6a37416208f1801c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,116 +18,35 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "L2_maths_analyse_CC1_2020-annotate",
-                  "icon": "blocks",
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2020-annotate.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "L2_maths_analyse_CC1_2022-annotate",
-                  "icon": "blocks",
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022-annotate.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "L2_maths_analyse_CC1_2022",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2022.pdf\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "L2_maths_analyse_CC1_2021-annotate",
-                  "icon": "blocks",
-                  "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021-annotate.md\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "L2_maths_analyse_CC1_2021",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"sources/cours/S4/L2_maths_analyse_CC1_2021.pdf\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_CC2_2021-annotate.md"
-              }
-            }
-          },
-          {
-            "id": "9d91f9e26aa4dbe1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "série entière.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a69d73f72dd917",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "limite supérieure d'une suite.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ade12371ce821c6b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "série de Fourier",
+                  "title": "conférence gesticulée",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"série de Fourier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":0},\"to\":{\"line\":48,\"ch\":0}},\"scroll\":37.443692088382036}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conférence gesticulée.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "title": "théorème de Dirichlet",
+                  "title": "éducation populaire",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"théorème de Dirichlet.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0.14358974358974358}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"éducation populaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6604938271604939}"
+                },
+                {
+                  "title": "politique",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.8108108108108105}"
+                },
+                {
+                  "title": "ENCODE framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ENCODE framework.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "théorème de parseval.md",
+                "file": "éducation populaire.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -135,26 +54,7 @@
             }
           },
           {
-            "id": "3a278a0901020705",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "sources/cours/S4/L2_maths_analyse_ch4-annotate.md"
-              }
-            }
-          },
-          {
-            "id": "d2f713f218b427ef",
+            "id": "fa9d4393e53afe80",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -168,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "théorème de parseval.md",
+                "file": "éducation et démocratie.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -176,7 +76,7 @@
             }
           },
           {
-            "id": "5f41d3083532d9a7",
+            "id": "b215878736b8d360",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -190,73 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flashcards analyse.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd98123b8610dede",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40eafc69c9528863",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "baptême.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63f7c2123fd596b5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anniversaire.md",
+                "file": "importance de l'éducation politique.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -264,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,9 +110,10 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
+        "dimension": 73.09160305343512,
         "children": [
           {
-            "id": "84b1f06f81d5c515",
+            "id": "407c81c708328992",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -311,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#personne -path:source",
+                "query": "tag:#a-lire",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -335,11 +170,69 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
           },
+          {
+            "id": "34a73362daed0f65",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "8307913dc5bb12eb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2fce7b9c83102582",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "d392c3e654e7953f",
+        "type": "tabs",
+        "dimension": 26.908396946564885,
+        "children": [
           {
             "id": "c7afda8b81d643de",
             "type": "leaf",
@@ -355,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anniversaire.md",
+                "file": "importance de l'éducation politique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anniversaire.md",
+                "file": "importance de l'éducation politique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,29 +279,13 @@
                 "unlinkedCollapsed": false
               }
             }
-          },
-          {
-            "id": "4a09e25bfc193912",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 431.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
@@ -418,27 +295,8 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 46.6589861751152,
+        "dimension": 33.68320610687023,
         "children": [
-          {
-            "id": "5f0a6b2e995376e5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "anniversaire.md"
-              }
-            }
-          },
           {
             "id": "d45511af0bde9bcf",
             "type": "leaf",
@@ -457,7 +315,7 @@
             }
           },
           {
-            "id": "bae8ca5650bdd5bf",
+            "id": "309f8009b1cc52b3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -469,7 +327,24 @@
               ]
             },
             "state": {
-              "type": "calendar",
+              "type": "custom-frames-detexify",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c78bc8186d3e556",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
           },
@@ -488,10 +363,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "anniversaire.md",
+                "file": "importance de l'éducation politique.md",
                 "options": {
                   "collapse-filter": false,
-                  "search": "-path:(\"__sekund__\" OR \"daily\" OR \"kanban\") -file:(\"todo\" OR \"things to do\") -file:.excalidraw",
+                  "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
@@ -502,94 +377,136 @@
                   "collapse-color-groups": true,
                   "colorGroups": [
                     {
-                      "query": "tag:#todo",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711680
-                      }
-                    },
-                    {
                       "query": "tag:#not-done",
                       "color": {
                         "a": 1,
-                        "rgb": 2829614
+                        "rgb": 8882055
                       }
                     },
                     {
                       "query": "tag:#MOC",
                       "color": {
                         "a": 1,
-                        "rgb": 6356992
+                        "rgb": 10354945
                       }
                     },
                     {
-                      "query": "tag:#flashcards",
+                      "query": "tag:#excalidraw",
                       "color": {
                         "a": 1,
-                        "rgb": 16427551
-                      }
-                    },
-                    {
-                      "query": "tag:#maths",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2520842
-                      }
-                    },
-                    {
-                      "query": "tag:#logique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2902193
-                      }
-                    },
-                    {
-                      "query": "tag:#informatique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 32882
-                      }
-                    },
-                    {
-                      "query": "tag:#personne",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10710150
-                      }
-                    },
-                    {
-                      "query": "path:annotation",
-                      "color": {
-                        "a": 1,
-                        "rgb": 12844865
+                        "rgb": 8019199
                       }
                     },
                     {
                       "query": "tag:#PKM OR tag:#obsidian",
                       "color": {
                         "a": 1,
-                        "rgb": 4667545
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#flashcards",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4863904
+                      }
+                    },
+                    {
+                      "query": "tag:#gists",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6827411
+                      }
+                    },
+                    {
+                      "query": "tag:#CV",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11010185
+                      }
+                    },
+                    {
+                      "query": "tag:#maths",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2792960
+                      }
+                    },
+                    {
+                      "query": "tag:#logique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13050
+                      }
+                    },
+                    {
+                      "query": "tag:#informatique",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14772500
+                      }
+                    },
+                    {
+                      "query": "tag:#personne",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6655149
+                      }
+                    },
+                    {
+                      "query": "path:sources",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3770873
+                      }
+                    },
+                    {
+                      "query": "tag:#science OR tag:#art OR tag:#autres OR tag:#cuisine",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15646813
+                      }
+                    },
+                    {
+                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16759552
+                      }
+                    },
+                    {
+                      "query": "tag:#devoir OR tag:#devoir-fait",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711914
+                      }
+                    },
+                    {
+                      "query": "tag:#politique OR tag:#science/sociologie",
+                      "color": {
+                        "a": 1,
+                        "rgb": 35464
                       }
                     }
                   ],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": true,
-                  "textFadeMultiplier": -1,
-                  "nodeSizeMultiplier": 1,
+                  "textFadeMultiplier": -1.2,
+                  "nodeSizeMultiplier": 1.1036865234375,
                   "lineSizeMultiplier": 2.66151355284701,
                   "collapse-forces": false,
-                  "centerStrength": 0.469875590807845,
-                  "repelStrength": 8.50328679306785,
+                  "centerStrength": 0.684000651041667,
+                  "repelStrength": 15.7893880208333,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 2.1636913969271308,
+                  "scale": 0.36464040330249536,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "6eef7a6fea7d0a57",
+            "id": "b50653ddacae7d12",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -601,12 +518,44 @@
               ]
             },
             "state": {
-              "type": "custom-frames-detexify",
+              "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "3b58d11fec2fca87",
+        "type": "tabs",
+        "dimension": 22.614503816793892,
+        "children": [
           {
-            "id": "bbb6a2e5983cb458",
+            "id": "e3daddeed64a3c86",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "center-panes",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "9b0b445260de35cb",
+        "type": "tabs",
+        "dimension": 43.70229007633588,
+        "children": [
+          {
+            "id": "a05eecb7dce21915",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -623,7 +572,7 @@
             }
           },
           {
-            "id": "b633b3db710b1c5b",
+            "id": "7ab5b0693ed3805a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -640,7 +589,7 @@
             }
           },
           {
-            "id": "31631cc465104a08",
+            "id": "c44d5d92248e6c0a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -652,12 +601,12 @@
               ]
             },
             "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
+              "type": "relation-view",
               "state": {}
             }
           },
           {
-            "id": "baf05012e25adfe7",
+            "id": "16944cfe7e2dcb87",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -669,12 +618,12 @@
               ]
             },
             "state": {
-              "type": "Strange New Worlds",
+              "type": "tasks_timeline_view",
               "state": {}
             }
           },
           {
-            "id": "4f397d44694bbc1e",
+            "id": "8d8d223c8b48a4c7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -685,145 +634,95 @@
                 }
               ]
             },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "9b0b445260de35cb",
-        "type": "tabs",
-        "dimension": 53.3410138248848,
-        "children": [
-          {
-            "id": "cb9c41a428bebf8c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "things to do.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e06c83cab06fb399",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-custom-frames:Open Detexify": true,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "obsidian-custom-frames:Open compteur NDLI": true,
-      "obsidian42-brat:BRAT": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "zk-prefixer:Create new unique note": false,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": true,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-custom-frames:Open Detexify": false,
+      "obsidian-custom-frames:Open compteur NDLI": false,
+      "terminal:Open terminal": false,
+      "switcher:Open quick switcher": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "terminal:Open terminal": false,
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "63f7c2123fd596b5",
+  "active": "b215878736b8d360",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "baptême.md",
-    "anniversaire.md",
-    "Untitled 2.md",
-    "Untitled.md",
-    "théorème de parseval.md",
-    "sources/cours/S4/L2_maths_analyse_CC2_2021-annotate.md",
-    "informatique/python/L2/projet_algos_tri/node.py~",
-    "informatique/python/L2/projet_algos_tri/linked_list.py",
-    "informatique/python/L2/projet_algos_tri/node.py",
-    "informatique/python/L2/projet_algos_tri/sujet.pdf",
-    "informatique/python/L2/projet_algos_tri/README.md",
-    "blog/_site/index-listing.json",
-    "blog/_site/posts/maths/>>mathematiques-listing.json",
-    "blog/_site/posts/informatique/>>informatique-listing.json",
-    "blog/informatique.html",
-    "blog/informatique_files/mediabag",
-    "blog/informatique_files",
-    "flashcards analyse.md",
-    "films à voir.md",
-    "kanban/kanban projet m.chanson.md",
-    "projet M.chanson.md",
-    "règle d'Abel pour les séries.md",
-    "TD2 base de données.md",
-    "devoirs.md",
-    "todo.md",
-    "daily/2023-04-17.md",
-    "sources/cours/S4/L2_maths_analyse_ch4-annotate.md",
-    "série de Fourier.md",
-    "théorème de Dirichlet.md",
-    "règle d'Abel uniforme.md",
-    "fonction continue par morceaux.md",
-    "fonction dérivable par morceaux.md",
-    "ensemble infini dénombrable.md",
-    "suite de fonctions convergence uniforme.md",
-    "attachments/markmind/1681748902310.png",
-    "attachments/markmind/1681748896226.png",
-    "limite supérieure d'une suite.md",
-    "série entière.md",
-    "attachments/markmind/1681142771734.png",
-    "attachments/markmind/1681137843133.png",
-    "attachments/markmind/1680947049514.png",
-    "attachments/markmind/1680939161483.png",
-    "attachments/markmind/1680939139682.png",
-    "attachments/markmind/1680939096265.png",
-    "attachments/markmind/1680939091635.png",
-    "attachments/Pasted Image 20230404143837_736.png",
-    "Arithmétique.canvas"
+    "éducation et démocratie.md",
+    "éducation populaire.md",
+    "daily/2023-06-22.md",
+    "daily/2023-06-21.md",
+    "daily/2023-06-23.md",
+    "2023-06-24.md",
+    "importance de l'éducation politique.md",
+    "templates/daily note.md",
+    "daily/2023-06-20.md",
+    "daily/2023-06-24.md",
+    "le pouvoir de l'éloquence.md",
+    "conférence gesticulée.md",
+    "politique.md",
+    "ENCODE framework.md",
+    "flashcards politique et sociologie.md",
+    "échange nouvelle zélande.md",
+    "matrice.md",
+    "daily/2023, June 22 - Thursday.md",
+    "flashcards BDD.md",
+    "sources/Le Satanisme n'est pas ce que vous croyez [TenL122] - YouTube.md",
+    "sociologie.md",
+    "petite bourgeoisie intellectuelle.md",
+    "daily/2023-06-01.md",
+    "things to do.md",
+    "blog/posts/_>>kanban_posts<<_.md",
+    "marc soret.md",
+    "sources/2022-etude-la-prise-de-parole-en-public .pdf",
+    "informatique/python/AC/gol_static.py",
+    "informatique/python/whistlemouse/mouse_test.py",
+    "informatique/python/whistlemouse",
+    "Arithmétique.canvas",
+    "informatique/python/methode_euler.py~",
+    "informatique/python/noel/__pycache__/colors.cpython-311.pyc",
+    "informatique/python/methode_euler.py",
+    "sources/cours/S4/CC2_bis_modelisation.pdf",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota_zoom_2.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota_zoom_1.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list_zoom_2.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list_zoom_1.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list_zoom1.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/rand_list.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/iota_zoom_2.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/iota.png",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/src/saved_statistics/data",
+    "informatique/python/L2/projet_algos_tri/projet_algos_tri/src/saved_statistics/bucket_sort quick_sort bubble_sort random_list.pkl"
   ]
 }

@@ -10,7 +10,6 @@
   "dataview",
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
-  "obsidian-qrcode-plugin",
   "persistent-graph",
   "quick-explorer",
   "obsidian-desmos",
@@ -38,7 +37,6 @@
   "obsidian-better-internal-link-inserter",
   "obsidian-contextual-typography",
   "improved-vimcursor",
-  "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-hider",
   "obsidian-pandoc",
   "obsidian-vault-statistics-plugin",
@@ -46,7 +44,6 @@
   "mrj-jump-to-link",
   "supercharged-links-obsidian",
   "garble-text",
-  "mathlinks",
   "obsidian-meta-bind-plugin",
   "obsidian-completr",
   "obsidian-asciimath",
@@ -54,7 +51,12 @@
   "obsidian-latex-suite",
   "various-complements",
   "surfing",
+  "customizable-page-header-buttons",
+  "sync-graph-settings",
   "calendar",
-  "obsidian-hover-editor",
-  "customizable-page-header-buttons"
+  "obsidian-relation-pane",
+  "koncham-workspace",
+  "heatmap-calendar",
+  "tasks-calendar-wrapper",
+  "obsidian-sidebar-expand-on-hover"
 ]

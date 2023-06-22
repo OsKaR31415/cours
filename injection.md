@@ -4,14 +4,11 @@ sr-interval: 74
 sr-ease: 317
 alias: "injective"
 ---
-sibling:: [[surjection]]
-
-
 up::[[application]]
 sibling::[[surjection]]
 title::"$\forall(x,x') \in \mathscr{D}_{f}^{2}, f(x)=f(x') \implies x=x'$"
 description::"sans _collision_ : toute valeur a au maximum un antécédent"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Une injection est une [[application]] injective, c'est-à-dire qui ne possède pas de "collision".

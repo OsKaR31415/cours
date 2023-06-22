@@ -8,7 +8,7 @@ les types de checkboxes
  - [ ] unchecked
  - [x] checked
  - [-] Barré
- - [>] Evoyer
+- [ ] Evoyer
  - [<] planifier (<)
  - [?] Question
  - [/] Half done

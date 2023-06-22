@@ -4,7 +4,7 @@ alias: [ "antisymétrique" ]
 up::[[matrice]]
 sibling:: [[matrice symétrique]]
 title::"$M^{T} = -M$ ([[transposée]])"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soit $M\in M_{n,n}(\mathbb{R})$ une [[matrice]], $M$ est _antisymétrique_ ssi :

@@ -1,6 +1,6 @@
 up::[[corps]]
 title:: "$(K, +, \times)$ où :", "$(K, +)$ est un [[groupe abélien]] d'élément neutre $0$", "$(K^{*}, \times)$ est un [[groupe abélien]]"
-#maths/algèbre #review #not-done
+#maths/algèbre #not-done
 
 ---
 Un *corps commutatif* est un [[corps]] pour lequel la loi $\times$ est aussi [[commutativité|commutative]].

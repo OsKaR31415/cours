@@ -6,7 +6,7 @@ alias: "ev"
 ---
 up::[[espace]]
 title::"$(E, +, \cdot)$ tel que", " - $(E, +)$ est un [[groupe abélien]]", " - $\cdot$ est [[distributivité|distributive]] sur $+$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

@@ -1,6 +1,6 @@
 up::[[groupe]]
 title::"plus petit $k$ tel que $a^{*k} = a$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

@@ -4,7 +4,7 @@ alias: "isomorphismes"
 up::[[morphisme]]
 title::"[[morphisme]] [[bijection|bijectif]]"
 description::
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Un _isomorphisme_ est un [[morphisme]] [[bijection|bijectif]].

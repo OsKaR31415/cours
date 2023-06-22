@@ -3,7 +3,7 @@ alias: [ "orthonormaliser" ]
 ---
 up::[[Famille de vecteurs orthonormale]]
 title::"comment rendre [[Famille de vecteurs orthonormale|orthonormale]] une famille de vecteurs"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 

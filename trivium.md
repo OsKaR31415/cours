@@ -1,3 +1,4 @@
+sibling:: [[quadrivium]]
 #science
 
 ----

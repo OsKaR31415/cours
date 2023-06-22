@@ -1,5 +1,5 @@
 up::[[p-cycle|cycle]], [[composition de permutations]]
-#maths/algèbre #review
+#maths/algèbre 
 
 ---
 

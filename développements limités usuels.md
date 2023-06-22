@@ -1,5 +1,5 @@
 up::[[développement limité]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 Ici, on pose $\displaystyle\forall i\in\mathbb N, \lim_{x\rightarrow0}\varepsilon_i(x) = 0$

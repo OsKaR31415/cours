@@ -10,4 +10,7 @@ pour tout $(x, y) \in I^{2}$ :
 $$|f(x)-f(y)| \leq k|x -y|$$
 
 Une fonction lipschitzienne de *rapport* $k < 1$ est une [[fonction contractante]]
+
 # Propriétés
+
+ - Toutes les fonctions de [[classe d'une fonction|classe]] $C^{1}$ sont globalement lipschitzienne

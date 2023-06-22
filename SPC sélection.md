@@ -1,5 +1,5 @@
 up::[[algèbre SPC]]
-#informatique #review 
+#informatique 
 
 ----
 > [!definition] Sélection ([[algèbre SPC]])

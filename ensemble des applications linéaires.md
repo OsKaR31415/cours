@@ -3,7 +3,7 @@ up:: [[espace vectoriel]], [[application linéaire]]
 down:: [[ensemble des endomorphismes linéaires]]
 title::$\mathcal{L}(E, F) = \text{ensemble des applications linéaires de } E \to F$
 description::$\mathcal{L} = \{ f \in F^{E} \mid \forall (u, v)\in E, \forall \lambda \in \mathbf{K},  \}$
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]

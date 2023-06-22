@@ -2,6 +2,7 @@
 title: Chapitre I
 subtitle: Suites de fonctions
 ---
+#maths/analyse 
 
 # 1.0 Cadre étudié
 

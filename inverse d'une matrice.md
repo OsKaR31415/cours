@@ -3,7 +3,7 @@ alias: "inverse"
 ---
 up::[[matrice]]
 title::"$M^{-1}$ telle que $M^{-1}\times M=  M \times M^{-1} = \mathrm{Id}$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soit $M$ une [[matrice]]. On note $M^{-1}$ la matrice _inverse_ de $M$, si elle existe, la matrice telle que $M\times M^{-1} = M^{-1}\times M = Id$ la [[matrice identité]]

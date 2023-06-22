@@ -5,7 +5,7 @@ sr-ease: 250
 ---
 up::[[polynôme]]
 author::[[Jean le Rond d'Alembert]]
-#maths/analyse/complexes #review 
+#maths/analyse/complexes 
 
 ----
 Aussi appelé _Théorème fondamental de l'algèbre_, _Théorème de d'Alembert-Gauss_, du nom de [[Jean le Rond d'Alembert]] et de [[Carl Friedrich Gauss]].

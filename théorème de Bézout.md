@@ -1,6 +1,6 @@
 up::[[MOC arithmétique]]
 title::"$d = \mathrm{pgcd}(a;b) \implies \exists (u;v)\in \mathbb{Z}^{2}, au+bv=d$"
-#maths/arithmétique #review 
+#maths/arithmétique 
 
 ----
 > [!definition] Théorème de Bézout

@@ -4,7 +4,6 @@ difficulty: 4
 ---
 up::[[devoirs]]
 title::"Exercices 6 TD2 bases de données"
-difficulty::1,2,3
 #devoir-fait
 
 # Savoir écrire des démonstrations 

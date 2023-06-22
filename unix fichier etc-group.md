@@ -9,4 +9,3 @@ title::"fichier de configuration contenant les informations sur les groupes"
 
 permissions:: `-rw-r--r-- 1 root root`
 
- - [ ] #todo ajouter notes

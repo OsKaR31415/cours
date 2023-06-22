@@ -1,4 +1,4 @@
-#logiquee
+#logique
 
 ----
 Tout application $I$ attribuant une valeur de vérité aux [[proposition|propositions]] $P$ d'un système logique : $I(P)\in\{V, F\}$

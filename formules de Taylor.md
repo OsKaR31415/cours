@@ -1,6 +1,6 @@
 up::[[développement limité]]
 title::"$\displaystyle f(x_{0}) = \sum_{k=0}^{n} \left( \frac{f^{(k)}(x_{0})}{k!}\cdot(x-x_{0})^{k} \right)$"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Formules pour calculer la décomposition en [[série entière]] d'une fonction, et son [[développement limité]].

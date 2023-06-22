@@ -12,7 +12,7 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 75
+    "downscalePercent": 50
   },
   "defaultViewMode": "source",
   "autoPairMarkdown": false,
@@ -30,7 +30,8 @@
     "images/",
     "kanban/",
     "templates/",
-    "blog/"
+    "blog/",
+    "daily/"
   ],
   "communityPluginSortOrder": "download",
   "newLinkFormat": "shortest",

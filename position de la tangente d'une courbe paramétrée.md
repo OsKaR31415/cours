@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soit une [[courbe paramétrée]] $f: t \mapsto M(t)$

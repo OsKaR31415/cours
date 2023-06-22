@@ -1,7 +1,7 @@
-#citation
 author::[[Descartes]]
 source::[[Discours de la méthode]]
 title::"ceux qui donnent des conseils sont responsables si leurs conseils sont mauvais"
+#citation
 
 ----
 

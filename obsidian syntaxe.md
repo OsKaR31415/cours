@@ -40,6 +40,9 @@ donne :
  1. listes numérotées : simplement `1.` (numéro.)
  2. la numérotation augmente automatiquement quand on va à la ligne
 
+> [!Example]- [[obsidian syntaxe checkboxes (tasks)|checkboxes]]
+> ![[obsidian syntaxe checkboxes (tasks)]]
+
 # Styles
  - **gras** : `**gras**`
      - raccourci : sélectionner le texte, puis `contrôle+b` (comme _bold_)

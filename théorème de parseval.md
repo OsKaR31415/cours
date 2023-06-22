@@ -1,5 +1,5 @@
 up:: [[série de Fourier]]
-title::
+title:: 
 #maths/analyse 
 
 ---
@@ -13,4 +13,5 @@ title::
 > $\boxed{\begin{align} \int_{-\pi }^{+\pi } |f(x)|^{2} \, dx  &= 2\pi \sum\limits_{n =-\infty }^{+\infty } |c_{n}|^{2} \\ &= \pi \left[ \frac{|a_0|^{2}}{2} + \sum\limits_{n=1}^{+\infty} \Big( |a_{n}|^{2} + |b_{n}|^{2} \Big) \right]  \end{align}}$
 > 
 ^definition
+
 

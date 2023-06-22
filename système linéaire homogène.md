@@ -1,5 +1,5 @@
 up::[[système linéaire]]
-#maths/algèbre, #review 
+#maths/algèbre 
 
 ----
 Un [[système linéaire]] est _homogène_ si $(x, y,\ldots)=(0, 0, \ldots)$ est solution du système.

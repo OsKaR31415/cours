@@ -5,7 +5,7 @@ sr-ease: 255
 ---
 up::[[équation différentielle du second ordre]], [[équation différentielle à coefficients constants]]
 title:: "$ay'' + by' + cy = f(x)$ avec $a \neq 0$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 [[équation différentielle]] dans laquelle seule les [[dérivées successives|dérivée première et seconde]] apparaîssent

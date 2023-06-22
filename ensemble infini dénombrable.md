@@ -1,3 +1,6 @@
+---
+alias: [ "dénombrable" ]
+---
 up::[[ensemble]]
 #maths/ensembles
 

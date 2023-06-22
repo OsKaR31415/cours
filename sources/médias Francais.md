@@ -1,4 +1,4 @@
-#zététique 
+#zetetique 
 
 ----
 

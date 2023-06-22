@@ -471,23 +471,6 @@
     }
   ],
   "switcher:open": [],
-  "workspaces:open-modal": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
-  "darlal-switcher-plus:switcher-plus:open-workspaces": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "W"
-    }
-  ],
   "obsidian-completr:completr-close-suggestion-popup": [],
   "calendar:show-calendar-view": [],
   "obsidian-latex-suite:latex-suite-box-equation": [
@@ -558,5 +541,21 @@
       "key": "G"
     }
   ],
-  "editor:insert-link": []
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "workspaces-plus:open-workspaces-plus": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ]
 }

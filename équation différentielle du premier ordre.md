@@ -2,7 +2,7 @@
 sr-due: 2022-11-19
 sr-interval: 65
 sr-ease: 270
----
+
 
 up::[[équation différentielle]]
 title:: "contient une fonction et sa [[dérivation|dérivée]]", "$a(x)y'(x) + b(x)y(x) = c(x)$"

@@ -5,7 +5,7 @@ sr-interval: 30
 sr-ease: 308
 ---
 up::[[courbe paramétrée]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 

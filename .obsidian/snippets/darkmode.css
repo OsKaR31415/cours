@@ -5,22 +5,8 @@
 /* pdfs, figures... */
 
 
-/* default obsidian pdf */
-.theme-dark .pdf-embed iframe,
-.theme-dark embed[type="application/pdf"],
-.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
-    /* filter: invert(0.7) brightness(0.9) contrast(1.8); */
-    filter: invert(0.7)
-            brightness(0.9)
-            contrast(1.6)
-            hue-rotate(180deg)
-            saturate(200%)
-            blur(0.5px) /* blur makes the white text less agressive */
-            ;
-}
-
-
 /* markmind pdf reader (and annotator) */
+.pdf-viewer>.page,
 .mm-pdf-container {
     filter: invert(0.7)
             brightness(0.9)

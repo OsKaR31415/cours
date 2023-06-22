@@ -1,3 +1,4 @@
+#maths/analyse 
 # Exercice 3
 On considère la suite de fonctions $(P_{n})_{n\in \mathbb{N}}$ définie sur $[0, 1]$ par :
 $$\begin{cases}

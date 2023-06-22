@@ -1,7 +1,7 @@
 up:: [[automorphisme]] 
 down::[[endomorphisme linéaire]] 
 title:: "[[automorphisme]] d'[[espace vectoriel]]"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

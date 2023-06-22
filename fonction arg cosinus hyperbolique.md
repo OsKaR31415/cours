@@ -7,7 +7,7 @@ derivative::$-\dfrac{1}{\sqrt{ x^{2} + 1 }} = \dfrac{1}{\sqrt{x^{2}-1}}$
 description::"$[1;+\infty[ \to \mathbb{R}^{+}$", "$x \mapsto \ln \left( x+\sqrt{x^{2}-1} \right)$"
 primitive::""
 title::$\arg \mathrm{ch}$
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 
 ----
 [[fonction réciproque]] du [[fonction cosinus hyperbolique|cosinus hyperbolique]]

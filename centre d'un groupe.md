@@ -4,7 +4,7 @@ alias: "centre"
 up:: [[groupe]] 
 title::"$Z_{G} = \{ x \in G \mid \forall a\in G, x*a=a*x \}$"
 description::"l'ensemble des éléments qui sont commutatifs dans $G$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 Soit $(G, *)$ un [[groupe]]

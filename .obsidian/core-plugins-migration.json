@@ -1,7 +1,7 @@
 {
   "file-explorer": true,
   "global-search": true,
-  "switcher": false,
+  "switcher": true,
   "graph": true,
   "backlink": true,
   "outgoing-link": true,
@@ -17,7 +17,7 @@
   "markdown-importer": false,
   "zk-prefixer": true,
   "random-note": false,
-  "outline": true,
+  "outline": false,
   "word-count": false,
   "slides": true,
   "audio-recorder": false,
@@ -25,5 +25,6 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
-  "canvas": true
+  "canvas": true,
+  "bookmarks": true
 }

@@ -1,4 +1,5 @@
 up:: [[produit scalaire]], [[norme]] 
+sibling:: [[inégalité de Minkowski]]
 title:: "$|\langle u, v\rangle| \leq \|u\|\cdot\|v\|$"
 #maths/algèbre 
 

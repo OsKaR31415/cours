@@ -1,5 +1,5 @@
 up::[[relation d'équivalence]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 Soit un ensemble $E$ et une [[relation d'équivalence]] $\mathscr R$

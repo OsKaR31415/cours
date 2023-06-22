@@ -5,7 +5,7 @@ sr-ease: 212
 alias: "continue"
 ---
 up::[[fonction]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 

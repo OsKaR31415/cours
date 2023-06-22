@@ -38,9 +38,6 @@ var __objRest = (source, exclude) => {
     }
   return target;
 };
-var __esm = (fn, res) => function __init() {
-  return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res;
-};
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
@@ -48,15 +45,19 @@ var __export = (target, all) => {
   for (var name in all)
     __defProp(target, name, { get: all[name], enumerable: true });
 };
-var __copyProps = (to, from2, except, desc) => {
-  if (from2 && typeof from2 === "object" || typeof from2 === "function") {
-    for (let key of __getOwnPropNames(from2))
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
       if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from2[key], enumerable: !(desc = __getOwnPropDesc(from2, key)) || desc.enumerable });
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
   }
   return to;
 };
 var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
   isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
   mod
 ));
@@ -82,1867 +83,10 @@ var __async = (__this, __arguments, generator) => {
   });
 };
 
-// node_modules/@esbuild-plugins/node-globals-polyfill/_virtual-process-polyfill_.js
-function defaultSetTimout() {
-  throw new Error("setTimeout has not been defined");
-}
-function defaultClearTimeout() {
-  throw new Error("clearTimeout has not been defined");
-}
-function runTimeout(fun) {
-  if (cachedSetTimeout === setTimeout) {
-    return setTimeout(fun, 0);
-  }
-  if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-    cachedSetTimeout = setTimeout;
-    return setTimeout(fun, 0);
-  }
-  try {
-    return cachedSetTimeout(fun, 0);
-  } catch (e) {
-    try {
-      return cachedSetTimeout.call(null, fun, 0);
-    } catch (e2) {
-      return cachedSetTimeout.call(this, fun, 0);
-    }
-  }
-}
-function runClearTimeout(marker) {
-  if (cachedClearTimeout === clearTimeout) {
-    return clearTimeout(marker);
-  }
-  if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-    cachedClearTimeout = clearTimeout;
-    return clearTimeout(marker);
-  }
-  try {
-    return cachedClearTimeout(marker);
-  } catch (e) {
-    try {
-      return cachedClearTimeout.call(null, marker);
-    } catch (e2) {
-      return cachedClearTimeout.call(this, marker);
-    }
-  }
-}
-function cleanUpNextTick() {
-  if (!draining || !currentQueue) {
-    return;
-  }
-  draining = false;
-  if (currentQueue.length) {
-    queue = currentQueue.concat(queue);
-  } else {
-    queueIndex = -1;
-  }
-  if (queue.length) {
-    drainQueue();
-  }
-}
-function drainQueue() {
-  if (draining) {
-    return;
-  }
-  var timeout = runTimeout(cleanUpNextTick);
-  draining = true;
-  var len = queue.length;
-  while (len) {
-    currentQueue = queue;
-    queue = [];
-    while (++queueIndex < len) {
-      if (currentQueue) {
-        currentQueue[queueIndex].run();
-      }
-    }
-    queueIndex = -1;
-    len = queue.length;
-  }
-  currentQueue = null;
-  draining = false;
-  runClearTimeout(timeout);
-}
-function nextTick(fun) {
-  var args = new Array(arguments.length - 1);
-  if (arguments.length > 1) {
-    for (var i = 1; i < arguments.length; i++) {
-      args[i - 1] = arguments[i];
-    }
-  }
-  queue.push(new Item(fun, args));
-  if (queue.length === 1 && !draining) {
-    runTimeout(drainQueue);
-  }
-}
-function Item(fun, array) {
-  this.fun = fun;
-  this.array = array;
-}
-function noop() {
-}
-function binding(name) {
-  throw new Error("process.binding is not supported");
-}
-function cwd() {
-  return "/";
-}
-function chdir(dir) {
-  throw new Error("process.chdir is not supported");
-}
-function umask() {
-  return 0;
-}
-function hrtime(previousTimestamp) {
-  var clocktime = performanceNow.call(performance) * 1e-3;
-  var seconds = Math.floor(clocktime);
-  var nanoseconds = Math.floor(clocktime % 1 * 1e9);
-  if (previousTimestamp) {
-    seconds = seconds - previousTimestamp[0];
-    nanoseconds = nanoseconds - previousTimestamp[1];
-    if (nanoseconds < 0) {
-      seconds--;
-      nanoseconds += 1e9;
-    }
-  }
-  return [seconds, nanoseconds];
-}
-function uptime() {
-  var currentTime = new Date();
-  var dif = currentTime - startTime;
-  return dif / 1e3;
-}
-var cachedSetTimeout, cachedClearTimeout, queue, draining, currentQueue, queueIndex, title, platform, browser, env, argv, version, versions, release, config, on, addListener, once, off, removeListener, removeAllListeners, emit, performance, performanceNow, startTime, process, defines;
-var init_virtual_process_polyfill = __esm({
-  "node_modules/@esbuild-plugins/node-globals-polyfill/_virtual-process-polyfill_.js"() {
-    cachedSetTimeout = defaultSetTimout;
-    cachedClearTimeout = defaultClearTimeout;
-    if (typeof global.setTimeout === "function") {
-      cachedSetTimeout = setTimeout;
-    }
-    if (typeof global.clearTimeout === "function") {
-      cachedClearTimeout = clearTimeout;
-    }
-    queue = [];
-    draining = false;
-    queueIndex = -1;
-    Item.prototype.run = function() {
-      this.fun.apply(null, this.array);
-    };
-    title = "browser";
-    platform = "browser";
-    browser = true;
-    env = {};
-    argv = [];
-    version = "";
-    versions = {};
-    release = {};
-    config = {};
-    on = noop;
-    addListener = noop;
-    once = noop;
-    off = noop;
-    removeListener = noop;
-    removeAllListeners = noop;
-    emit = noop;
-    performance = global.performance || {};
-    performanceNow = performance.now || performance.mozNow || performance.msNow || performance.oNow || performance.webkitNow || function() {
-      return new Date().getTime();
-    };
-    startTime = new Date();
-    process = {
-      nextTick,
-      title,
-      browser,
-      env,
-      argv,
-      version,
-      versions,
-      on,
-      addListener,
-      once,
-      off,
-      removeListener,
-      removeAllListeners,
-      emit,
-      binding,
-      cwd,
-      chdir,
-      umask,
-      hrtime,
-      platform,
-      release,
-      config,
-      uptime
-    };
-    defines = {};
-    Object.keys(defines).forEach((key) => {
-      const segs = key.split(".");
-      let target = process;
-      for (let i = 0; i < segs.length; i++) {
-        const seg = segs[i];
-        if (i === segs.length - 1) {
-          target[seg] = defines[key];
-        } else {
-          target = target[seg] || (target[seg] = {});
-        }
-      }
-    });
-  }
-});
-
-// node_modules/@esbuild-plugins/node-globals-polyfill/Buffer.js
-function init() {
-  inited = true;
-  var code = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-  for (var i = 0, len = code.length; i < len; ++i) {
-    lookup[i] = code[i];
-    revLookup[code.charCodeAt(i)] = i;
-  }
-  revLookup["-".charCodeAt(0)] = 62;
-  revLookup["_".charCodeAt(0)] = 63;
-}
-function base64toByteArray(b64) {
-  if (!inited) {
-    init();
-  }
-  var i, j, l, tmp, placeHolders, arr;
-  var len = b64.length;
-  if (len % 4 > 0) {
-    throw new Error("Invalid string. Length must be a multiple of 4");
-  }
-  placeHolders = b64[len - 2] === "=" ? 2 : b64[len - 1] === "=" ? 1 : 0;
-  arr = new Arr(len * 3 / 4 - placeHolders);
-  l = placeHolders > 0 ? len - 4 : len;
-  var L = 0;
-  for (i = 0, j = 0; i < l; i += 4, j += 3) {
-    tmp = revLookup[b64.charCodeAt(i)] << 18 | revLookup[b64.charCodeAt(i + 1)] << 12 | revLookup[b64.charCodeAt(i + 2)] << 6 | revLookup[b64.charCodeAt(i + 3)];
-    arr[L++] = tmp >> 16 & 255;
-    arr[L++] = tmp >> 8 & 255;
-    arr[L++] = tmp & 255;
-  }
-  if (placeHolders === 2) {
-    tmp = revLookup[b64.charCodeAt(i)] << 2 | revLookup[b64.charCodeAt(i + 1)] >> 4;
-    arr[L++] = tmp & 255;
-  } else if (placeHolders === 1) {
-    tmp = revLookup[b64.charCodeAt(i)] << 10 | revLookup[b64.charCodeAt(i + 1)] << 4 | revLookup[b64.charCodeAt(i + 2)] >> 2;
-    arr[L++] = tmp >> 8 & 255;
-    arr[L++] = tmp & 255;
-  }
-  return arr;
-}
-function tripletToBase64(num) {
-  return lookup[num >> 18 & 63] + lookup[num >> 12 & 63] + lookup[num >> 6 & 63] + lookup[num & 63];
-}
-function encodeChunk(uint8, start, end) {
-  var tmp;
-  var output = [];
-  for (var i = start; i < end; i += 3) {
-    tmp = (uint8[i] << 16) + (uint8[i + 1] << 8) + uint8[i + 2];
-    output.push(tripletToBase64(tmp));
-  }
-  return output.join("");
-}
-function base64fromByteArray(uint8) {
-  if (!inited) {
-    init();
-  }
-  var tmp;
-  var len = uint8.length;
-  var extraBytes = len % 3;
-  var output = "";
-  var parts = [];
-  var maxChunkLength = 16383;
-  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
-    parts.push(
-      encodeChunk(
-        uint8,
-        i,
-        i + maxChunkLength > len2 ? len2 : i + maxChunkLength
-      )
-    );
-  }
-  if (extraBytes === 1) {
-    tmp = uint8[len - 1];
-    output += lookup[tmp >> 2];
-    output += lookup[tmp << 4 & 63];
-    output += "==";
-  } else if (extraBytes === 2) {
-    tmp = (uint8[len - 2] << 8) + uint8[len - 1];
-    output += lookup[tmp >> 10];
-    output += lookup[tmp >> 4 & 63];
-    output += lookup[tmp << 2 & 63];
-    output += "=";
-  }
-  parts.push(output);
-  return parts.join("");
-}
-function kMaxLength() {
-  return Buffer.TYPED_ARRAY_SUPPORT ? 2147483647 : 1073741823;
-}
-function createBuffer(that, length) {
-  if (kMaxLength() < length) {
-    throw new RangeError("Invalid typed array length");
-  }
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    that = new Uint8Array(length);
-    that.__proto__ = Buffer.prototype;
-  } else {
-    if (that === null) {
-      that = new Buffer(length);
-    }
-    that.length = length;
-  }
-  return that;
-}
-function Buffer(arg, encodingOrOffset, length) {
-  if (!Buffer.TYPED_ARRAY_SUPPORT && !(this instanceof Buffer)) {
-    return new Buffer(arg, encodingOrOffset, length);
-  }
-  if (typeof arg === "number") {
-    if (typeof encodingOrOffset === "string") {
-      throw new Error(
-        "If encoding is specified then the first argument must be a string"
-      );
-    }
-    return allocUnsafe(this, arg);
-  }
-  return from(this, arg, encodingOrOffset, length);
-}
-function from(that, value, encodingOrOffset, length) {
-  if (typeof value === "number") {
-    throw new TypeError('"value" argument must not be a number');
-  }
-  if (typeof ArrayBuffer !== "undefined" && value instanceof ArrayBuffer) {
-    return fromArrayBuffer(that, value, encodingOrOffset, length);
-  }
-  if (typeof value === "string") {
-    return fromString(that, value, encodingOrOffset);
-  }
-  return fromObject(that, value);
-}
-function assertSize(size) {
-  if (typeof size !== "number") {
-    throw new TypeError('"size" argument must be a number');
-  } else if (size < 0) {
-    throw new RangeError('"size" argument must not be negative');
-  }
-}
-function alloc(that, size, fill2, encoding) {
-  assertSize(size);
-  if (size <= 0) {
-    return createBuffer(that, size);
-  }
-  if (fill2 !== void 0) {
-    return typeof encoding === "string" ? createBuffer(that, size).fill(fill2, encoding) : createBuffer(that, size).fill(fill2);
-  }
-  return createBuffer(that, size);
-}
-function allocUnsafe(that, size) {
-  assertSize(size);
-  that = createBuffer(that, size < 0 ? 0 : checked(size) | 0);
-  if (!Buffer.TYPED_ARRAY_SUPPORT) {
-    for (var i = 0; i < size; ++i) {
-      that[i] = 0;
-    }
-  }
-  return that;
-}
-function fromString(that, string, encoding) {
-  if (typeof encoding !== "string" || encoding === "") {
-    encoding = "utf8";
-  }
-  if (!Buffer.isEncoding(encoding)) {
-    throw new TypeError('"encoding" must be a valid string encoding');
-  }
-  var length = byteLength(string, encoding) | 0;
-  that = createBuffer(that, length);
-  var actual = that.write(string, encoding);
-  if (actual !== length) {
-    that = that.slice(0, actual);
-  }
-  return that;
-}
-function fromArrayLike(that, array) {
-  var length = array.length < 0 ? 0 : checked(array.length) | 0;
-  that = createBuffer(that, length);
-  for (var i = 0; i < length; i += 1) {
-    that[i] = array[i] & 255;
-  }
-  return that;
-}
-function fromArrayBuffer(that, array, byteOffset, length) {
-  array.byteLength;
-  if (byteOffset < 0 || array.byteLength < byteOffset) {
-    throw new RangeError("'offset' is out of bounds");
-  }
-  if (array.byteLength < byteOffset + (length || 0)) {
-    throw new RangeError("'length' is out of bounds");
-  }
-  if (byteOffset === void 0 && length === void 0) {
-    array = new Uint8Array(array);
-  } else if (length === void 0) {
-    array = new Uint8Array(array, byteOffset);
-  } else {
-    array = new Uint8Array(array, byteOffset, length);
-  }
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    that = array;
-    that.__proto__ = Buffer.prototype;
-  } else {
-    that = fromArrayLike(that, array);
-  }
-  return that;
-}
-function fromObject(that, obj) {
-  if (internalIsBuffer(obj)) {
-    var len = checked(obj.length) | 0;
-    that = createBuffer(that, len);
-    if (that.length === 0) {
-      return that;
-    }
-    obj.copy(that, 0, 0, len);
-    return that;
-  }
-  if (obj) {
-    if (typeof ArrayBuffer !== "undefined" && obj.buffer instanceof ArrayBuffer || "length" in obj) {
-      if (typeof obj.length !== "number" || isnan(obj.length)) {
-        return createBuffer(that, 0);
-      }
-      return fromArrayLike(that, obj);
-    }
-    if (obj.type === "Buffer" && Array.isArray(obj.data)) {
-      return fromArrayLike(that, obj.data);
-    }
-  }
-  throw new TypeError(
-    "First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object."
-  );
-}
-function checked(length) {
-  if (length >= kMaxLength()) {
-    throw new RangeError(
-      "Attempt to allocate Buffer larger than maximum size: 0x" + kMaxLength().toString(16) + " bytes"
-    );
-  }
-  return length | 0;
-}
-function internalIsBuffer(b) {
-  return !!(b != null && b._isBuffer);
-}
-function byteLength(string, encoding) {
-  if (internalIsBuffer(string)) {
-    return string.length;
-  }
-  if (typeof ArrayBuffer !== "undefined" && typeof ArrayBuffer.isView === "function" && (ArrayBuffer.isView(string) || string instanceof ArrayBuffer)) {
-    return string.byteLength;
-  }
-  if (typeof string !== "string") {
-    string = "" + string;
-  }
-  var len = string.length;
-  if (len === 0)
-    return 0;
-  var loweredCase = false;
-  for (; ; ) {
-    switch (encoding) {
-      case "ascii":
-      case "latin1":
-      case "binary":
-        return len;
-      case "utf8":
-      case "utf-8":
-      case void 0:
-        return utf8ToBytes(string).length;
-      case "ucs2":
-      case "ucs-2":
-      case "utf16le":
-      case "utf-16le":
-        return len * 2;
-      case "hex":
-        return len >>> 1;
-      case "base64":
-        return base64ToBytes(string).length;
-      default:
-        if (loweredCase)
-          return utf8ToBytes(string).length;
-        encoding = ("" + encoding).toLowerCase();
-        loweredCase = true;
-    }
-  }
-}
-function slowToString(encoding, start, end) {
-  var loweredCase = false;
-  if (start === void 0 || start < 0) {
-    start = 0;
-  }
-  if (start > this.length) {
-    return "";
-  }
-  if (end === void 0 || end > this.length) {
-    end = this.length;
-  }
-  if (end <= 0) {
-    return "";
-  }
-  end >>>= 0;
-  start >>>= 0;
-  if (end <= start) {
-    return "";
-  }
-  if (!encoding)
-    encoding = "utf8";
-  while (true) {
-    switch (encoding) {
-      case "hex":
-        return hexSlice(this, start, end);
-      case "utf8":
-      case "utf-8":
-        return utf8Slice(this, start, end);
-      case "ascii":
-        return asciiSlice(this, start, end);
-      case "latin1":
-      case "binary":
-        return latin1Slice(this, start, end);
-      case "base64":
-        return base64Slice(this, start, end);
-      case "ucs2":
-      case "ucs-2":
-      case "utf16le":
-      case "utf-16le":
-        return utf16leSlice(this, start, end);
-      default:
-        if (loweredCase)
-          throw new TypeError("Unknown encoding: " + encoding);
-        encoding = (encoding + "").toLowerCase();
-        loweredCase = true;
-    }
-  }
-}
-function swap(b, n, m) {
-  var i = b[n];
-  b[n] = b[m];
-  b[m] = i;
-}
-function bidirectionalIndexOf(buffer, val, byteOffset, encoding, dir) {
-  if (buffer.length === 0)
-    return -1;
-  if (typeof byteOffset === "string") {
-    encoding = byteOffset;
-    byteOffset = 0;
-  } else if (byteOffset > 2147483647) {
-    byteOffset = 2147483647;
-  } else if (byteOffset < -2147483648) {
-    byteOffset = -2147483648;
-  }
-  byteOffset = +byteOffset;
-  if (isNaN(byteOffset)) {
-    byteOffset = dir ? 0 : buffer.length - 1;
-  }
-  if (byteOffset < 0)
-    byteOffset = buffer.length + byteOffset;
-  if (byteOffset >= buffer.length) {
-    if (dir)
-      return -1;
-    else
-      byteOffset = buffer.length - 1;
-  } else if (byteOffset < 0) {
-    if (dir)
-      byteOffset = 0;
-    else
-      return -1;
-  }
-  if (typeof val === "string") {
-    val = Buffer.from(val, encoding);
-  }
-  if (internalIsBuffer(val)) {
-    if (val.length === 0) {
-      return -1;
-    }
-    return arrayIndexOf(buffer, val, byteOffset, encoding, dir);
-  } else if (typeof val === "number") {
-    val = val & 255;
-    if (Buffer.TYPED_ARRAY_SUPPORT && typeof Uint8Array.prototype.indexOf === "function") {
-      if (dir) {
-        return Uint8Array.prototype.indexOf.call(
-          buffer,
-          val,
-          byteOffset
-        );
-      } else {
-        return Uint8Array.prototype.lastIndexOf.call(
-          buffer,
-          val,
-          byteOffset
-        );
-      }
-    }
-    return arrayIndexOf(buffer, [val], byteOffset, encoding, dir);
-  }
-  throw new TypeError("val must be string, number or Buffer");
-}
-function arrayIndexOf(arr, val, byteOffset, encoding, dir) {
-  var indexSize = 1;
-  var arrLength = arr.length;
-  var valLength = val.length;
-  if (encoding !== void 0) {
-    encoding = String(encoding).toLowerCase();
-    if (encoding === "ucs2" || encoding === "ucs-2" || encoding === "utf16le" || encoding === "utf-16le") {
-      if (arr.length < 2 || val.length < 2) {
-        return -1;
-      }
-      indexSize = 2;
-      arrLength /= 2;
-      valLength /= 2;
-      byteOffset /= 2;
-    }
-  }
-  function read(buf, i2) {
-    if (indexSize === 1) {
-      return buf[i2];
-    } else {
-      return buf.readUInt16BE(i2 * indexSize);
-    }
-  }
-  var i;
-  if (dir) {
-    var foundIndex = -1;
-    for (i = byteOffset; i < arrLength; i++) {
-      if (read(arr, i) === read(val, foundIndex === -1 ? 0 : i - foundIndex)) {
-        if (foundIndex === -1)
-          foundIndex = i;
-        if (i - foundIndex + 1 === valLength)
-          return foundIndex * indexSize;
-      } else {
-        if (foundIndex !== -1)
-          i -= i - foundIndex;
-        foundIndex = -1;
-      }
-    }
-  } else {
-    if (byteOffset + valLength > arrLength)
-      byteOffset = arrLength - valLength;
-    for (i = byteOffset; i >= 0; i--) {
-      var found = true;
-      for (var j = 0; j < valLength; j++) {
-        if (read(arr, i + j) !== read(val, j)) {
-          found = false;
-          break;
-        }
-      }
-      if (found)
-        return i;
-    }
-  }
-  return -1;
-}
-function hexWrite(buf, string, offset, length) {
-  offset = Number(offset) || 0;
-  var remaining = buf.length - offset;
-  if (!length) {
-    length = remaining;
-  } else {
-    length = Number(length);
-    if (length > remaining) {
-      length = remaining;
-    }
-  }
-  var strLen = string.length;
-  if (strLen % 2 !== 0)
-    throw new TypeError("Invalid hex string");
-  if (length > strLen / 2) {
-    length = strLen / 2;
-  }
-  for (var i = 0; i < length; ++i) {
-    var parsed = parseInt(string.substr(i * 2, 2), 16);
-    if (isNaN(parsed))
-      return i;
-    buf[offset + i] = parsed;
-  }
-  return i;
-}
-function utf8Write(buf, string, offset, length) {
-  return blitBuffer(
-    utf8ToBytes(string, buf.length - offset),
-    buf,
-    offset,
-    length
-  );
-}
-function asciiWrite(buf, string, offset, length) {
-  return blitBuffer(asciiToBytes(string), buf, offset, length);
-}
-function latin1Write(buf, string, offset, length) {
-  return asciiWrite(buf, string, offset, length);
-}
-function base64Write(buf, string, offset, length) {
-  return blitBuffer(base64ToBytes(string), buf, offset, length);
-}
-function ucs2Write(buf, string, offset, length) {
-  return blitBuffer(
-    utf16leToBytes(string, buf.length - offset),
-    buf,
-    offset,
-    length
-  );
-}
-function base64Slice(buf, start, end) {
-  if (start === 0 && end === buf.length) {
-    return base64fromByteArray(buf);
-  } else {
-    return base64fromByteArray(buf.slice(start, end));
-  }
-}
-function utf8Slice(buf, start, end) {
-  end = Math.min(buf.length, end);
-  var res = [];
-  var i = start;
-  while (i < end) {
-    var firstByte = buf[i];
-    var codePoint = null;
-    var bytesPerSequence = firstByte > 239 ? 4 : firstByte > 223 ? 3 : firstByte > 191 ? 2 : 1;
-    if (i + bytesPerSequence <= end) {
-      var secondByte, thirdByte, fourthByte, tempCodePoint;
-      switch (bytesPerSequence) {
-        case 1:
-          if (firstByte < 128) {
-            codePoint = firstByte;
-          }
-          break;
-        case 2:
-          secondByte = buf[i + 1];
-          if ((secondByte & 192) === 128) {
-            tempCodePoint = (firstByte & 31) << 6 | secondByte & 63;
-            if (tempCodePoint > 127) {
-              codePoint = tempCodePoint;
-            }
-          }
-          break;
-        case 3:
-          secondByte = buf[i + 1];
-          thirdByte = buf[i + 2];
-          if ((secondByte & 192) === 128 && (thirdByte & 192) === 128) {
-            tempCodePoint = (firstByte & 15) << 12 | (secondByte & 63) << 6 | thirdByte & 63;
-            if (tempCodePoint > 2047 && (tempCodePoint < 55296 || tempCodePoint > 57343)) {
-              codePoint = tempCodePoint;
-            }
-          }
-          break;
-        case 4:
-          secondByte = buf[i + 1];
-          thirdByte = buf[i + 2];
-          fourthByte = buf[i + 3];
-          if ((secondByte & 192) === 128 && (thirdByte & 192) === 128 && (fourthByte & 192) === 128) {
-            tempCodePoint = (firstByte & 15) << 18 | (secondByte & 63) << 12 | (thirdByte & 63) << 6 | fourthByte & 63;
-            if (tempCodePoint > 65535 && tempCodePoint < 1114112) {
-              codePoint = tempCodePoint;
-            }
-          }
-      }
-    }
-    if (codePoint === null) {
-      codePoint = 65533;
-      bytesPerSequence = 1;
-    } else if (codePoint > 65535) {
-      codePoint -= 65536;
-      res.push(codePoint >>> 10 & 1023 | 55296);
-      codePoint = 56320 | codePoint & 1023;
-    }
-    res.push(codePoint);
-    i += bytesPerSequence;
-  }
-  return decodeCodePointsArray(res);
-}
-function decodeCodePointsArray(codePoints) {
-  var len = codePoints.length;
-  if (len <= MAX_ARGUMENTS_LENGTH) {
-    return String.fromCharCode.apply(String, codePoints);
-  }
-  var res = "";
-  var i = 0;
-  while (i < len) {
-    res += String.fromCharCode.apply(
-      String,
-      codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH)
-    );
-  }
-  return res;
-}
-function asciiSlice(buf, start, end) {
-  var ret = "";
-  end = Math.min(buf.length, end);
-  for (var i = start; i < end; ++i) {
-    ret += String.fromCharCode(buf[i] & 127);
-  }
-  return ret;
-}
-function latin1Slice(buf, start, end) {
-  var ret = "";
-  end = Math.min(buf.length, end);
-  for (var i = start; i < end; ++i) {
-    ret += String.fromCharCode(buf[i]);
-  }
-  return ret;
-}
-function hexSlice(buf, start, end) {
-  var len = buf.length;
-  if (!start || start < 0)
-    start = 0;
-  if (!end || end < 0 || end > len)
-    end = len;
-  var out = "";
-  for (var i = start; i < end; ++i) {
-    out += toHex(buf[i]);
-  }
-  return out;
-}
-function utf16leSlice(buf, start, end) {
-  var bytes = buf.slice(start, end);
-  var res = "";
-  for (var i = 0; i < bytes.length; i += 2) {
-    res += String.fromCharCode(bytes[i] + bytes[i + 1] * 256);
-  }
-  return res;
-}
-function checkOffset(offset, ext, length) {
-  if (offset % 1 !== 0 || offset < 0)
-    throw new RangeError("offset is not uint");
-  if (offset + ext > length)
-    throw new RangeError("Trying to access beyond buffer length");
-}
-function checkInt(buf, value, offset, ext, max, min) {
-  if (!internalIsBuffer(buf))
-    throw new TypeError('"buffer" argument must be a Buffer instance');
-  if (value > max || value < min)
-    throw new RangeError('"value" argument is out of bounds');
-  if (offset + ext > buf.length)
-    throw new RangeError("Index out of range");
-}
-function objectWriteUInt16(buf, value, offset, littleEndian) {
-  if (value < 0)
-    value = 65535 + value + 1;
-  for (var i = 0, j = Math.min(buf.length - offset, 2); i < j; ++i) {
-    buf[offset + i] = (value & 255 << 8 * (littleEndian ? i : 1 - i)) >>> (littleEndian ? i : 1 - i) * 8;
-  }
-}
-function objectWriteUInt32(buf, value, offset, littleEndian) {
-  if (value < 0)
-    value = 4294967295 + value + 1;
-  for (var i = 0, j = Math.min(buf.length - offset, 4); i < j; ++i) {
-    buf[offset + i] = value >>> (littleEndian ? i : 3 - i) * 8 & 255;
-  }
-}
-function checkIEEE754(buf, value, offset, ext, max, min) {
-  if (offset + ext > buf.length)
-    throw new RangeError("Index out of range");
-  if (offset < 0)
-    throw new RangeError("Index out of range");
-}
-function writeFloat(buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert) {
-    checkIEEE754(
-      buf,
-      value,
-      offset,
-      4,
-      34028234663852886e22,
-      -34028234663852886e22
-    );
-  }
-  ieee754write(buf, value, offset, littleEndian, 23, 4);
-  return offset + 4;
-}
-function writeDouble(buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert) {
-    checkIEEE754(
-      buf,
-      value,
-      offset,
-      8,
-      17976931348623157e292,
-      -17976931348623157e292
-    );
-  }
-  ieee754write(buf, value, offset, littleEndian, 52, 8);
-  return offset + 8;
-}
-function base64clean(str2) {
-  str2 = stringtrim(str2).replace(INVALID_BASE64_RE, "");
-  if (str2.length < 2)
-    return "";
-  while (str2.length % 4 !== 0) {
-    str2 = str2 + "=";
-  }
-  return str2;
-}
-function stringtrim(str2) {
-  if (str2.trim)
-    return str2.trim();
-  return str2.replace(/^\s+|\s+$/g, "");
-}
-function toHex(n) {
-  if (n < 16)
-    return "0" + n.toString(16);
-  return n.toString(16);
-}
-function utf8ToBytes(string, units) {
-  units = units || Infinity;
-  var codePoint;
-  var length = string.length;
-  var leadSurrogate = null;
-  var bytes = [];
-  for (var i = 0; i < length; ++i) {
-    codePoint = string.charCodeAt(i);
-    if (codePoint > 55295 && codePoint < 57344) {
-      if (!leadSurrogate) {
-        if (codePoint > 56319) {
-          if ((units -= 3) > -1)
-            bytes.push(239, 191, 189);
-          continue;
-        } else if (i + 1 === length) {
-          if ((units -= 3) > -1)
-            bytes.push(239, 191, 189);
-          continue;
-        }
-        leadSurrogate = codePoint;
-        continue;
-      }
-      if (codePoint < 56320) {
-        if ((units -= 3) > -1)
-          bytes.push(239, 191, 189);
-        leadSurrogate = codePoint;
-        continue;
-      }
-      codePoint = (leadSurrogate - 55296 << 10 | codePoint - 56320) + 65536;
-    } else if (leadSurrogate) {
-      if ((units -= 3) > -1)
-        bytes.push(239, 191, 189);
-    }
-    leadSurrogate = null;
-    if (codePoint < 128) {
-      if ((units -= 1) < 0)
-        break;
-      bytes.push(codePoint);
-    } else if (codePoint < 2048) {
-      if ((units -= 2) < 0)
-        break;
-      bytes.push(codePoint >> 6 | 192, codePoint & 63 | 128);
-    } else if (codePoint < 65536) {
-      if ((units -= 3) < 0)
-        break;
-      bytes.push(
-        codePoint >> 12 | 224,
-        codePoint >> 6 & 63 | 128,
-        codePoint & 63 | 128
-      );
-    } else if (codePoint < 1114112) {
-      if ((units -= 4) < 0)
-        break;
-      bytes.push(
-        codePoint >> 18 | 240,
-        codePoint >> 12 & 63 | 128,
-        codePoint >> 6 & 63 | 128,
-        codePoint & 63 | 128
-      );
-    } else {
-      throw new Error("Invalid code point");
-    }
-  }
-  return bytes;
-}
-function asciiToBytes(str2) {
-  var byteArray = [];
-  for (var i = 0; i < str2.length; ++i) {
-    byteArray.push(str2.charCodeAt(i) & 255);
-  }
-  return byteArray;
-}
-function utf16leToBytes(str2, units) {
-  var c, hi, lo;
-  var byteArray = [];
-  for (var i = 0; i < str2.length; ++i) {
-    if ((units -= 2) < 0)
-      break;
-    c = str2.charCodeAt(i);
-    hi = c >> 8;
-    lo = c % 256;
-    byteArray.push(lo);
-    byteArray.push(hi);
-  }
-  return byteArray;
-}
-function base64ToBytes(str2) {
-  return base64toByteArray(base64clean(str2));
-}
-function blitBuffer(src, dst, offset, length) {
-  for (var i = 0; i < length; ++i) {
-    if (i + offset >= dst.length || i >= src.length)
-      break;
-    dst[i + offset] = src[i];
-  }
-  return i;
-}
-function isnan(val) {
-  return val !== val;
-}
-function isBuffer(obj) {
-  return obj != null && (!!obj._isBuffer || isFastBuffer(obj) || isSlowBuffer(obj));
-}
-function isFastBuffer(obj) {
-  return !!obj.constructor && typeof obj.constructor.isBuffer === "function" && obj.constructor.isBuffer(obj);
-}
-function isSlowBuffer(obj) {
-  return typeof obj.readFloatLE === "function" && typeof obj.slice === "function" && isFastBuffer(obj.slice(0, 0));
-}
-function ieee754read(buffer, offset, isLE, mLen, nBytes) {
-  var e, m;
-  var eLen = nBytes * 8 - mLen - 1;
-  var eMax = (1 << eLen) - 1;
-  var eBias = eMax >> 1;
-  var nBits = -7;
-  var i = isLE ? nBytes - 1 : 0;
-  var d = isLE ? -1 : 1;
-  var s = buffer[offset + i];
-  i += d;
-  e = s & (1 << -nBits) - 1;
-  s >>= -nBits;
-  nBits += eLen;
-  for (; nBits > 0; e = e * 256 + buffer[offset + i], i += d, nBits -= 8) {
-  }
-  m = e & (1 << -nBits) - 1;
-  e >>= -nBits;
-  nBits += mLen;
-  for (; nBits > 0; m = m * 256 + buffer[offset + i], i += d, nBits -= 8) {
-  }
-  if (e === 0) {
-    e = 1 - eBias;
-  } else if (e === eMax) {
-    return m ? NaN : (s ? -1 : 1) * Infinity;
-  } else {
-    m = m + Math.pow(2, mLen);
-    e = e - eBias;
-  }
-  return (s ? -1 : 1) * m * Math.pow(2, e - mLen);
-}
-function ieee754write(buffer, value, offset, isLE, mLen, nBytes) {
-  var e, m, c;
-  var eLen = nBytes * 8 - mLen - 1;
-  var eMax = (1 << eLen) - 1;
-  var eBias = eMax >> 1;
-  var rt = mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0;
-  var i = isLE ? 0 : nBytes - 1;
-  var d = isLE ? 1 : -1;
-  var s = value < 0 || value === 0 && 1 / value < 0 ? 1 : 0;
-  value = Math.abs(value);
-  if (isNaN(value) || value === Infinity) {
-    m = isNaN(value) ? 1 : 0;
-    e = eMax;
-  } else {
-    e = Math.floor(Math.log(value) / Math.LN2);
-    if (value * (c = Math.pow(2, -e)) < 1) {
-      e--;
-      c *= 2;
-    }
-    if (e + eBias >= 1) {
-      value += rt / c;
-    } else {
-      value += rt * Math.pow(2, 1 - eBias);
-    }
-    if (value * c >= 2) {
-      e++;
-      c /= 2;
-    }
-    if (e + eBias >= eMax) {
-      m = 0;
-      e = eMax;
-    } else if (e + eBias >= 1) {
-      m = (value * c - 1) * Math.pow(2, mLen);
-      e = e + eBias;
-    } else {
-      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen);
-      e = 0;
-    }
-  }
-  for (; mLen >= 8; buffer[offset + i] = m & 255, i += d, m /= 256, mLen -= 8) {
-  }
-  e = e << mLen | m;
-  eLen += mLen;
-  for (; eLen > 0; buffer[offset + i] = e & 255, i += d, e /= 256, eLen -= 8) {
-  }
-  buffer[offset + i - d] |= s * 128;
-}
-var lookup, revLookup, Arr, inited, MAX_ARGUMENTS_LENGTH, INVALID_BASE64_RE;
-var init_Buffer = __esm({
-  "node_modules/@esbuild-plugins/node-globals-polyfill/Buffer.js"() {
-    init_virtual_process_polyfill();
-    init_buffer();
-    lookup = [];
-    revLookup = [];
-    Arr = typeof Uint8Array !== "undefined" ? Uint8Array : Array;
-    inited = false;
-    Buffer.TYPED_ARRAY_SUPPORT = global.TYPED_ARRAY_SUPPORT !== void 0 ? global.TYPED_ARRAY_SUPPORT : true;
-    Buffer.poolSize = 8192;
-    Buffer._augment = function(arr) {
-      arr.__proto__ = Buffer.prototype;
-      return arr;
-    };
-    Buffer.from = function(value, encodingOrOffset, length) {
-      return from(null, value, encodingOrOffset, length);
-    };
-    Buffer.kMaxLength = kMaxLength();
-    if (Buffer.TYPED_ARRAY_SUPPORT) {
-      Buffer.prototype.__proto__ = Uint8Array.prototype;
-      Buffer.__proto__ = Uint8Array;
-      if (typeof Symbol !== "undefined" && Symbol.species && Buffer[Symbol.species] === Buffer) {
-      }
-    }
-    Buffer.alloc = function(size, fill2, encoding) {
-      return alloc(null, size, fill2, encoding);
-    };
-    Buffer.allocUnsafe = function(size) {
-      return allocUnsafe(null, size);
-    };
-    Buffer.allocUnsafeSlow = function(size) {
-      return allocUnsafe(null, size);
-    };
-    Buffer.isBuffer = isBuffer;
-    Buffer.compare = function compare(a, b) {
-      if (!internalIsBuffer(a) || !internalIsBuffer(b)) {
-        throw new TypeError("Arguments must be Buffers");
-      }
-      if (a === b)
-        return 0;
-      var x = a.length;
-      var y = b.length;
-      for (var i = 0, len = Math.min(x, y); i < len; ++i) {
-        if (a[i] !== b[i]) {
-          x = a[i];
-          y = b[i];
-          break;
-        }
-      }
-      if (x < y)
-        return -1;
-      if (y < x)
-        return 1;
-      return 0;
-    };
-    Buffer.isEncoding = function isEncoding(encoding) {
-      switch (String(encoding).toLowerCase()) {
-        case "hex":
-        case "utf8":
-        case "utf-8":
-        case "ascii":
-        case "latin1":
-        case "binary":
-        case "base64":
-        case "ucs2":
-        case "ucs-2":
-        case "utf16le":
-        case "utf-16le":
-          return true;
-        default:
-          return false;
-      }
-    };
-    Buffer.concat = function concat(list, length) {
-      if (!Array.isArray(list)) {
-        throw new TypeError('"list" argument must be an Array of Buffers');
-      }
-      if (list.length === 0) {
-        return Buffer.alloc(0);
-      }
-      var i;
-      if (length === void 0) {
-        length = 0;
-        for (i = 0; i < list.length; ++i) {
-          length += list[i].length;
-        }
-      }
-      var buffer = Buffer.allocUnsafe(length);
-      var pos = 0;
-      for (i = 0; i < list.length; ++i) {
-        var buf = list[i];
-        if (!internalIsBuffer(buf)) {
-          throw new TypeError('"list" argument must be an Array of Buffers');
-        }
-        buf.copy(buffer, pos);
-        pos += buf.length;
-      }
-      return buffer;
-    };
-    Buffer.byteLength = byteLength;
-    Buffer.prototype._isBuffer = true;
-    Buffer.prototype.swap16 = function swap16() {
-      var len = this.length;
-      if (len % 2 !== 0) {
-        throw new RangeError("Buffer size must be a multiple of 16-bits");
-      }
-      for (var i = 0; i < len; i += 2) {
-        swap(this, i, i + 1);
-      }
-      return this;
-    };
-    Buffer.prototype.swap32 = function swap32() {
-      var len = this.length;
-      if (len % 4 !== 0) {
-        throw new RangeError("Buffer size must be a multiple of 32-bits");
-      }
-      for (var i = 0; i < len; i += 4) {
-        swap(this, i, i + 3);
-        swap(this, i + 1, i + 2);
-      }
-      return this;
-    };
-    Buffer.prototype.swap64 = function swap64() {
-      var len = this.length;
-      if (len % 8 !== 0) {
-        throw new RangeError("Buffer size must be a multiple of 64-bits");
-      }
-      for (var i = 0; i < len; i += 8) {
-        swap(this, i, i + 7);
-        swap(this, i + 1, i + 6);
-        swap(this, i + 2, i + 5);
-        swap(this, i + 3, i + 4);
-      }
-      return this;
-    };
-    Buffer.prototype.toString = function toString() {
-      var length = this.length | 0;
-      if (length === 0)
-        return "";
-      if (arguments.length === 0)
-        return utf8Slice(this, 0, length);
-      return slowToString.apply(this, arguments);
-    };
-    Buffer.prototype.equals = function equals(b) {
-      if (!internalIsBuffer(b))
-        throw new TypeError("Argument must be a Buffer");
-      if (this === b)
-        return true;
-      return Buffer.compare(this, b) === 0;
-    };
-    Buffer.prototype.compare = function compare2(target, start, end, thisStart, thisEnd) {
-      if (!internalIsBuffer(target)) {
-        throw new TypeError("Argument must be a Buffer");
-      }
-      if (start === void 0) {
-        start = 0;
-      }
-      if (end === void 0) {
-        end = target ? target.length : 0;
-      }
-      if (thisStart === void 0) {
-        thisStart = 0;
-      }
-      if (thisEnd === void 0) {
-        thisEnd = this.length;
-      }
-      if (start < 0 || end > target.length || thisStart < 0 || thisEnd > this.length) {
-        throw new RangeError("out of range index");
-      }
-      if (thisStart >= thisEnd && start >= end) {
-        return 0;
-      }
-      if (thisStart >= thisEnd) {
-        return -1;
-      }
-      if (start >= end) {
-        return 1;
-      }
-      start >>>= 0;
-      end >>>= 0;
-      thisStart >>>= 0;
-      thisEnd >>>= 0;
-      if (this === target)
-        return 0;
-      var x = thisEnd - thisStart;
-      var y = end - start;
-      var len = Math.min(x, y);
-      var thisCopy = this.slice(thisStart, thisEnd);
-      var targetCopy = target.slice(start, end);
-      for (var i = 0; i < len; ++i) {
-        if (thisCopy[i] !== targetCopy[i]) {
-          x = thisCopy[i];
-          y = targetCopy[i];
-          break;
-        }
-      }
-      if (x < y)
-        return -1;
-      if (y < x)
-        return 1;
-      return 0;
-    };
-    Buffer.prototype.includes = function includes(val, byteOffset, encoding) {
-      return this.indexOf(val, byteOffset, encoding) !== -1;
-    };
-    Buffer.prototype.indexOf = function indexOf(val, byteOffset, encoding) {
-      return bidirectionalIndexOf(this, val, byteOffset, encoding, true);
-    };
-    Buffer.prototype.lastIndexOf = function lastIndexOf(val, byteOffset, encoding) {
-      return bidirectionalIndexOf(this, val, byteOffset, encoding, false);
-    };
-    Buffer.prototype.write = function write(string, offset, length, encoding) {
-      if (offset === void 0) {
-        encoding = "utf8";
-        length = this.length;
-        offset = 0;
-      } else if (length === void 0 && typeof offset === "string") {
-        encoding = offset;
-        length = this.length;
-        offset = 0;
-      } else if (isFinite(offset)) {
-        offset = offset | 0;
-        if (isFinite(length)) {
-          length = length | 0;
-          if (encoding === void 0)
-            encoding = "utf8";
-        } else {
-          encoding = length;
-          length = void 0;
-        }
-      } else {
-        throw new Error(
-          "Buffer.write(string, encoding, offset[, length]) is no longer supported"
-        );
-      }
-      var remaining = this.length - offset;
-      if (length === void 0 || length > remaining)
-        length = remaining;
-      if (string.length > 0 && (length < 0 || offset < 0) || offset > this.length) {
-        throw new RangeError("Attempt to write outside buffer bounds");
-      }
-      if (!encoding)
-        encoding = "utf8";
-      var loweredCase = false;
-      for (; ; ) {
-        switch (encoding) {
-          case "hex":
-            return hexWrite(this, string, offset, length);
-          case "utf8":
-          case "utf-8":
-            return utf8Write(this, string, offset, length);
-          case "ascii":
-            return asciiWrite(this, string, offset, length);
-          case "latin1":
-          case "binary":
-            return latin1Write(this, string, offset, length);
-          case "base64":
-            return base64Write(this, string, offset, length);
-          case "ucs2":
-          case "ucs-2":
-          case "utf16le":
-          case "utf-16le":
-            return ucs2Write(this, string, offset, length);
-          default:
-            if (loweredCase)
-              throw new TypeError("Unknown encoding: " + encoding);
-            encoding = ("" + encoding).toLowerCase();
-            loweredCase = true;
-        }
-      }
-    };
-    Buffer.prototype.toJSON = function toJSON() {
-      return {
-        type: "Buffer",
-        data: Array.prototype.slice.call(this._arr || this, 0)
-      };
-    };
-    MAX_ARGUMENTS_LENGTH = 4096;
-    Buffer.prototype.slice = function slice(start, end) {
-      var len = this.length;
-      start = ~~start;
-      end = end === void 0 ? len : ~~end;
-      if (start < 0) {
-        start += len;
-        if (start < 0)
-          start = 0;
-      } else if (start > len) {
-        start = len;
-      }
-      if (end < 0) {
-        end += len;
-        if (end < 0)
-          end = 0;
-      } else if (end > len) {
-        end = len;
-      }
-      if (end < start)
-        end = start;
-      var newBuf;
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        newBuf = this.subarray(start, end);
-        newBuf.__proto__ = Buffer.prototype;
-      } else {
-        var sliceLen = end - start;
-        newBuf = new Buffer(sliceLen, void 0);
-        for (var i = 0; i < sliceLen; ++i) {
-          newBuf[i] = this[i + start];
-        }
-      }
-      return newBuf;
-    };
-    Buffer.prototype.readUIntLE = function readUIntLE(offset, byteLength2, noAssert) {
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert)
-        checkOffset(offset, byteLength2, this.length);
-      var val = this[offset];
-      var mul = 1;
-      var i = 0;
-      while (++i < byteLength2 && (mul *= 256)) {
-        val += this[offset + i] * mul;
-      }
-      return val;
-    };
-    Buffer.prototype.readUIntBE = function readUIntBE(offset, byteLength2, noAssert) {
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert) {
-        checkOffset(offset, byteLength2, this.length);
-      }
-      var val = this[offset + --byteLength2];
-      var mul = 1;
-      while (byteLength2 > 0 && (mul *= 256)) {
-        val += this[offset + --byteLength2] * mul;
-      }
-      return val;
-    };
-    Buffer.prototype.readUInt8 = function readUInt8(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 1, this.length);
-      return this[offset];
-    };
-    Buffer.prototype.readUInt16LE = function readUInt16LE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 2, this.length);
-      return this[offset] | this[offset + 1] << 8;
-    };
-    Buffer.prototype.readUInt16BE = function readUInt16BE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 2, this.length);
-      return this[offset] << 8 | this[offset + 1];
-    };
-    Buffer.prototype.readUInt32LE = function readUInt32LE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return (this[offset] | this[offset + 1] << 8 | this[offset + 2] << 16) + this[offset + 3] * 16777216;
-    };
-    Buffer.prototype.readUInt32BE = function readUInt32BE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return this[offset] * 16777216 + (this[offset + 1] << 16 | this[offset + 2] << 8 | this[offset + 3]);
-    };
-    Buffer.prototype.readIntLE = function readIntLE(offset, byteLength2, noAssert) {
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert)
-        checkOffset(offset, byteLength2, this.length);
-      var val = this[offset];
-      var mul = 1;
-      var i = 0;
-      while (++i < byteLength2 && (mul *= 256)) {
-        val += this[offset + i] * mul;
-      }
-      mul *= 128;
-      if (val >= mul)
-        val -= Math.pow(2, 8 * byteLength2);
-      return val;
-    };
-    Buffer.prototype.readIntBE = function readIntBE(offset, byteLength2, noAssert) {
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert)
-        checkOffset(offset, byteLength2, this.length);
-      var i = byteLength2;
-      var mul = 1;
-      var val = this[offset + --i];
-      while (i > 0 && (mul *= 256)) {
-        val += this[offset + --i] * mul;
-      }
-      mul *= 128;
-      if (val >= mul)
-        val -= Math.pow(2, 8 * byteLength2);
-      return val;
-    };
-    Buffer.prototype.readInt8 = function readInt8(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 1, this.length);
-      if (!(this[offset] & 128))
-        return this[offset];
-      return (255 - this[offset] + 1) * -1;
-    };
-    Buffer.prototype.readInt16LE = function readInt16LE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 2, this.length);
-      var val = this[offset] | this[offset + 1] << 8;
-      return val & 32768 ? val | 4294901760 : val;
-    };
-    Buffer.prototype.readInt16BE = function readInt16BE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 2, this.length);
-      var val = this[offset + 1] | this[offset] << 8;
-      return val & 32768 ? val | 4294901760 : val;
-    };
-    Buffer.prototype.readInt32LE = function readInt32LE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return this[offset] | this[offset + 1] << 8 | this[offset + 2] << 16 | this[offset + 3] << 24;
-    };
-    Buffer.prototype.readInt32BE = function readInt32BE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return this[offset] << 24 | this[offset + 1] << 16 | this[offset + 2] << 8 | this[offset + 3];
-    };
-    Buffer.prototype.readFloatLE = function readFloatLE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return ieee754read(this, offset, true, 23, 4);
-    };
-    Buffer.prototype.readFloatBE = function readFloatBE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 4, this.length);
-      return ieee754read(this, offset, false, 23, 4);
-    };
-    Buffer.prototype.readDoubleLE = function readDoubleLE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 8, this.length);
-      return ieee754read(this, offset, true, 52, 8);
-    };
-    Buffer.prototype.readDoubleBE = function readDoubleBE(offset, noAssert) {
-      if (!noAssert)
-        checkOffset(offset, 8, this.length);
-      return ieee754read(this, offset, false, 52, 8);
-    };
-    Buffer.prototype.writeUIntLE = function writeUIntLE(value, offset, byteLength2, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert) {
-        var maxBytes = Math.pow(2, 8 * byteLength2) - 1;
-        checkInt(this, value, offset, byteLength2, maxBytes, 0);
-      }
-      var mul = 1;
-      var i = 0;
-      this[offset] = value & 255;
-      while (++i < byteLength2 && (mul *= 256)) {
-        this[offset + i] = value / mul & 255;
-      }
-      return offset + byteLength2;
-    };
-    Buffer.prototype.writeUIntBE = function writeUIntBE(value, offset, byteLength2, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      byteLength2 = byteLength2 | 0;
-      if (!noAssert) {
-        var maxBytes = Math.pow(2, 8 * byteLength2) - 1;
-        checkInt(this, value, offset, byteLength2, maxBytes, 0);
-      }
-      var i = byteLength2 - 1;
-      var mul = 1;
-      this[offset + i] = value & 255;
-      while (--i >= 0 && (mul *= 256)) {
-        this[offset + i] = value / mul & 255;
-      }
-      return offset + byteLength2;
-    };
-    Buffer.prototype.writeUInt8 = function writeUInt8(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 1, 255, 0);
-      if (!Buffer.TYPED_ARRAY_SUPPORT)
-        value = Math.floor(value);
-      this[offset] = value & 255;
-      return offset + 1;
-    };
-    Buffer.prototype.writeUInt16LE = function writeUInt16LE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 2, 65535, 0);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value & 255;
-        this[offset + 1] = value >>> 8;
-      } else {
-        objectWriteUInt16(this, value, offset, true);
-      }
-      return offset + 2;
-    };
-    Buffer.prototype.writeUInt16BE = function writeUInt16BE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 2, 65535, 0);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value >>> 8;
-        this[offset + 1] = value & 255;
-      } else {
-        objectWriteUInt16(this, value, offset, false);
-      }
-      return offset + 2;
-    };
-    Buffer.prototype.writeUInt32LE = function writeUInt32LE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 4, 4294967295, 0);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset + 3] = value >>> 24;
-        this[offset + 2] = value >>> 16;
-        this[offset + 1] = value >>> 8;
-        this[offset] = value & 255;
-      } else {
-        objectWriteUInt32(this, value, offset, true);
-      }
-      return offset + 4;
-    };
-    Buffer.prototype.writeUInt32BE = function writeUInt32BE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 4, 4294967295, 0);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value >>> 24;
-        this[offset + 1] = value >>> 16;
-        this[offset + 2] = value >>> 8;
-        this[offset + 3] = value & 255;
-      } else {
-        objectWriteUInt32(this, value, offset, false);
-      }
-      return offset + 4;
-    };
-    Buffer.prototype.writeIntLE = function writeIntLE(value, offset, byteLength2, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert) {
-        var limit = Math.pow(2, 8 * byteLength2 - 1);
-        checkInt(this, value, offset, byteLength2, limit - 1, -limit);
-      }
-      var i = 0;
-      var mul = 1;
-      var sub = 0;
-      this[offset] = value & 255;
-      while (++i < byteLength2 && (mul *= 256)) {
-        if (value < 0 && sub === 0 && this[offset + i - 1] !== 0) {
-          sub = 1;
-        }
-        this[offset + i] = (value / mul >> 0) - sub & 255;
-      }
-      return offset + byteLength2;
-    };
-    Buffer.prototype.writeIntBE = function writeIntBE(value, offset, byteLength2, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert) {
-        var limit = Math.pow(2, 8 * byteLength2 - 1);
-        checkInt(this, value, offset, byteLength2, limit - 1, -limit);
-      }
-      var i = byteLength2 - 1;
-      var mul = 1;
-      var sub = 0;
-      this[offset + i] = value & 255;
-      while (--i >= 0 && (mul *= 256)) {
-        if (value < 0 && sub === 0 && this[offset + i + 1] !== 0) {
-          sub = 1;
-        }
-        this[offset + i] = (value / mul >> 0) - sub & 255;
-      }
-      return offset + byteLength2;
-    };
-    Buffer.prototype.writeInt8 = function writeInt8(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 1, 127, -128);
-      if (!Buffer.TYPED_ARRAY_SUPPORT)
-        value = Math.floor(value);
-      if (value < 0)
-        value = 255 + value + 1;
-      this[offset] = value & 255;
-      return offset + 1;
-    };
-    Buffer.prototype.writeInt16LE = function writeInt16LE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 2, 32767, -32768);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value & 255;
-        this[offset + 1] = value >>> 8;
-      } else {
-        objectWriteUInt16(this, value, offset, true);
-      }
-      return offset + 2;
-    };
-    Buffer.prototype.writeInt16BE = function writeInt16BE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 2, 32767, -32768);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value >>> 8;
-        this[offset + 1] = value & 255;
-      } else {
-        objectWriteUInt16(this, value, offset, false);
-      }
-      return offset + 2;
-    };
-    Buffer.prototype.writeInt32LE = function writeInt32LE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 4, 2147483647, -2147483648);
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value & 255;
-        this[offset + 1] = value >>> 8;
-        this[offset + 2] = value >>> 16;
-        this[offset + 3] = value >>> 24;
-      } else {
-        objectWriteUInt32(this, value, offset, true);
-      }
-      return offset + 4;
-    };
-    Buffer.prototype.writeInt32BE = function writeInt32BE(value, offset, noAssert) {
-      value = +value;
-      offset = offset | 0;
-      if (!noAssert)
-        checkInt(this, value, offset, 4, 2147483647, -2147483648);
-      if (value < 0)
-        value = 4294967295 + value + 1;
-      if (Buffer.TYPED_ARRAY_SUPPORT) {
-        this[offset] = value >>> 24;
-        this[offset + 1] = value >>> 16;
-        this[offset + 2] = value >>> 8;
-        this[offset + 3] = value & 255;
-      } else {
-        objectWriteUInt32(this, value, offset, false);
-      }
-      return offset + 4;
-    };
-    Buffer.prototype.writeFloatLE = function writeFloatLE(value, offset, noAssert) {
-      return writeFloat(this, value, offset, true, noAssert);
-    };
-    Buffer.prototype.writeFloatBE = function writeFloatBE(value, offset, noAssert) {
-      return writeFloat(this, value, offset, false, noAssert);
-    };
-    Buffer.prototype.writeDoubleLE = function writeDoubleLE(value, offset, noAssert) {
-      return writeDouble(this, value, offset, true, noAssert);
-    };
-    Buffer.prototype.writeDoubleBE = function writeDoubleBE(value, offset, noAssert) {
-      return writeDouble(this, value, offset, false, noAssert);
-    };
-    Buffer.prototype.copy = function copy(target, targetStart, start, end) {
-      if (!start)
-        start = 0;
-      if (!end && end !== 0)
-        end = this.length;
-      if (targetStart >= target.length)
-        targetStart = target.length;
-      if (!targetStart)
-        targetStart = 0;
-      if (end > 0 && end < start)
-        end = start;
-      if (end === start)
-        return 0;
-      if (target.length === 0 || this.length === 0)
-        return 0;
-      if (targetStart < 0) {
-        throw new RangeError("targetStart out of bounds");
-      }
-      if (start < 0 || start >= this.length)
-        throw new RangeError("sourceStart out of bounds");
-      if (end < 0)
-        throw new RangeError("sourceEnd out of bounds");
-      if (end > this.length)
-        end = this.length;
-      if (target.length - targetStart < end - start) {
-        end = target.length - targetStart + start;
-      }
-      var len = end - start;
-      var i;
-      if (this === target && start < targetStart && targetStart < end) {
-        for (i = len - 1; i >= 0; --i) {
-          target[i + targetStart] = this[i + start];
-        }
-      } else if (len < 1e3 || !Buffer.TYPED_ARRAY_SUPPORT) {
-        for (i = 0; i < len; ++i) {
-          target[i + targetStart] = this[i + start];
-        }
-      } else {
-        Uint8Array.prototype.set.call(
-          target,
-          this.subarray(start, start + len),
-          targetStart
-        );
-      }
-      return len;
-    };
-    Buffer.prototype.fill = function fill(val, start, end, encoding) {
-      if (typeof val === "string") {
-        if (typeof start === "string") {
-          encoding = start;
-          start = 0;
-          end = this.length;
-        } else if (typeof end === "string") {
-          encoding = end;
-          end = this.length;
-        }
-        if (val.length === 1) {
-          var code = val.charCodeAt(0);
-          if (code < 256) {
-            val = code;
-          }
-        }
-        if (encoding !== void 0 && typeof encoding !== "string") {
-          throw new TypeError("encoding must be a string");
-        }
-        if (typeof encoding === "string" && !Buffer.isEncoding(encoding)) {
-          throw new TypeError("Unknown encoding: " + encoding);
-        }
-      } else if (typeof val === "number") {
-        val = val & 255;
-      }
-      if (start < 0 || this.length < start || this.length < end) {
-        throw new RangeError("Out of range index");
-      }
-      if (end <= start) {
-        return this;
-      }
-      start = start >>> 0;
-      end = end === void 0 ? this.length : end >>> 0;
-      if (!val)
-        val = 0;
-      var i;
-      if (typeof val === "number") {
-        for (i = start; i < end; ++i) {
-          this[i] = val;
-        }
-      } else {
-        var bytes = internalIsBuffer(val) ? val : utf8ToBytes(new Buffer(val, encoding).toString());
-        var len = bytes.length;
-        for (i = 0; i < end - start; ++i) {
-          this[i + start] = bytes[i % len];
-        }
-      }
-      return this;
-    };
-    INVALID_BASE64_RE = /[^+\/0-9A-Za-z-_]/g;
-  }
-});
-
-// node_modules/@esbuild-plugins/node-globals-polyfill/_buffer.js
-var init_buffer = __esm({
-  "node_modules/@esbuild-plugins/node-globals-polyfill/_buffer.js"() {
-    init_Buffer();
-  }
-});
-
 // node_modules/kind-of/index.js
 var require_kind_of = __commonJS({
   "node_modules/kind-of/index.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
-    var toString2 = Object.prototype.toString;
+    var toString = Object.prototype.toString;
     module2.exports = function kindOf(val) {
       if (val === void 0)
         return "undefined";
@@ -1962,7 +106,7 @@ var require_kind_of = __commonJS({
       }
       if (isArray(val))
         return "array";
-      if (isBuffer2(val))
+      if (isBuffer(val))
         return "buffer";
       if (isArguments(val))
         return "arguments";
@@ -2007,7 +151,7 @@ var require_kind_of = __commonJS({
       if (isGeneratorObj(val)) {
         return "generator";
       }
-      type = toString2.call(val);
+      type = toString.call(val);
       switch (type) {
         case "[object Object]":
           return "object";
@@ -2061,7 +205,7 @@ var require_kind_of = __commonJS({
       }
       return false;
     }
-    function isBuffer2(val) {
+    function isBuffer(val) {
       if (val.constructor && typeof val.constructor.isBuffer === "function") {
         return val.constructor.isBuffer(val);
       }
@@ -2074,8 +218,6 @@ var require_kind_of = __commonJS({
 var require_is_extendable = __commonJS({
   "node_modules/is-extendable/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = function isExtendable(val) {
       return typeof val !== "undefined" && val !== null && (typeof val === "object" || typeof val === "function");
     };
@@ -2086,8 +228,6 @@ var require_is_extendable = __commonJS({
 var require_extend_shallow = __commonJS({
   "node_modules/extend-shallow/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var isObject2 = require_is_extendable();
     module2.exports = function extend(o) {
       if (!isObject2(o)) {
@@ -2119,8 +259,6 @@ var require_extend_shallow = __commonJS({
 var require_section_matter = __commonJS({
   "node_modules/section-matter/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var typeOf = require_kind_of();
     var extend = require_extend_shallow();
     module2.exports = function(input, options2) {
@@ -2199,7 +337,7 @@ var require_section_matter = __commonJS({
       if (typeOf(input) !== "object") {
         input = { content: input };
       }
-      if (typeof input.content !== "string" && !isBuffer2(input.content)) {
+      if (typeof input.content !== "string" && !isBuffer(input.content)) {
         throw new TypeError("expected a buffer or string");
       }
       input.content = input.content.toString();
@@ -2215,7 +353,7 @@ var require_section_matter = __commonJS({
     function identity(val) {
       return val;
     }
-    function isBuffer2(val) {
+    function isBuffer(val) {
       if (val && val.constructor && typeof val.constructor.isBuffer === "function") {
         return val.constructor.isBuffer(val);
       }
@@ -2228,8 +366,6 @@ var require_section_matter = __commonJS({
 var require_common = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/common.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     function isNothing(subject) {
       return typeof subject === "undefined" || subject === null;
     }
@@ -2277,8 +413,6 @@ var require_common = __commonJS({
 var require_exception = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/exception.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     function YAMLException(reason, mark) {
       Error.call(this);
       this.name = "YAMLException";
@@ -2293,7 +427,7 @@ var require_exception = __commonJS({
     }
     YAMLException.prototype = Object.create(Error.prototype);
     YAMLException.prototype.constructor = YAMLException;
-    YAMLException.prototype.toString = function toString2(compact) {
+    YAMLException.prototype.toString = function toString(compact) {
       var result = this.name + ": ";
       result += this.reason || "(unknown reason)";
       if (!compact && this.mark) {
@@ -2309,8 +443,6 @@ var require_exception = __commonJS({
 var require_mark = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/mark.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     function Mark(name, buffer, position, line, column) {
       this.name = name;
@@ -2348,7 +480,7 @@ var require_mark = __commonJS({
       snippet = this.buffer.slice(start, end);
       return common.repeat(" ", indent) + head + snippet + tail + "\n" + common.repeat(" ", indent + this.position - start + head.length) + "^";
     };
-    Mark.prototype.toString = function toString2(compact) {
+    Mark.prototype.toString = function toString(compact) {
       var snippet, where = "";
       if (this.name) {
         where += 'in "' + this.name + '" ';
@@ -2370,8 +502,6 @@ var require_mark = __commonJS({
 var require_type = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var YAMLException = require_exception();
     var TYPE_CONSTRUCTOR_OPTIONS = [
       "kind",
@@ -2431,8 +561,6 @@ var require_type = __commonJS({
 var require_schema = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     var YAMLException = require_exception();
     var Type = require_type();
@@ -2521,8 +649,6 @@ var require_schema = __commonJS({
 var require_str = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/str.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     module2.exports = new Type("tag:yaml.org,2002:str", {
       kind: "scalar",
@@ -2537,8 +663,6 @@ var require_str = __commonJS({
 var require_seq = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/seq.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     module2.exports = new Type("tag:yaml.org,2002:seq", {
       kind: "sequence",
@@ -2553,8 +677,6 @@ var require_seq = __commonJS({
 var require_map = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/map.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     module2.exports = new Type("tag:yaml.org,2002:map", {
       kind: "mapping",
@@ -2569,8 +691,6 @@ var require_map = __commonJS({
 var require_failsafe = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema/failsafe.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Schema = require_schema();
     module2.exports = new Schema({
       explicit: [
@@ -2586,8 +706,6 @@ var require_failsafe = __commonJS({
 var require_null = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/null.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     function resolveYamlNull(data) {
       if (data === null)
@@ -2629,8 +747,6 @@ var require_null = __commonJS({
 var require_bool = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/bool.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     function resolveYamlBoolean(data) {
       if (data === null)
@@ -2669,8 +785,6 @@ var require_bool = __commonJS({
 var require_int = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/int.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     var Type = require_type();
     function isHexCode(c) {
@@ -2802,6 +916,7 @@ var require_int = __commonJS({
         decimal: function(obj) {
           return obj.toString(10);
         },
+        /* eslint-disable max-len */
         hexadecimal: function(obj) {
           return obj >= 0 ? "0x" + obj.toString(16).toUpperCase() : "-0x" + obj.toString(16).toUpperCase().slice(1);
         }
@@ -2821,17 +936,18 @@ var require_int = __commonJS({
 var require_float = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/float.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     var Type = require_type();
     var YAML_FLOAT_PATTERN = new RegExp(
+      // 2.5e4, 2.5 and integers
       "^(?:[-+]?(?:0|[1-9][0-9_]*)(?:\\.[0-9_]*)?(?:[eE][-+]?[0-9]+)?|\\.[0-9_]+(?:[eE][-+]?[0-9]+)?|[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+\\.[0-9_]*|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$"
     );
     function resolveYamlFloat(data) {
       if (data === null)
         return false;
-      if (!YAML_FLOAT_PATTERN.test(data) || data[data.length - 1] === "_") {
+      if (!YAML_FLOAT_PATTERN.test(data) || // Quick hack to not allow integers end with `_`
+      // Probably should update regexp & check speed
+      data[data.length - 1] === "_") {
         return false;
       }
       return true;
@@ -2916,8 +1032,6 @@ var require_float = __commonJS({
 var require_json = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema/json.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Schema = require_schema();
     module2.exports = new Schema({
       include: [
@@ -2937,8 +1051,6 @@ var require_json = __commonJS({
 var require_core = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema/core.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Schema = require_schema();
     module2.exports = new Schema({
       include: [
@@ -2952,8 +1064,6 @@ var require_core = __commonJS({
 var require_timestamp = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/timestamp.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     var YAML_DATE_REGEXP = new RegExp(
       "^([0-9][0-9][0-9][0-9])-([0-9][0-9])-([0-9][0-9])$"
@@ -3022,8 +1132,6 @@ var require_timestamp = __commonJS({
 var require_merge = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/merge.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     function resolveYamlMerge(data) {
       return data === "<<" || data === null;
@@ -3039,8 +1147,6 @@ var require_merge = __commonJS({
 var require_binary = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/binary.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var NodeBuffer;
     try {
       _require = require;
@@ -3137,8 +1243,6 @@ var require_binary = __commonJS({
 var require_omap = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/omap.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     var _hasOwnProperty = Object.prototype.hasOwnProperty;
     var _toString = Object.prototype.toString;
@@ -3183,8 +1287,6 @@ var require_omap = __commonJS({
 var require_pairs = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/pairs.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     var _toString = Object.prototype.toString;
     function resolveYamlPairs(data) {
@@ -3227,8 +1329,6 @@ var require_pairs = __commonJS({
 var require_set = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/set.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     var _hasOwnProperty = Object.prototype.hasOwnProperty;
     function resolveYamlSet(data) {
@@ -3258,8 +1358,6 @@ var require_set = __commonJS({
 var require_default_safe = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema/default_safe.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Schema = require_schema();
     module2.exports = new Schema({
       include: [
@@ -3283,8 +1381,6 @@ var require_default_safe = __commonJS({
 var require_undefined = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     function resolveJavascriptUndefined() {
       return true;
@@ -3312,8 +1408,6 @@ var require_undefined = __commonJS({
 var require_regexp = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Type = require_type();
     function resolveJavascriptRegExp(data) {
       if (data === null)
@@ -3367,8 +1461,6 @@ var require_regexp = __commonJS({
 var require_function = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/type/js/function.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var esprima;
     try {
       _require = require;
@@ -3426,8 +1518,6 @@ var require_function = __commonJS({
 var require_default_full = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/schema/default_full.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var Schema = require_schema();
     module2.exports = Schema.DEFAULT = new Schema({
       include: [
@@ -3446,8 +1536,6 @@ var require_default_full = __commonJS({
 var require_loader = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/loader.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     var YAMLException = require_exception();
     var Mark = require_mark();
@@ -4560,8 +2648,6 @@ var require_loader = __commonJS({
 var require_dumper = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml/dumper.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var common = require_common();
     var YAMLException = require_exception();
     var DEFAULT_FULL_SCHEMA = require_default_full();
@@ -4759,7 +2845,8 @@ var require_dumper = __commonJS({
           if (char === CHAR_LINE_FEED) {
             hasLineBreak = true;
             if (shouldTrackWidth) {
-              hasFoldableLine = hasFoldableLine || i - previousLineBreak - 1 > lineWidth && string[previousLineBreak + 1] !== " ";
+              hasFoldableLine = hasFoldableLine || // Foldable line = too long, and not more-indented.
+              i - previousLineBreak - 1 > lineWidth && string[previousLineBreak + 1] !== " ";
               previousLineBreak = i;
             }
           } else if (!isPrintable(char)) {
@@ -5119,8 +3206,6 @@ var require_dumper = __commonJS({
 var require_js_yaml = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/lib/js-yaml.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var loader = require_loader();
     var dumper = require_dumper();
     function deprecated(name) {
@@ -5156,8 +3241,6 @@ var require_js_yaml = __commonJS({
 var require_js_yaml2 = __commonJS({
   "node_modules/gray-matter/node_modules/js-yaml/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var yaml2 = require_js_yaml();
     module2.exports = yaml2;
   }
@@ -5167,8 +3250,6 @@ var require_js_yaml2 = __commonJS({
 var require_engines = __commonJS({
   "node_modules/gray-matter/lib/engines.js"(exports, module) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var yaml = require_js_yaml2();
     var engines = exports = module.exports;
     engines.yaml = {
@@ -5207,8 +3288,6 @@ var require_engines = __commonJS({
 var require_strip_bom_string = __commonJS({
   "node_modules/strip-bom-string/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = function(str2) {
       if (typeof str2 === "string" && str2.charAt(0) === "\uFEFF") {
         return str2.slice(1);
@@ -5222,8 +3301,6 @@ var require_strip_bom_string = __commonJS({
 var require_utils = __commonJS({
   "node_modules/gray-matter/lib/utils.js"(exports2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var stripBom = require_strip_bom_string();
     var typeOf = require_kind_of();
     exports2.define = function(obj, key, val) {
@@ -5266,8 +3343,6 @@ var require_utils = __commonJS({
 var require_defaults = __commonJS({
   "node_modules/gray-matter/lib/defaults.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var engines2 = require_engines();
     var utils = require_utils();
     module2.exports = function(options2) {
@@ -5287,8 +3362,6 @@ var require_defaults = __commonJS({
 var require_engine = __commonJS({
   "node_modules/gray-matter/lib/engine.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = function(name, options2) {
       let engine = options2.engines[name] || options2.engines[aliase(name)];
       if (typeof engine === "undefined") {
@@ -5323,8 +3396,6 @@ var require_engine = __commonJS({
 var require_stringify = __commonJS({
   "node_modules/gray-matter/lib/stringify.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var typeOf = require_kind_of();
     var getEngine = require_engine();
     var defaults = require_defaults();
@@ -5379,8 +3450,6 @@ var require_stringify = __commonJS({
 var require_excerpt = __commonJS({
   "node_modules/gray-matter/lib/excerpt.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var defaults = require_defaults();
     module2.exports = function(file, options2) {
       const opts = defaults(options2);
@@ -5408,8 +3477,6 @@ var require_excerpt = __commonJS({
 var require_to_file = __commonJS({
   "node_modules/gray-matter/lib/to-file.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var typeOf = require_kind_of();
     var stringify = require_stringify();
     var utils = require_utils();
@@ -5444,8 +3511,6 @@ var require_to_file = __commonJS({
 var require_parse = __commonJS({
   "node_modules/gray-matter/lib/parse.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var getEngine = require_engine();
     var defaults = require_defaults();
     module2.exports = function(language, str2, options2) {
@@ -5463,8 +3528,6 @@ var require_parse = __commonJS({
 var require_gray_matter = __commonJS({
   "node_modules/gray-matter/index.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var fs = require("fs");
     var sections = require_section_matter();
     var defaults = require_defaults();
@@ -5581,8 +3644,6 @@ var require_gray_matter = __commonJS({
 // node_modules/before-after-hook/lib/register.js
 var require_register = __commonJS({
   "node_modules/before-after-hook/lib/register.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = register;
     function register(state, name, method, options2) {
       if (typeof method !== "function") {
@@ -5611,8 +3672,6 @@ var require_register = __commonJS({
 // node_modules/before-after-hook/lib/add.js
 var require_add = __commonJS({
   "node_modules/before-after-hook/lib/add.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = addHook;
     function addHook(state, kind, name, hook2) {
       var orig = hook2;
@@ -5653,8 +3712,6 @@ var require_add = __commonJS({
 // node_modules/before-after-hook/lib/remove.js
 var require_remove = __commonJS({
   "node_modules/before-after-hook/lib/remove.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = removeHook;
     function removeHook(state, name, method) {
       if (!state.registry[name]) {
@@ -5674,8 +3731,6 @@ var require_remove = __commonJS({
 // node_modules/before-after-hook/index.js
 var require_before_after_hook = __commonJS({
   "node_modules/before-after-hook/index.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     var register = require_register();
     var addHook = require_add();
     var removeHook = require_remove();
@@ -5728,8 +3783,6 @@ var require_before_after_hook = __commonJS({
 var require_browser = __commonJS({
   "node_modules/node-fetch/browser.js"(exports2, module2) {
     "use strict";
-    init_virtual_process_polyfill();
-    init_buffer();
     var getGlobal = function() {
       if (typeof self !== "undefined") {
         return self;
@@ -5737,27 +3790,25 @@ var require_browser = __commonJS({
       if (typeof window !== "undefined") {
         return window;
       }
-      if (typeof global2 !== "undefined") {
-        return global2;
+      if (typeof global !== "undefined") {
+        return global;
       }
       throw new Error("unable to locate global object");
     };
-    var global2 = getGlobal();
-    module2.exports = exports2 = global2.fetch;
-    if (global2.fetch) {
-      exports2.default = global2.fetch.bind(global2);
+    var global = getGlobal();
+    module2.exports = exports2 = global.fetch;
+    if (global.fetch) {
+      exports2.default = global.fetch.bind(global);
     }
-    exports2.Headers = global2.Headers;
-    exports2.Request = global2.Request;
-    exports2.Response = global2.Response;
+    exports2.Headers = global.Headers;
+    exports2.Request = global.Request;
+    exports2.Response = global.Response;
   }
 });
 
 // node_modules/wrappy/wrappy.js
 var require_wrappy = __commonJS({
   "node_modules/wrappy/wrappy.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     module2.exports = wrappy;
     function wrappy(fn, cb) {
       if (fn && cb)
@@ -5789,15 +3840,13 @@ var require_wrappy = __commonJS({
 // node_modules/once/once.js
 var require_once = __commonJS({
   "node_modules/once/once.js"(exports2, module2) {
-    init_virtual_process_polyfill();
-    init_buffer();
     var wrappy = require_wrappy();
-    module2.exports = wrappy(once3);
+    module2.exports = wrappy(once2);
     module2.exports.strict = wrappy(onceStrict);
-    once3.proto = once3(function() {
+    once2.proto = once2(function() {
       Object.defineProperty(Function.prototype, "once", {
         value: function() {
-          return once3(this);
+          return once2(this);
         },
         configurable: true
       });
@@ -5808,7 +3857,7 @@ var require_once = __commonJS({
         configurable: true
       });
     });
-    function once3(fn) {
+    function once2(fn) {
       var f = function() {
         if (f.called)
           return f.value;
@@ -5839,26 +3888,10 @@ __export(main_exports, {
   default: () => ShareAsGistPlugin
 });
 module.exports = __toCommonJS(main_exports);
-init_virtual_process_polyfill();
-init_buffer();
 var import_obsidian = require("obsidian");
 var import_gray_matter2 = __toESM(require_gray_matter());
 
-// src/gists.ts
-init_virtual_process_polyfill();
-init_buffer();
-
-// node_modules/@octokit/rest/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-
-// node_modules/@octokit/core/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-
 // node_modules/universal-user-agent/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 function getUserAgent() {
   if (typeof navigator === "object" && "userAgent" in navigator) {
     return navigator.userAgent;
@@ -5872,17 +3905,7 @@ function getUserAgent() {
 // node_modules/@octokit/core/dist-web/index.js
 var import_before_after_hook = __toESM(require_before_after_hook());
 
-// node_modules/@octokit/request/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-
-// node_modules/@octokit/endpoint/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-
 // node_modules/is-plain-object/dist/is-plain-object.mjs
-init_virtual_process_polyfill();
-init_buffer();
 function isObject(o) {
   return Object.prototype.toString.call(o) === "[object Object]";
 }
@@ -6185,13 +4208,7 @@ var endpoint = withDefaults(null, DEFAULTS);
 // node_modules/@octokit/request/dist-web/index.js
 var import_node_fetch = __toESM(require_browser());
 
-// node_modules/@octokit/request-error/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-
 // node_modules/deprecation/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 var Deprecation = class extends Error {
   constructor(message) {
     super(message);
@@ -6266,6 +4283,8 @@ function fetchWrapper(requestOptions) {
       headers: requestOptions.headers,
       redirect: requestOptions.redirect
     },
+    // `requestOptions.request.agent` type is incompatible
+    // see https://github.com/octokit/types.ts/pull/264
     requestOptions.request
   )).then((response) => __async(this, null, function* () {
     url = response.url;
@@ -6386,8 +4405,6 @@ var request = withDefaults2(endpoint, {
 });
 
 // node_modules/@octokit/graphql/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 var VERSION3 = "5.0.0";
 function _buildMessageForResponseErrors(data) {
   return `Request failed due to following response errors:
@@ -6481,8 +4498,6 @@ function withCustomRequest(customRequest) {
 }
 
 // node_modules/@octokit/auth-token/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 var REGEX_IS_INSTALLATION_LEGACY = /^v1\./;
 var REGEX_IS_INSTALLATION = /^ghs_/;
 var REGEX_IS_USER_TO_SERVER = /^ghu_/;
@@ -6534,6 +4549,7 @@ var Octokit = class {
       baseUrl: request.endpoint.DEFAULTS.baseUrl,
       headers: {},
       request: Object.assign({}, options2.request, {
+        // @ts-ignore internal usage only, no need to type
         hook: hook2.bind(null, "request")
       }),
       mediaType: {
@@ -6582,6 +4598,11 @@ var Octokit = class {
       const auth2 = authStrategy(Object.assign({
         request: this.request,
         log: this.log,
+        // we pass the current octokit instance as well as its constructor options
+        // to allow for authentication strategies that return a new octokit instance
+        // that shares the same internal state as the current one. The original
+        // requirement for this was the "event-octokit" authentication strategy
+        // of https://github.com/probot/octokit-auth-probot.
         octokit: this,
         octokitOptions: otherOptions
       }, options2.auth));
@@ -6608,6 +4629,12 @@ var Octokit = class {
     };
     return OctokitWithDefaults;
   }
+  /**
+   * Attach a plugin (or many) to your Octokit instance.
+   *
+   * @example
+   * const API = Octokit.plugin(plugin1, plugin2, plugin3, ...)
+   */
   static plugin(...newPlugins) {
     var _a;
     const currentPlugins = this.plugins;
@@ -6620,8 +4647,6 @@ Octokit.VERSION = VERSION4;
 Octokit.plugins = [];
 
 // node_modules/@octokit/plugin-request-log/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 var VERSION5 = "1.0.4";
 function requestLog(octokit) {
   octokit.hook.wrap("request", (request2, options2) => {
@@ -6641,9 +4666,7 @@ function requestLog(octokit) {
 requestLog.VERSION = VERSION5;
 
 // node_modules/@octokit/plugin-paginate-rest/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
-var VERSION6 = "5.0.1";
+var VERSION6 = "6.0.0";
 function normalizePaginatedListResponse(response) {
   if (!response.data) {
     return __spreadProps(__spreadValues({}, response), {
@@ -6741,8 +4764,6 @@ function paginateRest(octokit) {
 paginateRest.VERSION = VERSION6;
 
 // node_modules/@octokit/plugin-rest-endpoint-methods/dist-web/index.js
-init_virtual_process_polyfill();
-init_buffer();
 var Endpoints = {
   actions: {
     addCustomLabelsToSelfHostedRunnerForOrg: [
@@ -6754,11 +4775,20 @@ var Endpoints = {
     addSelectedRepoToOrgSecret: [
       "PUT /orgs/{org}/actions/secrets/{secret_name}/repositories/{repository_id}"
     ],
+    addSelectedRepoToOrgVariable: [
+      "PUT /orgs/{org}/actions/variables/{name}/repositories/{repository_id}"
+    ],
+    addSelectedRepoToRequiredWorkflow: [
+      "PUT /orgs/{org}/actions/required_workflows/{required_workflow_id}/repositories/{repository_id}"
+    ],
     approveWorkflowRun: [
       "POST /repos/{owner}/{repo}/actions/runs/{run_id}/approve"
     ],
     cancelWorkflowRun: [
       "POST /repos/{owner}/{repo}/actions/runs/{run_id}/cancel"
+    ],
+    createEnvironmentVariable: [
+      "POST /repositories/{repository_id}/environments/{environment_name}/variables"
     ],
     createOrUpdateEnvironmentSecret: [
       "PUT /repositories/{repository_id}/environments/{environment_name}/secrets/{secret_name}"
@@ -6767,6 +4797,7 @@ var Endpoints = {
     createOrUpdateRepoSecret: [
       "PUT /repos/{owner}/{repo}/actions/secrets/{secret_name}"
     ],
+    createOrgVariable: ["POST /orgs/{org}/actions/variables"],
     createRegistrationTokenForOrg: [
       "POST /orgs/{org}/actions/runners/registration-token"
     ],
@@ -6777,6 +4808,8 @@ var Endpoints = {
     createRemoveTokenForRepo: [
       "POST /repos/{owner}/{repo}/actions/runners/remove-token"
     ],
+    createRepoVariable: ["POST /repos/{owner}/{repo}/actions/variables"],
+    createRequiredWorkflow: ["POST /orgs/{org}/actions/required_workflows"],
     createWorkflowDispatch: [
       "POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches"
     ],
@@ -6792,9 +4825,19 @@ var Endpoints = {
     deleteEnvironmentSecret: [
       "DELETE /repositories/{repository_id}/environments/{environment_name}/secrets/{secret_name}"
     ],
+    deleteEnvironmentVariable: [
+      "DELETE /repositories/{repository_id}/environments/{environment_name}/variables/{name}"
+    ],
     deleteOrgSecret: ["DELETE /orgs/{org}/actions/secrets/{secret_name}"],
+    deleteOrgVariable: ["DELETE /orgs/{org}/actions/variables/{name}"],
     deleteRepoSecret: [
       "DELETE /repos/{owner}/{repo}/actions/secrets/{secret_name}"
+    ],
+    deleteRepoVariable: [
+      "DELETE /repos/{owner}/{repo}/actions/variables/{name}"
+    ],
+    deleteRequiredWorkflow: [
+      "DELETE /orgs/{org}/actions/required_workflows/{required_workflow_id}"
     ],
     deleteSelfHostedRunnerFromOrg: [
       "DELETE /orgs/{org}/actions/runners/{runner_id}"
@@ -6835,9 +4878,6 @@ var Endpoints = {
     getActionsCacheUsageByRepoForOrg: [
       "GET /orgs/{org}/actions/cache/usage-by-repository"
     ],
-    getActionsCacheUsageForEnterprise: [
-      "GET /enterprises/{enterprise}/actions/cache/usage"
-    ],
     getActionsCacheUsageForOrg: ["GET /orgs/{org}/actions/cache/usage"],
     getAllowedActionsOrganization: [
       "GET /orgs/{org}/actions/permissions/selected-actions"
@@ -6852,8 +4892,8 @@ var Endpoints = {
     getEnvironmentSecret: [
       "GET /repositories/{repository_id}/environments/{environment_name}/secrets/{secret_name}"
     ],
-    getGithubActionsDefaultWorkflowPermissionsEnterprise: [
-      "GET /enterprises/{enterprise}/actions/permissions/workflow"
+    getEnvironmentVariable: [
+      "GET /repositories/{repository_id}/environments/{environment_name}/variables/{name}"
     ],
     getGithubActionsDefaultWorkflowPermissionsOrganization: [
       "GET /orgs/{org}/actions/permissions/workflow"
@@ -6870,6 +4910,7 @@ var Endpoints = {
     getJobForWorkflowRun: ["GET /repos/{owner}/{repo}/actions/jobs/{job_id}"],
     getOrgPublicKey: ["GET /orgs/{org}/actions/secrets/public-key"],
     getOrgSecret: ["GET /orgs/{org}/actions/secrets/{secret_name}"],
+    getOrgVariable: ["GET /orgs/{org}/actions/variables/{name}"],
     getPendingDeploymentsForRun: [
       "GET /repos/{owner}/{repo}/actions/runs/{run_id}/pending_deployments"
     ],
@@ -6879,7 +4920,17 @@ var Endpoints = {
       { renamed: ["actions", "getGithubActionsPermissionsRepository"] }
     ],
     getRepoPublicKey: ["GET /repos/{owner}/{repo}/actions/secrets/public-key"],
+    getRepoRequiredWorkflow: [
+      "GET /repos/{org}/{repo}/actions/required_workflows/{required_workflow_id_for_repo}"
+    ],
+    getRepoRequiredWorkflowUsage: [
+      "GET /repos/{org}/{repo}/actions/required_workflows/{required_workflow_id_for_repo}/timing"
+    ],
     getRepoSecret: ["GET /repos/{owner}/{repo}/actions/secrets/{secret_name}"],
+    getRepoVariable: ["GET /repos/{owner}/{repo}/actions/variables/{name}"],
+    getRequiredWorkflow: [
+      "GET /orgs/{org}/actions/required_workflows/{required_workflow_id}"
+    ],
     getReviewsForRun: [
       "GET /repos/{owner}/{repo}/actions/runs/{run_id}/approvals"
     ],
@@ -6905,6 +4956,9 @@ var Endpoints = {
     listEnvironmentSecrets: [
       "GET /repositories/{repository_id}/environments/{environment_name}/secrets"
     ],
+    listEnvironmentVariables: [
+      "GET /repositories/{repository_id}/environments/{environment_name}/variables"
+    ],
     listJobsForWorkflowRun: [
       "GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs"
     ],
@@ -6918,8 +4972,17 @@ var Endpoints = {
       "GET /repos/{owner}/{repo}/actions/runners/{runner_id}/labels"
     ],
     listOrgSecrets: ["GET /orgs/{org}/actions/secrets"],
+    listOrgVariables: ["GET /orgs/{org}/actions/variables"],
+    listRepoRequiredWorkflows: [
+      "GET /repos/{org}/{repo}/actions/required_workflows"
+    ],
     listRepoSecrets: ["GET /repos/{owner}/{repo}/actions/secrets"],
+    listRepoVariables: ["GET /repos/{owner}/{repo}/actions/variables"],
     listRepoWorkflows: ["GET /repos/{owner}/{repo}/actions/workflows"],
+    listRequiredWorkflowRuns: [
+      "GET /repos/{owner}/{repo}/actions/required_workflows/{required_workflow_id_for_repo}/runs"
+    ],
+    listRequiredWorkflows: ["GET /orgs/{org}/actions/required_workflows"],
     listRunnerApplicationsForOrg: ["GET /orgs/{org}/actions/runners/downloads"],
     listRunnerApplicationsForRepo: [
       "GET /repos/{owner}/{repo}/actions/runners/downloads"
@@ -6927,8 +4990,14 @@ var Endpoints = {
     listSelectedReposForOrgSecret: [
       "GET /orgs/{org}/actions/secrets/{secret_name}/repositories"
     ],
+    listSelectedReposForOrgVariable: [
+      "GET /orgs/{org}/actions/variables/{name}/repositories"
+    ],
     listSelectedRepositoriesEnabledGithubActionsOrganization: [
       "GET /orgs/{org}/actions/permissions/repositories"
+    ],
+    listSelectedRepositoriesRequiredWorkflow: [
+      "GET /orgs/{org}/actions/required_workflows/{required_workflow_id}/repositories"
     ],
     listSelfHostedRunnersForOrg: ["GET /orgs/{org}/actions/runners"],
     listSelfHostedRunnersForRepo: ["GET /repos/{owner}/{repo}/actions/runners"],
@@ -6961,6 +5030,12 @@ var Endpoints = {
     removeSelectedRepoFromOrgSecret: [
       "DELETE /orgs/{org}/actions/secrets/{secret_name}/repositories/{repository_id}"
     ],
+    removeSelectedRepoFromOrgVariable: [
+      "DELETE /orgs/{org}/actions/variables/{name}/repositories/{repository_id}"
+    ],
+    removeSelectedRepoFromRequiredWorkflow: [
+      "DELETE /orgs/{org}/actions/required_workflows/{required_workflow_id}/repositories/{repository_id}"
+    ],
     reviewPendingDeploymentsForRun: [
       "POST /repos/{owner}/{repo}/actions/runs/{run_id}/pending_deployments"
     ],
@@ -6975,9 +5050,6 @@ var Endpoints = {
     ],
     setCustomLabelsForSelfHostedRunnerForRepo: [
       "PUT /repos/{owner}/{repo}/actions/runners/{runner_id}/labels"
-    ],
-    setGithubActionsDefaultWorkflowPermissionsEnterprise: [
-      "PUT /enterprises/{enterprise}/actions/permissions/workflow"
     ],
     setGithubActionsDefaultWorkflowPermissionsOrganization: [
       "PUT /orgs/{org}/actions/permissions/workflow"
@@ -6994,11 +5066,27 @@ var Endpoints = {
     setSelectedReposForOrgSecret: [
       "PUT /orgs/{org}/actions/secrets/{secret_name}/repositories"
     ],
+    setSelectedReposForOrgVariable: [
+      "PUT /orgs/{org}/actions/variables/{name}/repositories"
+    ],
+    setSelectedReposToRequiredWorkflow: [
+      "PUT /orgs/{org}/actions/required_workflows/{required_workflow_id}/repositories"
+    ],
     setSelectedRepositoriesEnabledGithubActionsOrganization: [
       "PUT /orgs/{org}/actions/permissions/repositories"
     ],
     setWorkflowAccessToRepository: [
       "PUT /repos/{owner}/{repo}/actions/permissions/access"
+    ],
+    updateEnvironmentVariable: [
+      "PATCH /repositories/{repository_id}/environments/{environment_name}/variables/{name}"
+    ],
+    updateOrgVariable: ["PATCH /orgs/{org}/actions/variables/{name}"],
+    updateRepoVariable: [
+      "PATCH /repos/{owner}/{repo}/actions/variables/{name}"
+    ],
+    updateRequiredWorkflow: [
+      "PATCH /orgs/{org}/actions/required_workflows/{required_workflow_id}"
     ]
   },
   activity: {
@@ -7119,12 +5207,6 @@ var Endpoints = {
     getGithubActionsBillingUser: [
       "GET /users/{username}/settings/billing/actions"
     ],
-    getGithubAdvancedSecurityBillingGhe: [
-      "GET /enterprises/{enterprise}/settings/billing/advanced-security"
-    ],
-    getGithubAdvancedSecurityBillingOrg: [
-      "GET /orgs/{org}/settings/billing/advanced-security"
-    ],
     getGithubPackagesBillingOrg: ["GET /orgs/{org}/settings/billing/packages"],
     getGithubPackagesBillingUser: [
       "GET /users/{username}/settings/billing/packages"
@@ -7179,9 +5261,6 @@ var Endpoints = {
     listAlertInstances: [
       "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/instances"
     ],
-    listAlertsForEnterprise: [
-      "GET /enterprises/{enterprise}/code-scanning/alerts"
-    ],
     listAlertsForOrg: ["GET /orgs/{org}/code-scanning/alerts"],
     listAlertsForRepo: ["GET /repos/{owner}/{repo}/code-scanning/alerts"],
     listAlertsInstances: [
@@ -7207,14 +5286,14 @@ var Endpoints = {
       "PUT /user/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
     addSelectedRepoToOrgSecret: [
-      "PUT /organizations/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
+      "PUT /orgs/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
     codespaceMachinesForAuthenticatedUser: [
       "GET /user/codespaces/{codespace_name}/machines"
     ],
     createForAuthenticatedUser: ["POST /user/codespaces"],
     createOrUpdateOrgSecret: [
-      "PUT /organizations/{org}/codespaces/secrets/{secret_name}"
+      "PUT /orgs/{org}/codespaces/secrets/{secret_name}"
     ],
     createOrUpdateRepoSecret: [
       "PUT /repos/{owner}/{repo}/codespaces/secrets/{secret_name}"
@@ -7232,9 +5311,7 @@ var Endpoints = {
     deleteFromOrganization: [
       "DELETE /orgs/{org}/members/{username}/codespaces/{codespace_name}"
     ],
-    deleteOrgSecret: [
-      "DELETE /organizations/{org}/codespaces/secrets/{secret_name}"
-    ],
+    deleteOrgSecret: ["DELETE /orgs/{org}/codespaces/secrets/{secret_name}"],
     deleteRepoSecret: [
       "DELETE /repos/{owner}/{repo}/codespaces/secrets/{secret_name}"
     ],
@@ -7244,12 +5321,15 @@ var Endpoints = {
     exportForAuthenticatedUser: [
       "POST /user/codespaces/{codespace_name}/exports"
     ],
+    getCodespacesForUserInOrg: [
+      "GET /orgs/{org}/members/{username}/codespaces"
+    ],
     getExportDetailsForAuthenticatedUser: [
       "GET /user/codespaces/{codespace_name}/exports/{export_id}"
     ],
     getForAuthenticatedUser: ["GET /user/codespaces/{codespace_name}"],
-    getOrgPublicKey: ["GET /organizations/{org}/codespaces/secrets/public-key"],
-    getOrgSecret: ["GET /organizations/{org}/codespaces/secrets/{secret_name}"],
+    getOrgPublicKey: ["GET /orgs/{org}/codespaces/secrets/public-key"],
+    getOrgSecret: ["GET /orgs/{org}/codespaces/secrets/{secret_name}"],
     getPublicKeyForAuthenticatedUser: [
       "GET /user/codespaces/secrets/public-key"
     ],
@@ -7274,32 +5354,36 @@ var Endpoints = {
     listInRepositoryForAuthenticatedUser: [
       "GET /repos/{owner}/{repo}/codespaces"
     ],
-    listOrgSecrets: ["GET /organizations/{org}/codespaces/secrets"],
+    listOrgSecrets: ["GET /orgs/{org}/codespaces/secrets"],
     listRepoSecrets: ["GET /repos/{owner}/{repo}/codespaces/secrets"],
     listRepositoriesForSecretForAuthenticatedUser: [
       "GET /user/codespaces/secrets/{secret_name}/repositories"
     ],
     listSecretsForAuthenticatedUser: ["GET /user/codespaces/secrets"],
     listSelectedReposForOrgSecret: [
-      "GET /organizations/{org}/codespaces/secrets/{secret_name}/repositories"
+      "GET /orgs/{org}/codespaces/secrets/{secret_name}/repositories"
     ],
     preFlightWithRepoForAuthenticatedUser: [
       "GET /repos/{owner}/{repo}/codespaces/new"
+    ],
+    publishForAuthenticatedUser: [
+      "POST /user/codespaces/{codespace_name}/publish"
     ],
     removeRepositoryForSecretForAuthenticatedUser: [
       "DELETE /user/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
     removeSelectedRepoFromOrgSecret: [
-      "DELETE /organizations/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
+      "DELETE /orgs/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}"
     ],
     repoMachinesForAuthenticatedUser: [
       "GET /repos/{owner}/{repo}/codespaces/machines"
     ],
+    setCodespacesBilling: ["PUT /orgs/{org}/codespaces/billing"],
     setRepositoriesForSecretForAuthenticatedUser: [
       "PUT /user/codespaces/secrets/{secret_name}/repositories"
     ],
     setSelectedReposForOrgSecret: [
-      "PUT /organizations/{org}/codespaces/secrets/{secret_name}/repositories"
+      "PUT /orgs/{org}/codespaces/secrets/{secret_name}/repositories"
     ],
     startForAuthenticatedUser: ["POST /user/codespaces/{codespace_name}/start"],
     stopForAuthenticatedUser: ["POST /user/codespaces/{codespace_name}/stop"],
@@ -7331,6 +5415,10 @@ var Endpoints = {
     getRepoSecret: [
       "GET /repos/{owner}/{repo}/dependabot/secrets/{secret_name}"
     ],
+    listAlertsForEnterprise: [
+      "GET /enterprises/{enterprise}/dependabot/alerts"
+    ],
+    listAlertsForOrg: ["GET /orgs/{org}/dependabot/alerts"],
     listAlertsForRepo: ["GET /repos/{owner}/{repo}/dependabot/alerts"],
     listOrgSecrets: ["GET /orgs/{org}/dependabot/secrets"],
     listRepoSecrets: ["GET /repos/{owner}/{repo}/dependabot/secrets"],
@@ -7360,44 +5448,11 @@ var Endpoints = {
     addCustomLabelsToSelfHostedRunnerForEnterprise: [
       "POST /enterprises/{enterprise}/actions/runners/{runner_id}/labels"
     ],
-    disableSelectedOrganizationGithubActionsEnterprise: [
-      "DELETE /enterprises/{enterprise}/actions/permissions/organizations/{org_id}"
-    ],
     enableSelectedOrganizationGithubActionsEnterprise: [
       "PUT /enterprises/{enterprise}/actions/permissions/organizations/{org_id}"
     ],
-    getAllowedActionsEnterprise: [
-      "GET /enterprises/{enterprise}/actions/permissions/selected-actions"
-    ],
-    getGithubActionsPermissionsEnterprise: [
-      "GET /enterprises/{enterprise}/actions/permissions"
-    ],
-    getServerStatistics: [
-      "GET /enterprise-installation/{enterprise_or_org}/server-statistics"
-    ],
     listLabelsForSelfHostedRunnerForEnterprise: [
       "GET /enterprises/{enterprise}/actions/runners/{runner_id}/labels"
-    ],
-    listSelectedOrganizationsEnabledGithubActionsEnterprise: [
-      "GET /enterprises/{enterprise}/actions/permissions/organizations"
-    ],
-    removeAllCustomLabelsFromSelfHostedRunnerForEnterprise: [
-      "DELETE /enterprises/{enterprise}/actions/runners/{runner_id}/labels"
-    ],
-    removeCustomLabelFromSelfHostedRunnerForEnterprise: [
-      "DELETE /enterprises/{enterprise}/actions/runners/{runner_id}/labels/{name}"
-    ],
-    setAllowedActionsEnterprise: [
-      "PUT /enterprises/{enterprise}/actions/permissions/selected-actions"
-    ],
-    setCustomLabelsForSelfHostedRunnerForEnterprise: [
-      "PUT /enterprises/{enterprise}/actions/runners/{runner_id}/labels"
-    ],
-    setGithubActionsPermissionsEnterprise: [
-      "PUT /enterprises/{enterprise}/actions/permissions"
-    ],
-    setSelectedOrganizationsEnabledGithubActionsEnterprise: [
-      "PUT /enterprises/{enterprise}/actions/permissions/organizations"
     ]
   },
   gists: {
@@ -7475,6 +5530,9 @@ var Endpoints = {
     ],
     addLabels: ["POST /repos/{owner}/{repo}/issues/{issue_number}/labels"],
     checkUserCanBeAssigned: ["GET /repos/{owner}/{repo}/assignees/{assignee}"],
+    checkUserCanBeAssignedToIssue: [
+      "GET /repos/{owner}/{repo}/issues/{issue_number}/assignees/{assignee}"
+    ],
     create: ["POST /repos/{owner}/{repo}/issues"],
     createComment: [
       "POST /repos/{owner}/{repo}/issues/{issue_number}/comments"
@@ -7546,6 +5604,7 @@ var Endpoints = {
   },
   meta: {
     get: ["GET /meta"],
+    getAllVersions: ["GET /versions"],
     getOctocat: ["GET /octocat"],
     getZen: ["GET /zen"],
     root: ["GET /"]
@@ -7605,10 +5664,8 @@ var Endpoints = {
     convertMemberToOutsideCollaborator: [
       "PUT /orgs/{org}/outside_collaborators/{username}"
     ],
-    createCustomRole: ["POST /orgs/{org}/custom_roles"],
     createInvitation: ["POST /orgs/{org}/invitations"],
     createWebhook: ["POST /orgs/{org}/hooks"],
-    deleteCustomRole: ["DELETE /orgs/{org}/custom_roles/{role_id}"],
     deleteWebhook: ["DELETE /orgs/{org}/hooks/{hook_id}"],
     enableOrDisableSecurityProductOnAllOrgRepos: [
       "POST /orgs/{org}/{security_product}/{enablement}"
@@ -7624,9 +5681,7 @@ var Endpoints = {
     list: ["GET /organizations"],
     listAppInstallations: ["GET /orgs/{org}/installations"],
     listBlockedUsers: ["GET /orgs/{org}/blocks"],
-    listCustomRoles: ["GET /organizations/{organization_id}/custom_roles"],
     listFailedInvitations: ["GET /orgs/{org}/failed_invitations"],
-    listFineGrainedPermissions: ["GET /orgs/{org}/fine_grained_permissions"],
     listForAuthenticatedUser: ["GET /user/orgs"],
     listForUser: ["GET /users/{username}/orgs"],
     listInvitationTeams: ["GET /orgs/{org}/invitations/{invitation_id}/teams"],
@@ -7659,7 +5714,6 @@ var Endpoints = {
     ],
     unblockUser: ["DELETE /orgs/{org}/blocks/{username}"],
     update: ["PATCH /orgs/{org}"],
-    updateCustomRole: ["PATCH /orgs/{org}/custom_roles/{role_id}"],
     updateMembershipForAuthenticatedUser: [
       "PATCH /user/memberships/orgs/{org}"
     ],
@@ -8282,6 +6336,9 @@ var Endpoints = {
     getAlert: [
       "GET /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}"
     ],
+    getSecurityAnalysisSettingsForEnterprise: [
+      "GET /enterprises/{enterprise}/code_security_and_analysis"
+    ],
     listAlertsForEnterprise: [
       "GET /enterprises/{enterprise}/secret-scanning/alerts"
     ],
@@ -8289,6 +6346,12 @@ var Endpoints = {
     listAlertsForRepo: ["GET /repos/{owner}/{repo}/secret-scanning/alerts"],
     listLocationsForAlert: [
       "GET /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}/locations"
+    ],
+    patchSecurityAnalysisSettingsForEnterprise: [
+      "PATCH /enterprises/{enterprise}/code_security_and_analysis"
+    ],
+    postSecurityProductEnablementForEnterprise: [
+      "POST /enterprises/{enterprise}/{security_product}/{enablement}"
     ],
     updateAlert: [
       "PATCH /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}"
@@ -8483,7 +6546,7 @@ var Endpoints = {
     updateAuthenticated: ["PATCH /user"]
   }
 };
-var VERSION7 = "6.7.0";
+var VERSION7 = "7.0.1";
 function endpointsToMethods(octokit, endpointsMap) {
   const newMethods = {};
   for (const [scope, endpoints] of Object.entries(endpointsMap)) {
@@ -8555,7 +6618,7 @@ function legacyRestEndpointMethods(octokit) {
 legacyRestEndpointMethods.VERSION = VERSION7;
 
 // node_modules/@octokit/rest/dist-web/index.js
-var VERSION8 = "19.0.5";
+var VERSION8 = "19.0.7";
 var Octokit2 = Octokit.plugin(requestLog, legacyRestEndpointMethods, paginateRest).defaults({
   userAgent: `octokit-rest.js/${VERSION8}`
 });
@@ -8621,15 +6684,11 @@ var createGist = (opts) => __async(void 0, null, function* () {
 });
 
 // src/storage.ts
-init_virtual_process_polyfill();
-init_buffer();
 var ACCESS_TOKEN_LOCAL_STORAGE_KEY = "share_as_gist_dotcom_access_token";
 var getAccessToken = () => localStorage.getItem(ACCESS_TOKEN_LOCAL_STORAGE_KEY);
 var setAccessToken = (accessToken) => localStorage.setItem(ACCESS_TOKEN_LOCAL_STORAGE_KEY, accessToken);
 
 // src/shared-gists.ts
-init_virtual_process_polyfill();
-init_buffer();
 var import_gray_matter = __toESM(require_gray_matter());
 var getSharedGistsForFile = (fileContents) => {
   const { data } = (0, import_gray_matter.default)(fileContents);
@@ -8732,7 +6791,7 @@ var shareGistEditorCallback = (opts) => () => __async(void 0, null, function* ()
       if (enableUpdatingGistsAfterCreation) {
         const updatedContent = upsertSharedGistForFile(
           result.sharedGist,
-          content
+          rawContent
         );
         app.vault.modify(view.file, updatedContent);
         editor.refresh();
@@ -8837,3 +6896,29 @@ var ShareAsGistSettingTab = class extends import_obsidian.PluginSettingTab {
     );
   }
 };
+/*! Bundled license information:
+
+is-extendable/index.js:
+  (*!
+   * is-extendable <https://github.com/jonschlinkert/is-extendable>
+   *
+   * Copyright (c) 2015, Jon Schlinkert.
+   * Licensed under the MIT License.
+   *)
+
+strip-bom-string/index.js:
+  (*!
+   * strip-bom-string <https://github.com/jonschlinkert/strip-bom-string>
+   *
+   * Copyright (c) 2015, 2017, Jon Schlinkert.
+   * Released under the MIT License.
+   *)
+
+is-plain-object/dist/is-plain-object.mjs:
+  (*!
+   * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
+   *
+   * Copyright (c) 2014-2017, Jon Schlinkert.
+   * Released under the MIT License.
+   *)
+*/

@@ -4,7 +4,7 @@ alias: [ "directe", "somme directe" ]
 sibling:: [[sous espaces vectoriels supplémentaires]]
 up::[[somme d'espaces vectoriels]]
 title::"$F \oplus G : E$ ssi :", " - $F+G = E$ ([[somme d'espaces vectoriels]])", " - $F$ et $G$ sont [[sous espaces vectoriels supplémentaires|supplémentaires]] (toute décomposition est unique)"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

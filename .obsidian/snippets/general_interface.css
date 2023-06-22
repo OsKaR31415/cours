@@ -1,9 +1,14 @@
 * {
     /* dataview */
     --table-background: inherit;
-    --table-row-alt-background: #1A1A1A;
+    /* --table-row-alt-background: #1A1A1A; */
 }
 
+
+/* side panes margins */
+.workspace-leaf-content>.view-content {
+    padding: 5pt;
+}
 
 /* for every pane content */
 .markdown-source-view.mod-cm6:not(.is-readable-line-width) .cm-contentContainer {
@@ -40,4 +45,6 @@ table.GA-table {
 .sr-modal-content {
     font-size: calc(max(1.5vw , 3vh));
 }
+
+
 

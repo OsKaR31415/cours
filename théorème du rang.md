@@ -1,6 +1,6 @@
 up::[[espace vectoriel]]
 title::"$\dim(\mathrm{Ker}(f)) + \dim(\mathrm{Im}(f)) = \dim(E)$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]] de [[dimension d'un espace vectoriel|dimension]] finie,

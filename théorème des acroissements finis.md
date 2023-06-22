@@ -1,5 +1,5 @@
 up::[[dérivation]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Soit $f$ une [[fonction continue]] sur l'intervalle $[a; b]$ et [[fonction dérivable|dérivable]] sur $]a;b[$

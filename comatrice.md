@@ -1,5 +1,5 @@
 up::[[matrice]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 Soit $A$ une [[matrice]] de taille $n\times n$.

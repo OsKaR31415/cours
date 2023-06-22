@@ -34,382 +34,394 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian2 = require("obsidian");
 
-// node_modules/.pnpm/asciimath-parser@0.5.0/node_modules/asciimath-parser/dist/index.js
-var h = /* @__PURE__ */ new Map([["alpha", { type: "Const", tex: "\\alpha" }], ["beta", { type: "Const", tex: "\\beta" }], ["gamma", { type: "Const", tex: "\\gamma" }], ["Gamma", { type: "Const", tex: "\\Gamma" }], ["delta", { type: "Const", tex: "\\delta" }], ["Delta", { type: "Const", tex: "\\Delta" }], ["epsi", { type: "Const", tex: "\\varepsilon" }], ["epsilon", { type: "Const", tex: "\\epsilon" }], ["varepsilon", { type: "Const", tex: "\\varepsilon" }], ["zeta", { type: "Const", tex: "\\zeta" }], ["eta", { type: "Const", tex: "\\eta" }], ["theta", { type: "Const", tex: "\\theta" }], ["Theta", { type: "Const", tex: "\\Theta" }], ["vartheta", { type: "Const", tex: "\\vartheta" }], ["iota", { type: "Const", tex: "\\iota" }], ["kappa", { type: "Const", tex: "\\kappa" }], ["lambda", { type: "Const", tex: "\\lambda" }], ["Lambda", { type: "Const", tex: "\\Lambda" }], ["mu", { type: "Const", tex: "\\mu" }], ["nu", { type: "Const", tex: "\\nu" }], ["xi", { type: "Const", tex: "\\xi" }], ["Xi", { type: "Const", tex: "\\Xi" }], ["pi", { type: "Const", tex: "\\pi" }], ["Pi", { type: "Const", tex: "\\Pi" }], ["rho", { type: "Const", tex: "\\rho" }], ["sigma", { type: "Const", tex: "\\sigma" }], ["Sigma", { type: "Const", tex: "\\Sigma" }], ["tau", { type: "Const", tex: "\\tau" }], ["upsilon", { type: "Const", tex: "\\upsilon" }], ["phi", { type: "Const", tex: "\\phi" }], ["varphi", { type: "Const", tex: "\\varphi" }], ["Phi", { type: "Const", tex: "\\Phi" }], ["chi", { type: "Const", tex: "\\chi" }], ["psi", { type: "Const", tex: "\\psi" }], ["Psi", { type: "Const", tex: "\\Psi" }], ["omega", { type: "Const", tex: "\\omega" }], ["Omega", { type: "Const", tex: "\\Omega" }], ["***", { type: "Const", tex: "\\star" }], ["star", { type: "Const", tex: "\\star" }], ["**", { type: "Const", tex: "\\ast" }], ["ast", { type: "Const", tex: "\\ast" }], ["*", { type: "Const", tex: "\\cdot" }], ["cdot", { type: "Const", tex: "\\cdot" }], ["//", { type: "Const", tex: "{/}" }], ["\\\\", { type: "Const", tex: "\\backslash" }], ["setminus", { type: "Const", tex: "\\setminus" }], ["xx", { type: "Const", tex: "\\times" }], ["|><", { type: "Const", tex: "\\ltimes" }], ["><|", { type: "Const", tex: "\\rtimes" }], ["|><|", { type: "Const", tex: "\\bowtie" }], ["-:", { type: "Const", tex: "\\div" }], ["@", { type: "Const", tex: "\\circ" }], ["o+", { type: "Const", tex: "\\oplus" }], ["ox", { type: "Const", tex: "\\otimes" }], ["o.", { type: "Const", tex: "\\odot" }], ["sum", { type: "Const", tex: "\\sum" }], ["prod", { type: "Const", tex: "\\prod" }], ["^^", { type: "Const", tex: "\\wedge" }], ["^^^", { type: "Const", tex: "\\bigwedge" }], ["vv", { type: "Const", tex: "\\vee" }], ["vvv", { type: "Const", tex: "\\bigvee" }], ["nn", { type: "Const", tex: "\\cap" }], ["nnn", { type: "Const", tex: "\\bigcap" }], ["uu", { type: "Const", tex: "\\cup" }], ["uuu", { type: "Const", tex: "\\bigcup" }], ["!=", { type: "Const", tex: "\\ne" }], ["lt", { type: "Const", tex: "<" }], ["<=", { type: "Const", tex: "\\leqslant" }], ["le", { type: "Const", tex: "\\le" }], ["gt", { type: "Const", tex: ">" }], [">=", { type: "Const", tex: "\\geqslant" }], ["ge", { type: "Const", tex: "\\ge" }], ["-<", { type: "Const", tex: "\\prec" }], [">-", { type: "Const", tex: "\\succ" }], ["-<=", { type: "Const", tex: "\\preceq" }], [">-=", { type: "Const", tex: "\\succeq" }], ["in", { type: "Const", tex: "\\in" }], ["!in", { type: "Const", tex: "\\notin" }], ["sub", { type: "Const", tex: "\\subset" }], ["sup", { type: "Const", tex: "\\supset" }], ["sube", { type: "Const", tex: "\\subseteq" }], ["supe", { type: "Const", tex: "\\supseteq" }], ["-=", { type: "Const", tex: "\\equiv" }], ["~=", { type: "Const", tex: "\\cong" }], ["~", { type: "Const", tex: "\\sim" }], ["~~", { type: "Const", tex: "\\approx" }], ["\\#", { type: "Const", tex: "\\#" }], ["\\&", { type: "Const", tex: "\\&" }], ["\\@", { type: "Const", tex: "@" }], ["\\%", { type: "Const", tex: "\\%" }], ["%", { type: "Const", tex: "\\%" }], ["\\_", { type: "Const", tex: "\\_" }], ["\\^", { type: "Const", tex: "\\^" }], ["\\$", { type: "Const", tex: "\\$" }], ["\\ ", { type: "Const", tex: "\\ " }], ["\\,", { type: "Const", tex: "\\," }], ["\\;", { type: "Const", tex: "\\;" }], ["\\:", { type: "Const", tex: "\\:" }], ["\\!", { type: "Const", tex: "\\!" }], ["enspace", { type: "Const", tex: "\\enspace" }], ["hspace", { type: "OperatorA", tex: "\\hspace{$1}" }], ["prop", { type: "Const", tex: "\\propto" }], ["complement", { type: "Const", tex: "\\complement" }], ["if", { type: "Text", tex: "if\\quad" }], ["otherwise", { type: "Text", tex: "otherwise\\quad" }], ["and", { type: "Text", tex: " and " }], ["or", { type: "Text", tex: " or " }], ["not", { type: "Const", tex: "\\neg" }], ["=>", { type: "Const", tex: "\\implies" }], ["<=>", { type: "Const", tex: "\\iff" }], ["iff", { type: "Const", tex: "\\iff" }], ["AA", { type: "Const", tex: "\\forall" }], ["EE", { type: "Const", tex: "\\exists" }], ["_|_", { type: "Const", tex: "\\bot" }], ["TT", { type: "Const", tex: "\\top" }], ["|--", { type: "Const", tex: "\\vdash" }], ["|==", { type: "Const", tex: "\\models" }], ["int", { type: "Const", tex: "\\int" }], ["oint", { type: "Const", tex: "\\oint" }], ["del", { type: "Const", tex: "\\partial" }], ["grad", { type: "Const", tex: "\\nabla" }], ["+-", { type: "Const", tex: "\\pm" }], ["O/", { type: "Const", tex: "\\varnothing" }], ["oo", { type: "Const", tex: "\\infty" }], ["aleph", { type: "Const", tex: "\\aleph" }], ["...", { type: "Const", tex: "\\ldots" }], [":.", { type: "Const", tex: "\\therefore" }], [":'", { type: "Const", tex: "\\because" }], ["/_", { type: "Const", tex: "\\angle" }], ["/_\\", { type: "Const", tex: "\\triangle" }], ["quad", { type: "Const", tex: "\\quad" }], ["qquad", { type: "Const", tex: "\\qquad" }], ["cdots", { type: "Const", tex: "\\cdots" }], ["vdots", { type: "Const", tex: "\\vdots" }], ["ddots", { type: "Const", tex: "\\ddots" }], ["diamond", { type: "Const", tex: "\\diamond" }], ["Lap", { type: "Const", tex: "\\mathscr{L}" }], ["square", { type: "Const", tex: "\\square" }], ["|__", { type: "LParen", tex: "\\lfloor" }], ["__|", { type: "RParen", tex: "\\rfloor" }], ["|~", { type: "LParen", tex: "\\lceil" }], ["~|", { type: "RParen", tex: "\\rceil" }], ["CC", { type: "Const", tex: "\\mathbb{C}" }], ["NN", { type: "Const", tex: "\\mathbb{N}" }], ["QQ", { type: "Const", tex: "\\mathbb{Q}" }], ["RR", { type: "Const", tex: "\\mathbb{R}" }], ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }], ["'", { type: "Const", tex: "^{\\prime}" }], ["''", { type: "Const", tex: "^{\\prime\\prime}" }], ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }], ["lim", { type: "Const", tex: "\\lim" }], ["sin", { type: "Const", tex: "\\sin" }], ["cos", { type: "Const", tex: "\\cos" }], ["tan", { type: "Const", tex: "\\tan" }], ["sinh", { type: "Const", tex: "\\sinh" }], ["cosh", { type: "Const", tex: "\\cosh" }], ["tanh", { type: "Const", tex: "\\tanh" }], ["cot", { type: "Const", tex: "\\cot" }], ["sec", { type: "Const", tex: "\\sec" }], ["csc", { type: "Const", tex: "\\csc" }], ["arcsin", { type: "Const", tex: "\\arcsin" }], ["arccos", { type: "Const", tex: "\\arccos" }], ["arctan", { type: "Const", tex: "\\arctan" }], ["coth", { type: "Const", tex: "\\coth" }], ["sech", { type: "Const", tex: "\\sech" }], ["csch", { type: "Const", tex: "\\csch" }], ["exp", { type: "Const", tex: "\\exp" }], ["log", { type: "Const", tex: "\\log" }], ["ln", { type: "Const", tex: "\\ln" }], ["det", { type: "Const", tex: "\\det" }], ["dim", { type: "Const", tex: "\\dim" }], ["gcd", { type: "Const", tex: "\\gcd" }], ["lcm", { type: "Const", tex: "\\operatorname{lcm}" }], ["min", { type: "Const", tex: "\\min" }], ["max", { type: "Const", tex: "\\max" }], ["Sup", { type: "Const", tex: "\\sup" }], ["inf", { type: "Const", tex: "\\inf" }], ["mod", { type: "Const", tex: "\\operatorname{mod}" }], ["sgn", { type: "Const", tex: "\\operatorname{sgn}" }], ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }], ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }], ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }], ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }], ["uarr", { type: "Const", tex: "\\uparrow" }], ["uparrow", { type: "Const", tex: "\\uparrow" }], ["darr", { type: "Const", tex: "\\downarrow" }], ["downarrow", { type: "Const", tex: "\\downarrow" }], ["rarr", { type: "Const", tex: "\\rightarrow" }], ["rightarrow", { type: "Const", tex: "\\rightarrow" }], ["to", { type: "Const", tex: "\\to" }], ["->", { type: "Const", tex: "\\to" }], [">->", { type: "Const", tex: "\\rightarrowtail" }], ["->>", { type: "Const", tex: "\\twoheadrightarrow" }], [">->>", { type: "Const", tex: "\u2916" }], ["|->", { type: "Const", tex: "\\mapsto" }], ["larr", { type: "Const", tex: "\\leftarrow" }], ["leftarrow", { type: "Const", tex: "\\leftarrow" }], ["harr", { type: "Const", tex: "\\leftrightarrow" }], ["rArr", { type: "Const", tex: "\\Rightarrow" }], ["lArr", { type: "Const", tex: "\\Leftarrow" }], ["hArr", { type: "Const", tex: "\\Leftrightarrow" }], ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }], ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }], ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }], ["circArrRt", { type: "Const", tex: "\\circlearrowright" }], ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }], ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }], ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }], ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }], ["_", { type: "OperatorSup", tex: "_{ $1 }" }], ["^", { type: "OperatorSup", tex: "^{ $1 }" }], ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }], ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }], ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }], ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }], ["\\`", { type: "OperatorA", tex: "\\`{ $1 }" }], ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["Hat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["widetilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["ol", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["overline", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }], ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }], ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }], ["Vec", { type: "OperatorA", tex: "\\overrightarrow{ $1 }" }], ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }], ["Tilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }], ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }], ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underline", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["ubrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["obrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["color", { type: "OperatorOAB", tex: "{ \\color{$1} $2 }" }], ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }], ["text", { type: "OperatorA", tex: "\\text{$1}" }], ["tex", { type: "Const", tex: "" }], ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }], ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }" }], ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }], ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }], ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }], ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }], ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }], ["iint", { type: "Const", tex: "\\iint" }], ["iiint", { type: "Const", tex: "\\iiint" }], ["oiint", { type: "Const", tex: "\u222F" }], ["oiiint", { type: "Const", tex: "\u2230" }], ["laplace", { type: "Const", tex: "\\Delta" }], ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }], ["-->", { type: "OperatorOptionalTwoParams", tex: "\\xrightarrow[ $2 ]{ $1 }" }], ["||", { type: "Const", tex: "\\Vert" }], ["!||", { type: "Const", tex: "\u2226" }], ["S=", { type: "Const", tex: "\u224C" }], ["S~", { type: "Const", tex: "\u223D" }], ["!-=", { type: "Const", tex: "\\not\\equiv" }], ["!|", { type: "Const", tex: "\u2224" }], ["!", { type: "OperatorAO", tex: "{$1 !}" }], ["!!", { type: "OperatorAO", tex: "{$1 !!}" }], ["!sube", { type: "Const", tex: "\\not\\sube" }], ["!supe", { type: "Const", tex: "\\not\\supe" }], ["subne", { type: "Const", tex: "\u228A" }], ["supne", { type: "Const", tex: "\u228B" }], ["lhd", { type: "Const", tex: "\\lhd" }], ["rhd", { type: "Const", tex: "\\rhd" }], ["normal", { type: "Const", tex: "\\unlhd" }], ["rnormal", { type: "Const", tex: "\\unrhd" }], ["hline", { type: "Const", tex: "\\hline" }], ["(", { type: "LParen", tex: "(" }], [")", { type: "RParen", tex: ")" }], ["[", { type: "LParen", tex: "[" }], ["]", { type: "RParen", tex: "]" }], ["{", { type: "LParen", tex: "\\lbrace" }], ["}", { type: "RParen", tex: "\\rbrace" }], ["(:", { type: "LParen", tex: "\\langle" }], [":)", { type: "RParen", tex: "\\rangle" }], ["{:", { type: "LParen", tex: "." }], [":}", { type: "RParen", tex: "." }], ["|", { type: "Paren", tex: "|" }], ["&", { type: "Align", tex: "&" }], ["&&", { type: "Align", tex: "&&" }], [",", { type: "Split", tex: "," }], [";", { type: "Split", tex: ";" }], ["-", { type: "OperatorMinus", tex: "{-$1 }" }], ["+", { type: "OperatorMinus", tex: "{+$1 }" }], ["part", { type: "OperatorPartial", tex: "\\partial" }], ["pp", { type: "OperatorPartial", tex: "\\partial" }], ["dd", { type: "OperatorPartial", tex: "\\mathrm{d}" }]]);
-function _() {
+// node_modules/.pnpm/asciimath-parser@0.6.0/node_modules/asciimath-parser/dist/index.js
+var m = ((T) => (T.NumberLiteral = "NumberLiteral", T.StringLiteral = "StringLiteral", T.Text = "Text", T.Const = "Const", T.OperatorOA = "OperatorA", T.OperatorOAB = "OperatorOAB", T.OperatorAOB = "OperatorAOB", T.OperatorMinus = "OperatorMinus", T.OperatorAO = "OperatorAO", T.OperatorO2 = "OperatorOptionalTwoParams", T.OperatorSup = "OperatorSup", T.OperatorPartial = "OperatorPartial", T.LParen = "LParen", T.RParen = "RParen", T.Paren = "Paren", T.Align = "Align", T.Split = "Split", T.None = "None", T))(m || {});
+var C = /* @__PURE__ */ new Map([["alpha", { type: "Const", tex: "\\alpha" }], ["beta", { type: "Const", tex: "\\beta" }], ["gamma", { type: "Const", tex: "\\gamma" }], ["Gamma", { type: "Const", tex: "\\Gamma" }], ["delta", { type: "Const", tex: "\\delta" }], ["Delta", { type: "Const", tex: "\\Delta" }], ["epsi", { type: "Const", tex: "\\varepsilon" }], ["epsilon", { type: "Const", tex: "\\epsilon" }], ["varepsilon", { type: "Const", tex: "\\varepsilon" }], ["zeta", { type: "Const", tex: "\\zeta" }], ["eta", { type: "Const", tex: "\\eta" }], ["theta", { type: "Const", tex: "\\theta" }], ["Theta", { type: "Const", tex: "\\Theta" }], ["vartheta", { type: "Const", tex: "\\vartheta" }], ["iota", { type: "Const", tex: "\\iota" }], ["kappa", { type: "Const", tex: "\\kappa" }], ["lambda", { type: "Const", tex: "\\lambda" }], ["Lambda", { type: "Const", tex: "\\Lambda" }], ["mu", { type: "Const", tex: "\\mu" }], ["nu", { type: "Const", tex: "\\nu" }], ["xi", { type: "Const", tex: "\\xi" }], ["Xi", { type: "Const", tex: "\\Xi" }], ["pi", { type: "Const", tex: "\\pi" }], ["Pi", { type: "Const", tex: "\\Pi" }], ["rho", { type: "Const", tex: "\\rho" }], ["sigma", { type: "Const", tex: "\\sigma" }], ["Sigma", { type: "Const", tex: "\\Sigma" }], ["tau", { type: "Const", tex: "\\tau" }], ["upsilon", { type: "Const", tex: "\\upsilon" }], ["phi", { type: "Const", tex: "\\phi" }], ["varphi", { type: "Const", tex: "\\varphi" }], ["varPhi", { type: "Const", tex: "\\varPhi" }], ["Phi", { type: "Const", tex: "\\Phi" }], ["chi", { type: "Const", tex: "\\chi" }], ["psi", { type: "Const", tex: "\\psi" }], ["Psi", { type: "Const", tex: "\\Psi" }], ["omega", { type: "Const", tex: "\\omega" }], ["Omega", { type: "Const", tex: "\\Omega" }], ["***", { type: "Const", tex: "\\star" }], ["star", { type: "Const", tex: "\\star" }], ["**", { type: "Const", tex: "\\ast" }], ["ast", { type: "Const", tex: "\\ast" }], ["*", { type: "Const", tex: "\\cdot" }], ["cdot", { type: "Const", tex: "\\cdot" }], ["//", { type: "Const", tex: "{/}" }], ["\\\\", { type: "Const", tex: "\\backslash" }], ["setminus", { type: "Const", tex: "\\setminus" }], ["xx", { type: "Const", tex: "\\times" }], ["|><", { type: "Const", tex: "\\ltimes" }], ["><|", { type: "Const", tex: "\\rtimes" }], ["|><|", { type: "Const", tex: "\\bowtie" }], ["-:", { type: "Const", tex: "\\div" }], ["@", { type: "Const", tex: "\\circ" }], ["o+", { type: "Const", tex: "\\oplus" }], ["ox", { type: "Const", tex: "\\otimes" }], ["o.", { type: "Const", tex: "\\odot" }], ["sum", { type: "Const", tex: "\\sum" }], ["prod", { type: "Const", tex: "\\prod" }], ["^^", { type: "Const", tex: "\\wedge" }], ["^^^", { type: "Const", tex: "\\bigwedge" }], ["vv", { type: "Const", tex: "\\vee" }], ["vvv", { type: "Const", tex: "\\bigvee" }], ["nn", { type: "Const", tex: "\\cap" }], ["nnn", { type: "Const", tex: "\\bigcap" }], ["uu", { type: "Const", tex: "\\cup" }], ["uuu", { type: "Const", tex: "\\bigcup" }], ["!=", { type: "Const", tex: "\\ne" }], ["lt", { type: "Const", tex: "<" }], ["<=", { type: "Const", tex: "\\leqslant" }], ["le", { type: "Const", tex: "\\le" }], ["gt", { type: "Const", tex: ">" }], [">=", { type: "Const", tex: "\\geqslant" }], ["ge", { type: "Const", tex: "\\ge" }], ["-<", { type: "Const", tex: "\\prec" }], [">-", { type: "Const", tex: "\\succ" }], ["-<=", { type: "Const", tex: "\\preceq" }], [">-=", { type: "Const", tex: "\\succeq" }], ["in", { type: "Const", tex: "\\in" }], ["!in", { type: "Const", tex: "\\notin" }], ["sub", { type: "Const", tex: "\\subset" }], ["sup", { type: "Const", tex: "\\supset" }], ["sube", { type: "Const", tex: "\\subseteq" }], ["supe", { type: "Const", tex: "\\supseteq" }], ["-=", { type: "Const", tex: "\\equiv" }], ["~=", { type: "Const", tex: "\\cong" }], ["~", { type: "Const", tex: "\\sim" }], ["~~", { type: "Const", tex: "\\approx" }], ["\\#", { type: "Const", tex: "\\#" }], ["\\&", { type: "Const", tex: "\\&" }], ["\\@", { type: "Const", tex: "@" }], ["\\%", { type: "Const", tex: "\\%" }], ["%", { type: "Const", tex: "\\%" }], ["\\_", { type: "Const", tex: "\\_" }], ["\\^", { type: "Const", tex: "\\^" }], ["\\$", { type: "Const", tex: "\\$" }], ["\\ ", { type: "Const", tex: "\\ " }], ["\\,", { type: "Const", tex: "\\," }], ["\\;", { type: "Const", tex: "\\;" }], ["\\:", { type: "Const", tex: "\\:" }], ["\\!", { type: "Const", tex: "\\!" }], ["enspace", { type: "Const", tex: "\\enspace" }], ["hspace", { type: "OperatorA", tex: "\\hspace{$1}", eatNext: true }], ["prop", { type: "Const", tex: "\\propto" }], ["comp", { type: "Const", tex: "\\complement" }], ["complement", { type: "Const", tex: "\\complement" }], ["if", { type: "Text", tex: "if\\quad" }], ["otherwise", { type: "Text", tex: "otherwise\\quad" }], ["and", { type: "Text", tex: " and " }], ["or", { type: "Text", tex: " or " }], ["not", { type: "Const", tex: "\\neg" }], ["=>", { type: "Const", tex: "\\implies" }], ["<=>", { type: "Const", tex: "\\iff" }], ["iff", { type: "Const", tex: "\\iff" }], ["AA", { type: "Const", tex: "\\forall" }], ["EE", { type: "Const", tex: "\\exists" }], ["_|_", { type: "Const", tex: "\\bot" }], ["TT", { type: "Const", tex: "\\top" }], ["|--", { type: "Const", tex: "\\vdash" }], ["|==", { type: "Const", tex: "\\models" }], ["int", { type: "Const", tex: "\\int" }], ["oint", { type: "Const", tex: "\\oint" }], ["del", { type: "Const", tex: "\\partial" }], ["grad", { type: "Const", tex: "\\nabla" }], ["+-", { type: "Const", tex: "\\pm" }], ["-+", { type: "Const", tex: "\\mp" }], ["O/", { type: "Const", tex: "\\varnothing" }], ["oo", { type: "Const", tex: "\\infty" }], ["aleph", { type: "Const", tex: "\\aleph" }], ["...", { type: "Const", tex: "\\ldots" }], [":.", { type: "Const", tex: "\\therefore" }], [":'", { type: "Const", tex: "\\because" }], ["/_", { type: "Const", tex: "\\angle" }], ["/_\\", { type: "Const", tex: "\\triangle" }], ["quad", { type: "Const", tex: "\\quad" }], ["qquad", { type: "Const", tex: "\\qquad" }], ["cdots", { type: "Const", tex: "\\cdots" }], ["vdots", { type: "Const", tex: "\\vdots" }], ["ddots", { type: "Const", tex: "\\ddots" }], ["diamond", { type: "Const", tex: "\\diamond" }], ["Lap", { type: "Const", tex: "\\mathscr{L}" }], ["square", { type: "Const", tex: "\\square" }], ["|__", { type: "LParen", tex: "\\lfloor" }], ["__|", { type: "RParen", tex: "\\rfloor" }], ["|~", { type: "LParen", tex: "\\lceil" }], ["~|", { type: "RParen", tex: "\\rceil" }], ["CC", { type: "Const", tex: "\\mathbb{C}" }], ["NN", { type: "Const", tex: "\\mathbb{N}" }], ["QQ", { type: "Const", tex: "\\mathbb{Q}" }], ["RR", { type: "Const", tex: "\\mathbb{R}" }], ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }], ["'", { type: "Const", tex: "^{\\prime}" }], ["''", { type: "Const", tex: "^{\\prime\\prime}" }], ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }], ["lim", { type: "Const", tex: "\\lim" }], ["sin", { type: "Const", tex: "\\sin" }], ["cos", { type: "Const", tex: "\\cos" }], ["tan", { type: "Const", tex: "\\tan" }], ["sinh", { type: "Const", tex: "\\sinh" }], ["cosh", { type: "Const", tex: "\\cosh" }], ["tanh", { type: "Const", tex: "\\tanh" }], ["cot", { type: "Const", tex: "\\cot" }], ["sec", { type: "Const", tex: "\\sec" }], ["csc", { type: "Const", tex: "\\csc" }], ["arcsin", { type: "Const", tex: "\\arcsin" }], ["arccos", { type: "Const", tex: "\\arccos" }], ["arctan", { type: "Const", tex: "\\arctan" }], ["coth", { type: "Const", tex: "\\coth" }], ["sech", { type: "Const", tex: "\\operatorname{sech}" }], ["csch", { type: "Const", tex: "\\operatorname{csch}" }], ["exp", { type: "Const", tex: "\\exp" }], ["log", { type: "Const", tex: "\\log" }], ["ln", { type: "Const", tex: "\\ln" }], ["det", { type: "Const", tex: "\\det" }], ["dim", { type: "Const", tex: "\\dim" }], ["gcd", { type: "Const", tex: "\\gcd" }], ["lcm", { type: "Const", tex: "\\operatorname{lcm}" }], ["min", { type: "Const", tex: "\\min" }], ["max", { type: "Const", tex: "\\max" }], ["Sup", { type: "Const", tex: "\\sup" }], ["inf", { type: "Const", tex: "\\inf" }], ["mod", { type: "Const", tex: "\\operatorname{mod}" }], ["sgn", { type: "Const", tex: "\\operatorname{sgn}" }], ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }], ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }], ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }], ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }], ["uarr", { type: "Const", tex: "\\uparrow" }], ["uparrow", { type: "Const", tex: "\\uparrow" }], ["darr", { type: "Const", tex: "\\downarrow" }], ["downarrow", { type: "Const", tex: "\\downarrow" }], ["rarr", { type: "Const", tex: "\\rightarrow" }], ["rightarrow", { type: "Const", tex: "\\rightarrow" }], ["to", { type: "Const", tex: "\\to" }], ["->", { type: "Const", tex: "\\to" }], [">->", { type: "Const", tex: "\\rightarrowtail" }], ["->>", { type: "Const", tex: "\\twoheadrightarrow" }], [">->>", { type: "Const", tex: "\u2916" }], ["|->", { type: "Const", tex: "\\mapsto" }], ["larr", { type: "Const", tex: "\\leftarrow" }], ["leftarrow", { type: "Const", tex: "\\leftarrow" }], ["harr", { type: "Const", tex: "\\leftrightarrow" }], ["rArr", { type: "Const", tex: "\\Rightarrow" }], ["lArr", { type: "Const", tex: "\\Leftarrow" }], ["hArr", { type: "Const", tex: "\\Leftrightarrow" }], ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }], ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }], ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }], ["circArrRt", { type: "Const", tex: "\\circlearrowright" }], ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }], ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }], ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }], ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }], ["_", { type: "OperatorSup", tex: "_{ $1 }" }], ["^", { type: "OperatorSup", tex: "^{ $1 }" }], ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }], ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }], ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }], ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }], ["\\`", { type: "OperatorA", tex: "\\`{ $1 }" }], ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["Hat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["widetilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["ol", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["overline", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }], ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }], ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }], ["Vec", { type: "OperatorA", tex: "\\overrightarrow{ $1 }" }], ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }], ["Tilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }], ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }], ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underline", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["ubrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["obrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["color", { type: "OperatorOAB", tex: "{ \\color{$1} $2 }", eatNext: true }], ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }], ["text", { type: "OperatorA", tex: "\\text{$1}", eatNext: true }], ["tex", { type: "OperatorA", tex: "$1", eatNext: true }], ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }], ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }", eatNext: true }], ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }], ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }], ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }], ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }], ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }], ["limits", { type: "OperatorA", tex: "\\mathop{ $1 }\\limits" }], ["iint", { type: "Const", tex: "\\iint" }], ["iiint", { type: "Const", tex: "\\iiint" }], ["oiint", { type: "Const", tex: "\u222F" }], ["oiiint", { type: "Const", tex: "\u2230" }], ["laplace", { type: "Const", tex: "\\Delta" }], ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }], ["-->", { type: "OperatorOptionalTwoParams", tex: "\\xrightarrow[ $2 ]{ $1 }" }], ["||", { type: "Paren", tex: "\\Vert" }], ["!||", { type: "Const", tex: "\u2226" }], ["S=", { type: "Const", tex: "\u224C" }], ["S~", { type: "Const", tex: "\u223D" }], ["!-=", { type: "Const", tex: "\\not\\equiv" }], ["!|", { type: "Const", tex: "\u2224" }], ["!", { type: "OperatorAO", tex: "{$1 !}" }], ["!!", { type: "OperatorAO", tex: "{$1 !!}" }], ["!sube", { type: "Const", tex: "\\not\\subseteq" }], ["!supe", { type: "Const", tex: "\\not\\supseteq" }], ["subne", { type: "Const", tex: "\\subsetneqq" }], ["supne", { type: "Const", tex: "\\supsetneqq" }], ["lhd", { type: "Const", tex: "\\lhd" }], ["rhd", { type: "Const", tex: "\\rhd" }], ["normal", { type: "Const", tex: "\\unlhd" }], ["rnormal", { type: "Const", tex: "\\unrhd" }], ["hline", { type: "Const", tex: "\\hline" }], ["--", { type: "Const", tex: "\\hline" }], ["(", { type: "LParen", tex: "(" }], [")", { type: "RParen", tex: ")" }], ["[", { type: "LParen", tex: "[" }], ["]", { type: "RParen", tex: "]" }], ["{", { type: "LParen", tex: "\\lbrace" }], ["}", { type: "RParen", tex: "\\rbrace" }], ["(:", { type: "LParen", tex: "\\langle" }], [":)", { type: "RParen", tex: "\\rangle" }], ["{:", { type: "LParen", tex: "." }], [":}", { type: "RParen", tex: "." }], ["|", { type: "Paren", tex: "|" }], ["&", { type: "Align", tex: "&" }], ["&&", { type: "Align", tex: "&&" }], [",", { type: "Split", tex: "," }], [";", { type: "Split", tex: ";" }], ["-", { type: "OperatorMinus", tex: "{-$1 }" }], ["+", { type: "OperatorMinus", tex: "{+$1 }" }], ["part", { type: "OperatorPartial", tex: "\\partial" }], ["pp", { type: "OperatorPartial", tex: "\\partial" }], ["dd", { type: "OperatorPartial", tex: "\\mathrm{d}" }], ["tiny", { type: "OperatorA", tex: "{\\tiny $1 }" }], ["small", { type: "OperatorA", tex: "{\\small $1 }" }], ["large", { type: "OperatorA", tex: "{\\large $1 }" }], ["huge", { type: "OperatorA", tex: "{\\huge $1 }" }]]);
+function V() {
   return { type: "Root", body: [] };
 }
-function y(n) {
-  if (typeof n > "u")
+function i(o) {
+  if (typeof o > "u")
     return { type: "Const", value: "", tex: "" };
-  if (typeof n == "string")
-    return { type: "Const", value: n, tex: n };
+  if (typeof o == "string")
+    return { type: "Const", value: o, tex: o };
   let e;
-  return n.type === "Text" ? e = n.tex.replace(/^(\\quad)?([^\\]+)(\\quad)?$/, (t, o, s, p) => `${o || ""}\\text{${s}}${p || ""}`) : e = n.tex, { type: "Const", value: n.value, tex: e };
+  return o.type === "Text" ? e = o.tex.replace(/^(\\quad)?(.+?)(\\quad)?$/, (t, n, p, s) => `${n || ""}\\text{${p}}${s || ""}`) : e = o.tex, { type: "Const", value: o.value, tex: e };
 }
-function l(n) {
+function d(o) {
   let e = [];
-  return n && (Array.isArray(n) ? e = n : e.push(n)), { type: "Flat", body: e };
+  return o && (Array.isArray(o) ? e = o : e.push(o)), { type: "Flat", body: e };
 }
-function O() {
-  return { type: "Matrix", params: [], lparen: ".", rparen: ".", alignment: "Center", dividerIndices: [] };
-}
-function C() {
-  return { type: "ParamOne", tex: "", params: l() };
+function v() {
+  return { type: "Matrix", params: [], lparen: ".", rparen: ".", alignment: "c", dividerIndices: [] };
 }
 function f() {
-  return { type: "ParamTwo", tex: "", params: [l(), l()] };
+  return { type: "ParamOne", tex: "", params: d() };
 }
-function N(n, e) {
-  return { type: "Const", value: n.value, tex: `\\${e ? "left" : "right"}${n.tex}` };
+function c() {
+  return { type: "ParamTwo", tex: "", params: [d(), d()] };
 }
-function F(n, e) {
-  let { closingIndex: t, semiIndex: o } = M(e, n);
-  return t === -1 ? V(n, e) : o === -1 || o > t ? L(n, e, t) : z(n, e, t);
+function A(o, e) {
+  return { type: "Const", value: o.value, tex: `\\${e ? "left" : "right"}${o.tex}` };
 }
-function z(n, e, t) {
-  let o = n[e], s = O(), p = /* @__PURE__ */ new Set();
-  s.lparen = `\\left${o.tex}`, o = n[++e];
+function z(o, e) {
+  let { closingIndex: t, semiIndex: n } = B(e, o);
+  return t === -1 ? M(o, e) : n === -1 || n > t ? L(o, e, t) : F(o, e, t);
+}
+function w(o, e) {
+  if (e + 1 >= o.length)
+    return;
+  let t = o[e], n = o[e + 1];
+  t.type === "Const" && t.tex === "\\hline" && n.type === "Paren" && ([o[e], o[e + 1]] = [n, t]);
+}
+function F(o, e, t) {
+  let n = o[e], p = v(), s = /* @__PURE__ */ new Set();
+  p.lparen = `\\left${n.tex}`, e++;
   let a = [], r = null;
-  for (; e < t; ) {
-    if (o.type === "Split") {
-      o.value === "," ? r ? (a.push(r), r = null) : a.push(y()) : o.value === ";" && (r && (a.push(r), r = null), s.params.push(a), a = []), o = n[++e];
+  for (w(o, e), n = o[e]; e < t; ) {
+    if (n = o[e], n.value === ",") {
+      r ? (a.push(r), r = null) : a.push(i()), ++e;
       continue;
-    } else if (o.type === "Paren") {
-      r && (a.push(r), r = null), p.add(a.length), o = n[++e];
+    } else if (n.value === ";" || n.tex === "\\\\") {
+      r && (a.push(r), r = null), p.params.push(a), a = [], e++, w(o, e);
+      continue;
+    } else if (n.type === "Paren") {
+      r && (a.push(r), r = null), s.add(a.length), e++;
       continue;
     }
-    for (r = l(), o = n[e]; e < t && o.type !== "Split" && o.type !== "Paren"; ) {
-      let i = T(n, e);
-      e = i.current, r.body.push(i.node), o = n[e];
+    for (r = d(); e < t && n.type !== "Split" && n.type !== "Paren" && n.type !== "Align"; ) {
+      let y = l(o, e);
+      e = y.current, r.body.push(y.node), n = o[e];
     }
   }
-  return r && (a.push(r), r = null), a.length > 0 && (s.params.push(a), a = []), s.dividerIndices = Array.from(p).sort((i, u) => i - u), o = n[e], e < n.length ? (e++, s.rparen = `\\right${o.tex}`, o.value === ":}" && (s.alignment = "Left")) : s.rparen = "\\right.", { node: s, current: e };
+  return r && (a.push(r), r = null), a.length > 0 && (p.params.push(a), a = []), p.dividerIndices = Array.from(s).sort((y, u) => y - u), n = o[e], e < o.length ? (e++, p.rparen = `\\right${n.tex}`, n.value === ":}" && p.lparen.endsWith("lbrace") && (p.alignment = "l")) : p.rparen = "\\right.", { node: p, current: e };
 }
-var m = class extends Error {
+var g = class extends Error {
 };
-function L(n, e, t) {
-  let o = n[e], s = l();
-  if (s.body.push(N(o, true)), e = g(e + 1, t, n, s), e >= n.length)
-    throw new m(`Read index out of range, index: ${e}`);
-  return o = n[e], e++, s.body.push(N(o, false)), s.body[0].value === "{:" && s.body[s.body.length - 1].value === ":}" && (s.body[0].tex = "{", s.body[s.body.length - 1].tex = "}"), { node: s, current: e };
+function L(o, e, t) {
+  let n = o[e], p = d();
+  if (p.body.push(A(n, true)), e = O(e + 1, t, o, p), e >= o.length)
+    throw new g(`Read index out of range, index: ${e}`);
+  return n = o[e], e++, p.body.push(A(n, false)), p.body[0].value === "{:" && p.body[p.body.length - 1].value === ":}" && (p.body[0].tex = "{", p.body[p.body.length - 1].tex = "}"), { node: p, current: e };
 }
-function V(n, e) {
-  let t = n[e], o = l();
-  return o.body.push({ type: "Const", value: t.value, tex: `\\left${t.tex}` }), e = g(e + 1, n.length, n, o), o.body.push({ type: "Const", value: t.value, tex: "\\right." }), { node: o, current: e };
+function M(o, e) {
+  let t = o[e], n = d();
+  return n.body.push({ type: "Const", value: t.value, tex: `\\left${t.tex}` }), e = O(e + 1, o.length, o, n), n.body.push({ type: "Const", value: t.value, tex: "\\right." }), { node: n, current: e };
 }
-function M(n, e) {
-  let t = -1, o = -1, s = [];
-  for (let p = n + 1; p < e.length; p++) {
-    if (e[p].type === "LParen") {
-      s.push("");
-      continue;
-    }
-    if (s.length === 0) {
-      if (e[p].value === ";" ? t === -1 && (t = p) : e[p].type === "RParen" && o === -1 && (o = p), t !== -1 && o !== -1)
-        break;
-    } else
-      e[p].type === "RParen" && s.pop();
-  }
-  return { closingIndex: o, semiIndex: t };
-}
-function B(n, e, t) {
-  let o = -1, s = -1, p = [];
-  for (let a = e; a < t; a++) {
-    if (n[a].type === "LParen") {
+function B(o, e) {
+  let t = -1, n = -1, p = [];
+  for (let s = o + 1; s < e.length; s++) {
+    if (e[s].type === "LParen") {
       p.push("");
       continue;
     }
-    if (p.length > 0 && n[a].type === "RParen") {
-      p.pop();
+    if (p.length === 0) {
+      if (e[s].value === ";" ? t === -1 && (t = s) : e[s].type === "RParen" && n === -1 && (n = s), t !== -1 && n !== -1)
+        break;
+    } else
+      e[s].type === "RParen" && p.pop();
+  }
+  return { closingIndex: n, semiIndex: t };
+}
+function q(o, e, t, n) {
+  let p = -1, s = -1, a = [];
+  for (let r = e; r < t; r++) {
+    if (o[r].type === "LParen") {
+      a.push("");
       continue;
     }
-    if (!(p.length > 0) && (n[a].type === "RParen" || (n[a].value === ";" ? o === -1 && (o = a) : n[a].value === "|" && s === -1 && (s = a), o !== -1 && s !== -1)))
+    if (a.length > 0 && o[r].type === "RParen") {
+      a.pop();
+      continue;
+    }
+    if (!(a.length > 0) && (o[r].type === "RParen" || (o[r].value === ";" ? p === -1 && (p = r) : o[r].value === n && s === -1 && (s = r), p !== -1 && s !== -1)))
       break;
   }
-  return { semiIndex: o, barIndex: s };
+  return { semiIndex: p, barIndex: s };
 }
-function E(n, e) {
-  let t = n[e], { semiIndex: o, barIndex: s } = B(n, e + 1, n.length);
-  if (s === -1)
-    return q(e);
-  if (o === -1 || o > s) {
-    let i = l();
-    return e++, i.body.push(y("\\left|")), e = g(e, s, n, i), i.body.push(y("\\right|")), e = s + 1, { current: e, node: i };
+function E(o, e) {
+  let t = o[e], { semiIndex: n, barIndex: p } = q(o, e + 1, o.length, t.value);
+  if (p === -1)
+    return I(e, t);
+  if (n === -1 || n > p) {
+    let y = d();
+    return e++, y.body.push(i(`\\left${t.tex}`)), e = O(e, p, o, y), y.body.push(i(`\\right${t.tex}`)), e = p + 1, { current: e, node: y };
   }
-  let p = O();
-  p.lparen = "\\left|", p.rparen = "\\right|", t = n[++e];
+  let s = v();
+  s.lparen = `\\left${t.tex}`, s.rparen = `\\right${t.tex}`, t = o[++e];
   let a = [], r = null;
-  for (; e < s; ) {
+  for (; e < p; ) {
     if (t.type === "Split") {
       switch (t.value) {
         case ",": {
-          r && (a.push(r), r = null);
+          r ? (a.push(r), r = null) : a.push(i());
           break;
         }
         case ";": {
-          r && (a.push(r), r = null), p.params.push(a), a = [];
+          r && (a.push(r), r = null), s.params.push(a), a = [];
           break;
         }
       }
-      t = n[++e];
+      t = o[++e];
       continue;
     }
-    for (r = l(), t = n[e]; e < s && t.type !== "Split"; ) {
-      let i = T(n, e);
-      e = i.current, r.body.push(i.node), t = n[e];
+    for (r = d(), t = o[e]; e < p && t.type !== "Split"; ) {
+      let y = l(o, e);
+      e = y.current, r.body.push(y.node), t = o[e];
     }
   }
-  return r && (a.push(r), r = null), a.length > 0 && (p.params.push(a), a = []), e = s + 1, { node: p, current: e };
+  return r && (a.push(r), r = null), a.length > 0 && (s.params.push(a), a = []), e = p + 1, { node: s, current: e };
 }
-function g(n, e, t, o) {
-  for (; n < e; ) {
-    let s = T(t, n);
-    n = s.current, o.body.push(s.node);
+function O(o, e, t, n) {
+  for (; o < e; ) {
+    let p = l(t, o);
+    o = p.current, n.body.push(p.node);
   }
-  return n;
+  return o;
 }
-function q(n) {
-  return { current: n + 1, node: { type: "Const", value: "|", tex: "\\mid" } };
+function I(o, e) {
+  return { current: o + 1, node: { type: "Const", value: e.value, tex: e.tex === "|" ? "\\mid" : e.tex } };
 }
-function x(n) {
-  let e = n.body[0], t = n.body[n.body.length - 1];
-  return e.type === "Const" && t.type === "Const" && e.value === "(" && t.value === ")" && (n.body.pop(), n.body.shift()), n;
+function k(o) {
+  let e = o.body[0], t = o.body[o.body.length - 1];
+  return e.type === "Const" && t.type === "Const" && e.value === "(" && t.value === ")" && (o.body.pop(), o.body.shift()), o;
 }
-function I(n, e, t) {
-  let o = n[e], s = y(), p = "", a = "", r = "";
-  if (o.value === "^" || o.value === "_") {
-    p = o.value === "^" ? "_" : "^", a = o.value, e++;
-    let d = T(n, e, false);
-    d.node.type === "Flat" && (d.node = x(d.node)), s = d.node, e = d.current;
+function W(o, e, t) {
+  let n = o[e], p = i(), s = "", a = "", r = "";
+  if (n.value === "^" || n.value === "_") {
+    s = n.value === "^" ? "_" : "^", a = n.value, e++;
+    let x = l(o, e, false);
+    x.node.type === "Flat" && (x.node = k(x.node)), p = x.node, e = x.current;
   }
-  let i = y();
-  if (e < n.length && (o = n[e], o.value === p)) {
-    r = o.value, e++;
-    let d = T(n, e, false);
-    d.node.type === "Flat" && (d.node = x(d.node)), i = d.node, e = d.current;
+  let y = i();
+  if (e < o.length && (n = o[e], n.value === s)) {
+    r = n.value, e++;
+    let x = l(o, e, false);
+    x.node.type === "Flat" && (x.node = k(x.node)), y = x.node, e = x.current;
   }
-  let u = f();
-  return u.tex = t.tex, u.params[0] = (() => a === "^" ? s : r === "^" ? i : y())(), u.params[1] = (() => a === "_" ? s : r === "_" ? i : y())(), { node: u, current: e };
+  let u = c();
+  return u.tex = t.tex, u.params[0] = (() => a === "^" ? p : r === "^" ? y : i())(), u.params[1] = (() => a === "_" ? p : r === "_" ? y : i())(), { node: u, current: e };
 }
-function W(n, e, t, o) {
-  let s;
-  n.type === "Flat" ? s = n : (s = l(), s.body.push(n));
-  let p = C();
-  p.tex = e.tex;
-  let a = T(t, o, false);
-  return o = a.current, a.node.type === "Flat" && (a.node = x(a.node)), p.params = a.node, s.body.push(p), n = s, { node: n, current: o };
-}
-function D(n, e) {
-  let t = C();
-  return t.params = n, t.tex = e.tex, n = t, n;
-}
-function K(n, e, t, o) {
+function D(o, e, t, n) {
+  let p;
+  o.type === "Flat" ? p = o : (p = d(), p.body.push(o));
   let s = f();
-  n.type === "Flat" && (n = x(n)), s.tex = e.tex, s.params[0] = n;
-  let p = T(t, o);
-  return o = p.current, p.node.type === "Flat" && (p.node = x(p.node)), s.params[1] = p.node, n = s, { node: n, current: o };
-}
-function v(n, e, t) {
-  let o = C(), s = n[e];
-  o.tex = s.tex, e++;
-  let p = T(n, e, t);
-  return e = p.current, p.node.type === "Flat" && (p.node = x(p.node)), o.params = p.node, { node: o, current: e };
-}
-function G(n, e) {
-  let t = n[e];
-  if (e > 0) {
-    let a = n[e - 1];
-    if (a.type !== "OperatorSup" && a.type !== "OperatorA" && a.type !== "OperatorOAB" && a.type !== "OperatorAOB")
-      return { node: y(t.value), current: e + 1 };
-  } else
-    return { node: y(t.value), current: e + 1 };
-  if (e++, e >= n.length)
-    return { node: y(t.value), current: e };
-  if (n[e].type === "RParen")
-    return { node: y(t.value), current: e };
-  let s = T(n, e, true);
-  e = s.current, s.node.type === "Flat" && (s.node = x(s.node));
-  let p = C();
-  return p.tex = t.tex, p.params = s.node, { node: p, current: e };
-}
-function Q(n, e, t) {
-  let o = l();
-  return o.body.push(y(n)), e && o.body.push(e), o.body.push(t), o;
-}
-function j(n, e) {
-  return l(n.body.map((t) => [y(e), t]).flat());
-}
-function U(n, e) {
-  let t = f(), o = n[e];
-  t.tex = "\\frac{ $1 }{ $2 }";
-  let s = o.tex, p = null;
-  if (e++, e >= n.length)
-    return { node: t, current: e };
-  if (o = n[e], o.type === "OperatorSup") {
-    let i = v(n, e, false);
-    e = i.current, p = i.node;
+  s.tex = e.tex;
+  let a = l(t, n, false);
+  if (n = a.current, a.node.type === "Flat")
+    a.node = k(a.node);
+  else if (a.node.type === "Matrix") {
+    let r = a.node;
+    r.lparen.endsWith("(") && r.rparen.endsWith(")") && (r.lparen = "", r.rparen = "");
   }
-  let a = T(n, e, true);
-  if (e = a.current, a.node.type === "Flat" && (a.node = x(a.node)), t.params[0] = Q(s, p, a.node), e >= n.length)
-    return { node: t, current: e };
-  let r = T(n, e);
-  return e = r.current, r.node.type === "Flat" ? (r.node = x(r.node), r.node = j(r.node, s)) : (r.node = l(r.node), r.node.body.unshift(y(s)), p && r.node.body.push(p)), t.params[1] = r.node, { node: t, current: e };
+  return s.params = a.node, p.body.push(s), o = p, { node: o, current: n };
 }
-function T(n, e, t = true) {
-  if (e >= n.length)
-    return { node: y(), current: e };
-  let o = n[e], s;
-  switch (o.type) {
+function K(o, e) {
+  let t = f();
+  return t.params = o, t.tex = e.tex, o = t, o;
+}
+function j(o, e, t, n) {
+  let p = c();
+  o.type === "Flat" && (o = k(o)), p.tex = e.tex, p.params[0] = o;
+  let s = l(t, n);
+  return n = s.current, s.node.type === "Flat" && (s.node = k(s.node)), p.params[1] = s.node, o = p, { node: o, current: n };
+}
+function $(o, e, t) {
+  let n = f(), p = o[e];
+  n.tex = p.tex, e++;
+  let s = l(o, e, t);
+  return e = s.current, s.node.type === "Flat" && (s.node = k(s.node)), n.params = s.node, { node: n, current: e };
+}
+function G(o, e) {
+  let t = o[e];
+  if (e > 0) {
+    let a = o[e - 1];
+    if (a.type !== "OperatorSup" && a.type !== "OperatorA" && a.type !== "OperatorOAB" && a.type !== "OperatorAOB")
+      return { node: i(t.value), current: e + 1 };
+  } else
+    return { node: i(t.value), current: e + 1 };
+  if (e++, e >= o.length)
+    return { node: i(t.value), current: e };
+  if (o[e].type === "RParen")
+    return { node: i(t.value), current: e };
+  let p = l(o, e, true);
+  e = p.current;
+  let s = f();
+  return s.tex = t.tex, s.params = p.node, { node: s, current: e };
+}
+function Q(o, e, t) {
+  let n = d();
+  return n.body.push(i(o)), e && n.body.push(e), n.body.push(t), n;
+}
+function U(o, e) {
+  return d(o.body.map((t) => [i(e), t]).flat());
+}
+function Z(o, e) {
+  let t = c(), n = o[e];
+  t.tex = "\\frac{ $1 }{ $2 }";
+  let p = n.tex, s = null;
+  if (e++, e >= o.length)
+    return { node: t, current: e };
+  if (n = o[e], n.type === "OperatorSup") {
+    let y = $(o, e, false);
+    e = y.current, s = y.node;
+  }
+  let a = l(o, e, true);
+  if (e = a.current, a.node.type === "Flat" && (a.node = k(a.node)), t.params[0] = Q(p, s, a.node), e >= o.length)
+    return { node: t, current: e };
+  let r = l(o, e);
+  return e = r.current, r.node.type === "Flat" ? (r.node = k(r.node), r.node = U(r.node, p)) : (r.node = d(r.node), r.node.body.unshift(i(p)), s && r.node.body.push(s)), t.params[1] = r.node, { node: t, current: e };
+}
+function l(o, e, t = true) {
+  if (e >= o.length)
+    return { node: i(), current: e };
+  let n = o[e], p;
+  switch (n.type) {
     case "Const":
     case "Text":
     case "NumberLiteral":
     case "StringLiteral": {
-      e++, s = y(o);
+      e++, p = i(n);
       break;
     }
     case "LParen": {
-      ({ node: s, current: e } = F(n, e));
+      ({ node: p, current: e } = z(o, e));
       break;
     }
     case "Paren": {
-      ({ node: s, current: e } = E(n, e));
+      ({ node: p, current: e } = E(o, e));
       break;
     }
     case "OperatorSup":
     case "OperatorA": {
-      ({ node: s, current: e } = v(n, e, false));
+      ({ node: p, current: e } = $(o, e, false));
       break;
     }
     case "OperatorMinus": {
-      ({ node: s, current: e } = G(n, e));
+      ({ node: p, current: e } = G(o, e));
       break;
     }
     case "OperatorOAB": {
-      s = f(), s.tex = o.tex, e++;
-      let p = T(n, e);
-      e = p.current, p.node.type === "Flat" && (p.node = x(p.node)), s.params[0] = p.node;
-      let a = T(n, e);
-      e = a.current, a.node.type === "Flat" && (a.node = x(a.node)), s.params[1] = a.node;
+      p = c(), p.tex = n.tex, e++;
+      let s = l(o, e);
+      e = s.current, s.node.type === "Flat" && (s.node = k(s.node)), p.params[0] = s.node;
+      let a = l(o, e);
+      e = a.current, a.node.type === "Flat" && (a.node = k(a.node)), p.params[1] = a.node;
       break;
     }
     case "OperatorOptionalTwoParams": {
-      if (e++, e >= n.length) {
-        s = y(`${o.tex.replace(/[\{\[] \$\d+ [\}\]]/g, "")}{}`);
+      if (e++, e >= o.length) {
+        p = i(`${n.tex.replace(/[\{\[] \$\d+ [\}\]]/g, "")}{}`);
         break;
       }
-      ({ node: s, current: e } = I(n, e, o));
+      ({ node: p, current: e } = W(o, e, n));
       break;
     }
     case "OperatorPartial": {
-      ({ node: s, current: e } = U(n, e));
+      ({ node: p, current: e } = Z(o, e));
       break;
     }
     case "Split":
     case "Align": {
-      e++, s = y(o);
+      e++, p = i(n);
       break;
     }
     case "RParen": {
-      e++, s = y(o);
+      e++, p = i(n);
       break;
     }
     default:
-      throw new Error(`Unmatched token in walk ${o.value}`);
+      throw new Error(`Unmatched token in walk ${n.value}`);
   }
-  if (e < n.length && t) {
-    let p = true;
-    for (; p && e < n.length; ) {
-      let a = n[e];
+  if (e < o.length && t) {
+    let s = true;
+    for (; s && e < o.length; ) {
+      let a = o[e];
       switch (a.type) {
         case "OperatorAOB": {
-          ({ node: s, current: e } = K(s, a, n, e + 1));
+          ({ node: p, current: e } = j(p, a, o, e + 1));
           break;
         }
         case "OperatorAO": {
-          s = D(s, a), e++;
+          p = K(p, a), e++;
           break;
         }
         case "OperatorSup": {
-          ({ node: s, current: e } = W(s, a, n, e + 1));
+          ({ node: p, current: e } = D(p, a, o, e + 1));
           break;
         }
         default:
-          p = false;
+          s = false;
       }
     }
   }
-  return { node: s, current: e };
+  return { node: p, current: e };
 }
-function A(n) {
-  let e = _(), t = 0;
-  for (; t < n.length; ) {
-    let o = T(n, t);
-    t = o.current, e.body.push(o.node);
+function P(o) {
+  let e = V(), t = 0;
+  for (; t < o.length; ) {
+    let n = l(o, t);
+    t = n.current, e.body.push(n.node);
   }
   return e;
 }
-function Z(n) {
-  let e = n.dividerIndices, t = "\\begin{array}", o = "c";
-  if (n.alignment === "Left" && (o = "l"), e.length) {
-    let s = e[e.length - 1];
+function H(o) {
+  let e = o.dividerIndices, t = "\\begin{array}", n = o.alignment;
+  if (e.length) {
+    let p = e[e.length - 1];
     for (let a = e.length - 1; a >= 1; a--)
       e[a] -= e[a - 1];
     t += "{";
     for (let a = 0; a < e.length; a++)
-      t += `${"".padEnd(e[a], o)}|`;
-    let p = Math.max(...n.params.map((a) => a.length));
-    t += `${"".padEnd(p - s, o)}}`;
+      t += `${n.repeat(e[a])}|`;
+    let s = Math.max(...o.params.map((a) => a.length));
+    t += `${n.repeat(s - p)}}`;
   } else {
-    let s = Math.max(...n.params.map((p) => p.length));
-    t += `{${"".padEnd(s, o)}}`;
+    let p = Math.max(...o.params.map((s) => s.length));
+    t += `{${n.repeat(p)}}`;
   }
   return [t, "\\end{array}"];
 }
-function k(n) {
-  switch (n.type) {
+function h(o) {
+  switch (o.type) {
     case "Const":
-      return n.tex;
+      return o.tex;
     case "Root": {
-      let e = n.body.map(k).join(" ");
-      return n.body.find((t) => t.type === "Const" && (t.value === "&" || t.tex === "\\\\")) && (e = `\\begin{aligned}${e}\\end{aligned}`), e;
+      let e = o.body.map(h).join(" ");
+      return o.body.find((t) => t.type === "Const" && (t.value === "&" || t.tex === "\\\\")) && (e = `\\begin{aligned}${e}\\end{aligned}`), e;
     }
     case "Flat":
-      return n.body.map(k).join(" ");
+      return o.body.map(h).join(" ");
     case "Matrix": {
-      let [e, t] = Z(n);
-      return [n.lparen, e, n.params.map((o) => o.map(k).join(" & ")).join("\\\\"), "\\\\", t, n.rparen].join(" ");
+      let [e, t] = H(o);
+      return [o.lparen, e, o.params.map((n) => n.map(h).join(" & ")).join(" \\\\ "), t, o.rparen].join(" ");
     }
     case "ParamOne":
-      return n.tex.replace("$1", k(n.params));
+      return o.tex.replace("$1", h(o.params));
     case "ParamTwo":
-      return n.tex.replace("$1", k(n.params[0])).replace("$2", k(n.params[1]));
+      return o.tex.replace("$1", h(o.params[0])).replace("$2", h(o.params[1]));
   }
 }
-var w = /[0-9]/;
+var R = /[0-9]/;
 var X = /\S/;
-var Y = (n) => {
-  let { value: e = "", current: t } = n;
-  return { value: e, isKeyWord: false, current: t, tex: e, type: "Text" };
-};
-var P = (n) => {
-  let { value: e = "", current: t } = n;
+var Y = (o) => {
+  let { value: e = "", current: t } = o;
   return { value: e, isKeyWord: false, current: t, tex: e, type: "Const" };
 };
-var b = class {
+var N = class {
   constructor(e) {
     __publicField(this, "_root");
     __publicField(this, "_char_to_index", /* @__PURE__ */ new Map());
     __publicField(this, "_n");
     if (e.length === 0)
       throw new Error("Cannot create Trie since the length of nodes is 0");
-    e.forEach((o) => {
-      if (o.length !== 1)
-        throw new Error(`Value \`${o}\` is invalid, the length of char must be 1`);
+    e.forEach((n) => {
+      if (n.length !== 1)
+        throw new Error(`Value \`${n}\` is invalid, the length of char must be 1`);
     });
     let t = Array.from(new Set(e));
-    this._n = t.length, this._root = new c(this._n), t.forEach((o, s) => {
-      this._char_to_index.set(o, s);
+    this._n = t.length, this._root = new b(this._n), t.forEach((n, p) => {
+      this._char_to_index.set(n, p);
     });
   }
   c2i(e) {
@@ -419,236 +431,207 @@ var b = class {
     if (e.length === 0)
       return;
     let t = this._root;
-    [...e].forEach((o, s) => {
-      let p = this.c2i(o);
-      if (typeof p > "u")
-        throw new Error(`key \`${o}\` not in key set`);
-      t._nextNode[p] === null && (t._nextNode[p] = new c(this._n)), t = t._nextNode[p], s === e.length - 1 && (t._end = true);
+    [...e].forEach((n, p) => {
+      let s = this.c2i(n);
+      if (typeof s > "u")
+        throw new Error(`key \`${n}\` not in key set`);
+      t._nextNode[s] === null && (t._nextNode[s] = new b(this._n)), t = t._nextNode[s], p === e.length - 1 && (t._end = true);
     });
   }
   search(e) {
-    if (!this._root._nextNode.find((s) => s !== null) || e.length === 0)
+    if (!this._root._nextNode.find((p) => p !== null) || e.length === 0)
       return false;
-    let t = this._root, o = 0;
-    for (; o < e.length; o++) {
-      let s = e[o], p = this.c2i(s);
-      if (typeof p > "u")
-        throw new Error(`key \`${s}\` not in key set`);
-      if (t._nextNode[p] === null)
+    let t = this._root, n = 0;
+    for (; n < e.length; n++) {
+      let p = e[n], s = this.c2i(p);
+      if (typeof s > "u")
+        throw new Error(`key \`${p}\` not in key set`);
+      if (t._nextNode[s] === null)
         return false;
-      t = t._nextNode[p];
+      t = t._nextNode[s];
     }
-    return o === e.length;
+    return n === e.length;
   }
   tryParsing(e, t = 0) {
-    let o = "", s = this._root, p = false, a = t;
+    let n = "", p = this._root, s = false, a = t;
     for (; a < e.length; a++) {
-      let i = e[a], u = this.c2i(i);
-      if (typeof u > "u" || s._nextNode[u] === null)
+      let y = e[a], u = this.c2i(y);
+      if (typeof u > "u" || p._nextNode[u] === null)
         break;
-      o += i, s = s._nextNode[u], p = s._end;
+      n += y, p = p._nextNode[u], s = p._end;
     }
-    let r = (() => p ? h.get(o) : { tex: o, type: "StringLiteral" })();
-    return { value: o, isKeyWord: p, current: a, ...r };
+    let r = (() => s ? C.get(n) : { tex: n, type: "StringLiteral" })();
+    return { value: n, isKeyWord: s, current: a, ...r };
   }
   tryParsingNumber(e, t) {
-    let o = e[t], s = "";
-    for (; w.test(o) && t < e.length; )
-      s += o, o = e[++t];
-    for (o === "." && (s += o, o = e[++t]); w.test(o) && t < e.length; )
-      s += o, o = e[++t];
-    return { value: s, isKeyWord: false, current: t, tex: s, type: "NumberLiteral" };
+    let n = e[t], p = "";
+    for (; R.test(n) && t < e.length; )
+      p += n, n = e[++t];
+    for (n === "." && (p += n, n = e[++t]); R.test(n) && t < e.length; )
+      p += n, n = e[++t];
+    return { value: p, isKeyWord: false, current: t, tex: p, type: "NumberLiteral" };
   }
   tryParsingString(e, t) {
-    let o = e[t], s = "";
-    for (; X.test(o) && t < e.length; ) {
-      let p = this.c2i(o);
-      if (typeof p < "u" && this._root._nextNode[p] !== null)
+    let n = e[t], p = "";
+    for (; X.test(n) && t < e.length; ) {
+      let s = this.c2i(n);
+      if (typeof s < "u" && this._root._nextNode[s] !== null)
         break;
-      s += o, o = e[++t];
+      p += n, n = e[++t];
     }
-    return { value: s, isKeyWord: false, current: t, tex: s, type: "StringLiteral" };
+    return { value: p, isKeyWord: false, current: t, tex: p, type: "StringLiteral" };
   }
   tryParsingNewLines(e, t) {
-    let o = e[t], s = "";
-    for (; /\n/.test(o) && t < e.length; )
-      s += o, o = e[++t];
-    return s.length >= 2 ? { value: s, isKeyWord: true, current: t, tex: "\\\\", type: "Align" } : { value: "", isKeyWord: false, current: t, tex: "", type: "None" };
+    let n = e[t], p = "";
+    for (; /\n/.test(n) && t < e.length; )
+      p += n, n = e[++t];
+    return p.length >= 2 ? { value: p, isKeyWord: true, current: t, tex: "\\\\", type: "Align" } : { value: "", isKeyWord: false, current: t, tex: "", type: "None" };
   }
   getPlainTextInDoubleQuote(e, t) {
-    let o = "", s = e[t];
-    if (s === '"') {
-      for (s = e[++t]; s !== '"' && t < e.length; )
-        o += s, s = e[++t];
-      if (s === '"')
-        return t++, { current: t, value: o };
+    let n = "", p = e[t];
+    if (p === '"') {
+      for (p = e[++t]; p !== '"' && t < e.length; )
+        n += p, p = e[++t];
+      if (p === '"')
+        return t++, { current: t, value: n };
     }
-    return { value: o, current: t };
+    return { value: n, current: t };
   }
   tryParsingText(e, t) {
-    let { value: o, current: s } = this.getPlainTextInDoubleQuote(e, t);
-    return { value: o, isKeyWord: false, current: s, tex: o, type: "Text" };
-  }
-  getColorString(e, t) {
-    let o = "";
-    for (; t < e.length; ) {
-      let s = e[t];
-      if (!/[#\da-z]/i.test(s))
-        break;
-      o += s, t++;
-    }
-    return { value: o, isKeyWord: false, current: t, tex: o, type: "Const" };
+    let { value: n, current: p } = this.getPlainTextInDoubleQuote(e, t);
+    return { value: n, isKeyWord: false, current: p, tex: n, type: "Text" };
   }
   skipSpaces(e, t) {
     for (; t < e.length; ) {
-      let o = e[t];
-      if (!/\s/.test(o))
+      let n = e[t];
+      if (!/\s/.test(n))
         break;
       t++;
     }
     return t;
   }
-  processColor(e, t) {
-    let o = false, s = { value: "", isKeyWord: false, current: t, tex: "", type: "Const" };
-    if (t = this.skipSpaces(e, t), t >= e.length)
-      return s;
-    {
-      let p = e[t];
-      /[\(\{\[]/.test(p) && (o = true, t++);
+  eatNext(e, t) {
+    t = this.skipSpaces(e, t);
+    let n = Y({ current: t });
+    if (t >= e.length)
+      return n;
+    let p = e[t], s = "";
+    switch (p) {
+      case '"': {
+        for (p = e[++t]; t < e.length && p !== '"'; )
+          s += p, p = e[++t];
+        t++;
+        break;
+      }
+      case "(": {
+        for (p = e[++t]; t < e.length && p !== ")"; )
+          s += p, p = e[++t];
+        t++;
+        break;
+      }
+      default: {
+        for (; t < e.length && /\S/.test(p); )
+          p = e[t++], s += p;
+        break;
+      }
     }
-    if (t = this.skipSpaces(e, t), s = this.getColorString(e, t), t = s.current, t = this.skipSpaces(e, t), s.current = t, t >= e.length)
-      return s;
-    {
-      let p = e[t];
-      /[\)\}\]]/.test(p) && o && t++;
-    }
-    return s.current = t, s;
-  }
-  getPlainText(e, t, o) {
-    let s = false, p = e[t];
-    for (; /\s/.test(p); )
-      p = e[++t];
-    s = p === "(";
-    let a = "";
-    if (s) {
-      for (p = e[++t]; t < e.length && p !== ")"; )
-        a += p, p = e[++t];
-      return t++, o({ current: t, value: a });
-    }
-    for (; t < e.length && /\S/.test(p); )
-      a += p, p = e[++t];
-    return o({ current: t, value: a });
+    return n.tex = n.value = s, n.current = t, n;
   }
   tryParsingAll(e) {
-    let t = 0, o = [], s = 0, p = [...e];
-    for (; t < p.length; ) {
+    let t = 0, n = [], p = 0, s = [...e];
+    for (; t < s.length; ) {
       {
-        let r = this.tryParsingNewLines(p, t);
+        let r = this.tryParsingNewLines(s, t);
         if (t = r.current, r.value !== "") {
-          o.push(r);
+          n.push(r);
           continue;
         }
       }
-      if (/\s/.test(p[t])) {
+      if (/\s/.test(s[t])) {
         t++;
         continue;
       }
-      let a = this.tryParsing(p, t);
+      let a = this.tryParsing(s, t);
       if (t = a.current, a.value !== "") {
-        switch (a.value) {
-          case "text": {
-            a = this.getPlainText(p, t, Y), t = a.current, o.push(a);
-            break;
-          }
-          case "tex": {
-            t = this.skipSpaces(p, t);
-            let { value: r, current: i } = this.getPlainTextInDoubleQuote(p, t);
-            t = i, a = P({ current: t, value: r }), o.push(a);
-            break;
-          }
-          case "hspace": {
-            o.push(a);
-            let r = this.getPlainText(p, t, P);
-            t = r.current, o.push(r);
-            break;
-          }
-          case "color": {
-            o.push(a);
-            let r = this.processColor(p, t);
-            t = r.current, o.push(r);
-            break;
-          }
-          default:
-            o.push(a);
+        if (n.push(a), a.eatNext) {
+          let r = this.eatNext(s, t);
+          t = r.current, n.push(r);
         }
         continue;
       }
       {
-        let r = this.tryParsingNumber(p, t);
+        let r = this.tryParsingNumber(s, t);
         if (t = r.current, r.value !== "") {
-          o.push(r);
+          n.push(r);
           continue;
         }
       }
       {
-        let r = this.tryParsingText(p, t);
+        let r = this.tryParsingText(s, t);
         if (t = r.current, r.value !== "") {
-          o.push(r);
+          n.push(r);
           continue;
         }
       }
       {
-        let r = this.tryParsingString(p, t);
+        let r = this.tryParsingString(s, t);
         if (t = r.current, r.value !== "") {
-          o.push(r);
+          n.push(r);
           continue;
         }
       }
-      if (s++, s > p.length * 2)
+      if (p++, p > s.length * 2)
         throw new Error("Oops! There may be an infinity loop");
     }
-    return o;
+    return n;
   }
 };
-var c = class {
+var b = class {
   constructor(e) {
     __publicField(this, "_nextNode", []);
     __publicField(this, "_end", false);
     this._nextNode = Array.from({ length: e }, () => null);
   }
 };
-function $(n = {}) {
-  var _a;
+function S(o = {}) {
   let e = /* @__PURE__ */ new Set([]);
-  (_a = n.extConst) == null ? void 0 : _a.forEach(([s, p]) => {
-    h.set(s, { type: "Const", tex: p });
-  });
-  for (let s of h.keys())
-    [...s].forEach((p) => e.add(p));
+  o.symbols && (Array.isArray(o.symbols) ? o.symbols.forEach(([p, s]) => {
+    if (p.length === 0)
+      throw new Error(`Cannot insert empty token! Token value: ${s}`);
+    C.set(p, s);
+  }) : Object.entries(o.symbols).forEach(([p, s]) => {
+    if (p.length === 0)
+      throw new Error(`Cannot insert empty token! Token value: ${s}`);
+    C.set(p, s);
+  }));
+  for (let p of C.keys())
+    [...p].forEach((s) => e.add(s));
   let t = Array.from(e);
   t.push(" ");
-  let o = new b(t);
-  for (let s of h.keys())
-    o.insert(s);
-  return o;
+  let n = new N(t);
+  for (let p of C.keys())
+    n.insert(p);
+  return n;
 }
-function H(n) {
-  var _a, _b;
-  let e = { display: true, extConst: [["dx", "{\\text{d}x}"], ["dy", "{\\text{d}y}"], ["dz", "{\\text{d}z}"], ["dt", "{\\text{d}t}"], ["#", "\\displaystyle"]], replaceBeforeTokenizing: [[/&#(x?[0-9a-fA-F]+);/g, (t, o) => String.fromCodePoint(o[0] === "x" ? `0${o}` : o)]] };
-  return typeof (n == null ? void 0 : n.display) < "u" && (e.display = n == null ? void 0 : n.display), ((_a = n == null ? void 0 : n.extConst) == null ? void 0 : _a.length) && e.extConst.push(...n.extConst), ((_b = n == null ? void 0 : n.replaceBeforeTokenizing) == null ? void 0 : _b.length) && e.replaceBeforeTokenizing.push(...n.replaceBeforeTokenizing), e;
+function J(o) {
+  var _a;
+  let e = { display: true, symbols: { dx: { type: "Const", tex: "{\\text{d}x}" }, dy: { type: "Const", tex: "{\\text{d}y}" }, dz: { type: "Const", tex: "{\\text{d}z}" }, dt: { type: "Const", tex: "{\\text{d}t}" }, "#": { type: "Const", tex: "\\displaystyle" }, choose: { type: "OperatorAOB", tex: "{ $1 \\choose $2 }" }, atop: { type: "OperatorAOB", tex: "{ $1 \\atop $2 }" } }, replaceBeforeTokenizing: [[/&#(x?[0-9a-fA-F]+);/g, (t, n) => String.fromCodePoint(n[0] === "x" ? `0${n}` : n)]] };
+  return typeof (o == null ? void 0 : o.display) < "u" && (e.display = o.display), (o == null ? void 0 : o.symbols) && (Array.isArray(o.symbols) ? o.symbols.forEach(([t, n]) => {
+    e.symbols[t] = n;
+  }) : e.symbols = { ...e.symbols, ...o.symbols }), ((_a = o == null ? void 0 : o.replaceBeforeTokenizing) == null ? void 0 : _a.length) && e.replaceBeforeTokenizing.push(...o.replaceBeforeTokenizing), e;
 }
-var R = class {
+var _ = class {
   constructor(e) {
     __publicField(this, "trie");
     __publicField(this, "display");
     __publicField(this, "replaceLaws");
-    let { display: t, extConst: o, replaceBeforeTokenizing: s } = H(e);
-    this.trie = $({ extConst: o }), this.display = t, this.replaceLaws = s;
+    let { display: t, symbols: n, replaceBeforeTokenizing: p } = J(e);
+    this.trie = S({ symbols: n }), this.display = t, this.replaceLaws = p;
   }
   toTex(e) {
     try {
-      e = this.replaceLaws.reduce((o, s) => (typeof s[1] == "function", o.replaceAll(s[0], s[1])), e);
-      let t = k(A(this.trie.tryParsingAll(e)));
+      e = this.replaceLaws.reduce((n, p) => n.replaceAll(p[0], p[1]), e);
+      let t = h(P(this.trie.tryParsingAll(e)));
       return this.display && (t = `\\displaystyle{ ${t} }`), t;
     } catch (t) {
       return `\\text{${String(t)}}`;
@@ -665,7 +648,7 @@ function normalizeEscape(escape) {
 var import_view = require("@codemirror/view");
 var import_language = require("@codemirror/language");
 var import_obsidian = require("obsidian");
-var AM = new R();
+var AM = new _();
 function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
   for (const range of selection.ranges) {
     if (range.from <= rangeTo && range.to >= rangeFrom)
@@ -765,11 +748,16 @@ var AsciiMathPlugin = class extends import_obsidian2.Plugin {
     this.existPrefixes = [];
     this.postProcessors = /* @__PURE__ */ new Map();
   }
+  calcSymbols() {
+    return this.settings.customSymbols.map(([k2, v2]) => {
+      return [k2, { type: m.Const, tex: v2 }];
+    });
+  }
   async onload() {
     await this.loadSettings();
     await (0, import_obsidian2.loadMathJax)();
-    this.AM = new R({
-      extConst: this.settings.customSymbols
+    this.AM = new _({
+      symbols: this.calcSymbols()
     });
     if (!MathJax) {
       console.warn("MathJax was not defined despite loading it.");
@@ -865,8 +853,8 @@ $$`,
     const nodeList = el.querySelectorAll("code");
     if (!nodeList.length)
       return;
-    for (let i = 0; i < nodeList.length; i++) {
-      const node = nodeList.item(i);
+    for (let i2 = 0; i2 < nodeList.length; i2++) {
+      const node = nodeList.item(i2);
       if (node.className.trim())
         continue;
       let { open, close } = this.settings.inline;
@@ -973,8 +961,8 @@ var AsciiMathSettingTab = class extends import_obsidian2.PluginSettingTab {
         if (!this.plugin.existPrefixes.includes(prefix))
           this.plugin.registerAsciiMathBlock(prefix);
       });
-      this.plugin.AM = new R({
-        extConst: this.plugin.settings.customSymbols
+      this.plugin.AM = new _({
+        symbols: this.plugin.calcSymbols()
       });
       new import_obsidian2.Notice("Asciimath settings reloaded successfully!");
     }));

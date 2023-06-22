@@ -3,9 +3,8 @@ sr-due: 2023-02-11
 sr-interval: 116
 sr-ease: 282
 ---
-
 up::[[courbe paramétrée]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 

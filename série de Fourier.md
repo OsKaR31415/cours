@@ -1,4 +1,4 @@
-up:: [[série de fonctions]]
+up:: [[série trigonométrique]]
 author:: [[Joseph Fourier]]
 title::
 #maths/analyse 
@@ -8,13 +8,15 @@ title::
 > [!definition] Série de Fourier
 > Soit $f$ une [[fonction continue par morceaux]] de [[fonction périodique|période]] $2\pi$
 > On pose :
-> $\displaystyle a_{n} = \frac{1}{\pi} \int_{-\pi }^{\pi } f(x) \cos(nx) \, dx$
-> $\displaystyle b_{n} = \frac{1}{\pi } \int _{-\pi }^{\pi } f(x)\sin(nx) \, dx$
+>  - $\displaystyle a_0 = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \, dx$
+>  - $\displaystyle a_{n} = \frac{1}{\pi} \int_{-\pi }^{\pi } f(x) \cos(nx) \, dx$
+>  - $\displaystyle b_{n} = \frac{1}{\pi } \int _{-\pi }^{\pi } f(x)\sin(nx) \, dx$
+>    
 > Soit, la [[série trigonométrique]] :
 > 
-> $\boxed{F(x) =\frac{a_{0}}{2} + \sum\limits_{n \geq 1} a_{n}\cos(nx) + b_{n}\sin(nx)}$
+> $\boxed{SF_{f}(x) =\frac{a_{0}}{2} + \sum\limits_{n \geq 1} a_{n}\cos(nx) + b_{n}\sin(nx)}$
 > 
-> On sait que, si $F$ [[série de fonctions convergence|converge]], alors elle converge vers $f$
+> On sait que, si $SF_{f}$ [[série de fonctions convergence|converge]], alors elle converge vers $f$
 > 
 >  - $(a_{n})$ et $(b_{n})$ sont appelés les [[coefficients de fourier]] de $f$
 ^definition
@@ -23,7 +25,7 @@ title::
 > $(a_{n})$ et $(b_{n})$ servent à décomposer $f$ en [[série trigonométrique]].
 > 
 > Le coefficient devant les intégrales sert à les ramener à une période de 1 (c'est une sorte de moyenne sur la période). Il n'est pas de $2\pi$ car la [[Formules d'Euler|formule d'Euler]] pour le [[fonction cosinus|cosinus]] contient déjà une division par 2.
->  - [!]  Il ne faut pas oublier de diviser par 2 le premier terme, $a_0$, car il ne contient pas de $\cos $
+>  - [!]  Il ne faut pas oublier de diviser par 2 le premier terme, $a_0$, car il ne contient pas de $\cos$
 >
 
 > [!idea]- Intuition
@@ -32,9 +34,9 @@ title::
 > C'est similaire à l'écriture d'une fonction comme une [[série entière]] (dans ce cas, c'est dans une base $x, x^{2}, x^{3}, x^{4}\dots$)
 
 > [!definition] Forme exponentielle complexe
-> On peut aussi exprimer la décomposition $F(x)$ avec une somme comme suit :
+> On peut aussi exprimer la décomposition $SF_{f}(x)$ avec une somme comme suit :
 > 
-> $\boxed{F(x) = \sum\limits_{n=-\infty }^{+\infty} \alpha _{n}e^{ inx }}$
+> $\boxed{SF_{f}(x) = \sum\limits_{n=-\infty }^{+\infty} \alpha _{n}e^{ inx }}$
 > 
 
 

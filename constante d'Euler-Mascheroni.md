@@ -1,5 +1,5 @@
 up::[[MOC analyse]]
-#maths/analyse #review
+#maths/analyse 
 
 ---
 Notée $\gamma$

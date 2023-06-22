@@ -5,7 +5,7 @@ sr-ease: 317
 ---
 up::[[groupe]]
 title::"[[loi de composition interne|lci]] [[associativité|associative]] et [[commutativité|commutative]]", "[[élément neutre]]", "tous les éléments sont [[éléments symétrisables|symétrisable]]"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Un _groupe abélien_ est un [[groupe]] dont la [[loi de composition interne]] est [[commutativité|commutative]].

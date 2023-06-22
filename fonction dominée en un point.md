@@ -4,7 +4,7 @@ alias: [ "domination", "dominée" ]
 up::[[fonction]]
 sibling::[[fonction négligeable]], [[fonctions équivalentes|équivalence]]
 title::"$f = \mathcal{O}_{x_{0}}(g) \iff \dfrac{f}{g} \text{ est bornée au voisinage de } x_{0}$"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 > [!definition] fonction dominée

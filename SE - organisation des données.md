@@ -1,6 +1,6 @@
 up::[[sous-système de gestion des fichiers]]
 title::"disques > partitions > répertoires/fichiers"
-#
+#informatique/unix 
 
 ---
 

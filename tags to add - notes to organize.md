@@ -20,7 +20,7 @@ title::notes à refactor (tags à ajouter, notes todo...)
 
 > [!missing] notes without tags
 > ```dataview
-> LIST FROM -"daily" AND -"informatique" AND -"templates" AND -"sources" AND -"__sekund__" AND -"gists" AND -"blog" AND -"kanban" AND -"blog"
+> LIST FROM -"daily" AND -"informatique" AND -"templates" AND -"sources" AND -"__sekund__" AND -"gists" AND -"blog" AND -"kanban" AND -"blog" AND -"Excalidraw/Scripts"
 > WHERE !file.tags
 > ```
 

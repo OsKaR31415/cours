@@ -1,6 +1,6 @@
 up::[[intégration]]
 author::[[Riemann]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 

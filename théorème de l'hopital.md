@@ -1,5 +1,5 @@
 up::[[dérivation]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Pour calculer des [[dérivation|dérivées]].

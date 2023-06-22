@@ -1,5 +1,5 @@
 up::[[réseau informatique]]
-#informatique #review 
+#informatique 
 
 ----
 

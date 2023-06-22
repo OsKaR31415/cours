@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Soit $\begin{align}f : & D\subset \mathbb{R} \rightarrow \mathbb{R}^{2}\\& t \mapsto (x(t); y(t)) \end{align}$  une [[courbe paramétrée]] [[dérivée d'une courbe paramétrée|dérivable]] sur $D$

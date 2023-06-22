@@ -1,5 +1,5 @@
 up::[[MOC calculus|calculus]]
-#maths #review 
+#maths 
 
 ----
 

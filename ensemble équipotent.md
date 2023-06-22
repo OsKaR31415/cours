@@ -1,5 +1,5 @@
 up::[[ensemble]]
-#maths/ensembles #review 
+#maths/ensembles 
 
 ----
 L'_équipotence_ est une relations entre ensembles.

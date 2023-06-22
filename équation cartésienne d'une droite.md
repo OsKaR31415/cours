@@ -1,6 +1,6 @@
 up::[[équation cartésienne]]
 title::"$ax + by +c = 0$"
-#maths #review 
+#maths 
 
 ----
 Une droite dans le plan peut être vue comme l'ensemble des points satisfaisant une équation.

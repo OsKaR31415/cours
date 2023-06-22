@@ -1,6 +1,6 @@
 up::[[espace préhilbertien réel]]
 title::"[[espace]] de [[dimension d'un espace vectoriel|dimension]] finie muni d'un [[produit scalaire]] et d'une [[norme]]"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

@@ -1,7 +1,7 @@
 up::[[matrice]]
 title::"telle que $i\neq j \implies M_{i,j} = 0$"
 description::"seuls les éléments de sa diagonale sont non-nuls"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Une *matrice diagonale* est une [[matrice]] particulière telle que seuls les éléments de sa diagonale sont non nuls.

@@ -1,5 +1,5 @@
 up::[[MOC dénombrement]]
-#maths/dénombrement #review 
+#maths/dénombrement 
 
 ---
 le nombre de façons de prendre (avec répétitions possibles) $p$ éléments dans un ensemble de $n$ éléments se note :

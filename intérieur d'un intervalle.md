@@ -1,4 +1,4 @@
-#maths/ensembles #review 
+#maths/ensembles 
 
 ----
 Soit $I$ un intervalle.

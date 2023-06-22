@@ -1,7 +1,7 @@
 
 imap kl <Esc>
-imap jk <Right>
-imap kj <Left>
+imap jk <Esc>la
+imap kj <Esc>i
 
 
 " these break some behaviors like dj

@@ -1,6 +1,6 @@
 up::[[espace vectoriel]]
 title::"$\mathcal{N}(x)=0 \implies x=0$", "$\forall (\lambda, x)\in \mathbf{K}\times E, \mathcal{N}(\lambda x)=|\lambda|\mathcal{N}(x)$", "$\forall (x,y)\in E^{2}, \mathcal{N}(x+y)\leq \mathcal{N}(x)+\mathcal{N}(y)$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

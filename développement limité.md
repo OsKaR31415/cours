@@ -1,5 +1,5 @@
 u\p::[[MOC analyse]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 

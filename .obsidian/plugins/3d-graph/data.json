@@ -5,19 +5,43 @@
   "groups": {
     "groups": [
       {
-        "query": "",
-        "color": "#31941a"
+        "query": "tag:#not-done",
+        "color": "#878787"
       },
       {
-        "query": "obsidian",
-        "color": "#47379a"
+        "query": "tag:#MOC",
+        "color": "#e16613"
+      },
+      {
+        "query": "tag:#excalidraw",
+        "color": "#7a5cff"
+      },
+      {
+        "query": "tag:#PKM OR tag:#obsidian",
+        "color": "#4a37a0"
+      },
+      {
+        "query": "tag:#flashcards",
+        "color": "#4a37a0"
+      },
+      {
+        "query": "tag:#gists",
+        "color": "#682d93"
+      },
+      {
+        "query": "tag:#CV",
+        "color": "#a80089"
+      },
+      {
+        "query": "tag:#maths",
+        "color": "#2a9e00"
       }
     ]
   },
   "display": {
-    "nodeSize": 2,
-    "linkThickness": 3,
-    "particleSize": 3,
-    "particleCount": 6
+    "nodeSize": 4,
+    "linkThickness": 5,
+    "particleSize": 6,
+    "particleCount": 4
   }
 }

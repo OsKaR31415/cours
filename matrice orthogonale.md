@@ -10,14 +10,16 @@ title:: "$\,^T\!M M = Id$"
 > [!definition] Matrice orthogonale
 > Soit $\mathbf{K}$ un corps
 > Soit $M \in \mathcal{M}_{n}(\mathbf{K})$ la [[matrice associée à une application linéaire]]
-> $M$ est *orthogonale* ssi $^T\!M\cdot M = Id_{n}$
-> On montre que les matrices orthogonales sont les matrices composées de vecteurs unitaires.
+> $M$ est *orthogonale* ssi $\boxed{^T\!M\cdot M = Id_{n}}$
+>  - [i]  On montre que les matrices orthogonales sont les matrices composées de vecteurs unitaires.
 ^definition
 
 > [!definition] Définition géométrique
 > Une matrice orthogonale est la matrice d'une [[base orthonormée]].
 > 
 > C'est-à-dire que tous ses vecteurs sont [[vecteur unitaire|unitaires]] et deux-à-deux [[vecteurs orthogonaux|orthogonaux]]
+> 
+>  - [!]  Une matrice orthogonale correspond à des vecteurs **[[base orthonormée|orthonormés]]** (on devrait dire "matrice orthonormale")
 
 # Propriétés
 Soit $M$ une matrice orthogonale

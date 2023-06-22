@@ -1,8 +1,8 @@
 {
   "leftSidebarWidth": 300,
-  "rightSidebarWidth": 300,
+  "rightSidebarWidth": 334.5,
   "leftPin": false,
   "rightPin": false,
   "leftSideEnabled": true,
-  "rightSideEnabled": true
+  "rightSideEnabled": false
 }

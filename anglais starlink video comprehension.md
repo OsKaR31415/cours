@@ -1,9 +1,9 @@
 ---
 
 mindmap-plugin: rich
-tags: [ #anglais ]
 
 ---
+#anglais
 
 # anglais starlink video comprehension
 ``` json

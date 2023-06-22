@@ -2,7 +2,7 @@
 alias: "base canonique"
 ---
 up::[[base d'un espace vectoriel]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ---
 

@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse #review
+#maths/analyse 
 
 ---
 Soit $f: t\mapsto M(t)=(x(t),y(t))$ avec $t\in D\subset \mathbb{R}$, une [[courbe paramétrée]]

@@ -1,5 +1,7 @@
 {
-  "targetAttributes": [],
+  "targetAttributes": [
+    "up"
+  ],
   "targetTags": true,
   "getFromInlineField": true,
   "enableTabHeader": true,
@@ -45,6 +47,42 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "maths",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "43c6-2230",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "informatique",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "48f5-79b2",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "up",
+      "value": "politique",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "f1e2-3136",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

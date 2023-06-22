@@ -1,5 +1,5 @@
 up::[[endomorphisme]], [[application linéaire]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Un _endomorphisme linéaire_ est une [[application linéaire]] d'un [[espace vectoriel]] dans lui même.

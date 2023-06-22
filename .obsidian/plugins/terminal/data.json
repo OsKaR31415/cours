@@ -3,11 +3,14 @@
   "addToContextMenu": true,
   "createInstanceNearExistingOnes": true,
   "errorNoticeTimeout": 0,
+  "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.2.0",
+  "lastReadChangelogVersion": "3.9.1",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
     "darwinExternalDefault": {
@@ -19,6 +22,13 @@
       "platforms": {
         "darwin": true
       },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "external"
     },
     "darwinIntegratedDefault": {
@@ -29,11 +39,25 @@
         "darwin": true
       },
       "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "integrated",
       "useWin32Conhost": true
     },
     "developerConsole": {
       "name": "",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "developerConsole"
     },
     "linuxExternalDefault": {
@@ -43,6 +67,13 @@
       "platforms": {
         "linux": true
       },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "external"
     },
     "linuxIntegratedDefault": {
@@ -53,6 +84,13 @@
         "linux": true
       },
       "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "integrated",
       "useWin32Conhost": true
     },
@@ -63,6 +101,13 @@
       "platforms": {
         "win32": true
       },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "external"
     },
     "win32IntegratedDefault": {
@@ -73,11 +118,19 @@
         "win32": true
       },
       "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
       "type": "integrated",
       "useWin32Conhost": true
     }
   },
   "recovery": {
-    "2023-03-04T11:34:23.876Z": "{\n\t\"addToCommand\": true,\n\t\"addToContextMenu\": true,\n\t\"enableWindowsConhostWorkaround\": true,\n\t\"errorNoticeTimeout\": 0,\n\t\"executables\": {\n\t\t\"darwin\": {\n\t\t\t\"extArgs\": [\n\t\t\t\t\"$PWD\"\n\t\t\t],\n\t\t\t\"extExe\": \"\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"/bin/zsh\"\n\t\t},\n\t\t\"linux\": {\n\t\t\t\"extArgs\": [],\n\t\t\t\"extExe\": \"xterm\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"/bin/sh\"\n\t\t},\n\t\t\"win32\": {\n\t\t\t\"extArgs\": [],\n\t\t\t\"extExe\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\"\n\t\t}\n\t},\n\t\"hideStatusBar\": \"focused\",\n\t\"language\": \"\",\n\t\"noticeTimeout\": 5,\n\t\"preferredRenderer\": \"webgl\",\n\t\"pythonExecutable\": \"python3\"\n}"
+    "2023-03-04T11:34:23.876Z": "{\n\t\"addToCommand\": true,\n\t\"addToContextMenu\": true,\n\t\"enableWindowsConhostWorkaround\": true,\n\t\"errorNoticeTimeout\": 0,\n\t\"executables\": {\n\t\t\"darwin\": {\n\t\t\t\"extArgs\": [\n\t\t\t\t\"$PWD\"\n\t\t\t],\n\t\t\t\"extExe\": \"\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"/bin/zsh\"\n\t\t},\n\t\t\"linux\": {\n\t\t\t\"extArgs\": [],\n\t\t\t\"extExe\": \"xterm\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"/bin/sh\"\n\t\t},\n\t\t\"win32\": {\n\t\t\t\"extArgs\": [],\n\t\t\t\"extExe\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\",\n\t\t\t\"intArgs\": [],\n\t\t\t\"intExe\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\"\n\t\t}\n\t},\n\t\"hideStatusBar\": \"focused\",\n\t\"language\": \"\",\n\t\"noticeTimeout\": 5,\n\t\"preferredRenderer\": \"webgl\",\n\t\"pythonExecutable\": \"python3\"\n}",
+    "2023-05-23T20:46:45.316Z": "{\n\t\"addToCommand\": true,\n\t\"addToContextMenu\": true,\n\t\"createInstanceNearExistingOnes\": true,\n\t\"errorNoticeTimeout\": 0,\n\t\"hideStatusBar\": \"focused\",\n\t\"language\": \"\",\n\t\"lastReadChangelogVersion\": \"3.2.0\",\n\t\"newInstanceBehavior\": \"newHorizontalSplit\",\n\t\"noticeTimeout\": 5,\n\t\"preferredRenderer\": \"webgl\",\n\t\"profiles\": {\n\t\t\"darwinExternalDefault\": {\n\t\t\t\"args\": [\n\t\t\t\t\"$PWD\"\n\t\t\t],\n\t\t\t\"executable\": \"/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"darwin\": true\n\t\t\t},\n\t\t\t\"type\": \"external\"\n\t\t},\n\t\t\"darwinIntegratedDefault\": {\n\t\t\t\"args\": [],\n\t\t\t\"executable\": \"/bin/zsh\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"darwin\": true\n\t\t\t},\n\t\t\t\"pythonExecutable\": \"python3\",\n\t\t\t\"type\": \"integrated\",\n\t\t\t\"useWin32Conhost\": true\n\t\t},\n\t\t\"developerConsole\": {\n\t\t\t\"name\": \"\",\n\t\t\t\"type\": \"developerConsole\"\n\t\t},\n\t\t\"linuxExternalDefault\": {\n\t\t\t\"args\": [],\n\t\t\t\"executable\": \"xterm\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"linux\": true\n\t\t\t},\n\t\t\t\"type\": \"external\"\n\t\t},\n\t\t\"linuxIntegratedDefault\": {\n\t\t\t\"args\": [],\n\t\t\t\"executable\": \"/bin/sh\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"linux\": true\n\t\t\t},\n\t\t\t\"pythonExecutable\": \"python3\",\n\t\t\t\"type\": \"integrated\",\n\t\t\t\"useWin32Conhost\": true\n\t\t},\n\t\t\"win32ExternalDefault\": {\n\t\t\t\"args\": [],\n\t\t\t\"executable\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"win32\": true\n\t\t\t},\n\t\t\t\"type\": \"external\"\n\t\t},\n\t\t\"win32IntegratedDefault\": {\n\t\t\t\"args\": [],\n\t\t\t\"executable\": \"C:\\\\Windows\\\\System32\\\\cmd.exe\",\n\t\t\t\"name\": \"\",\n\t\t\t\"platforms\": {\n\t\t\t\t\"win32\": true\n\t\t\t},\n\t\t\t\"pythonExecutable\": \"python3\",\n\t\t\t\"type\": \"integrated\",\n\t\t\t\"useWin32Conhost\": true\n\t\t}\n\t},\n\t\"recovery\": {\n\t\t\"2023-03-04T11:34:23.876Z\": \"{\\n\\t\\\"addToCommand\\\": true,\\n\\t\\\"addToContextMenu\\\": true,\\n\\t\\\"enableWindowsConhostWorkaround\\\": true,\\n\\t\\\"errorNoticeTimeout\\\": 0,\\n\\t\\\"executables\\\": {\\n\\t\\t\\\"darwin\\\": {\\n\\t\\t\\t\\\"extArgs\\\": [\\n\\t\\t\\t\\t\\\"$PWD\\\"\\n\\t\\t\\t],\\n\\t\\t\\t\\\"extExe\\\": \\\"\\\",\\n\\t\\t\\t\\\"intArgs\\\": [],\\n\\t\\t\\t\\\"intExe\\\": \\\"/bin/zsh\\\"\\n\\t\\t},\\n\\t\\t\\\"linux\\\": {\\n\\t\\t\\t\\\"extArgs\\\": [],\\n\\t\\t\\t\\\"extExe\\\": \\\"xterm\\\",\\n\\t\\t\\t\\\"intArgs\\\": [],\\n\\t\\t\\t\\\"intExe\\\": \\\"/bin/sh\\\"\\n\\t\\t},\\n\\t\\t\\\"win32\\\": {\\n\\t\\t\\t\\\"extArgs\\\": [],\\n\\t\\t\\t\\\"extExe\\\": \\\"C:\\\\\\\\Windows\\\\\\\\System32\\\\\\\\cmd.exe\\\",\\n\\t\\t\\t\\\"intArgs\\\": [],\\n\\t\\t\\t\\\"intExe\\\": \\\"C:\\\\\\\\Windows\\\\\\\\System32\\\\\\\\cmd.exe\\\"\\n\\t\\t}\\n\\t},\\n\\t\\\"hideStatusBar\\\": \\\"focused\\\",\\n\\t\\\"language\\\": \\\"\\\",\\n\\t\\\"noticeTimeout\\\": 5,\\n\\t\\\"preferredRenderer\\\": \\\"webgl\\\",\\n\\t\\\"pythonExecutable\\\": \\\"python3\\\"\\n}\"\n\t}\n}"
   }
 }

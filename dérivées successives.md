@@ -4,7 +4,7 @@ sr-interval: 239
 sr-ease: 312
 ---
 up::[[dérivation]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 

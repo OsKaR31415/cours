@@ -1,5 +1,5 @@
 {
-  "letters": "qsdfjklmio",
+  "letters": "euioqsdfjkl:wxm,",
   "jumpToAnywhereRegex": "\\b\\w{3,}\\b",
   "lightspeedCaseSensitive": false
 }

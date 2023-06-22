@@ -1,8 +1,8 @@
 ---
-alias: [ "série uniformément convergente", "uniformément convergente", "CVU" ]
+alias: [ "série uniformément convergente", "uniformément convergente", "CVU", "converge uniformément" ]
 ---
 up:: [[série de fonctions convergence]]
-title:: "$\sum\limits_{n} f_{n}$ CVU ssi $\displaystyle \lim\limits_{ n \to \infty } \sum\limits_{n} \sup\limits_{x}(f_{n}(x)) = 0$"
+title:: "$\sum\limits_{n} f_{n}$ CVU ssi $\displaystyle \sum\limits_{n} \sup\limits_{x}(f_{n}(x))$ [[série de fonctions covergence simple|CV]]"
 #maths/analyse 
 
 ---

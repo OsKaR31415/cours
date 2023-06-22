@@ -3,6 +3,9 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "partial",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.5,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": true,
   "maxNumberOfSuggestions": 10,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 1,
@@ -25,7 +28,7 @@
   "additionalCycleThroughSuggestionsKeys": "Ctrl/Cmd+N, Ctrl/Cmd+P",
   "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
   "openSourceFileKey": "Alt+Enter",
-  "propagateEsc": false,
+  "propagateEsc": true,
   "enableCurrentFileComplement": false,
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,
@@ -51,70 +54,16 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
+  "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {
-    "démonstration limite (1+1÷n)*n": {
-      "démonstration limite (1+1÷n)*n": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1680098518657
-        }
-      }
-    },
-    "_images/logo_markdown.png": {
-      "_images/logo_markdown.png": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1679577562212
-        }
-      }
-    },
-    "déterminant": {
-      "déterminant": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1680345260138
-        }
-      }
-    },
-    "application affine": {
-      "application affine": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1680464401115
-        }
-      }
-    },
-    "valeur propre": {
-      "valeur propre": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1680539895700
-        }
-      }
-    },
-    "OsKaR31415": {
-      "OsKaR31415": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1680792450015
-        }
-      }
-    },
-    "série de Fourier": {
-      "série de Fourier": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1681755878193
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {}
 }

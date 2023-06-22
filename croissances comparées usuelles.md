@@ -1,5 +1,5 @@
 up::[[croissances comparées]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 [[croissances comparées]]

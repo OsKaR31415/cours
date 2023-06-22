@@ -5,7 +5,7 @@ sr-interval: 365
 sr-ease: 359
 ---
 up::[[opérateur binaire]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soient $E$ et $F$ deux ensembles (non vides)

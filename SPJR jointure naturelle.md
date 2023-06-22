@@ -1,5 +1,5 @@
 up::[[algèbre SPJR]]
-#informatique #review 
+#informatique 
 
 ----
 

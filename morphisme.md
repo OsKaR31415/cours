@@ -6,7 +6,7 @@ alias: "morphismes"
 ---
 up::[[structure algébrique]]
 title::"$\begin{align}f :& (E, *) \to (F, \bot)\\ &x \mapsto f(x)\end{align}$", "$f(x*y) = f(x)\bot f(y)$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

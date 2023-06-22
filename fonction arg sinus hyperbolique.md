@@ -8,7 +8,7 @@ derivative::$\dfrac{1}{\sqrt{1+x^{2}}}$
 primitive::""
 description::"$\mathbb{R} \to \mathbb{R}$", "$x \mapsto \ln\left(x+ \sqrt{1+x^{2}}\right)$"
 title::$\arg \mathrm{sh}$
-#maths/analyse #maths/trigonométrie #review 
+#maths/analyse #maths/trigonométrie 
 
 ----
 [[fonction réciproque]] du [[fonction sinus hyperbolique|sinus hyperbolique]]

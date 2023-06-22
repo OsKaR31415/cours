@@ -1,5 +1,5 @@
 up::[[MOC arithmétique]]
-#maths/arithmétique #review
+#maths/arithmétique 
 
 ---
 

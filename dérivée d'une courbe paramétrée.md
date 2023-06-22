@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 

@@ -4,7 +4,7 @@ alias: [ "lim inf", "limite inf", "limite inférieure" ]
 up::[[suite]]
 sibling::[[limite supérieure d'une suite]]
 title::"$\inf \big\{ u_{n} \mid n < k \big\}$ quand $k \to +\infty$"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Soit $(x_{n})$ une suite réelle

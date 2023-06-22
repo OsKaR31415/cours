@@ -4,7 +4,7 @@ sr-interval: 205
 sr-ease: 315
 ---
 up::[[nombre complexe]]
-#maths/analyse/complexes #review 
+#maths/analyse/complexes 
 
 ---
 Soit $z\in\mathbb C$ un [[nombre complexe]].

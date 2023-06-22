@@ -1,5 +1,5 @@
 up::[[courbe paramétrée]]
-#maths/analyse #review 
+#maths/analyse 
 
 ---
 Une _courbe paramétrée simple_ est une [[courbe paramétrée]] dont tout les points sont [[multiplicité d'un point d'une courbe paramétrée#point simple|simples]], c'est-à-dire qu'ils ont tous une 

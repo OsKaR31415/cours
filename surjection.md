@@ -4,13 +4,11 @@ sr-interval: 365
 sr-ease: 339
 alias: ["surjective", "surjectives"]
 ---
-sibling:: [[injection]]
-
 up::[[application]]
 sibling::[[injection]]
 title::"$\forall y \in \mathscr{D}_{f}, \exists x \in f(\mathscr{D}_{f}), f(x) = y$"
 description::"au moins un antécédent"
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 

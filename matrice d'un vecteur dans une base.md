@@ -1,5 +1,5 @@
 up::[[matrice]]
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

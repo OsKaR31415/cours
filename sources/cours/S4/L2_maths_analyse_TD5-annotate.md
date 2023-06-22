@@ -32,3 +32,33 @@ annotate-target: sources/cours/S4/L2_maths_analyse_TD5.pdf
 >
 ^e5b1ac3b-5e5d-5fea
 
+>%%
+>```annotate-json
+>{"id":"3122611c-68c1-348a","text":"{\"id\":\"3122611c-68c1-348a\",\"page\":0,\"rect\":[37.856031924510376,92.6108584864948],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1683560085026.png\",\"relateRect\":[{\"x\":0.06011372867587327,\"y\":1.140536149471974,\"width\":0.6734362307067425,\"height\":0.12997562956945571}],\"pdfName\":\"sources/cours/S4/L2_maths_analyse_TD5.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1683560085026.png?1683560085064\"}","type":"rect","page":0,"width":829,"height":160,"pdfName":"sources/cours/S4/L2_maths_analyse_TD5.pdf"}
+>```
+>%%
+>![[attachments/markmind/1683560085026.png]]
+>[[#^3122611c-68c1-348a|Show annotate]]
+>
+^3122611c-68c1-348a
+
+>%%
+>```annotate-json
+>{"id":"d69f6725-35c5-07d5","text":"{\"id\":\"d69f6725-35c5-07d5\",\"page\":1,\"rect\":[37.856031924510376,92.6108584864948,51.776421851399085,762.7709802275843],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1683560088124.png\",\"relateRect\":[{\"x\":0.08285946385052803,\"y\":0.045491470349309504,\"width\":0.628757108042242,\"height\":0.17384240454914704}],\"pdfName\":\"sources/cours/S4/L2_maths_analyse_TD5.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1683560088124.png?1683560088144\"}","type":"rect","page":1,"width":774,"height":214,"pdfName":"sources/cours/S4/L2_maths_analyse_TD5.pdf"}
+>```
+>%%
+>![[attachments/markmind/1683560088124.png]]
+>[[#^d69f6725-35c5-07d5|Show annotate]]
+>
+^d69f6725-35c5-07d5
+
+>%%
+>```annotate-json
+>{"id":"2bfcdd65-deb6-2e9a","text":"{\"id\":\"2bfcdd65-deb6-2e9a\",\"page\":1,\"rect\":[37.856031924510376,92.6108584864948,51.776421851399085,762.7709802275843,46.8048540203674,641.890095516301],\"contents\":\"\",\"author\":\"\",\"color\":{\"r\":249,\"g\":233,\"b\":204},\"opacity\":1,\"path\":\"attachments/markmind/1683563870018.png\",\"relateRect\":[{\"x\":0.07473598700243704,\"y\":0.24289195775792038,\"width\":0.6604386677497969,\"height\":0.19821283509341997}],\"pdfName\":\"sources/cours/S4/L2_maths_analyse_TD5.pdf\",\"pageWidth\":1231,\"imageAbsolutePath\":\"app://local/Users/oscarplaisant/devoirs/cours/attachments/markmind/1683563870018.png?1683563870072\"}","type":"rect","page":1,"width":813,"height":244,"pdfName":"sources/cours/S4/L2_maths_analyse_TD5.pdf"}
+>```
+>%%
+>![[attachments/markmind/1683563870018.png]]
+>[[#^2bfcdd65-deb6-2e9a|Show annotate]]
+>
+^2bfcdd65-deb6-2e9a
+

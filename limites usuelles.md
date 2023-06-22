@@ -1,5 +1,5 @@
 up::[[limite d'une fonction]]
-#maths/analyse #review 
+#maths/analyse 
 
 ----
 Voir [[limite d'une fonction|limite]] d'une [[fonction]]

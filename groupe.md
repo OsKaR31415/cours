@@ -5,7 +5,7 @@ sr-ease: 346
 ---
 up::[[structure algébrique]]
 title::"[[loi de composition interne|lci]] [[associativité|associative]]", "[[élément neutre]]", "touts les éléments sont [[éléments symétrisables|symétrisables]]" 
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 

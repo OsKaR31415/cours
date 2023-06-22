@@ -1,3 +1,4 @@
+sibling:: [[trivium]]
 #science
 
 ----

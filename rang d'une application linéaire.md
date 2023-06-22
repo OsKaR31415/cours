@@ -1,6 +1,6 @@
 up::[[application linéaire]]
 title::"$\mathrm{rang} f = \dim \mathrm{Im} f$"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 Soient $E$ et $F$ deux [[espace vectoriel|espaces vectoriels]]

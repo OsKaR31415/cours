@@ -3,7 +3,7 @@ alias: [ "échelonnée" ]
 ---
 up::[[famille de vecteurs]]
 title:: "famille qui forme une matrice triangulaire", "[[famille de vecteurs échelonnée|échelonnée]] $\implies$[[famille de vecteurs libre|libre]]"
-#maths/algèbre #review 
+#maths/algèbre 
 
 ----
 
