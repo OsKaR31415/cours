@@ -1,7 +1,7 @@
 ---
 alias: [ "corps de métier" ]
 ---
-up::[[politique]]
+up:: [[politique]]
 title::
 #politique 
 

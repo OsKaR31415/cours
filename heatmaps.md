@@ -1,11 +1,11 @@
-up:: [[MOC PKM|PKM]]
+up:: [[PKM|PKM]]
 title:: "my efforts shown as heatmaps"
 #pkm 
 
 ---
 
 ```dataviewjs
-dv.span("** 😊 Kung-fu  😥**")
+dv.span("**Kung-fu**")
 const calendarData = {
     showCurrentDayBorder: true, // (optional) defaults to true
     entries: [],                // (required) populated in the DataviewJS loop below
@@ -24,11 +24,8 @@ for (let page of dv.pages('"daily"').where(p => p.kung_fu)) {
 renderHeatmapCalendar(this.container, calendarData)
 ```
 
-
-
-
 ```dataviewjs
-dv.span("**:luc_repeat: Spaced repetition 🧠**")
+dv.span("**Spaced repetition :luc_repeat: 🧠**")
 const calendarData = {
     showCurrentDayBorder: true, // (optional) defaults to true
     entries: [],                // (required) populated in the DataviewJS loop below
@@ -40,6 +37,7 @@ for (let page of dv.pages('"daily"').where(p => p.kung_fu)) {
     calendarData.entries.push({
         date: page.file.name,     // (required) Format YYYY-MM-DD
         intensity: page.spaced_repetition, // (required) the data you want to track, will map color intensities automatically
+        color: "dark_purple",
     })
 }
 

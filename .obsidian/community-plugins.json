@@ -11,7 +11,6 @@
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
   "persistent-graph",
-  "quick-explorer",
   "obsidian-desmos",
   "obsidian-functionplot",
   "obsidian-plugin-toc",
@@ -58,5 +57,8 @@
   "koncham-workspace",
   "heatmap-calendar",
   "tasks-calendar-wrapper",
-  "obsidian-sidebar-expand-on-hover"
+  "postfix",
+  "obsidian-hover-editor",
+  "cycle-in-sidebar",
+  "metaedit"
 ]

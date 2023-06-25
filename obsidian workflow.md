@@ -1,5 +1,5 @@
 #obsidian #PKM 
-up::[[obsidian]], [[MOC PKM|PKM]]
+up::[[obsidian]], [[PKM|PKM]]
 title::"how i work in obsidian"
 
 ----

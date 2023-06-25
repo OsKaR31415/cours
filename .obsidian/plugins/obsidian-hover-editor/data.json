@@ -1,9 +1,9 @@
 {
-  "defaultMode": "match",
+  "defaultMode": "source",
   "autoPin": "onMove",
-  "triggerDelay": 1000,
-  "closeDelay": 50,
-  "autoFocus": true,
+  "triggerDelay": 500,
+  "closeDelay": 1,
+  "autoFocus": false,
   "rollDown": false,
   "snapToEdges": true,
   "initialHeight": "700px",

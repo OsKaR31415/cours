@@ -1,8 +1,15 @@
-up:: [[MOC PKM|PKM]]
+up:: [[PKM|PKM]]
 title::
 #PKM 
 
 ---
+
+> [!query]+ Sous-notes de `$= dv.el("span", "[[" + dv.current().file.name + "]]")`
+> ```breadcrumbs
+> title: false
+> type: tree
+> dir: down
+> ```
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

@@ -1,6 +1,6 @@
 up:: [[UT UFR ST conseil|Conseil de l'UFR Sciences et Techniques]]
 title:: ""
-#université #pedagogie
+#fac #pedagogie
 
 ---
 

@@ -1,22 +1,12 @@
 
 
-# Todo
+# A faire
+- [ ] #task remettre dans la valise : ordi+sacoche, pochette magie, carde bleue, airpods, doc martens ⏳ 2023-06-27
+- [ ] #task ajouter desloratadine et ordonnace ⏳ 2023-06-28
+- [ ] #task donner papiers (passeport...) à elena ⏳ 2023-07-02
+- [ ] #task récupérer papiers (passeport...) de éléna ⏳ 2023-08-28
+- [ ] #task mettre des masques de la valise dans le sac ⏳ 2023-08-28
 
- - [x] #task trouver dates disponibles ✅ 2023-01-30
-    - 7 semaines ? (selon posibilités avec la famille)
-   - [x] #task demander date des rattrappages
-         - Voir si ils sont avant fin mai
- - [x] #task transmettre infos à Mme Henry 🔼 ✅ 2023-01-21
- - [x] #task contacter famille daniel ✅ 2023-01-14
-     - dates possibles
-     - transport jusqu'au lycée (distance avec thames)
- - [x] #task transmettre dates à Mme Henry / Wellebrouck ✅ 2023-01-28
-
-- [x] #task douane carte de libre circulation ✅ 2023-06-21
-- [x] #task NZ liste de choses à emmener ✅ 2023-06-21
-- [x] #task mail sharyn baker tickets, poids valises (soute et cabine)
-- [x] #task mail Elena John : infos ? tickets quand ? combien de linge ? quelle météo ? ✅ 2023-06-02
-- [x] #task cadeaux domaine de chambord
 
 # Horaires
 

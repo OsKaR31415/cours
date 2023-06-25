@@ -1,6 +1,41 @@
 {
   "choices": [
     {
+      "id": "4ad7039f-a714-4594-b86b-c147c0bc67d3",
+      "name": "breadcrumbs tree",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "> [!query]+ Sous-notes de `$= dv.el(\"span\", \"[[\" + dv.current().file.name + \"]]\")`\n> ```breadcrumbs\n> title: false\n> type: tree\n> dir: down\n> ```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
       "id": "ac0147f7-d334-401f-8311-59113f6499ec",
       "name": "MOC query",
       "type": "Capture",
@@ -15,7 +50,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] Sous-notes de `=this.file.link`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))\n> WHERE file != this.file\n> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name\n> ```"
+        "format": "> [!query]+ Sous-notes de `=this.file.link`\n> ```dataview\n> TABLE title, up as \"Up\", up.up as \"2-Up\", up.up.up as \"3-Up\", up.up.up.up as \"4-Up\"\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))\n> WHERE file != this.file\n> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name\n> ```"
       },
       "insertAfter": {
         "enabled": false,
@@ -49,7 +84,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "> [!query] Sous-notes de `=this.file.link`\n> ```dataview\n> LIST title\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))\n> WHERE file != this.file\n> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name\n> ```"
+        "format": "> [!query]+ Sous-notes de `=this.file.link`\n> ```dataview\n> LIST title\n> FROM -#cours AND -#exercice AND -\"daily\" AND -#excalidraw AND -#MOC\n> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))\n> WHERE file != this.file\n> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name\n> ```"
       },
       "insertAfter": {
         "enabled": false,

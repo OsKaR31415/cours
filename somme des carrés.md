@@ -1,4 +1,4 @@
-up::[[MOC arithmétique]]
+up::[[dénombrement]]
 title::$\sum\limits_{k=1}^{n} k^{2} = \frac{n(n+1)(2n+1)}{6}$
 #maths 
 

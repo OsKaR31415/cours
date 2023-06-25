@@ -1,9 +1,9 @@
 ---
 alias: [ "les messages de haine ont plus d'impact" ]
 ---
-up:: [[réseaux sociaux]], [[MOC zetetique]] 
+up:: [[réseaux sociaux]], [[zetetique]] 
 title:: "plus partagés, plus amplifiés, plus impliquants"
-#science #zetetique
+#science #science/zetetique
 
 ---
 

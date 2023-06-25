@@ -1,4 +1,4 @@
-up:: [[MOC PKM]]
+up:: [[PKM]]
 title::"organize your thoughts - see ideas linked visually"
 #PKM
 

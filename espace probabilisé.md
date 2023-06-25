@@ -1,4 +1,4 @@
-up:: [[MOC probabilités|probabilités]]
+up:: [[probabilités|probabilités]]
 title:: "$(\Omega, \mathscr{P}(\Omega), P)$"
 #maths/probabilités 
 

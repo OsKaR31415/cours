@@ -1,4 +1,4 @@
-up::[[MOC algorithmes]] 
+up::[[informatique.algorithmes]] 
 title::
 #informatique/algorithmie #maths/arithmétique 
 

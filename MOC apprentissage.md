@@ -1,9 +1,8 @@
 ---
 alias: [ "apprentissage", "apprendre" ]
 ---
-up::[[MOC MOCs]]
 title::"comment bien apprendre"
-#éducation #MOC 
+#éducation 
 
 ---
 

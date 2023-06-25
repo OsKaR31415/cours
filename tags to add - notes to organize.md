@@ -1,4 +1,4 @@
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
 title::notes à refactor (tags à ajouter, notes todo...)
 #PKM
 

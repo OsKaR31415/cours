@@ -5,7 +5,7 @@ quickshare-url: "https://noteshare.space/note/cli4p5x7v3203901pjhqu17ua5#t2Fbq2h
 up:: [[UT UFR ST conseil|Conseil de l'UFR Sciences et Techniques]]
 title:: ""
 date:: 2023-05-25
-#université 
+#fac 
 
 ---
 

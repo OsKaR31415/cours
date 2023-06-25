@@ -3,7 +3,7 @@ alias: "primitive"
 ---
 down:: [[intégrale de 1 sur x carré plus a carré]]
 
-up::[[MOC calculus|calculus]], [[MOC analyse|analyse]]
+up::[[calculus|calculus]], [[MOC analyse|analyse]]
 #maths/analyse#not-done 
 
 ----

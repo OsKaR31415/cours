@@ -1,5 +1,5 @@
 title:: "Liste de toutes les citations"
-#MOC #PKM 
+#PKM 
 
 ---
 

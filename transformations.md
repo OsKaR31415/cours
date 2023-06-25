@@ -1,5 +1,5 @@
 down:: [[symétrie glissée]]
-up::[[MOC géométrie]]
+up::[[géométrie]]
 #maths
 
 ----

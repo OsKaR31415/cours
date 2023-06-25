@@ -9,7 +9,7 @@ Fait partie, avec le [[trivium]], des [[sept arts libéraux]]
 
 # les sciences du quadrivium
  - [[MOC arithmétique|arithmétique]]
- - [[MOC géométrie|géométrie]]
+ - [[géométrie|géométrie]]
  - [[musique]]
  - [[astronomie]]
 

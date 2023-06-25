@@ -3,7 +3,7 @@ alias: [ "Master Science et Techniques université de Tours" ]
 ---
 up:: [[UT UFR ST|Université de Tours UFR de Sciences et Techniques]]
 title:: ""
-#université 
+#fac 
 
 ---
 

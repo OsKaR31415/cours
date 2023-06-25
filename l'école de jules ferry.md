@@ -11,3 +11,5 @@ title::
 >      - [[importance de l'éducation politique|l'éducation politique est importante]]
 >  - elle augmente les discriminations (voir les [[discriminations dans l'enseignement]])
 
+
+

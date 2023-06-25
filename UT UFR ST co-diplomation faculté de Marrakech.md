@@ -1,6 +1,6 @@
 up:: [[UT UFR ST|Université de Tours UFR de Sciences et Techniques]]
 title:: "Convention de co-diplomation avec la Faculté de Marrakech"
-#université 
+#fac 
 
 ---
 

@@ -1,6 +1,6 @@
 up::
 title::
-#zetetique 
+#science/zetetique 
 
 ---
 

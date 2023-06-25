@@ -1,6 +1,6 @@
 up::
 title:: "moment charnière, de décision"
-#philosphie #économie
+#philosphie #science/économie
 
 ---
 

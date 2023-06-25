@@ -21,7 +21,7 @@ propriétés d'un monoïde
 une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
-<!--SR:!2023-05-13,8,172!2024-07-23,397,272-->
+<!--SR:!2023-08-11,49,172!2024-07-23,397,272-->
 
 l'**ordre d'un groupe** est...
 ??
@@ -73,13 +73,13 @@ $Aff(\mathcal{A})$
 Plus petit espace affine contenant tout les points d'une famille de points $(\mathcal{A}_{i})$
 $\begin{align} Aff(\mathcal{A}) &= \mathcal{A}_0+Vect(\{ \overrightarrow{\mathcal{A}_0M} \mid M \in \mathcal{A} \}) \\ &= \mathcal{A}_0 + Vect(\{ \overrightarrow{\mathcal{A}_0\mathcal{A}_1}, \overrightarrow{\mathcal{A}_0\mathcal{A}_2}, \dots, \overrightarrow{\mathcal{A}_0\mathcal{A}_{k}} \}) \end{align}$
 $Aff(\mathcal{A})$ se construit avec une origine dans $\mathcal{A}$, et avec toutes les translations engendrées par la famille des vecteurs $\{ \overrightarrow{\mathcal{A}_{0}M} \mid M \in \mathcal{A} \}$
-<!--SR:!2023-01-15,9,293-->
+<!--SR:!2024-03-08,259,293-->
 
 direction d'un espace affine $\mathcal{E}$
 ??
 Soit $\mathcal{E}$ un espace affine
 l'ensemble $\{ \overrightarrow{AB} \mid (A, B) \in \mathcal{E}^{2} \}$
-<!--SR:!2024-04-26,365,313!2023-01-26,15,273-->
+<!--SR:!2024-04-26,365,313!2025-03-05,621,293-->
 
 [[théorème du rang]] 
 ??
@@ -144,32 +144,32 @@ Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] où $\mathbf{K}$ admet une [[valeu
      - la [[réciproque (logique)|réciproque]] est vraie aussi
  - absolue [[application homogène|homogénéité]] : $\forall (\lambda, x) \in K \times E, \quad \mathcal{N}(\lambda x) = |\lambda|\mathcal{N}(x)$
  - [[inégalité triangulaire]] ([[application sous-additive]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
-<!--SR:!2023-06-23,1,262!2023-06-25,3,282-->
+<!--SR:!2023-06-26,3,262!2023-06-25,3,282-->
 
 
 Soit $b$ une forme bilinéaire de matrice $B$,
 exprimer $b(x, y)$ sous forme matricielle
-??
+?
 $b(x, y) = \,^T\!x \cdot B \cdot y$
 <!--SR:!2023-06-26,4,302-->
 
 Définition d'un produit scalaire
 ??
 [[forme bilinéaire]] [[forme bilinéaire symétrique|symétrique]] [[forme bilinéaire définie|définie]] [[forme bilinéaire positive|positive]]
-<!--SR:!2023-06-23,1,262!2023-06-25,3,282-->
+<!--SR:!2023-06-26,3,262!2023-06-25,3,282-->
 
 ### Endomorphismes
 
 Définition d'un endomorphisme
 ??
 [[morphisme]] d'un [[espace vectoriel]] dans lui-même
-<!--SR:!2023-06-23,1,262!2023-06-23,1,262-->
+<!--SR:!2023-06-27,4,282!2023-06-26,3,262-->
 
 endomorphisme symétrique
 ??
 $\langle \varphi(u), v \rangle = \langle u, \varphi(v) \rangle$
 Sur $\mathbb{R}$, cela est équivalent à dire que la matrice de l'endomorphisme est symétrique
-<!--SR:!2023-06-23,1,262-->
+<!--SR:!2023-06-26,3,262-->
 
 endomorphisme adjoint d'un endomorphisme $f$
 ??
@@ -180,18 +180,18 @@ matrice adjointe de $A$
 ??
 Notée $A^{*}$
 Sur, $\mathbb{C}$, la **transconjuguée** : $A^{*} = \,^T \,\overline{A}$
-<!--SR:!2023-06-23,1,262-->
+<!--SR:!2023-06-27,4,282!2023-06-26,3,283-->
 
 endomorphisme normal
 ??
 endomorphisme $f$ tel que $f$ commute avec son [[endomorphisme adjoint|adjoint]]:
 $f \circ f^{*} = f^{*} \circ f$
-<!--SR:!2023-06-23,1,262-->
+<!--SR:!2023-06-26,3,262!2023-06-27,4,303-->
 
 spectre d'un endomorphisme linéaire
 ??
 ensemble des valeurs propres d'un endomorphisme
-<!--SR:!2023-06-23,1,262-->
+<!--SR:!2023-06-24,1,242!2023-06-24,1,263-->
 
 
 

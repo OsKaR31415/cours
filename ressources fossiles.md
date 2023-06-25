@@ -1,6 +1,6 @@
-up::[[MOC MOCs]]
-title:: ""
-#MOC #magie
+up:: [[énergie]], [[climat]]
+title::
+#science/écologie #todo 
 
 ---
 
@@ -12,3 +12,8 @@ title:: ""
 > WHERE file != this.file
 > SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```
+
+
+
+
+

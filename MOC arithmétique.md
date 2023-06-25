@@ -2,7 +2,7 @@
 alias: [ "arithmétique" ]
 ---
 canvas::[[Arithmétique.canvas]]
-#MOC #maths/arithmétique 
+#maths/arithmétique 
 
 ----
 

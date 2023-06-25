@@ -1,4 +1,4 @@
-up:: [[MOC probabilités]]
+up:: [[probabilités]]
 title::
 #maths/probabilités 
 

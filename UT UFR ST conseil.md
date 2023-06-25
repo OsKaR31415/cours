@@ -3,7 +3,7 @@ alias: [ "Conseil de l'UFR Sciences et Techniques" ]
 ---
 up:: [[UT UFR ST]]
 title:: "Conseil de l'UFR"
-#université 
+#fac 
 
 ---
 

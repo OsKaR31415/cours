@@ -1,6 +1,6 @@
 up:: [[politique]]
 title:: ""
-#zetetique 
+#science/zetetique 
 
 ---
 

@@ -1,4 +1,4 @@
-#autres #MOC 
+#autres
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

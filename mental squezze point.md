@@ -1,4 +1,5 @@
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
+title:: "when your knowledge becomes so messy it discourages you"
 #PKM
 
 ----

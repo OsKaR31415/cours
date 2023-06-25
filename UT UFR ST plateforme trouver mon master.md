@@ -1,6 +1,6 @@
 up:: [[UT UFR ST Master|Master Science et Techniques université de Tours]]
 title:: ""
-#université 
+#fac 
 
 ---
 

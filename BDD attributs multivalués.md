@@ -1,6 +1,5 @@
-up::
-<!--SR:!2023-06-23,1,230-->
+up:: [[BDD normalisation]]
 title::
-#flashcards/informatique/BDD #not-done 
+#informatique #not-done 
 
 ---

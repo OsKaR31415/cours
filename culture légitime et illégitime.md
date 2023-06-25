@@ -2,7 +2,7 @@
 alias: [ "culture légitime", "culture illégitime" ]
 ---
 up:: [[culture]]
-title:: "opposition entre la culture du peuple et celle de l'élite. Justifie la [[justifications de la domination des élites|justifie la domination des élites]]
+title:: "opposition entre la culture du peuple et celle de l'élite. [[justifications de la domination des élites|justifie la domination des élites]]
 #politique #éducation 
 
 ---

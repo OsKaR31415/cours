@@ -1,7 +1,7 @@
 ---
 alias: [ "livres pretes", "livres pretés" ]
 ---
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
 #PKM 
 
 # Livres que j'ai prêtés

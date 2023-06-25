@@ -10,7 +10,7 @@ tags: [excalidraw]
 # Text Elements
 algèbre ^T9j20WEf
 
-[[MOC géométrie]] ^pWDPOZIa
+[[géométrie]] ^pWDPOZIa
 
 [[MOC trigonométrie]] ^5fSh84z0
 

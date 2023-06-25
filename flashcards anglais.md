@@ -60,7 +60,7 @@ whereabouts ::: localisation, endroit
 <!--SR:!2024-06-06,380,284!2024-03-14,314,284-->
 
 to be fined :: recevoir une amende
-<!--SR:!2023-06-23,2,164-->
+<!--SR:!2023-06-26,3,164-->
 
 to part with :: se séparer de
 <!--SR:!2023-09-02,128,224-->

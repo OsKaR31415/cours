@@ -1,4 +1,4 @@
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
 #PKM
 
 ---

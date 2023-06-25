@@ -1,4 +1,4 @@
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
 title::"personnes par date d'anniversaire"
 #PKM 
 

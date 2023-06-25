@@ -1,4 +1,4 @@
-up::[[MOC informatique|informatique]]
+up::[[informatique|informatique]]
 title::"ordinateurs connectés, acheminant de l'information entre eux"
 #informatique
 

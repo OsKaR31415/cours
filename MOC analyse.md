@@ -1,7 +1,7 @@
 ---
 alias: "analyse"
 ---
-#MOC #maths/analyse
+#maths/analyse
 
 ----
 L'analyse est l'étude des [[fonction|fonctions]]

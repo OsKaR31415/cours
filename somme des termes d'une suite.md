@@ -1,4 +1,4 @@
-up::[[MOC dénombrement]]
+up::[[dénombrement]]
 #maths/dénombrement #maths/arithmétique
 
 ----

@@ -1,7 +1,7 @@
 ---
 alias: "base"
 ---
-up::[[MOC informatique]]
+up::[[informatique]]
 #informatique
 
 ---

@@ -1,4 +1,4 @@
-up::[[MOC géométrie]]
+up::[[géométrie]]
 source::https://mathcurve.com/polyedres/parallelepipede/pallelepipede.shtml
 #maths/géométrie
 

@@ -1,7 +1,7 @@
 ---
 alias: "DFS"
 ---
-up::[[MOC algorithmes]]
+up::[[informatique.algorithmes]]
 #informatique/algorithmie
 
 ---

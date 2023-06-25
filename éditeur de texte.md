@@ -1,4 +1,4 @@
-up::[[MOC informatique]] 
+up::[[informatique]] 
 title:: "applications pour l'[[édition de texte]]"
 #informatique 
 

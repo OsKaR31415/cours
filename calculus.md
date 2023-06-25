@@ -1,7 +1,4 @@
----
-alias: "calculus"
----
-#MOC
+#maths 
 
 ----
 

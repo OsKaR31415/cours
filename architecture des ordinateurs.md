@@ -1,5 +1,5 @@
 down:: [[Exécution d'un code machine]]
-up::[[MOC informatique]]
+up::[[informatique]]
 title::
 #informatique
 

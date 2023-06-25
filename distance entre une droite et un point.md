@@ -1,4 +1,4 @@
-up::[[MOC géométrie]] 
+up::[[géométrie]] 
 title:: "$\displaystyle\frac{|ax_{A}+by_{A}+c|}{\sqrt{ a^{2}+b^{2} }}$"
 #maths/géométrie 
 

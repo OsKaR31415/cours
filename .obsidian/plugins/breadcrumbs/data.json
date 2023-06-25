@@ -1,5 +1,5 @@
 {
-  "addDendronNotes": false,
+  "addDendronNotes": true,
   "addDateNotes": true,
   "aliasesInIndex": false,
   "alphaSortAsc": true,
@@ -25,8 +25,9 @@
   "jugglLayout": "hierarchy",
   "limitWriteBCCheckboxes": [
     "up",
-    "sibling",
-    "down"
+    "down",
+    "next",
+    "prev"
   ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
   "gridDefaultDepth": 25,
@@ -50,7 +51,7 @@
   "showRelationType": true,
   "regexNoteField": "",
   "relSuggestorTrigger": "\\",
-  "rlLeaf": true,
+  "rlLeaf": false,
   "showAllPathsIfNoneToIndexNote": false,
   "showAllAliases": true,
   "showBCs": true,
@@ -80,7 +81,7 @@
   "showAll": "All",
   "noPathMessage": "",
   "tagNoteField": "",
-  "threadIntoNewPane": false,
+  "threadIntoNewPane": true,
   "threadingTemplate": "{{field}} of {{current}}",
   "threadingDirTemplates": {
     "up": "",
@@ -92,7 +93,7 @@
   "threadUnderCursor": false,
   "trailSeperator": "→",
   "treatCurrNodeAsImpliedSibling": false,
-  "trimDendronNotes": false,
+  "trimDendronNotes": true,
   "respectReadableLineLength": false,
   "userHiers": [
     {

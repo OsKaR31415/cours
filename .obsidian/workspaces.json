@@ -10,7 +10,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "6a37416208f1801c",
+                "id": "7b739273ea4db406",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -20,27 +20,79 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "conférence gesticulée",
+                      "title": "classes sociales",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conférence gesticulée.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "éducation populaire",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"éducation populaire.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6604938271604939}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"classes sociales.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "title": "politique",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.8108108108108105}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":10.741047188106013}"
                     },
                     {
-                      "title": "ENCODE framework",
+                      "title": "importance des corps de métier",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ENCODE framework.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"importance des corps de métier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "politique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":5.818181818181818}"
+                    },
+                    {
+                      "title": "tarification du carbonne",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"tarification du carbonne.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "politique.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "bec17bcfc62abc34",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "climat",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"climat.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "écologie",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"écologie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "impact des énergies fossiles",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"impact des énergies fossiles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "pourquoi réduire les énergies fossiles d'abord",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pourquoi réduire les énergies fossiles d'abord.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
@@ -48,7 +100,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "éducation populaire.md",
+                    "file": "biodiversité.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -56,7 +108,41 @@
                 }
               },
               {
-                "id": "fa9d4393e53afe80",
+                "id": "d7476a214e30c6eb",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "leviers d'action pour l'écologie",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"leviers d'action pour l'écologie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0.5714285714285714}"
+                    },
+                    {
+                      "title": "écologie",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"climat.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "tarification du carbonne.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "108c4c9befc521a4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -70,7 +156,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "éducation et démocratie.md",
+                    "file": "économie effet rebond.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -78,7 +164,7 @@
                 }
               },
               {
-                "id": "b215878736b8d360",
+                "id": "824c65632e7f880b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -92,7 +178,119 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "importance de l'éducation politique.md",
+                    "file": "ressources fossiles.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "206eb62b3b94e36f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "pourquoi réduire les énergies fossiles d'abord.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "93b0d583d70b76e4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "impact des énergies fossiles.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7737b7c9d898d23b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2023-06-23.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "de3ab17de70ac75d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "matrice",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":5},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":17.211795092552734}"
+                    },
+                    {
+                      "title": "décomposition en somme d'une matrice symétrique et d'une antisymétrique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"décomposition en somme d'une matrice symétrique et d'une antisymétrique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "matrice",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":14},\"to\":{\"line\":1,\"ch\":14}},\"scroll\":15.372116640069637}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "heatmaps.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -100,7 +298,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -112,244 +310,8 @@
           {
             "id": "a3e04033addcedcd",
             "type": "tabs",
-            "dimension": 73.09160305343512,
+            "dimension": 37.111111111111114,
             "children": [
-              {
-                "id": "407c81c708328992",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "390d098cee0c9651",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#a-lire",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "ccd1190664578ee9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "34a73362daed0f65",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "8307913dc5bb12eb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "2fce7b9c83102582",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "surfing-tab-tree",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "d392c3e654e7953f",
-            "type": "tabs",
-            "dimension": 26.908396946564885,
-            "children": [
-              {
-                "id": "c7afda8b81d643de",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "importance de l'éducation politique.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "e855affa02bb755e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "importance de l'éducation politique.md",
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1102f19b896c7a16",
-        "type": "split",
-        "children": [
-          {
-            "id": "980f845ab893296e",
-            "type": "tabs",
-            "dimension": 33.68320610687023,
-            "children": [
-              {
-                "id": "d45511af0bde9bcf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "309f8009b1cc52b3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
-              },
-              {
-                "id": "2c78bc8186d3e556",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "QUICKSHARE_SIDE_VIEW",
-                  "state": {}
-                }
-              },
               {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
@@ -365,7 +327,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "importance de l'éducation politique.md",
+                    "file": "heatmaps.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -501,14 +463,14 @@
                       "repelStrength": 15.7893880208333,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.36464040330249536,
+                      "scale": 0.656443139413031,
                       "close": true
                     }
                   }
                 }
               },
               {
-                "id": "b50653ddacae7d12",
+                "id": "d45511af0bde9bcf",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -520,20 +482,12 @@
                   ]
                 },
                 "state": {
-                  "type": "calendar",
+                  "type": "advanced-tables-toolbar",
                   "state": {}
                 }
-              }
-            ],
-            "currentTab": 4
-          },
-          {
-            "id": "3b58d11fec2fca87",
-            "type": "tabs",
-            "dimension": 22.614503816793892,
-            "children": [
+              },
               {
-                "id": "e3daddeed64a3c86",
+                "id": "309f8009b1cc52b3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -545,29 +499,20 @@
                   ]
                 },
                 "state": {
-                  "type": "center-panes",
+                  "type": "custom-frames-detexify",
                   "state": {}
                 }
               }
             ]
           },
           {
-            "id": "9b0b445260de35cb",
+            "id": "d392c3e654e7953f",
             "type": "tabs",
-            "dimension": 43.70229007633588,
+            "dimension": 62.88888888888889,
             "children": [
               {
-                "id": "a05eecb7dce21915",
+                "id": "78fea63bb3d51f3d",
                 "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
                 "state": {
                   "type": "BC-matrix",
                   "state": {}
@@ -608,23 +553,6 @@
                 }
               },
               {
-                "id": "16944cfe7e2dcb87",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "tasks_timeline_view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "8d8d223c8b48a4c7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -645,13 +573,209 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "16944cfe7e2dcb87",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b50653ddacae7d12",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 334.5
+        "width": 300
+      },
+      "right": {
+        "id": "1102f19b896c7a16",
+        "type": "split",
+        "children": [
+          {
+            "id": "865e917d563ffa9c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e3daddeed64a3c86",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "center-panes",
+                  "state": {}
+                }
+              },
+              {
+                "id": "407c81c708328992",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "390d098cee0c9651",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#université",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ccd1190664578ee9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "34a73362daed0f65",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8307913dc5bb12eb",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2fce7b9c83102582",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2c78bc8186d3e556",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "QUICKSHARE_SIDE_VIEW",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 324.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -674,7 +798,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "b215878736b8d360",
+      "active": "de3ab17de70ac75d",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -700,11 +824,89 @@
                 "id": "ed16a702fdf621b8",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-25",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "magie",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"magie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "PKM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PKM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "note taking",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"note taking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "3 types de notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"3 types de notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "PKM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PKM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":8.345005171067351}"
+                    },
+                    {
+                      "title": "politique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":3.515151515151515}"
+                    },
+                    {
+                      "title": "élites",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"élites.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "justifications de la domination des élites",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"justifications de la domination des élites.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":40},\"to\":{\"line\":11,\"ch\":40}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "culture légitime et illégitime",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"culture légitime et illégitime.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":21},\"to\":{\"line\":5,\"ch\":21}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "art contemporain et politique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"art contemporain et politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":38},\"to\":{\"line\":0,\"ch\":38}},\"scroll\":1.5757575757575757}"
+                    },
+                    {
+                      "title": "politique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":7.786739046141916}"
+                    },
+                    {
+                      "title": "Conseil étudiant 2023-06-21",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Conseil étudiant 2023-06-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "title": "Conseil étudiant",
@@ -723,14 +925,177 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Conseil étudiant 2023-06-21.md",
+                    "file": "échange nouvelle zélande.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "690fd160b2bafbe1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "valise nouvelle zellande",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"valise nouvelle zellande.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":15},\"to\":{\"line\":116,\"ch\":15}},\"scroll\":100.1715454154111}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "échange nouvelle zélande.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6375b90cd23d8312",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "matrice",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "PKM.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "85d849f52cfde691",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MOC MOCs.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "553cdf9da36b9938",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2023-06-26.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2c221b5e6cc12bc5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "prise de notes au fil de la pensée avec breadcrumbs.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3083695b2f4fd136",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "prise de notes au fil de la pensée avec breadcrumbs",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"prise de notes au fil de la pensée avec breadcrumbs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "faire des notes séquentielles",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"faire des notes séquentielles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "faire des notes séquentielles.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -778,7 +1143,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#a-lire",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -858,12 +1223,13 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "d392c3e654e7953f",
             "type": "tabs",
-            "dimension": 43.08755760368664,
+            "dimension": 43.08755760368663,
             "children": [
               {
                 "id": "c7afda8b81d643de",
@@ -880,7 +1246,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Conseil étudiant 2023-06-21.md",
+                    "file": "faire des notes séquentielles.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -901,7 +1267,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Conseil étudiant 2023-06-21.md",
+                    "file": "faire des notes séquentielles.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -911,56 +1277,14 @@
                     "unlinkedCollapsed": false
                   }
                 }
-              },
-              {
-                "id": "cb9c41a428bebf8c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "things to do.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8d8d223c8b48a4c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "devoirs à faire.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 307.5
+        "width": 307.5,
+        "collapsed": true
       },
       "right": {
         "id": "1102f19b896c7a16",
@@ -969,76 +1293,8 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 39.97695852534562,
+            "dimension": 38.17980022197558,
             "children": [
-              {
-                "id": "65904bbda5784ace",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "d45511af0bde9bcf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "309f8009b1cc52b3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "custom-frames-detexify",
-                  "state": {}
-                }
-              },
-              {
-                "id": "2c78bc8186d3e556",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "QUICKSHARE_SIDE_VIEW",
-                  "state": {}
-                }
-              },
               {
                 "id": "32d6a52d872d783d",
                 "type": "leaf",
@@ -1054,9 +1310,9 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Conseil étudiant 2023-06-21.md",
+                    "file": "faire des notes séquentielles.md",
                     "options": {
-                      "collapse-filter": false,
+                      "collapse-filter": true,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
@@ -1190,19 +1446,125 @@
                       "repelStrength": 15.7893880208333,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.8807715473190079,
+                      "scale": 1.8901741284501532,
                       "close": true
                     }
                   }
                 }
+              },
+              {
+                "id": "b1de0ab08674d879",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0677c3600b66a0f5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8d8d223c8b48a4c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "devoirs à faire.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d45511af0bde9bcf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "309f8009b1cc52b3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "custom-frames-detexify",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2c78bc8186d3e556",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "QUICKSHARE_SIDE_VIEW",
+                  "state": {}
+                }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "3b58d11fec2fca87",
             "type": "tabs",
-            "dimension": 26.72811059907834,
+            "dimension": 25.638179800221977,
             "children": [
               {
                 "id": "e3daddeed64a3c86",
@@ -1226,7 +1588,7 @@
           {
             "id": "9b0b445260de35cb",
             "type": "tabs",
-            "dimension": 33.294930875576036,
+            "dimension": 36.18201997780244,
             "children": [
               {
                 "id": "a05eecb7dce21915",
@@ -1283,14 +1645,13 @@
           }
         ],
         "direction": "horizontal",
-        "width": 334.5
+        "width": 448.5
       },
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-spaced-repetition:Review flashcards": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "zk-prefixer:Create new unique note": false,
-          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
           "graph:Open graph view": true,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": true,
@@ -1307,7 +1668,7 @@
           "darlal-switcher-plus:Open Symbols for the active editor": false
         }
       },
-      "active": "ed16a702fdf621b8",
+      "active": "3083695b2f4fd136",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -1315,11 +1676,13 @@
         "explorerFoldState": [
           "blog/posts",
           "blog/posts/welcome/_images",
+          "images",
+          "images/graph",
           "sources/cours",
           "sources/cours/S4"
         ]
       }
     }
   },
-  "active": "perso"
+  "active": "fac"
 }

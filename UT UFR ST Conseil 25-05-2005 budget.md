@@ -1,7 +1,7 @@
 up:: [[Conseil UFR 25-05-2023]]
 title:: ""
 date:: 2023-05-25
-#université 
+#fac 
 
 ---
 

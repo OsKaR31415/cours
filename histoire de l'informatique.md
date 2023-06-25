@@ -1,4 +1,4 @@
-up::[[MOC informatique]]
+up::[[informatique]]
 title::"historique de la création de l'informatique"
 #informatique
 

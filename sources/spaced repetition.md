@@ -1,4 +1,4 @@
-up::[[MOC PKM|PKM]]
+up::[[PKM|PKM]]
 link::https://ncase.me/remember/fr.html
 title::"méthode d'apprentissage"
 #PKM #obsidian

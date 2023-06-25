@@ -1,4 +1,3 @@
-up:: [[MOC magie]]
 title:: "Evi"
 #magie
 
