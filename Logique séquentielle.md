@@ -1,9 +1,10 @@
+---
+cssClass:
+ - cards
+---
 up:: [[électronique]] 
 sibling:: [[logique combinatoire]]
-title::
-#science #logique 
-
----
+#science #maths/logique 
 
 
 > [!query] Sous-notes de `=this.file.link`

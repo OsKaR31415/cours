@@ -1,6 +1,3 @@
----
-alias: [ "livres pretes", "livres pretés" ]
----
 up::[[PKM|PKM]]
 #PKM 
 

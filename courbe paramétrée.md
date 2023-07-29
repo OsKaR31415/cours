@@ -4,7 +4,7 @@ sr-interval: 32
 sr-ease: 305
 ---
 
-up::[[MOC analyse]]
+up::[[analyse]]
 #maths/analyse
 
 ---

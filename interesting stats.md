@@ -15,7 +15,7 @@ There are `$= dv.pages().length` notes in this vault.
 Statistics :
  - :obs_links_going_out: average of `$= Math.round(eval(dv.pages("").file.map((f)=>f.outlinks.length).join("+")) / (dv.pages("").file.length)*100)/100` outlinks per note
  - :obs_links_coming_in: average of `$= Math.round(eval(dv.pages("").file.map((f)=>f.inlinks.length).join("+")) / (dv.pages("").file.length)*100)/100` inlinks per note
-     - 
+
 
 > [!query]- :obs_links_coming_in: Notes with a lot of inlinks (backlinks)
 > ```dataview

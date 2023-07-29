@@ -1,7 +1,7 @@
 ---
 alias: [ "xⁿ - aⁿ", "factorisation de xⁿ - aⁿ" ]
 ---
-up::[[MOC analyse]] 
+up::[[analyse]] 
 title:: $x^{n} - a^{n} = (x-a) \times \sum\limits_{k=0}^{n-1} x^{k}a^{n-k}$
 #maths/analyse 
 

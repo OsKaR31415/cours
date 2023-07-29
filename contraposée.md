@@ -1,5 +1,5 @@
 title:: "la contraposée de $P \implies Q$ est $(\text{non }Q) \implies (\text{non } P)$"
-#logique
+#maths/logique
 
 ---
 

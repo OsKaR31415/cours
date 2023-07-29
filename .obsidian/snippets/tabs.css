@@ -2,15 +2,13 @@ body {
     --tab-stacked-pane-width: 100%;
 }
 
-.workspace-tab-header-inner {
-    padding-left: 0pt !important;
-    padding-right: 0pt !important;
-    /* width: 15pt; */
-}
+/* tabs of the side panes */
+/* .workspace-tab-header-inner { */
+/*     padding-left: 0pt !important; */
+/*     padding-right: 0pt !important; */
+/*     /1* width: 15pt; *1/ */
+/* } */
 
-.workspace-tab-header {
-    /* width: 15pt !important; */
-}
 
 /* /1* write the letters vertically *1/ */
 /* .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner-title{ */

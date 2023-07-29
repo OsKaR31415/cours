@@ -1,9 +1,9 @@
-up::[[MOC trigonométrie]]
+up::[[trigonométrie]]
 #maths/trigonométrie
 
 ----
 
-> [!smallquery] Sous-notes de [[MOC trigonométrie]]
+> [!smallquery] Sous-notes de [[trigonométrie]]
 > ```dataview
 > TABLE title as "nom", description, derivative, primitive, properties
 > FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC AND -#démonstration

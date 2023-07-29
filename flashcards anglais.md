@@ -3,7 +3,7 @@
 ----
 
 _praise_ :: éloges, admiration
-<!--SR:!2023-06-24,2,190-->
+<!--SR:!2023-09-16,60,210-->
 
 _overcrowded_ ::: surpeuplé, encombré
 <!--SR:!2023-07-29,230,310!2025-08-03,773,308-->
@@ -51,16 +51,16 @@ scarcity :: rareté
 <!--SR:!2023-10-20,176,229-->
 
 to streamline :: simplifier (rendre accessible), uniformiser
-<!--SR:!2023-07-16,80,204-->
+<!--SR:!2023-12-29,164,204-->
 
 to impersonate ::: imiter
-<!--SR:!2023-06-24,2,164!2023-06-25,3,204-->
+<!--SR:!2023-07-30,12,130!2023-07-20,2,184-->
 
 whereabouts ::: localisation, endroit
 <!--SR:!2024-06-06,380,284!2024-03-14,314,284-->
 
 to be fined :: recevoir une amende
-<!--SR:!2023-06-26,3,164-->
+<!--SR:!2023-09-01,45,204-->
 
 to part with :: se séparer de
 <!--SR:!2023-09-02,128,224-->

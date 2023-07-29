@@ -1,4 +1,4 @@
-up::[[MOC analyse]], [[MOC arithmétique]]
+up::[[analyse]], [[MOC arithmétique]]
 #maths/analyse #maths/arithmétique
 
 ----

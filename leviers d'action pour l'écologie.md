@@ -1,3 +1,6 @@
+---
+alias: [ "leviers action écologie" ]
+---
 up:: [[écologie]]
 title:: "moyens d'action politiques pour l'écologie"
 #politique #science/écologie 

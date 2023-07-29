@@ -1,10 +1,10 @@
----
-next: ['next of faire des notes séquentielles']
----
+#PKM 
 prev:: [[prise de notes au fil de la pensée avec breadcrumbs]]
 
 Utiliser les relations `next` et `prev` de [[obsidian plugin breadcrumbs]] pour former une chaîne de notes.
 
- - permet de garder des notes unitaires
+ - encourage les [[notes atomiques]]
  - donne un meilleur contexte aux notes
  - suit le [[prise de notes au fil de la pensée avec breadcrumbs|fil de la pensée]]
+ - encourage des titres plus clairs
+

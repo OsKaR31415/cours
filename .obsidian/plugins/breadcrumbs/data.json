@@ -4,7 +4,7 @@
   "aliasesInIndex": false,
   "alphaSortAsc": true,
   "altLinkFields": [
-    "name"
+    "alias"
   ],
   "CSVPaths": "",
   "createIndexIndent": "  ",
@@ -19,15 +19,15 @@
   "dendronNoteField": "up",
   "dvWaitTime": 5000,
   "enableAlphaSort": true,
-  "enableRelationSuggestor": false,
-  "fieldSuggestor": true,
+  "enableRelationSuggestor": true,
+  "fieldSuggestor": false,
   "filterImpliedSiblingsOfDifferentTypes": false,
   "jugglLayout": "hierarchy",
   "limitWriteBCCheckboxes": [
     "up",
-    "down",
     "next",
-    "prev"
+    "prev",
+    "author"
   ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
   "gridDefaultDepth": 25,
@@ -50,10 +50,10 @@
   "showNameOrType": true,
   "showRelationType": true,
   "regexNoteField": "",
-  "relSuggestorTrigger": "\\",
+  "relSuggestorTrigger": "@@",
   "rlLeaf": false,
   "showAllPathsIfNoneToIndexNote": false,
-  "showAllAliases": true,
+  "showAllAliases": false,
   "showBCs": true,
   "showBCsInEditLPMode": true,
   "showRefreshNotice": false,
@@ -71,16 +71,22 @@
     4
   ],
   "limitTrailCheckboxes": [
-    "up"
+    "up",
+    "author"
   ],
   "limitJumpToFirstFields": [
     "up",
     "sibling",
-    "down"
+    "down",
+    "next",
+    "prev",
+    "author",
+    "same_author",
+    "wrote"
   ],
   "showAll": "All",
   "noPathMessage": "",
-  "tagNoteField": "",
+  "tagNoteField": "down",
   "threadIntoNewPane": true,
   "threadingTemplate": "{{field}} of {{current}}",
   "threadingDirTemplates": {
@@ -112,10 +118,23 @@
       "prev": [
         "prev"
       ]
+    },
+    {
+      "up": [
+        "author"
+      ],
+      "same": [
+        "same_author"
+      ],
+      "down": [
+        "wrote"
+      ],
+      "next": [],
+      "prev": []
     }
   ],
   "writeBCsInline": true,
-  "showWriteAllBCsCmd": true,
+  "showWriteAllBCsCmd": false,
   "visGraph": "Force Directed Graph",
   "visRelation": "Parent",
   "visClosed": "Closed",
@@ -125,7 +144,7 @@
     "siblingIdentity": false,
     "sameParentIsSibling": true,
     "siblingsSiblingIsSibling": true,
-    "siblingsParentIsParent": true,
+    "siblingsParentIsParent": false,
     "parentsSiblingsIsParents": false,
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false

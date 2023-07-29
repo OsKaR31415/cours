@@ -5,7 +5,7 @@ alias:
   - "a \sin(x) + b \cos(x) = \sqrt{a^2 + b^2} \sin(x + \phi)"
   - "a \sin(x) + b \cos(x) = \sqrt{a^2 + b^2} \cos(x - \phi)"
 ---
-up:: [[MOC trigonométrie|trigonométrie]]
+up:: [[trigonométrie|trigonométrie]]
 title:: "$a \cos(x) + b \sin(x) = \sqrt{ a^{2}+b^{2} } \sin (x + \varphi)$", "où $\cos \varphi = \dfrac{b}{\sqrt{ a^{2} + b^{2} }}$ et $\sin\varphi = \dfrac{a}{\sqrt{ a^{2} + b^{2} }}$"
 #maths/trigonométrie 
 

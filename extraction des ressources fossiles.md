@@ -1,3 +1,6 @@
+---
+alias: [ "extraction ressources fossiles" ]
+---
 up:: [[ressources fossiles]]
 title:: "problèmes de pollution locale"
 #science/écologie 

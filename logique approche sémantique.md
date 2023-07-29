@@ -2,7 +2,7 @@
 alias: [ "approche sémantique de la logique", "approche sémantique" ]
 ---
 up::[[logique formelle]]
-#logique
+#maths/logique
 
 ---
 

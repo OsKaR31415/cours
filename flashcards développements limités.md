@@ -89,7 +89,7 @@ $\displaystyle\mathrm{ch}(x) = 1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots 
 _somme des $\frac{x^{k}}{k!}$_ quand $2$ divise $k$
 Puissances **paires** car $\mathrm{ch}$ est une [[fonction paire]]
 Mêmes termes que $\mathrm{DL}_{n}: e^{x}$
-<!--SR:!2023-06-26,4,197-->
+<!--SR:!2023-07-05,9,197-->
 
 
 

@@ -1,4 +1,4 @@
-up:: [[note taking]]
+up:: [[prise de notes]]
 title:: "look forward", "stay in the moment (premission to get messy)", "look back (memory/log)", "daily note as a central hub"
 #PKM
 

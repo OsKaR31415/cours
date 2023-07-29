@@ -1,4 +1,4 @@
-up:: [[MOC algèbre]]
+up:: [[algèbre]]
 title::
 #maths/algèbre
 
@@ -10,7 +10,7 @@ title::
 > Une *forme quadratique* sur $E$ est une [[application]] $Q$ de $E \to \mathbf{K}$ qui s'exprique quelle que soit la [[base d'un espace vectoriel|base]], sous la forme d'un [[polynôme homogène]] de [[degré d'un polynôme|degré]] $2$
 ^definition
 
-> [!definition] Forme quadratique
+> [!definition]- Autre définition
 > Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] de [[dimension d'un espace vectoriel|dimension]] finie
 > Une *forme quadratique* sur $E$ est une [[application]] $q$ de $E \to \mathbf{K}$ qui peut s'exprimer comme $q(x) = b(x, x)$, où $b$ est une [[forme bilinéaire]] de $E^{2} \to \mathbf{K}$
 

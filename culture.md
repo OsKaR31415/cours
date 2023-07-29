@@ -1,3 +1,4 @@
+down:: [[réduction des inégalités culturelles]]
 up:: [[politique]]
 title:: "réduite à l'art professionnel au siècle dernier"
 #politique

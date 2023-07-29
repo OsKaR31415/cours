@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ---
 Ou _complétude forte_.

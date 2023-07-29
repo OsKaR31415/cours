@@ -223,24 +223,6 @@
       "key": "D"
     }
   ],
-  "daily-notes:goto-prev": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "daily-notes:goto-next": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
@@ -425,8 +407,22 @@
       "key": "ArrowDown"
     }
   ],
-  "breadcrumbs:jump-to-first-next": [],
-  "breadcrumbs:jump-to-first-prev": [],
+  "breadcrumbs:jump-to-first-next": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "breadcrumbs:jump-to-first-prev": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
   "breadcrumbs:new-file-with-curr-as-up": [
     {
       "modifiers": [
@@ -434,22 +430,26 @@
         "Shift"
       ],
       "key": "ArrowUp"
-    }
-  ],
-  "breadcrumbs:new-file-with-curr-as-sibling": [
+    },
     {
       "modifiers": [
         "Ctrl",
-        "Mod",
         "Shift"
       ],
-      "key": "Tab"
+      "key": "ArrowUp"
     }
   ],
   "breadcrumbs:new-file-with-curr-as-prev": [
     {
       "modifiers": [
         "Mod",
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
         "Shift"
       ],
       "key": "ArrowLeft"
@@ -462,12 +462,26 @@
         "Shift"
       ],
       "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowRight"
     }
   ],
   "breadcrumbs:new-file-with-curr-as-down": [
     {
       "modifiers": [
         "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
         "Shift"
       ],
       "key": "ArrowDown"
@@ -564,7 +578,8 @@
   "workspaces-plus:open-workspaces-plus": [
     {
       "modifiers": [
-        "Ctrl"
+        "Ctrl",
+        "Shift"
       ],
       "key": "W"
     }
@@ -657,5 +672,15 @@
       ],
       "key": "N"
     }
-  ]
+  ],
+  "breadcrumbs:new-file-with-curr-as-sibling": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "workspace:goto-tab-5": []
 }

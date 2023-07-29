@@ -3,7 +3,6 @@ alias: "vecteur propre"
 ---
 up::[[endomorphisme linéaire]]
 sibling::[[valeur propre d'une application linéaire|valeur propre]]
-name:: "$u \neq 0_{E}$ tel que $\exists \lambda \in \mathbb{R}, \quad f(u) = \lambda u$"
 #maths/algèbre 
 
 ----

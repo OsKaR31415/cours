@@ -1,10 +1,11 @@
-> [!smallquery] devoirs
+
+> [!smallquery] Liste des devoirs
 > ```dataview
-> TABLE due, difficulty as "", title as "description"
+> TABLE due, "<progress value='"+difficulty+"' max='10'></progress>" as "difficulty", title as "description"
 > FROM #devoir AND -"templates"
-> SORT importance ASC
-> SORT due
+> SORT due, importance
 > ```
+
 
 
 

@@ -12,19 +12,19 @@ algèbre ^T9j20WEf
 
 [[géométrie]] ^pWDPOZIa
 
-[[MOC trigonométrie]] ^5fSh84z0
+[[trigonométrie]] ^5fSh84z0
 
-[[MOC algèbre]] ^vSJqPRhu
+[[algèbre]] ^vSJqPRhu
 
-[[MOC algèbre#Algèbre linéaire]] ^MiFV7DPU
+[[algèbre#Algèbre linéaire]] ^MiFV7DPU
 
 [[MOC arithmétique]] ^pBnh3P6R
 
-[[MOC analyse]] ^MfX13frK
+[[analyse]] ^MfX13frK
 
-[[MOC algèbre#Structures algébriques]] ^Gv5GqpKr
+[[algèbre#Structures algébriques]] ^Gv5GqpKr
 
-[[MOC fonctions]] ^uAJvEC9Y
+[[fonctions]] ^uAJvEC9Y
 
 [[MOC polynômes]] ^uvugaON2
 

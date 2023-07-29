@@ -21894,6 +21894,7 @@ var StatReactView = () => {
     plugin.theSprint.stop();
   };
   const startSprint = () => {
+    plugin.startButtonUsed();
     plugin.startSprintCommand();
   };
   return /* @__PURE__ */ React3.createElement("div", {
@@ -21927,7 +21928,9 @@ var StatReactView = () => {
     onClick: () => {
       stopSprint();
     }
-  }, "Stop")), /* @__PURE__ */ React3.createElement("hr", {
+  }, "Stop")), plugin.settings.nanowrimoProjectName && /* @__PURE__ */ React3.createElement("div", {
+    id: "nanowrimoProject"
+  }, plugin.settings.nanowrimoProjectName), /* @__PURE__ */ React3.createElement("hr", {
     style: { marginBottom: 0 }
   }), /* @__PURE__ */ React3.createElement("div", {
     id: "sectionTab",
@@ -22078,6 +22081,8 @@ var DEFAULT_SETTINGS = {
 var WordSprintPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
+    this.startButtonClicked = false;
+    this.startButtonClickedFirstLetter = false;
     this.sprintHistory = [];
   }
   emptyTotalStats() {
@@ -22267,6 +22272,32 @@ var WordSprintPlugin = class extends import_obsidian6.Plugin {
         })
       });
       this.addCommand({
+        id: "insert-all-word-sprint-stats-table",
+        name: "Insert All Word Sprint Stats Table",
+        editorCallback: (editor) => __async(this, null, function* () {
+          let statsText = "";
+          statsText += `### Word Sprints Table
+`;
+          statsText += "| # | Length | Total Words | Average Words | Yellow Notices | Red Notices | Longest Stretch Not Writing | Total Time Not Writing | Total Words Added | Total Words Deleted | Total Net Words |\n";
+          statsText += "|---|--------|-------------|---------------|----------------|-------------|-----------------------------|------------------------|-------------------|---------------------|-----------------|\n";
+          this.sprintHistory.forEach((sprint, index) => {
+            statsText += `| ${index + 1}`;
+            statsText += `| ${sprint.sprintLength}`;
+            statsText += `| ${sprint.totalWordsWritten}`;
+            statsText += `| ${(0, import_numeral4.default)(sprint.averageWordsPerMinute).format("0.0")}`;
+            statsText += `| ${sprint.yellowNotices}`;
+            statsText += `| ${sprint.redNotices}`;
+            statsText += `| ${secondsToHumanize(sprint.longestStretchNotWriting)}`;
+            statsText += `| ${secondsToHumanize(sprint.totalTimeNotWriting)}`;
+            statsText += `| ${sprint.wordsAdded}`;
+            statsText += `| ${sprint.wordsDeleted}`;
+            statsText += `| ${sprint.wordsNet}`;
+            statsText += "|\n";
+          });
+          editor.replaceSelection(statsText);
+        })
+      });
+      this.addCommand({
         id: "start-word-sprint",
         name: "Start Word Sprint",
         callback: () => {
@@ -22314,6 +22345,10 @@ var WordSprintPlugin = class extends import_obsidian6.Plugin {
       }
     });
   }
+  startButtonUsed() {
+    this.startButtonClicked = true;
+    this.startButtonClickedFirstLetter = true;
+  }
   startSprintCommand() {
     if (this.theSprint && this.theSprint.isStarted()) {
       new import_obsidian6.Notice("Sprint already started! Please stop current sprint if you'd like to reset");
@@ -22324,7 +22359,6 @@ var WordSprintPlugin = class extends import_obsidian6.Plugin {
       this.saveStats();
       this.theSprint = new SprintRun(this.settings.sprintLength, this.settings.yellowNoticeTimeout, this.settings.redNoticeTimeout);
     } else {
-      this.theSprint.updateSprintLength(this.settings.sprintLength);
       this.theSprint.updateNoticeTimeout(this.settings.yellowNoticeTimeout, this.settings.redNoticeTimeout);
     }
     let previousWordCount = 0;
@@ -22403,6 +22437,11 @@ var WordSprintPlugin = class extends import_obsidian6.Plugin {
   onQuickPreview(file, contents) {
     if (this.app.workspace.getActiveViewOfType(import_obsidian6.MarkdownView)) {
       if (this.theSprint && this.theSprint.isStarted()) {
+        if (this.startButtonClicked && this.startButtonClickedFirstLetter) {
+          this.theSprint.previousWordCount = getWordCount(contents) - 1;
+          this.startButtonClicked = false;
+          this.startButtonClickedFirstLetter = false;
+        }
         this.debouncedUpdate(contents, file.path);
       }
     }

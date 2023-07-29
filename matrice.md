@@ -1,4 +1,4 @@
-up::[[MOC algèbre]]
+up::[[algèbre]]
 #maths/algèbre
 
 ----
@@ -25,4 +25,6 @@ $A_{2,3} = 6$
 > title: false
 > type: tree
 > dir: down
+> depth: -2
 > ```
+

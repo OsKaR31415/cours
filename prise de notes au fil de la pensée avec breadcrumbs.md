@@ -1,6 +1,7 @@
 ---
 alias: [ "fil de la pensée" ]
 ---
+
 up:: [[2023-06-26]], [[obsidian plugin breadcrumbs]]
 next:: [[faire des notes séquentielles]] 
 #PKM 
@@ -9,3 +10,5 @@ next:: [[faire des notes séquentielles]]
  - suivre le fil de la pensée
  - encourage les notes unitaires : [[faire des notes séquentielles]]
 
+- [p]  down:: [[avantages de la prise de notes au fil de la pensée]]
+- [c]  down:: [[désavantages de la prise de notes au fil de la pensée]] 

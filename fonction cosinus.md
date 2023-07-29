@@ -1,7 +1,7 @@
 ---
 alias: ["cos", "cosinus"]
 ---
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[trigonométrie]], [[fonctions]]
 sibling::[[fonction sinus|sin]]
 derivative::[[fonction sinus|-sin]]
 primitive::[[fonction sinus|sin]]

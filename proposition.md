@@ -1,3 +1,3 @@
-#logique
+#maths/logique
 
 ----

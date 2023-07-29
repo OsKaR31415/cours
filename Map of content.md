@@ -1,7 +1,7 @@
 ---
 alias: "Maps Of Content"
 ---
-up:: [[note taking]]
+up:: [[prise de notes]]
 title:: "List of concepts about a subject"
 #PKM #not-done
 

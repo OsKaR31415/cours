@@ -4,7 +4,7 @@ sr-due: 2022-09-10
 sr-interval: 22
 sr-ease: 302
 ---
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[trigonométrie]], [[fonctions]]
 sibling::[[fonction sinus hyperbolique|sh]]
 derivative::[[fonction sinus hyperbolique|-sh]]
 primitive::

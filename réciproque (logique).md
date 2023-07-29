@@ -2,7 +2,7 @@
 alias: [ "réciproque" ]
 ---
 title:: "la réciproque de $P \implies Q$ est $Q \implies P$"
-#logique#not-done 
+#maths/logique#not-done 
 
 ----
 

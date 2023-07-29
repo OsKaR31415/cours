@@ -314,7 +314,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "up::\ntitle::\n#\n\n---"
+        "format": "up::\n#\n"
       },
       "insertAfter": {
         "enabled": false,

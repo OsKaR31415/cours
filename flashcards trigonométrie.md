@@ -35,10 +35,10 @@ $\dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
 <!--SR:!2023-07-18,25,190!2025-09-08,808,285-->
 
 Cosinus du double $\cos(2x) = ?$ ::: $\cos^2(x)-\sin^2(x)$
-<!--SR:!2023-06-24,1,238!2023-06-24,1,238-->
+<!--SR:!2023-06-30,4,238!2023-07-01,5,238-->
 
 Sinus du double $\sin(2x) = ?$ ::: $2\sin(x)\cos(x)$
-<!--SR:!2023-06-26,3,258!2023-06-24,1,238-->
+<!--SR:!2023-07-02,6,258!2023-07-06,10,258-->
 
 définition du [[fonction cosinus hyperbolique|cosinus hyperbolique]] $\mathrm{ch}(x)=?$ :: $\dfrac{e^{x}+e^{-x}}{2}$
 <!--SR:!2023-07-09,16,259-->

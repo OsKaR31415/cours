@@ -1,4 +1,4 @@
-up::[[MOC fonctions]]
+up::[[fonctions]]
 #maths/analyse
 
 ----

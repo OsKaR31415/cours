@@ -1,4 +1,4 @@
-up::[[MOC analyse|analyse]]
+up::[[analyse|analyse]]
 author::[[Descartes]]
 #maths
 

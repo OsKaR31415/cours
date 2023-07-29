@@ -1,0 +1,8 @@
+.excalibrain-dropdown-wrapper {
+    display: none;
+}
+
+div.excalibrain-contentEl > div > div > div > footer.layer-ui__wrapper__footer.App-menu.App-menu_bottom {
+    display: none;
+}
+

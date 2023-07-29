@@ -4,277 +4,181 @@
     "type": "split",
     "children": [
       {
-        "id": "e2184ca1870fd79a",
+        "id": "7542b443a5e11bff",
         "type": "tabs",
         "children": [
           {
-            "id": "ed16a702fdf621b8",
+            "id": "ec33c61e5ac0da9b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "militantisme",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"militantisme.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "compétence vs qualification",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"compétence vs qualification.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":1},\"to\":{\"line\":21,\"ch\":1}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "il faut fêter les actions militantes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfebed9727081589",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "2023-06-25",
+                  "title": "2023-07-29",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "magie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"magie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "PKM",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PKM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "note taking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"note taking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}},\"scroll\":0}"
-                },
-                {
-                  "title": "3 types de notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"3 types de notes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PKM",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PKM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":8.345005171067351}"
-                },
-                {
-                  "title": "politique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":3.515151515151515}"
-                },
-                {
-                  "title": "élites",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"élites.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "justifications de la domination des élites",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"justifications de la domination des élites.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":40},\"to\":{\"line\":11,\"ch\":40}},\"scroll\":0}"
-                },
-                {
-                  "title": "culture légitime et illégitime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"culture légitime et illégitime.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":21},\"to\":{\"line\":5,\"ch\":21}},\"scroll\":0}"
-                },
-                {
-                  "title": "art contemporain et politique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"art contemporain et politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":38},\"to\":{\"line\":0,\"ch\":38}},\"scroll\":1.5757575757575757}"
-                },
-                {
-                  "title": "politique",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":7.786739046141916}"
-                },
-                {
-                  "title": "Conseil étudiant 2023-06-21",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Conseil étudiant 2023-06-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Conseil étudiant",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Conseil étudiant.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Conseil étudiant 2023-06-21",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Conseil étudiant 2023-06-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}},\"scroll\":0.1875}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "échange nouvelle zélande.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "690fd160b2bafbe1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "valise nouvelle zellande",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"valise nouvelle zellande.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":15},\"to\":{\"line\":116,\"ch\":15}},\"scroll\":100.1715454154111}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "échange nouvelle zélande.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6375b90cd23d8312",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "matrice",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"matrice.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PKM.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85d849f52cfde691",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOC MOCs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "553cdf9da36b9938",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2023-06-26.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c221b5e6cc12bc5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prise de notes au fil de la pensée avec breadcrumbs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3083695b2f4fd136",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "prise de notes au fil de la pensée avec breadcrumbs",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"prise de notes au fil de la pensée avec breadcrumbs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-07-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "faire des notes séquentielles",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"faire des notes séquentielles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "faire des notes séquentielles.md",
+                "file": "il faut agir de façon innatendue.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00f3e2b09e359dac",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "il faut déranger l'ennemi en restant à l'aise.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "422669152341e462",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conférence gesticulée.Inculture 4 - le plein d'énergie.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "555bb16bfdaef801",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "militantisme.méthodes d'action",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"militantisme.méthodes d'action.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conférence gesticulée.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29025637741f5322",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3395e755a9ac12c2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fausse dichotomie.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -330,7 +234,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -410,8 +314,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d392c3e654e7953f",
@@ -433,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "faire des notes séquentielles.md",
+                "file": "fausse dichotomie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -454,7 +357,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "faire des notes séquentielles.md",
+                "file": "fausse dichotomie.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -480,10 +383,10 @@
       {
         "id": "980f845ab893296e",
         "type": "tabs",
-        "dimension": 38.17980022197558,
+        "dimension": 61.111111111111114,
         "children": [
           {
-            "id": "32d6a52d872d783d",
+            "id": "7e8d925b6fe03e46",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -497,146 +400,67 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "faire des notes séquentielles.md",
+                "file": "fausse dichotomie.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": true,
+                  "localInterlinks": false,
                   "showTags": false,
-                  "showAttachments": true,
+                  "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "tag:#not-done",
-                      "color": {
-                        "a": 1,
-                        "rgb": 8882055
-                      }
-                    },
-                    {
-                      "query": "tag:#MOC",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10354945
-                      }
-                    },
-                    {
-                      "query": "tag:#excalidraw",
-                      "color": {
-                        "a": 1,
-                        "rgb": 8019199
-                      }
-                    },
-                    {
-                      "query": "tag:#PKM OR tag:#obsidian",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4863904
-                      }
-                    },
-                    {
-                      "query": "tag:#flashcards",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4863904
-                      }
-                    },
-                    {
-                      "query": "tag:#gists",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6827411
-                      }
-                    },
-                    {
-                      "query": "tag:#CV",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11010185
-                      }
-                    },
-                    {
-                      "query": "tag:#maths",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2792960
-                      }
-                    },
-                    {
-                      "query": "tag:#logique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13050
-                      }
-                    },
-                    {
-                      "query": "tag:#informatique",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14772500
-                      }
-                    },
-                    {
-                      "query": "tag:#personne",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6655149
-                      }
-                    },
-                    {
-                      "query": "path:sources",
-                      "color": {
-                        "a": 1,
-                        "rgb": 3770873
-                      }
-                    },
-                    {
-                      "query": "tag:#science OR tag:#art OR tag:#autres OR tag:#cuisine",
-                      "color": {
-                        "a": 1,
-                        "rgb": 15646813
-                      }
-                    },
-                    {
-                      "query": "tag:#exercice OR tag:#cours OR tag:#fac",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16759552
-                      }
-                    },
-                    {
-                      "query": "tag:#devoir OR tag:#devoir-fait",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16711914
-                      }
-                    },
-                    {
-                      "query": "tag:#politique OR tag:#science/sociologie",
-                      "color": {
-                        "a": 1,
-                        "rgb": 35464
-                      }
-                    }
-                  ],
+                  "colorGroups": [],
                   "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": -1.2,
-                  "nodeSizeMultiplier": 1.1036865234375,
-                  "lineSizeMultiplier": 2.66151355284701,
-                  "collapse-forces": false,
-                  "centerStrength": 0.684000651041667,
-                  "repelStrength": 15.7893880208333,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
                   "linkStrength": 1,
-                  "linkDistance": 30,
-                  "scale": 1.8901741284501532,
+                  "linkDistance": 250,
+                  "scale": 0.9667757057270662,
                   "close": true
                 }
               }
+            }
+          },
+          {
+            "id": "a05eecb7dce21915",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ab5b0693ed3805a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "BC-tree",
+              "state": {}
             }
           },
           {
@@ -689,7 +513,7 @@
               "type": "markdown",
               "state": {
                 "file": "devoirs à faire.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -746,12 +570,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "3b58d11fec2fca87",
         "type": "tabs",
-        "dimension": 25.638179800221977,
+        "dimension": 38.88888888888889,
         "children": [
           {
             "id": "e3daddeed64a3c86",
@@ -771,68 +596,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "9b0b445260de35cb",
-        "type": "tabs",
-        "dimension": 36.18201997780244,
-        "children": [
-          {
-            "id": "a05eecb7dce21915",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "7ab5b0693ed3805a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "c44d5d92248e6c0a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "relation-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -850,62 +617,64 @@
       "obsidian-custom-frames:Open compteur NDLI": false,
       "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "3d-graph:3D Graph": false,
+      "random-note:Open random note": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3083695b2f4fd136",
+  "active": "3395e755a9ac12c2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "next of faire des notes séquentielles.md",
-    "faire des notes séquentielles.md",
-    "notes unitaires.md",
-    "prise de notes au fil de la pensée avec breadcrumbs.md",
-    "test.md",
-    "échange nouvelle zélande.md",
-    "obsidian plugin breadcrumbs.md",
-    "daily/2023-06-26.md",
-    "MOC MOCs.md",
-    "Depth-first search.md",
-    "informatique.algorithmes.md",
-    "zetetique.md",
-    "obsidian.md",
-    "probabilités.md",
-    "fonction de probabilités.md",
-    "MOC obsidian.md",
-    "informatique.md",
-    "géométrie.md",
-    "PKM.md",
-    "matrice.md",
-    "valise nouvelle zellande.md",
-    "tarification du carbonne.md",
-    "identités.md",
-    "daily/2023-06-25.md",
+    "sophisme.md",
+    "fausse dichotomie.md",
     "Untitled.md",
-    "magie.md",
+    "il faut déranger l'ennemi en restant à l'aise.md",
+    "conférence gesticulée.Inculture 4 - le plein d'énergie.md",
+    "conférence gesticulée.md",
+    "militantisme.méthodes d'action.md",
+    "il faut agir de façon innatendue.md",
+    "daily/2023-07-29.md",
+    "il faut fêter les actions militantes.md",
+    "espace euclidien.md",
+    "mathématiques.md",
+    "algèbre.md",
+    "permutation.md",
+    "transposition.md",
+    "décomposition en produit de transpositions.md",
+    "signature d'une permutation.md",
+    "principe de récurrence.md",
+    "C primitive open.md",
+    "matrice.md",
+    "équation quadratique.md",
+    "militantisme.md",
+    "compétence vs qualification.md",
+    "daily/2023-07-20.md",
+    "Excalidraw/digital logic sim computer 2023-07-18 09.57.52.excalidraw.md",
+    "digital logic sim computer.md",
+    "blog/_site/index-listing.json",
+    "blog/_site/index.feed-full-staged",
+    "blog/index-listing.json",
+    "blog/index.feed-full-staged",
+    "blog/site_libs/quarto-listing/quarto-listing.js",
+    "blog/site_libs/quarto-listing/list.min.js",
+    "blog/site_libs/quarto-listing",
+    "blog/index.html",
+    "blog/index_files/mediabag",
+    "blog/site_libs/quarto-search/quarto-search.js",
+    "blog/posts/maths/_images/virgule.png",
+    "blog/posts/maths/_images/Capture d’écran 2023-07-23 à 19.00.11.png",
+    "blog/_site/posts/maths/_images/virgule.png",
+    "blog/posts/maths/_images/Capture d’écran 2023-07-23 à 18.58.40.png",
+    "blog/_site/posts/autres/_images/apprentissage_et_motivation_methode_feynman.png",
+    "blog/posts/autres/_images/apprentissage_et_motivation_methode_feynman.png",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Invert colors.svg",
     "images/graph/graph_2023-06-24.png",
     "images/graph/graph_2022-11-24.png",
-    "images/graph/graph_2022-09-19.png",
-    "images/graph/graph_2022-09-13.png",
-    "images/graph/graph_2022-09-07.png",
-    "sources/2022-etude-la-prise-de-parole-en-public .pdf",
-    "informatique/python/AC/gol_static.py",
-    "informatique/python/whistlemouse/mouse_test.py",
-    "informatique/python/whistlemouse",
-    "Arithmétique.canvas",
-    "informatique/python/methode_euler.py~",
-    "informatique/python/noel/__pycache__/colors.cpython-311.pyc",
-    "informatique/python/methode_euler.py",
-    "sources/cours/S4/CC2_bis_modelisation.pdf",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota_zoom_2.png",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota_zoom_1.png",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/reverse_iota.png",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list_zoom_2.png",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/img/final/random_list_zoom_1.png",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/src/saved_statistics/data",
-    "informatique/python/L2/projet_algos_tri/projet_algos_tri/src/saved_statistics/bucket_sort quick_sort bubble_sort random_list.pkl"
+    "Arithmétique.canvas"
   ]
 }

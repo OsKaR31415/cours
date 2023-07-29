@@ -1,4 +1,4 @@
-up::[[MOC trigonométrie]]
+up::[[trigonométrie]]
 #maths/trigonométrie #démonstration 
 
 ----

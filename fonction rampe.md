@@ -1,4 +1,4 @@
-up::[[MOC fonctions]]
+up::[[fonctions]]
 title::"$R(x) = \begin{cases} x \text{ si } x \geq 0,\quad\\ 0 \text{ si } x < 0 \end{cases}$"
 #maths/analyse
 

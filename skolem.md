@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ----
 Un _skolem_ est une forme particulière de formules de la [[logique des predicats du premier ordre]].

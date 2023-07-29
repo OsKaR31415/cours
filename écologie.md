@@ -1,7 +1,5 @@
-title::
+up:: [[science]] 
 #science/écologie 
-
----
 
 > [!query]+ Sous-notes de `$= dv.el("span", "[[" + dv.current().file.name + "]]")`
 > ```breadcrumbs

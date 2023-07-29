@@ -1,8 +1,5 @@
 up:: [[politique]]
-title::
 #politique 
-
----
 
 L'éloquence permet de convaincre et même persuader ([[différence entre convaincre et persuader]]).
 Elle est l'arme des ([[bourgeoisie]]), qui leur permet de garder leur position, en ayant plus de voix que ceux qui ne sont pas éloquents.
@@ -13,7 +10,7 @@ Elle est l'arme des ([[bourgeoisie]]), qui leur permet de garder leur position, 
 
 > [!idea] Donner à tous l'éloquence
 > Par une [[importance de l'éducation politique|éducation politique]], on pourrait donner à tous les outils pour s'exprimer et se défendre à l'oral.
-> On peut aussi donner les outils de l'[[esprit critique]], afin de se défendre des [[sophismes]].
+> On peut aussi donner les outils de l'[[esprit critique]], afin de se défendre des [[sophisme]].
 > 
 > Notamment le combat de [[Clément Viktorovitch]].
 

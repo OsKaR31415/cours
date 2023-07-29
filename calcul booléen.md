@@ -2,7 +2,7 @@
 alias: "algèbre de Boole"
 ---
 author::[[George Boole]]
-#logique
+#maths/logique
 
 ---
 

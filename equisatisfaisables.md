@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ----
 Deux formules sont dites _equisatisfaisables_ ssi :

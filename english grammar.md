@@ -1,4 +1,4 @@
-up::[[english]]
+up::[[anglais|english]]
 title::""
 #anglais
 

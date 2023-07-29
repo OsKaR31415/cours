@@ -1,4 +1,4 @@
-up::[[MOC algèbre]]
+up::[[algèbre]]
 #maths/algèbre
 
 ----

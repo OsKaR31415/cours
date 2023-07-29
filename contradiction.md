@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ---
 Une contradiction est une [[proposition]] qui n'admet **aucun [[modèle]]**.

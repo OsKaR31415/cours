@@ -1,4 +1,4 @@
-u\p::[[MOC analyse]]
+u\p::[[analyse]]
 #maths/analyse 
 
 ---

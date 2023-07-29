@@ -4,7 +4,7 @@ sr-due: 2022-12-18
 sr-interval: 79
 sr-ease: 277
 ---
-up::[[MOC analyse]]
+up::[[analyse]]
 #maths/analyse 
 
 ---

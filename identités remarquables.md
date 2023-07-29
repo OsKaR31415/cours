@@ -1,7 +1,7 @@
 ---
 alias: [ "identité remarquable" ]
 ---
-up:: [[MOC analyse|analyse]]
+up:: [[analyse|analyse]]
 title:: "$a^{2}+2ab+b^{2} = (a+b)^{2}$", "$a^{2} - 2ab+b^{2} = (a-b)^{2}$", "$a^{2} - b^{2} = (a+b)(a-b)$"
 #maths/analyse 
 

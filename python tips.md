@@ -1,6 +1,6 @@
 up::[[python]]
 title::"interesting python codes and techniques"
-#MOC #informatique/python
+#informatique/python
 
 ---
 

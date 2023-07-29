@@ -1,4 +1,3 @@
-up::[[PKM|PKM]]
 #PKM
 
 ---
@@ -12,7 +11,7 @@ up::[[PKM|PKM]]
 
 
 
-> [!done] Devoirs faits
+> [!done]- Devoirs faits
 > ```dataview
 > TABLE due, "<progress value=" + difficulty + " max='10'></progress>" as "difficulty", title as "description"
 > FROM #devoir-fait

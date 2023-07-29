@@ -8,7 +8,7 @@ title:: "différences qui justifient que l'élite reste la même et dirige :", "
 ---
 
 Comment les élites justifient-elles leur domination (pouvoir politique et financier) ?
-En faisant croire à une [[méritocratie]]. Les élites ont du mérite par :
+En faisant croire au [[mythe de la méritocratie]]. Les élites ont du mérite par :
  - leur **instruction** plus importante ([[différence entre l'éducation et l'instruction|instruction et pas éducation]])
      - quasi-monopole de la [[culture légitime et illégitime|culture légitime]]
  - par [[le pouvoir de l'éloquence|l'éloquence]] (qui leur permet aussi de rester au pouvoir)

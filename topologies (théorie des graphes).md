@@ -1,5 +1,5 @@
 up::[[graphe]]
-#maths/graphesr
+#maths/graphes
 
 ----
 Il existe 3 grandes familles de [[graphe|graphes]], et 5 catégories au total.

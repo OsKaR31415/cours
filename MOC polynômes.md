@@ -1,20 +1,10 @@
-up::[[MOC fonctions]]
-#MOC #maths/analyse 
+up::[[fonctions]]
+#maths/analyse 
 
 ----
 MOC sur les [[polynôme|polynômes]]
 
-> [!query]- Sous-notes de [[polynôme]]
-> ```dataview
-> TABLE up as "Up", up.up as "2-Up", up.up.up as "3-Up", up.up.up.up as "4-Up"
-> FROM -#excalidraw AND -#MOC
-> WHERE contains(up,          [[polynôme]])
->    or contains(up.up,       [[polynôme]])
->    or contains(up.up.up,    [[polynôme]])
->    or contains(up.up.up.up, [[polynôme]])
-> WHERE file.name != this.file.name
-> SORT up.up.up.up, up.up.up, up.up, up
-> ```
+
 
  - [[racines d'un polynôme|racines]]
  - [[discriminant]]

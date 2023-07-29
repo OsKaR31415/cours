@@ -69,6 +69,7 @@ chaussures
          - 2 paquets neufs
      - 2 paquets neufs
      - porte cartes x2
+     - double paquet avec change pour le jeu blanc
 
  - banane noire
      - carte bleue "au cas où"

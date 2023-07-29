@@ -1,7 +1,4 @@
 ---
-sr-due: 2022-11-11
-sr-interval: 97
-sr-ease: 267
 alias: "ev"
 ---
 up::[[espace]]
@@ -47,15 +44,13 @@ On dit que $(E, +, \cdot)$ est l'espace vectoriel $E$ muni de $+$ et de $\cdot$ 
 
  - L'intersection de deux [[sous espace vectoriel|sous-espaces vectoriels]] ([[sous espace vectoriel|sous-espaces]] d'un même espace vectoriel) est **toujours un [[espace vectoriel]]**
  - Le [[produit cartésien]] de deux [[espace vectoriel|espaces vectoriels]] est toujours un [[espace vectoriel]]
- - 
 
 
-> [!query] Sous-notes de `=this.file.link`
-> ```dataview
-> LIST title
-> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
-> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
-> WHERE file != this.file
-> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up
+
+> [!query]+ Sous-notes de `$= dv.el("span", "[[" + dv.current().file.name + "]]")`
+> ```breadcrumbs
+> title: false
+> type: tree
+> dir: down
 > ```
 

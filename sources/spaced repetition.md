@@ -1,3 +1,6 @@
+---
+alias: [ "répétition espacée" ]
+---
 up::[[PKM|PKM]]
 link::https://ncase.me/remember/fr.html
 title::"méthode d'apprentissage"

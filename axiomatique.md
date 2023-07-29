@@ -1,4 +1,4 @@
-#maths #logique
+#maths #maths/logique
 
 ---
 

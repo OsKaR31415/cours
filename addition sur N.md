@@ -1,5 +1,5 @@
 up::[[définition axiomatique de N]]
-#maths #logique
+#maths #maths/logique
 
 ---
 

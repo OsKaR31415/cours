@@ -1,7 +1,7 @@
 ---
 alias: [ "linked notes" ]
 ---
-up:: [[note taking]]
+up:: [[prise de notes]]
 title:: "les liens apportent du sens et aident la navigation"
 #pkm #not-done 
 

@@ -1,7 +1,7 @@
 ---
 alias: [ "ENCODE", "framework ENCOE" ]
 ---
-up::[[note taking]]
+up::[[prise de notes]]
 #PKM #review 
 
 ----

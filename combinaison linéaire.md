@@ -1,7 +1,7 @@
 ---
 alias: "combinaisons linéaires"
 ---
-up::[[MOC algèbre]]
+up::[[algèbre]]
 sibling:: [[application linéaire]]
 #maths/algèbre
 
@@ -10,7 +10,7 @@ Une _combinaison linéaire_ est une expression construite à partir d'un ensembl
 
 # Exemples
 Une combainaison linéaire de $x$ et $y$ serait une expression de la forme $ax + by$ où $a$ et $b$ sont des constantes.
-Ce concept est central en [[MOC algèbre#Algèbre linéaire|algèbre linéaire]]
+Ce concept est central en [[algèbre#Algèbre linéaire|algèbre linéaire]]
 
 > [!query] Sous-notes de `=this.file.link`
 > ```dataview

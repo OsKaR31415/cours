@@ -4,7 +4,7 @@ sr-interval: 14
 sr-ease: 270
 alias: [ "sl", "systèmes linéaires" ]
 ---
-up::[[MOC algèbre]]
+up::[[algèbre]]
 title::"système d'équations linéaires (combinaisons linéaires des variables)"
 #maths/algèbre
 

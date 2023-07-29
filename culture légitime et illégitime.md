@@ -1,15 +1,15 @@
 ---
-alias: [ "culture légitime", "culture illégitime" ]
+alias: [ "culture légitime vs illégitime", "culture légitime", "culture illégitime" ]
 ---
 up:: [[culture]]
-title:: "opposition entre la culture du peuple et celle de l'élite. [[justifications de la domination des élites|justifie la domination des élites]]
 #politique #éducation 
 
----
-
- - opposition entre le peuple et l'élite : culture illégitime / légitime
+ - opposition entre le peuple et l'élite
+     - culture **illégitime** contre culture **légitime**
+     - culture **institutionnelle** contre culture **populaire**
  - l'élite s'accapare le monopole de la culture (celle du peuple est illégitime)
      - moyen de [[justifications de la domination des élites|justifier la domination des élites]]
+
 
 > [!missing]+ Ce qui n'est plus de la culture
 >  - paysannerie
@@ -34,7 +34,11 @@ title:: "opposition entre la culture du peuple et celle de l'élite. [[justifica
 > [!question]+ Qui définit la culture légitime ?
 > D'après [[Pierre Bourdieu]], c'est toujours la [[bourgeoisie]] qui définit la culture légitime.
 > On parle même de "culture bourgeoise".
-
 ^d8e3c2
 
-
+> [!question] Méchanismes
+> - légitimation par un "acte de création"
+>     - vocabulaire religieux, dogme de l'acte de création
+>     - empêche toute critique : même si c'est nul, c'est un acte de création
+>     - voir : [[art contemporain]]
+> - limité aux artistes professionnels

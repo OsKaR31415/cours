@@ -1,7 +1,7 @@
 ---
 alias: [ "xⁿ - 1", "factorisation de xⁿ - 1" ]
 ---
-up:: [[MOC analyse|analyse]]
+up:: [[analyse|analyse]]
 sibling:: [[factorisation de x puissance n moins a puissance n]]
 title:: "$x^{n} - 1 = (x - 1) \times \sum\limits_{k=0}^{n-1}x^{k}$"
 #maths/analyse 

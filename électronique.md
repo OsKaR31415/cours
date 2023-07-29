@@ -1,4 +1,4 @@
-up::[[MOC science]] 
+up::[[science]] 
 title::
 #science 
 

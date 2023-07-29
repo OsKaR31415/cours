@@ -6,7 +6,7 @@ propriétés d'un semi groupe
 ??
 une loi de composition **interne**
 et **associative**
-<!--SR:!2024-05-13,326,192!2023-07-17,25,272-->
+<!--SR:!2024-05-13,326,192!2023-10-24,98,292-->
 
 propriétés d'un groupe
 ??
@@ -64,7 +64,7 @@ $\mathcal{E}$ est un [[espace affine]] ssi :
      - [[relation de chasles]]
  - $\forall O \in \mathcal{E}, \quad \forall v \in E, \quad \exists!A \in E, \quad \overrightarrow{OA} = \vec{v}$
      - pour toute translation, il existe une image unique pour chaque point
-<!--SR:!2023-06-27,5,213-->
+<!--SR:!2023-06-29,1,193-->
 
 
 espace affine engendré par La famille de points $(\mathcal{A}_{i})$
@@ -117,7 +117,7 @@ Un $\mathbb{R}$-[[espace vectoriel]], muni d'une [[forme bilinéaire]] $\varphi$
  - [[forme bilinéaire symétrique|symétrique]] : $\varphi(x, y) = \varphi(y, x)$
  - [[forme bilinéaire définie|définie]] : $\varphi(x, x) = 0 \iff x = \vec{0}$
  - [[forme bilinéaire positive|positive]] : $\varphi(x, x) \geq 0$
-<!--SR:!2023-06-25,3,282!2023-06-25,3,282-->
+<!--SR:!2023-07-05,9,282!2023-09-10,54,302-->
 
 # Applications
 
@@ -144,54 +144,54 @@ Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] où $\mathbf{K}$ admet une [[valeu
      - la [[réciproque (logique)|réciproque]] est vraie aussi
  - absolue [[application homogène|homogénéité]] : $\forall (\lambda, x) \in K \times E, \quad \mathcal{N}(\lambda x) = |\lambda|\mathcal{N}(x)$
  - [[inégalité triangulaire]] ([[application sous-additive]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
-<!--SR:!2023-06-26,3,262!2023-06-25,3,282-->
+<!--SR:!2023-07-03,7,262!2023-07-06,10,282-->
 
 
 Soit $b$ une forme bilinéaire de matrice $B$,
 exprimer $b(x, y)$ sous forme matricielle
 ?
 $b(x, y) = \,^T\!x \cdot B \cdot y$
-<!--SR:!2023-06-26,4,302-->
+<!--SR:!2023-07-15,19,322-->
 
 Définition d'un produit scalaire
 ??
 [[forme bilinéaire]] [[forme bilinéaire symétrique|symétrique]] [[forme bilinéaire définie|définie]] [[forme bilinéaire positive|positive]]
-<!--SR:!2023-06-26,3,262!2023-06-25,3,282-->
+<!--SR:!2023-07-04,8,262!2023-10-18,92,322-->
 
 ### Endomorphismes
 
 Définition d'un endomorphisme
 ??
 [[morphisme]] d'un [[espace vectoriel]] dans lui-même
-<!--SR:!2023-06-27,4,282!2023-06-26,3,262-->
+<!--SR:!2023-10-05,79,302!2023-07-03,7,262-->
 
 endomorphisme symétrique
 ??
 $\langle \varphi(u), v \rangle = \langle u, \varphi(v) \rangle$
 Sur $\mathbb{R}$, cela est équivalent à dire que la matrice de l'endomorphisme est symétrique
-<!--SR:!2023-06-26,3,262-->
+<!--SR:!2023-07-04,8,262!2023-06-29,3,284-->
 
 endomorphisme adjoint d'un endomorphisme $f$
 ??
 $f^{*}$ tel que $\langle f^{*}(u), v \rangle = \langle u, f(v) \rangle$
-<!--SR:!2023-06-25,3,282!2023-06-25,3,282-->
+<!--SR:!2023-07-14,18,302!2023-07-11,15,302-->
 
 matrice adjointe de $A$
 ??
 Notée $A^{*}$
 Sur, $\mathbb{C}$, la **transconjuguée** : $A^{*} = \,^T \,\overline{A}$
-<!--SR:!2023-06-27,4,282!2023-06-26,3,283-->
+<!--SR:!2023-07-19,21,302!2023-07-06,10,303-->
 
 endomorphisme normal
 ??
 endomorphisme $f$ tel que $f$ commute avec son [[endomorphisme adjoint|adjoint]]:
 $f \circ f^{*} = f^{*} \circ f$
-<!--SR:!2023-06-26,3,262!2023-06-27,4,303-->
+<!--SR:!2023-07-05,9,262!2023-07-12,14,303-->
 
 spectre d'un endomorphisme linéaire
 ??
 ensemble des valeurs propres d'un endomorphisme
-<!--SR:!2023-06-24,1,242!2023-06-24,1,263-->
+<!--SR:!2023-07-01,5,242!2023-07-07,11,283-->
 
 
 
@@ -208,7 +208,7 @@ ensemble des valeurs propres d'un endomorphisme
 
 
 Matrice de rotation en 2D (angle $\theta$) ::: $\large\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$
-<!--SR:!2023-06-25,3,184!2023-06-25,170,304-->
+<!--SR:!2023-06-29,1,164!2024-11-30,521,304-->
 
 Matrice de symétrie en 2D (angle $\theta$) ::: $\large \begin{pmatrix}\cos \theta & \sin \theta \\ \sin \theta & -\cos \theta\end{pmatrix}$
 <!--SR:!2023-07-04,12,230!2023-12-21,230,270-->
@@ -222,7 +222,7 @@ espace affine engendré par une famille de points $\mathcal{A}$
 ?
 plus petit espace affine contenant tous les points de $\mathcal{A}$
 C'est l'intersection de tous les espaces affines contenant $\mathcal{A}$
-<!--SR:!2023-06-28,6,273-->
+<!--SR:!2023-07-15,17,273-->
 
 
 valeur propre d'une matrice $M$

@@ -1,4 +1,4 @@
-up::[[MOC trigonométrie]] 
+up::[[trigonométrie]] 
 title:: "$\displaystyle \frac{\sin \alpha}{a} = \frac{\sin \beta}{b} = \frac{\sin \gamma}{c}$"
 #maths/géométrie 
 

@@ -4,7 +4,7 @@ sr-interval: 192
 sr-ease: 295
 alias: [ "permuter" ]
 ---
-up::[[MOC algèbre]]
+up::[[algèbre]]
 #maths/algèbre 
 
 ----

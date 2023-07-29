@@ -1,6 +1,6 @@
 up::[[axiomatique]]
 title::""
-#maths #logique
+#maths #maths/logique
 
 ---
 

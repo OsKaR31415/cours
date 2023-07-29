@@ -1,3 +1,6 @@
+---
+alias: [ "breadcrumbs" ]
+---
 up::[[obsidian plugins]]
 #obsidian #PKM 
 

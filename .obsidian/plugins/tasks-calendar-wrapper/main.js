@@ -36230,22 +36230,18 @@ var ObsidianBridge = class extends React6.Component {
   }
   handleCompleteTask(path, position) {
     this.app.workspace.openLinkText("", path).then(() => {
-      var _a, _b, _c, _d, _e, _f;
+      var _a, _b, _c, _d, _e, _f, _g;
       const file = this.app.workspace.getActiveFile();
       this.app.workspace.getLeaf().openFile(file, { state: { mode: "source" } });
       (_b = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor) == null ? void 0 : _b.setSelection(
         { line: position.start.line, ch: position.start.col },
         { line: position.end.line, ch: position.end.col }
       );
-      const task = (_d = (_c = this.app.workspace.activeEditor) == null ? void 0 : _c.editor) == null ? void 0 : _d.getSelection();
-      if (!task)
-        return;
-      const match = task.match(TaskRegularExpressions.taskRegex);
-      if (!match || match.length < 5)
-        return;
-      const newTask = [match[1], match[2], match[3] === " " ? "[x]" : "[ ]", match[4]].join(" ").trimStart();
-      (_f = (_e = this.app.workspace.activeEditor) == null ? void 0 : _e.editor) == null ? void 0 : _f.replaceSelection(newTask);
-      this.onUpdateTasks();
+      if (!((_d = (_c = this.app.workspace.activeEditor) == null ? void 0 : _c.editor) == null ? void 0 : _d.hasFocus()))
+        (_f = (_e = this.app.workspace.activeEditor) == null ? void 0 : _e.editor) == null ? void 0 : _f.focus();
+      const editor = (_g = this.app.workspace.activeEditor) == null ? void 0 : _g.editor;
+      const view = this.app.workspace.getLeaf().view;
+      this.app.commands.commands["obsidian-tasks-plugin:toggle-done"].editorCheckCallback(false, editor, view);
     });
   }
   render() {
@@ -36645,7 +36641,7 @@ var TasksCalendarWrapper = class extends import_obsidian6.Plugin {
         return view;
       }
     );
-    this.activateView(TIMELINE_VIEW);
+    this.app.workspace.onLayoutReady(async () => await this.activateView(TIMELINE_VIEW));
     this.addCommand({
       id: "open-tasks-timeline-view",
       name: "Open Tasks Timeline View",

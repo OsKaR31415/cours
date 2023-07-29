@@ -1,4 +1,7 @@
-p::[[terminal commandes]]
+---
+alias: [ "unix commandes", "commandes terminal", "utilitaires ligne de commande" ]
+---
+up::[[unix]]
 title::"commandes du shell unix"
 #informatique/unix
 

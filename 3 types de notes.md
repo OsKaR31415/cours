@@ -1,4 +1,4 @@
-up::[[note taking]]
+up::[[prise de notes]]
 title:: "idées : idées à noter, projets", "apprentissage : notions intéressantes, prise de notes, choses à aprendre", "todo : choses à faire"
 #PKM 
 

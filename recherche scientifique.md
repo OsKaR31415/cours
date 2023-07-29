@@ -1,0 +1,3 @@
+up:: [[science]]
+#science 
+

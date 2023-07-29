@@ -1,7 +1,7 @@
 ---
 alias: [ "atomic notes" ]
 ---
-up:: [[note taking]]
+up:: [[prise de notes]]
 title:: "faciles à [[retrouver des notes|retrouver]]", "faciles à [[notes reliées|relier]]", "plus logiques"
 #pkm
 
@@ -19,3 +19,5 @@ title:: "faciles à [[retrouver des notes|retrouver]]", "faciles à [[notes reli
 > - plus faciles à [[notes reliées]]
 > - plus logiques
 
+
+Une technique qui permet de mieux découper les notes est la prise de note [[prise de notes au fil de la pensée avec breadcrumbs]] 

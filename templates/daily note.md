@@ -1,17 +1,10 @@
 ---
-spaced_repetition: 1
+spaced_repetition: 0
 kung_fu: 0
 ---
 ## Todo
 - spaced repetition : `INPUT[toggle(onValue(1), offValue(0)):spaced_repetition]`
 - kung-fu : `INPUT[number:kung_fu]` minutes
-
-```dataview
-TABLE this.spaced_repetition
-FROM "daily"
-WHERE file.name = this.file.name
-```
-
 
 ## I did
 

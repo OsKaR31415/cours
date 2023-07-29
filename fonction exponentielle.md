@@ -1,4 +1,4 @@
-up:: [[MOC analyse|analyse]]
+up:: [[analyse|analyse]]
 title:: "$e^{x}$ ou $\exp(x)$"
 #maths/analyse #not-done 
 

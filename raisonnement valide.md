@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ----
 Un raisonnement est dit _valide_ ssi sa conclusion est la conséquence logique de ses prémisses.

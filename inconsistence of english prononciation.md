@@ -1,5 +1,8 @@
-up:: [[MOC anglais]]
-title:: "incositences in the prononciation of english"
+---
+alias: [ "english prononciation inconsistences" ]
+---
+up:: [[anglais]]
+title:: "inconsitences in the prononciation of english"
 #anglais 
 
 ---
@@ -18,3 +21,4 @@ title:: "incositences in the prononciation of english"
  - tough
  - though 
  - through
+

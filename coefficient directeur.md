@@ -1,5 +1,5 @@
-up::[[MOC analyse]]
-#maths/analysev
+up::[[analyse]]
+#maths/analyse
 
 ---
 Soit $f$ une [[fonction affine]] (dont la courbe représentative $\mathscr C_f$ est une droite non verticale).

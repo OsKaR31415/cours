@@ -15,3 +15,12 @@ It's a bit hard to search for the history of an art that is a bit secret by natu
 Thought you may be interested 
 
 
+- akaroa (near christchurch)
+    - town where there are french people
+    - street names are in french
+
+
+- top song of the month 
+    - january 1984 : Owner of a lonely heart
+    - october 1993 : I would do anything for you
+

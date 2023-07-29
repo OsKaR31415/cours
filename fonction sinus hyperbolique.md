@@ -4,7 +4,7 @@ sr-due: 2022-09-01
 sr-interval: 13
 sr-ease: 279
 ---
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[trigonométrie]], [[fonctions]]
 sibling::[[fonction cosinus hyperbolique|ch]]
 properties::[[fonction impaire|impaire]], [[bijection|bijective]]
 derivative::[[fonction cosinus hyperbolique|ch]]

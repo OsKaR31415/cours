@@ -1,4 +1,4 @@
-#logique
+#maths/logique
 
 ----
 Un _jugement_ est une affirmation à laquelle on peut attribuer une valeur de vérité ($\mathbb{V}$ ou $\mathbb{F}$)

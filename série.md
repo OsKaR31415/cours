@@ -1,4 +1,4 @@
-up:: [[MOC analyse|analyse]]
+up:: [[analyse|analyse]]
 title:: "$\sum\limits$"
 #maths/analyse 
 

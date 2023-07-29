@@ -1,6 +1,6 @@
 up::
 title::
-#maths #logique 
+#maths #maths/logique 
 
 ---
 Méthode pour résoudre certains problèmes.

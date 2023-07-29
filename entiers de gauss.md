@@ -1,4 +1,4 @@
-up::[[MOC algèbre|algèbre]]
+up::[[algèbre|algèbre]]
 author::[[Carl Friedrich Gauss]]
 title::"$\mathbb{Z}[i] = \{ m+in \mid (m, n) \in \mathbb{Z}^{2} \} \subset \mathbb{C}$"
 #maths

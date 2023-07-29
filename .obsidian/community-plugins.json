@@ -53,12 +53,13 @@
   "customizable-page-header-buttons",
   "sync-graph-settings",
   "calendar",
-  "obsidian-relation-pane",
   "koncham-workspace",
   "heatmap-calendar",
   "tasks-calendar-wrapper",
   "postfix",
   "obsidian-hover-editor",
   "cycle-in-sidebar",
-  "metaedit"
+  "metaedit",
+  "3d-graph",
+  "obsidian-jupyter"
 ]

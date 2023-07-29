@@ -1,8 +1,8 @@
-
+next:: [[valise nouvelle zellande]]
 
 # A faire
-- [ ] #task remettre dans la valise : ordi+sacoche, pochette magie, carde bleue, airpods, doc martens ⏳ 2023-06-27
-- [ ] #task ajouter desloratadine et ordonnace ⏳ 2023-06-28
+- [ ] #task remettre dans la valise : ordi+sacoche+alim , pochette magie, carde bleue, airpods, doc martens ⏳ 2023-06-29
+- [x] #task ajouter desloratadine et ordonnace ⏳ 2023-06-28
 - [ ] #task donner papiers (passeport...) à elena ⏳ 2023-07-02
 - [ ] #task récupérer papiers (passeport...) de éléna ⏳ 2023-08-28
 - [ ] #task mettre des masques de la valise dans le sac ⏳ 2023-08-28

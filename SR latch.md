@@ -1,8 +1,6 @@
 up:: [[Logique séquentielle]] 
 title:: "Set-Reset memory"
-#science #logique 
-
----
+#science #maths/logique 
 
 S and R should really be swapped in the name, since R comes first in the schematics. It should be named the R-S latch.
 

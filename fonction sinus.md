@@ -1,7 +1,7 @@
 ---
 alias: ["sin", "sinus"]
 ---
-up::[[MOC trigonométrie]], [[MOC fonctions]]
+up::[[trigonométrie]], [[fonctions]]
 sibling::[[fonction cosinus|cos]]
 down::[[fonction arcsinus]]
 properties::[[fonction impaire|impaire]]

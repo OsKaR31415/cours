@@ -51,18 +51,6 @@
     {
       "type": "tag",
       "name": "",
-      "value": "maths",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "43c6-2230",
-      "selectText": false,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "",
       "value": "informatique",
       "matchCaseSensitive": false,
       "match": "exact",
