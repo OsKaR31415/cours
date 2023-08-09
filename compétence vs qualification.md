@@ -1,4 +1,5 @@
-up::
+up:: [[compétence]], [[qualification]]
+source:: [[conférence gesticulée.Inculture]]
 #éducation #politique 
 
 ---
@@ -16,7 +17,7 @@ up::
 
 L'utilisation de **compétences** plutôt que de qualifications permet
  - de [[poser des questions sur ce qu'on a pas appris]]
+     - on ne juge plus sur les qualifications, mais sur des compétences, commen la capacité à s'adapter à l'imprévu etc.
  - de diviser : chacun a sa propre compétence 
+     - contrairement aux [[qualification|qualifications]], qui peuvent être des [[qualification#^00d369|qualification collectives]], les compétences sont uniquement individuelles
      - pas de [[importance des corps de métier|corps de métier]], donc pas de [[syndicalisme]] ou de [[militantisme]]
-
- 

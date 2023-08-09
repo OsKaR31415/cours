@@ -1217,7 +1217,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "il faut agir de façon innatendue.md",
+                    "file": "il faut agir de manière non conventionnelle.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1233,6 +1233,30 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "militantisme.méthodes d'action",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"militantisme.méthodes d'action.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "il faut agir de manière non conventionnelle",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"il faut agir de manière non conventionnelle.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":9},\"to\":{\"line\":10,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "militantisme.méthodes d'action",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"militantisme.méthodes d'action.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "il faut déranger l'ennemi en restant à l'aise",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"il faut déranger l'ennemi en restant à l'aise.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -1247,7 +1271,7 @@
                 }
               },
               {
-                "id": "422669152341e462",
+                "id": "6fbfb0685f4bdfb2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1255,6 +1279,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "conférence gesticulée",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conférence gesticulée.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":5.154471544715447}"
                     }
                   ]
                 },
@@ -1269,7 +1299,7 @@
                 }
               },
               {
-                "id": "555bb16bfdaef801",
+                "id": "debd6bdae2d6d34e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1277,19 +1307,13 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "militantisme.méthodes d'action",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"militantisme.méthodes d'action.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "conférence gesticulée.md",
+                    "file": "différences entre la nouvelle zélande et la France.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1297,7 +1321,7 @@
                 }
               },
               {
-                "id": "29025637741f5322",
+                "id": "eac4263cdcacbf7c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1311,7 +1335,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Untitled.md",
+                    "file": "génocide.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1319,7 +1343,7 @@
                 }
               },
               {
-                "id": "3395e755a9ac12c2",
+                "id": "3f060ab00b876f2e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1333,7 +1357,95 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "fausse dichotomie.md",
+                    "file": "étapes d'un génocide.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4f2675d12f7ee8ef",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "extermination de masse.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0fbe554526026265",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "compétence vs qualification.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "58398da6ea9d7cce",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "conférence gesticulée.Inculture.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "14530f586ef44290",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "qalc.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1341,7 +1453,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 10
           }
         ],
         "direction": "vertical"
@@ -1491,7 +1603,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "fausse dichotomie.md",
+                    "file": "qalc.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1512,7 +1624,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "fausse dichotomie.md",
+                    "file": "qalc.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1523,8 +1635,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1555,9 +1666,9 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "fausse dichotomie.md",
+                    "file": "qalc.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
@@ -1636,23 +1747,6 @@
                 }
               },
               {
-                "id": "0677c3600b66a0f5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "tasks_timeline_view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "8d8d223c8b48a4c7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1724,9 +1818,25 @@
                   "type": "QUICKSHARE_SIDE_VIEW",
                   "state": {}
                 }
+              },
+              {
+                "id": "0776594bb7e990a9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {}
+                }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "3b58d11fec2fca87",
@@ -1776,10 +1886,11 @@
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "3d-graph:3D Graph": false,
           "random-note:Open random note": false,
-          "breadcrumbs:Breadcrumbs Visualisation": false
+          "breadcrumbs:Breadcrumbs Visualisation": false,
+          "templater-obsidian:Templater": false
         }
       },
-      "active": "3395e755a9ac12c2",
+      "active": "14530f586ef44290",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -1800,11 +1911,11 @@
         "type": "split",
         "children": [
           {
-            "id": "e2184ca1870fd79a",
+            "id": "6420607d187f986d",
             "type": "tabs",
             "children": [
               {
-                "id": "a83b77a9cab36e1b",
+                "id": "cb120f5fefc90209",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1812,177 +1923,49 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "2023-06-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":8.62478595890411}"
-                    },
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-24",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2023-06-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-26",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-30",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-06-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "politique.valeur.travail",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"politique.valeur.travail.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "blog/posts/autres/apprentissage et motivation.md",
+                    "file": "quarto extension nutshell.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
-              }
-            ]
-          },
-          {
-            "id": "ffa00346ff1f305a",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "4d6205177cb16ecd",
+                "id": "c8e265894522dd1f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "apprentissage",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blog/posts/autres/apprentissage.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0.13622291021671826}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "blog/posts/autres/qualification contre compétence.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7e6e0c2ec2f17812",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1994,13 +1977,280 @@
                   ]
                 },
                 "state": {
-                  "type": "surfing-view",
+                  "type": "markdown",
                   "state": {
-                    "url": "http://localhost:6257/posts/autres/apprentissage%20et%20motivation.html"
+                    "file": "blog/posts/autres/texte étirable.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b1f45dd82401dab4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "MOC arithmétique",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"MOC arithmétique.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "conférence gesticulée.Inculture",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conférence gesticulée.Inculture.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.09966024915062288}"
+                    },
+                    {
+                      "title": "compétence vs qualification",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"compétence vs qualification.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":27},\"to\":{\"line\":14,\"ch\":27}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "compétence vs qualification.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2eb96faf0f936b4f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "qualification.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c394be6d7b087f98",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "compétence.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8723fbe840ab4431",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "obsidian sequence shortcuts.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "abe8659a1b0bf898",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/obsidian sequence shortcuts 2023-08-09 00.19.57.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "431c3fba058dd1e6",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "Sidney Liebrand's blog - Recruiters who call during working hours",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/Sidney Liebrand's blog - Recruiters who call during working hours.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "prise de notes.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2a9253c7985f441e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "heatmaps",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"heatmaps.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2023-08-08",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-08-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-08-08",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "2023-08-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2023-08-06.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a05876f98eb5fc59",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "2023-08-06",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-06.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-08-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "heatmaps",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"heatmaps.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}},\"scroll\":0.5649717514124294}"
+                    },
+                    {
+                      "title": "PKM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PKM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":3.218208279051207}"
+                    },
+                    {
+                      "title": "heatmaps",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"heatmaps.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2023-08-09.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -2048,7 +2298,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#pedagogie",
+                    "query": "kung fu",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2127,6 +2377,40 @@
                   "type": "surfing-tab-tree",
                   "state": {}
                 }
+              },
+              {
+                "id": "2c78bc8186d3e556",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "QUICKSHARE_SIDE_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8711edc0eb841f5f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "RSS_FEED",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 1
@@ -2151,6 +2435,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "prise de notes.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2171,6 +2456,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "prise de notes.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2186,7 +2472,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 595.5,
+        "width": 438.5,
         "collapsed": true
       },
       "right": {
@@ -2196,7 +2482,7 @@
           {
             "id": "980f845ab893296e",
             "type": "tabs",
-            "dimension": 53.888888888888886,
+            "dimension": 59,
             "children": [
               {
                 "id": "9ae2ad8ad7426276",
@@ -2213,6 +2499,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "prise de notes.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -2315,23 +2602,6 @@
                 }
               },
               {
-                "id": "d45511af0bde9bcf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
                 "id": "309f8009b1cc52b3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2349,7 +2619,7 @@
                 }
               },
               {
-                "id": "2c78bc8186d3e556",
+                "id": "d45511af0bde9bcf",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -2361,12 +2631,31 @@
                   ]
                 },
                 "state": {
-                  "type": "QUICKSHARE_SIDE_VIEW",
+                  "type": "advanced-tables-toolbar",
                   "state": {}
                 }
               },
               {
-                "id": "09677e63d88d3248",
+                "id": "e8e83f68ba3e5595",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "prise de notes.md"
+                  }
+                }
+              },
+              {
+                "id": "dd22ae74119d154d",
                 "type": "leaf",
                 "state": {
                   "type": "tasks_timeline_view",
@@ -2374,12 +2663,12 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 8
           },
           {
             "id": "3b58d11fec2fca87",
             "type": "tabs",
-            "dimension": 46.111111111111114,
+            "dimension": 41,
             "children": [
               {
                 "id": "e3daddeed64a3c86",
@@ -2402,11 +2691,11 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 318.5
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": false,
           "obsidian-spaced-repetition:Review flashcards": false,
           "zk-prefixer:Create new unique note": false,
           "graph:Open graph view": true,
@@ -2419,16 +2708,15 @@
           "obsidian-custom-frames:Open Detexify": false,
           "obsidian-custom-frames:Open compteur NDLI": false,
           "switcher:Open quick switcher": false,
-          "3d-graph:3D Graph": false,
           "random-note:Open random note": false,
-          "breadcrumbs:Breadcrumbs Visualisation": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
-          "terminal:Open terminal": false
+          "terminal:Open terminal": false,
+          "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "4d6205177cb16ecd",
+      "active": "431c3fba058dd1e6",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },
@@ -2437,7 +2725,6 @@
           "blog",
           "blog/posts",
           "blog/posts/autres",
-          "blog/posts/autres/_images",
           "blog/posts/welcome/_images",
           "images/graph",
           "sources/cours",
@@ -2446,5 +2733,5 @@
       }
     }
   },
-  "active": "perso"
+  "active": "blog"
 }

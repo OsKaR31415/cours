@@ -12,5 +12,5 @@ différence [[unix liens symboliques et physiques|lien physique]] <-> [[unix lie
      - **plusieurs fichiers**
      - un original
      - les autres sont des fichiers spéciaux qui ne contiennent qu'une référence (l'inode) du fichier original
-<!--SR:!2023-07-25,226,310-->
+<!--SR:!2025-07-07,708,310-->
 

@@ -10,6 +10,3 @@ title:: "List of concepts about a subject"
 # When ?
  - when you reach a [[mental squezze point]]
  - when you have a preconcieved idea
-
-
-

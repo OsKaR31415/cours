@@ -2,11 +2,17 @@
 spaced_repetition: 0
 kung_fu: 0
 ---
+
 ## Todo
 - spaced repetition : `INPUT[toggle(onValue(1), offValue(0)):spaced_repetition]`
 - kung-fu : `INPUT[number:kung_fu]` minutes
 
 ## I did
+> [!smallquery]- Modified files
+> ```dataview
+> LIST file.mtime
+> where file.mtime > date(this.file.name) and file.mtime < (date(this.file.name) + dur(1 day)) sort file.mtime asc
+> ```
 
 ## Devoirs
 > [!smalltodo]+ Devoirs

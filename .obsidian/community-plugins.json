@@ -54,12 +54,14 @@
   "sync-graph-settings",
   "calendar",
   "koncham-workspace",
-  "heatmap-calendar",
   "tasks-calendar-wrapper",
   "postfix",
-  "obsidian-hover-editor",
-  "cycle-in-sidebar",
   "metaedit",
-  "3d-graph",
-  "obsidian-jupyter"
+  "obsidian-jupyter",
+  "templater-obsidian",
+  "cycle-in-sidebar",
+  "rss-reader",
+  "obsidian-hover-editor",
+  "obsidian-sequence-hotkeys",
+  "heatmap-calendar"
 ]

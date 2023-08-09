@@ -6,7 +6,7 @@ _praise_ :: éloges, admiration
 <!--SR:!2023-09-16,60,210-->
 
 _overcrowded_ ::: surpeuplé, encombré
-<!--SR:!2023-07-29,230,310!2025-08-03,773,308-->
+<!--SR:!2026-04-16,991,330!2025-08-03,773,308-->
 
 _bespoke_ :: _customize according to your preferences_ ("a bespoke suit by a good tailor")
 <!--SR:!2024-04-01,332,270-->
@@ -15,7 +15,7 @@ _hurdle_ :: obstacle, difficulté, barrière
 <!--SR:!2024-04-26,365,270-->
 
 *culprit* :: *criminal*
-<!--SR:!2023-07-27,36,148-->
+<!--SR:!2023-10-22,84,168-->
 
 rehearsal ::: répétition (d'un spectacle).
 <!--SR:!2024-01-17,257,248!2024-05-04,365,268-->
@@ -54,7 +54,7 @@ to streamline :: simplifier (rendre accessible), uniformiser
 <!--SR:!2023-12-29,164,204-->
 
 to impersonate ::: imiter
-<!--SR:!2023-07-30,12,130!2023-07-20,2,184-->
+<!--SR:!2023-08-15,16,130!2023-08-12,13,184-->
 
 whereabouts ::: localisation, endroit
 <!--SR:!2024-06-06,380,284!2024-03-14,314,284-->
@@ -71,5 +71,5 @@ _to happen overnight_ :: _to happend quickly_
 <!--SR:!2024-05-04,365,310-->
 
 _to roll out_ :: déployer, implémenter, généraliser
-<!--SR:!2023-07-31,87,150-->
+<!--SR:!2023-12-14,133,150-->
 

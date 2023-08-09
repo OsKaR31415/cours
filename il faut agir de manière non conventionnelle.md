@@ -1,4 +1,8 @@
-up:: [[militantisme]]
+---
+alias: [ "actions non conventionnelles" ]
+---
+up:: [[militantisme.méthodes d'action]]
+source:: [[conférence gesticulée.Inculture 4 - le plein d'énergie]]
 #politique 
 
 Les actions innatendues ont plus d'effet que les actions conventionnelles (manifestations...).

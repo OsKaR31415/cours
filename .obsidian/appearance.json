@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Minimal",
-  "baseFontSize": 24,
+  "baseFontSize": 20.5,
   "enabledCssSnippets": [
     "pdf_darkmode",
     "query_header_title",
@@ -13,7 +13,8 @@
     "hide_excalibrain_ui",
     "breadcrumbs",
     "supercharged-links-gen",
-    "checkboxes"
+    "checkboxes",
+    "dataview"
   ],
   "interfaceFontFamily": "CMU Sans Serif,FiraCode Nerd Font",
   "textFontFamily": "CMU Sans Serif,FiraCode Nerd Font",

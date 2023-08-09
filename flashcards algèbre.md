@@ -14,7 +14,7 @@ une loi de composition **interne**
 et **associative**
 Il existe un **élément neutre**
 Tous les éléments ont un **symétrique**
-<!--SR:!2026-09-18,1184,330!2023-07-22,223,312-->
+<!--SR:!2026-09-18,1184,330!2026-04-22,997,332-->
 
 propriétés d'un monoïde
 ??
@@ -25,8 +25,8 @@ Il existe un **élément neutre**
 
 l'**ordre d'un groupe** est...
 ??
-le _nombre d'éléments_ de son ensemble sous-jacent 
-<!--SR:!2023-10-28,365,312!2023-07-08,188,292-->
+le _nombre d'éléments_ de son ensemble sous-jacent (pour un groupe)
+<!--SR:!2023-10-28,365,312!2025-03-02,581,292-->
 
 l'**ordre** d'un **élément** $a$ d'un groupe est...
 ??
@@ -64,7 +64,7 @@ $\mathcal{E}$ est un [[espace affine]] ssi :
      - [[relation de chasles]]
  - $\forall O \in \mathcal{E}, \quad \forall v \in E, \quad \exists!A \in E, \quad \overrightarrow{OA} = \vec{v}$
      - pour toute translation, il existe une image unique pour chaque point
-<!--SR:!2023-06-29,1,193-->
+<!--SR:!2023-08-31,32,193-->
 
 
 espace affine engendré par La famille de points $(\mathcal{A}_{i})$
@@ -117,7 +117,7 @@ Un $\mathbb{R}$-[[espace vectoriel]], muni d'une [[forme bilinéaire]] $\varphi$
  - [[forme bilinéaire symétrique|symétrique]] : $\varphi(x, y) = \varphi(y, x)$
  - [[forme bilinéaire définie|définie]] : $\varphi(x, x) = 0 \iff x = \vec{0}$
  - [[forme bilinéaire positive|positive]] : $\varphi(x, x) \geq 0$
-<!--SR:!2023-07-05,9,282!2023-09-10,54,302-->
+<!--SR:!2023-09-28,60,282!2023-09-10,54,302-->
 
 # Applications
 
@@ -144,54 +144,54 @@ Soit $E$ un $\mathbf{K}$-[[espace vectoriel]] où $\mathbf{K}$ admet une [[valeu
      - la [[réciproque (logique)|réciproque]] est vraie aussi
  - absolue [[application homogène|homogénéité]] : $\forall (\lambda, x) \in K \times E, \quad \mathcal{N}(\lambda x) = |\lambda|\mathcal{N}(x)$
  - [[inégalité triangulaire]] ([[application sous-additive]]) : $\forall (x, y) \in \mathbf{E}^{2}, \quad \mathcal{N}(x + y) \leq \mathcal{N}(x)+\mathcal{N}(y)$
-<!--SR:!2023-07-03,7,262!2023-07-06,10,282-->
+<!--SR:!2023-09-22,54,262!2023-09-29,61,282-->
 
 
 Soit $b$ une forme bilinéaire de matrice $B$,
 exprimer $b(x, y)$ sous forme matricielle
 ?
 $b(x, y) = \,^T\!x \cdot B \cdot y$
-<!--SR:!2023-07-15,19,322-->
+<!--SR:!2023-12-28,151,342-->
 
 Définition d'un produit scalaire
 ??
 [[forme bilinéaire]] [[forme bilinéaire symétrique|symétrique]] [[forme bilinéaire définie|définie]] [[forme bilinéaire positive|positive]]
-<!--SR:!2023-07-04,8,262!2023-10-18,92,322-->
+<!--SR:!2023-12-01,124,282!2023-10-18,92,322-->
 
 ### Endomorphismes
 
 Définition d'un endomorphisme
 ??
 [[morphisme]] d'un [[espace vectoriel]] dans lui-même
-<!--SR:!2023-10-05,79,302!2023-07-03,7,262-->
+<!--SR:!2023-10-05,79,302!2023-12-02,125,282-->
 
 endomorphisme symétrique
 ??
 $\langle \varphi(u), v \rangle = \langle u, \varphi(v) \rangle$
 Sur $\mathbb{R}$, cela est équivalent à dire que la matrice de l'endomorphisme est symétrique
-<!--SR:!2023-07-04,8,262!2023-06-29,3,284-->
+<!--SR:!2023-09-23,55,262!2023-09-21,53,284-->
 
 endomorphisme adjoint d'un endomorphisme $f$
 ??
 $f^{*}$ tel que $\langle f^{*}(u), v \rangle = \langle u, f(v) \rangle$
-<!--SR:!2023-07-14,18,302!2023-07-11,15,302-->
+<!--SR:!2023-12-20,143,322!2023-12-18,141,322-->
 
 matrice adjointe de $A$
 ??
 Notée $A^{*}$
 Sur, $\mathbb{C}$, la **transconjuguée** : $A^{*} = \,^T \,\overline{A}$
-<!--SR:!2023-07-19,21,302!2023-07-06,10,303-->
+<!--SR:!2023-10-17,79,302!2023-10-04,66,303-->
 
 endomorphisme normal
 ??
 endomorphisme $f$ tel que $f$ commute avec son [[endomorphisme adjoint|adjoint]]:
 $f \circ f^{*} = f^{*} \circ f$
-<!--SR:!2023-07-05,9,262!2023-07-12,14,303-->
+<!--SR:!2023-12-03,126,282!2023-10-08,70,303-->
 
 spectre d'un endomorphisme linéaire
 ??
 ensemble des valeurs propres d'un endomorphisme
-<!--SR:!2023-07-01,5,242!2023-07-07,11,283-->
+<!--SR:!2023-11-23,116,262!2023-10-02,64,283-->
 
 
 
@@ -208,10 +208,10 @@ ensemble des valeurs propres d'un endomorphisme
 
 
 Matrice de rotation en 2D (angle $\theta$) ::: $\large\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$
-<!--SR:!2023-06-29,1,164!2024-11-30,521,304-->
+<!--SR:!2023-08-26,27,164!2024-11-30,521,304-->
 
 Matrice de symétrie en 2D (angle $\theta$) ::: $\large \begin{pmatrix}\cos \theta & \sin \theta \\ \sin \theta & -\cos \theta\end{pmatrix}$
-<!--SR:!2023-07-04,12,230!2023-12-21,230,270-->
+<!--SR:!2023-08-04,1,190!2023-12-21,230,270-->
 
 [[direction d'un espace affine]] ::: Ensemble des vecteurs formés par deux points d'un [[espace affine]] 
 <!--SR:!2025-05-13,691,313!2023-08-23,62,233-->
@@ -222,7 +222,7 @@ espace affine engendré par une famille de points $\mathcal{A}$
 ?
 plus petit espace affine contenant tous les points de $\mathcal{A}$
 C'est l'intersection de tous les espaces affines contenant $\mathcal{A}$
-<!--SR:!2023-07-15,17,273-->
+<!--SR:!2023-08-13,10,253-->
 
 
 valeur propre d'une matrice $M$
@@ -284,7 +284,7 @@ Matrice $M$ telle que $^TM = M^{-1}$
 [[matrice symétrique]] 
 ??
 Matrice $M$ telle que $M = \,^T M$
-<!--SR:!2025-05-21,699,332!2023-07-10,151,313-->
+<!--SR:!2025-05-21,699,332!2025-08-08,740,333-->
 
 [[matrice antisymétrique]] 
 ??

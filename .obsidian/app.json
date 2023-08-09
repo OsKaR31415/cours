@@ -36,5 +36,8 @@
   "communityPluginSortOrder": "download",
   "newLinkFormat": "shortest",
   "autoPairBrackets": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "spellcheckDictionary": [
+    "zettelkasten"
+  ]
 }

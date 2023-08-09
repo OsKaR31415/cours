@@ -25,9 +25,21 @@
   "jugglLayout": "hierarchy",
   "limitWriteBCCheckboxes": [
     "up",
+    "sibling",
+    "down",
     "next",
     "prev",
-    "author"
+    "author",
+    "source",
+    "same_author",
+    "same_source",
+    "wrote",
+    "excerpt",
+    "includes",
+    "supports",
+    "supported_by",
+    "refutes",
+    "refuted_by"
   ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
   "gridDefaultDepth": 25,
@@ -58,7 +70,7 @@
   "showBCsInEditLPMode": true,
   "showRefreshNotice": false,
   "showImpliedRelations": true,
-  "showTrail": true,
+  "showTrail": false,
   "showGrid": true,
   "showJuggl": false,
   "showPrevNext": true,
@@ -72,7 +84,8 @@
   ],
   "limitTrailCheckboxes": [
     "up",
-    "author"
+    "author",
+    "supports"
   ],
   "limitJumpToFirstFields": [
     "up",
@@ -80,9 +93,13 @@
     "down",
     "next",
     "prev",
-    "author",
     "same_author",
-    "wrote"
+    "extercept",
+    "includes",
+    "supports",
+    "supported_by",
+    "refutes",
+    "refuted_by"
   ],
   "showAll": "All",
   "noPathMessage": "",
@@ -121,16 +138,35 @@
     },
     {
       "up": [
-        "author"
+        "author",
+        "source"
       ],
       "same": [
-        "same_author"
+        "same_author",
+        "same_source"
       ],
       "down": [
-        "wrote"
+        "wrote",
+        "excerpt",
+        "includes"
       ],
       "next": [],
       "prev": []
+    },
+    {
+      "up": [
+        "supports"
+      ],
+      "same": [],
+      "down": [
+        "supported_by"
+      ],
+      "next": [
+        "refutes"
+      ],
+      "prev": [
+        "refuted_by"
+      ]
     }
   ],
   "writeBCsInline": true,

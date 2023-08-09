@@ -1,7 +1,7 @@
 ---
 alias: ['démocratisation de la culture', 'ascension sociale par la culture']
 ---
-up:: [[culture]], [[mythe.ascention sociale]]
+up:: [[culture]], [[mythe de l'ascention sociale]]
 sibling:: [[égalité des chances]]
 
 Idée que cultiver le [[prolétariat]] lui permettra une [[ascension sociale]]

@@ -13,5 +13,3 @@ Mythe qui fait croire que la **réussite** est due au **mérite** de chacun.
 >     - réfuté car tous les grandes richesses sont dues à des [[héritage]]
 > - 
 
-
-

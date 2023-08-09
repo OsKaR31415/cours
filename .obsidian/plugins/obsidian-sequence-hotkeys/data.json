@@ -1,3 +1,67 @@
 {
-  "hotkeys": []
+  "hotkeys": [
+    {
+      "command": "mrj-jump-to-link:activate-lightspeed-jump",
+      "chords": [
+        "Slash",
+        "KeyS"
+      ]
+    },
+    {
+      "command": "mrj-jump-to-link:activate-jump-to-anywhere",
+      "chords": [
+        "Slash",
+        "KeyF"
+      ]
+    },
+    {
+      "command": "mrj-jump-to-link:activate-jump-to-link",
+      "chords": [
+        "Slash",
+        "KeyK"
+      ]
+    },
+    {
+      "command": "obsidian-markmind:Create New MindMap",
+      "chords": [
+        "C-KeyN",
+        "Semicolon"
+      ]
+    },
+    {
+      "command": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab",
+      "chords": [
+        "C-KeyN",
+        "S-KeyE"
+      ]
+    },
+    {
+      "command": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "chords": [
+        "C-KeyN",
+        "KeyE"
+      ]
+    },
+    {
+      "command": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "chords": [
+        "C-KeyN",
+        "C-KeyE"
+      ]
+    },
+    {
+      "command": "breadcrumbs:new-file-with-curr-as-down",
+      "chords": [
+        "C-KeyN",
+        "KeyD"
+      ]
+    },
+    {
+      "command": "breadcrumbs:new-file-with-curr-as-author",
+      "chords": [
+        "C-KeyN",
+        "KeyQ"
+      ]
+    }
+  ]
 }

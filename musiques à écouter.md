@@ -12,4 +12,9 @@ title::
  - pomme
      - 1996
      - when ICU
-
+- christine and the queens
+    - album : La vita nova
+- Harold Lopez-nussa
+    - album : El viaje 
+- bill withers
+    - still bill

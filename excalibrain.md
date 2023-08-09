@@ -12,19 +12,37 @@ tags: [excalidraw]
 ---
 
 # Text Elements
-cathédrale de chartres 2023-06-30 19.03.52.excali... ^oWArBQPM
+apprentissage et motivation ^253tKeil
 
-1 ^ASRNEpxw
+1 ^uQsvNrV7
 
-cathédrale de chartres ^TG4dptJY
+3 ^ldQ4K62U
 
-1 ^joGTcBU5
+📎 apprentissage.png ^ZJosFyw1
 
-1 ^AiV7TpDQ
+1 ^5wFsY1Hx
 
-[[Excalidraw/cathédrale de chartres 2023-06-30 19.03.52.excalidraw.md]] ^UKfH6wYu
+2023-07-23 ^Uu1Iliex
 
-[[cathédrale de chartres.md]] ^MuKsK4IO
+1 ^hPkxnkQv
+
+📎 apprentissage_et_motivation_methode_feynman.png ^zabSuSDu
+
+1 ^dcg3R7z6
+
+📎 biais_cout_irrecuperable.png ^EMFf6KUV
+
+1 ^M6S9E3I4
+
+[[apprentissage]] ^YkJTexQo
+
+[[blog/posts/autres/_images/apprentissage.png]] ^bhMWQmYo
+
+[[daily/2023-07-23.md]] ^TFktvq4m
+
+[[blog/posts/autres/_images/apprentissage_et_motivation_methode_feynman.png]] ^zib74lVU
+
+[[blog/posts/autres/_images/biais_cout_irrecuperable.png]] ^5Hc3kvla
 
 %%
 # Drawing
@@ -41,32 +59,32 @@ cathédrale de chartres ^TG4dptJY
 					0
 				],
 				[
-					-28.245930810898887,
-					256.0964393521499
+					-1285.71147950458,
+					268.7265755695619
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
-				"elementId": "JvTx5rkf",
-				"focus": -1.3788945484311769e-16,
+				"elementId": "DXO3unnQ",
+				"focus": -1.7310591222157402e-16,
 				"gap": 4
 			},
 			"endBinding": {
-				"elementId": "6rWr8Rid",
-				"focus": -1.3788945484311769e-16,
+				"elementId": "WrlyBTOV",
+				"focus": -7.703213093860043e-15,
 				"gap": 4
 			},
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"id": "DM08flr5",
+			"id": "1rGjkyQ6",
 			"type": "arrow",
-			"x": 14.122965405449444,
-			"y": -373.04821967607495,
-			"width": 28.245930810898887,
-			"height": 256.0964393521499,
+			"x": 7.169216314789896,
+			"y": -29.363287784780947,
+			"width": 1285.71147950458,
+			"height": 268.7265755695619,
 			"angle": 0,
 			"strokeColor": "#1c5e0f7f",
-			"backgroundColor": "#ffffffff",
+			"backgroundColor": "transparent",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "dashed",
@@ -75,10 +93,10 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 66061,
+			"seed": 72284,
 			"version": 1,
-			"versionNonce": 683219899,
-			"updated": 1690541927410,
+			"versionNonce": 823918902,
+			"updated": 1691097807180,
 			"isDeleted": false,
 			"groupIds": [],
 			"boundElements": [],
@@ -86,11 +104,164 @@ cathédrale de chartres ^TG4dptJY
 			"locked": false
 		},
 		{
-			"id": "UKfH6wYu",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1225.7438293574864,
+					268.5754475051111
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "DXO3unnQ",
+				"focus": 6.341993077748888e-16,
+				"gap": 4
+			},
+			"endBinding": {
+				"elementId": "aUGTAMno",
+				"focus": -3.3521963410958404e-15,
+				"gap": 4
+			},
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"id": "K6NVZygr",
+			"type": "arrow",
+			"x": 22.814608758756734,
+			"y": -29.28772375255553,
+			"width": 1225.7438293574864,
+			"height": 268.5754475051111,
+			"angle": 0,
+			"strokeColor": "#1c5e0f7f",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 21169,
+			"version": 1,
+			"versionNonce": 95768569,
+			"updated": 1691097807180,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-28.245930810898887,
+					256.0964393521499
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "DXO3unnQ",
+				"focus": -1.3788945484311769e-16,
+				"gap": 4
+			},
+			"endBinding": {
+				"elementId": "ylXprTDE",
+				"focus": -1.3788945484311769e-16,
+				"gap": 4
+			},
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"id": "0YkjdFHc",
+			"type": "arrow",
+			"x": 14.122965405449444,
+			"y": -23.04821967607495,
+			"width": 28.245930810898887,
+			"height": 256.0964393521499,
+			"angle": 0,
+			"strokeColor": "#1c5e0f7f",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 50771,
+			"version": 1,
+			"versionNonce": 149052351,
+			"updated": 1691097807180,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-28.245930810898887,
+					256.0964393521499
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "cx6Ec8Bd",
+				"focus": -1.3788945484311769e-16,
+				"gap": 4
+			},
+			"endBinding": {
+				"elementId": "v2kSXU2T",
+				"focus": -1.3788945484311769e-16,
+				"gap": 4
+			},
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"id": "yfsXf2Kz",
+			"type": "arrow",
+			"x": 14.122965405449444,
+			"y": -373.04821967607495,
+			"width": 28.245930810898887,
+			"height": 256.0964393521499,
+			"angle": 0,
+			"strokeColor": "#1c5e0f7f",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 85801,
+			"version": 1,
+			"versionNonce": 667471568,
+			"updated": 1691097807180,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "YkJTexQo",
 			"type": "rectangle",
-			"x": -542,
+			"x": -292.5,
 			"y": -105,
-			"width": 1084,
+			"width": 585,
 			"height": 70,
 			"angle": 0,
 			"strokeColor": "#000000ff",
@@ -103,67 +274,67 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 6953,
+			"seed": 38358,
 			"version": 2,
-			"versionNonce": 1656659404,
-			"updated": 1690541927414,
+			"versionNonce": 445173474,
+			"updated": 1691097807192,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [
 				{
 					"type": "text",
-					"id": "oWArBQPM"
+					"id": "253tKeil"
 				}
 			],
-			"link": "[[Excalidraw/cathédrale de chartres 2023-06-30 19.03.52.excalidraw.md]]",
+			"link": "[[blog/posts/autres/apprentissage et motivation.md]]",
 			"locked": false
 		},
 		{
-			"text": "cathédrale de chartres 2023-06-30 19.03.52.excali...",
+			"text": "apprentissage et motivation",
 			"fontSize": 50,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 43,
-			"id": "oWArBQPM",
+			"baseline": 44,
+			"id": "253tKeil",
 			"type": "text",
-			"x": -536.962890625,
+			"x": -287.4267578125,
 			"y": -100,
-			"width": 1073.92578125,
+			"width": 574.853515625,
 			"height": 60,
 			"angle": 0,
 			"strokeColor": "#ffffffff",
 			"backgroundColor": "transparent",
 			"fillStyle": "solid",
 			"strokeWidth": 1,
-			"strokeStyle": "solid",
+			"strokeStyle": "dashed",
 			"roughness": 0,
 			"opacity": 100,
 			"roundness": {
 				"type": 3
 			},
-			"seed": 64580,
+			"seed": 27445,
 			"version": 1,
-			"versionNonce": 212239852,
-			"updated": 1690541927404,
+			"versionNonce": 788333499,
+			"updated": 1691097807173,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false,
-			"containerId": "UKfH6wYu",
-			"originalText": "cathédrale de chartres 2023-06-30 19.03.52.excali...",
-			"rawText": "cathédrale de chartres 2023-06-30 19.03.52.excali...",
+			"containerId": "YkJTexQo",
+			"originalText": "apprentissage et motivation",
+			"rawText": "apprentissage et motivation",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "HgpsUzSu",
+			"id": "w7r09KYW",
 			"type": "ellipse",
-			"x": -549.962890625,
+			"x": -300.4267578125,
 			"y": -74,
 			"width": 8,
 			"height": 8,
@@ -178,22 +349,22 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 84640,
+			"seed": 95963,
 			"version": 1,
-			"versionNonce": 681020886,
-			"updated": 1690541927405,
+			"versionNonce": 202985651,
+			"updated": 1691097807173,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "g2vjpan2",
+			"id": "Ck4JJkTU",
 			"type": "ellipse",
-			"x": 541.962890625,
+			"x": 292.4267578125,
 			"y": -74,
 			"width": 8,
 			"height": 8,
@@ -208,20 +379,20 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 21435,
+			"seed": 6603,
 			"version": 1,
-			"versionNonce": 836001313,
-			"updated": 1690541927405,
+			"versionNonce": 892866823,
+			"updated": 1691097807173,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "6rWr8Rid",
+			"id": "v2kSXU2T",
 			"type": "ellipse",
 			"x": -19,
 			"y": -113,
@@ -238,18 +409,18 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 99483,
+			"seed": 51022,
 			"version": 1,
-			"versionNonce": 913385719,
-			"updated": 1690541927405,
+			"versionNonce": 290630718,
+			"updated": 1691097807173,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [
 				{
 					"type": "arrow",
-					"id": "DM08flr5"
+					"id": "yfsXf2Kz"
 				}
 			],
 			"link": null,
@@ -262,7 +433,7 @@ cathédrale de chartres ^TG4dptJY
 			"textAlign": "left",
 			"verticalAlign": "middle",
 			"baseline": 7,
-			"id": "ASRNEpxw",
+			"id": "uQsvNrV7",
 			"type": "text",
 			"x": -7,
 			"y": -113,
@@ -279,13 +450,13 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 64432,
+			"seed": 92447,
 			"version": 1,
-			"versionNonce": 193641482,
-			"updated": 1690541927405,
+			"versionNonce": 156085432,
+			"updated": 1691097807173,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"olVbYLny"
 			],
 			"boundElements": [],
 			"link": null,
@@ -296,10 +467,168 @@ cathédrale de chartres ^TG4dptJY
 			"lineHeight": 1.2
 		},
 		{
-			"id": "axB1iP7O",
+			"id": "DXO3unnQ",
 			"type": "ellipse",
 			"x": 11,
 			"y": -35,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 20984,
+			"version": 1,
+			"versionNonce": 882869593,
+			"updated": 1691097807173,
+			"isDeleted": false,
+			"groupIds": [
+				"olVbYLny"
+			],
+			"boundElements": [
+				{
+					"type": "arrow",
+					"id": "1rGjkyQ6"
+				},
+				{
+					"type": "arrow",
+					"id": "K6NVZygr"
+				},
+				{
+					"type": "arrow",
+					"id": "0YkjdFHc"
+				}
+			],
+			"link": null,
+			"locked": false
+		},
+		{
+			"text": "3",
+			"fontSize": 8,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "middle",
+			"baseline": 7,
+			"id": "ldQ4K62U",
+			"type": "text",
+			"x": 23,
+			"y": -35,
+			"width": 4,
+			"height": 9.6,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 38802,
+			"version": 1,
+			"versionNonce": 501354933,
+			"updated": 1691097807174,
+			"isDeleted": false,
+			"groupIds": [
+				"olVbYLny"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": null,
+			"originalText": "3",
+			"rawText": "3",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "bhMWQmYo",
+			"type": "rectangle",
+			"x": -1494.873046875,
+			"y": 245,
+			"width": 447,
+			"height": 70,
+			"angle": 0,
+			"strokeColor": "#000000ff",
+			"backgroundColor": "#000000b2",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 70731,
+			"version": 2,
+			"versionNonce": 1247381566,
+			"updated": 1691097807194,
+			"isDeleted": false,
+			"groupIds": [
+				"uZuVtrD1"
+			],
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "ZJosFyw1"
+				}
+			],
+			"link": "[[blog/posts/autres/_images/apprentissage.png]]",
+			"locked": false
+		},
+		{
+			"text": "📎 apprentissage.png",
+			"fontSize": 50,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 44,
+			"id": "ZJosFyw1",
+			"type": "text",
+			"x": -1489.37841796875,
+			"y": 250,
+			"width": 436.0107421875,
+			"height": 60,
+			"angle": 0,
+			"strokeColor": "#1b9419ff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 49305,
+			"version": 1,
+			"versionNonce": 350620485,
+			"updated": 1691097807175,
+			"isDeleted": false,
+			"groupIds": [
+				"uZuVtrD1"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": "bhMWQmYo",
+			"originalText": "📎 apprentissage.png",
+			"rawText": "📎 apprentissage.png",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "MvpZj6A8",
+			"type": "ellipse",
+			"x": -1502.37841796875,
+			"y": 276,
 			"width": 8,
 			"height": 8,
 			"angle": 0,
@@ -313,24 +642,129 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 48276,
+			"seed": 7715,
 			"version": 1,
-			"versionNonce": 21767176,
-			"updated": 1690541927405,
+			"versionNonce": 156495259,
+			"updated": 1691097807175,
 			"isDeleted": false,
 			"groupIds": [
-				"YIQW5WeU"
+				"uZuVtrD1"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "MuKsK4IO",
+			"id": "WrlyBTOV",
+			"type": "ellipse",
+			"x": -1290.373046875,
+			"y": 237,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 26820,
+			"version": 1,
+			"versionNonce": 840478984,
+			"updated": 1691097807175,
+			"isDeleted": false,
+			"groupIds": [
+				"uZuVtrD1"
+			],
+			"boundElements": [
+				{
+					"type": "arrow",
+					"id": "1rGjkyQ6"
+				}
+			],
+			"link": null,
+			"locked": false
+		},
+		{
+			"text": "1",
+			"fontSize": 8,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "middle",
+			"baseline": 7,
+			"id": "5wFsY1Hx",
+			"type": "text",
+			"x": -1278.373046875,
+			"y": 237,
+			"width": 4,
+			"height": 9.6,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 43255,
+			"version": 1,
+			"versionNonce": 828097631,
+			"updated": 1691097807176,
+			"isDeleted": false,
+			"groupIds": [
+				"uZuVtrD1"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": null,
+			"originalText": "1",
+			"rawText": "1",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "p2H81BAp",
+			"type": "ellipse",
+			"x": -1260.373046875,
+			"y": 315,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 74894,
+			"version": 1,
+			"versionNonce": 414749267,
+			"updated": 1691097807176,
+			"isDeleted": false,
+			"groupIds": [
+				"uZuVtrD1"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "TFktvq4m",
 			"type": "rectangle",
-			"x": -234.5,
+			"x": -122,
 			"y": -455,
-			"width": 469,
+			"width": 244,
 			"height": 70,
 			"angle": 0,
 			"strokeColor": "#000000ff",
@@ -343,35 +777,35 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 81202,
+			"seed": 15547,
 			"version": 2,
-			"versionNonce": 610006260,
-			"updated": 1690541927415,
+			"versionNonce": 1209049762,
+			"updated": 1691097807196,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [
 				{
 					"type": "text",
-					"id": "TG4dptJY"
+					"id": "Uu1Iliex"
 				}
 			],
-			"link": "[[cathédrale de chartres.md]]",
+			"link": "[[daily/2023-07-23.md]]",
 			"locked": false
 		},
 		{
-			"text": "cathédrale de chartres",
+			"text": "2023-07-23",
 			"fontSize": 50,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 43,
-			"id": "TG4dptJY",
+			"baseline": 44,
+			"id": "Uu1Iliex",
 			"type": "text",
-			"x": -229.38232421875,
+			"x": -116.6259765625,
 			"y": -450,
-			"width": 458.7646484375,
+			"width": 233.251953125,
 			"height": 60,
 			"angle": 0,
 			"strokeColor": "#1b9419ff",
@@ -384,26 +818,26 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 94796,
+			"seed": 21916,
 			"version": 1,
-			"versionNonce": 474660042,
-			"updated": 1690541927406,
+			"versionNonce": 858029380,
+			"updated": 1691097807176,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false,
-			"containerId": "MuKsK4IO",
-			"originalText": "cathédrale de chartres",
-			"rawText": "cathédrale de chartres",
+			"containerId": "TFktvq4m",
+			"originalText": "2023-07-23",
+			"rawText": "2023-07-23",
 			"lineHeight": 1.2
 		},
 		{
-			"id": "UuqSEHbE",
+			"id": "8St9L2gY",
 			"type": "ellipse",
-			"x": -242.38232421875,
+			"x": -129.6259765625,
 			"y": -424,
 			"width": 8,
 			"height": 8,
@@ -418,20 +852,20 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 50038,
+			"seed": 84533,
 			"version": 1,
-			"versionNonce": 176775435,
-			"updated": 1690541927406,
+			"versionNonce": 200881026,
+			"updated": 1691097807176,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "pVmyVUg3",
+			"id": "wW4e8CcP",
 			"type": "ellipse",
 			"x": -19,
 			"y": -463,
@@ -439,7 +873,7 @@ cathédrale de chartres ^TG4dptJY
 			"height": 8,
 			"angle": 0,
 			"strokeColor": "#ffffffff",
-			"backgroundColor": "#ffffffff",
+			"backgroundColor": "transparent",
 			"fillStyle": "solid",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
@@ -448,60 +882,20 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 82556,
+			"seed": 87352,
 			"version": 1,
-			"versionNonce": 887492670,
-			"updated": 1690541927406,
+			"versionNonce": 72425248,
+			"updated": 1691097807176,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [],
 			"link": null,
 			"locked": false
 		},
 		{
-			"text": "1",
-			"fontSize": 8,
-			"fontFamily": 4,
-			"textAlign": "left",
-			"verticalAlign": "middle",
-			"baseline": 7,
-			"id": "joGTcBU5",
-			"type": "text",
-			"x": -7,
-			"y": -463,
-			"width": 4,
-			"height": 9.6,
-			"angle": 0,
-			"strokeColor": "#ffffffff",
-			"backgroundColor": "#ffffffff",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"roundness": {
-				"type": 3
-			},
-			"seed": 56619,
-			"version": 1,
-			"versionNonce": 460535886,
-			"updated": 1690541927406,
-			"isDeleted": false,
-			"groupIds": [
-				"aBlTZoIH"
-			],
-			"boundElements": [],
-			"link": null,
-			"locked": false,
-			"containerId": null,
-			"originalText": "1",
-			"rawText": "1",
-			"lineHeight": 1.2
-		},
-		{
-			"id": "JvTx5rkf",
+			"id": "cx6Ec8Bd",
 			"type": "ellipse",
 			"x": 11,
 			"y": -385,
@@ -518,18 +912,18 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 3569,
+			"seed": 55892,
 			"version": 1,
-			"versionNonce": 778395620,
-			"updated": 1690541927406,
+			"versionNonce": 501494898,
+			"updated": 1691097807176,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [
 				{
 					"type": "arrow",
-					"id": "DM08flr5"
+					"id": "yfsXf2Kz"
 				}
 			],
 			"link": null,
@@ -542,7 +936,7 @@ cathédrale de chartres ^TG4dptJY
 			"textAlign": "left",
 			"verticalAlign": "middle",
 			"baseline": 7,
-			"id": "AiV7TpDQ",
+			"id": "hPkxnkQv",
 			"type": "text",
 			"x": 23,
 			"y": -385,
@@ -559,13 +953,13 @@ cathédrale de chartres ^TG4dptJY
 			"roundness": {
 				"type": 3
 			},
-			"seed": 12865,
+			"seed": 7133,
 			"version": 1,
-			"versionNonce": 928638701,
-			"updated": 1690541927406,
+			"versionNonce": 576201082,
+			"updated": 1691097807177,
 			"isDeleted": false,
 			"groupIds": [
-				"aBlTZoIH"
+				"n7Beycpm"
 			],
 			"boundElements": [],
 			"link": null,
@@ -574,6 +968,426 @@ cathédrale de chartres ^TG4dptJY
 			"originalText": "1",
 			"rawText": "1",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "zib74lVU",
+			"type": "rectangle",
+			"x": -610.5,
+			"y": 245,
+			"width": 1221,
+			"height": 70,
+			"angle": 0,
+			"strokeColor": "#000000ff",
+			"backgroundColor": "#000000b2",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 12655,
+			"version": 2,
+			"versionNonce": 2025443454,
+			"updated": 1691097807197,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "zabSuSDu"
+				}
+			],
+			"link": "[[blog/posts/autres/_images/apprentissage_et_motivation_methode_feynman.png]]",
+			"locked": false
+		},
+		{
+			"text": "📎 apprentissage_et_motivation_methode_feynman.png",
+			"fontSize": 50,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 44,
+			"id": "zabSuSDu",
+			"type": "text",
+			"x": -605.17578125,
+			"y": 250,
+			"width": 1210.3515625,
+			"height": 60,
+			"angle": 0,
+			"strokeColor": "#1b9419ff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 59922,
+			"version": 1,
+			"versionNonce": 6170518,
+			"updated": 1691097807178,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": "zib74lVU",
+			"originalText": "📎 apprentissage_et_motivation_methode_feynman.png",
+			"rawText": "📎 apprentissage_et_motivation_methode_feynman.png",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "sCyMnwgJ",
+			"type": "ellipse",
+			"x": -618.17578125,
+			"y": 276,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 46311,
+			"version": 1,
+			"versionNonce": 171724243,
+			"updated": 1691097807178,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "ylXprTDE",
+			"type": "ellipse",
+			"x": -19,
+			"y": 237,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 71891,
+			"version": 1,
+			"versionNonce": 463483321,
+			"updated": 1691097807178,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [
+				{
+					"type": "arrow",
+					"id": "0YkjdFHc"
+				}
+			],
+			"link": null,
+			"locked": false
+		},
+		{
+			"text": "1",
+			"fontSize": 8,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "middle",
+			"baseline": 7,
+			"id": "dcg3R7z6",
+			"type": "text",
+			"x": -7,
+			"y": 237,
+			"width": 4,
+			"height": 9.6,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 84070,
+			"version": 1,
+			"versionNonce": 61763486,
+			"updated": 1691097807179,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": null,
+			"originalText": "1",
+			"rawText": "1",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "kdeRiPig",
+			"type": "ellipse",
+			"x": 11,
+			"y": 315,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 50498,
+			"version": 1,
+			"versionNonce": 218981112,
+			"updated": 1691097807179,
+			"isDeleted": false,
+			"groupIds": [
+				"OQ12FpU0"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "5Hc3kvla",
+			"type": "rectangle",
+			"x": 923.373046875,
+			"y": 245,
+			"width": 696,
+			"height": 70,
+			"angle": 0,
+			"strokeColor": "#000000ff",
+			"backgroundColor": "#000000b2",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 90218,
+			"version": 2,
+			"versionNonce": 1692925538,
+			"updated": 1691097807199,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "EMFf6KUV"
+				}
+			],
+			"link": "[[blog/posts/autres/_images/biais_cout_irrecuperable.png]]",
+			"locked": false
+		},
+		{
+			"text": "📎 biais_cout_irrecuperable.png",
+			"fontSize": 50,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 44,
+			"id": "EMFf6KUV",
+			"type": "text",
+			"x": 928.53857421875,
+			"y": 250,
+			"width": 685.6689453125,
+			"height": 60,
+			"angle": 0,
+			"strokeColor": "#1b9419ff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 35250,
+			"version": 1,
+			"versionNonce": 368996811,
+			"updated": 1691097807179,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": "5Hc3kvla",
+			"originalText": "📎 biais_cout_irrecuperable.png",
+			"rawText": "📎 biais_cout_irrecuperable.png",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "bOXM8T7K",
+			"type": "ellipse",
+			"x": 915.53857421875,
+			"y": 276,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 10225,
+			"version": 1,
+			"versionNonce": 578053336,
+			"updated": 1691097807179,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "aUGTAMno",
+			"type": "ellipse",
+			"x": 1252.373046875,
+			"y": 237,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 54963,
+			"version": 1,
+			"versionNonce": 282511394,
+			"updated": 1691097807179,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [
+				{
+					"type": "arrow",
+					"id": "K6NVZygr"
+				}
+			],
+			"link": null,
+			"locked": false
+		},
+		{
+			"text": "1",
+			"fontSize": 8,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "middle",
+			"baseline": 7,
+			"id": "M6S9E3I4",
+			"type": "text",
+			"x": 1264.373046875,
+			"y": 237,
+			"width": 4,
+			"height": 9.6,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "#ffffffff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 35698,
+			"version": 1,
+			"versionNonce": 467120098,
+			"updated": 1691097807180,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"containerId": null,
+			"originalText": "1",
+			"rawText": "1",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "wLKCOX4Z",
+			"type": "ellipse",
+			"x": 1282.373046875,
+			"y": 315,
+			"width": 8,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#ffffffff",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 54694,
+			"version": 1,
+			"versionNonce": 848937408,
+			"updated": 1691097807180,
+			"isDeleted": false,
+			"groupIds": [
+				"yxb5KCGk"
+			],
+			"boundElements": [],
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
@@ -591,10 +1405,10 @@ cathédrale de chartres ^TG4dptJY
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 864,
-		"scrollY": 540,
+		"scrollX": 2097.362060546875,
+		"scrollY": 2798.359375,
 		"zoom": {
-			"value": 1
+			"value": 0.1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

@@ -256,14 +256,6 @@
       "key": "N"
     }
   ],
-  "quickadd:choice:573a6f23-e9eb-4111-a51a-7995c142a4f9": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "N"
-    }
-  ],
   "obsidian-minimal-settings:increase-body-font-size": [
     {
       "modifiers": [
@@ -632,6 +624,12 @@
         "Ctrl"
       ],
       "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "="
     }
   ],
   "workspace:previous-tab": [
@@ -654,6 +652,12 @@
         "Ctrl"
       ],
       "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": ","
     }
   ],
   "obsidian-minimal-settings:toggle-minimal-focus-mode": [
@@ -682,5 +686,27 @@
       "key": "="
     }
   ],
-  "workspace:goto-tab-5": []
+  "workspace:goto-tab-5": [],
+  "mrj-jump-to-link:activate-jump-to-anywhere": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": ";"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }

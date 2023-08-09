@@ -5,7 +5,8 @@
 .callout {
     /* padding: 5px; */
 }
-.callout-content > p {
+.callout-content > p,
+.callout-content > ul{
     margin-top: 0px;
     margin-bottom: 0px;
 }

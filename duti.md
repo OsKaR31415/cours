@@ -1,4 +1,5 @@
 up:: [[terminal commandes]]
+title:: Changer les applications par défaut pour ouvrir certains types de fichiers
 link:: https://github.com/moretension/duti
 #informatique 
 

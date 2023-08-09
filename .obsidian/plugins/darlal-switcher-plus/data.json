@@ -211,5 +211,57 @@
   "preserveQuickSwitcherLastInput": false,
   "shouldCloseModalOnBackspace": false,
   "maxRecentFileSuggestionsOnInit": 25,
-  "orderEditorListByAccessTime": true
+  "orderEditorListByAccessTime": true,
+  "insertLinkInEditor": {
+    "isEnabled": true,
+    "keymap": {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "i",
+      "purpose": "insert in editor"
+    },
+    "insertableEditorTypes": [
+      "markdown"
+    ],
+    "useBasenameAsAlias": true,
+    "useHeadingAsAlias": true
+  },
+  "removeDefaultTabBinding": true,
+  "navigationKeys": {
+    "nextKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "n"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "j"
+      }
+    ],
+    "prevKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "p"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "k"
+      }
+    ]
+  },
+  "closeWhenEmptyKeys": [
+    {
+      "modifiers": null,
+      "key": "Backspace"
+    }
+  ]
 }

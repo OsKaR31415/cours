@@ -2,8 +2,6 @@ up:: [[PKM|PKM]]
 title:: "my efforts shown as heatmaps"
 #pkm 
 
----
-
 ```dataviewjs
 dv.span("**Kung-fu**")
 const calendarData = {
@@ -40,6 +38,7 @@ for (let page of dv.pages('"daily"').where(p => p.kung_fu)) {
         color: "dark_purple",
     })
 }
+
 
 renderHeatmapCalendar(this.container, calendarData)
 ```

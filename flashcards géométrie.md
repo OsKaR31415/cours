@@ -7,7 +7,7 @@ Equation cartésienne d'une droite :: $ax + by +c = 0$ avec $(a, b) \in \mathbb{
 ?
 $\begin{pmatrix}-b\\ a\end{pmatrix}$
  - [!] $b$ et $a$ sont inversés
-<!--SR:!2023-07-03,7,230-->
+<!--SR:!2023-09-24,52,230-->
 
 **Vecteur orthogonal** à une droite d'équation $ax + by +c = 0$ 
 ?
@@ -20,14 +20,14 @@ simple si on sait que $\dfrac{|ax+by+c|}{\sqrt{ a^{2}+b^{2} }}$ est la distance 
 $p = -\dfrac{a}{b}$
 Logique puisque le [[vecteur directeur]] est $\begin{pmatrix}-b\\ a\end{pmatrix}$
 Simple à retrouver en mettant l'équation sous la forme $\displaystyle y = - \frac{a}{b}x - \frac{c}{b}$
-<!--SR:!2023-07-04,8,210-->
+<!--SR:!2023-08-05,2,190-->
 
 
 Distance d'un point à une droite d'équation $ax+by+c = 0$
 ?
 $\displaystyle\frac{|ax+by+c|}{\sqrt{ a^{2}+b^{2} }}$
 Soit l'expression de la droite divisée par la norme du [[vecteur directeur]] (ou du vecteur orthogonal).
-<!--SR:!2023-07-02,6,230-->
+<!--SR:!2023-08-05,2,210-->
 
 Mesure algébrique de $AB$ : $\overline{AB}$
 ?

@@ -2,14 +2,20 @@ up::[[obsidian]]
 title::"notes sur les plugins obsidian"
 #obsidian
 
-----
+> [!smallquery]+ Sous-notes de `$= dv.el("span", "[[" + dv.current().file.name + "]]")`
+> ```breadcrumbs
+> title: false
+> type: tree
+> dir: down
+> ```
 
-> [!query]
+> [!smallquery]- Sous-notes de `=this.file.link`
 > ```dataview
-> TABLE title as "description", link
-> FROM #obsidian 
-> WHERE contains(up, this.file.link)
-> SORT link="core plugin" DESC
+> LIST title
+> FROM -#cours AND -#exercice AND -"daily" AND -#excalidraw AND -#MOC
+> WHERE any(map([up, up.up, up.up.up, up.up.up.up], (x) => econtains(x, this.file.link)))
+> WHERE file != this.file
+> SORT up!=this.file.link, up.up.up.up, up.up.up, up.up, up, file.name
 > ```
 
 

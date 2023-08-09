@@ -1,5 +1,5 @@
 up:: [[éducation populaire]], [[culture]]
-title::
+author:: [[Frank Lepage]]
 #politique #éducation 
 
 ---
@@ -11,10 +11,13 @@ title::
  - démontrer que le peuple à aussi de la culture
      - à contre-pied de la discrimination [[culture légitime et illégitime|culture légitime contre illégitime]]
      - 
+
+
 > [!query]+ Sous-notes de `$= dv.el("span", "[[" + dv.current().file.name + "]]")`
 > ```breadcrumbs
 > title: false
 > type: tree
 > dir: down
 > ```
+
 

@@ -22,7 +22,7 @@
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": true,
-  "matchThemeAlways": false,
+  "matchThemeAlways": true,
   "matchThemeTrigger": true,
   "defaultMode": "normal",
   "defaultPenMode": "mobile",
@@ -198,7 +198,7 @@
             "containerId": null,
             "originalText": "!",
             "lineHeight": 1.222222222222222,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "a4aCbz4Mh-PMppX8JV9oJ",
@@ -715,7 +715,7 @@
             "containerId": "Q4ErpQiS3LYfTijFJJXvI",
             "originalText": "1",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -792,7 +792,7 @@
             "containerId": "BHmye920WZ2jDEWLaowIz",
             "originalText": "2",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -869,7 +869,7 @@
             "containerId": "PokWKlTtx5_tzvIIi28iV",
             "originalText": "3",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -946,7 +946,7 @@
             "containerId": "nEpZHn365ctuBFyG6A0V4",
             "originalText": "4",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1023,7 +1023,7 @@
             "containerId": "HuVsFAQG8e1MMAe2Ut2PM",
             "originalText": "5",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1164,7 +1164,7 @@
             "containerId": "9-UePkbN7cJqxps_cWu73",
             "originalText": "a",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1241,7 +1241,7 @@
             "containerId": "j3_U-7ANUValf77e4DY-F",
             "originalText": "z",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1318,7 +1318,7 @@
             "containerId": "fJuMKPOw1WNBRMVanZYrd",
             "originalText": "e",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1395,7 +1395,7 @@
             "containerId": "R05L4QUDOnXrpB6Ni0wMl",
             "originalText": "r",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1472,7 +1472,7 @@
             "containerId": "lL_dx3xFZ2yvOZ0Ki8vKI",
             "originalText": "t",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1613,7 +1613,7 @@
             "containerId": "apdyT_jK5KMKkUL3Pc3k0",
             "originalText": "q",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1690,7 +1690,7 @@
             "containerId": "ZHiHesg5SRuqLoTdu2_xT",
             "originalText": "s",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1767,7 +1767,7 @@
             "containerId": "Z3mGTweKExby77WXqHNm3",
             "originalText": "d",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1844,7 +1844,7 @@
             "containerId": "QOT99d48uUwrQIjx23JjV",
             "originalText": "f",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1921,7 +1921,7 @@
             "containerId": "6ANMOO0w4jRPp0rmzfZoo",
             "originalText": "g",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2062,7 +2062,7 @@
             "containerId": "VBFhEjvrdr_xqgwovUG7U",
             "originalText": "w",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2139,7 +2139,7 @@
             "containerId": "ElvnIYNzTCKiyUBZ-uJE3",
             "originalText": "x",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2216,7 +2216,7 @@
             "containerId": "N-QRlwOTJumx7aUWrvlXf",
             "originalText": "c",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2293,7 +2293,7 @@
             "containerId": "4d4REHeDSynLaH5qTnGf9",
             "originalText": "v",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2370,7 +2370,7 @@
             "containerId": "mICZLflS-EMP8pgV_BDp8",
             "originalText": "b",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2800,7 +2800,7 @@
             "containerId": "7r-SxwPsE4MqVE8FfBrvu",
             "originalText": "6",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2877,7 +2877,7 @@
             "containerId": "7qctrqnGBn9nOpn7GFWWQ",
             "originalText": "7",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -2954,7 +2954,7 @@
             "containerId": "5O_QFkGj1BNh5CXvNezCM",
             "originalText": "8",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3031,7 +3031,7 @@
             "containerId": "KKzseqTzN-eEEhmpWrIQD",
             "originalText": "9",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3108,7 +3108,7 @@
             "containerId": "oeo4fZDtEXEhI8gOdS3pf",
             "originalText": "0",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3249,7 +3249,7 @@
             "containerId": "jjANhqw_H_n_xrJBQjxhq",
             "originalText": "y",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3326,7 +3326,7 @@
             "containerId": "2xnLZK4sCC_l2mjnikHMB",
             "originalText": "u",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3403,7 +3403,7 @@
             "containerId": "CVlRZwyamde0QBT31ml2B",
             "originalText": "i",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3480,7 +3480,7 @@
             "containerId": "VSOOUc3TG-OAI5WxceGGc",
             "originalText": "o",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3557,7 +3557,7 @@
             "containerId": "-LYlJDGK5h0g5TbxRMzMV",
             "originalText": "p",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3698,7 +3698,7 @@
             "containerId": "-vo_HUFhKN3-2FbzjYVh3",
             "originalText": "h",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3775,7 +3775,7 @@
             "containerId": "Mezdl85O7jB-pNto0-EHn",
             "originalText": "j",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3852,7 +3852,7 @@
             "containerId": "Vqkw0Gk35Yscj44Wi3C6O",
             "originalText": "k",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -3929,7 +3929,7 @@
             "containerId": "-TxPWJEO8gUKxRNA3xQk0",
             "originalText": "l",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -4102,7 +4102,7 @@
             "containerId": "fHfMuWDzboFpuvmCL_mlQ",
             "originalText": "n",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -4179,7 +4179,7 @@
             "containerId": "GRvm4pmQjl0wPqPO3ztAr",
             "originalText": "m",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -36997,7 +36997,7 @@
             "containerId": null,
             "originalText": "5\n\n4\n\n3\n\n2\n\n1   \n\n0\n\n\n-1\n\n-2\n\n-3\n\n-4\n\n-5",
             "lineHeight": 1.2490706319702598,
-            "baseline": 441
+            "baseline": 442
           },
           {
             "type": "line",
@@ -37921,7 +37921,7 @@
             "containerId": null,
             "originalText": "x",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -37965,7 +37965,7 @@
             "containerId": null,
             "originalText": "y",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "l9cXGiz_dQPDMRBQfvCHl",
@@ -38213,7 +38213,7 @@
             "containerId": null,
             "originalText": "5\n\n4\n\n3\n\n2\n\n1   \n\n0\n\n\n-1\n\n-2\n\n-3\n\n-4\n\n-5",
             "lineHeight": 1.2490706319702598,
-            "baseline": 441
+            "baseline": 442
           },
           {
             "type": "line",
@@ -39137,7 +39137,7 @@
             "containerId": null,
             "originalText": "x",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -39181,7 +39181,7 @@
             "containerId": null,
             "originalText": "y",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "0F4vbpZF3RoNMKF0ahxEJ",
@@ -43094,7 +43094,7 @@
             "containerId": null,
             "originalText": "Button",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "rm6e3cVekfYLcwQRMpUqk",
@@ -43169,7 +43169,7 @@
             "containerId": null,
             "originalText": "One",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -43237,7 +43237,7 @@
             "containerId": null,
             "originalText": "Two",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -43305,7 +43305,7 @@
             "containerId": null,
             "originalText": "Three",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "eY1PDPRq73kym_ul21-cU",
@@ -43537,7 +43537,7 @@
             "containerId": null,
             "originalText": "/",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -43576,7 +43576,7 @@
             "containerId": null,
             "originalText": "/",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -43988,7 +43988,7 @@
             "containerId": null,
             "originalText": "42",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -44300,7 +44300,7 @@
             "containerId": null,
             "originalText": "Button",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -44428,7 +44428,7 @@
             "containerId": null,
             "originalText": "Button",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -44551,7 +44551,7 @@
             "containerId": null,
             "originalText": "Button",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -44838,7 +44838,7 @@
             "containerId": null,
             "originalText": "?",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "Q5vTyyEOZ8U1vQQP4JbO7",
@@ -45270,7 +45270,7 @@
             "containerId": null,
             "originalText": "Checkbox",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "N9AdINIe3jwQM7lH_-rUk",
@@ -45345,7 +45345,7 @@
             "containerId": null,
             "originalText": "Selected",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -45468,7 +45468,7 @@
             "containerId": null,
             "originalText": "Indeterminate",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -45587,7 +45587,7 @@
             "containerId": null,
             "originalText": "Disabled",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "-rdio6oGmQy0eKRMcO6DJ",
@@ -45662,7 +45662,7 @@
             "containerId": null,
             "originalText": "Disabled selected",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -45785,7 +45785,7 @@
             "containerId": null,
             "originalText": "Disabled indeterminate",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -45904,7 +45904,7 @@
             "containerId": null,
             "originalText": "Radio",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "2A-cjkYdwvJZEbni8Xa-v",
@@ -45979,7 +45979,7 @@
             "containerId": null,
             "originalText": "Selected",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "ellipse",
@@ -46083,7 +46083,7 @@
             "containerId": null,
             "originalText": "Indeterminate",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -46204,7 +46204,7 @@
             "containerId": null,
             "originalText": "Disabled",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "Cfl2EhjndTkK-2zgMVkZT",
@@ -46279,7 +46279,7 @@
             "containerId": null,
             "originalText": "Disabled selected",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "ellipse",
@@ -46383,7 +46383,7 @@
             "containerId": null,
             "originalText": "Disabled indeterminate",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -46504,7 +46504,7 @@
             "containerId": null,
             "originalText": "B",
             "lineHeight": 1.248309178743962,
-            "baseline": 23
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -51287,7 +51287,7 @@
             "containerId": null,
             "originalText": "KEY",
             "lineHeight": 1.2989276108437504,
-            "baseline": 16
+            "baseline": 17
           },
           {
             "type": "text",
@@ -51324,7 +51324,7 @@
             "containerId": null,
             "originalText": "DATA",
             "lineHeight": 1.2989276108437484,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "0fN1YgloN8QEBcG1nuLU0",
@@ -58471,7 +58471,7 @@
             "containerId": null,
             "originalText": "0",
             "lineHeight": 1.2305837462742493,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "text",
@@ -58508,7 +58508,7 @@
             "containerId": null,
             "originalText": "1",
             "lineHeight": 1.2305837462742486,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "text",
@@ -58545,7 +58545,7 @@
             "containerId": null,
             "originalText": "2",
             "lineHeight": 1.2305837462742486,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "text",
@@ -58582,7 +58582,7 @@
             "containerId": null,
             "originalText": "3",
             "lineHeight": 1.230583746274251,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "text",
@@ -58619,7 +58619,7 @@
             "containerId": null,
             "originalText": "4",
             "lineHeight": 1.2305837462742497,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "text",
@@ -58656,7 +58656,7 @@
             "containerId": null,
             "originalText": "0",
             "lineHeight": 1.2665105496217897,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -58693,7 +58693,7 @@
             "containerId": null,
             "originalText": "1",
             "lineHeight": 1.266510549621791,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -58730,7 +58730,7 @@
             "containerId": null,
             "originalText": "2",
             "lineHeight": 1.2665105496217899,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -58767,7 +58767,7 @@
             "containerId": null,
             "originalText": "3",
             "lineHeight": 1.2665105496217897,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -58804,7 +58804,7 @@
             "containerId": null,
             "originalText": "4",
             "lineHeight": 1.2665105496217892,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -59651,7 +59651,7 @@
             "containerId": null,
             "originalText": "5",
             "lineHeight": 1.2305837462742497,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "rectangle",
@@ -59958,7 +59958,7 @@
             "containerId": null,
             "originalText": "6",
             "lineHeight": 1.230583746274251,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "rectangle",
@@ -60265,7 +60265,7 @@
             "containerId": null,
             "originalText": "7",
             "lineHeight": 1.2305837462742502,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "rectangle",
@@ -60572,7 +60572,7 @@
             "containerId": null,
             "originalText": "8",
             "lineHeight": 1.23058374627425,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "rectangle",
@@ -60879,7 +60879,7 @@
             "containerId": null,
             "originalText": "9",
             "lineHeight": 1.2305837462742488,
-            "baseline": 15
+            "baseline": 16
           },
           {
             "type": "rectangle",
@@ -61051,7 +61051,7 @@
             "containerId": null,
             "originalText": "5",
             "lineHeight": 1.2665105496217908,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -61088,7 +61088,7 @@
             "containerId": null,
             "originalText": "6",
             "lineHeight": 1.2665105496217908,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -61125,7 +61125,7 @@
             "containerId": null,
             "originalText": "7",
             "lineHeight": 1.2665105496217899,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -61162,7 +61162,7 @@
             "containerId": null,
             "originalText": "8",
             "lineHeight": 1.2665105496217905,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -61199,7 +61199,7 @@
             "containerId": null,
             "originalText": "9",
             "lineHeight": 1.2665105496217908,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "v64rHLhwhoMh6YxxcvFRW",
@@ -62104,7 +62104,7 @@
             "containerId": null,
             "originalText": "0",
             "lineHeight": 1.2616375275726863,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62141,7 +62141,7 @@
             "containerId": null,
             "originalText": "1",
             "lineHeight": 1.261637527572686,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62178,7 +62178,7 @@
             "containerId": null,
             "originalText": "2",
             "lineHeight": 1.261637527572686,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62215,7 +62215,7 @@
             "containerId": null,
             "originalText": "3",
             "lineHeight": 1.2616375275726863,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62252,7 +62252,7 @@
             "containerId": null,
             "originalText": "4",
             "lineHeight": 1.2616375275726854,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "sBkTdoe-l6vBmHom_n-Qw",
@@ -62877,7 +62877,7 @@
             "containerId": null,
             "originalText": "0",
             "lineHeight": 1.2584820173988185,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62914,7 +62914,7 @@
             "containerId": null,
             "originalText": "1",
             "lineHeight": 1.2584820173988205,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62951,7 +62951,7 @@
             "containerId": null,
             "originalText": "2",
             "lineHeight": 1.25848201739882,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "text",
@@ -62988,7 +62988,7 @@
             "containerId": null,
             "originalText": "3",
             "lineHeight": 1.2584820173988185,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "JYOqs3Pw7owzXD30LNjvF",
@@ -63541,10 +63541,42 @@
         "value": 1,
         "description": "Number of line points between start and end"
       }
+    },
+    "Downloaded/Convert selected text elements to sticky notes": {
+      "Border color": {
+        "value": "#000000",
+        "description": "Any legal HTML color (#000000, rgb, color-name, etc.). Set to 'transparent' for transparent color."
+      },
+      "Background color": {
+        "value": "transparent",
+        "description": "Background color of the sticky note. Set to 'transparent' for transparent color."
+      },
+      "Background fill style": {
+        "value": "solid",
+        "description": "Fill style of the sticky note",
+        "valueset": [
+          "hachure",
+          "cross-hatch",
+          "solid"
+        ]
+      },
+      "Max sticky note width": {
+        "value": "600",
+        "description": "Maximum width of new sticky note. If text is longer, it will be wrapped",
+        "valueset": [
+          "400",
+          "600",
+          "800",
+          "1000",
+          "1200",
+          "1400",
+          "2000"
+        ]
+      }
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "1.9.3",
+  "previousRelease": "1.9.12",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",

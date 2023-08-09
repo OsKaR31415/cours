@@ -11,7 +11,7 @@ Suite de Cauchy
 ??
 Suite $(u_{n})_{n}$ telle que $\forall \varepsilon > 0, \quad \exists n \in \mathbb{N}, \quad \forall i>n, \forall j>n, \quad |u_{i}-u_{j}| < \varepsilon$
 (la différence entre deux termes tend vers $0$ en $+\infty$ : $\lim\limits_{ i,j \to +\infty } |u_{i}-u_{j}| = 0$)
-<!--SR:!2023-06-30,8,214!2023-12-19,222,254-->
+<!--SR:!2023-08-10,7,194!2023-12-19,222,254-->
 
 Suite convergente 
 ??
@@ -26,10 +26,10 @@ $\displaystyle\lim_{x \rightarrow 0} \frac{\sin x}{x} =$ :: $= 1$ (Car $\mathrm{
 
 
 $\lim\limits_{ n \to +\infty } \left( 1 + \dfrac{1}{n} \right)^{n}$ :: $e$ [[démonstration limite (1+1÷n)*n|démonstration]]
-<!--SR:!2023-07-08,12,271-->
+<!--SR:!2023-12-06,129,291-->
 
 $\displaystyle \lim\limits_{ n \to +\infty } \left( 1 + \frac{x}{n} \right)^{n}$ :: $e^{x}$ [[démonstration limite (1+1÷n)*n|démonstration]]
-<!--SR:!2023-07-09,13,271-->
+<!--SR:!2023-12-05,128,291-->
 
 
 # Séries
@@ -42,7 +42,7 @@ Critère de Cauchy
 ?
 $L = \limsup\limits_{ n \to \infty }|u_{n}|^{\frac{1}{n}}$ est fini.
 Alors le rayon de CV est $\displaystyle R = \frac{1}{L}$
-<!--SR:!2023-06-30,4,231-->
+<!--SR:!2023-08-05,2,211-->
 
 Règle d'Abel pour les séries
 ?
@@ -50,7 +50,7 @@ Si :
  - $a_{n}$ est décroissante et tend vers 0
  - $b_{n}$ a la suite de ses [[somme partielle d'une suite|sommes partielles]] bornée
 alors $\sum\limits_{n} a_{n}b_{n}$ converge
-<!--SR:!2023-07-07,11,271-->
+<!--SR:!2023-12-25,144,291-->
 
 Règle d'Abel **uniforme** pour une série
 ?
@@ -58,13 +58,13 @@ Si :
  - $a_{n}$ est décroissante, et [[série de fonctions convergence uniforme|converge uniformément]] vers 0
  - $b_{n}$ a ses [[somme partielle d'une suite|sommes partielles]] bornées
 Alors $\sum\limits_{n} \left( a_{n} \cdot b_{n} \right)$ [[série de fonctions convergence uniforme|converge uniformément]] 
-<!--SR:!2023-07-06,10,251-->
+<!--SR:!2023-10-01,59,251-->
 
 Produit de Cauchy de deux séries :
 $\displaystyle \left( \sum\limits_{i\geq 0} a_{i} \right)\cdot \left( \sum\limits_{j \geq 0} b_{i} \right) = ?$
 ?
 $\displaystyle \sum\limits_{d \geq 0} \left( x^{d} \sum\limits_{i=0}^{d} \left( a_{i} \cdot b_{d-i} \right) \right)$
-<!--SR:!2023-07-01,3,211-->
+<!--SR:!2023-08-05,2,191-->
 
 ## Séries de Fourier
 
@@ -74,7 +74,7 @@ $\displaystyle a_0 = \frac{1}{\pi }\int_{-\pi}^{\pi} f(x) \, dx$
 $\displaystyle a_n = \frac{1}{\pi }\int_{-\pi}^{\pi} f(x) \cos(nx) \, dx$
 $\displaystyle b_{n} = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin(nx) \, dx$
 $\displaystyle SF_{f}(x) = \frac{a_0}{2} + \sum\limits_{n \geq 1} \Big( a_{n}\cos(nx) + b_{n}\sin(nx) \Big)$
-<!--SR:!2023-06-29,1,232-->
+<!--SR:!2023-08-07,4,212-->
 
 Théorème de Parseval
 ??

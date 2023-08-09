@@ -22,7 +22,7 @@ $\sin(x) = \dfrac{e^{ix}-e^{-ix}}{2i}$
 Cosinus d'une somme $\cos(a+b) = ?$
 ??
 $\cos(a)\cos(b) - \sin(a)\sin(b)$
-<!--SR:!2023-07-12,19,166!2023-07-07,14,245-->
+<!--SR:!2023-09-25,53,166!2023-08-06,3,225-->
 
 Sinus d'une somme $\sin(a+b) = ?$
 ??
@@ -32,19 +32,19 @@ $\sin(a)\cos(b)+\sin(b)\cos(a)$
 Tangente d'une somme $\tan(a+b) = ?$
 ??
 $\dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
-<!--SR:!2023-07-18,25,190!2025-09-08,808,285-->
+<!--SR:!2023-10-06,64,190!2025-09-08,808,285-->
 
 Cosinus du double $\cos(2x) = ?$ ::: $\cos^2(x)-\sin^2(x)$
-<!--SR:!2023-06-30,4,238!2023-07-01,5,238-->
+<!--SR:!2023-09-20,48,238!2023-09-24,52,238-->
 
 Sinus du double $\sin(2x) = ?$ ::: $2\sin(x)\cos(x)$
-<!--SR:!2023-07-02,6,258!2023-07-06,10,258-->
+<!--SR:!2023-09-26,54,258!2023-10-03,61,258-->
 
 définition du [[fonction cosinus hyperbolique|cosinus hyperbolique]] $\mathrm{ch}(x)=?$ :: $\dfrac{e^{x}+e^{-x}}{2}$
-<!--SR:!2023-07-09,16,259-->
+<!--SR:!2023-08-06,3,239-->
 
 définition du [[fonction sinus hyperbolique|sinus hyperbolique]] $\mathrm{sh}(x)=?$ :: $\dfrac{e^{x}-e^{-x}}{2}$
-<!--SR:!2023-07-14,21,259-->
+<!--SR:!2023-10-13,75,259-->
 
 parité du [[fonction sinus hyperbolique|sinus hyperbolique]] :: [[fonction sinus hyperbolique|sh]] est [[fonction impaire|impaire]] : ![[fonction sinus hyperbolique#Graphe]]
 <!--SR:!2024-11-05,501,299-->

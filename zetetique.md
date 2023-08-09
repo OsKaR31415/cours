@@ -1,3 +1,6 @@
+---
+alias: [ "zététique", "pensée critique" ]
+---
 #science/zetetique 
 
 ---

@@ -40,13 +40,15 @@
     "leftFriends": [
       "j",
       "jump",
+      "supports",
       "voir"
     ],
     "rightFriends": [
       "cons",
       "disadvantages",
       "missing",
-      "opposes"
+      "opposes",
+      "refutes"
     ],
     "previous": [
       "Before",
@@ -180,18 +182,11 @@
     "prev": {},
     "next": {},
     "jump": {},
-    "voir": {}
+    "voir": {},
+    "supports": {},
+    "refutes": {}
   },
   "navigationHistory": [
-    "reproduction des rapports sociaux.md",
-    "prev of bulle d'air parapente inégalités culturelles.excalidraw.md",
-    "next of bulle d'air parapente inégalités culturelles.excalidraw.md",
-    "Excalidraw/bulle d'air parapente inégalités culturelles.excalidraw.md",
-    "la culture sert à reproduire les rapports sociaux.md",
-    "flashcards politique et sociologie.md",
-    "mythe.ascention sociale.md",
-    "réduction des inégalités culturelles.md",
-    "éducation nationale.md",
     "Untitled.md",
     "heatmaps.md",
     "inconsistence of english prononciation.md",
@@ -233,7 +228,16 @@
     "mathématiques.md",
     "forme quadratique.md",
     "blog/posts/autres/Untitled.md",
-    "Excalidraw/cathédrale de chartres 2023-06-30 19.03.52.excalidraw.md"
+    "Excalidraw/cathédrale de chartres 2023-06-30 19.03.52.excalidraw.md",
+    "Excalidraw/ExcaliBrain Snapshot - mythe de la méritocratie.excalidraw.md",
+    "différence entre l'éducation et l'instruction",
+    "éducation et démocratie.md",
+    "mythe de la méritocratie.md",
+    "bourgeoisie.md",
+    "mythe du self made man.md",
+    "les riches salariés paient pour les riches frodeurs.md",
+    "classes sociales.héritiers.md",
+    "blog/posts/autres/apprentissage et motivation.md"
   ],
   "allowOntologySuggester": false,
   "ontologySuggesterParentTrigger": "::p",
@@ -245,7 +249,7 @@
   "ontologySuggesterTrigger": ":::",
   "ontologySuggesterMidSentenceTrigger": "(",
   "boldFields": false,
-  "allowAutozoom": true,
+  "allowAutozoom": false,
   "allowAutofocuOnSearch": true,
   "defaultAlwaysOnTop": false,
   "embedCentralNode": false,
