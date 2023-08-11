@@ -30,7 +30,8 @@ Il existe 12 types par défaut :
 
  - note
  - abstract, summary, tldr
- - info, todo
+ - info
+ - todo
  - tip, hint, important
  - success, check, done
  - question, help, faq

@@ -4,6 +4,7 @@ title::"syntaxe de base de obsidian"
 
 ----
 
+
 # Titres 
 
 On utilise des `#` pour faire des titre
@@ -76,7 +77,7 @@ donne :
 > [!note] callouts
 > les callouts permettent faire des boîtes pour grouper visuellement du contenu.
 > Il est aussi possible de faire des boîtes pliables
-> Voir : [[obsidian callouts]]
+> Voir : [[obsidian callouts](obsidian-callouts.md)]
 
 > [!example]- Liste des callouts possibles
 > ![[obsidian callouts#Types de callouts]]

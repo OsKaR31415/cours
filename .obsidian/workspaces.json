@@ -2112,92 +2112,6 @@
                 }
               },
               {
-                "id": "431c3fba058dd1e6",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "Sidney Liebrand's blog - Recruiters who call during working hours",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/Sidney Liebrand's blog - Recruiters who call during working hours.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "prise de notes.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2a9253c7985f441e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "heatmaps",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"heatmaps.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2023-08-08",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-08-09",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-08-08",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "2023-08-09",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{}}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "daily/2023-08-06.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "a05876f98eb5fc59",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2206,6 +2120,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "2023-08-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":80},\"to\":{\"line\":6,\"ch\":80}},\"scroll\":0.458252427184466}"
                     },
                     {
                       "title": "2023-08-06",
@@ -2242,7 +2162,51 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "daily/2023-08-09.md",
+                    "file": "daily/2023-08-10.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "da2145fe9ccd55e3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "blog/posts/autres/si tout le monde saute dun pont.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "13b7416a397c1b42",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2023-08-11.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2250,7 +2214,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 10
           }
         ],
         "direction": "vertical"
@@ -2262,7 +2226,7 @@
           {
             "id": "a3e04033addcedcd",
             "type": "tabs",
-            "dimension": 56.91244239631337,
+            "dimension": 31.666666666666664,
             "children": [
               {
                 "id": "407c81c708328992",
@@ -2418,7 +2382,7 @@
           {
             "id": "d392c3e654e7953f",
             "type": "tabs",
-            "dimension": 43.08755760368663,
+            "dimension": 68.33333333333333,
             "children": [
               {
                 "id": "c7afda8b81d643de",
@@ -2435,7 +2399,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "prise de notes.md",
+                    "file": "daily/2023-08-11.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2456,7 +2420,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "prise de notes.md",
+                    "file": "daily/2023-08-11.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2499,7 +2463,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "prise de notes.md",
+                    "file": "daily/2023-08-11.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -2650,13 +2614,22 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "prise de notes.md"
+                    "file": "daily/2023-08-11.md"
                   }
                 }
               },
               {
-                "id": "dd22ae74119d154d",
+                "id": "1908c6fb93b3dff8",
                 "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
                 "state": {
                   "type": "tasks_timeline_view",
                   "state": {}
@@ -2691,7 +2664,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 318.5
+        "width": 318.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -2716,7 +2690,7 @@
           "breadcrumbs:Breadcrumbs Visualisation": false
         }
       },
-      "active": "431c3fba058dd1e6",
+      "active": "13b7416a397c1b42",
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       },

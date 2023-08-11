@@ -205,92 +205,6 @@
             }
           },
           {
-            "id": "431c3fba058dd1e6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Sidney Liebrand's blog - Recruiters who call during working hours",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sources/Sidney Liebrand's blog - Recruiters who call during working hours.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prise de notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a9253c7985f441e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "heatmaps",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"heatmaps.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2023-08-08",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2023-08-09",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2023-08-08",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}},\"scroll\":0}"
-                },
-                {
-                  "title": "2023-08-09",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2023-08-06.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a05876f98eb5fc59",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -299,6 +213,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2023-08-09",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"daily/2023-08-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":80},\"to\":{\"line\":6,\"ch\":80}},\"scroll\":0.458252427184466}"
                 },
                 {
                   "title": "2023-08-06",
@@ -335,7 +255,51 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-08-09.md",
+                "file": "daily/2023-08-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da2145fe9ccd55e3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/posts/autres/si tout le monde saute dun pont.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13b7416a397c1b42",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2023-08-11.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -343,7 +307,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -355,7 +319,7 @@
       {
         "id": "a3e04033addcedcd",
         "type": "tabs",
-        "dimension": 56.91244239631337,
+        "dimension": 31.666666666666664,
         "children": [
           {
             "id": "407c81c708328992",
@@ -511,7 +475,7 @@
       {
         "id": "d392c3e654e7953f",
         "type": "tabs",
-        "dimension": 43.08755760368663,
+        "dimension": 68.33333333333333,
         "children": [
           {
             "id": "c7afda8b81d643de",
@@ -528,7 +492,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prise de notes.md",
+                "file": "daily/2023-08-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -549,7 +513,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prise de notes.md",
+                "file": "daily/2023-08-11.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -592,7 +556,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "prise de notes.md",
+                "file": "daily/2023-08-11.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -743,13 +707,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prise de notes.md"
+                "file": "daily/2023-08-11.md"
               }
             }
           },
           {
-            "id": "dd22ae74119d154d",
+            "id": "1908c6fb93b3dff8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
@@ -784,7 +757,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -809,57 +783,57 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "431c3fba058dd1e6",
+  "active": "13b7416a397c1b42",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "informatique/python/AC/single_rotation/grid_printer.py",
-    "informatique/python/AC/single_rotation/single_rotation.py",
-    "informatique/python/AC/single_rotation",
-    "informatique/vim/conway_sequence.macro",
-    "informatique/vim",
-    "sources/Sidney Liebrand's blog - Recruiters who call during working hours.md",
-    "prise de notes.md",
-    "daily/2023-08-06.md",
-    "daily/2023-08-09.md",
-    "heatmaps.md",
-    "PKM.md",
-    "quarto extension nutshell.md",
-    "habits.md",
-    "daily/2023-08-08.md",
-    "next of 2023-08-09.md",
-    "mental squezze point.md",
-    "Map of content.md",
-    "blog/posts/autres/texte étirable.md",
-    "up of prise de notes.md",
-    "Excalidraw/prise de notes 2023-08-09 00.40.13.excalidraw.md",
-    "3 types de notes.md",
-    "obsidian sequence shortcuts.md",
-    "obsidian workflow.md",
-    "Excalidraw/obsidian sequence shortcuts 2023-08-09 00.19.57.excalidraw.md",
-    "author of obsidian sequence shortcuts.md",
-    "Excalidraw/Drawing 2023-08-09 00.21.25.excalidraw.md",
-    "compétence.md",
-    "blog/posts/autres/qualification contre compétence.md",
-    "compétence vs qualification.md",
-    "qualification.md",
-    "blog/_site/index.feed-full-staged",
-    "blog/_site/index-listing.json",
-    "blog/index-listing.json",
-    "blog/index.feed-full-staged",
+    "blog/posts/autres/_images/girouette/girouette_installée_licence_master_info.jpg",
+    "blog/posts/autres/_images/girouette/girouette_installée_abei_bienvenue.jpg",
+    "blog/posts/autres/_images/girouette/girouette_azornet.jpg",
+    "blog/posts/autres/_images/girouette/girouette_affichage_par_defaut.jpg",
+    "blog/posts/autres/_images/girouette/girouette_test.jpg",
+    "blog/posts/autres/_images/girouette",
+    "blog/mathematiques.md",
     "blog/site_libs/quarto-search/quarto-search.js",
+    "blog/site_libs/quarto-search/autocomplete.umd.js",
     "blog/site_libs/quarto-search/fuse.min.js",
+    "blog/site_libs/clipboard/clipboard.min.js",
+    "blog/site_libs/quarto-nav/quarto-nav.js",
+    "blog/site_libs/quarto-nav/headroom.min.js",
+    "blog/site_libs/quarto-listing/list.min.js",
+    "blog/site_libs/quarto-listing/quarto-listing.js",
+    "blog/site_libs/quarto-html/tippy.umd.min.js",
+    "blog/_site/posts/informatique/algo avancee/_images/demo_inverser_liste.gif",
+    "blog/posts/informatique/algo avancee/_images/demo_inverser_liste.gif",
+    "blog/_site/posts/_images/logo-reflexion.png",
+    "blog/posts/_images/logo-reflexion.png",
+    "blog/posts/_images/design-thinking.png",
+    "daily/2023-08-11.md",
+    "Excalidraw/obsidian sequence shortcuts 2023-08-09 00.19.57.excalidraw.md",
+    "blog/posts/autres/si tout le monde saute dun pont.md",
+    "blog/posts/maths/>>mathematiques.md",
+    "quarto extension nutshell.md",
+    "daily/2023-08-10.md",
+    "obsidian callouts.md",
+    "Obsidian.md",
+    "obsidian syntaxe.md",
+    "obsidian-callouts.md",
+    "qualification.md",
+    "compétence vs qualification.md",
+    "blog/posts/autres/texte étirable.md",
+    "blog/posts/autres/qualification contre compétence.md",
+    "compétence.md",
+    "quarto callouts.md",
+    "vim regex lookaround.md",
+    "vim.md",
+    "vim regex.md",
+    "obsidian sequence shortcuts.md",
+    "informatique/python/AC/single_rotation/README.md",
+    "daily/2023-08-09.md",
+    "daily/2023-08-06.md",
+    "prise de notes.md",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
-    "blog/posts/autres/_images/apprentissage.png",
-    "blog/_site/posts/autres/_images/apprentissage.png",
-    "blog/_site/posts/autres/_images/biais_cout_irrecuperable.png",
-    "blog/posts/autres/_images/biais_cout_irrecuperable.png",
-    "blog/posts/autres/_images/biais_cout_irrecuperable.png.png",
-    "blog/posts/maths/_images/virgule.png",
-    "blog/posts/maths/_images/Capture d’écran 2023-07-23 à 19.00.11.png",
-    "blog/_site/posts/maths/_images/virgule.png",
-    "blog/posts/maths/_images/Capture d’écran 2023-07-23 à 18.58.40.png",
     "Arithmétique.canvas"
   ]
 }

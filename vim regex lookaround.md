@@ -16,7 +16,7 @@ Allows to match pattern after (lookahead) or before (lookbehind) the current pat
 |            | positive | negative |
 | ---------- | -------- | -------- |
 | lookahead  |`@=`|`@!`| 
-| lookbehind |`@<`|`@<!`| 
+| lookbehind |`@<=`|`@<!`| 
 
 # Exemples 
 

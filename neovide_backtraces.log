@@ -1,0 +1,540 @@
+2023-08-09 13:34:52 - Neovide panicked with the message 'Could not setup setting notifier for debug_renderer: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:35:03 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_particle_density: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:35:17 - Neovide panicked with the message 'Could not setup setting notifier for idle: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:35:21 - Neovide panicked with the message 'Could not setup setting notifier for padding_left: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:35:33 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_particle_speed: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:35:35 - Neovide panicked with the message 'Could not setup setting notifier for padding_left: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:01 - Neovide panicked with the message 'Could not setup setting notifier for input_macos_alt_is_meta: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:02 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_opacity: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:02 - Neovide panicked with the message 'Could not setup setting notifier for idle: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:03 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_particle_density: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:04 - Neovide panicked with the message 'Could not setup setting notifier for padding_left: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:05 - Neovide panicked with the message 'Could not setup setting notifier for position_animation_length: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:10 - Neovide panicked with the message 'Could not setup setting notifier for transparency: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:36:13 - Neovide panicked with the message 'Could not setup setting notifier for underline_automatic_scaling: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:42:23 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_particle_curl: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:56:44 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_opacity: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:56:47 - Neovide panicked with the message 'Could not setup setting notifier for padding_left: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:56:49 - Neovide panicked with the message 'Could not setup setting notifier for refresh_rate_idle: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:56:57 - Neovide panicked with the message 'Could not setup setting notifier for fullscreen: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:56:59 - Neovide panicked with the message 'Could not setup setting notifier for floating_blur: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:17 - Neovide panicked with the message 'Could not setup setting notifier for cursor_vfx_particle_phase: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:19 - Neovide panicked with the message 'Could not setup setting notifier for padding_top: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:21 - Neovide panicked with the message 'Could not setup setting notifier for hide_mouse_when_typing: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:28 - Neovide panicked with the message 'Could not setup setting notifier for touch_deadzone: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:34 - Neovide panicked with the message 'Could not setup setting notifier for floating_blur_amount_x: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:35 - Neovide panicked with the message 'Could not setup setting notifier for padding_right: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 13:59:36 - Neovide panicked with the message 'Could not setup setting notifier for debug_renderer: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 14:00:32 - Neovide panicked with the message 'Could not setup setting notifier for floating_opacity: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 14:00:34 - Neovide panicked with the message 'Could not setup setting notifier for fullscreen: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+
+2023-08-09 14:00:47 - Neovide panicked with the message 'Could not setup setting notifier for transparency: Error sending request 'nvim_command''. (File: src/error_handling.rs; Line: 5, Column: 5)
+   0: __mh_execute_header
+   1: __mh_execute_header
+   2: __mh_execute_header
+   3: __mh_execute_header
+   4: __mh_execute_header
+   5: __mh_execute_header
+   6: __mh_execute_header
+   7: __mh_execute_header
+   8: __mh_execute_header
+   9: __mh_execute_header
+  10: __mh_execute_header
+  11: __mh_execute_header
+  12: __mh_execute_header
+  13: __mh_execute_header
+  14: __mh_execute_header
+  15: __pthread_deallocate
+

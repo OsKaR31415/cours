@@ -1,27 +1,6 @@
 {
   "hotkeys": [
     {
-      "command": "mrj-jump-to-link:activate-lightspeed-jump",
-      "chords": [
-        "Slash",
-        "KeyS"
-      ]
-    },
-    {
-      "command": "mrj-jump-to-link:activate-jump-to-anywhere",
-      "chords": [
-        "Slash",
-        "KeyF"
-      ]
-    },
-    {
-      "command": "mrj-jump-to-link:activate-jump-to-link",
-      "chords": [
-        "Slash",
-        "KeyK"
-      ]
-    },
-    {
       "command": "obsidian-markmind:Create New MindMap",
       "chords": [
         "C-KeyN",

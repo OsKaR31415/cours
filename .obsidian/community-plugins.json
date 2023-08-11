@@ -63,5 +63,6 @@
   "rss-reader",
   "obsidian-hover-editor",
   "obsidian-sequence-hotkeys",
-  "heatmap-calendar"
+  "heatmap-calendar",
+  "obsidian-shellcommands"
 ]
